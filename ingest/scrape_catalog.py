@@ -16,9 +16,14 @@ DATA_DIR = Path(__file__).parent / "data"
 REQUEST_DELAY_SECONDS = 2
 USER_AGENT = "nyu-course-rag research project (contact: sai.r.shettar@gmail.com)"
 
-# department slug -> bulletin URL. Start with one department (CAS Computer Science).
+# department slug -> bulletin URL. CAS has 51 "_ua" department pages total;
+# these are the ones CS students actually cross-reference (Math and Physics
+# back CS prerequisites, Data Science shares faculty and cross-lists courses).
 DEPARTMENTS = {
     "csci_ua": "https://bulletins.nyu.edu/courses/csci_ua/",
+    "math_ua": "https://bulletins.nyu.edu/courses/math_ua/",
+    "ds_ua": "https://bulletins.nyu.edu/courses/ds_ua/",
+    "phys_ua": "https://bulletins.nyu.edu/courses/phys_ua/",
 }
 
 

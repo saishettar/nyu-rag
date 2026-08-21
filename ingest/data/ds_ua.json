@@ -1,0 +1,101 @@
+[
+  {
+    "course_code": "DS-UA 100",
+    "title": "Discovering Data Science in the Age of AI",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Data science is a relatively new discipline that is radically reshaping our world. This course is a one-semester tour of data science highlights for non-majors. Specifically, the course will start with brief introductions to programming in Python, basic probability and statistics, and causal inference. We will then see examples of how these tools are applied in various real-world contexts. There is no assumed background in either math or programming. The lectures for this course will focus on covering conceptual aspects of the tools of data science and demonstrations of how data science can be used. The associated laboratory sections will focus specifically on direct application of what is being learned in lectures using Python code, with guided demonstrations by the section leader(s). Restrictions: not open to students who are enrolled in, or have completed for credit, DS-UA 111 and/or 112; not open to students who have declared: the major and minor in Data Science; the major in Computer and Data Science; or the major in Data Science and Mathematics. This course does NOT count toward the requirements of these majors and minors.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 111",
+    "title": "Principles of Data Science I",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Principles of Data Science I is the first course in a two-part sequence that introduces foundational concepts in data science, with a focus on statistical principles. In this course, students will develop programming skills in Python. Building on these programming skills, students will learn the process of both drawing conclusions from data and making predictions. Students will also explore related ethical, legal, and privacy issues. This course lays the groundwork for the next course of the sequence. Formerly titled Data Science for Everyone (the content of the course has not changed). Not open to second-semester juniors or to seniors. Restricted to students who intend to major or minor in Data Science or to major in either Computer and Data Science or Data Science and Mathematics. (All other students may enroll in DS-UA 100 , Discovering Data Science in the Age of AI.)",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 112",
+    "title": "Principles of Data Science II",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 111 AND Restriction: Academic Plan  Liberal Arts-AA.",
+    "description": "Principles of Data Science II builds upon the concepts introduced in Data\nScience I and shifts focus toward machine learning. In this course, we will\ncover the principles of machine learning in the domains of supervised\nlearning, unsupervised learning, and reinforcement learning. We will\nilluminate these principles in terms of their mathematical foundations,\ntheir implementation in code, and practical applications.\nSpecifically, we cover classical prediction and classification methods such\nas random forests or support vector machines as well as neural network\napproaches to these problems. Students will tie what they learned in this\nclass together in a capstone project that incorporates these methods.\nFinally, we aim to touch on current developments in machine learning, such\nas generative AI. Formerly titled Principles of Data Science (the content\nof the course has not changed). Only open to students who intend to major or minor in Data Science or to major in either Computer and Data Science or Data Science and Mathematics. (All other students may enroll in DS-UA 100 , Discovering Data Science in the Age of AI.)",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 200",
+    "title": "Linear Regression Models",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 112 or MATH-UA 185 .",
+    "description": "This course provides a rigorous foundation in the theory and application of linear regression. The course covers key concepts in model selection, estimation, diagnostics, and interpretation through different lenses: descriptive, predictive, and causal. Additional topics include shrinkage methods, basic time series, and logistic regression. Students will implement these methods in Python. Counts toward the minor in Data Science but not toward the major (including any of the joint majors with DS-UA).",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 201",
+    "title": "Causal Inference",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 112 and ( MATH-UA 185 or MATH-UA 334 or MA-UY 2224 ) and restricted to Majors/Minors.",
+    "description": "Causal Inference provides students with the tools for understanding causation, i.e., the relationship between cause and effect. We will start with the situation in which you are able to design and implement the data gathering process, called the experiment. We will then define causation, identify preconditions required for A to cause B, show how to design perfect experiments, and discuss how to understand threats to the validity of less-than-perfect experiments. In this course, we will cover experimental design and then turn to those careful approaches, where we will consider such approaches as quasi-experiments, regression discontinuities, differences in differences, and contemporary advanced approaches.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 202",
+    "title": "Responsible Data Science",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 112 and restricted to Majors/Minors.",
+    "description": "The first wave of data science focused on accuracy and efficiency: on what we can do with data.  The second wave is about responsibility: what we should and should not do. Accordingly, this technical course tackles the issues of ethics and responsibility in data science, including legal compliance, data quality, algorithmic fairness and diversity, transparency of data and algorithms, privacy, and data protection. An important feature of this course is its holistic treatment of the data science lifecycle, beginning with data discovery and acquisition, through data cleaning, integration, querying, analysis, and result interpretation.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 204",
+    "title": "Practical Training",
+    "department": "ds_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Provides data science students with an opportunity to apply the knowledge gained in their course work to practical problems in industry. This course is for majors and minors only.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 205",
+    "title": "Machine Learning for Climate Change",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "( DS-UA 112 , MATH-UA 185 , MATH-UA 235, MATH-UA 234, MATH-UA 334 , MATH-UA 9235 OR MATH-UA 9185 ) AND Corequisite: CSCI-UA 473 OR CSCI-UA 9473 .",
+    "description": "This course will introduce you to both modern machine learning techniques and their domain-specific application toward climate change problems. Lectures will be organized around published research papers. Unless otherwise noted, in the second half of each class, there will be a lecture that provides the necessary background needed to read the assigned paper. In the first half of the next class, we will have a group discussion on the assigned paper. Paper discussions will be complemented by coding assignments wherein students will apply machine learning techniques to climate-related data. Skills gained in the course will be applied to a final course project designed by the students.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 300",
+    "title": "Special Topics in Data Science",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 112 .",
+    "description": "Topics and prerequisites vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 301",
+    "title": "Advanced Topics in Data Science",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 112 AND ( MATH-UA 185 OR MATH-UA 334 OR MA-UY 2224 ) AND Data Science Plans Corequisite: CSCI-UA 473 .",
+    "description": "Advanced Topics in Data Science exposes students to two specialized topics within Data Science:  Examples of topics include time series, deep learning, and other advanced machine learning topics. Students will learn the theoretical underpinnings of advanced data science techniques, as well as engage in hands-on activities to build a practical toolkit.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  },
+  {
+    "course_code": "DS-UA 302",
+    "title": "Natural Language Processing",
+    "department": "ds_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 201 with a grade of C or higher.",
+    "description": "Natural Language Processing applies computational and linguistic knowledge to the processing of natural languages (English, Chinese, Spanish, Japanese). Applications include: machine translation, information extraction, information retrieval, and others. On the one hand, the class will include the modeling and representation of linguistic phenomena. On the other, it will cover methods for applying this knowledge using both manual rules and machine learning. Sample topics include: formal languages, hidden Markov models, part of speech tagging, vector-based methods, shallow and full parsing, semantic role labeling, information extraction and machine translation. Students will complete programming assignments (POS-tagging, Information Extraction, etc.) and group final projects. Note: CSCI-UA 469 (sponsor) and DS-UA 302 (non-sponsor) are cross-listed.",
+    "source_url": "https://bulletins.nyu.edu/courses/ds_ua/"
+  }
+]

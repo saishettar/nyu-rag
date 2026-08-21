@@ -1,0 +1,488 @@
+[
+  {
+    "course_code": "MATH-UA 9",
+    "title": "Algebra, Trigonometry, and Functions",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Intermediate algebra and trigonometry; algebraic,\nexponential, logarithmic, and trigonometric functions and their graphs.\n\nServes as preparation for students who do not otherwise place into Discrete\nMathematics ( MATH-UA 120 ), Calculus I ( MATH-UA 121 ), Mathematics for\nEconomics I ( MATH-UA 131 ; formerly MATH-UA 211), Linear Algebra ( MATH-UA\n140 ) and some courses in other departments (such as\nchemistry and economics).",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 120",
+    "title": "Discrete Mathematics",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 9 or minimum math SAT score of 670 or minimum ACT score of 30 or (minimum AP Calculus AB or BC score of 3) or minimum AP Precalculus score of 4 or MATH_PLCMT score of 100.",
+    "description": "A first course in discrete mathematics. Sets, algorithms, and induction. Combinatorics. Graphs and trees. Combinatorial circuits. Logic and Boolean algebra.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 121",
+    "title": "Calculus I",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 9 or minimum math SAT score of 670 or minimum ACT score of 30 or (minimum AP Calculus AB or BC score of 3) or minimum AP Precalculus score of 4 or MATH_PLCMT score of 100.",
+    "description": "Derivatives, antiderivatives, and integrals of functions of one variable. Applications include graphing,\nmaximizing, and minimizing functions. Definite integrals and the fundamental theorem of calculus. Areas and volumes.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 122",
+    "title": "Calculus II",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 121 or (minimum AP Calculus AB or BC score of 4) or MATH_PLCM2 score of 100.",
+    "description": "Techniques of integration. Further applications. Plane analytic geometry. Polar coordinates and parametric equations. Infinite series, including power series.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 123",
+    "title": "Calculus III",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 122 or AP Calculus BC score of 5 or MATH_PLCM3 score of 100.",
+    "description": "Functions of several variables. Vectors in the plane and space. Partial derivatives with applications. Double and triple integrals. Spherical and cylindrical coordinates. Surface and line integrals. Divergence, gradient, and curl. Theorem of Gauss and Stokes.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 126",
+    "title": "Introduction to Statistics and Data Analysis",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 9 or minimum math SAT score of 670 or minimum ACT score of 30 or (minimum AP Calculus AB or BC score of 3) or minimum AP Precalculus score of 4 or MATH_PLCMT score of 100.",
+    "description": "An introduction to using statistics to understand the world around us. Formulating a hypothesis and collecting data, summarizing and visualizing, probability distributions, the central limit theorem and the normal distribution, hypothesis testing, confidence intervals, p-values, the power of an experiment, t-tests and comparing data sets, linear regression, machine learning methods. Assignments will use statistical software packages to analyze data, and throughout the semester, students will evaluate the implications and responsible practices of collecting and utilizing data. No previous experience with programming is necessary.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 129",
+    "title": "Honors Calculus III",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of A- in MATH-UA 122 or AP Calculus BC score of 5 or MATH_PLCM3 score of 100.",
+    "description": "The scope of this honors class will include the usual MATH-UA 123 syllabus; however this class will move faster, covering additional topics and going deeper. Functions of several variables. Vectors in the plane and space. Partial derivatives with applications, especially Lagrange multipliers. Double and triple integrals. Spherical and cylindrical coordinates. Surface and line integrals. Divergence, gradient, and curl. Theorem of Gauss and Stokes.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 131",
+    "title": "Mathematics for Economics I",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 9 or minimum math SAT score of 670 or minimum ACT score of 30 or (minimum AP Calculus AB or BC score of 3) or minimum AP Precalculus score of 4 or MATH_PLCMT score of 100 and Not open to Tandon students.",
+    "description": "Formerly numbered MATH-UA 211; the content has not changed. Not open to Tandon students.\n\nElements of calculus and linear algebra are important to the study of\neconomics. This class is designed to provide the appropriate tools for\nstudy in the policy concentration. Examples and motivation are drawn from\nimportant topics in economics. Topics covered include derivatives of\nfunctions of one and several variables; interpretations of the derivatives;\nconvexity; constrained and unconstrained optimization.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 132",
+    "title": "Mathematics for Economics II",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 131 with a Minimum Grade of C OR MATH-UA 9131 OR Math for Economics II Plcmt Score >= 100) AND Academic Program  UY-Tandon Schl of Engineering.",
+    "description": "Formerly numbered MATH-UA 212; the content has not changed.  Matrix algebra; eigenvalues; Ordinary differential equations and stability analysis, multivariable integration and (possibly) dynamic optimization. Not open to Tandon students.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 133",
+    "title": "Mathematics for Economics III",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 132 with a Minimum Grade of C OR MATH-UA 9132 OR Math for Economics III Plcmt Score >= 100) AND Academic Program  UY-Tandon Schl of Engineering.",
+    "description": "Formerly numbered MATH-UA 213; the content has not changed. Topics include parametric curves; vector fields; line and surface integrals; Green\u2019s and Stokes's theorems; Divergence Theorems; and sequences, series, and Taylor and Maclaurin expansions. The course is designed so that students who have completed MATH-UA 131 , MATH-UA 132 and MATH-UA 133 will have completed the full set of topics in the standard Calculus I\u2013III sequence; however, as topics are not presented in the same order, students cannot take courses from both sequences and must choose one or the other. Not open to Tandon students.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 140",
+    "title": "Linear Algebra",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 9 or minimum math SAT score of 670 or minimum ACT score of 30 or (minimum AP Calculus AB or BC score of 3) or minimum AP Precalculus score of 4 or MATH_PLCMT score of 100.",
+    "description": "Systems of linear equations. Gaussian elimination, matrices, determinants, and Cramer's rule. Vectors, vector spaces, basis and dimension, linear transformations. Eigenvalues, eigenvectors, quadratic forms.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 144",
+    "title": "Introduction to Computer Simulation",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 121 or MATH-UA 132 ) and PHYS-UA 11 .",
+    "description": "Prerequisite: A grade of C or higher in Calculus I ( MATH-UA 121 ) or Math for Economics II (MATH-UA 212) (for economics majors), and General Physics ( PHYS-UA 11 ).\nSimulations of such phenomena as orbits (Kepler problem and N-body problem), epidemic and endemic disease (including evolution in response to the selective pressure of malaria), musical stringed instruments (piano, guitar, and violin), and traffic flow in a city (with lights, breakdowns, and gridlock). Simulations are based on mathematical models, numerical methods, and Matlab programming techniques taught in class. Emphasizes use of animation (and sound where appropriate) to present the results of simulations.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 148",
+    "title": "Honors Linear Algebra",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in MATH-UA 9 or minimum math SAT score of 670 or minimum ACT score of 30 or (minimum AP Calculus AB or BC score of 3) or minimum AP Precalculus score of 4 or MATH_PLCMT score of 100.",
+    "description": "This honors section of Linear Algebra is a proof-based course intended for\nwell-prepared students who have already developed some mathematical\nmaturity and ease with abstraction. Its scope will include the usual Linear\nAlgebra ( MATH-UA 140 ) syllabus; however this class will be faster, more\nabstract and proof-based, covering additional topics.\nTopics covered are: Vector spaces, linear dependence, basis and dimension,\nmatrices, determinants, solving linear equations, linear transformations,\neigenvalues and eigenvectors, diagonalization, inner products, applications.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 185",
+    "title": "Probability & Statistics",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "(Minimum grade of C in MATH-UA 122 or MATH-UA 132 , OR placement into Calc III or Math for Econ III, OR IB Math HL 7 or Further HL 6+ or AP Calc BC 5).",
+    "description": "Formerly numbered MATH-UA 235; the content has not changed. Combination of MATH-UA 333 and 334 at a more elementary level to acquaint students with both probability and statistics in a single term. In probability: mathematical treatment of chance; combinatorics; binomial, Poisson, and Gaussian distributions; law of large numbers and the normal distribution; application to coin-tossing; radioactive decay. In statistics: sampling; normal and other useful distributions; testing of hypotheses; confidence intervals; correlation and regression; applications to scientific, industrial, and financial data.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 228",
+    "title": "Fundamental Dynamics of Earth's Atmosphere and Climate",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 121 with a Minimum Grade of B- OR MATH-UA 123 with a Minimum Grade of B- OR MATH-UA 132 ).",
+    "description": "An introduction to the dynamical processes that drive the circulation of the atmosphere and ocean, and their interaction. This is the core of climate science. Lectures will be guided by consideration of observations and experiments, but the goal is to develop an understanding of the unifying principles of planetary fluid dynamics. Topics include the global energy balance, convection and radiation (the greenhouse effect), effects of planetary rotation (the Coriolis force), structure of the atmospheric circulation (the Hadley cell and wind patterns), structure of the oceanic circulation (wind-driven currents and the thermohaline circulation), climate and climate variability (including El Nino and anthropogenic warming).",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 230",
+    "title": "Introduction to Fluid Dynamics",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 123 with a Minimum Grade of C OR MATH-UA 129 OR MATH-UA 133 with a Minimum Grade of C OR PHYS-UA 106 ).",
+    "description": "Prerequisite: A grade of C or higher in Calculus III ( MATH-UA 123 ) or Math for Economics III (MATH-UA 213) (for economics majors). Recommended: Mathematical Physics ( PHYS-UA 106 ).\nFluid dynamics is the branch of physics that can describe the flow of blood in the human body, the flight of an insect, or the motions of weather systems. Key concepts include: the formalism of continuum mechanics; the conservation of mass, energy, and momentum in a fluid; the Euler and Navier-Stokes equations; and viscosity and vorticity. These concepts are applied to such classic problems in fluid dynamics as potential flow around a cylinder, the propagation of sound and gravity waves, and the onset of instability in shear flow.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 231",
+    "title": "Computability and Incompleteness",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR MATH-UA 120 ).",
+    "description": "Identical to PHIL-UA 75 . An introduction to the theory of computability and to the major limitative results of mathematical logic, including the undecidability of first-order logic, G\u00f6del's incompleteness theorems, and Tarski's theorem on the non-definability of truth.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 232",
+    "title": "Set Theory",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ).",
+    "description": "An introduction to the basic concepts and results of set theory. Identical to PHIL-UA 73 .",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 236",
+    "title": "Metalogic",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ).",
+    "description": "An introduction to the basic concepts, methods, and results of metalogic, including rigorous definitions of provability and model-theoretic consequence and the soundness and completeness theorems for first-order logic. The course may also cover further topics such as the compactness theorem, the L\u00f6wenheim-Skolem theorems, and applications of non-standard models.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 240",
+    "title": "Combinatorics",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "(Minimum grade of C in MATH-UA 122 or MATH-UA 132 , OR placement into Calc III or Math for Econ III, OR IB Math HL 7 or Further HL 6+ or AP Calc BC 5).",
+    "description": "Techniques for counting and enumeration, including generating functions, the principle of inclusion and exclusion, and Polya counting. Graph theory. Modern algorithms and data structures for graph theoretic problems.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 248",
+    "title": "Theory of Numbers",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "(Minimum grade of C in MATH-UA 122 or MATH-UA 132 , OR placement into Calc III or Math for Econ III, OR IB Math HL 7 or Further HL 6+ or AP Calc BC 5).",
+    "description": "Divisibility and prime numbers. Linear and quadratic congruences. The classical number-theoretic functions. Continued fractions. Diophantine equations.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 250",
+    "title": "Mathematics of Finance",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in MATH-UA 123 and MATH-UA 140 and MATH-UA 185 or MATH-UA 333 or MATH-UA 334 or MATH-UA 338 or ECON-UA 18 or ECON-UA 20 or STAT-UB 103 .",
+    "description": "Introduction to the mathematics of finance. Topics: linear programming with application to pricing. Interest rates and present value. Basic probability, random walks, central limit theorem, Brownian motion, log-normal model of stock prices. Black-Scholes theory of options. Dynamic programming with application to portfolio optimization.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 251",
+    "title": "Introduction to Math Modeling",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "Formulation and analysis of mathematical models. Mathematical tools include dimensional analysis, optimization, simulation, probability, and elementary differential equations. Applications to biology, economics, other areas of science. The necessary mathematical and scientific background is developed as needed. Students participate in formulating models as well as in analyzing them.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 255",
+    "title": "Mathematics and Biology",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 121 with a Minimum Grade of C OR MATH-UA 132 with a Minimum Grade of C) AND BIOL-UA 11 with a Minimum Grade of C.",
+    "description": "Intended primarily for premedical students with interest and ability in mathematics. Topics of medical importance using mathematics as a tool, including control of the heart, optimal principles in the lung, cell membranes, electrophysiology, countercurrent exchange in the kidney, acid-base balance, muscle, cardiac catheterization, and computer diagnosis. Material from the physical sciences is introduced as needed and developed within the course.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 256",
+    "title": "Computers in Medicine & Biology",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "MATH-UA 255 with a Minimum Grade of C.",
+    "description": "Introduces the student of biology or mathematics to the use of computers as tools for modeling physiological phenomena. The student constructs two computer models selected from the following list: circulation, gas exchange in the lung, control of cell volume, and the renal countercurrent mechanism. The student then uses the model to conduct simulated physiological experiments. Enrollment is not permitted for undergraduate students in the Tandon School of Engineering.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 262",
+    "title": "Ordinary Differential Equations",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "First- and second-order equations. Series solutions. Laplace transforms. Introduction to partial differential equations and Fourier series.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 263",
+    "title": "Partial Differential Equations",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 262 with a Minimum Grade of C OR MATH-UA 268 with a Minimum Grade of C OR MATH-SHU 262 OR MATH-UH 2010Q OR MATH-SHU 362 OR MA-UY 2034 OR (MA-UY 2132 and MA-UY 2012)).",
+    "description": "Many laws of physics are formulated as partial differential equations. This course discusses the simplest examples of such laws as embodied in the wave equation, the diffusion equation, and Laplace's equation. Nonlinear conservation laws and the theory of shock waves. Applications to physics, chemistry, biology, and population dynamics. Enrollment is not permitted for undergraduate students in the Tandon School of Engineering.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 264",
+    "title": "Chaos & Dynamical Systems",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "MATH-UA 122 OR MATH-UA 132 OR MATH-UA 123 OR MATH-UA 129 with a Minimum grade of C AND MATH-UA 140 OR MATH-UA 148 .",
+    "description": "Topics include fixed points of one-dimensional maps; linear operators and linear approximations; stability and bifurcation; logistic maps. Cantor set, fractal sets, symbolic dynamics, conjugacy of maps. Dynamics in two dimensions. Introduction for students with little preparation to the recent discovery that, in certain regimes, fully deterministic mechanics can produce chaotic behavior.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 268",
+    "title": "Honors Ordinary Differential Equations",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 328 with a Minimum Grade of B+ OR MATH-UA 325 with a Minimum Grade of A-).",
+    "description": "This class will develop rigorously the basic theory of Ordinary Differential Equations (ODEs). Existence and uniqueness of solutions to ODEs are first investigated, for linear and nonlinear problems, set on the real line or the complex plane. More qualitative questions are then considered, about the behavior of the solutions, with possible prolongations to various topics in Dynamical Systems theory. Applications to Physics and Biology will appear naturally when discussing examples.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 325",
+    "title": "Analysis",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "This course is an introduction to rigorous analysis on the real line. Topics include: the real number system, sequences and series of numbers, functions of a real variable (continuity and differentiability), the Riemann integral, basic topological notions in a metric space, sequences and series of functions including Taylor and Fourier series.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 328",
+    "title": "Honors Analysis I",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of A- in MATH-UA 123 or MATH-UA 133 and MATH-UA 140 or minimum grades of B+ in MATH-UA 129 and MATH-UA 148 .",
+    "description": "This is an introduction to the rigorous treatment of the foundations of real analysis in one variable. It is based entirely on proofs. Students are expected to know what a mathematical proof is and are also expected to be able to read a proof before taking this class. Topics include: properties of the real number system, sequences, continuous functions, topology of the real line, compactness, derivatives, the Riemann integral, sequences of functions, uniform convergence, infinite series and Fourier series. Additional topics may include: Lebesgue measure and integral on the real line, metric spaces, and analysis on metric spaces.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 329",
+    "title": "Honors Analysis II",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 328 with a Minimum Grade of C OR MATH-SHU 328 ) and Academic Program  UY-Tandon Schl of Engineering.",
+    "description": "Continuation of Honors Analysis I ( MATH-UA 328 ). Topics include: metric spaces, differentiation of functions of several real variables, the implicit and inverse function theorems, Riemann integral on R^n, Lebesgue measure on R^n, the Lebesgue integral. Enrollment is not permitted for undergraduate students in the Tandon School of Engineering. Prerequisites: a grade of C or better in Honors Analysis I ( MATH-UA 328 ), or a grade of A in Analysis ( MATH-UA 325 ) and permission of instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 333",
+    "title": "Theory of Probability",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "Formerly numbered MATH-UA 233; the content has not changed. Introduction to the mathematical techniques of random phenomena occurring in the natural, physical, and social sciences. Axioms of mathematical probability, combinatorial analysis, binomial distribution, Poisson and normal approximation, random variables and probability distributions, generating functions, Markov chains, applications.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 334",
+    "title": "Mathematical Statistics",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 333 with a Minimum Grade of C OR MATH-UA 338 with a Minimum Grade of C).",
+    "description": "Formerly numbered MATH-UA 234; the content has not changed.\n\nPrerequisite: a grade of C or better in Theory of Probability ( MATH-UA 333 ; formerly numbered MATH-UA 233) or equivalent. Not open to students who have taken Probability and Statistics ( MATH-UA 185 ; formerly numbered MATH-UA 235).\n\nIntroduction to the mathematical foundations and techniques of modern statistical analysis used in the interpretation of data in quantitative sciences. Mathematical theory of sampling; normal populations and distributions; chi-square, t, and F distributions; hypothesis testing; estimation; confidence intervals; sequential analysis; correlation, regression, and analysis of variance. Applications to the sciences.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 338",
+    "title": "Honors Theory of Probability",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of B+ in MATH-UA 120 and MATH-UA 123 or MATH-UA  129 or MATH-UA 133 and MATH-UA 140 or MATH-UA 148 .",
+    "description": "Formerly numbered MATH-UA 238; the content has not changed. The aim of this class is to introduce students to probability theory, with a greater emphasis on rigor, more material, and a faster pace than the Theory of Probability class. The material will include discrete and continuous probability, and the most fundamental limit theorems (law of large numbers and Central Limit Theorem).",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 343",
+    "title": "Algebra",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "Introduction to abstract algebraic structures, including groups, rings, and fields. Sets and relations. Congruences and unique factorization of integers. Groups, permutation groups, homomorphisms and quotient groups. Rings and quotient rings, Euclidean rings, polynomial rings. Fields, finite extensions.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 348",
+    "title": "Honors Algebra I",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of A- in MATH-UA 123 or MATH-UA 133 and MATH-UA 140 or minimum grades of B + in MATH-UA 129 and MATH-UA 148 .",
+    "description": "Introduction to abstract algebraic structures, including groups, rings, and fields. Sets and relations. Congruences and unique factorization of integers. Groups, permutation groups, group actions, homomorphisms and quotient groups, direct products, classification of finitely generated abelian groups, Sylow theorems. Rings, ideals and quotient rings, Euclidean rings, polynomial rings, unique factorization.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 349",
+    "title": "Honors Algebra II",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 348 with a Minimum Grade of C OR MATH-SHU 348 ).",
+    "description": "Principal ideal domains, polynomial rings in several variables, unique factorization domains. Fields, finite extensions, constructions with ruler and compass, Galois theory, solvability by radicals. Enrollment is not permitted for undergraduate students in the Tandon School of Engineering. Prerequisites: a grade of C or better in Honors Algebra I ( MATH-UA 348 ), or a grade of A in Algebra ( MATH-UA 343 ) and permission of instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 352",
+    "title": "Numerical Analysis",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "Formerly numbered MATH-UA 252; the content has not changed. In numerical analysis one explores how mathematical problems can be analyzed and solved with a computer. As such, numerical analysis has very broad applications in mathematics, physics, engineering, finance, and the life sciences. This course introduces the subject for mathematics majors. Theory and practical examples using Matlab are combined in the studying of topics ranging from simple root-finding procedures to differential equations and the finite element method.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 353",
+    "title": "Linear and Nonlinear Optimization",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "Formerly numbered MATH-UA 253; the content has not changed. Optimization is a major part of the toolbox of the applied mathematician, and more broadly of researchers in quantitative sciences including economics, data science, machine learning, and quantitative social sciences. This course provides an application-oriented introduction to linear programming and convex optimization, with a balanced combination of theory, algorithms, and numerical implementation. While no prior experience in programming is expected, the required coursework will include numerical implementations, including some programming; students will be introduced to appropriate computational tools, with which they will gain experience as they do the numerical assignments. Theoretical topics will include linear\nprogramming, convexity, duality, minimax theorems, and dynamic programming. Algorithmic topics will include the simplex method for linear programming, selected techniques for smooth multidimensional optimization (eg Newton's method and the conjugate gradient method), techniques for solving for L1-type optimizations, and stochastic gradient descent.\nApplications will be drawn from many areas, but will emphasize economics (eg two-person zero-sum games, matching and assignment problems, optimal resource allocation), data science (eg regression, convex-relaxation-based approaches to sparse inverse problems, tuning of neural networks, prediction with expert advice) and operations research (eg shortest paths in networks and optimization of network flows).",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 358",
+    "title": "Honors Numerical Analysis",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 123 or MATH-UA 133 with a grade of A- or higher or MATH-UA 129 with a grade of B+ or higher) and MATH-UA 140 Linear Algebra or MATH-UA 148 with a grade of B+ or higher).",
+    "description": "Formerly numbered MATH-UA 258; the content has not changed. Covers the analysis of numerical algorithms which are ubiquitously used to solve problems throughout mathematics, physics, engineering, finance, and the life sciences. Topics include: algorithms for solving nonlinear equations; optimization; finding eigenvalues/eigenvectors of matrices; computing matrix factorizations and performing linear regressions; function interpolation, approximation, and integration; basic signal processing using the Fast Fourier Transform; Monte Carlo simulation. An introduction to programming will be provided as it is an integral part of numerical analysis, but students should feel quite comfortable programming on their own (or be exceptionally willing to learn along the way). Programming experience is strongly recommended (e.g. Julia, Matlab, or NumPy), but not required (there is a programming component to this course).",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 375",
+    "title": "Topology",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 325 with a Minimum Grade of C OR MATH-UA 328 with a Minimum Grade of C OR MATH-SHU 201 OR MA-UY 4614 ).",
+    "description": "Metric spaces, topological spaces, compactness, connectedness. Covering spaces and homotopy groups. Enrollment is not permitted for undergraduate students in the Tandon School of Engineering",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 377",
+    "title": "Differential Geometry",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "The differential properties of curves and surfaces. Introduction to manifolds and Riemannian geometry.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 382",
+    "title": "Functions of a Complex Variable",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grades of C in ( MATH-UA 123 or MATH-UA 129 or MATH-UA 133 ) and ( MATH-UA 140 or MATH-UA 148 ).",
+    "description": "Formerly numbered MATH-UA 282; the content has not changed. \n\nComplex numbers and complex functions. Differentiation and the Cauchy-Riemann equations. Cauchy's theorem and the Cauchy integral formula. Singularities, residues, Taylor and Laurent series. Fractional linear transformations and conformal mapping. Analytic continuation.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 393",
+    "title": "Honors I",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary. May be taken twice (8 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 394",
+    "title": "Senior Honors II",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary. May be taken twice (8 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 395",
+    "title": "Special Topics",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Lecture-seminar course on advanced topics selected by the instructor. Topics and prerequisites vary yearly. Detailed course descriptions are available during preregistration. Covers topics not offered regularly: experimental courses and courses offered on student demand. May be taken up to four times (16 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 396",
+    "title": "Special Topics II",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 397",
+    "title": "Honors III",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary. May be taken twice (8 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 398",
+    "title": "Honors IV",
+    "department": "math_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester. May be taken twice (8 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 897",
+    "title": "Internship in Mathematics",
+    "department": "math_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "An internship in mathematics is an excellent complement to formal course work.\nPractical training along with their classroom experience can help students to explore\ndifferent career options and gain hands-on experience. An internship is for majors only.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 898",
+    "title": "Internship in Mathematics",
+    "department": "math_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: Restricted to declared math majors. Math major or Math joint major with Computer Science or Economics, a 3.0 Cumulative GPA and 3.5 Math Major GPA required. Students have to have completed 50% of their major. MATH-UA 897 is offered in the fall and summer session I terms. MATH-UA 898 is offered in the spring and summer session II terms. 2 or 4 points per term.\nAn internship in mathematics is an excellent complement to formal course\nwork. Practical training along with their classroom experience can help\nstudents to explore different career options and gain hands-on experience.\nAn internship is for majors only. The internship will be pass/fail.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 997",
+    "title": "Independent Study",
+    "department": "math_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 2 or 4 points per term. To register for this course, a student must complete an application form for independent study and have it approved by a faculty sponsor and the director of undergraduate studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  },
+  {
+    "course_code": "MATH-UA 998",
+    "title": "Independent Study",
+    "department": "math_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Independent study allows students the chance to engage with a topic not currently offered in the curriculum. It can also be the means towards an honors research component. Please note that for the honors major, the research component should consist of two semesters of independent studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/math_ua/"
+  }
+]

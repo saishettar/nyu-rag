@@ -1,12 +1,14 @@
 """Embed a query and return the top-k most similar courses via pgvector.
 
 Hybrid retrieval: when a query explicitly names a course (by code, e.g.
-"CSCI-UA 102", or by title, e.g. "Data Structures"), courses that list that
-course in their own prerequisites are surfaced first. Pure semantic search
-can't reliably answer "what's a good course after X" - several courses often
-share the same prerequisite, so no single one is uniquely favored by
-embedding similarity alone. Everything else still falls back to plain
-semantic search.
+"CSCI-UA 102", or by title, e.g. "Data Structures"), that course is surfaced
+first, followed by courses that list it in their own prerequisites. Pure
+semantic search can't reliably answer "what's a good course after X" -
+several courses often share the same prerequisite, so no single one is
+uniquely favored by embedding similarity alone; and naming a course by its
+exact title (e.g. "which course covers linear algebra") can otherwise bury
+the course itself under its own dependents. Everything else still falls back
+to plain semantic search.
 """
 import os
 import re
@@ -57,6 +59,29 @@ def _referenced_course_codes(query: str, conn) -> set[str]:
     return referenced
 
 
+def _courses_by_code(codes: set[str], conn) -> list[dict]:
+    """The referenced courses themselves, so naming a course (e.g. "which
+    course covers linear algebra") always surfaces that course - not just
+    what depends on it."""
+    if not codes:
+        return []
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT
+                c.course_code, c.title, c.department, c.credits,
+                c.prerequisites, c.source_url, ch.chunk_text,
+                NULL::float AS distance
+            FROM chunks ch
+            JOIN courses c ON c.id = ch.course_id
+            WHERE c.course_code = ANY(%s)
+            ORDER BY c.course_code
+            """,
+            (list(codes),),
+        )
+        return _rows_to_dicts(cur.fetchall())
+
+
 def _dependents_of(codes: set[str], conn, top_k: int) -> list[dict]:
     """Courses whose prerequisites mention any of `codes`, up to top_k."""
     if not codes:
@@ -104,13 +129,18 @@ def search(query: str, top_k: int = 5) -> list[dict]:
     conn = psycopg2.connect(os.environ["DATABASE_URL"])
     try:
         referenced = _referenced_course_codes(query, conn)
+        self_matches = _courses_by_code(referenced, conn)
         structural = _dependents_of(referenced, conn, top_k)
         semantic = _semantic_search(query, conn, top_k)
     finally:
         conn.close()
 
-    seen = {c["course_code"] for c in structural}
-    combined = structural + [c for c in semantic if c["course_code"] not in seen]
+    combined = list(self_matches)
+    seen = {c["course_code"] for c in combined}
+    for c in structural + semantic:
+        if c["course_code"] not in seen:
+            combined.append(c)
+            seen.add(c["course_code"])
     return combined[:top_k]
 
 

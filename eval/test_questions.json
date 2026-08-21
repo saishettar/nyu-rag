@@ -78,5 +78,29 @@
   {
     "question": "What course discusses the ethical and social impact of computing on society?",
     "expected_course_codes": ["CSCI-UA 1"]
+  },
+  {
+    "question": "Which course covers linear algebra?",
+    "expected_course_codes": ["MATH-UA 140"]
+  },
+  {
+    "question": "What's a good course to take after Calculus I?",
+    "expected_course_codes": ["MATH-UA 122"]
+  },
+  {
+    "question": "Which course introduces data science principles?",
+    "expected_course_codes": ["DS-UA 111"]
+  },
+  {
+    "question": "What course covers responsible or ethical data science practices?",
+    "expected_course_codes": ["DS-UA 202"]
+  },
+  {
+    "question": "Is there a course on quantum mechanics?",
+    "expected_course_codes": ["PHYS-UA 123"]
+  },
+  {
+    "question": "Which course covers general relativity?",
+    "expected_course_codes": ["PHYS-UA 170"]
   }
 ]

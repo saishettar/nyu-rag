@@ -1,0 +1,281 @@
+[
+  {
+    "course_code": "PHYS-UA 7",
+    "title": "The Universe: Its Nature and History",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Qualitative introduction to our understanding of the nature and evolution of the universe. Topics include the creation of the cosmos; its explosive evolution, present structure, and ultimate fate; the nature of stars and galaxies; the structure and evolution of our Milky Way; the birth, life, and eventual death of the solar system; our place and role in the universe; and the relationship of modern astronomical ideas to other cultural disciplines.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 11",
+    "title": "General Physics I",
+    "department": "phys_ua",
+    "credits": 5.0,
+    "prerequisites": "MATH-UA 121 OR MATH-UA 131 OR Advanced Placement Examination Calculus AB >= 4 OR Advanced Placement Examination Calculus AB Subscore >= 4 OR Advanced Placement Examination Calculus BC >= 4.",
+    "description": "With PHYS-UA 12 , forms a two-semester sequence that must be taken in order. Not open to students who have completed PHYS-UA 91 with a grade of C- or better. Intended primarily for preprofessional students and for those majoring in a science other than physics, although well-prepared students may wish to take the physics majors sequence PHYS-UA 91 , PHYS-UA 93 , PHYS-UA 94, PHYS-UA 95 , and PHYS-UA 96 instead. Topics include kinematics and dynamics of particles; momentum, work, and energy; gravitation; circular, angular, and harmonic motion; mechanical and thermal properties of solids, liquids, and gases; heat and thermodynamics.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 12",
+    "title": "General Physics II",
+    "department": "phys_ua",
+    "credits": 5.0,
+    "prerequisites": "PHYS-UA 11 with a Minimum Grade of C- OR PHYS-UA 9011 with a Minimum Grade of C-.",
+    "description": "Continuation of PHYS-UA 11 . Topics include electric charge, field, and potential; magnetic forces and fields; resistive, capacitive, and inductive circuits; electromagnetic induction; wave motion; electromagnetic waves; geometrical optics; interference, diffraction, and polarization of light; relativity; atomic and nuclear structure; elementary particle physics.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 13",
+    "title": "Observational Astronomy",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the theory and practice of technical amateur astronomy. The approach is hands-on, with weekly evening laboratory/observing sessions. Topics include astronomical coordinate systems, optics, how to use a telescope, and the phenomena that can be seen in the urban night sky. Observing sessions involve the use of eight-inch telescopes.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 15",
+    "title": "Introduction to Cosmology",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is a technical but elementary introduction to the modern\nunderstanding of cosmology, intended for non-science students. We will\ncover advances in cosmology over the last 100 years, with special emphasis\non more recent developments in the field. We will cover topics ranging from\nthe early universe to galaxy formation in the present day universe, through\nthe lens of the theory of relativity and the expanding universe. We will\ncover the Big Bang, the Cosmic Microwave Background, dark matter, dark\nenergy and the associated evidence for these phenomena. Assumes a\nhigh-school level mathematics background. This course counts to the\nastronomy minor.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 20",
+    "title": "20th Cent Concepts of Space, Time, & Matter",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The 20th century has been witness to two major revolutions in man's concepts of space, time, and matter. Einstein's special and general theories of relativity: implications of the special theory, for our understanding of the unity of space and time, and the general theory, for our understanding of the nature of gravity. Quantum mechanics: a new picture of the basic structure and interactions of atoms, molecules, and nuclei. Topics include the uncertainty principle, wave-particle duality, and the continuing search for the fundamental constituents of matter.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 71",
+    "title": "Introductory Experimental Physics I",
+    "department": "phys_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "The first of two introductory-level labaratory courses. The objectives of these courses are to introduce essential experimental techniques including set-up and operation of basic laboratory equipment, elementary experimental design, statistics and inference, and computational data analysis. Experimental techniques are introduced in the context of classic physics experiments",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 72",
+    "title": "Introductory Experimental Physics II",
+    "department": "phys_ua",
+    "credits": 2.0,
+    "prerequisites": "PHYS-UA 71 .",
+    "description": "The second of two introductory-level laboratory courses. The objectives of these courses are to introduce essential experimental techniques including set-up and operation of basic laboratory equipment, elementary experimental design, statistics and inference, and computational data analysis. Experimental techniques are introduced in the context of classic physics experiments.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 73",
+    "title": "Intermediate Experimental Physics I",
+    "department": "phys_ua",
+    "credits": 2.0,
+    "prerequisites": "PHYS-UA 72 .",
+    "description": "The first of two intermediate-level laboratory courses. The objectives of these courses are to develop further the experimental techniques introduced in PHYS-UA 71 and PHYS-UA 72 , and all in the context of more advanced experiments.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 74",
+    "title": "Intermediate Experimental Physics II",
+    "department": "phys_ua",
+    "credits": 2.0,
+    "prerequisites": "PHYS-UA 73 .",
+    "description": "The second of two intermediate-level laboratory courses. The objectives of these courses are to develop further the experimental techniques introduced in PHYS-UA 71 and PHYS-UA 72 , and all in the context of more advanced experiments.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 91",
+    "title": "Physics I",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "",
+    "description": "Begins a three-semester introduction to physics intended for physics majors and other interested science and mathematics majors. Topics include kinematics and dynamics of particles; energy and momentum; rotational kinematics and dynamics; harmonic oscillators; gravitational fields and potentials; special relativity.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 93",
+    "title": "Physics II",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 91 with a Minimum Grade of C.",
+    "description": "Continuation of PHYS-UA 91 . Topics include electrostatics; dielectrics; currents and circuits; the magnetic field and magnetic materials; induction; AC circuits; Maxwell's equations.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 95",
+    "title": "Physics III",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 93 with a Minimum Grade of C.",
+    "description": "Topics include harmonic oscillators and resonance, coupled oscillators, normal modes, and waves; mechanical vibrations, sound and light; Fourier series and Fourier transforms; reflection, refraction, interference, and diffraction of waves; polarization. This is the third semester of a three-semester calculus-based introduction to physics and is intended for physics majors and other interested students.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 106",
+    "title": "Mathematical Physics",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 95 with a Minimum Grade of C AND ( MATH-UA 123 with a Minimum Grade of C OR MATH-UA 129 ).",
+    "description": "Mathematical preparation for the junior and senior courses in physics. Vector analysis, Fourier series and integrals, ordinary differential equations, matrices, partial differential equations, and boundary-value problems.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 110",
+    "title": "Electronics for Scientists I",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHYS-UA 12 with a Minimum Grade of C OR PHYS-UA 93 with a Minimum Grade of C).",
+    "description": "Introduction to basic analog and digital electronics used in physics experiments. Concepts and devices presented in lecture are studied in the laboratory. Topics include DC and AC circuits, filters, power supplies, transistors, operational amplifiers, analog to digital converters, and digital logic.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 112",
+    "title": "Advanced Experimental Physics",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "( PHYS-UA 123 with a Minimum Grade of C AND PHYS-UA 74 with a Minimum Grade of C) OR (SCIEN-UH 1601 AND SCIEN-UH 1602 AND PHYS-UH 3012 with a Minimum Grade of C).",
+    "description": "Introduces the experiments and techniques of modern physics. Following a number of introductory experiments, students have at their option a variety of open-ended experiments they can pursue, including the use of microcomputers for data analysis. Experimental areas include Mossbauer effect, cosmic rays, magnetic resonance, and relativistic mass.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 120",
+    "title": "Dynamics",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 95 .",
+    "description": "Topics include conservation laws, central force motion, Lagrange\u2019s and Hamilton\u2019s equations, non-inertial frames, inertia tensor, rigid body dynamics, coupled oscillators and particles, eigenvalues, eigenvectors and normal modes.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 123",
+    "title": "Quantum Mechanics I",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "( PHYS-UA 120 with a Minimum Grade of C AND PHYS-UA 106 with a Minimum Grade of C).",
+    "description": "Topics include: foundational experiments; wave-particle duality; wave\nfunctions; the uncertainty principle; the time-independent Schr\u00f6dinger\nequation and its applications to one-dimensional problems and the hydrogen\natom; angular momentum; spin; Hilbert Space, operators, and observables;\ntime independent perturbation theory; atomic spectra.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 124",
+    "title": "Quantum Mechanics II",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "( PHYS-UA 123 with a Minimum Grade of C OR PHYS-UH 3012 ).",
+    "description": "Continuation of PHYS-UA 123 . Topics include the time dependent Schr\u00f6dinger equation, the Schr\u00f6dinger and Heisenberg description of quantum systems, time dependent perturbation theory, scattering theory, quantum statistics, and applications to atomic, molecular, nuclear, and elementary particle physics.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 131",
+    "title": "Electricity & Magnet I",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "( PHYS-UA 106 with a Minimum Grade of C AND PHYS-UA 95 with a Minimum Grade of C) OR (SCIEN-UH 1601 AND SCIEN-UH 1602 AND MATH-UH 1020Q with a Minimum Grade of C).",
+    "description": "Introduction to Maxwell's equations with applications to physical problems. Topics include electrostatics, magnetostatics, the solution of the Laplace and Poisson equations, dielectrics and magnetic materials, electromagnetic waves and radiation, Fresnel equations, transmission lines, wave guides, and special relativity.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 135",
+    "title": "Condensed Matter Physics",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "( PHYS-UA 120 with a Minimum Grade of C AND PHYS-UA 106 ) OR PHYS-UH 3012 .",
+    "description": "This course is designed as an introduction to condensed matter physics for students with knowledge of elementary quantum mechanics. Topics include crystal structure, lattice vibrations, and the energy band theory of metals and semiconductors. Covers the electronic, magnetic, and optical properties of solids. In addition, the course may include some modern research topics such as the physics of nanostructures, soft condensed matter physics, and superconductivity.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 136",
+    "title": "Readings in Particle Physics",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 106 with a Minimum Grade of C.",
+    "description": "Prerequisite: PHYS-UA 105 Classical and Quantum Waves. Particle physics is the study of the very fundamental constituents of matter and of the forces between them. By its nature it is microscopic, but it also connects with astrophysics and cosmology on the largest scales. This course introduces the most important advances in elementary particle physics. It centers on journal articles in which these advances were first published, with overview lectures, original reading, discussion, and student presentations. Topics include the discovery of elementary particles in cosmic rays, antimatter, symmetries found in nature, and the invention of the Quark model of elementary particles and its experimental verification.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 138",
+    "title": "Quantum Information and Quantum Computing",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "PHYS-UA 123 .",
+    "description": "Quantum mechanical systems can be thought of as information-storing, information-processing, and information transmitting systems. The theory of quantum information contains many surprising and counter-intuitive results, and holds significant potential impacts on society. Topics will include density operators, quantum communication, teleportation, quantum cryptography, entanglement and the Bell Inequalities, quantum computing, quantum algorithms, quantum error\ncorrection, quantum circuits, and experimental developments..",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 140",
+    "title": "Thermal & Statistical Physics",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 106 with a Minimum Grade of C.",
+    "description": "Topics include relation of entropy to probability and energy to temperature; the laws of thermodynamics; Maxwell-Boltzmann, Bose-Einstein, and Fermi-Dirac statistics; equations of state for simple gases and chemical and magnetic systems; and elementary theory of phase transitions.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 150",
+    "title": "Astrophysics",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHYS-UA 12 with a Minimum Grade of C OR PHYS-UA 95 with a Minimum Grade of C OR PHYS-UH 3012 ).",
+    "description": "Introduction to modern astrophysical problems with an emphasis on the physical concepts involved?radio, optical, and X-ray astronomy; stellar structure and evolution; white dwarfs, pulsars, and black holes; and galaxies, quasars, and cosmology.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 170",
+    "title": "General Relativity",
+    "department": "phys_ua",
+    "credits": 3.0,
+    "prerequisites": "PHYS-UA 120 with a Minimum Grade of C.",
+    "description": "This course provides an introduction to general relativity, stressing physical phenomena and their connection to experiments and observations. Topics include special relativity, gravity as geometry, black holes, gravitational waves, cosmology, Einstein equations.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 180",
+    "title": "Introduction to Fluid Dynamics",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 123 with a Minimum Grade of C OR MATH-UA 394 with a Minimum Grade of C OR MATH-SHU 151 ).",
+    "description": "Fluid dynamics is the branch of physics that describes motions of fluids as varied as the flow of blood in the human body, the flight of  an insect or the motions of weather systems on Earth. The course  introduces the key concepts of fluid dynamics: the formalism of continuum mechanics, the conservation of mass, energy and momentum in a fluid, the Euler and Navier-Stokes equations, viscosity and  vorticity. These concepts are applied to study classic problems in  fluid dynamics, such as potential flow around a cylinder, the Stokes\n flow, the propagation of sound and gravity waves and the onset of  instability in shear flow.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 210",
+    "title": "Computational Physics",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "PHYS-UA 106 with a Minimum Grade of C OR (SCIEN-UH 1601 AND SCIEN-UH 1602 AND MATH-UH 2010Q with a Minimum Grade of C  AND Restriction: Cumulative Grade Point Avg.",
+    "description": "Introduction to computational physics, with an emphasis on fields of current research interest where numerical techniques provide unique physical insight. Topics are chosen from various branches of physics, including numerical solution of ordinary and partial differential equations, eigenvalue problems, Monte Carlo methods in statistical mechanics, field theory, dynamical systems, and chaos.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 800",
+    "title": "Special Topics in Physics:",
+    "department": "phys_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: mastery of geometry and intermediate algebra. Counts toward departmental minors but not the major. Intended for students who are attracted to the major because of the challenging concepts of contemporary physics and cosmology, whereas the first two years of the major are devoted to classical dynamics and electromagnetism. Topics include quantum entanglement, quantum information, black holes, gravitational radiation, and the big bang.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 997",
+    "title": "Independent Study",
+    "department": "phys_ua",
+    "credits": 0.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the director of undergraduate studies. 2 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  },
+  {
+    "course_code": "PHYS-UA 998",
+    "title": "Independent Study",
+    "department": "phys_ua",
+    "credits": 0.0,
+    "prerequisites": "",
+    "description": "Requires permission of the department.",
+    "source_url": "https://bulletins.nyu.edu/courses/phys_ua/"
+  }
+]

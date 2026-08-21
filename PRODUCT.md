@@ -10,7 +10,7 @@ web
 
 Primary audience is dual and roughly equal:
 
-- **NYU CS students and advisors** who want to ask natural-language questions about courses (prerequisites, what to take next, course content) and get a direct, cited answer instead of manually reading the Bulletin.
+- **NYU CAS students and advisors** (currently CS, Math, Data Science, and Physics) who want to ask natural-language questions about courses (prerequisites, what to take next, course content) and get a direct, cited answer instead of manually reading the Bulletin.
 - **Portfolio/demo evaluators** (recruiters, interviewers, technical reviewers) assessing this as a demonstration of RAG engineering: retrieval quality, grounding, and evaluation rigor.
 
 Both audiences must be served by the same surface — it needs to read as a genuinely useful tool, not a toy, while also making its engineering (retrieval, grounding, measured accuracy) legible to a technical evaluator.
@@ -30,14 +30,15 @@ Pipeline has two phases:
 - **Offline ingestion** (re-run when the catalog updates): scrape `bulletins.nyu.edu` HTML → parse course fields (code, title, credits, prerequisites, description) → one chunk per course → embed → store in Postgres/pgvector.
 - **Online query**: user question → embed (local `sentence-transformers/all-MiniLM-L6-v2`) → pgvector cosine similarity top-k → Claude generates a cited answer from the retrieved courses.
 
-Evaluation is a first-class workflow (`eval/evaluate.py`), run against 20 hand-written course-planning questions, with results recorded in the README and `eval/eval_results.json`.
+Evaluation is a first-class workflow (`eval/evaluate.py`), run against 26 hand-written course-planning questions, with results recorded in the README and `eval/eval_results.json`.
 
 ## Capabilities and Constraints
 
-- Retrieval and generation are separately measurable and currently measured: 20/20 (100%) retrieval hit-rate@5 (up from 95%, see below); answer groundedness genuinely fluctuates 95-100% run to run (LLM-judge wording variance) rather than sitting at a fixed number.
+- Retrieval and generation are separately measurable and currently measured: 26/26 (100%) retrieval hit-rate@5; answer groundedness genuinely fluctuates 95-100% run to run (LLM-judge wording variance) rather than sitting at a fixed number.
 - Frontend is a React + Vite + Tailwind chat app (`frontend/`), backed by a FastAPI server (`app/server.py`); Streamlit was the original v1 and has been fully replaced.
 - Backend (Python, Postgres/pgvector, local embeddings, Claude API for generation) is the stable architecture.
-- Retrieval is hybrid, not pure semantic (`retrieval/search.py`): when a query names a course by code or title, courses that list it as a prerequisite are surfaced first (structural filter on `prerequisites`), and embedding similarity ranks and fills out the rest. This closed the one previously-documented "what's next after X" retrieval gap, where several courses sharing a prerequisite meant no single one was uniquely favored by embeddings alone.
+- Retrieval is hybrid, not pure semantic (`retrieval/search.py`): when a query names a course by code or title, that course itself is surfaced first, then courses that list it as a prerequisite (structural filter on `prerequisites`), and embedding similarity ranks and fills out the rest. This closed two real gaps: the original "what's next after X" retrieval miss (several courses sharing a prerequisite meant no single one was favored by embeddings alone), and a regression the first fix introduced (naming a course by its exact title, e.g. "which course covers linear algebra," could bury that course under its own dependents — found and fixed while expanding scope, see Evidence on Hand).
+- Scope: four CAS departments — Computer Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), Physics (`PHYS-UA`) — 133 courses total. Adding a department is a one-line addition to `ingest/scrape_catalog.py`'s `DEPARTMENTS` map; the parser (`ingest/parse_course.py`) is generic CourseLeaf HTML, not CS-specific, and `embed_and_store.py` already upserts on `course_code` so cross-listed courses (the same course under two departments) don't collide.
 
 ## Brand Commitments
 
@@ -47,9 +48,9 @@ Standing visual preference (confirmed during `/impeccable shape`, chosen deliber
 
 ## Evidence on Hand
 
-- Scraped, parsed CSCI-UA course data at `ingest/data/csci_ua.json` (37 courses).
+- Scraped, parsed course data at `ingest/data/*.json`: CSCI-UA (37), MATH-UA (54), DS-UA (11), PHYS-UA (31) — 133 courses total across the four scoped departments.
 - Real evaluation results in `eval/eval_results.json` and summarized in README — these are genuine numbers from a real run, not placeholders, and should not be altered or fabricated in future work.
-- README documents architecture, setup, and eval-driven history: folding `prerequisites` into embedded text took hit-rate@5 from 90% to 95%, and adding hybrid structural retrieval took it from 95% to 100%. This is real project history worth surfacing, not marketing copy.
+- README documents architecture, setup, and eval-driven history: folding `prerequisites` into embedded text took hit-rate@5 from 90% to 95%; adding hybrid structural retrieval took it from 95% to 100% (on the original 20-question, CSCI-UA-only set); expanding to Math/Data Science/Physics surfaced a real bug in that hybrid step (a named course could be excluded by its own dependents), fixed and reverified before adding 6 new questions for the expanded scope (26/26, 100%). This is real project history worth surfacing, not marketing copy.
 
 ## Product Principles
 
@@ -57,7 +58,7 @@ Standing visual preference (confirmed during `/impeccable shape`, chosen deliber
 2. Show the work — retrieved courses, citations, and (where relevant) the project's own measured accuracy are part of what makes this credible to both audiences; don't hide them behind unnecessary polish.
 3. Honest about limits — report real numbers and real variance (e.g. groundedness fluctuating 95-100%) rather than a single flattering figure; a documented, later-fixed limitation is part of this project's credibility, not something to scrub from history.
 4. Backend is stable — Python, Postgres/pgvector, local embeddings, and Claude API generation are the durable architecture; the frontend (now React + Vite + Tailwind, replacing the original Streamlit v1) stays open to further evolution.
-5. Scope will grow — CSCI-UA (37 courses) is the current department, not the ceiling; avoid hardcoding assumptions that only hold for a single department.
+5. Scope will grow — four CAS departments (CSCI-UA, MATH-UA, DS-UA, PHYS-UA; 133 courses) today, not the ceiling; CAS has 51 department pages total, and the pipeline was built (and has now been proven) to extend to more with minimal code change.
 
 ## Accessibility & Inclusion
 

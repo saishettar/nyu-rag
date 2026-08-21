@@ -101,7 +101,7 @@ export function Sidebar({
         </nav>
 
         <div className="border-t border-border px-4 py-3 text-xs leading-snug text-faint">
-          CAS Computer Science (CSCI-UA) · grounded in NYU's Bulletin
+          CAS: CS, Math, Data Science, Physics · grounded in NYU's Bulletin
         </div>
       </aside>
     </>

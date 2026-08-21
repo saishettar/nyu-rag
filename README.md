@@ -3,7 +3,12 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: CAS Computer Science (`CSCI-UA`), scraped from `bulletins.nyu.edu`.
+Scope: four CAS departments students actually cross-reference — Computer
+Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), and Physics
+(`PHYS-UA`), 133 courses total — scraped from `bulletins.nyu.edu`. CAS has 51
+department pages in total; the scraper's `DEPARTMENTS` map
+(`ingest/scrape_catalog.py`) is a one-line-per-department list, so adding
+more is mostly data verification, not code.
 
 ![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
 
@@ -12,8 +17,8 @@ Scope: CAS Computer Science (`CSCI-UA`), scraped from `bulletins.nyu.edu`.
 ```
 User query -> embed (sentence-transformers, local)
            -> hybrid retrieval (retrieval/search.py):
-                - if the query names a course by code or title, first surface
-                  courses that list it in their own prerequisites
+                - if the query names a course by code or title, surface that
+                  course itself, then courses that list it as a prerequisite
                 - fill remaining slots with pgvector cosine similarity search
            -> prompt Claude with retrieved courses + question
            -> answer with [COURSE-CODE] citations
@@ -21,9 +26,12 @@ User query -> embed (sentence-transformers, local)
 
 Pure semantic search alone can't reliably answer "what's a good course after X" -
 several courses often share the same prerequisite, so no single one is
-uniquely favored by embedding similarity. The hybrid step structurally
-filters on the `prerequisites` column first, then lets embeddings rank
-within (and fill out) that candidate set.
+uniquely favored by embedding similarity. It also can't be trusted to rank a
+course above its own dependents when a query names that course directly
+(e.g. "which course covers linear algebra" was losing `MATH-UA 140` itself
+under four courses that require it). The hybrid step surfaces the named
+course first, then its structural dependents, then lets embeddings fill out
+the rest.
 
 Ingestion (offline, re-run when the catalog updates):
 
@@ -74,8 +82,9 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data is already checked into the repo at
-`ingest/data/csci_ua.json`, so there's nothing to scrape):
+Then, one-time database setup (course data for all four departments is
+already checked into the repo at `ingest/data/*.json`, so there's nothing to
+scrape):
 
 ```bash
 python db/init_db.py                  # create tables + pgvector extension
@@ -101,21 +110,21 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 20 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 26 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (37 CSCI-UA courses, 20 hand-written questions)
+### Results (133 courses across 4 departments, 26 hand-written questions)
 
-- **Retrieval hit-rate@5: 20/20 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 19/20 (95%)** on that same run — this genuinely
-  fluctuates ±1 question across runs (LLM-judge grading has real run-to-run
-  wording variance, e.g. how strictly it parses which grade requirement
-  applies to which option in an OR'd prerequisite list), so treat "95-100%"
-  as the honest range rather than either endpoint as a hard guarantee
+- **Retrieval hit-rate@5: 26/26 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 25/26 (96%)** on that same run — this genuinely
+  fluctuates a question or two across runs (LLM-judge grading has real
+  run-to-run wording variance, e.g. how strictly it parses which grade
+  requirement applies to which option in an OR'd prerequisite list), so treat
+  "95-100%" as the honest range rather than either endpoint as a hard guarantee
 
 Retrieval history, in order:
 
@@ -123,14 +132,22 @@ Retrieval history, in order:
    and description, not `prerequisites`, so "what comes after X" queries had
    no textual signal to match on at all. Folding prerequisites into the
    embedded text (`embed/embed_and_store.py`) fixed most of that.
-2. **95% → 100%:** the one remaining miss — "What's a good course to take
-   after Data Structures?" — was a structural limitation, not a data gap:
-   four courses (`CSCI-UA 201`, `310`, `473`, `479`) all list Data Structures
-   (`CSCI-UA 102`) as a prerequisite, so no single one was uniquely favored
-   by embedding similarity alone. Fixed with hybrid retrieval
-   (`retrieval/search.py`): when a query names a course by code or title,
-   courses that list it as a prerequisite are surfaced first, and embeddings
-   rank and fill out the rest.
+2. **95% → 100%** (on the original 20-question, CSCI-UA-only set): the one
+   remaining miss — "What's a good course to take after Data Structures?" —
+   was a structural limitation, not a data gap: four courses (`CSCI-UA 201`,
+   `310`, `473`, `479`) all list Data Structures (`CSCI-UA 102`) as a
+   prerequisite, so no single one was uniquely favored by embedding
+   similarity alone. Fixed with hybrid retrieval (`retrieval/search.py`):
+   when a query names a course by code or title, courses that list it as a
+   prerequisite are surfaced alongside it, and embeddings rank and fill out
+   the rest.
+3. **Bug found while adding Math/Data Science/Physics:** that hybrid step
+   was excluding the named course itself from its own results - "which
+   course covers linear algebra" surfaced four courses that require
+   `MATH-UA 140` but not `MATH-UA 140` itself. Fixed by always including the
+   named course alongside its dependents rather than instead of it; verified
+   against the original 20 questions (still 20/20) before adding 6 new
+   questions for the expanded scope.
 
 ## Repository structure
 
