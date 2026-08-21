@@ -24,11 +24,14 @@ bulletins.nyu.edu HTML -> scrape + parse (code, title, credits, prereqs, descrip
 
 ## Stack
 
-- **Backend:** Python
-- **Database:** Postgres + pgvector (Supabase)
+- **Backend:** Python, FastAPI (`app/server.py`)
+- **Database:** Postgres + pgvector (Supabase) — courses/chunks for retrieval, plus
+  `conversations`/`messages` for persisted chat history
 - **Embeddings:** local `sentence-transformers/all-MiniLM-L6-v2` (no API key needed)
 - **Generation:** Claude API
-- **Frontend:** Streamlit
+- **Frontend:** React + Vite + TypeScript + Tailwind (`frontend/`) — a chat interface
+  with persisted conversation history and a live catalog panel; clicking a citation
+  in an answer jumps to and highlights that course in the panel
 
 ## Setup
 
@@ -37,15 +40,24 @@ python -m venv .venv
 .venv/Scripts/activate  # or source .venv/bin/activate on macOS/Linux
 pip install -r requirements.txt
 cp .env.example .env  # fill in DATABASE_URL and ANTHROPIC_API_KEY
+
+cd frontend
+npm install
 ```
 
 ## Running the pipeline
 
 ```bash
 python ingest/scrape_catalog.py       # scrape + parse -> ingest/data/csci_ua.json
-python db/init_db.py                  # create tables + pgvector extension
+python db/init_db.py                  # create tables + pgvector extension (courses, chunks, conversations, messages)
 python embed/embed_and_store.py       # embed courses, store in Postgres
-streamlit run app/main.py             # chat UI
+```
+
+Then, in two terminals:
+
+```bash
+uvicorn app.server:app --reload --port 8000   # API (retrieval, generation, conversations)
+cd frontend && npm run dev                    # chat UI, proxies /api to :8000
 ```
 
 ## Evaluation
@@ -90,6 +102,7 @@ embed/        embed_and_store.py
 db/           schema.sql, init_db.py
 retrieval/    search.py
 generation/   answer.py
-app/          main.py (Streamlit)
+app/          server.py (FastAPI), db.py (conversations/messages + course queries)
+frontend/     React + Vite + Tailwind chat UI
 eval/         test_questions.json, evaluate.py
 ```

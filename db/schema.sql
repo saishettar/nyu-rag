@@ -20,3 +20,21 @@ CREATE TABLE IF NOT EXISTS chunks (
 
 CREATE INDEX IF NOT EXISTS chunks_embedding_idx
     ON chunks USING hnsw (embedding vector_cosine_ops);
+
+CREATE TABLE IF NOT EXISTS conversations (
+    id SERIAL PRIMARY KEY,
+    title TEXT,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE TABLE IF NOT EXISTS messages (
+    id SERIAL PRIMARY KEY,
+    conversation_id INTEGER NOT NULL REFERENCES conversations(id) ON DELETE CASCADE,
+    role TEXT NOT NULL CHECK (role IN ('user', 'assistant')),
+    content TEXT NOT NULL,
+    retrieved_courses JSONB,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS messages_conversation_id_idx
+    ON messages (conversation_id, created_at);
