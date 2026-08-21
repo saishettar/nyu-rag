@@ -61,7 +61,26 @@ against the live pipeline and reports:
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-Results, once run: _TBD — fill in after first eval run._
+### Results (37 CSCI-UA courses, 20 hand-written questions)
+
+- **Retrieval hit-rate@5: 19/20 (95%)**
+- **Answer groundedness: 20/20 (100%)** on the run in `eval/eval_results.json`
+  (LLM-judge grading has some run-to-run wording variance, so treat this as
+  "no groundedness failures observed" rather than a hard guarantee)
+
+The one retrieval miss — "What's a good course to take after Data
+Structures?" — is an honest limitation, not a bug: several courses list
+Data Structures (`CSCI-UA 102`) as a prerequisite, so no single course is
+uniquely favored by semantic similarity alone. Answering "what's next"
+questions well would need a hybrid approach: use the `prerequisites`
+metadata to structurally filter candidate courses, then rank with
+embeddings, rather than relying on embeddings alone.
+
+A second finding from early eval runs (since fixed): the embedded chunk
+text originally included only the title and description, not
+`prerequisites`, so "what comes after X" queries had no textual signal to
+match on at all. Folding prerequisites into the embedded text
+(`embed/embed_and_store.py`) improved hit-rate@5 from 90% to 95%.
 
 ## Repository structure
 

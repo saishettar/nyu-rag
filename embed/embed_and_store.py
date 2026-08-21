@@ -33,9 +33,13 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
 
 
 def chunk_text_for(course: dict) -> str:
-    """What actually gets embedded: title + description reads better for
-    semantic search than the bare description alone."""
-    return f"{course['course_code']} {course['title']}. {course['description']}"
+    """What actually gets embedded. Folding prerequisites into the text (not
+    just storing them as metadata) lets "what's next after X" queries match
+    courses that list X as a prerequisite."""
+    text = f"{course['course_code']} {course['title']}. {course['description']}"
+    if course["prerequisites"]:
+        text += f" Prerequisites: {course['prerequisites']}"
+    return text
 
 
 def load_courses() -> list[dict]:

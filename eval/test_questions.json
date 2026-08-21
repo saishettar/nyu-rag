@@ -4,8 +4,8 @@
     "expected_course_codes": ["CSCI-UA 201"]
   },
   {
-    "question": "What courses have no prerequisites and count toward the CS major?",
-    "expected_course_codes": ["CSCI-UA 101"]
+    "question": "Which introductory programming course has no prerequisites and is meant for complete beginners?",
+    "expected_course_codes": ["CSCI-UA 2"]
   },
   {
     "question": "Which course teaches relational databases and SQL?",

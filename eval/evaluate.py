@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from generation.answer import generate_answer  # noqa: E402
+from generation.answer import build_context, generate_answer  # noqa: E402
 from retrieval.search import search  # noqa: E402
 
 TEST_QUESTIONS_PATH = Path(__file__).parent / "test_questions.json"
@@ -22,11 +22,11 @@ def judge_groundedness(question: str, answer: str, retrieved: list[dict]) -> str
 
     import anthropic
 
-    context = "\n".join(f"[{c['course_code']}] {c['title']}: {c['chunk_text']}" for c in retrieved)
+    context = build_context(retrieved)
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=200,
+        max_tokens=500,
         messages=[
             {
                 "role": "user",
@@ -39,7 +39,8 @@ def judge_groundedness(question: str, answer: str, retrieved: list[dict]) -> str
             }
         ],
     )
-    return message.content[0].text
+    text_blocks = [block.text for block in message.content if block.type == "text"]
+    return text_blocks[0] if text_blocks else f"NO_JUDGMENT (stop_reason={message.stop_reason})"
 
 
 def main() -> None:

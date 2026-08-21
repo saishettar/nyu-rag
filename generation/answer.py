@@ -42,7 +42,7 @@ def generate_answer(question: str, courses: list[dict]) -> str:
             }
         ],
     )
-    return message.content[0].text
+    return next(block.text for block in message.content if block.type == "text")
 
 
 if __name__ == "__main__":
