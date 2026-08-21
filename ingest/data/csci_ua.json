@@ -1,0 +1,335 @@
+[
+  {
+    "course_code": "CSCI-UA 1",
+    "title": "Computers and Society",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Addresses the impact of the digital computer on individuals, organizations, and modern society as a whole, and the social, political, and ethical issues involved in the computer industry. Topics change to reflect changes in technology and current events. Guest lecturers from various fields are invited to speak in class. May be taken four times in total (16 credits) as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 2",
+    "title": "Introduction to Computer Programming (No Prior Experience)",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the fundamentals of computer programming, which is the foundation of Computer Science. Students design, write, and debug computer programs. Prerequisite: Three years of high school mathematics or equivalent. No prior computer experience assumed. Students with any programming experience should consult with the computer science department before registering. Students who have taken or are taking CSCI-UA 101 will not receive credit for this course. This course does not count toward the major in Computer Science, although it (or CSCI-UA 3 ) is a prerequisite for students with no previous programming experience who intend to continue in CSCI-UA 101 .",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 3",
+    "title": "Introduction to Computer Programming (Limited Prior Experience)",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces object-oriented programming, recursion, and other important programming concepts to students who already have had some exposure to programming in the context of building applications using Python. Students will design and implement Python programs in a variety of applied areas. Prerequisite: Three years of high school mathematics or equivalent. Students who have taken or are taking CSCI-UA 101 will not receive credit for this course. This course does not count toward the major in Computer Science, although it (or CSCI-UA 2 ) is a prerequisite for students with some or no previous programming experience who intend to continue in CSCI-UA 101 .",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 4",
+    "title": "Introduction to Web Design and Computer Principles",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces students to both the practice of web design and the basic principles of computer science. The practice component of the course covers not only web design but also current graphics and software tools. The principles section includes an overview of hardware and software, the history of computers, and a discussion of the impact of computers and the internet. Prerequisite: Three years of high school mathematics or equivalent. No prior computing experience is assumed. Students with computing experience should consult with the computer science department before registering.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 60",
+    "title": "Database Design and Implementation",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 2 with a Minimum Grade of C OR CSCI-UA 3 OR CS-UH 1001 OR ENGR-UH 1000 OR CSCI-SHU 11 OR CSCI-SHU 101 ) AND have not taken: CSCI-UA 479 .",
+    "description": "Students that have successfully completed CSCI-UA 479 Data Management and Analysis are not eligible to take CSCI-UA 60 Database Design and Implementation. \nIntroduces principles and applications of database design and working with\ndata. Students use python as they prepare, analyze and work with data; SQL\nto study the principles and implementations of relational databases;  and\nare introduced to other database paradigms such as NoSQL. Students apply\nthese principles to computer systems in general and in their respective\nfields of interest.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 61",
+    "title": "Web Development and Programming",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 2 OR CSCI-UA 3 OR CS-UH 1001 OR ENGR-UH 1000 OR CSCI-SHU 11 OR CSCI-SHU 101 ) AND ( CSCI-UA 4 OR IM-UH 1011 OR INTM-SHU 120 ) AND have not taken: CSCI-UA 467 .",
+    "description": "Students that have successfully completed CSCI-UA 467 Applied Internet Technology are not eligible to take CSCI-UA 61 Web Development and Programming.\nThis course will provide a practical approach to web technologies and programming. Students will build interactive, secure and powerful web programs. This course will cover client and server side technologies for the web.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 74",
+    "title": "Big Ideas: Artificial Intelligence",
+    "department": "csci_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course provides a high-level overview of the key ideas and\ntechnologies that lead to revolutionary changes in Artificial Intelligence\nand to the explosive growth in practical applications of AI.  Taught by a\nteam of NYU's top experts in artificial intelligence lead by the Turing\naward winner Yann LeCun, the course will introduce students to a range of\ntopics in fundamentals of AI and its key sub-areas including machine\nlearning, natural language processing, computer vision  as well as its\napplications in different domains.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 101",
+    "title": "Intro to Computer Science",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 2 with a Minimum Grade of C OR CSCI-SHU 11 with a Minimum Grade of C OR CSCI-UA 3 OR CS-UY 1114 OR Advanced Placement Examination Computer Science A >= 3 OR Advanced Placement Examination Computer Science Principles >= 4).",
+    "description": "Students learn how to design algorithms to solve problems and how to translate these algorithms into working computer programs. Experience is acquired through programming projects in a high level programming language. CSCI-UA 101 is intended as a first course for computer science majors, and for students of other scientific disciplines. Programming assignments.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 102",
+    "title": "Data Structures",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 101 with a Minimum Grade of C or AP Computer Science A >=4 or AP Computer Science AB >=4.",
+    "description": "The use and design of data structures, which organize information in computer memory. Stacks, queues, linked lists, binary trees: how to implement them in a high level language, how to analyze their effect on algorithm efficiency, and how to modify them. Programming assignments.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 201",
+    "title": "Computer Systems Organization",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 102 OR CSCI-SHU 210 OR CS-UH 1050 with a Minimum Grade of C OR A Level Score of B or higher OR IB HL Score of 6,7).",
+    "description": "This course covers the internal structure of computers, machine (assembly) language programming, and the use of pointers in high-level languages. Topics include the logical design of computers, computer architecture, the internal representation of data, instruction sets, and addressing logic, as well as pointers, structures, and other features of high-level languages that relate to assembly language. Programming assignments will be both in assembly language and other languages.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 202",
+    "title": "Operating Systems",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 with a Minimum Grade of C OR CENG-SHU 202 OR CS-UH 2010 OR ENGR-UH 3511 ).",
+    "description": "This course covers the principles and design of operating systems. Topics include process scheduling and synchronization, deadlocks, memory management including virtual memory, input-output and file systems. Programming assignments.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 310",
+    "title": "Basic Algorithms",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 102 with a Minimum Grade of C AND MATH-UA 120 with a Minimum Grade of C AND MATH-UA 121 OR MATH-UA 131 OR equivilant courses.",
+    "description": "An introduction to the study of algorithms. Two main themes are presented: designing appropriate data structures, and analyzing the efficiency of the algorithms which use them. Algorithms for basic problems are studied. These include sorting, searching, graph algorithms and maintaining dynamic data structures. Homework assignments, not necessarily involving programming.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 330",
+    "title": "Introduction to Computer Simulation",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 121 with a Minimum Grade of C OR MATH-UA 132 with a Minimum Grade of C OR MATH-UH 1012Q OR MATH-UH 1013Q OR MATH-SHU 131 OR MATH-SHU 201 ) AND ( PHYS-UA 11 with a Minimum Grade of C OR PHYS-SHU 11 OR SCIEN-UH 1124C ).",
+    "description": "In this course, students will learn how to do computer simulations of such phenomena as orbits (Kepler problem and N-body problem), epidemic and endemic disease (including evolution in response to the selective pressure of a malaria), musical stringed instruments (piano, guitar, and violin), and traffic flow in a city (with lights, breakdowns, and gridlock at corners). The simulations are based on mathematical models, numerical methods, and Matlab programming techniques that will be taught in class. The use of animations (and sound where appropriate) to present the results of simulations will be emphasized.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 360",
+    "title": "Drawing on the Web",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 2 and CSCI-UA 4 .",
+    "description": "The web is an intrinsically creative medium whose graphical capabilities are diverse and evolving. Across the HTML, CSS, SVG, and JavaScript specifications, there are multiple ways to code images and interaction natively in the browser. This course provides a survey of interrelated drawing techniques. We explore each of them through projects involving raster graphics, vector graphics, animation, and sound. Drawing on the Web builds on foundations in web design and computer programming with a focus on the expressive potential of the open web. Together we apply markup language, style language, and programming language to networked generative art.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 380",
+    "title": "Topics of General Interest:",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 2 AND CSCI-UA 4 .",
+    "description": "Detailed descriptions will be available when topics are announced. Typical offerings are Introduction to Multimedia; Database and Web Programming; Interface Design for the World Wide Web. Note: These courses cannot be used as credit towards the major sequence.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 381",
+    "title": "Programming Tools for the Data Scientist",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "DS-UA 111 AND ( CSCI-UA 2 OR CSCI-UA 3 OR CS-UH 1001 OR ENGR-UH 1000 OR CSCI-SHU 11 OR CSCI-SHU 101 ).",
+    "description": "This course focuses on building applications in Python using a project-based learning approach. Students will design projects using important Python packages in a variety of applied areas such as textual analysis, data visualization, and others.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 421",
+    "title": "Numerical Computing",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "MATH-UA 140 AND CSCI-UA 201 AND MATH-UA 121 OR any equivalent courses.",
+    "description": "Introduction to numerical computation: the need for floating-point arithmetic, the IEEE floating-point standard. Importance of numerical computing in a wide variety of scientific applications. Fundamental types of numerical algorithms: direct methods (e.g., for systems of linear equations), iterative methods (e.g., for a nonlinear equation), and discretization methods (e.g., for a differential equation). Numerical errors: How can you tell if you can trust your answers? The use of graphics and software packages such as Matlab. Programming assignments.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 430",
+    "title": "Agile Software Development and DevOps",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 201 with a Minimum Grade of C.",
+    "description": "Agile software development has come to describe a specific approach and toolset that allow for the requirements of a software project to change as a project progresses without disrupting schedules, budgets, and responsibilities. The field of DevOps, a portmanteau of development and operations has introduced further processes and infrastructure to automate many of the tasks required in such development. Together, Agile's methodology and DevOps' automation\nhave increased the speed, robustness, and scalability with which software is developed today. Upon completion of this course, students will understand the core methodologies, technologies, and tools used in the software industry today.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 453",
+    "title": "Theory of Computation",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 ).",
+    "description": "This course takes a mathematical approach in studying topics in computer science, such as: regular languages and some of their representations (deterministic finite automata, non-deterministic finite automata, regular expressions); proof of non-regularity. Context free languages and pushdown automata; proofs that languages are not context free. Elements of computability theory. Brief introduction to NP-completeness.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 467",
+    "title": "Applied Internet Technology",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 with a Minimum Grade of C OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ).",
+    "description": "Students that successfully complete CSCI-UA 467 Applied Internet Technology are not eligible to take CSCI-UA 61 Web Development and Programming.\nApplied Internet Technology is a practical introduction to creating modern web\napplications. It covers full-stack (that is, every aspect of building a database driven web application: server programming, database implementation, frontend markup, styling and interactivity) web development. It includes topics such as database and data model design, web application architecture, separation of logic and presentation, handling user input and processing form data, managing  asynchronous processes, strategies for creating real-time web applications, and handling client-side interactivity.\nStudents will use current server and client-side web frameworks and libraries to build dynamic, data-driven sites. Various applications to support development will also be introduced, such as version control, static analysis tools, and build systems.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 469",
+    "title": "Natural Language Processing",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 201 with a grade of C or higher.",
+    "description": "Natural Language Processing applies computational and linguistic knowledge to the processing of natural languages (English, Chinese, Spanish, Japanese). Applications include: machine translation, information extraction, information retrieval, and others. On the one hand, the class will include the modeling and representation of linguistic phenomena. On the other, it will cover methods for applying this knowledge using both manual rules and machine learning. Sample topics include: formal languages, hidden Markov models, part of speech tagging, vector-based methods, shallow and full parsing, semantic role labeling, information extraction and machine translation. Students will complete programming assignments (POS-tagging, Information Extraction, etc.) and group final projects. Note: CSCI-UA 469 (sponsor) and DS-UA 302 (non-sponsor) are cross-listed.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 470",
+    "title": "Object Oriented Programming",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 with a Minimum Grade of C OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ).",
+    "description": "Object-oriented programming has emerged as a significant software development methodology. This course introduces the important concepts of object-oriented design and languages, including code reuse, data abstraction, inheritance, and dynamic overloading. It covers in depth those features of Java and C++ that support object-oriented programming and gives an overview of other object-oriented languages of interest. Significant programming assignments, stressing object-oriented design.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 472",
+    "title": "Artificial Intelligence",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 with a Minimum Grade of C OR CS-UH 2010 OR CENG-SHU 202 ) AND ( CSCI-UA 310 with a Minimum Grade of C OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 ).",
+    "description": "Many cognitive tasks that people can do easily and almost unconsciously have proven extremely difficult to program on a computer. Artificial intelligence tackles the problem of developing computer systems that can carry out these tasks. Focus is on three central areas in AI: representation and reasoning, machine learning, and natural language processing.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 473",
+    "title": "Fundamentals of Machine Learning",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 102 AND MATH-UA 140 AND MATH-UA 185 OR MATH-UA 333 OR MATH-UA 334 OR MATH-UA 338 OR MA-UY 2224 .",
+    "description": "This exciting and fast-evolving field of computer science has many recent consumer applications (e.g., Microsoft Kinect, Google Translate, IPhone's Siri, digital camera face detection, Netflix recommendations, Google news) and applications within the sciences and medicine (e.g., predicting protein-protein interactions, species modeling, detecting tumors, personalized medicine). Students learn the theoretical foundations and how to apply machine learning to solve new problems.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 474",
+    "title": "Software Engineering",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 with a Minimum Grade of C OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ).",
+    "description": "An intense hands-on study of practical techniques and methods of software engineering. Topics include advanced object-oriented design, design patterns, refactoring, code optimization, universal modeling language, threading, user interface design, enterprise application development, and development tools. All topics are integrated and applied during the semester-long group project. The aim of the project is to prepare students for dynamics in a real workplace. Members of the group meet on a regular basis to discuss the project and to assign individual tasks. Students are judged primarily on the final project presentations.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 475",
+    "title": "Predictive Analytics",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 201 AND CSCI-UA 310 AND MATH-UA 140 OR MATH-UA 148 .",
+    "description": "Predictive analytics is the art and science of extracting useful information from historical data and present data for the purpose of predicting future trends. In this course, students will be introduced to the phases of the analytics life-cycle and will gain an understanding of a variety of tools and machine learning algorithms for analyzing data and discovering forward insights. Several techniques will be introduced including: data preprocessing techniques, data reduction algorithms, data clustering algorithms, data classification algorithms, uplifting algorithms, association rules, data mining algorithms, recommender systems, and more. This course aims to provide students with skills of the new generation of data scientists that will allow them to structure, analyze and derive useful insights from data that could help make better decisions.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 476",
+    "title": "Processing Big Data for Analytics Applications",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR CSCI-SHU 220 ).",
+    "description": "This course introduces platforms, tools, and the architectures that facilitate scalable management and processing of vast quantities of data. We will explore open source tools enabling the efficient acquisition, storage, and processing of Big Data. Students will learn about distributed storage solutions such as the Apache Hadoop Distributed File System (HDFS), which supports storage of Big Data. Students will gain hands-on experience with distributed processing Apache solutions such as Hadoop MapReduce, HBase, Hive, Impala, Pig, core Spark, Spark SQL, and Spark Streaming. Other Apache big data tools covered are Oozie, Zookeeper, Flume, and Kafka.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 478",
+    "title": "Intro to Cryptography",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 310 with a Minimum Grade of C OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 ).",
+    "description": "An introduction to the principles and practice of cryptography and its application to network security. Topics include symmetric-key encryption (block ciphers, modes of operations, AES), message authentication (pseudorandom functions, CBC-MAC), public-key encryption (RSA, ElGamal), digital signatures (RSA, Fiat-Shamir), and authentication applications (identification, zero-knowledge).",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 479",
+    "title": "Data Management and Analysis",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 102 with a Minimum Grade of C OR CS-UH 1050 OR ENGR-UH 3510 OR CSCI-SHU 210 ).",
+    "description": "Students that successfully complete CSCI-UA 479 Data Management and Analysis are not eligible to take CSCI-UA 60 Database Design and Implementation.\nExtracting, transforming and analyzing data in myriad formats. Using traditional relational databases as well as non-relational databases to store, manipulate, and query data. Students will learn how to work with data by writing custom programs, creating queries, and using current data analysis tools and libraries\u2026 all on a wide array of data sets. Additional related topics will be covered, such as data modeling, cloud databases, and API programming.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 480",
+    "title": "Special Topics in Computer Science",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ).",
+    "description": "Each semester, multiple special topics courses are offered, covering topics that may not be offered on a regular basis. Prerequisites vary and are determined by topic. Extracting, transforming and analyzing data in myriad formats with traditional relational databases as well as non-relational databases. Data modeling, cloud databases, and API programming. Garnering insights using Python and current data analysis tools and libraries.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 490",
+    "title": "Spec Tpcs in Prog Lang:",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 201 with a Minimum Grade of C.",
+    "description": "Covers topics in programming languages at an advanced level. Detailed course descriptions are available when topics are announced.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 520",
+    "title": "Undergraduate Research",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 202 with a Minimum Grade of C.",
+    "description": "The student will perform computer science research that is supervised by a faculty member actively engaged in research and which may lead to results publishable in the computer science literature. A substantial commitment to this work will be expected of the student. The research project may be one or two semesters, to be determined in consultation with the faculty supervisor. Students taking this course for honors credit will be required to write an honors thesis. All other students will need to submit a write-up of the research results at the conclusion of the project.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 521",
+    "title": "Undergraduate Research",
+    "department": "csci_ua",
+    "credits": 4.0,
+    "prerequisites": "CSCI-UA 202 with a Minimum Grade of C.",
+    "description": "The student will perform computer science research that is supervised by a faculty member actively engaged in research and which may lead to results publishable in the computer science literature. A substantial commitment to this work will be expected of the student. The research project may be one or two semesters, to be determined in consultation with the faculty supervisor. Students taking this course for honors credit will be required to write an honors thesis. All other students will need to submit a write-up of the research results at the conclusion of the project.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 897",
+    "title": "Internship in Computer Science",
+    "department": "csci_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Restricted to declared  computer science majors. Does not count toward the major or minor, but does count toward the CAS degree. Offered every semester. 1 to 4\ncredits.\nAn internship in computer science is an excellent complement to formal\ncourse work. We strongly recommend that students have some practical\ntraining along with their classroom experience, so they can explore\ndifferent career options and gain hands-on experience.  An internship is\nfor majors only, and students must have maintained an overall GPA of 3.0\n\nand a computer science GPA of 3.5.   The internship will be graded.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 898",
+    "title": "Internship in Computer Science",
+    "department": "csci_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "An internship in computer science is an excellent complement to formal course work. We strongly recommend that students have some practical training along with their classroom experience, so they can explore different career options and gain hands-on experience.  An internship is for majors only, and students must have maintained an overall GPA of 3.0 and a computer science GPA of 3.5. The internship will be graded.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 997",
+    "title": "Independent Study",
+    "department": "csci_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: Permission of the department. Students majoring in the department who have maintained a general average of 3.00 and an average of 3.50 in computer science and who, in the opinion of the department, have the ability and the need for work in topics not included in the listed courses are permitted to work on an individual basis, under the supervision of a member of the department. The independent study must be approved by the department at registration. Students are expected to spend about 3 to 6 hours a week on assigned projects for their study. The project must be scheduled for completion within the semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  },
+  {
+    "course_code": "CSCI-UA 998",
+    "title": "Independent Study",
+    "department": "csci_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: Permission of the department. Students majoring in the department who have maintained a general average of 3.00 and an average of 3.50 in computer science and who, in the opinion of the department, have the ability and the need for work in topics not included in the listed courses are permitted to work on an individual basis, under the supervision of a member of the department. The independent study must be approved by the department at registration. Students are expected to spend about 3 to 6 hours a week on assigned projects for their study. The project must be scheduled for completion within the semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/csci_ua/"
+  }
+]

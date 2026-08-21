@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What's a good course to take after Data Structures?",
+    "expected_course_codes": ["CSCI-UA 201"]
+  },
+  {
+    "question": "What courses have no prerequisites and count toward the CS major?",
+    "expected_course_codes": ["CSCI-UA 101"]
+  },
+  {
+    "question": "Which course teaches relational databases and SQL?",
+    "expected_course_codes": ["CSCI-UA 60"]
+  },
+  {
+    "question": "Is there a course on operating systems?",
+    "expected_course_codes": ["CSCI-UA 202"]
+  },
+  {
+    "question": "What course should I take to learn about neural networks and machine learning?",
+    "expected_course_codes": ["CSCI-UA 473"]
+  },
+  {
+    "question": "Which course covers natural language processing?",
+    "expected_course_codes": ["CSCI-UA 469"]
+  },
+  {
+    "question": "What's the prerequisite chain to get into Theory of Computation?",
+    "expected_course_codes": ["CSCI-UA 453"]
+  },
+  {
+    "question": "Is there a course on cryptography?",
+    "expected_course_codes": ["CSCI-UA 478"]
+  },
+  {
+    "question": "What course covers big data processing and analytics?",
+    "expected_course_codes": ["CSCI-UA 476"]
+  },
+  {
+    "question": "Which course teaches software engineering practices?",
+    "expected_course_codes": ["CSCI-UA 474"]
+  },
+  {
+    "question": "What course teaches agile development and DevOps?",
+    "expected_course_codes": ["CSCI-UA 430"]
+  },
+  {
+    "question": "Is there an introductory course for students with no prior programming experience?",
+    "expected_course_codes": ["CSCI-UA 2"]
+  },
+  {
+    "question": "What course teaches web design fundamentals?",
+    "expected_course_codes": ["CSCI-UA 4"]
+  },
+  {
+    "question": "Which course covers artificial intelligence?",
+    "expected_course_codes": ["CSCI-UA 472"]
+  },
+  {
+    "question": "What course focuses on numerical computing methods?",
+    "expected_course_codes": ["CSCI-UA 421"]
+  },
+  {
+    "question": "Which course teaches object-oriented programming?",
+    "expected_course_codes": ["CSCI-UA 470"]
+  },
+  {
+    "question": "What's a good course to take after Algorithms for someone interested in theory?",
+    "expected_course_codes": ["CSCI-UA 453"]
+  },
+  {
+    "question": "Which course involves building web applications with client and server-side technologies?",
+    "expected_course_codes": ["CSCI-UA 61"]
+  },
+  {
+    "question": "Is there a course specifically about predictive analytics?",
+    "expected_course_codes": ["CSCI-UA 475"]
+  },
+  {
+    "question": "What course discusses the ethical and social impact of computing on society?",
+    "expected_course_codes": ["CSCI-UA 1"]
+  }
+]

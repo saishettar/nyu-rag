@@ -70,8 +70,18 @@ def parse_course_block(block: Tag, department: str, source_url: str) -> dict:
     }
 
 
+def _is_duplicate_section(course_code: str) -> bool:
+    """4-digit course numbers (e.g. 'CSCI-UA 9101') are summer/study-away
+    sections duplicating a regular course's content under a different code."""
+    match = re.search(r"(\d+)$", course_code)
+    return bool(match) and len(match.group(1)) >= 4
+
+
 def parse_courses(html: str, department: str, source_url: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     blocks = soup.find_all("div", class_="courseblock")
     courses = [parse_course_block(b, department, source_url) for b in blocks]
-    return [c for c in courses if c["course_code"] and c["description"]]
+    return [
+        c for c in courses
+        if c["course_code"] and c["description"] and not _is_duplicate_section(c["course_code"])
+    ]
