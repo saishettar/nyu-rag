@@ -5,6 +5,8 @@ cited answers instead of keyword-searching the Bulletin manually.
 
 Scope: CAS Computer Science (`CSCI-UA`), scraped from `bulletins.nyu.edu`.
 
+![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
+
 ## Architecture
 
 ```
@@ -34,6 +36,10 @@ bulletins.nyu.edu HTML -> scrape + parse (code, title, credits, prereqs, descrip
   in an answer jumps to and highlights that course in the panel
 
 ## Setup
+
+Requires Python 3.10+, Node 18+ (works on 16 with npm engine warnings, but 18+
+is what the frontend's dependencies target), and a Postgres database with the
+`pgvector` extension available (e.g. Supabase).
 
 ```bash
 python -m venv .venv
@@ -106,3 +112,7 @@ app/          server.py (FastAPI), db.py (conversations/messages + course querie
 frontend/     React + Vite + Tailwind chat UI
 eval/         test_questions.json, evaluate.py
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
