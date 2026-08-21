@@ -3,6 +3,8 @@ import os
 
 import anthropic
 from dotenv import load_dotenv
+from iris_otel import observe, trace_llm_call
+from iris_otel.presets import anthropic_finish_reason, anthropic_output_text, anthropic_usage
 
 load_dotenv()
 
@@ -28,20 +30,33 @@ def build_context(courses: list[dict]) -> str:
     return "\n\n".join(entries)
 
 
+@trace_llm_call(
+    model=MODEL,
+    extract_usage=anthropic_usage,
+    extract_finish_reasons=anthropic_finish_reason,
+    extract_messages=anthropic_output_text,
+    system_instructions=SYSTEM_PROMPT,
+)
+def _call_claude(client: anthropic.Anthropic, **kwargs):
+    return client.messages.create(**kwargs)
+
+
 def generate_answer(question: str, courses: list[dict]) -> str:
     context = build_context(courses)
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    message = client.messages.create(
-        model=MODEL,
-        max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        messages=[
-            {
-                "role": "user",
-                "content": f"Course listings:\n\n{context}\n\nQuestion: {question}",
-            }
-        ],
-    )
+    with observe("invoke_agent", **{"gen_ai.agent.name": "nyu-rag-answer"}):
+        message = _call_claude(
+            client,
+            model=MODEL,
+            max_tokens=1024,
+            system=SYSTEM_PROMPT,
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"Course listings:\n\n{context}\n\nQuestion: {question}",
+                }
+            ],
+        )
     return next(block.text for block in message.content if block.type == "text")
 
 
