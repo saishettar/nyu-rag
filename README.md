@@ -27,35 +27,49 @@ bulletins.nyu.edu HTML -> scrape + parse (code, title, credits, prereqs, descrip
 ## Stack
 
 - **Backend:** Python, FastAPI (`app/server.py`)
-- **Database:** Postgres + pgvector (Supabase) — courses/chunks for retrieval, plus
-  `conversations`/`messages` for persisted chat history
+- **Database:** Postgres + pgvector — a local instance via the included
+  `docker-compose.yml` by default; swap in a managed Postgres (e.g. Supabase) by
+  changing `DATABASE_URL` if you'd rather not run Docker. Holds courses/chunks for
+  retrieval, plus `conversations`/`messages` for persisted chat history
 - **Embeddings:** local `sentence-transformers/all-MiniLM-L6-v2` (no API key needed)
-- **Generation:** Claude API
+- **Generation:** Claude API — bring your own `ANTHROPIC_API_KEY`; nothing here is
+  shared, hosted, or billed to anyone but you
 - **Frontend:** React + Vite + TypeScript + Tailwind (`frontend/`) — a chat interface
   with persisted conversation history and a live catalog panel; clicking a citation
   in an answer jumps to and highlights that course in the panel
 
-## Setup
+## Quickstart
 
-Requires Python 3.10+, Node 18+ (works on 16 with npm engine warnings, but 18+
-is what the frontend's dependencies target), and a Postgres database with the
-`pgvector` extension available (e.g. Supabase).
+Everything runs on your own machine with your own API key — nothing shared,
+nothing to trust. Requires Python 3.10+, Node 18+ (works on 16 with npm engine
+warnings, but 18+ is what the frontend's dependencies target), and
+[Docker](https://docs.docker.com/get-docker/) (only if you're using the included
+local Postgres instead of your own).
 
 ```bash
-python -m venv .venv
-.venv/Scripts/activate  # or source .venv/bin/activate on macOS/Linux
-pip install -r requirements.txt
-cp .env.example .env  # fill in DATABASE_URL and ANTHROPIC_API_KEY
+git clone https://github.com/saishettar/nyu-rag.git
+cd nyu-rag
 
-cd frontend
-npm install
+cp .env.example .env
+# edit .env and set ANTHROPIC_API_KEY to your own key
+# (get one at https://console.anthropic.com/settings/keys)
+# DATABASE_URL already points at the Docker Postgres below - leave it as-is
+# unless you're using your own Postgres/Supabase instance
+
+docker compose up -d          # local Postgres + pgvector
+
+python -m venv .venv
+.venv/Scripts/activate         # or source .venv/bin/activate on macOS/Linux
+pip install -r requirements.txt
+
+cd frontend && npm install && cd ..
 ```
 
-## Running the pipeline
+Then, one-time database setup (course data is already checked into the repo at
+`ingest/data/csci_ua.json`, so there's nothing to scrape):
 
 ```bash
-python ingest/scrape_catalog.py       # scrape + parse -> ingest/data/csci_ua.json
-python db/init_db.py                  # create tables + pgvector extension (courses, chunks, conversations, messages)
+python db/init_db.py                  # create tables + pgvector extension
 python embed/embed_and_store.py       # embed courses, store in Postgres
 ```
 
@@ -65,6 +79,12 @@ Then, in two terminals:
 uvicorn app.server:app --reload --port 8000   # API (retrieval, generation, conversations)
 cd frontend && npm run dev                    # chat UI, proxies /api to :8000
 ```
+
+Open the URL Vite prints (usually `http://localhost:5173`) and ask a question.
+
+To refresh the catalog data from the live Bulletin instead of using the
+checked-in snapshot: `python ingest/scrape_catalog.py`, then re-run the two
+database steps above.
 
 ## Evaluation
 
@@ -103,14 +123,15 @@ match on at all. Folding prerequisites into the embedded text
 ## Repository structure
 
 ```
-ingest/       scrape_catalog.py, parse_course.py
-embed/        embed_and_store.py
-db/           schema.sql, init_db.py
-retrieval/    search.py
-generation/   answer.py
-app/          server.py (FastAPI), db.py (conversations/messages + course queries)
-frontend/     React + Vite + Tailwind chat UI
-eval/         test_questions.json, evaluate.py
+ingest/             scrape_catalog.py, parse_course.py
+embed/              embed_and_store.py
+db/                 schema.sql, init_db.py
+retrieval/          search.py
+generation/         answer.py
+app/                server.py (FastAPI), db.py (conversations/messages + course queries)
+frontend/           React + Vite + Tailwind chat UI
+eval/               test_questions.json, evaluate.py
+docker-compose.yml  local Postgres + pgvector for self-hosting
 ```
 
 ## License
