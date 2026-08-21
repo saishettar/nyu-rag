@@ -1,5 +1,15 @@
-"""Embed a query and return the top-k most similar courses via pgvector."""
+"""Embed a query and return the top-k most similar courses via pgvector.
+
+Hybrid retrieval: when a query explicitly names a course (by code, e.g.
+"CSCI-UA 102", or by title, e.g. "Data Structures"), courses that list that
+course in their own prerequisites are surfaced first. Pure semantic search
+can't reliably answer "what's a good course after X" - several courses often
+share the same prerequisite, so no single one is uniquely favored by
+embedding similarity alone. Everything else still falls back to plain
+semantic search.
+"""
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -11,35 +21,97 @@ from embed.embed_and_store import embed_texts  # noqa: E402
 
 load_dotenv()
 
+_COLUMNS = [
+    "course_code", "title", "department", "credits",
+    "prerequisites", "source_url", "chunk_text", "distance",
+]
+
+# Matches course codes like "CSCI-UA 102", "MATH-UA 121", "CS-UH 1050".
+_CODE_RE = re.compile(r"\b[A-Z]{2,6}-[A-Z]{2,4}\s?\d{1,4}[A-Z]?\b")
+
+_MIN_TITLE_MATCH_LEN = 8  # skip short/generic titles to avoid false positives
+
+
+def _rows_to_dicts(rows) -> list[dict]:
+    return [dict(zip(_COLUMNS, row)) for row in rows]
+
+
+def _referenced_course_codes(query: str, conn) -> set[str]:
+    """Course codes the query explicitly names, by literal code or by title."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT course_code, title FROM courses")
+        all_courses = cur.fetchall()
+
+    known_codes = {code for code, _ in all_courses}
+    referenced = {
+        code
+        for code in (m.strip() for m in _CODE_RE.findall(query.upper()))
+        if code in known_codes
+    }
+
+    query_lower = query.lower()
+    for code, title in all_courses:
+        if len(title) >= _MIN_TITLE_MATCH_LEN and title.lower() in query_lower:
+            referenced.add(code)
+
+    return referenced
+
+
+def _dependents_of(codes: set[str], conn, top_k: int) -> list[dict]:
+    """Courses whose prerequisites mention any of `codes`, up to top_k."""
+    if not codes:
+        return []
+    patterns = [f"%{code}%" for code in codes]
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT
+                c.course_code, c.title, c.department, c.credits,
+                c.prerequisites, c.source_url, ch.chunk_text,
+                NULL::float AS distance
+            FROM chunks ch
+            JOIN courses c ON c.id = ch.course_id
+            WHERE c.prerequisites ILIKE ANY(%s)
+              AND c.course_code != ALL(%s)
+            ORDER BY c.course_code
+            LIMIT %s
+            """,
+            (patterns, list(codes), top_k),
+        )
+        return _rows_to_dicts(cur.fetchall())
+
+
+def _semantic_search(query: str, conn, top_k: int) -> list[dict]:
+    query_embedding = embed_texts([query])[0]
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT
+                c.course_code, c.title, c.department, c.credits,
+                c.prerequisites, c.source_url, ch.chunk_text,
+                ch.embedding <=> %s::vector AS distance
+            FROM chunks ch
+            JOIN courses c ON c.id = ch.course_id
+            ORDER BY distance ASC
+            LIMIT %s
+            """,
+            (query_embedding, top_k),
+        )
+        return _rows_to_dicts(cur.fetchall())
+
 
 def search(query: str, top_k: int = 5) -> list[dict]:
-    query_embedding = embed_texts([query])[0]
-
     conn = psycopg2.connect(os.environ["DATABASE_URL"])
     try:
-        with conn.cursor() as cur:
-            cur.execute(
-                """
-                SELECT
-                    c.course_code, c.title, c.department, c.credits,
-                    c.prerequisites, c.source_url, ch.chunk_text,
-                    ch.embedding <=> %s::vector AS distance
-                FROM chunks ch
-                JOIN courses c ON c.id = ch.course_id
-                ORDER BY distance ASC
-                LIMIT %s
-                """,
-                (query_embedding, top_k),
-            )
-            rows = cur.fetchall()
+        referenced = _referenced_course_codes(query, conn)
+        structural = _dependents_of(referenced, conn, top_k)
+        semantic = _semantic_search(query, conn, top_k)
     finally:
         conn.close()
 
-    columns = [
-        "course_code", "title", "department", "credits",
-        "prerequisites", "source_url", "chunk_text", "distance",
-    ]
-    return [dict(zip(columns, row)) for row in rows]
+    seen = {c["course_code"] for c in structural}
+    combined = structural + [c for c in semantic if c["course_code"] not in seen]
+    return combined[:top_k]
 
 
 if __name__ == "__main__":

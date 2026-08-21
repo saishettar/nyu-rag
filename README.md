@@ -11,10 +11,19 @@ Scope: CAS Computer Science (`CSCI-UA`), scraped from `bulletins.nyu.edu`.
 
 ```
 User query -> embed (sentence-transformers, local)
-           -> pgvector cosine similarity search (top-k courses)
+           -> hybrid retrieval (retrieval/search.py):
+                - if the query names a course by code or title, first surface
+                  courses that list it in their own prerequisites
+                - fill remaining slots with pgvector cosine similarity search
            -> prompt Claude with retrieved courses + question
            -> answer with [COURSE-CODE] citations
 ```
+
+Pure semantic search alone can't reliably answer "what's a good course after X" -
+several courses often share the same prerequisite, so no single one is
+uniquely favored by embedding similarity. The hybrid step structurally
+filters on the `prerequisites` column first, then lets embeddings rank
+within (and fill out) that candidate set.
 
 Ingestion (offline, re-run when the catalog updates):
 
@@ -101,24 +110,27 @@ against the live pipeline and reports:
 
 ### Results (37 CSCI-UA courses, 20 hand-written questions)
 
-- **Retrieval hit-rate@5: 19/20 (95%)**
-- **Answer groundedness: 20/20 (100%)** on the run in `eval/eval_results.json`
-  (LLM-judge grading has some run-to-run wording variance, so treat this as
-  "no groundedness failures observed" rather than a hard guarantee)
+- **Retrieval hit-rate@5: 20/20 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 19/20 (95%)** on that same run — this genuinely
+  fluctuates ±1 question across runs (LLM-judge grading has real run-to-run
+  wording variance, e.g. how strictly it parses which grade requirement
+  applies to which option in an OR'd prerequisite list), so treat "95-100%"
+  as the honest range rather than either endpoint as a hard guarantee
 
-The one retrieval miss — "What's a good course to take after Data
-Structures?" — is an honest limitation, not a bug: several courses list
-Data Structures (`CSCI-UA 102`) as a prerequisite, so no single course is
-uniquely favored by semantic similarity alone. Answering "what's next"
-questions well would need a hybrid approach: use the `prerequisites`
-metadata to structurally filter candidate courses, then rank with
-embeddings, rather than relying on embeddings alone.
+Retrieval history, in order:
 
-A second finding from early eval runs (since fixed): the embedded chunk
-text originally included only the title and description, not
-`prerequisites`, so "what comes after X" queries had no textual signal to
-match on at all. Folding prerequisites into the embedded text
-(`embed/embed_and_store.py`) improved hit-rate@5 from 90% to 95%.
+1. **90% → 95%:** the embedded chunk text originally included only the title
+   and description, not `prerequisites`, so "what comes after X" queries had
+   no textual signal to match on at all. Folding prerequisites into the
+   embedded text (`embed/embed_and_store.py`) fixed most of that.
+2. **95% → 100%:** the one remaining miss — "What's a good course to take
+   after Data Structures?" — was a structural limitation, not a data gap:
+   four courses (`CSCI-UA 201`, `310`, `473`, `479`) all list Data Structures
+   (`CSCI-UA 102`) as a prerequisite, so no single one was uniquely favored
+   by embedding similarity alone. Fixed with hybrid retrieval
+   (`retrieval/search.py`): when a query names a course by code or title,
+   courses that list it as a prerequisite are surfaced first, and embeddings
+   rank and fill out the rest.
 
 ## Repository structure
 

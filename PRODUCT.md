@@ -21,7 +21,7 @@ Answers natural-language questions about NYU's course catalog with grounded, cit
 
 ## Positioning
 
-Every claim in an answer is grounded to a specific `[COURSE-CODE]` citation pulled from real Bulletin data via semantic search — not a general-purpose chatbot guessing at NYU's catalog from training data. The project also self-reports its own accuracy (hit-rate@5, groundedness) rather than asserting correctness, and documents a known limitation (weak retrieval on "what's next after X" questions) with a stated fix (hybrid structural + semantic retrieval).
+Every claim in an answer is grounded to a specific `[COURSE-CODE]` citation pulled from real Bulletin data via semantic search — not a general-purpose chatbot guessing at NYU's catalog from training data. The project also self-reports its own accuracy (hit-rate@5, groundedness) rather than asserting correctness, and its own eval history (90% → 95% → 100% retrieval hit-rate@5, each jump tied to a named fix) is part of that credibility story.
 
 ## Operating Context
 
@@ -34,10 +34,10 @@ Evaluation is a first-class workflow (`eval/evaluate.py`), run against 20 hand-w
 
 ## Capabilities and Constraints
 
-- Retrieval and generation are separately measurable and currently measured: 19/20 (95%) retrieval hit-rate@5, 20/20 (100%) answer groundedness on the recorded eval run.
-- Frontend is currently Streamlit (`app/main.py`) but this is an implementation detail, not a durable constraint — future visual work may move off Streamlit if that better serves the product.
-- Backend (Python, Postgres/pgvector, local embeddings, Claude API for generation) is the stable architecture; frontend is the open surface.
-- Known limitation: "what's next after X" style questions retrieve weakly because many courses share a prerequisite, so no single course is uniquely favored by embedding similarity alone. Documented fix direction: hybrid retrieval using `prerequisites` metadata to structurally filter before ranking by embeddings.
+- Retrieval and generation are separately measurable and currently measured: 20/20 (100%) retrieval hit-rate@5 (up from 95%, see below); answer groundedness genuinely fluctuates 95-100% run to run (LLM-judge wording variance) rather than sitting at a fixed number.
+- Frontend is a React + Vite + Tailwind chat app (`frontend/`), backed by a FastAPI server (`app/server.py`); Streamlit was the original v1 and has been fully replaced.
+- Backend (Python, Postgres/pgvector, local embeddings, Claude API for generation) is the stable architecture.
+- Retrieval is hybrid, not pure semantic (`retrieval/search.py`): when a query names a course by code or title, courses that list it as a prerequisite are surfaced first (structural filter on `prerequisites`), and embedding similarity ranks and fills out the rest. This closed the one previously-documented "what's next after X" retrieval gap, where several courses sharing a prerequisite meant no single one was uniquely favored by embeddings alone.
 
 ## Brand Commitments
 
@@ -49,14 +49,14 @@ Standing visual preference (confirmed during `/impeccable shape`, chosen deliber
 
 - Scraped, parsed CSCI-UA course data at `ingest/data/csci_ua.json` (37 courses).
 - Real evaluation results in `eval/eval_results.json` and summarized in README — these are genuine numbers from a real run, not placeholders, and should not be altered or fabricated in future work.
-- README documents architecture, setup, and a specific eval-driven finding (folding `prerequisites` into embedded text improved hit-rate@5 from 90% to 95%). This is real project history worth surfacing, not marketing copy.
+- README documents architecture, setup, and eval-driven history: folding `prerequisites` into embedded text took hit-rate@5 from 90% to 95%, and adding hybrid structural retrieval took it from 95% to 100%. This is real project history worth surfacing, not marketing copy.
 
 ## Product Principles
 
 1. Groundedness over fluency — every answer must be traceable to a cited course code; never let the surface imply confidence the retrieval/generation pipeline hasn't earned.
 2. Show the work — retrieved courses, citations, and (where relevant) the project's own measured accuracy are part of what makes this credible to both audiences; don't hide them behind unnecessary polish.
-3. Honest about limits — the documented retrieval weakness ("what's next after X") is a feature of this project's credibility, not something to sand away.
-4. Backend is stable, frontend is open — Streamlit was the fastest path to a working v1; treat it as replaceable if a redesign better serves students or better demonstrates the engineering.
+3. Honest about limits — report real numbers and real variance (e.g. groundedness fluctuating 95-100%) rather than a single flattering figure; a documented, later-fixed limitation is part of this project's credibility, not something to scrub from history.
+4. Backend is stable — Python, Postgres/pgvector, local embeddings, and Claude API generation are the durable architecture; the frontend (now React + Vite + Tailwind, replacing the original Streamlit v1) stays open to further evolution.
 5. Scope will grow — CSCI-UA (37 courses) is the current department, not the ceiling; avoid hardcoding assumptions that only hold for a single department.
 
 ## Accessibility & Inclusion
