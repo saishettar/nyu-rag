@@ -33,7 +33,10 @@ tests:
           prerequisites: "CS-GY 6003"
           chunk_text: "Covers machine learning fundamentals through an algorithmic lens."
     assert:
-      - type: regex
-        value: "(?i)(don't|do not|insufficient|not enough|no (relevant )?course)"
       - type: latency
         threshold_ms: 15000
+      - type: llm-rubric
+        rubric: >
+          Does the answer decline to recommend a specific course, and explain
+          that the provided listings don't cover the question, rather than
+          guessing or recommending an unrelated course?
