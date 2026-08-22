@@ -149,6 +149,16 @@ Retrieval history, in order:
    against the original 20 questions (still 20/20) before adding 6 new
    questions for the expanded scope.
 
+### CI regression check
+
+Separate from the eval script above: `.github/workflows/eval.yml` runs
+`eval/suite.yaml` (an [iris-eval](https://github.com/saishettar/iris/tree/main/eval)
+suite, not `eval/evaluate.py`) against every PR touching `generation/**`, and
+posts pass/fail per test case as a PR comment. Needs an `ANTHROPIC_API_KEY`
+repo secret (Settings > Secrets and variables > Actions) to run the real
+judge calls -- without it, the workflow fails with an auth error rather than
+skipping silently.
+
 ## Repository structure
 
 ```
