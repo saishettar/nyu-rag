@@ -1,0 +1,39 @@
+target: "generation.answer:generate_answer"
+
+tests:
+  - description: "recommends a course and cites its code"
+    vars:
+      question: "What's a good course after Algorithms?"
+      courses:
+        - course_code: "CS-GY 6763"
+          title: "Algorithmic Machine Learning"
+          credits: 3
+          prerequisites: "CS-GY 6003"
+          chunk_text: >
+            Covers machine learning fundamentals through an algorithmic lens,
+            including complexity analysis of learning algorithms, online
+            learning, and boosting.
+    assert:
+      - type: regex
+        value: '\[CS-GY 6763\]'
+      - type: latency
+        threshold_ms: 15000
+      - type: llm-rubric
+        rubric: >
+          Does the answer recommend a course and cite its course code in
+          [CODE] format, using only information from the provided listings?
+
+  - description: "declines to guess when the listings don't cover the question"
+    vars:
+      question: "What's the best course for underwater basket weaving?"
+      courses:
+        - course_code: "CS-GY 6763"
+          title: "Algorithmic Machine Learning"
+          credits: 3
+          prerequisites: "CS-GY 6003"
+          chunk_text: "Covers machine learning fundamentals through an algorithmic lens."
+    assert:
+      - type: regex
+        value: "(?i)(don't|do not|insufficient|not enough|no (relevant )?course)"
+      - type: latency
+        threshold_ms: 15000
