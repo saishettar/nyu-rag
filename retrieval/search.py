@@ -38,12 +38,10 @@ def _rows_to_dicts(rows) -> list[dict]:
     return [dict(zip(_COLUMNS, row)) for row in rows]
 
 
-def _referenced_course_codes(query: str, conn) -> set[str]:
-    """Course codes the query explicitly names, by literal code or by title."""
-    with conn.cursor() as cur:
-        cur.execute("SELECT course_code, title FROM courses")
-        all_courses = cur.fetchall()
-
+def _match_referenced_codes(query: str, all_courses: list[tuple[str, str]]) -> set[str]:
+    """Pure matching logic, separated from the DB fetch so it's unit-testable
+    without a live Postgres connection: which course codes does `query`
+    explicitly name, by literal code or by title?"""
     known_codes = {code for code, _ in all_courses}
     referenced = {
         code
@@ -57,6 +55,14 @@ def _referenced_course_codes(query: str, conn) -> set[str]:
             referenced.add(code)
 
     return referenced
+
+
+def _referenced_course_codes(query: str, conn) -> set[str]:
+    """Course codes the query explicitly names, by literal code or by title."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT course_code, title FROM courses")
+        all_courses = cur.fetchall()
+    return _match_referenced_codes(query, all_courses)
 
 
 def _courses_by_code(codes: set[str], conn) -> list[dict]:
@@ -129,6 +135,28 @@ def _semantic_search(query_embedding, conn, top_k: int) -> list[dict]:
         return _rows_to_dicts(cur.fetchall())
 
 
+def _combine(
+    self_matches: list[dict],
+    structural: list[dict],
+    semantic: list[dict],
+    top_k: int,
+) -> list[dict]:
+    """Merge the three candidate lists (self-matches first, then structural,
+    then semantic), dedupe by course_code keeping the first occurrence, and
+    truncate to top_k. This truncation is where both retrieval bugs in the
+    README's history actually lived -- it does not re-rank, so any list fed
+    in must already be ordered best-first, and a list earlier in the
+    precedence order can starve a later one of its budget. Covered by
+    retrieval/test_search.py; add a case there before changing this."""
+    combined = list(self_matches)
+    seen = {c["course_code"] for c in combined}
+    for c in structural + semantic:
+        if c["course_code"] not in seen:
+            combined.append(c)
+            seen.add(c["course_code"])
+    return combined[:top_k]
+
+
 def search(query: str, top_k: int = 5) -> list[dict]:
     query_embedding = embed_texts([query])[0]
     conn = psycopg2.connect(os.environ["DATABASE_URL"])
@@ -140,13 +168,7 @@ def search(query: str, top_k: int = 5) -> list[dict]:
     finally:
         conn.close()
 
-    combined = list(self_matches)
-    seen = {c["course_code"] for c in combined}
-    for c in structural + semantic:
-        if c["course_code"] not in seen:
-            combined.append(c)
-            seen.add(c["course_code"])
-    return combined[:top_k]
+    return _combine(self_matches, structural, semantic, top_k)
 
 
 if __name__ == "__main__":

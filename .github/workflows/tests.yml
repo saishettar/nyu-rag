@@ -1,0 +1,30 @@
+# Unit tests for the pure retrieval logic (retrieval/test_search.py) -- no
+# DB, no API key, runs on every PR touching retrieval/**.
+name: Unit tests
+
+on:
+  pull_request:
+    paths:
+      - "retrieval/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out nyu-rag
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        # retrieval/search.py imports embed_and_store at module load time
+        # (for embed_texts), which pulls in sentence-transformers/torch --
+        # skip the iris editable installs (requires a sibling checkout,
+        # irrelevant to these tests) by installing everything else directly.
+        run: pip install $(grep -v '^-e' requirements.txt)
+
+      - name: Run unit tests
+        run: python -m pytest retrieval/test_search.py -v
