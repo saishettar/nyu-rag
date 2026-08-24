@@ -19,11 +19,20 @@ jobs:
       - name: Check out nyu-rag
         uses: actions/checkout@v4
 
-      - name: Check out iris (sibling checkout, matches local dev layout)
+      # actions/checkout refuses a `path` that resolves outside
+      # GITHUB_WORKSPACE (hardened since 2022), so a literal `path: ../iris`
+      # fails with "is not under ...nyu-rag" -- checked out to a subdirectory
+      # instead, then relocated with `mv`, which isn't subject to that
+      # restriction, to land at the true sibling path requirements.txt's
+      # `-e ../iris/sdk` / `-e ../iris/eval` expect.
+      - name: Check out iris
         uses: actions/checkout@v4
         with:
           repository: saishettar/iris
-          path: ../iris
+          path: iris-checkout
+
+      - name: Move iris checkout to sibling directory (matches local dev layout)
+        run: mv iris-checkout ../iris
 
       - name: Set up Python
         uses: actions/setup-python@v5
