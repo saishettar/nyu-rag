@@ -118,5 +118,13 @@
   {
     "question": "Which course covers the philosophy of artificial intelligence?",
     "expected_course_codes": ["PHIL-UA 83"]
+  },
+  {
+    "question": "Is there a course on cognitive neuroscience?",
+    "expected_course_codes": ["PSYCH-UA 25"]
+  },
+  {
+    "question": "Which course covers social psychology?",
+    "expected_course_codes": ["PSYCH-UA 32"]
   }
 ]

@@ -1,0 +1,317 @@
+[
+  {
+    "course_code": "PSYCH-UA 1",
+    "title": "Intro to Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Cimpian, Knowles, Reed, Rhodes, Van Bavel. Offered every semester. 4 points. Fundamental principles of psychology, with emphasis on basic research and applications in psychology's major theoretical areas of study: thought, memory, learning, perception, personality, social processes, development, and the physiological bases of psychology. Included in the class is direct observation of methods of investigation through laboratory demonstrations and by student participation in current research projects.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 2",
+    "title": "Teaching in Psychology",
+    "department": "psych_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: admittance by application only. Hilford. Offered every semester. 2 points. The purpose of this course is to train students in teaching science, specifically psychology. Students attend a two-hour weekly seminar on teaching psychology as well as the Introduction to Psychology lecture. Students put their training to immediate use by teaching a weekly Introduction to Psychology recitation.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 8",
+    "title": "Data Literacy for Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Data Literacy for Psychology will equip students with a critical understanding of how behavioral data, statistics, and psychological research are used and misused. The course will cover the importance of data literacy, lying with data, cognitive biases, Bayesian reasoning, coincidences, opinion polling, pseudoscience, the scientific process, academic publishing, navigating the scientific literature, types of data, experimental design, variables, the concept of a p-value, and the replication crisis.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 10",
+    "title": "Statistics for The Behavioral Sciences",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "No prerequisite. PSYCH-UA 10 and 11 may be taken in either order. Bauer. Offered every semester. 4 points. Students gain familiarity with data description, variance and variability, significance tests, confidence bounds, and linear regression, among other topics. Students work on psychological data sets, learn approaches to statistical prediction, and learn to interpret results from randomized experiments.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 11",
+    "title": "Statistics and Data Analysis for Research in Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "No prerequisite. PSYCH-UA 10 and 11 may be taken in either order (only\none is required for the major, but students may take both). Offered every\nsemester. 4 points. Offers a more in-depth coverage of statistical methods and research methodology than PSYCH-UA 10 , focusing on both theory and applications. Students will tackle complex statistical concepts and develop practical skills through hands-on data analysis and visualization projects using industry-standard programming languages (R or Python). Strongly recommended for students interested in psychological research.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 22",
+    "title": "Perception",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Landy, Maloney, Winawer. Offered every semester. 4 points. How do we construct a conception of physical reality based on sensory experience? Survey of basic facts, theories, and methods of studying sensation and perception. The major emphasis is on vision and audition, although other modalities may be covered. Representative topics include receptor function and physiology; color; motion; depth; psychophysics of detection, discrimination, and appearance; perceptual constancies; adaptation, pattern recognition, and the interaction of knowledge and perception.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 25",
+    "title": "Cognitive Neuroscience",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Curtis, Davachi. Offered every semester. 4 points. Provides students with a broad understanding of the foundations of cognitive neuroscience, including dominant theories of the neural underpinnings of a variety of cognitive processes and the research that has led to those theories. In doing so, students also learn about the goals of cognitive neuroscience research and the methods that are being employed to reach these goals.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 27",
+    "title": "Language and Mind",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 29 .",
+    "description": "Introduces students to the field of cognitive science through an examination of language behavior, one of the major domains of inquiry in the discipline. Begins with interactive discussions of how best to characterize and study the mind. These principles are then illustrated through an examination of research and theories related to language representation and use. The course draws from research in both formal linguistics and psycholinguistics.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 29",
+    "title": "Cognition",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Hilford, Rehder. Offered every semester. 4 points. Introduction to theories and research in some major areas of cognitive psychology, including human memory, attention, language production and comprehension, thinking, and reasoning.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 30",
+    "title": "Personality",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "AndersenAndersen. Offered every semester. 4 points. Introduction to research in personality, including such topics as the self-concept; unconscious processes; how we relate to others; and stress, anxiety, and depression.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 32",
+    "title": "Social Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Gollwitzer, West. Offered every semester. 4 points. Introduction to theories and research about the social behavior of individuals, such as perception of others and the self, attraction, affiliation, altruism and helping, aggression, moral thought and action, attitudes, influence, conformity, social exchange and bargaining, group decision making, leadership and power, and environmental psychology.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 34",
+    "title": "Developmental Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Adolph. Offered every semester. 4 points. Introduction and overview of theoretical issues and selected research in developmental psychology. Focuses on infancy through adolescence. Lectures interweave theory, methods, and findings about how we develop as perceiving, thinking, and feeling beings.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 35",
+    "title": "Social Neuroscience",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "This course will provide a broad overview of social neuroscience. We will consider how social processes are implemented at the neural level, but also how neural mechanisms help give rise to social phenomena and cultural experiences. Many believe that the large expansion of the human brain evolved due to the complex demands of dealing with social others\u2014competing or cooperating with them, deceiving or empathizing with them, understanding or misjudging them. What kind of \u201csocial brain\u201d has this evolutionary past left us with? In this course, we will review core principles, theories and methods guiding social neuroscience, and research examining the brain basis of social processes, including theory of mind; empathy; emotion; reading faces, bodies, and voices; morality; among others. Overall, this course will introduce students to the field of social neuroscience and its multi-level approach to understanding the brain in its social context.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 38",
+    "title": "Lab in Social & Organizational Psycholog",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "( PSYCH-UA 10 OR Advanced Placement Examination Psychology >= 4)  AND Prerequisite: ( PSYCH-UA 30 OR PSYCH-UA 32 OR PSYCH-UA 62 ).",
+    "description": "Students are acquainted with research methodology in organizational psychology. They then perform an original study, such as a laboratory experiment or research survey, in one of these areas.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 39",
+    "title": "Lab in Personality & Social Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "( PSYCH-UA 10 OR PSYCH-UA 11 ) AND ( PSYCH-UA 30 OR PSYCH-UA 32 OR PSYCH-UA 51 OR PSYCH-UA 62 )  AND Restriction: (Academic Plan = Psychology-BA OR Psychology).",
+    "description": "Methodology and procedures of personality and social psychological research and exercises in data analysis and research design. Statistical concepts such as reliability and validity, methods of constructing personality measures, merits and limitations of correlational and experimental research designs, and empirical evaluation of theories. Student teams conduct research projects.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 40",
+    "title": "Lab in Developmental Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "( PSYCH-UA 10 OR PSYCH-UA 11 OR Advanced Placement Examination Psychology >= 4 AND Prerequisite: PSYCH-UA 34 ).",
+    "description": "In depth investigation of the methodological foundations of developmental\npsychology, in particular, behavioral methods with infants and children.\nStudents will learn how to design experiments, create experimental stimuli,\ncollect quantifiable measures from infant and child behavior, and analyze\ndevelopmental data. Each week students will read ~3 primary research\narticles from a variety of domains in developmental psychology, but all\nfocused on one methodological theme. Students will produce a thoroughly\nresearched and creative proposed experiment and analysis plan for the\ncourse\u2019s final project.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 42",
+    "title": "Lab in Infancy Research",
+    "department": "psych_ua",
+    "credits": 1.0,
+    "prerequisites": "PSYCH-UA 34 AND ( PSYCH-UA 10 OR PSYCH-UA 11 ).",
+    "description": "Part of a yearlong research training program. Students learn general methods for studying infant development and specific methods for examining infants' perceptual-motor development. Students design and conduct laboratory research projects, code and analyze data, and prepare results for presentation and publication (grant proposals, conference submissions, and journal submissions).",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 46",
+    "title": "Lab in Cognition and Perception",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "( PSYCH-UA 10 OR PSYCH-UA 11 OR PSYCH-UA 22 OR PSYCH-UA 25 OR PSYCH-UA 29 OR Advanced Placement Examination Psychology >= 4).",
+    "description": "Students experience current thinking in hypothesis formulation,\nexperimental design, data analysis and research communication. Experiments are performed in the fields of Cognition and Perception and can include visual processing, auditory processing, learning, memory, and decision making. Students complete research projects and gain experience in writing research reports that conform to APA guidelines.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 48",
+    "title": "Linguistics as Cognitive Science",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Approaches from linguistics, philosophy, and psychology. Topics: the evidence for constructing grammars, the interpretation of grammatical rules as cognitive  or neural operations, the significance  of neo-behaviorist approaches to language and computational modeling for a cognitive theory of language, the connection between linguistics theory and genetics, and the importance of sociocultural and historical variation for understanding the nature of language.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 51",
+    "title": "Abnormal Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR APSY-UE 2 OR Restriction: Academic Plan = Psychology-BA OR Psychology OR Psychology OR Advanced Placement Examination Psychology >= 4.",
+    "description": "The kinds, dynamics, causes, and treatment of psychopathology. Topics include early concepts of abnormal behavior; affective disorders, anxiety disorders, psychosis, and personality disorders; the nature and effectiveness of traditional and modern methods of psychotherapy; and viewpoints of major psychologists past and present.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 53",
+    "title": "Psychological Science and Society Lab",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 10 or PSYCH-UA 11 and PSYCH-UA 22 or PSYCH-UA 25 or PSYCH-UA 29 or PSYCH-UA 30 or PSYCH-UA 32 or PSYCH-UA 34 or PSYCH-UA 35 .",
+    "description": "This course will prepare students to be informed, critical, and active consumers of empirical psychological research. Students will learn to understand the research process by dissecting published papers and tracing the transition of research findings into popular writings about psychological research. By the end of the course, students will be able to critically examine the status and origin of claims based on psychology research in the popular media (\u201cgetting back to the sources\u201d and debunking myths); possess a basic understanding of the societal relevance of several bodies of psychology research; understand how to correctly interpret statistics in the context of research; and possess basic skills of communicating and writing about psychology research aimed at a general audience (e.g. Scientific American, Psychology Today).",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 56",
+    "title": "Psycholinguistics",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines theories and research concerning the cognitive processes and linguistic representations that enable language comprehension and production. Topics include speech perception, visual processes during reading, word recognition, syntactic processing, and semantic/discourse processing.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 59",
+    "title": "Child Language Acquisition",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4 OR International Baccalaureate Psychology HL >= 6  OR Prerequisite: APSY-UE 2 .",
+    "description": "Linguistic development from birth to early school age,\nexamining monolingual, bilingual, and atypical (e.g., autistic, Specific\nLanguage Impairment) populations. Focuses first on development in the\nindividual linguistic domains of phonology, vocabulary, morphology, syntax,\nsemantics, and pragmatics and then examines deeper theoretical and\nexperimental approaches to language acquisition, with a focus on primary\nliterature and active debates in the field.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 60",
+    "title": "Illusions to Inference",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "( PSYCH-UA 1 OR APSY-UE 2 OR Advanced Placement Examination Psychology >= 4 OR IB Final Psychology HL >= 6 OR Academic Plan = Psychology-BA OR Psychology OR Psychology).",
+    "description": "Human perception easily falls prey to illusions and biases. It is tempting to think of these as failures of our brain, but they might not be. In fact, many illusions are likely byproducts of smart solutions that the brain applies when having to interpret imperfect and incomplete sensory input. We will study a wide variety of well-known and lesser-known illusions (visual, auditory, tactile, vestibular, and multisensory) to develop the central concept of probabilistic inference, the notion that the brain constantly forms hypotheses about the world and tries to figure out which of them is most probable given the sensory input. We will make connections to other applications of probabilistic inference, including medical diagnosis,crime scene investigation, election forecasting, and data science.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 62",
+    "title": "Industrial Organizat'L Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Personal, social, and environmental factors related to people?s attitudes and performance in industry and other organizations. Topics include personnel selection and evaluation, training and development, attitudes and motivation, leadership, group dynamics, organizational structure and climate, and job design and working conditions.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 74",
+    "title": "Motivation and Volition",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 29 AND PSYCH-UA 32 .",
+    "description": "The course provides an overview of the major theories and findings in research on motivation and volition. More specifically, we will address the history of research on motivation and volition, classic phenomena of being motivated versus lacking motivation and willpower, the psychology of goals (goal setting, goal implementation, effortful goal pursuits, disengagement, content and structure of goals, the mental representation of goals), disorders of self-regulation, and cognitive-neuropsychological research as well as the perspective of economics on motivation and volition. We will focus on understanding the interrelations and contradictions between the different approaches, and on designing research that promotes these different lines of thinking.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 75",
+    "title": "Political Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 1 OR Advanced Placement Examination Psychology >= 4)  AND Prerequisite: PSYCH-UA 32 .",
+    "description": "This course provides a comprehensive survey of the study of political psychology, which is a dynamic sub-discipline at the intersection of psychology and political science. (A special emphasis is placed on perspectives derived from social and personality psychology). After reviewing the historical development of political psychology and discussing the role of values in social science, we will cover a series of substantive topics, including authoritarianism and mass politics; personality and political leadership; mass media and candidate perception; left-right (or liberal-conservative) ideology; public opinion and voting; individual and group decision-making; leadership and persuasion; social identification and social dominance; racial and ethnic prejudice; intergroup relations; causes and effects of terrorism; protest, collective action, and revolution.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 79",
+    "title": "Experiments in Beauty",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Learn science by doing it. The relative paucity of research on beauty offers the opportunity for undergraduates to do original research. Readings introduce the major ideas in understanding the experience of beauty, including psychology, philosophy, and literature. Each student, individually or with a collaborator or two, will come up with their own question about beauty, broadly defined. Over the course of the semester, with help from the instructor and classmates, they will address this question by doing an experiment, and give an oral and written scientific report at the end of the semester. Following a schedule, students will share parts of their report throughout the semester. We will make field trips to museums, galleries, and other sites in NYC that afford experiences of beauty that illustrate issues from the readings.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 81",
+    "title": "Clinical  Psychology",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "( PSYCH-UA 1 OR APSY-UE 2 OR Restriction: Academic Plan = Psychology-BA OR Psychology OR Psychology OR Advanced Placement Examination Psychology >= 4 OR IB Final Psychology HL >= 6)  AND Prerequisite: PSYCH-UA 51 .",
+    "description": "This course provides students with a broad overview of the field of\n clinical psychology. Topics covered include the assessment and treatment of\n psychological disorders. Regarding treatment, most attention is devoted to\n psychotherapy, but early intervention, psychopharmacology, and behavioral\n medicine also receive some consideration. Topics are addressed in a manner\n that includes considerations about theory, research, and practice; the use\n of illustrative clinical examples; and discussion of current controversies.\n Cultural and ethical issues are also discussed.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 200",
+    "title": "Honors Seminar",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: admission to the psychology honors program. Offered in the fall. 4 points. Students read and discuss recent studies and classical papers related to current controversies in psychology. A portion of class time is set aside for discussion of theoretical and technical aspects of each student's thesis project.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 201",
+    "title": "Honors Seminar II",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A continuation of V89.0200. Students are also expected to present preliminary results of their thesis projects and interpret their findings.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 300",
+    "title": "Spec Topics Psych:",
+    "department": "psych_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Seminars of an advanced level. Topics vary each time offered.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 992",
+    "title": "Tutorial in Infancy Research",
+    "department": "psych_ua",
+    "credits": 1.0,
+    "prerequisites": "( PSYCH-UA 34 OR PSYCH-UA 42 ).",
+    "description": "Students learn general methods for studying infant development and specific methods for examining infants? perceptual-motor development. Students design and conduct laboratory research projects, code and analyze data, and prepare results for presentation and publication (grant proposals, conference submissions, journal submissions).",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 993",
+    "title": "Supervised Reading",
+    "department": "psych_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Independent study, which may include research, readings, and written work. Supervised by a faculty member. May be used for internship or other practical training (academic work is required to earn credits; average of two hours a week at internship per point). Approved internships being completed for 3.0 or 4.0 credits qualify as an Advanced Elective in the Psychology Major. May be repeated up to three times for a total of 8 credits. However, CAS students may take no more than 12 points of independent study and/or internship, and no more than 8 points may be taken in any one department.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  },
+  {
+    "course_code": "PSYCH-UA 996",
+    "title": "Research Experience In Psychology",
+    "department": "psych_ua",
+    "credits": 2.0,
+    "prerequisites": "PSYCH-UA 10 AND Restriction: (Academic Level = Junior OR Senior OR Academic Program = UA-Coll of Arts & Sci-Cert OR UA-Coll of Arts & Sci - Nodeg OR UA-Coll of Arts & Sci OR Academic Plan = Psychology-MA OR Psychology-BA).",
+    "description": "The goal of the course is to immerse students in research experience. This will be accomplished by working in a research lab in the psychology department under the direct supervision of a faculty mentor. Students will assist in the research carried out in an approved lab. Research experience is critical to prepare students for applying to graduate school. A host of important skills can be best learned through hands-on application, including data management, analysis, and visualization, statistics, computer programming, and grant and paper writing. The course does not count towards the Psychology Major.  May be repeated twice (taken three times in total) for a maximum of 6 points. CAS students may take no more than 12 points of independent study and/or internship, and no more than 8 points may be taken in any one department.",
+    "source_url": "https://bulletins.nyu.edu/courses/psych_ua/"
+  }
+]
