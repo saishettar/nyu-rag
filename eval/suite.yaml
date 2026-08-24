@@ -40,3 +40,32 @@ tests:
           Does the answer decline to recommend a specific course, and explain
           that the provided listings don't cover the question, rather than
           guessing or recommending an unrelated course?
+
+  - description: "cites only the relevant course when multiple listings are retrieved"
+    vars:
+      question: "Which course covers neural networks?"
+      courses:
+        - course_code: "CS-GY 6763"
+          title: "Algorithmic Machine Learning"
+          credits: 3
+          prerequisites: "CS-GY 6003"
+          chunk_text: >
+            Covers machine learning fundamentals through an algorithmic lens,
+            including neural networks, online learning, and boosting.
+        - course_code: "CS-GY 6083"
+          title: "Principles of Database Systems"
+          credits: 3
+          prerequisites: "CS-GY 6003"
+          chunk_text: >
+            Covers relational database design, query optimization,
+            transactions, and concurrency control.
+    assert:
+      - type: regex
+        value: '\[CS-GY 6763\]'
+      - type: latency
+        threshold_ms: 15000
+      - type: llm-rubric
+        rubric: >
+          Does the answer cite [CS-GY 6763] as covering neural networks, and
+          avoid citing [CS-GY 6083] (the database course), which is unrelated
+          to the question?
