@@ -82,8 +82,13 @@ def _courses_by_code(codes: set[str], conn) -> list[dict]:
         return _rows_to_dicts(cur.fetchall())
 
 
-def _dependents_of(codes: set[str], conn, top_k: int) -> list[dict]:
-    """Courses whose prerequisites mention any of `codes`, up to top_k."""
+def _dependents_of(codes: set[str], query_embedding, conn, top_k: int) -> list[dict]:
+    """Courses whose prerequisites mention any of `codes`, ranked by
+    relevance to the query rather than alphabetically by course code -- an
+    alphabetical LIMIT let an unrelated course from an early-sorting
+    department (e.g. ECON-UA) crowd out the actual best match (MATH-UA 122
+    for "what's next after Calculus I") once enough departments existed for
+    that to collide. See eval/test_questions.json."""
     if not codes:
         return []
     patterns = [f"%{code}%" for code in codes]
@@ -93,21 +98,20 @@ def _dependents_of(codes: set[str], conn, top_k: int) -> list[dict]:
             SELECT
                 c.course_code, c.title, c.department, c.credits,
                 c.prerequisites, c.source_url, ch.chunk_text,
-                NULL::float AS distance
+                ch.embedding <=> %s::vector AS distance
             FROM chunks ch
             JOIN courses c ON c.id = ch.course_id
             WHERE c.prerequisites ILIKE ANY(%s)
               AND c.course_code != ALL(%s)
-            ORDER BY c.course_code
+            ORDER BY distance ASC
             LIMIT %s
             """,
-            (patterns, list(codes), top_k),
+            (query_embedding, patterns, list(codes), top_k),
         )
         return _rows_to_dicts(cur.fetchall())
 
 
-def _semantic_search(query: str, conn, top_k: int) -> list[dict]:
-    query_embedding = embed_texts([query])[0]
+def _semantic_search(query_embedding, conn, top_k: int) -> list[dict]:
     with conn.cursor() as cur:
         cur.execute(
             """
@@ -126,12 +130,13 @@ def _semantic_search(query: str, conn, top_k: int) -> list[dict]:
 
 
 def search(query: str, top_k: int = 5) -> list[dict]:
+    query_embedding = embed_texts([query])[0]
     conn = psycopg2.connect(os.environ["DATABASE_URL"])
     try:
         referenced = _referenced_course_codes(query, conn)
         self_matches = _courses_by_code(referenced, conn)
-        structural = _dependents_of(referenced, conn, top_k)
-        semantic = _semantic_search(query, conn, top_k)
+        structural = _dependents_of(referenced, query_embedding, conn, top_k)
+        semantic = _semantic_search(query_embedding, conn, top_k)
     finally:
         conn.close()
 

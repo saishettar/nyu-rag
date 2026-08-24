@@ -117,10 +117,10 @@ against the live pipeline and reports:
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (133 courses across 4 departments, 26 hand-written questions)
+### Results (172 courses across 5 departments, 28 hand-written questions)
 
-- **Retrieval hit-rate@5: 26/26 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 25/26 (96%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 28/28 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 28/28 (100%)** on that same run — this genuinely
   fluctuates a question or two across runs (LLM-judge grading has real
   run-to-run wording variance, e.g. how strictly it parses which grade
   requirement applies to which option in an OR'd prerequisite list), so treat
@@ -148,6 +148,18 @@ Retrieval history, in order:
    named course alongside its dependents rather than instead of it; verified
    against the original 20 questions (still 20/20) before adding 6 new
    questions for the expanded scope.
+4. **Bug found while adding Economics:** the prerequisite-dependents lookup
+   ranked matches alphabetically by course code and `LIMIT`ed *before*
+   merging with the named course itself, so a department that happens to
+   sort early (`ECON-UA`) could silently crowd the real answer out of the
+   final top-5 - "what's a good course after Calculus I" started missing
+   `MATH-UA 122` the moment `ECON-UA 18` also listed `MATH-UA 121` as a
+   prerequisite option. Fixed by ranking dependents by embedding distance to
+   the query instead of course code (`retrieval/search.py`); this is the
+   same failure shape as #3 one level down the pipeline - alphabetical or
+   positional shortcuts that happened to work at 4-department scope broke at
+   5, so it's worth treating scope growth as a retrieval regression test
+   going forward, not just a data-verification step.
 
 ### CI regression check
 
