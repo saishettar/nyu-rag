@@ -15,6 +15,11 @@ on:
 jobs:
   eval:
     runs-on: ubuntu-latest
+    # Default GITHUB_TOKEN is read-only on this repo, so the PR-comment step
+    # 403s ("Resource not accessible by integration") without this -- scoped
+    # here rather than raising the repo-wide default token permissions.
+    permissions:
+      pull-requests: write
     steps:
       - name: Check out nyu-rag
         uses: actions/checkout@v4
