@@ -3,12 +3,12 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: four CAS departments students actually cross-reference — Computer
-Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), and Physics
-(`PHYS-UA`), 133 courses total — scraped from `bulletins.nyu.edu`. CAS has 51
-department pages in total; the scraper's `DEPARTMENTS` map
-(`ingest/scrape_catalog.py`) is a one-line-per-department list, so adding
-more is mostly data verification, not code.
+Scope: five CAS departments students actually cross-reference — Computer
+Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), Physics
+(`PHYS-UA`), and Economics (`ECON-UA`), 172 courses total — scraped from
+`bulletins.nyu.edu`. CAS has 51 department pages in total; the scraper's
+`DEPARTMENTS` map (`ingest/scrape_catalog.py`) is a one-line-per-department
+list, so adding more is mostly data verification, not code.
 
 ![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
 
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all four departments is
+Then, one-time database setup (course data for all five departments is
 already checked into the repo at `ingest/data/*.json`, so there's nothing to
 scrape):
 
@@ -110,7 +110,7 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 26 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 28 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?

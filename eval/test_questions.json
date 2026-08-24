@@ -102,5 +102,13 @@
   {
     "question": "Which course covers general relativity?",
     "expected_course_codes": ["PHYS-UA 170"]
+  },
+  {
+    "question": "Is there a course on labor markets and labor economics?",
+    "expected_course_codes": ["ECON-UA 351"]
+  },
+  {
+    "question": "Which course covers health economics?",
+    "expected_course_codes": ["ECON-UA 354"]
   }
 ]

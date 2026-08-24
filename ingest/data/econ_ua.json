@@ -1,0 +1,353 @@
+[
+  {
+    "course_code": "ECON-UA 1",
+    "title": "Introduction to Macroeconomics (P/T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Begins with the meaning and measurement of important macroeconomic data (on unemployment, inflation, and production), then turns to the behavior of the overall economy. Topics include long-run economic growth and the standard of living; the causes and consequences of economic booms and recessions; the banking system and the Federal Reserve; the stock and bond markets; and the role of government policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 2",
+    "title": "Introduction to Microeconomics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Focuses on individual economic decision-makers\u2014households, business firms, and government agencies\u2014and how they are both linked together and shape our economic life. Explores the different environments in which businesses sell their products, hire workers, and raise funds to expand their operations; the economic effects of trade between nations; and the effects of various government policies, such as minimum-wage legislation, rent controls, antitrust laws, and more. Prerequisite: Algebra, Trigonometry, and Functions ( MATH-UA 9 ; formerly Algebra and Calculus) or equivalent, or placement into either Mathematics for Economics I ( MATH-UA 131 ; formerly MATH-UA 211) or Calculus I ( MATH-UA 121 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 10",
+    "title": "Interm Microeconomics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in ECON-UA 2 OR ECON-UB 1 OR ECII-UF 102 OR ECON-SHU 2 OR ECON-SHU 150 or equivalent OR AP Exam Microeconomics >= 4) AND MATH-UA 132 OR OR MATH-SHU 151 OR MATH-UH 1021 OR MATH-UH 1020 or MATH-UA 123 or MATH-UA 129 .",
+    "description": "Examines the manner in which producers, consumers, and resource owners acting through the market determine the prices and output of goods, the allocation of productive resources, and the functional distribution of incomes. The price system is seen as a network of interrelated decisions, with the market process serving to communicate information to decision makers.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 11",
+    "title": "Microeconomic Analysis",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 2 OR ECON-UA 9002 OR ECII-UF 102 OR ECII-UF 9102 OR SOCSC-UH 1111 OR Advanced Placement Examination Economics - Microeconomics >= 4)  AND Prerequisite: ( MATH-UA 132 OR MATH-UA 123 OR MATH-UA 129 ).",
+    "description": "Rigorous examination of consumer choice, profit-maximizing behavior on the part of firms, and equilibrium in product markets. Topics include choice under uncertainty, strategic interactions between firms in noncompetitive environments, intertemporal decision making, and investment in public goods.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 12",
+    "title": "Interm Macroeconomics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Grade of C> ECON-UA 1 OR ECON-UB 11 OR ECI-UF 101 OR ECON1-UC 301 OR BPEP-UB 2 or SOCSC-UH 1011 or AP Macroeconomics =>4 or equivalent course and Grade of C> ECON-UA 10 or ECON-UA 11 OR ECON-UB 2 or equivalent course.",
+    "description": "Study of aggregate economic analysis with special attention paid to the determination of the level of income, employment, and inflation. Critically examines both the theories and the policies associated with them.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 13",
+    "title": "Macroeconomic Analysis",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Grade of C> ECON-UA 1 OR ECON-UB 11 OR ECI-UF 101 OR ECON1-UC 301 OR BPEP-UB 2 or SOCSC-UH 1011 or AP Macroeconomics =>4 or equivalent course and Grade of C> ECON-UA 10 or ECON-UA 11 OR ECON-UB 2 or equivalent course.",
+    "description": "Study of aggregate economic analysis, with attention paid to the determination of the level of income, employment, and inflation. Critically examines both the theories and the policies associated with them. This course involves more formal analysis than that used in V31.0012.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 18",
+    "title": "Statistics (P)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 121 OR MATH-UA 131 OR MATH-UA 122 OR MATH-UA 123 OR MATH-SHU 131 ).",
+    "description": "For the policy concentration. Descriptive statistics; introduction to probability; sampling; statistical inferences concerning means, standard deviations, and proportions; analysis of variance; linear regressions; and correlation. Laboratory periods cover sample problems drawn primarily from economics.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 20",
+    "title": "Analytical Statistics (T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 122 OR MATH-UA 123 OR MATH-UA 132 ).",
+    "description": "For the theory concentration. Descriptive statistics; calculation of moments; probability theory; an introduction to distribution theory; and an introduction to inference. Lab sessions allow students to run a wide variety of computer experiments and to simulate all distributions that are discussed, as well as to experiment with a wide variety of statistical procedures.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 207",
+    "title": "Ethics and Economics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 2 OR ECON-UA 9002 OR ECON-UB 1 OR ECII-UF 102 OR ECON-UA 9002 OR SOCSC-UH 1111 OR ECON-SHU 2 OR ECON-SHU 3 ).",
+    "description": "Study of the interface between ethical and economic theories. Specific topics covered include a brief overview of various ethical ideas, an analysis of the ethical presuppositions of modern economic theory (especially welfare economics), utilitarian ethics, the moral status of free exchange, the ethical implications of imperfect knowledge between bargaining parties, cost-benefit analysis and human rights, the economic content of the ?general welfare,? and laissez-faire.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 208",
+    "title": "Policy Issues in History of Economic Thought",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 1 and ECON-UA 2 or equivalent course or test score.",
+    "description": "Selected policy recommendations drawn from classical to present-day economic thought. Some of the thinkers are Adam Smith, Jeremy Bentham, John Stuart Mill, Philip Wicksteed, Arthur C. Pigou, John Maynard Keynes, Friedrich Hayek, and such modern behavioral economists as Richard Thaler. Policies and writers may vary each year. Topics range widely: the protection of domestic industry, use of taxes to deal with external effects, property rights, the government direction of investment, and alternatives to revealed preference as a welfare standard.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 227",
+    "title": "Urban Economics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in ( ECON-UA 1 OR ECON-UB 11 OR ECI-UF 101 OR ECON-SHU 251 OR BPEP UB 2 OR AP Macroeconomics => 4.00) AND (ECON-UA 2OR ECON-UB 1 OR ECII-UF 102 OR ECON-SHU150 OR SOCSC 1111 OR AP Microeconomics => 4.",
+    "description": "The city as an economic organization. Urbanization trends, functional specialization, and the nature of growth within the city; organization of economic activity within the city and its outlying areas, the organization of the labor market, and problems of urban poverty; the urban public economy; housing and land-use problems; transportation problems; and special problems within the public sector.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 231",
+    "title": "Money and Banking",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum grade of C in ( ECON-UA 1 OR ECON-UB 11 OR ECI-UF 101 OR ECON-SHU 251 OR BPEP UB 2 OR AP Macroeconomics => 4.00) AND (ECON-UA 2OR ECON-UB 1 OR ECII-UF 102 OR ECON-SHU150 OR SOCSC 1111 OR AP Microeconomics => 4.",
+    "description": "Money supply; banking as an industry; banks as suppliers of money; the Federal Reserve System and monetary control; monetary theory; and contemporary monetary policy issues.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 233",
+    "title": "Poverty & Income Distribution",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum Grade of C ECON-UA 2 OR ECII-UF 102 OR ECON-UB 1 or OR AP Microeconomics =>4 or equivalent course.",
+    "description": "Defines poverty and welfare. Analyzes who the poor are, why some people are rich and others poor, equality of opportunity, income and status, inequality, trends in the degree of inequality, government?s role in income distribution, and international comparisons of inequality.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 238",
+    "title": "International Economics (P,T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 1 and ECON-UA 2 or equivalent course or test score.",
+    "description": "Focuses on international trade in goods, services, and capital. It serves as an introduction to international economic issues and as preparation for the department's more advanced course in ECON-UA 324. The issues discussed include gains from trade and their distribution; analysis of protectionism; strategic trade barriers; the trade deficit; exchange rate determination; and government intervention in foreign exchange markets.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 266",
+    "title": "Intro to Econometrics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 18 OR ECON-UA 20 OR STAT-UB 103 OR BUSF-SHU 101 OR SOCSC-UH 1010Q OR MATH-SHU 235 AND MATH-UA 212 OR MATH-UA 122 OR MATH-UA 123 OR MATH-SHU 201 OR MATH-SHU 151 OR MATH-UH 1021 .",
+    "description": "Application of statistics and economic theory to problems of formulating and estimating models of economic behavior. Matrix algebra is developed as the main tool of analysis in regression. Acquaints students with basic estimation theory and techniques in the regression framework and covers extensions such as specification error tests, heteroskedasticity, errors in variables, and simple time series models. An introduction to simultaneous equation modes and the concept of identification is provided.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 290",
+    "title": "Topics in Economics Analysis I (P,T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 1 OR ECON-UA 9001 OR ECI-UF 101 ) AND ( ECON-UA 2 OR ECON-UA 9002 OR ECII-UF 102 ).",
+    "description": "This is a mid-level (200 level) undergraduate elective course offered to encourage department or visiting faculty who wish to give courses in fields that are not in the permanent course offerings. The exact topic of this course is announced before registration each year. Such \u201cTopics courses\u201d are not given regularly and a specific topic presented in any one semester is unlikely to be repeated. Students are allowed to count only one such Topics course for the major.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 309",
+    "title": "Game Theory and Strategy (P)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 OR ECON-UA 9010 OR ECON-UH 2010 OR ECON-SHU 10 ) AND ( MATH-UA 132 OR MATH-UA 123 OR MATH-UA 9123 OR MATH-SHU 151 OR MATH-SHU 201 OR MA-UY 2114 ).",
+    "description": "An applied overview of game theoretical concepts that emphasizes their use in real-world situations. Students develop tools that allow them to formally analyze outcomes in strategic situations and apply game theoretical analysis to a variety of disciplines.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 310",
+    "title": "Game Theory (T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 11 .",
+    "description": "Introduction to noncooperative game theory. Focuses on a rigorous development of the basic theory with economic applications such as competition among oligopolists, how standards are set, auction theory, and bargaining. The formal topics include games in strategic form, Bayesian games, and games in extensive form.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 316",
+    "title": "Industrial Organization",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 with a Minimum Grade of C OR ECON-UA 11 OR ECON-UA 9010 with a Minimum Grade of C OR ECON-UB 1 with a Minimum Grade of C OR ECON-UH 2010 with a Minimum Grade of C OR ECON-SHU 10 ).",
+    "description": "How firms behave in imperfectly-competitive markets. Uses game theory to understand strategic decisions. Topics include price discrimination; peak load pricing; productivity; Bertrand, Cournot, and Hotelling oligopoly models; entry; mergers and merger regulation; monopoly regulation; patents; auctions; and two-sided platforms. Moves from theoretical and mathematical models to real-world data and problem sets.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 320",
+    "title": "Risk & Fluctuations in Financial Markets",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 11 OR ECON-UA 10 OR ECON-UH 2010 OR ECON-SHU 10 ) AND ( ECON-UA 13 OR ECON-UA 12 ) AND ECON-UA 266 .",
+    "description": "The 2008 global financial crisis and continuing market volatility have\nattracted widespread attention to the factors driving price fluctuations\nand the challenges of measuring risk in stock and other asset markets. Two\napproaches have dominated the discussion: rational expectations and\nbehavioral finance. This course will present these two approaches in a way\nthat is accessible to advanced undergraduates and introduce students to a\nthird: imperfect knowledge economics, which recognizes limits to what\nmarket participants can possibly know. In addition to reviewing standard\neconometric tools taught in most university courses, students will learn to\nmake use of survey data. The course develops a structured way to code\ninformation contained in these narrative reports with the aim of bridging\nthe gap between the models and the activity of actual market participants.\nThe course concludes with a discussion of the implications of alternative\ntheoretical approaches and empirical evidence for the reform of the\nfinancial system aiming to limit its vulnerability to future crisis.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 323",
+    "title": "Economic Development",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 10 or ECON-UA 11 and ECON-UA 12 or ECON-UA 13 .",
+    "description": "Economic underdevelopment in Asia, Latin America, and Africa. Macroeconomic topics: economic growth, income distribution, poverty, and underdevelopment as a circular, self-reinforcing trap. Microeconomic topics: markets for land, labor, and credit. Emphasizes market fragmentation, limited information, and incentive problems. Such international issues as trading patterns, capital flows, and global financial crises are studied from the viewpoint of developing countries.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 331",
+    "title": "Monetary & Banking Theory",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 10 ; or ECON-UA 11 and ECON-UA 12 ; or ECON-UA 13 and either ECON-UA 18 or ECON-UA 20 .",
+    "description": "Builds on intermediate-level courses in this area by focusing on the theoretical foundations of monetary exchange, the deeper determinants of asset demands, and the economic rationale for the existence of banks.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 336",
+    "title": "International Economics: Finance",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 OR ECON-UA 11 OR ECON-UA 9010 OR ECON-UH 2010 OR ECON-SHU 10 ) AND ( ECON-UA 12 OR ECON-UA 13 OR ECON-UA 9012 ).",
+    "description": "Financial and macroeconomic issues in international economics, the balance of payments, gold and other assets in international portfolios, exchange rate determination, problems of simultaneous achievement of internal and external policy goals, and interdependence of countries? macroeconomic policies.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 340",
+    "title": "Ownership & Corporate Control",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 with a Minimum Grade of C OR ECON-UA 9010 with a Minimum Grade of C OR ECON-UA 11 with a Minimum Grade of C OR ECON-UB 1 with a Minimum Grade of C OR ECON-UH 2010 with a Minimum Grade of C OR ECON-SHU 10 ).",
+    "description": "Discusses the conceptual foundations and empirical evidence concerning the effects of private ownership on corporate perfor-mance. The corporate control mechanisms in the United States, Germany, Japan, and the emerging market economies of Eastern Europe and the former Soviet Union are reviewed. Particular attention is paid to the role of capital markets (takeovers and other shareholder control devices), banks and other financial institutions, and various corporate institutions (such as boards of directors and meetings of shareholders) in facilitating or hindering corporate control and the efficient allocation of resources.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 345",
+    "title": "Political Economy",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "Minimum Grade of C for ECON-UA 10 OR ECON-UA 11 OR ECON-UB 2 OR equivalent course.",
+    "description": "Introduces the emerging field of formal political economy. The variety of ways in which economists and political scientists think about political science and the interplay of political science and economics are analyzed. The first part of the course focuses on the formal modeling of political behavior and political institutions; the theory of social choice (how groups of rational individuals make decisions) and collective action (how groups of rational individuals take action) are analyzed. The second part of the course discusses the connection between politics and economics and investigates the effect of political variables on the determination of economic outcomes. Some questions that are answered: How can special groups of individuals enhance their well being by political action? What is lobbying? What is the effect of contributions on political outcomes?",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 351",
+    "title": "Labor Economics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 with a Minimum Grade of C OR ECON-UA 9010 with a Minimum Grade of C OR ECON-UA 11 with a Minimum Grade of C OR ECON-UB 1 with a Minimum Grade of C OR ECON-UH 2010 with a Minimum Grade of C OR ECON-SHU 10 ).",
+    "description": "Analyzes the functioning of the labor market in both theoretical and statistical terms. Examines the determinants of wage and employment levels in perfect and imperfect labor markets, including the concept of education and training as human capital. Models of labor market dynamics are also examined, including those of job search and matching. The role of public policy in the functioning of labor markets is highlighted throughout.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 353",
+    "title": "Public Economics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 with a Minimum Grade of C OR ECON-UA 9010 with a Minimum Grade of C OR ECON-UA 11 with a Minimum Grade of C OR ECON-UB 1 with a Minimum Grade of C OR ECON-UH 2010 with a Minimum Grade of C OR ECON-SHU 10 ).",
+    "description": "In alternate years, stresses policy implications and the development of the theory. Analysis of government economic policies and behavior. Normative and positive economics; the fundamental welfare theorems. What goods should the government provide (public goods)? When should the government tax private behavior (externalities)? Income redistribution and the welfare program. Who pays the tax (tax incidence)? The role of debt policy. On what should taxes be levied (optimal taxation)?",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 354",
+    "title": "Health Economics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 with a Minimum Grade of C OR ECON-UA 9010 with a Minimum Grade of C OR ECON-UA 11 with a Minimum Grade of C OR ECON-UB 1 with a Minimum Grade of C OR ECON-UH 2010 with a Minimum Grade of C OR ECON-SHU 10 ).",
+    "description": "In this course we will study the economics of healthcare demand, provision, and institutions. We will use models and techniques from subfields of economics such as industrial organization, labor economics, information economics, public economics, and behavioral economics to understand the incentives of consumers, doctors, hospitals, insurance companies, and the government as they interact in healthcare markets. The goal is to train students to (a) be able to identify and model the various economic tradeoffs involved in the demand and provision of healthcare, (b) analyze government healthcare policy through the lens of economics, and (c) provide institutional knowledge on American and international health care systems.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 360",
+    "title": "Experimental Economics",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 with a Minimum Grade of C OR ECON-UA 9010 with a Minimum Grade of C OR ECON-UA 11 with a Minimum Grade of C OR ECON-UB 1 with a Minimum Grade of C OR ECON-UH 2010 with a Minimum Grade of C OR ECON-SHU 10 ).",
+    "description": "Experimental economics is predicated on the belief that economics, like other sciences, can be a laboratory science where economic theories are tested, rejected, and revised. This course reviews the methodology of doing such laboratory experiments and investigates the use of experiments in a wide variety of fields. These include competitive markets, auctions, public goods theory, labor economics, game theory, and individual choice theory. The course functions as a research seminar in which students present their work as it progresses during the semester. Students also get exposure to the experimental laboratory in the Department of Economics and the research performed there.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 365",
+    "title": "Advanced Micro Theory (T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "ECON-UA 11 .",
+    "description": "Designed to introduce students to some of the main model-building techniques that have been developed by microeconomists. Intended for advanced undergraduates who have taken the necessary preparatory courses in economics and mathematics. Three basic topics are covered. The first topic is the static theory of consumer behavior both in a certain world and in an uncertain world. The second topic is the theory of general equilibrium. The third topic is the theory of dynamic optimization. In addition to the coverage of the economics, the advanced mathematical techniques that are needed to understand the material are reviewed.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 366",
+    "title": "Markets with Frictions",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 or ECON-UA 11 ) AND ( ECON-UA 12 or ECON-UA 13 ) AND ( ECON-UA 18 or ECON-UA 20 ).",
+    "description": "In this class, we will study the equilibrium and efficiency properties of markets in which there are information frictions\u2014in the sense that market participants have limited information regarding the quality and price of various goods\u2014and transaction frictions\u2014in the sense that market transactions are carried out in a decentralized fashion. We will show that realistic information and transaction fictions can provide a simple and natural explanation for unemployment, credit rationing, wage inequality, price dispersion, as well as for other phenomena that cannot be understood in the context of the neoclassical framework. Moreover, we will show that, once information and transaction frictions are taken into account, the market allocation need not be efficient and appropriate government interventions may lead to welfare gains.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 367",
+    "title": "Advanced Macroeconomics (T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 11 with a Minimum Grade of C OR ECON-UA 10 ) AND ( ECON-UA 12 OR ECON-UA 13 ) AND ( ECON-UA 18 OR ECON-UA 20 ).",
+    "description": "Explores theoretical and empirical issues of central importance to macroeconomic research and policy. Topics include: economic growth, consumption and savings, investment, and business cycle fluctuations. Also explores the relationship between monetary policy and output, and optimal monetary policy. Examines the implications of macroeconomic theory for macroeconomic data. Readings include original research articles.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 368",
+    "title": "Financial Economics (P/T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 or ECON-UA 11 with Minimum Grade of C) AND ( ECON-UA 12 or ECON-UA 13 with Minimum Grade of C) AND ( ECON-UA 266 with Minimum Grade of C) AND cannot have taken FINC-UB 2 AND Cannot be UB Stern.",
+    "description": "Prerequisite: Intermediate Microeconomics ( ECON-UA 10 )\nand Intermediate Macroeconomics ( ECON-UA 12 ). Restriction: not open to\nstudents from the Stern School of Business. Offered every year. 4 points.\n/Provides theoretical and practical tools for understanding the\noperation of financial markets, the meaning of risk, and its relation to\nfinancial return. Also develops concepts of systematic versus\nidiosyncratic risk, market efficiency, the equilibrium determination of\ninterest rates both in the overnight, interbank lending market and in\nthe market for corporate debt, term and default premia in the bond\nmarket, and average excess stock returns in the equity market.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 370",
+    "title": "Topics: Economic Research",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 OR C31.",
+    "description": "Explores economic issues of economic policy using the tools learned in the intermediate micro- and macroeconomic courses. Focuses on a particular issue each term.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 402",
+    "title": "Advanced Econometrics (P,T)",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "(ECON-UA 380 OR ECON-UA 266 ).",
+    "description": "Designed for honors economics majors, but students not pursuing honors who satisfy the GPA requirements (3.65 overall and in economics courses) and meet the prerequisite are encouraged to enroll. Preparation for carrying out empirical research in economics, emphasizing the relationship between economic models and observable data. Covers nonlinear methods and a selection of topics in time-series data.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 410",
+    "title": "Honors Tutorial",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The objective of the course is to train students to write on economic topics and perform economic analysis efficiently and quickly, as well as to develop rhetorical skills. Once a week, two students each present a paper on an assigned topic that has been distributed previously to the other students. The students not presenting that week critique the paper and the presentation, as will the instructor. Each paper is to be revised and submitted to the instructor with a cover sheet that indicates how the student dealt with each of the criticisms.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 450",
+    "title": "Honors Thesis",
+    "department": "econ_ua",
+    "credits": 4.0,
+    "prerequisites": "( ECON-UA 10 OR C31.",
+    "description": "Students interested in pursuing Honors Thesis should meet with the director of undergraduate studies in the spring semester of their junior year.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 997",
+    "title": "Internship in Economics",
+    "department": "econ_ua",
+    "credits": 1.0,
+    "prerequisites": "( ECON-UA 10 OR ECON-UA 11 ) AND ECON-UA 12 AND ECON-UA 13 .",
+    "description": "Prerequisites: Intermediate Microeconomics ( ECON-UA 10 ) or\nMicroeconomics ( ECON-UA 11 );  and Intermediate Macroeconomics ( ECON-UA 12 ) or Macroeconomics ( ECON-UA 13 ); 3.5 GPA; and permission of the director of undergraduate studies. Restrictions: Internships may be taken for a maximum of two credits per semester in no more than two semesters*; internship credit does not count toward major requirements*. Offered every semester. 1 to 2 points per term.\nThe student is an intern in an organization in which they perform duties\nthat significantly enhance their ability to apply economic principles in\npractice. For successful completion of an internship, the student must\nprepare a three-page report in which they describe the manner in which the\ninternship has enhanced their understanding of economics",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  },
+  {
+    "course_code": "ECON-UA 998",
+    "title": "Independent Study",
+    "department": "econ_ua",
+    "credits": 1.0,
+    "prerequisites": "( ECON-UA 10 OR ECON-UA 11 ) AND ( ECON-UA 12 OR ECON-UA 13 ).",
+    "description": "Prerequisites: Intermediate Microeconomics ( ECON-UA 10 ) or\nMicroeconomics ( ECON-UA 11 );  and Intermediate Macroeconomics ( ECON-UA 12 )\nor Macroeconomics ( ECON-UA 13 ); 3.5 GPA; and permission of the director of\nundergraduate studies. Restrictions: No more than a total of 8 points of\nindependent study may be taken; independent study does not count toward\nmajor requirements. Offered every semester. 1 to 4 points per term.\nThe student engages in intensive independent study of an important economic\ntopic under the direction of a departmental faculty member. When engaging\nin independent study, the results of the study are embodied in a report or\npaper to be specified by the instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/econ_ua/"
+  }
+]
