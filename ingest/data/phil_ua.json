@@ -1,0 +1,434 @@
+[
+  {
+    "course_code": "PHIL-UA 1",
+    "title": "Central Problems in Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to philosophy through the study of selected central problems. Topics may include: free will; the existence of God; skepticism and knowledge; the mind-body problem.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 2",
+    "title": "Great Works in Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to philosophy through the study of some of the most important and influential writings in its history. Authors studied may include Plato, Aristotle, Descartes, Hume, Kant, Nietzsche, Wittgenstein.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 3",
+    "title": "Ethics and Society",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to philosophy through the study of selected moral, social,\nand political issues. Topics may include criminal justice and punishment;\npolitical authority and civil disobedience; toleration and free speech;\nracial justice.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 4",
+    "title": "Life and Death",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to philosophy through the study of issues bearing on life and death. Topics may include: definition and value of life; grounds for creating, preserving, and taking life; personal identity; ideas of death and immortality; abortion and euthanasia.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 5",
+    "title": "Minds and Machines",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to philosophy through the study of issues in cognitive science. Topics may include: conflicts between computational and biological approaches to the mind; whether a machine could think; the reduction of the mind to the brain; connectionism and neural nets.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 6",
+    "title": "Global Ethics",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces three broad traditions of normative thinking: one Confucian tradition, one based in Islamic law, and one derived from European liberalism. Addresses three current areas of normative debate: global economic inequality, gender justice, and human rights. Explores these first-order questions against the background of the three broad traditions.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 7",
+    "title": "Consciousness",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines conceptual and empirical issues about consciousness. Issues covered may include the explanatory gap, the hard and harder problems of consciousness, concepts of consciousness, phenomenal concepts, the mind-body problem and neural correlates of consciousness, higher-order thought theories of consciousness, the inverted spectrum, views of phenomenality as representation, and arguments for dualism.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 8",
+    "title": "Philosophical Approaches to Race and Racism",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A philosophical exploration of race and racism. Explores the concept of race, and examines normative and conceptual issues surrounding the most morally significant of the ways in which \u201crace\u201d has mattered for social life. Asks what racism is, what sorts of things can be racist, and what makes racism wrong. Considers some possible responses to racism: for example, should the state, or we in our private lives, be colorblind?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 20",
+    "title": "Ancient Greek and Roman Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines some of the most important philosophical ideas and developments in\nAncient Greece and Rome. Covers major writings by Plato and Aristotle, and\na selection of writings by such thinkers as the Presocratics, Stoics,\nEpicureans, and Skeptics.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 21",
+    "title": "Early Modern European Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines some of the most important philosophical ideas and developments in\nseventeenth- and eighteenth-century Europe. Covers some of the major\nwritings of Descartes, Spinoza, Leibniz, Locke, and Hume, and concludes\nwith a brief examination of some aspects of Kant\u2019s philosophy. (Kant is\nexamined in more detail in PHIL-UA 30 .) May also include writings of\nHobbes, Malebranche, Elisabeth of Bohemia, Conway, Berkeley, and Shepherd,\namong others.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 22",
+    "title": "Plato",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines various aspects of Plato\u2019s philosophy: ethics, metaphysics,\nepistemology, psychology, and political philosophy. Aims to understand\nPlato\u2019s ideas and to engage with them philosophically through careful\nreadings of selected dialogues.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 30",
+    "title": "Kant",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Study of some of Immanuel Kant\u2019s major works, including the Critique of\nPure Reason, the Prolegomena to Any Future Metaphysics, the Groundwork for\nthe Metaphysics of Morals, and the Critique of Practical Reason.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 32",
+    "title": "Nineteenth-Century European Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines some of the most important philosophical ideas and developments in\nEurope in the nineteenth century, preceded by a brief examination of some\naspects of Kant\u2019s philosophy. (Kant is examined in more detail in PHIL-UA\n30 .) Covers major writings by Hegel, and a selection of writings,\ndetermined by the special focus of the particular version of the course,\nfrom such thinkers as Fichte, Schelling, Feuerbach, Schopenhauer, Mill,\nComte, Marx, Kierkegaard, and Nietzsche.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 39",
+    "title": "Twentieth-Century Continental Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines some of the most important philosophical ideas and developments in\nthe \u201cContinental\u201d tradition in Europe in the twentieth century. After a\nreview of some nineteenth-century developments, covers major works by\nHeidegger and Sartre, and some selection, determined by the instructor's\nparticular focus, of writings by such figures as Husserl, Gadamer, Arendt,\nBeauvoir, Merleau-Ponty, Foucault, and Deleuze.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 40",
+    "title": "Ethics",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines fundamental questions of moral philosophy: What are our most basic values, and which of them are specifically moral values? What are the ethical principles, if any, by which we should judge our actions, ourselves, and our lives?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 41",
+    "title": "The Nature of Values",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines the nature and grounds of judgments about moral and/or nonmoral values. Are such judgments true or false? Can they be more or less justified? Are the values of which they speak objective or subjective?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 45",
+    "title": "Political Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examines fundamental issues concerning the justification of political institutions. Topics may include democratic theory, political obligation and liberty, criteria of a just society, human rights, and civil disobedience.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 50",
+    "title": "Medical Ethics",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines moral issues in medical practice and research. Topics include euthanasia and quality of life; deception, hope, and paternalism; malpractice and unpredictability; patient rights, virtues, and vices; animal, fetal, and clinical research; criteria for rationing medical care; ethical principles, professional codes, and case analysis (for example, Quinlan, Willowbrook, Baby Jane Doe).",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 60",
+    "title": "Aesthetics",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Introduces problems raised by the nature of art, artworks, and aesthetic judgment. Considers the expressive and representational properties of artworks, aesthetic attention, and appreciation, as well as the creation, interpretation, and criticism of artworks. Readings from classical and contemporary sources.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 70",
+    "title": "Logic",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the basic techniques of sentential and predicate logic. Students learn how to put arguments from ordinary language into symbols, how to construct derivations within a formal system, and how to ascertain validity using truth tables or models.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 72",
+    "title": "Metalogic",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ).",
+    "description": "An introduction to the basic concepts, methods, and results of metalogic, including rigorous definitions of provability and model-theoretic consequence and the soundness and completeness theorems for first-order logic. The course may also cover further topics such as the compactness theorem, the L\u00f6wenheim-Skolem theorems, and applications of non-standard models.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 73",
+    "title": "Set Theory",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ).",
+    "description": "An introduction to the basic concepts and results of set theory.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 74",
+    "title": "Systems of Logic",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ).",
+    "description": "An introduction to the comparative study of systems of logic, with a focus in any year on a chosen set of logics, discussing their technical foundations, philosophical motivations, and applications. Examples include modal logics, higher-order logics, and weakenings of classical logic.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 75",
+    "title": "Computability and Incompleteness",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ).",
+    "description": "An introduction to the theory of computability and to the major limitative results of mathematical logic, including the undecidability of first-order logic, G\u00f6del's incompleteness theorems, and Tarski's theorem on the non-definability of truth.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 76",
+    "title": "Epistemology",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Introduction to some of the central notions in analytic epistemology, e.g. knowledge, evidence, justification, rationality, and more. Some questions addressed: Can we have knowledge of the external world? How does knowledge differ from a lucky guess? When are our beliefs reasonable or justified? How should we respond to peer disagreement?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 78",
+    "title": "Metaphysics",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR equivalents) AND PHIL-UA 70 OR PHIL-SHU 70 OR MATH-UA 120 .",
+    "description": "Discusses general questions concerning the nature of reality and truth. What kind of things exist? Are there minds or material bodies? Is change illusory? Are human actions free or causally determined? What is a person, and what, if anything, makes someone one and the same person?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 80",
+    "title": "Philosophy of Mind",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examination of the relationship between the mind and the brain, of the nature of the mental, and of personal identity. Can consciousness be reconciled with a scientific view of the world?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 83",
+    "title": "Philosophy of Artificial Intelligence",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 or PHIL-UA 2 or PHIL-UA 3 or PHIL-UA 4 or PHIL-UA 5 or PHIL-UA 6 or PHIL-UA 7 or PHIL-UA 8 .",
+    "description": "We will look at a range of questions raised by the technology of artificial intelligence, and by large language models in particular. Topics include: How do LLMs work? Do they represent the world; do they think; do they understand what they are saying? Could an AI ever be conscious? What responsibilities do we have when we delegate decisions to AI? Should we treat AI kindly; is it immoral to switch it off? Could it destroy us? If not, what kind of future will AI bring? What will AI mean for work? For scientific research? For friendship and love?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 85",
+    "title": "Philosophy of Language",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR equivalents) AND PHIL-UA 70 OR PHIL-SHU 70 OR MATH-UA 120 .",
+    "description": "Examines various philosophical and psychological approaches to language and meaning and their consequences for traditional philosophical problems in metaphysics, epistemology, and ethics. Discusses primarily 20th-century authors, including Russell, Wittgenstein, and Quine.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 88",
+    "title": "How Science Works",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What is science? Is there a scientific method? How do experiments provide evidence for theories? Which aspects of scientific argument and reasoning are subjective and which are objective? What role do aesthetic considerations play in scientific thinking? How does the social organization of science contribute to its success? How should politicians and public policy makers \u201cfollow the science\u201d? Investigates these questions using logical argument, sociological methods, and historical contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 90",
+    "title": "Philosophy of Science",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Examination of philosophical issues about the natural sciences. Central questions include the following: What is the nature of scientific explanation? How does science differ from pseudoscience? What is a scientific law? How do experiments work?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 93",
+    "title": "Philosophical Applications of Cognitive Science",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "The relevance of recent discoveries about the mind to philosophical questions about metaphysics, logic, and ethics. Questions include: What is causation? Is there a right way to \u201ccarve up\u201d the world into categories? Why do we see the world as consisting of objects in places? Are the rules of logic objective or just the way we happen to think? Is there such a thing as objective right and wrong?",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 94",
+    "title": "Philosophy of Physics",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Different approaches to understanding space and time, including the debates between Newton and Leibniz and Einstein\u2019s special and general theories of relativity. Mathematics above the level of algebra is neither used nor required.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 96",
+    "title": "Philosophy of Religion",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR PHIL-SHU 101 OR PHIL-SHU 107 OR PHIL-SHU 115 OR PHIL-UH 1101 OR PHIL-UH 1110 OR PHIL-UH 1115 OR PHIL-UH 1117 OR PHIL-UH 1118 .",
+    "description": "Among the topics discussed are the nature of religion, the concept of God, the grounds of belief in God, the immortality of the soul, and faith, revelation, and problems of religious language. Readings from both classic and contemporary sources",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 98",
+    "title": "Philosophy of Math",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 1 OR PHIL-UA 2 OR PHIL-UA 3 OR PHIL-UA 4 OR PHIL-UA 5 OR PHIL-UA 6 OR PHIL-UA 7 OR PHIL-UA 8 OR equivalents) AND PHIL-UA 70 OR PHIL-SHU 70 OR MATH-UA 120 .",
+    "description": "Critical discussion of alternative philosophical views as to what mathematics is, such as Platonism, empiricism, constructivism, intuitionism, formalism, logicism, and various combinations thereof.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 101",
+    "title": "Topics in The History of Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 20 OR PHIL-UA 21 OR PHIL-UA 22 OR PHIL-UA 24 OR PHIL-UA 25 OR PHIL-UA 30 OR PHIL-UA 32 OR PHIL-UA 39 OR PHIL-UA 122 OR PHIL-UA 123 ).",
+    "description": "Careful study of a few topics in the history of philosophy\u2014either one\nphilosopher\u2019s treatment of several philosophical problems, or several\nphilosophers\u2019 treatments of one or two closely related problems. Examples:\nConfucianism; ancient skepticism; theories of causation in early modern\nphilosophy; Indian and Buddhist philosophy of mind; existentialism.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 102",
+    "title": "Topics in Ethics & Pol Philosophy",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 40 or PHIL-UA 41 OR PHIL-UA 45 ).",
+    "description": "Thorough study of various concepts and issues in current theory and debate. Examples: moral and political rights; virtues and vices; equality; moral objectivity; the development of moral character; the variety of ethical obligations; ethics and public policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 103",
+    "title": "Topics in Metaphysics & Epistemology",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 76 OR PHIL-UA 78 OR PHIL-UA 90 ).",
+    "description": "Careful study of a few current issues in epistemology and metaphysics. Examples: skepticism, necessity, causality, personal identity, and possible worlds.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 104",
+    "title": "Topics in Language & Mind",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "( PHIL-UA 70 OR PHIL-SHU 70 OR PHIL-UH 1810 OR MATH-UA 120 ) AND ( PHIL-UA 80 OR PHIL-UA 85 ).",
+    "description": "Careful study of a few current issues in language and mind. Examples: theory of reference, analyticity, intentionality, theory of mental content and attitudes, emergence and supervenience of mental states.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 122",
+    "title": "The Greek Thinkers",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The origins of nonmythical speculation among the Greeks and the main patterns of philosophical thought, from Thales and other early speculators about the physical nature of the world through Socrates, Plato, Aristotle, the Stoics, the Epicureans, and the Neoplatonists",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 123",
+    "title": "Readings in Chinese Philosophy and Culture",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Basic introduction to the writings of Confucius, his adversaries, and his successors, followed by a reading of several novels regarded as national classics.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 201",
+    "title": "Fall Honors Proseminar",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "To be taken by honors program students in the fall of senior year. Students study a variety of potential topics to prepare for writing an honors thesis or sitting an honors exam, determined in part by the interests of those enrolled.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 202",
+    "title": "Spring Honors Thesis Workshop",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "Fall Honors Proseminar.",
+    "description": "To be taken by honors program students in the spring of their senior year. Students participate in a weekly discussion workshop either oriented towards the development of their senior thesis proposal or towards preparation for the honors exam.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 301",
+    "title": "Independent Study",
+    "department": "phil_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "A student may register for an independent study course ( PHIL-UA 301 , 302 ; 2 or 4 credits per term) by obtaining the consent of a faculty member who approves the study project and agrees to serve as adviser and also the approval of the director of undergraduate studies. No student may take more than one such course in any given semester and no more than two such courses in total, unless granted special permission by the director of undergraduate studies. Available only for study of subjects not covered in regularly offered courses. This course may be used in connection with an internship or practical training, but must also include substantial philosophical reading and writing. Only one Independent Study in connection with an internship may count toward the program requirements. Students may earn no more than 8 credits total in independent study. Interested students should write to faculty member(s) who specialize in the relevant area with a proposed course of study and a brief justification for pursuing it. If a faculty member agrees to supervise the independent study, please then submit an application here: https://docs.google.com/forms/d/e/1FAIpQLSeS5wHKiT_rheNOVJR6fRlNaZ3CjA65AOgo3_MEStM7B3KOfw/viewform. The application will need to specify the topic; the frequency and duration of planned meetings; an assignment plan; a reading list; and the number of credits (a 4-credit independent study should have a similar number of contact hours, readings, and assignments as a regular 4-credit course; a 2-credit independent study should have about half as many contact hours, readings, and assignments. 4-credit independent studies are relatively rare; it is usually easier to find an advisor for a 2-credit independent study).",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 302",
+    "title": "Independent Study",
+    "department": "phil_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "A student may register for an independent study course ( PHIL-UA 301 , 302 ; 2 or 4 credits per term) by obtaining the consent of a faculty member who approves the study project and agrees to serve as adviser and also the approval of the director of undergraduate studies. A student may take no more than one such course in any given semester and no more than two such courses in total, unless granted special permission by the director of undergraduate studies. Available only for study of subjects not covered in regularly offered courses. This course may be used in connection with an internship or practical training, but must also include substantial philosophical reading and writing. Only one Independent Study in connection with an internship may count toward the program requirements. Students may earn no more than 8 credits total in independent study. Interested students should write to faculty member(s) who specialize in the relevant area with a proposed course of study and a brief justification for pursuing it. If a faculty member agrees to supervise the independent study, please then submit an application here: https://docs.google.com/forms/d/e/1FAIpQLSeS5wHKiT_rheNOVJR6fRlNaZ3CjA65AOgo3_MEStM7B3KOfw/viewform. The application must specify the topic; the frequency and duration of planned meetings; an assignment plan; a reading list; and the number of credits (a 4-credit independent study should have a similar number of contact hours, readings, and assignments as a regular 4-credit course; a 2-credit independent study should have about half as many contact hours, readings, and assignments. Four-credit independent studies are relatively rare; it is usually easier to find an advisor for a 2-credit independent study).",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 420",
+    "title": "A Philosophical Path to Spiritual Awakenings",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An intellectual and experiential exploration of an ancient Jewish spiritual path that melds philosophy with spiritual awakening. Topics we'll cover include: how to live with equanimity and joy, how to cultivate positive character traits, how to work\nwith difficult emotions, how to contemplate God, how to cultivate a kind heart.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 422",
+    "title": "Living a Good Life: Greek and Jewish Perspectives",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What makes a life well-lived? Central questions to be explored include:\nDoes living well require acquiring knowledge and wisdom? What is the place\nof moral responsibility in the good life? Is the good life a happy life or\ndoes it require sacrificing happiness? Does religion lead to living well or\ndoes it hinder it? What is friendship and how does it contribute to the\ngood life? Thinkers to be studied may include: Aristotle, Seneca,\nMaimonides, Glikl, Spinoza, and Levinas.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  },
+  {
+    "course_code": "PHIL-UA 428",
+    "title": "Creating a Good Society: Christian and Jewish Perspectives",
+    "department": "phil_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores Greek, Christian and Jewish responses to the problem:\nHow does one create a good society? Central questions to be explored\ninclude: What is the best form of government? What economic system is\nideal? Should the government actively promote a vision of the good life or\nleave it to individual to decide the good for themselves? Should the\ngovernment prioritize the freedom, equality, or happiness of its\ninhabitants? What role should religion and nationhood play in society? What\nmodels of education should the government promote? How does gender inform\nthese considerations? The course will focus on careful analysis of primary\ntexts. Thinkers to be studied include: Plato, Maimonides, Hobbes, Locke,\nRousseau, Wollstonecraft, Mendelssohn, Marx, Hess. Having first taken the\ncourse: Living a Good Life: Greek and Jewish Perspectives is highly\ndesirable.",
+    "source_url": "https://bulletins.nyu.edu/courses/phil_ua/"
+  }
+]

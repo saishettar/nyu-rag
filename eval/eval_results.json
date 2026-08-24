@@ -12,8 +12,8 @@
       "CSCI-UA 473"
     ],
     "hit": true,
-    "answer": "Based on the listings, several courses list **CSCI-UA 102 (Data Structures)** as a prerequisite, making them good options to take next:\n\n- **[CSCI-UA 479]** Data Management and Analysis \u2014 requires CSCI-UA 102 with a Minimum Grade of C (or equivalent). It covers extracting, transforming, and analyzing data using relational and non-relational databases, data modeling, and API programming.\n\n- **[CSCI-UA 310]** Basic Algorithms \u2014 requires CSCI-UA 102 (Min Grade C) plus MATH-UA 120 and MATH-UA 121/131. It builds directly on data structures knowledge, covering algorithm design and efficiency analysis (sorting, searching, graph algorithms).\n\n- **[CSCI-UA 201]** Computer Systems Organization \u2014 requires CSCI-UA 102 (or equivalents) with a Minimum Grade of C. It moves into computer architecture, assembly language, and low-level programming concepts like pointers.\n\n- **[CSCI-UA 473]** Fundamentals of Machine Learning \u2014 requires CSCI-UA 102 plus specific math courses (MATH-UA 140 and one of MATH-UA 185/333/334/338 or MA-UY 2224). This is a good option if you're also prepared with the math prerequisites and interested in ML applications.\n\n**Recommendation:** If you're following a typical core CS sequence, **[CSCI-UA 310] Basic Algorithms** or **[CSCI-UA 201] Computer Systems Organization** are the most direct continuations, as they only require CSCI-UA 102 (plus math for 310) without additional specialized math prerequisites like [CSCI-UA 473] requires. **[CSCI-UA 479]** is also a strong choice if you're interested in data-focused work and don't need extra math prerequisites beyond CSCI-UA 102.",
-    "groundedness": "GROUNDED: The answer accurately lists courses with CSCI-UA 102 as a prerequisite and correctly describes their prerequisite structures and course content based solely on the provided CONTEXT, citing multiple course codes."
+    "answer": "Based on the listings, several courses list **CSCI-UA 102 (Data Structures)** as a prerequisite, making them good options to take next:\n\n- **[CSCI-UA 479] Data Management and Analysis** \u2013 requires CSCI-UA 102 with a Minimum Grade of C (or equivalent). It covers relational and non-relational databases, data querying, and data analysis tools.\n\n- **[CSCI-UA 310] Basic Algorithms** \u2013 requires CSCI-UA 102 with a Minimum Grade of C, plus MATH-UA 120 and MATH-UA 121 (or MATH-UA 131). It builds directly on data structures knowledge, focusing on algorithm design and efficiency analysis.\n\n- **[CSCI-UA 201] Computer Systems Organization** \u2013 requires CSCI-UA 102 (or equivalent) with a Minimum Grade of C. It moves into computer architecture, assembly language, and low-level programming concepts.\n\n- **[CSCI-UA 473] Fundamentals of Machine Learning** \u2013 requires CSCI-UA 102 along with specific math courses (MATH-UA 140 and one of MATH-UA 185/333/334/338 or MA-UY 2224). It's a good choice if you're interested in applying data structures knowledge to machine learning applications.\n\nIf your interest is in theoretical computer science and algorithmic thinking, **[CSCI-UA 310]** is a natural next step. If you're interested in practical data handling, **[CSCI-UA 479]** fits well. For systems-level programming, **[CSCI-UA 201]** is ideal, and for AI/ML applications, **[CSCI-UA 473]** is a strong choice (provided you meet the math prerequisites).",
+    "groundedness": "GROUNDED: All course codes, prerequisites, and descriptions cited match the CONTEXT accurately, with no unsupported claims added."
   },
   {
     "question": "Which introductory programming course has no prerequisites and is meant for complete beginners?",
@@ -28,8 +28,8 @@
       "CSCI-UA 453"
     ],
     "hit": true,
-    "answer": "Based on the listings, **CSCI-UA 2 (Introduction to Computer Programming (No Prior Experience))** has no prerequisites listed and is explicitly designed for complete beginners: \"No prior computer experience assumed\" [CSCI-UA 2].\n\nBy contrast, **CSCI-UA 3 (Introduction to Computer Programming (Limited Prior Experience))** also lists no prerequisites, but it is intended for students \"who already have had some exposure to programming,\" not complete beginners [CSCI-UA 3].\n\nSo the course meant specifically for those with no prior experience is **[CSCI-UA 2]**.",
-    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's description of CSCI-UA 2 (no prerequisites, no prior experience assumed) and correctly contrasts it with CSCI-UA 3, citing both course codes."
+    "answer": "Based on the course listings, **[CSCI-UA 2]** (Introduction to Computer Programming - No Prior Experience) is the introductory programming course with no prerequisites that is meant for complete beginners.\n\nAccording to its listing, [CSCI-UA 2] explicitly states: \"No prior computer experience assumed\" and requires only \"Three years of high school mathematics or equivalent\" \u2014 it lists no course prerequisites (Prerequisites: None).\n\nBy contrast, [CSCI-UA 3] is designed for students with \"some exposure to programming\" (Limited Prior Experience), making [CSCI-UA 2] the correct choice for someone with absolutely no programming background.",
+    "groundedness": "GROUNDED: The answer accurately reflects CSCI-UA 2's listed \"Prerequisites: None,\" its \"No prior computer experience assumed\" description, and correctly contrasts it with CSCI-UA 3, citing valid course codes from the context."
   },
   {
     "question": "Which course teaches relational databases and SQL?",
@@ -44,8 +44,8 @@
       "DS-UA 202"
     ],
     "hit": true,
-    "answer": "Based on the course listings, three courses cover relational databases and SQL:\n\n- **[CSCI-UA 60]** (Database Design and Implementation) explicitly states it uses \"SQL to study the principles and implementations of relational databases\" and also introduces other paradigms like NoSQL.\n\n- **[CSCI-UA 479]** (Data Management and Analysis) covers \"traditional relational databases as well as non-relational databases to store, manipulate, and query data.\"\n\n- **[CSCI-UA 480]** (Special Topics in Computer Science) also describes working with \"traditional relational databases as well as non-relational databases.\"\n\nNote that [CSCI-UA 60] and [CSCI-UA 479] are mutually exclusive \u2014 students who complete one are not eligible to take the other, as stated in both listings.",
-    "groundedness": "GROUNDED \u2014 All claims (relational databases/SQL in CSCI-UA 60, relational/non-relational coverage in CSCI-UA 479 and CSCI-UA 480, and the mutual exclusivity note) are directly supported by the provided course descriptions and cite multiple course codes."
+    "answer": "Based on the course listings, two courses explicitly teach relational databases and SQL:\n\n1. **[CSCI-UA 60]** (Database Design and Implementation) \u2013 Explicitly states it introduces students to \"SQL to study the principles and implementations of relational databases\" along with Python and NoSQL paradigms.\n\n2. **[CSCI-UA 479]** (Data Management and Analysis) \u2013 Covers \"traditional relational databases as well as non-relational databases to store, manipulate, and query data,\" though it does not explicitly name SQL in the description.\n\nNote that [CSCI-UA 60] and [CSCI-UA 479] are mutually exclusive courses (completing one makes you ineligible for the other), and [CSCI-UA 60] is the only listing that explicitly mentions **SQL** by name for studying relational databases.",
+    "groundedness": "GROUNDED: The answer accurately cites CSCI-UA 60's explicit mention of SQL and relational databases, and correctly notes CSCI-UA 479 covers relational databases without naming SQL, all directly supported by the context."
   },
   {
     "question": "Is there a course on operating systems?",
@@ -61,7 +61,7 @@
     ],
     "hit": true,
     "answer": "Yes. **[CSCI-UA 202] Operating Systems** covers the principles and design of operating systems, including process scheduling and synchronization, deadlocks, memory management (including virtual memory), and input-output and file systems, along with programming assignments [CSCI-UA 202].\n\nIts prerequisite is CSCI-UA 201 (or equivalent: CENG-SHU 202, CS-UH 2010, or ENGR-UH 3511) with a minimum grade of C [CSCI-UA 202].",
-    "groundedness": "GROUNDED \u2014 the answer accurately restates CSCI-UA 202's description and prerequisites as given in the context, with no unsupported claims."
+    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites for CSCI-UA 202 as stated in the context, with no unsupported claims."
   },
   {
     "question": "What course should I take to learn about neural networks and machine learning?",
@@ -76,8 +76,8 @@
       "CSCI-UA 453"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, here are the courses relevant to neural networks and machine learning:\n\n- **[DS-UA 112]** Principles of Data Science II directly covers machine learning, including \"supervised learning, unsupervised learning, and reinforcement learning,\" as well as \"classical prediction and classification methods such as random forests or support vector machines as well as **neural network approaches** to these problems.\" It also touches on \"current developments in machine learning, such as generative AI.\" This course requires DS-UA 111 as a prerequisite and is restricted to students majoring/minoring in Data Science or related fields.\n\n- **[CSCI-UA 473]** Fundamentals of Machine Learning teaches \"the theoretical foundations and how to apply machine learning to solve new problems,\" with applications like face detection, recommendation systems, and medical diagnostics. Prerequisites include CSCI-UA 102, MATH-UA 140, and one of MATH-UA 185/333/334/338 or MA-UY 2224.\n\n- **[CSCI-UA 74]** Big Ideas: Artificial Intelligence offers a \"high-level overview\" of AI topics including \"machine learning, natural language processing, computer vision,\" taught by AI experts including Yann LeCun. It has no prerequisites, making it accessible if you want an introductory, conceptual overview rather than technical depth.\n\n- **[DS-UA 205]** Machine Learning for Climate Change applies \"modern machine learning techniques\" to climate problems, but this is a more specialized/advanced course requiring **[DS-UA 112]** and other math prerequisites, plus a corequisite of **[CSCI-UA 473]**.\n\n**Recommendation:** If you want a foundational, in-depth treatment of neural networks and machine learning, **[DS-UA 112]** or **[CSCI-UA 473]** would be most direct, depending on your prerequisites and major. If you want a lighter, conceptual introduction first, **[CSCI-UA 74]** has no prerequisites and covers similar themes at a high level.",
-    "groundedness": "GROUNDED: All claims (course descriptions, prerequisites, and topics) are directly supported by the CONTEXT, and multiple course codes (DS-UA 112, CSCI-UA 473, CSCI-UA 74, DS-UA 205) are cited."
+    "answer": "Based on the course listings provided, here are courses relevant to neural networks and machine learning:\n\n1. **[DS-UA 112] Principles of Data Science II** \u2013 This course explicitly covers machine learning, including \"supervised learning, unsupervised learning, and reinforcement learning,\" and specifically mentions \"neural network approaches\" to classification and prediction problems, as well as touching on \"current developments in machine learning, such as generative AI\" [DS-UA 112].\n\n2. **[CSCI-UA 473] Fundamentals of Machine Learning** \u2013 This course teaches \"theoretical foundations\" of machine learning and how to \"apply machine learning to solve new problems,\" covering applications like face detection and recommendation systems [CSCI-UA 473].\n\n3. **[CSCI-UA 74] Big Ideas: Artificial Intelligence** \u2013 A high-level overview course that introduces \"fundamentals of AI and its key sub-areas including machine learning, natural language processing, computer vision\" [CSCI-UA 74]. Note this is a broader, high-level survey rather than a technical deep-dive.\n\n4. **[DS-UA 205] Machine Learning for Climate Change** \u2013 This is a more advanced/applied course that combines \"modern machine learning techniques\" with climate applications, but it requires DS-UA 112 as a prerequisite [DS-UA 205], so it builds on foundational ML knowledge.\n\n**Recommendation:** If you want a foundational course that specifically covers neural networks alongside other ML methods, **[DS-UA 112]** is the most directly relevant based on its explicit mention of neural network approaches. **[CSCI-UA 473]** is also a strong option for machine learning fundamentals, though the listing doesn't explicitly mention neural networks by name. If you want a lighter introductory overview first, **[CSCI-UA 74]** could serve as a starting point before diving into more technical coursework.",
+    "groundedness": "GROUNDED: All claims about course content, prerequisites, and descriptions accurately reflect the CONTEXT, and multiple course codes (DS-UA 112, CSCI-UA 473, CSCI-UA 74, DS-UA 205) are cited with correctly attributed details."
   },
   {
     "question": "Which course covers natural language processing?",
@@ -92,8 +92,8 @@
       "CSCI-UA 380"
     ],
     "hit": true,
-    "answer": "Two cross-listed courses cover Natural Language Processing:\n\n- **[CSCI-UA 469]** Natural Language Processing \u2014 applies computational and linguistic knowledge to processing natural languages (English, Chinese, Spanish, Japanese), covering topics like machine translation, information extraction, information retrieval, formal languages, hidden Markov models, part of speech tagging, vector-based methods, shallow and full parsing, semantic role labeling, and machine translation.\n\n- **[DS-UA 302]** Natural Language Processing \u2014 this is explicitly noted as cross-listed with CSCI-UA 469 (\"CSCI-UA 469 (sponsor) and DS-UA 302 (non-sponsor) are cross-listed\"), and shares identical course content and description.\n\nBoth require CSCI-UA 201 with a grade of C or higher as a prerequisite [CSCI-UA 469][DS-UA 302].",
-    "groundedness": "GROUNDED: All claims (course descriptions, cross-listing note, and shared prerequisite) directly match the CONTEXT, and both CSCI-UA 469 and DS-UA 302 are cited."
+    "answer": "Two cross-listed courses cover Natural Language Processing:\n\n- **[CSCI-UA 469]** Natural Language Processing \u2013 This course applies computational and linguistic knowledge to processing natural languages (English, Chinese, Spanish, Japanese), covering topics like formal languages, hidden Markov models, part of speech tagging, vector-based methods, parsing, semantic role labeling, information extraction, and machine translation. Prerequisite: CSCI-UA 201 with a grade of C or higher [CSCI-UA 469].\n\n- **[DS-UA 302]** Natural Language Processing \u2013 This is the same course content, cross-listed with CSCI-UA 469 (with DS-UA 302 as the non-sponsor listing), covering identical topics and applications [DS-UA 302].\n\nBoth listings explicitly note they are cross-listed with each other [CSCI-UA 469][DS-UA 302].",
+    "groundedness": "GROUNDED \u2014 the answer accurately reflects the CONTEXT's description of CSCI-UA 469 and DS-UA 302 as cross-listed NLP courses, citing both course codes without adding unsupported claims."
   },
   {
     "question": "What's the prerequisite chain to get into Theory of Computation?",
@@ -104,12 +104,12 @@
       "CSCI-UA 453",
       "MATH-UA 120",
       "MATH-UA 251",
-      "DS-UA 300",
-      "MATH-UA 358"
+      "PHIL-UA 75",
+      "DS-UA 300"
     ],
     "hit": true,
-    "answer": "Based on the listings, [CSCI-UA 453] Theory of Computation requires:\n\n**( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 )** [CSCI-UA 453]\n\nIn other words, you need to complete **one course from each of two groups**:\n\n- **Group 1** (one of): CSCI-UA 201, CS-UH 2010, ENGR-UH 3511, or CENG-SHU 202\n- **Group 2** (one of): CSCI-UA 310, CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220\n\nNote: The provided course listings do not include detailed descriptions or further prerequisite chains for CSCI-UA 201, CS-UH 2010, ENGR-UH 3511, CENG-SHU 202, CSCI-UA 310, CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220 themselves, so I cannot trace the chain further back (e.g., what prerequisites those courses might require) using only the information given.",
-    "groundedness": "GROUNDED: The answer accurately restates the prerequisite structure for CSCI-UA 453 as given in the context, correctly notes the limits of the provided information, and cites the course code."
+    "answer": "To enroll in **[CSCI-UA 453] Theory of Computation**, you need to satisfy **both** of the following requirement groups:\n\n1. **One of:**\n   - CSCI-UA 201\n   - CS-UH 2010\n   - ENGR-UH 3511\n   - CENG-SHU 202\n\n2. **AND one of:**\n   - CSCI-UA 310\n   - CS-UH 1052\n   - ENGR-UH 3510\n   - CSCI-SHU 220\n\nThis is stated directly in the course listing: *\"Prerequisites: ( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 )\"* [CSCI-UA 453].\n\n**Note on chain depth:** The provided course listings do not include entries for CSCI-UA 201, CS-UH 2010, ENGR-UH 3511, CENG-SHU 202, CSCI-UA 310, CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220 themselves. Since none of these courses appear elsewhere in the provided listings, I cannot trace further back into their own prerequisites \u2014 the information given only establishes this one direct layer of prerequisites for [CSCI-UA 453]. If you need the full chain (i.e., what's required to get into those feeder courses), that information isn't available in the listings provided.",
+    "groundedness": "GROUNDED \u2014 the answer accurately restates the exact prerequisite text for CSCI-UA 453 and correctly notes that further prerequisite chains for the listed feeder courses are not present in the given context."
   },
   {
     "question": "Is there a course on cryptography?",
@@ -124,8 +124,8 @@
       "MATH-UA 395"
     ],
     "hit": true,
-    "answer": "Yes. **[CSCI-UA 478] Intro to Cryptography** is a course on cryptography. It covers \"symmetric-key encryption (block ciphers, modes of operations, AES), message authentication (pseudorandom functions, CBC-MAC), public-key encryption (RSA, ElGamal), digital signatures (RSA, Fiat-Shamir), and authentication applications (identification, zero-knowledge)\" [CSCI-UA 478].\n\nIts prerequisites are \"( CSCI-UA 310 with a Minimum Grade of C OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 )\" [CSCI-UA 478].",
-    "groundedness": "GROUNDED \u2014 The answer accurately quotes CSCI-UA 478's description and prerequisites directly from the CONTEXT without adding unsupported claims, and cites the course code."
+    "answer": "Yes. **[CSCI-UA 478] Intro to Cryptography** covers cryptography topics, including symmetric-key encryption (block ciphers, modes of operation, AES), message authentication (pseudorandom functions, CBC-MAC), public-key encryption (RSA, ElGamal), digital signatures (RSA, Fiat-Shamir), and authentication applications (identification, zero-knowledge) [CSCI-UA 478].\n\nIts prerequisites are: CSCI-UA 310 (with a minimum grade of C), OR CS-UH 1052, OR ENGR-UH 3510, OR CSCI-SHU 220 [CSCI-UA 478].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites for CSCI-UA 478 as stated in the context, with no unsupported claims."
   },
   {
     "question": "What course covers big data processing and analytics?",
@@ -140,8 +140,8 @@
       "DS-UA 111"
     ],
     "hit": true,
-    "answer": "Based on the course listings, **CSCI-UA 476 (Processing Big Data for Analytics Applications)** is the course that directly covers big data processing and analytics [CSCI-UA 476]. It focuses specifically on \"platforms, tools, and the architectures that facilitate scalable management and processing of vast quantities of data,\" including hands-on experience with tools like Hadoop MapReduce, HBase, Hive, Impala, Pig, Spark, and Kafka [CSCI-UA 476].\n\nAdditionally, **CSCI-UA 475 (Predictive Analytics)** is related, though it focuses more on extracting insights and predictions from historical/present data using machine learning algorithms (e.g., data clustering, classification, recommender systems) rather than big data infrastructure specifically [CSCI-UA 475].\n\nIf you're looking for the course most centered on \"big data\" processing systems specifically, **CSCI-UA 476** is the best match [CSCI-UA 476].",
-    "groundedness": "GROUNDED: The answer's claims about CSCI-UA 476 and CSCI-UA 475 accurately reflect the course descriptions given in the context, and it cites course codes appropriately."
+    "answer": "Based on the course listings, **[CSCI-UA 476] Processing Big Data for Analytics Applications** is the course that specifically covers big data processing and analytics. It \"introduces platforms, tools, and the architectures that facilitate scalable management and processing of vast quantities of data,\" including hands-on experience with distributed storage (Apache Hadoop HDFS) and distributed processing tools such as Hadoop MapReduce, HBase, Hive, Impala, Pig, Spark, Spark SQL, Spark Streaming, Oozie, Zookeeper, Flume, and Kafka [CSCI-UA 476].\n\nNote: **[CSCI-UA 475] Predictive Analytics** is related but focuses more on analytics techniques (data mining, classification, clustering, recommender systems) rather than big data infrastructure specifically [CSCI-UA 475]. If your interest is in the technical infrastructure and tools for processing large-scale data, CSCI-UA 476 is the more directly relevant course.",
+    "groundedness": "GROUNDED: The answer accurately quotes and summarizes CSCI-UA 476's description and reasonably characterizes CSCI-UA 475 without adding unsupported claims, citing both course codes."
   },
   {
     "question": "Which course teaches software engineering practices?",
@@ -156,8 +156,8 @@
       "CSCI-UA 430"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, two courses are directly relevant to software engineering practices:\n\n- **[CSCI-UA 474] Software Engineering** \u2014 This course explicitly focuses on \"practical techniques and methods of software engineering,\" including advanced object-oriented design, design patterns, refactoring, code optimization, UML, threading, user interface design, enterprise application development, and development tools, applied through a semester-long group project [CSCI-UA 474].\n\n- **[CSCI-UA 430] Agile Software Development and DevOps** \u2014 This course also teaches software engineering practices, specifically focused on Agile methodology and DevOps automation, covering \"core methodologies, technologies, and tools used in the software industry today\" [CSCI-UA 430].\n\nBoth require **CSCI-UA 201** (or equivalent) with a minimum grade of C as a prerequisite [CSCI-UA 474][CSCI-UA 430].",
-    "groundedness": "GROUNDED: The answer accurately summarizes both CSCI-UA 474 and CSCI-UA 430 course descriptions and their shared CSCI-UA 201 prerequisite exactly as stated in the context, without adding unsupported claims."
+    "answer": "Based on the listings provided, two courses focus specifically on software engineering practices:\n\n1. **[CSCI-UA 474] Software Engineering** \u2013 This course directly covers software engineering topics such as advanced object-oriented design, design patterns, refactoring, code optimization, UML, threading, user interface design, enterprise application development, and development tools, applied through a semester-long group project [CSCI-UA 474].\n\n2. **[CSCI-UA 430] Agile Software Development and DevOps** \u2013 This course covers Agile methodology and DevOps practices, teaching students the core methodologies, technologies, and tools used in modern software development, including how to manage changing project requirements without disrupting schedules and budgets [CSCI-UA 430].\n\nBoth require **CSCI-UA 201** (with a minimum grade of C) as a prerequisite [CSCI-UA 474][CSCI-UA 430].",
+    "groundedness": "GROUNDED: The answer accurately summarizes course content and prerequisites for CSCI-UA 474 and CSCI-UA 430 as stated in the context, with no unsupported claims."
   },
   {
     "question": "What course teaches agile development and DevOps?",
@@ -172,8 +172,8 @@
       "CSCI-UA 3"
     ],
     "hit": true,
-    "answer": "[CSCI-UA 430] Agile Software Development and DevOps covers this topic. It introduces the core methodologies, technologies, and tools used in modern software development, focusing on how Agile's methodology and DevOps' automation together increase the speed, robustness, and scalability of software development [CSCI-UA 430].\n\nThe prerequisite for this course is CSCI-UA 201 with a Minimum Grade of C [CSCI-UA 430].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisite for CSCI-UA 430 as stated in the context, with no unsupported claims."
+    "answer": "CSCI-UA 430 (Agile Software Development and DevOps) teaches these topics [CSCI-UA 430]. It covers agile methodologies and DevOps automation practices, with the goal of helping students understand \"the core methodologies, technologies, and tools used in the software industry today\" [CSCI-UA 430]. Its prerequisite is CSCI-UA 201 with a minimum grade of C [CSCI-UA 430].",
+    "groundedness": "GROUNDED \u2014 every claim (course name, topics, quoted goal, and prerequisite) matches the CSCI-UA 430 entry in CONTEXT, and the course code is cited."
   },
   {
     "question": "Is there an introductory course for students with no prior programming experience?",
@@ -188,8 +188,8 @@
       "CSCI-UA 61"
     ],
     "hit": true,
-    "answer": "Yes. **[CSCI-UA 2]** (Introduction to Computer Programming \u2013 No Prior Experience) is explicitly designed for students with no prior computer experience: \"No prior computer experience assumed.\" Its prerequisite is only \"Three years of high school mathematics or equivalent\" [CSCI-UA 2].\n\nNote that this course does not count toward the Computer Science major, but it (or [CSCI-UA 3], which is for students with *limited* prior experience) serves as a prerequisite for students who want to continue on to [CSCI-UA 101], the first course intended for CS majors.",
-    "groundedness": "GROUNDED: All claims (course description, prerequisites, non-major-credit status, and role as prerequisite for CSCI-UA 101) are directly supported by the CONTEXT, and multiple course codes (CSCI-UA 2, CSCI-UA 3, CSCI-UA 101) are cited."
+    "answer": "Yes. **[CSCI-UA 2]** (Introduction to Computer Programming, No Prior Experience) is explicitly designed for students with no prior computer experience, requiring only three years of high school mathematics or equivalent, and stating that \"No prior computer experience assumed\" [CSCI-UA 2].\n\nThis course (or **[CSCI-UA 3]**, which is intended for students with *some* prior experience) serves as a prerequisite for students who want to continue on to **[CSCI-UA 101]**, the introductory Computer Science course [CSCI-UA 2][CSCI-UA 101].",
+    "groundedness": "GROUNDED: The answer accurately reflects CSCI-UA 2's description and its relationship to CSCI-UA 3 and CSCI-UA 101 as stated in the context, citing multiple course codes without adding unsupported claims."
   },
   {
     "question": "What course teaches web design fundamentals?",
@@ -204,8 +204,8 @@
       "CSCI-UA 453"
     ],
     "hit": true,
-    "answer": "CSCI-UA 4 (Introduction to Web Design and Computer Principles) teaches web design fundamentals, covering \"the practice of web design\" including \"current graphics and software tools,\" alongside basic computer science principles [CSCI-UA 4].\n\nThis course also serves as a foundational prerequisite for more advanced web-related courses, such as [CSCI-UA 61] (Web Development and Programming), [CSCI-UA 360] (Drawing on the Web), and [CSCI-UA 380] (Topics of General Interest, which includes offerings like \"Interface Design for the World Wide Web\"), indicating that CSCI-UA 4 provides the fundamental groundwork for web design in the curriculum.",
-    "groundedness": "GROUNDED: All claims (course description, prerequisite relationships to CSCI-UA 61, 360, and 380) are directly supported by the CONTEXT, and multiple course codes are cited."
+    "answer": "**CSCI-UA 4 (Introduction to Web Design and Computer Principles)** teaches web design fundamentals. It \"introduces students to both the practice of web design and the basic principles of computer science,\" with a practice component that \"covers not only web design but also current graphics and software tools\" [CSCI-UA 4]. It has no prerequisites and assumes no prior computing experience [CSCI-UA 4].\n\nOther courses build on this foundation but require CSCI-UA 4 as a prerequisite rather than teaching the fundamentals themselves, such as [CSCI-UA 61], [CSCI-UA 380], and [CSCI-UA 360].",
+    "groundedness": "GROUNDED \u2014 the answer accurately restates CSCI-UA 4's description and correctly notes that CSCI-UA 61, CSCI-UA 380, and CSCI-UA 360 require it as a prerequisite, all directly supported by the CONTEXT and citing multiple course codes."
   },
   {
     "question": "Which course covers artificial intelligence?",
@@ -217,11 +217,11 @@
       "CSCI-UA 74",
       "DS-UA 112",
       "DS-UA 111",
-      "DS-UA 100"
+      "PHIL-UA 83"
     ],
     "hit": true,
-    "answer": "Based on the course listings provided, three courses cover artificial intelligence:\n\n1. **[CSCI-UA 472]** *Artificial Intelligence* \u2013 This is a dedicated 4.0-credit AI course focusing on \"three central areas in AI: representation and reasoning, machine learning, and natural language processing\" [CSCI-UA 472].\n\n2. **[CSCI-UA 74]** *Big Ideas: Artificial Intelligence* \u2013 A 2.0-credit course providing \"a high-level overview of the key ideas and technologies that lead to revolutionary changes in Artificial Intelligence,\" covering machine learning, natural language processing, and computer vision, taught by a team led by Turing award winner Yann LeCun [CSCI-UA 74].\n\n3. **[DS-UA 112]** *Principles of Data Science II* \u2013 While primarily a data science course, it also touches on AI-adjacent topics, noting it aims \"to touch on current developments in machine learning, such as generative AI\" [DS-UA 112].\n\nIf you're specifically looking for a course entirely dedicated to AI as a subject, **[CSCI-UA 472]** is the most direct match, with **[CSCI-UA 74]** as a lighter, introductory alternative.",
-    "groundedness": "GROUNDED. The answer's claims about CSCI-UA 472, CSCI-UA 74, and DS-UA 112 all accurately reflect details stated in the provided course descriptions, and it cites multiple course codes."
+    "answer": "Based on the provided listings, several courses cover artificial intelligence:\n\n- **[CSCI-UA 472]** *Artificial Intelligence* \u2013 This course directly focuses on AI, covering representation and reasoning, machine learning, and natural language processing [CSCI-UA 472].\n\n- **[CSCI-UA 74]** *Big Ideas: Artificial Intelligence* \u2013 A high-level overview course on key AI ideas and technologies, including machine learning, natural language processing, and computer vision, taught by NYU AI experts [CSCI-UA 74].\n\n- **[PHIL-UA 83]** *Philosophy of Artificial Intelligence* \u2013 Examines philosophical questions raised by AI technology, particularly large language models, including topics like consciousness, ethics, and the future impact of AI [PHIL-UA 83].\n\n- **[DS-UA 112]** *Principles of Data Science II* \u2013 While primarily a machine learning course, it also touches on \"current developments in machine learning, such as generative AI,\" which relates to AI [DS-UA 112].\n\nIf you're looking for a course specifically and centrally dedicated to AI, **[CSCI-UA 472]** and **[CSCI-UA 74]** are the most direct matches, while **[PHIL-UA 83]** offers a philosophical lens on AI.",
+    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions in the context, and multiple course codes (e.g., CSCI-UA 472, CSCI-UA 74, PHIL-UA 83, DS-UA 112) are cited correctly."
   },
   {
     "question": "What course focuses on numerical computing methods?",
@@ -236,8 +236,8 @@
       "MATH-UA 396"
     ],
     "hit": true,
-    "answer": "Based on the course listings, several courses focus on numerical computing methods:\n\n1. **[CSCI-UA 421]** Numerical Computing \u2014 This course is explicitly focused on numerical computation, covering floating-point arithmetic, the IEEE floating-point standard, direct methods (e.g., for systems of linear equations), iterative methods (e.g., for nonlinear equations), discretization methods (e.g., for differential equations), numerical errors, and use of software like Matlab [CSCI-UA 421].\n\n2. **[MATH-UA 352]** Numerical Analysis \u2014 This course also centers on numerical methods, exploring how mathematical problems can be solved computationally, covering root-finding procedures, differential equations, and the finite element method using Matlab [MATH-UA 352].\n\n3. **[MATH-UA 358]** Honors Numerical Analysis \u2014 This is the honors version covering similar numerical algorithm topics, including solving nonlinear equations, optimization, eigenvalues/eigenvectors, matrix factorizations, linear regressions, function interpolation/approximation/integration, Fast Fourier Transform-based signal processing, and Monte Carlo simulation [MATH-UA 358].\n\nIf you're looking for a computer science\u2013oriented approach, **[CSCI-UA 421]** is the most directly titled \"Numerical Computing\" course. If you want a mathematics-department approach, **[MATH-UA 352]** or its honors counterpart **[MATH-UA 358]** would be more appropriate, depending on your background and grade prerequisites.",
-    "groundedness": "GROUNDED: All claims about course content, topics, and prerequisites for CSCI-UA 421, MATH-UA 352, and MATH-UA 358 are directly supported by the CONTEXT, and multiple course codes are cited."
+    "answer": "Based on the listings, three courses focus on numerical computing methods:\n\n1. **[CSCI-UA 421] Numerical Computing** \u2013 Focuses directly on numerical computation, covering floating-point arithmetic, the IEEE floating-point standard, direct methods (e.g., for systems of linear equations), iterative methods (e.g., for nonlinear equations), and discretization methods (e.g., for differential equations), along with numerical error analysis and use of software like Matlab [CSCI-UA 421].\n\n2. **[MATH-UA 352] Numerical Analysis** \u2013 Explores how mathematical problems can be analyzed and solved with a computer, covering topics from root-finding procedures to differential equations and the finite element method, using theory and Matlab [MATH-UA 352].\n\n3. **[MATH-UA 358] Honors Numerical Analysis** \u2013 Covers the analysis of numerical algorithms used to solve problems in math, physics, engineering, finance, and life sciences, including solving nonlinear equations, optimization, eigenvalue computation, matrix factorizations, interpolation, and Monte Carlo simulation [MATH-UA 358].\n\nIf you're looking for a computer-science-oriented approach, **[CSCI-UA 421]** is the most directly named \"Numerical Computing\" course. If you want a math-department version, **[MATH-UA 352]** or its honors variant **[MATH-UA 358]** would be appropriate, depending on your background and prerequisites.",
+    "groundedness": "GROUNDED: All claims about the three courses' content, topics, and prerequisites accurately reflect the CONTEXT, and multiple course codes (e.g., CSCI-UA 421, MATH-UA 352, MATH-UA 358) are cited."
   },
   {
     "question": "Which course teaches object-oriented programming?",
@@ -252,8 +252,8 @@
       "CSCI-UA 474"
     ],
     "hit": true,
-    "answer": "Two courses in the listings teach object-oriented programming:\n\n1. **[CSCI-UA 470] Object Oriented Programming** \u2013 This course is specifically dedicated to the topic, covering \"the important concepts of object-oriented design and languages, including code reuse, data abstraction, inheritance, and dynamic overloading,\" with in-depth treatment of Java and C++ features supporting OOP [CSCI-UA 470].\n\n2. **[CSCI-UA 3] Introduction to Computer Programming (Limited Prior Experience)** \u2013 This introductory course also \"introduces object-oriented programming, recursion, and other important programming concepts\" using Python, aimed at students with some prior programming exposure [CSCI-UA 3].\n\nNote that CSCI-UA 470 requires CSCI-UA 201 (or equivalent) as a prerequisite [CSCI-UA 470], while CSCI-UA 3 has no prerequisites beyond basic math background [CSCI-UA 3].",
-    "groundedness": "GROUNDED \u2013 The answer accurately reflects the CONTEXT's descriptions of CSCI-UA 470 and CSCI-UA 3, including their content and prerequisites, without introducing unsupported claims."
+    "answer": "Two courses teach object-oriented programming concepts:\n\n1. **[CSCI-UA 470] Object Oriented Programming** \u2013 This course is specifically dedicated to object-oriented programming, covering \"code reuse, data abstraction, inheritance, and dynamic overloading,\" with in-depth treatment of object-oriented features in Java and C++ [CSCI-UA 470].\n\n2. **[CSCI-UA 3] Introduction to Computer Programming (Limited Prior Experience)** \u2013 This introductory course also \"introduces object-oriented programming, recursion, and other important programming concepts\" using Python, though it is aimed at students with limited prior experience and does not count toward the Computer Science major [CSCI-UA 3].\n\nIf you're looking for an in-depth, major-applicable treatment of object-oriented programming, **CSCI-UA 470** is the appropriate course [CSCI-UA 470].",
+    "groundedness": "GROUNDED: Both claims about CSCI-UA 470 and CSCI-UA 3 teaching object-oriented programming, and the details cited (Java/C++, Python, major applicability), are directly supported by the CONTEXT, with course codes cited."
   },
   {
     "question": "What's a good course to take after Algorithms for someone interested in theory?",
@@ -268,8 +268,8 @@
       "MATH-UA 120"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, **CSCI-UA 453 (Theory of Computation)** would be a good course to take after Algorithms for someone interested in theory.\n\nThis course focuses on the mathematical foundations of computer science, covering topics like regular languages, deterministic and non-deterministic finite automata, regular expressions, context-free languages, pushdown automata, elements of computability theory, and an introduction to NP-completeness [CSCI-UA 453]. These are core theoretical computer science topics that build naturally on algorithmic thinking.\n\nNote on prerequisites: [CSCI-UA 453] requires completion of a course equivalent to CSCI-UA 201 (Computer Systems Organization) AND a course equivalent to CSCI-UA 310 (Basic Algorithms) \u2014 so if \"Algorithms\" refers to CSCI-UA 310 or an equivalent, this prerequisite would already be satisfied.\n\nThe provided listings don't include other advanced theory-specific courses (e.g., cryptography, computability, or complexity theory courses) beyond CSCI-UA 453, so I can't compare it against alternatives within this course set.",
-    "groundedness": "GROUNDED \u2014 The answer accurately cites CSCI-UA 453 and its description/prerequisites exactly as given in the context, without introducing unsupported claims."
+    "answer": "Based on the listings provided, **CSCI-UA 453 (Theory of Computation)** would be a good course to take after Algorithms for someone interested in theory.\n\nThis course focuses on the mathematical/theoretical side of computer science, covering topics like regular languages, deterministic and non-deterministic finite automata, regular expressions, proofs of non-regularity, context-free languages and pushdown automata, elements of computability theory, and an introduction to NP-completeness [CSCI-UA 453]. This makes it a natural fit for students who want to go deeper into theoretical computer science after completing an algorithms course.\n\nNote: The listings don't explicitly state that CSCI-UA 310 (a likely \"Algorithms\" course referenced as a prerequisite) is the same as \"Algorithms,\" but CSCI-UA 453 does list **CSCI-UA 310** as one of its prerequisites [CSCI-UA 453], suggesting it is designed as a follow-up course to that class if it corresponds to your Algorithms course.\n\nIf you meant a different \"Algorithms\" course not listed here, I don't have enough information in the provided listings to confirm the exact prerequisite relationship.",
+    "groundedness": "GROUNDED: The answer cites CSCI-UA 453 and accurately describes its content and prerequisite (CSCI-UA 310) as stated in the context, while appropriately hedging on the assumption that CSCI-UA 310 is \"Algorithms.\""
   },
   {
     "question": "Which course involves building web applications with client and server-side technologies?",
@@ -284,8 +284,8 @@
       "CSCI-UA 521"
     ],
     "hit": true,
-    "answer": "Two courses involve building web applications with client and server-side technologies:\n\n1. **[CSCI-UA 61]** Web Development and Programming \u2014 described as covering \"client and server side technologies for the web,\" with students building \"interactive, secure and powerful web programs.\" Its prerequisites require introductory CS coursework (e.g., CSCI-UA 2 or equivalent, and CSCI-UA 4), and students who have completed CSCI-UA 467 are not eligible to take it.\n\n2. **[CSCI-UA 467]** Applied Internet Technology \u2014 described as covering \"full-stack... web development,\" including \"server programming, database implementation, frontend markup, styling and interactivity.\" Its prerequisite is CSCI-UA 201 (with a minimum grade of C) or equivalent, and students who complete this course are not eligible to take CSCI-UA 61.\n\nThe key distinction is prerequisite level: [CSCI-UA 61] is more introductory, while [CSCI-UA 467] requires more advanced coursework (CSCI-UA 201) and offers a deeper full-stack treatment.",
-    "groundedness": "GROUNDED \u2014 All claims (course descriptions, prerequisites, and mutual exclusivity between CSCI-UA 61 and CSCI-UA 467) are directly supported by the CONTEXT, and both course codes are cited."
+    "answer": "Based on the listings, two courses involve building web applications with client and server-side technologies:\n\n- **[CSCI-UA 61]** (Web Development and Programming) explicitly states it \"will cover client and server side technologies for the web\" and focuses on building \"interactive, secure and powerful web programs.\"\n\n- **[CSCI-UA 467]** (Applied Internet Technology) also covers this territory, describing itself as \"full-stack... web development,\" which it defines as covering \"every aspect of building a database driven web application: server programming, database implementation, frontend markup, styling and interactivity.\"\n\nNote that these two courses are mutually exclusive \u2014 students who complete [CSCI-UA 467] are not eligible to take [CSCI-UA 61], and vice versa.",
+    "groundedness": "GROUNDED: Both claims and the mutual-exclusivity note are directly supported by the CONTEXT text for CSCI-UA 61 and CSCI-UA 467."
   },
   {
     "question": "Is there a course specifically about predictive analytics?",
@@ -300,8 +300,8 @@
       "DS-UA 205"
     ],
     "hit": true,
-    "answer": "Yes. **[CSCI-UA 475] Predictive Analytics** is specifically about predictive analytics. It covers \"the art and science of extracting useful information from historical data and present data for the purpose of predicting future trends,\" including topics like data preprocessing techniques, data reduction algorithms, data clustering algorithms, data classification algorithms, uplifting algorithms, association rules, data mining algorithms, and recommender systems [CSCI-UA 475].\n\nIts prerequisites are CSCI-UA 201 AND CSCI-UA 310 AND (MATH-UA 140 OR MATH-UA 148) [CSCI-UA 475].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites for CSCI-UA 475 as stated in the context, with no unsupported claims."
+    "answer": "Yes. **[CSCI-UA 475] Predictive Analytics** is specifically about predictive analytics \u2014 it covers \"extracting useful information from historical data and present data for the purpose of predicting future trends,\" including topics like data preprocessing, data reduction, clustering, classification algorithms, uplift algorithms, association rules, data mining, and recommender systems [CSCI-UA 475].\n\nIts prerequisites are CSCI-UA 201 AND CSCI-UA 310 AND (MATH-UA 140 OR MATH-UA 148) [CSCI-UA 475].",
+    "groundedness": "GROUNDED \u2014 The answer accurately summarizes CSCI-UA 475's description and prerequisites as stated in the context, with no unsupported claims, and cites the course code."
   },
   {
     "question": "What course discusses the ethical and social impact of computing on society?",
@@ -316,8 +316,8 @@
       "CSCI-UA 202"
     ],
     "hit": true,
-    "answer": "**[CSCI-UA 1] Computers and Society** is the course that discusses this topic. According to its description, it \"addresses the impact of the digital computer on individuals, organizations, and modern society as a whole, and the social, political, and ethical issues involved in the computer industry\" [CSCI-UA 1].",
-    "groundedness": "GROUNDED: The answer accurately quotes and cites CSCI-UA 1's description without adding unsupported claims."
+    "answer": "CSCI-UA 1 (Computers and Society) addresses this topic directly. It \"addresses the impact of the digital computer on individuals, organizations, and modern society as a whole, and the social, political, and ethical issues involved in the computer industry\" [CSCI-UA 1].\n\nNone of the other listed courses (CSCI-UA 521, CSCI-UA 520, CSCI-UA 201, CSCI-UA 202) mention ethical or societal impacts of computing\u2014they focus on research, systems organization, and operating systems.",
+    "groundedness": "GROUNDED: The answer accurately quotes CSCI-UA 1's description and correctly notes the other listed courses focus on different topics without ethical/societal content."
   },
   {
     "question": "Which course covers linear algebra?",
@@ -332,8 +332,8 @@
       "MATH-UA 352"
     ],
     "hit": true,
-    "answer": "**MATH-UA 140 (Linear Algebra)** is the course that specifically covers linear algebra topics. According to its description, it covers \"Systems of linear equations. Gaussian elimination, matrices, determinants, and Cramer's rule. Vectors, vector spaces, basis and dimension, linear transformations. Eigenvalues, eigenvectors, quadratic forms\" [MATH-UA 140].\n\nAdditionally, MATH-UA 140 serves as a prerequisite for several other courses that build on linear algebra concepts, including [MATH-UA 358], [MATH-UA 250], [MATH-UA 325], and [MATH-UA 352].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description of MATH-UA 140 and correctly identifies it as a prerequisite for MATH-UA 358, 250, 325, and 352, all of which are supported by the CONTEXT."
+    "answer": "**MATH-UA 140 (Linear Algebra)** is the course that covers linear algebra. It includes topics such as systems of linear equations, Gaussian elimination, matrices, determinants, Cramer's rule, vectors, vector spaces, basis and dimension, linear transformations, eigenvalues, eigenvectors, and quadratic forms [MATH-UA 140].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description of MATH-UA 140 as given in the context, with no unsupported claims, and cites the course code."
   },
   {
     "question": "What's a good course to take after Calculus I?",
@@ -348,8 +348,8 @@
       "CSCI-UA 421"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, after completing **[MATH-UA 121] Calculus I**, several courses become accessible since they list it as a prerequisite:\n\n1. **[MATH-UA 122] Calculus II** \u2014 This is the most direct continuation, as it requires \"Minimum grade of C in MATH-UA 121\" [MATH-UA 122]. It builds on Calculus I with techniques of integration, analytic geometry, and infinite series.\n\n2. **[PHYS-UA 11] General Physics I** \u2014 This course accepts MATH-UA 121 as a prerequisite [PHYS-UA 11], making it another option if you're interested in applying calculus to physics topics like kinematics, dynamics, and thermodynamics.\n\n3. **[MATH-UA 255] Mathematics and Biology** \u2014 If you're a premedical student, this course requires MATH-UA 121 (or MATH-UA 132) with a minimum grade of C, combined with BIOL-UA 11 [MATH-UA 255]. It applies mathematical tools to medical topics like cardiac and kidney physiology.\n\nFor a straightforward math sequence, **MATH-UA 122 (Calculus II)** [MATH-UA 122] is the standard next step, since Calculus I is its core prerequisite. If you have interests in physics or biology, PHYS-UA 11 or MATH-UA 255 could also be suitable depending on your major/track.",
-    "groundedness": "GROUNDED: All claims about prerequisites and course content for MATH-UA 122, PHYS-UA 11, and MATH-UA 255 are accurately drawn from the provided context, and multiple course codes are cited."
+    "answer": "After completing **MATH-UA 121 Calculus I**, a natural next step is **[MATH-UA 122] Calculus II**, since its prerequisite is explicitly \"Minimum grade of C in MATH-UA 121\" (or equivalent AP/placement scores) [MATH-UA 122]. This course continues directly from Calculus I, covering integration techniques, analytic geometry, and infinite series [MATH-UA 122].\n\nAlternatively, if you're interested in physics, **[PHYS-UA 11] General Physics I** also accepts MATH-UA 121 as a satisfying prerequisite (alongside MATH-UA 131 or qualifying AP Calculus scores) [PHYS-UA 11], so it could be taken concurrently with or after Calculus I depending on your major requirements.\n\nNote: Other courses like [CSCI-UA 421] Numerical Computing list MATH-UA 121 as one of several prerequisites, but also require MATH-UA 140 and CSCI-UA 201, so it would not be an immediate next step right after Calculus I [CSCI-UA 421].",
+    "groundedness": "GROUNDED: All claims accurately reflect the prerequisite information given in the CONTEXT for MATH-UA 122, PHYS-UA 11, and CSCI-UA 421, and multiple course codes are cited."
   },
   {
     "question": "Which course introduces data science principles?",
@@ -364,8 +364,8 @@
       "DS-UA 100"
     ],
     "hit": true,
-    "answer": "Based on the course listings, **[DS-UA 111]** Principles of Data Science I is the course that introduces foundational data science principles. It \"introduces foundational concepts in data science, with a focus on statistical principles\" and covers Python programming, drawing conclusions from data, making predictions, and related ethical/legal/privacy issues [DS-UA 111]. It is designed as the first course in a two-part sequence, laying the groundwork for further study [DS-UA 111].\n\nNote that **[DS-UA 100]** Discovering Data Science in the Age of AI also serves an introductory purpose, but it is intended for non-majors rather than for introducing core data science principles to majors\u2014it is explicitly not open to students who are majoring/minoring in Data Science-related programs [DS-UA 100].",
-    "groundedness": "GROUNDED: All claims about DS-UA 111 and DS-UA 100 accurately reflect the CONTEXT, and both course codes are cited."
+    "answer": "Based on the course listings, **[DS-UA 111] Principles of Data Science I** is the course that explicitly introduces data science principles. As stated in its description, it \"introduces foundational concepts in data science, with a focus on statistical principles\" and serves as \"the first course in a two-part sequence\" [DS-UA 111]. It covers programming skills in Python, drawing conclusions from data, making predictions, and related ethical, legal, and privacy issues [DS-UA 111].\n\nAdditionally, **[DS-UA 100] Discovering Data Science in the Age of AI** offers a broader introductory alternative for non-majors, described as \"a one-semester tour of data science highlights\" covering \"brief introductions to programming in Python, basic probability and statistics, and causal inference\" [DS-UA 100]. However, this course is explicitly not open to students in the Data Science major/minor tracks and does not count toward those requirements [DS-UA 100].\n\nFor students intending to major or minor in Data Science, **[DS-UA 111]** is the designated introductory course [DS-UA 111].",
+    "groundedness": "GROUNDED \u2014 All claims about DS-UA 111 and DS-UA 100 accurately reflect the descriptions given in the CONTEXT, and both course codes are cited."
   },
   {
     "question": "What course covers responsible or ethical data science practices?",
@@ -380,8 +380,8 @@
       "DS-UA 100"
     ],
     "hit": true,
-    "answer": "[DS-UA 202] (Responsible Data Science) directly addresses ethics and responsibility in data science, covering topics such as legal compliance, data quality, algorithmic fairness and diversity, transparency, privacy, and data protection across the full data science lifecycle. Its prerequisite is DS-UA 112, and it is restricted to majors/minors.\n\nAdditionally, [DS-UA 111] (Principles of Data Science I) notes that students \"will also explore related ethical, legal, and privacy issues,\" though this is only a component of a broader introductory course rather than its main focus.",
-    "groundedness": "GROUNDED \u2014 the answer accurately reflects the course descriptions for DS-UA 202 and DS-UA 111 as given in the context, without adding unsupported claims."
+    "answer": "[DS-UA 202] Responsible Data Science directly covers responsible and ethical data science practices, tackling \"issues of ethics and responsibility in data science, including legal compliance, data quality, algorithmic fairness and diversity, transparency of data and algorithms, privacy, and data protection\" [DS-UA 202].\n\nAdditionally, [DS-UA 111] Principles of Data Science I also touches on this area, noting that \"students will also explore related ethical, legal, and privacy issues\" [DS-UA 111], though this is only a partial component of a broader introductory course rather than its main focus.",
+    "groundedness": "GROUNDED - Both quoted claims accurately reflect the CONTEXT text for DS-UA 202 and DS-UA 111, and course codes are cited."
   },
   {
     "question": "Is there a course on quantum mechanics?",
@@ -396,8 +396,8 @@
       "PHYS-UA 106"
     ],
     "hit": true,
-    "answer": "Yes. There are several courses covering quantum mechanics in this listing:\n\n- **[PHYS-UA 123] Quantum Mechanics I** \u2014 covers foundational topics such as wave-particle duality, the time-independent Schr\u00f6dinger equation, angular momentum, spin, and perturbation theory. Prerequisites: PHYS-UA 120 and PHYS-UA 106 (with minimum grade of C).\n\n- **[PHYS-UA 124] Quantum Mechanics II** \u2014 a continuation of PHYS-UA 123, covering the time-dependent Schr\u00f6dinger equation, scattering theory, quantum statistics, and applications to atomic, molecular, nuclear, and particle physics. Prerequisite: PHYS-UA 123 (or PHYS-UH 3012).\n\n- **[PHYS-UA 138] Quantum Information and Quantum Computing** \u2014 applies quantum mechanics to information theory, covering topics like entanglement, quantum cryptography, and quantum algorithms. Prerequisite: PHYS-UA 123.\n\n- **[PHYS-UA 800] Special Topics in Physics** \u2014 an introductory-level course touching on quantum entanglement, quantum information, black holes, and related concepts, with no prerequisites beyond geometry and algebra mastery.\n\nSo if you're looking specifically for a foundational quantum mechanics course, **[PHYS-UA 123]** and **[PHYS-UA 124]** are the most directly relevant options.",
-    "groundedness": "GROUNDED: All claims (course codes, topics, prerequisites) accurately reflect the provided CONTEXT without adding unsupported information."
+    "answer": "Yes. The listings include several courses on quantum mechanics:\n\n- **[PHYS-UA 123] Quantum Mechanics I** \u2014 covers foundational topics like wave-particle duality, the Schr\u00f6dinger equation, angular momentum, spin, and perturbation theory.\n- **[PHYS-UA 124] Quantum Mechanics II** \u2014 a continuation of [PHYS-UA 123], covering time-dependent Schr\u00f6dinger equation, scattering theory, and applications to atomic/nuclear/particle physics.\n- **[PHYS-UA 138] Quantum Information and Quantum Computing** \u2014 applies quantum mechanics to information theory, including topics like entanglement, quantum cryptography, and quantum computing.\n- **[PHYS-UA 800] Special Topics in Physics** \u2014 includes quantum entanglement and quantum information among its topics, though it is a special topics course not counting toward the major.",
+    "groundedness": "GROUNDED \u2014 All claims accurately reflect the course descriptions and prerequisites given in the CONTEXT, and multiple course codes (e.g., PHYS-UA 123, 124, 138, 800) are cited."
   },
   {
     "question": "Which course covers general relativity?",
@@ -406,14 +406,14 @@
     ],
     "retrieved": [
       "PHYS-UA 170",
+      "PHIL-UA 94",
       "PHYS-UA 800",
       "PHYS-UA 15",
-      "MATH-UA 133",
-      "PHYS-UA 11"
+      "MATH-UA 133"
     ],
     "hit": true,
-    "answer": "Based on the course listings, two courses touch on general relativity:\n\n1. **[PHYS-UA 170] General Relativity** \u2013 This course is specifically dedicated to the topic, covering \"special relativity, gravity as geometry, black holes, gravitational waves, cosmology, Einstein equations\" [PHYS-UA 170]. It requires PHYS-UA 120 with a minimum grade of C as a prerequisite [PHYS-UA 170].\n\n2. **[PHYS-UA 800] Special Topics in Physics** \u2013 This course also includes related content, listing \"black holes, gravitational radiation\" among its topics, though it is framed more broadly around contemporary physics and cosmology concepts (quantum entanglement, quantum information, the big bang) [PHYS-UA 800]. Note that this course counts toward departmental minors but not the major [PHYS-UA 800].\n\nIf you're looking for a course focused directly and primarily on general relativity, **PHYS-UA 170** is the clearest match [PHYS-UA 170].",
-    "groundedness": "GROUNDED: All claims (topics, prerequisites, and notes about PHYS-UA 170 and PHYS-UA 800) are directly supported by the CONTEXT, and both course codes are cited."
+    "answer": "Based on the listings provided, three courses cover general relativity:\n\n1. **[PHYS-UA 170]** General Relativity \u2014 This is the most direct match, an entire course dedicated to the topic. It explicitly covers \"special relativity, gravity as geometry, black holes, gravitational waves, cosmology, Einstein equations\" [PHYS-UA 170].\n\n2. **[PHIL-UA 94]** Philosophy of Physics \u2014 This course addresses general relativity from a conceptual/philosophical angle, covering \"Einstein's special and general theories of relativity\" in the context of debates about space and time, without requiring math beyond algebra [PHIL-UA 94].\n\n3. **[PHYS-UA 15]** Introduction to Cosmology \u2014 This course touches on general relativity indirectly, as it approaches cosmological topics \"through the lens of the theory of relativity and the expanding universe\" [PHYS-UA 15].\n\nIf you're looking for a technical, physics-focused treatment, **[PHYS-UA 170]** is the primary course. If you want a non-technical, conceptual approach, **[PHIL-UA 94]** is more appropriate.",
+    "groundedness": "GROUNDED: All three claims are directly supported by the course descriptions in CONTEXT, and multiple course codes are cited."
   },
   {
     "question": "Is there a course on labor markets and labor economics?",
@@ -428,8 +428,8 @@
       "ECON-UA 354"
     ],
     "hit": true,
-    "answer": "Yes. **[ECON-UA 351] Labor Economics** directly covers this topic. It \"analyzes the functioning of the labor market in both theoretical and statistical terms,\" examining \"the determinants of wage and employment levels in perfect and imperfect labor markets, including the concept of education and training as human capital,\" as well as \"models of labor market dynamics... including those of job search and matching,\" and the role of public policy in labor markets [ECON-UA 351].\n\nIts prerequisite is one of the following introductory microeconomics courses with a minimum grade of C: ECON-UA 10, ECON-UA 9010, ECON-UA 11, ECON-UB 1, ECON-UH 2010, or ECON-SHU 10 [ECON-UA 351].",
-    "groundedness": "GROUNDED: The answer accurately quotes and summarizes only content from the ECON-UA 351 entry, including its correct prerequisites, with no unsupported claims."
+    "answer": "Yes \u2014 **[ECON-UA 351] Labor Economics** is the course focused on labor markets and labor economics. It analyzes the functioning of the labor market in both theoretical and statistical terms, examining wage and employment determination in perfect and imperfect labor markets, the concept of education/training as human capital, and models of labor market dynamics such as job search and matching. It also highlights the role of public policy in labor markets [ECON-UA 351].\n\nIts prerequisite is intermediate microeconomics: ECON-UA 10, ECON-UA 9010, ECON-UA 11, ECON-UB 1, ECON-UH 2010, or ECON-SHU 10 (minimum grade of C) [ECON-UA 351].\n\nNone of the other listed courses ([ECON-UA 13], [ECON-UA 290], [ECON-UA 12], [ECON-UA 354]) focus on labor economics specifically.",
+    "groundedness": "GROUNDED \u2014 the answer accurately summarizes ECON-UA 351's description and prerequisites as stated in the context, and correctly notes the other listed courses are not focused on labor economics."
   },
   {
     "question": "Which course covers health economics?",
@@ -444,7 +444,39 @@
       "MATH-UA 131"
     ],
     "hit": true,
-    "answer": "[ECON-UA 354] Health Economics covers this topic. It examines \"the economics of healthcare demand, provision, and institutions,\" using tools from industrial organization, labor economics, information economics, public economics, and behavioral economics to analyze consumers, doctors, hospitals, insurance companies, and government policy in healthcare markets [ECON-UA 354].",
-    "groundedness": "GROUNDED: The answer accurately quotes and summarizes the course description for ECON-UA 354 as given in the context, and cites the course code."
+    "answer": "[ECON-UA 354] Health Economics is the course that covers health economics. It examines \"the economics of healthcare demand, provision, and institutions,\" using tools from industrial organization, labor economics, information economics, public economics, and behavioral economics to analyze the incentives of consumers, doctors, hospitals, insurance companies, and government in healthcare markets [ECON-UA 354].",
+    "groundedness": "GROUNDED: The answer accurately quotes and summarizes the ECON-UA 354 course description from the context and cites the course code."
+  },
+  {
+    "question": "Is there a course on the philosophical foundations of computability?",
+    "expected": [
+      "PHIL-UA 75"
+    ],
+    "retrieved": [
+      "PHIL-UA 75",
+      "MATH-UA 231",
+      "CSCI-UA 453",
+      "PHIL-UA 5",
+      "CSCI-UA 74"
+    ],
+    "hit": true,
+    "answer": "Based on the listings, there is no course explicitly titled or described as covering the \"philosophical foundations of computability.\" However, the closest relevant course is:\n\n- **[PHIL-UA 75] Computability and Incompleteness** \u2013 This is offered through the Philosophy department and covers \"the theory of computability and... the major limitative results of mathematical logic, including the undecidability of first-order logic, G\u00f6del's incompleteness theorems, and Tarski's theorem on the non-definability of truth.\" While it is cross-listed as a math course [MATH-UA 231], its placement in the Philosophy curriculum suggests a philosophical treatment of these foundational computability results.\n\nOther listings do not fit this description as closely:\n- [MATH-UA 231] is identical in content to [PHIL-UA 75] but is a mathematics course.\n- [CSCI-UA 453] approaches computability from a computer science/mathematical perspective (automata theory, computability theory, NP-completeness) rather than a philosophical one.\n- [PHIL-UA 5] touches on philosophy of mind and computation (e.g., \"whether a machine could think\") but does not focus on computability theory itself.\n- [CSCI-UA 74] is a high-level overview of AI, not computability foundations.\n\n**Conclusion:** [PHIL-UA 75] is the course that most directly addresses computability from within a philosophy department, making it the best match for a \"philosophical foundations of computability\" course among these listings, though the description itself is mathematical/logical rather than explicitly framed as \"philosophical foundations.\"",
+    "groundedness": "GROUNDED: The answer accurately reflects the course descriptions without adding unsupported claims, correctly noting PHIL-UA 75's philosophy department placement while acknowledging its description is mathematical/logical rather than explicitly \"philosophical,\" and cites multiple course codes from the context."
+  },
+  {
+    "question": "Which course covers the philosophy of artificial intelligence?",
+    "expected": [
+      "PHIL-UA 83"
+    ],
+    "retrieved": [
+      "CSCI-UA 472",
+      "PHIL-UA 83",
+      "CSCI-UA 74",
+      "PHIL-UA 5",
+      "DS-UA 112"
+    ],
+    "hit": true,
+    "answer": "PHIL-UA 83 (Philosophy of Artificial Intelligence) is the course that directly covers the philosophy of artificial intelligence, examining questions about how AI/LLMs work, whether they think or understand, AI consciousness, ethical responsibilities, and AI's impact on society [PHIL-UA 83].\n\nAdditionally, PHIL-UA 5 (Minds and Machines) touches on related philosophical topics, such as whether a machine could think and computational approaches to the mind, though it is framed more broadly around philosophy of mind rather than AI specifically [PHIL-UA 5].",
+    "groundedness": "GROUNDED: The answer accurately summarizes PHIL-UA 83's description and correctly characterizes PHIL-UA 5 as related but broader, with both claims supported by the CONTEXT and course codes cited."
   }
 ]

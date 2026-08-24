@@ -3,12 +3,13 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: five CAS departments students actually cross-reference — Computer
+Scope: six CAS departments students actually cross-reference — Computer
 Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), Physics
-(`PHYS-UA`), and Economics (`ECON-UA`), 172 courses total — scraped from
-`bulletins.nyu.edu`. CAS has 51 department pages in total; the scraper's
-`DEPARTMENTS` map (`ingest/scrape_catalog.py`) is a one-line-per-department
-list, so adding more is mostly data verification, not code.
+(`PHYS-UA`), Economics (`ECON-UA`), and Philosophy (`PHIL-UA`), 220 courses
+total — scraped from `bulletins.nyu.edu`. CAS has 51 department pages in
+total; the scraper's `DEPARTMENTS` map (`ingest/scrape_catalog.py`) is a
+one-line-per-department list, so adding more is mostly data verification,
+not code.
 
 ![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
 
@@ -82,7 +83,7 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all five departments is
+Then, one-time database setup (course data for all six departments is
 already checked into the repo at `ingest/data/*.json`, so there's nothing to
 scrape):
 
@@ -110,17 +111,17 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 28 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 30 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (172 courses across 5 departments, 28 hand-written questions)
+### Results (220 courses across 6 departments, 30 hand-written questions)
 
-- **Retrieval hit-rate@5: 28/28 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 28/28 (100%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 30/30 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 30/30 (100%)** on that same run — this genuinely
   fluctuates a question or two across runs (LLM-judge grading has real
   run-to-run wording variance, e.g. how strictly it parses which grade
   requirement applies to which option in an OR'd prerequisite list), so treat
@@ -160,6 +161,13 @@ Retrieval history, in order:
    positional shortcuts that happened to work at 4-department scope broke at
    5, so it's worth treating scope growth as a retrieval regression test
    going forward, not just a data-verification step.
+5. **No regression adding Philosophy:** unit tests were added for the pure
+   name-matching and list-combination logic (`retrieval/test_search.py`)
+   before this expansion, specifically to catch the next version of bugs #3
+   and #4 without needing a live eval run. Adding a 6th department (48 more
+   courses, 220 total) held at 30/30 (100%) with no fix required - first
+   real evidence the regression class is actually closed, not just patched
+   once.
 
 ### CI regression check
 

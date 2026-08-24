@@ -110,5 +110,13 @@
   {
     "question": "Which course covers health economics?",
     "expected_course_codes": ["ECON-UA 354"]
+  },
+  {
+    "question": "Is there a course on the philosophical foundations of computability?",
+    "expected_course_codes": ["PHIL-UA 75"]
+  },
+  {
+    "question": "Which course covers the philosophy of artificial intelligence?",
+    "expected_course_codes": ["PHIL-UA 83"]
   }
 ]
