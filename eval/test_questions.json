@@ -174,5 +174,61 @@
   {
     "question": "Is there a course on the biogeochemistry of global change?",
     "expected_course_codes": ["BIOL-UA 66", "ENVST-UA 370"]
+  },
+  {
+    "question": "Is there a course on pandemics in world history?",
+    "expected_course_codes": ["HIST-UA 79"]
+  },
+  {
+    "question": "Which course covers espionage and the making of the modern world?",
+    "expected_course_codes": ["HIST-UA 23"]
+  },
+  {
+    "question": "Which course covers Dante's Divine Comedy?",
+    "expected_course_codes": ["ENGL-UA 142"]
+  },
+  {
+    "question": "Is there a course called Writing New York?",
+    "expected_course_codes": ["ENGL-UA 180"]
+  },
+  {
+    "question": "Is there a course on data science in archaeology?",
+    "expected_course_codes": ["ANTH-UA 152"]
+  },
+  {
+    "question": "Which course covers digital anthropology?",
+    "expected_course_codes": ["ANTH-UA 126"]
+  },
+  {
+    "question": "Is there a course on ancient Egyptian art?",
+    "expected_course_codes": ["ARTH-UA 110"]
+  },
+  {
+    "question": "Which course covers Italian Renaissance sculpture?",
+    "expected_course_codes": ["ARTH-UA 305"]
+  },
+  {
+    "question": "Which course covers journalism ethics and First Amendment law?",
+    "expected_course_codes": ["JOUR-UA 502"]
+  },
+  {
+    "question": "Is there a course called Report New York?",
+    "expected_course_codes": ["JOUR-UA 21"]
+  },
+  {
+    "question": "Is there a course connecting Roman elegy to Taylor Swift?",
+    "expected_course_codes": ["CLASS-UA 80"]
+  },
+  {
+    "question": "Which course covers Greek and Roman mythology?",
+    "expected_course_codes": ["CLASS-UA 404"]
+  },
+  {
+    "question": "Is there an advanced fiction writing workshop?",
+    "expected_course_codes": ["CRWRI-UA 820"]
+  },
+  {
+    "question": "Is there an advanced poetry writing workshop?",
+    "expected_course_codes": ["CRWRI-UA 830"]
   }
 ]

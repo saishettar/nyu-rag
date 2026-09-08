@@ -107,7 +107,7 @@ export function EmptyState({
         </div>
       )}
 
-      <p className="mt-4 text-xs text-faint">evaluated on 44 hand-written course-planning questions</p>
+      <p className="mt-4 text-xs text-faint">evaluated on 58 hand-written course-planning questions</p>
     </div>
   );
 }

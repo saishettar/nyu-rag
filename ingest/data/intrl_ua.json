@@ -1,0 +1,20 @@
+[
+  {
+    "course_code": "INTRL-UA 990",
+    "title": "IR Senior Seminar",
+    "department": "intrl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the director of the international relations major. Students must maintain a 3.65 GPA to be eligible for this seminar. The first half of the international relations major?s two-semester capstone experience, this course is designed to equip students with the skills required to write an excellent international relations thesis ( INTRL-UA 991 ) in the spring semester. The class is meant to be a bridge between the major?s required class in research methods and the substantive classes in the major. Students learn how to develop explanations for international phenomena, derive testable hypotheses, and develop research designs capable of testing them. This class is only offered in the fall and must be taken in the fall semester of the senior year.",
+    "source_url": "https://bulletins.nyu.edu/courses/intrl_ua/"
+  },
+  {
+    "course_code": "INTRL-UA 991",
+    "title": "IR Senior Honors",
+    "department": "intrl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "One term of individual research culminating in the production of a senior thesis of the student's own choice under the supervision of an appropriate member of the faculty. This class is only offered in the spring semester and must be taken in the spring semester of the senior year.",
+    "source_url": "https://bulletins.nyu.edu/courses/intrl_ua/"
+  }
+]

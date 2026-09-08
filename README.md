@@ -3,16 +3,14 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: fifteen CAS departments students actually cross-reference — Computer
-Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), Physics
-(`PHYS-UA`), Economics (`ECON-UA`), Philosophy (`PHIL-UA`), Psychology
-(`PSYCH-UA`), Politics (`POL-UA`), Neural Science (`NEURL-UA`), Chemistry
-(`CHEM-UA`), Biology (`BIOL-UA`), Linguistics (`LING-UA`), Public Policy
-(`PUBPL-UA`), Urban Studies (`URBS-UA`), and Environmental Studies
-(`ENVST-UA`), 544 courses total — scraped from `bulletins.nyu.edu`. CAS has
-51 department pages in total; the scraper's `DEPARTMENTS` map
-(`ingest/scrape_catalog.py`) is a one-line-per-department list, so adding
-more is mostly data verification, not code.
+Scope: 23 of NYU CAS's 51 undergraduate departments, 1,056 courses total —
+scraped from `bulletins.nyu.edu`. Started with CS and the departments it
+most often cross-references (Math, Physics, Data Science, Economics,
+Philosophy, Psychology), then expanded batch by batch toward full CAS
+coverage; see `ingest/scrape_catalog.py`'s `DEPARTMENTS` map for the
+current, authoritative list of which departments are in and which are
+still pending — that map is a one-line-per-department addition, so growing
+scope further is mostly data verification, not code.
 
 ![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
 
@@ -86,7 +84,7 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all fifteen departments is
+Then, one-time database setup (course data for all 23 departments is
 already checked into the repo at `ingest/data/*.json`, so there's nothing to
 scrape):
 
@@ -114,17 +112,17 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 44 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 58 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (544 courses across 15 departments, 44 hand-written questions)
+### Results (1,056 courses across 23 departments, 58 hand-written questions)
 
-- **Retrieval hit-rate@5: 44/44 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 43/44 (98%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 58/58 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 57/58 (98%)** on that same run — this genuinely
   fluctuates across runs (LLM-judge grading has real run-to-run wording
   variance, e.g. asserting an unstated topic for a course mentioned
   alongside the correctly-cited one, or how strictly it parses which grade
@@ -200,6 +198,13 @@ Retrieval history, in order:
    and reverified across all 44 questions (226 more courses, 544 total):
    44/44 (100%) retrieval, 43/44 (98%) groundedness - the one miss again the
    same pre-existing CSCI-UA question from #7, not a new-scope issue.
+9. **No regression adding eight more departments at once** (History,
+   English, Anthropology, Art History, Journalism, International
+   Relations, Classics, Creative Writing - the first batch without a
+   specific CS-overlap story, added to round out general CAS coverage):
+   512 more courses (1,056 total), 14 new questions, held at 58/58 (100%)
+   retrieval with no fix required. Groundedness held at 57/58 (98%), same
+   pre-existing CSCI-UA miss as #7 and #8.
 
 ### CI regression check
 

@@ -1,0 +1,740 @@
+[
+  {
+    "course_code": "ENGL-UA 59",
+    "title": "Topics:",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 101",
+    "title": "Introduction to the Study of Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open to English majors and minors only. Conducted in a seminar format. Introduces students to the demands and pleasures of university-level investigation of English literature. Students develop the tools necessary for advanced criticism, including close-reading skills, knowledge of generic conventions, mastery of critical terminology, and skill at a variety of modes of analysis, from the formal to the historical. Also emphasizes the writing process, with the production of four to five formal papers.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 111",
+    "title": "Literatures in English I:  Medieval and Early Modern Literatures",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( WREX-UF 101 OR EXPOS-UA 1 ).",
+    "description": "Survey of English literature from its origins in the Anglo-Saxon epic through Milton. Close reading of representative works, with attention to the historical, intellectual, and social contexts of the period.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 112",
+    "title": "Literatures in English II: Literatures of the British Isles and British Empire 1660-1900",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( WREX-UF 101 OR EXPOS-UA 1 ).",
+    "description": "Survey of English literature from the Restoration to the 20th century. Close reading of representative works with attention to the historical, intellectual, and social contexts of the period.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 113",
+    "title": "Literatures in English III: American Literatures to 1900",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( WREX-UF 101 OR EXPOS-UA 1 ).",
+    "description": "This course surveys the evolution of literary themes and forms from the period of European exploration of the Americas through the Civil War, tracing distinctive traditions of writing and thinking that have shaped the development of modern literature and thought in the United States. How, in particular, did this writing and thought address religious, political and economic conflict? How was it shaped by encounters between European and native American cultures; the arts of religious devotion and cosmopolitan enlightenment; the cultural politics of revolution and modern nationalism; responses to the expansion of capitalism and slavery; the development of print media and modern literary values; and the philosophy and aesthetics of American transcendentalism and sentimentalism?",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 114",
+    "title": "Literatures in English IV: Twentieth and Twenty-first Century Literatures",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( WREX-UF 101 OR EXPOS-UA 1 ).",
+    "description": "An overview of English-language literary production as it expands and diversifies from 1900 onward. Includes topics such as international modernisms; literatures of imperialism, anti-colonialism and diaspora; race, ethnicity and representation; and the significance of English-language writing in an increasingly globalized cultural field.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 125",
+    "title": "History of Drama & Theater I",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines selected plays central to the development of world drama, with critical emphasis on a cultural, historical, and theatrical analysis of these works. The first semester covers the major periods of Greek and Roman drama; Indian, Japanese, and Chinese classical theatre; medieval drama; theatre of the English, Italian, and Spanish Renaissance; and French neoclassical drama.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 126",
+    "title": "History of Drama & Theatre II",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines selected plays central to the development of world drama, with critical emphasis on a cultural, historical, and theatrical analysis of these works. The first semester covers the major periods of Greek and Roman drama; Indian, Japanese, and Chinese classical theatre; medieval drama; theatre of the English, Italian, and Spanish Renaissance; and French neoclassical drama.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 132",
+    "title": "Drama in Performance",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Combines the study of drama as literary text with the study of theatre as its three-dimensional translation, both theoretically and practically. Drawing on the rich theatrical resources of New York City, approximately 12 plays are seen, covering classical to contemporary and traditional to experimental theatre. On occasion, films or videotapes of plays are used to supplement live performances. Readings include plays and essays in theory and criticism.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 142",
+    "title": "Dante's Divine Comedy",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Students study the Divine Comedy both as a mirror of high medieval culture and as a unique text that breaks out of its cultural bounds. The entire poem is read, in addition to selections from the Vita Nuova and other complementary minor works.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 180",
+    "title": "Writing New York",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the history of New York through an exploration of fiction, poetry, plays, and films about the city, from Washington Irving?s A History of New York to Frank Miller?s graphic novel The Dark Knight Returns. Two lectures and one recitation section each week.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 201",
+    "title": "Reading as a Writer",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "WREX-UF 101 OR EXPOS-UA 1 .",
+    "description": "4 points, discussion/seminar. First offered spring 2016, and every semester thereafter. Prerequisite (or co-requisite): Literary Interpretation (ENGL-UA 200).\nThis seminar is a class in creative as well as critical reading.  This class posits reading as an activity and explores reading and writing as reciprocal activities: no strong writers are not also strong readers.  What can we learn from a text's forms, modes, codes, and affects? What can we also learn from theories of literature (of poetry and poetics, or drama, of the novel or narrative in general)?   How can we read both with and against the grain? And how can a profound engagement with criticism, commentary, and theory help us become better \u201cmakers\u201d ourselves? This course assumes that writing is an effect of, and in a feedback loop with, reading:  thus this seminar aims to strengthen your capacities for pattern recognition \u2013 i.e. sophistication about genre, style, mode.  Regular assignments aim to provide a space for critical experiments in reading and writing; the syllabus offers models and goads for reflection and response.  Students will direct and distill their inquiries into a substantial final paper (or project). Open only to English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 240",
+    "title": "American Short Story",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Study of theme and technique in the American short story through readings in Irving, Hawthorne, Poe, Melville, James, Hemingway, Faulkner, Porter, and others, including representative regional writers.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 250",
+    "title": "18th and 19th Century African American Lit",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Survey of major autobiographies, fiction, and poetry from the early national period to the eve of the New Negro Renaissance. Writers considered generally include Olaudah Equiano, Phillis Wheatley, Harriet Jacobs, William Wells Brown, Frederick Douglass, Frances E. W. Harper, and Harriet Wilson.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 251",
+    "title": "20th Century African- American Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: V41.0185 or V41.0230. Survey of major texts?fiction, poetry, autobiography, and drama?from Du Bois?s The Souls of Black Folk (1903) to contemporaries such as Amiri Baraka, Alice Walker, and Toni Morrison. Discussion of the Harlem Renaissance and its key figures, including Richard Wright, James Baldwin, Langston Hughes, and Ralph Ellison.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 252",
+    "title": "Topics:",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( WREX-UF 101 OR EXPOS-UA 1 ).",
+    "description": "Various topics in English Literature",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 315",
+    "title": "Intro to Old English Language & Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Study of the language, literature, and culture of the Anglo-Saxons from about AD 500-1066. Oral readings of the original texts and a survey of basic grammar. Representative prose selections are read, but emphasis is on the brilliant short poems: Caedmon's Hymn, The Battle of Maldon, The Seafarer, The Wanderer, and The Dream of the Rood, that prepare the reader for the epic Beowulf.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 320",
+    "title": "Colloquium: Chaucer",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to Geoffrey Chaucer\u2019s major poetry, with particular attention to The Canterbury Tales. General language training will be offered at the start of the course. Special attention will be given to Chaucer\u2019s narrative skill, his techniques of characterization, style, varieties of formal invention, and particular thematic preoccupations. Students are also encouraged to explore Chaucer\u2019s writing as a lens onto late medieval society and culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 400",
+    "title": "The English Renaissance",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the major writers of the 16th and early 17th centuries. Such representative works as More's Utopia, Sidney's Defense of Poetry, Spenser's Faerie Queene, and works of the lyric poets from Wyatt to Sidney are studied in relation to humanism and the Reformation.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 410",
+    "title": "Shakespeare",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why is Shakespeare still a vital cultural force 400 years after his death? How was he able to speak both to us and to audiences of his own day? This course will survey Shakespeare\u2019s major plays and poems, and will look at their historical, cultural and theatrical contexts. But we will also consider Shakespeare\u2019s afterlife on stage and screen.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 415",
+    "title": "Colloq: Shakespeare",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "WREX-UF 101 OR EXPOS-UA 1 AND English Majors Only.",
+    "description": "Intensive reading of six to eight plays of Shakespeare chosen from among the comedies, tragedies, and histories, with attention to formal, historical, and performance questions. Only open to English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 420",
+    "title": "English Drama to 1642",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Reading of major non-Shakespearean drama, including plays by Marlowe, Jonson, Middleton, Webster, and others, with attention to both formal and historical questions. Issues of genre, gender and sexuality, status, degree, and nation.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 440",
+    "title": "17th Cent English Lit",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the prose and poetry of the 17th century, an age of spiritual, scientific, and political crisis. Readings in Jonson, Donne, Bacon, Herbert, Marvell, Milton, Browne, and others.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 445",
+    "title": "Colloquium: Early Modern Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "WREX-UF 101 OR EXPOS-UA 1 AND English Majors Only.",
+    "description": "Topic varies each term. Consult the department's undergraduate Web site for further information. Only open to English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 450",
+    "title": "Colloquium: Milton",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "WREX-UF 101 OR EXPOS-UA 1 .",
+    "description": "Emphasis on the major poems (Paradise Lost, Paradise Regained, and Samson Agonistes) with some attention to the early poems and the prose. Traces the poet's sense of vocation, analyzes the gradual development of the Miltonic style, and assesses Milton's position in the history of English literature, politics, and theology.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 511",
+    "title": "Jane Austen",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This survey of Jane Austen\u2019s work examines her compact oeuvre of fiction, whose critical reception has been formative to the discipline of English literature itself. We will read Persuasion, Pride and Prejudice, Sense and Sensibility and other classics to consider Austen\u2019s deep, virtuosic inheritance of eighteenth-century narrative forms as well as their afterlives in contemporary culture, including popular film adaptations of Austen\u2019s work (Clueless, Love and Friendship). Students will embark on a careful study of an author widely recognized as one of the master stylists of the English language.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 512",
+    "title": "English Lit of 18th Cent",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 112 .",
+    "description": "Overview and analysis of noteworthy authors and works of the 18thc. Specific works and authors will vary per semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 530",
+    "title": "English Novel 19th Cent",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Studies in the forms and contexts of the 19th-century English novel.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 545",
+    "title": "Colloq:19 Century",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topic varies each term. Consult the department?s undergraduate Web site for further information.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 607",
+    "title": "Contemporary British Lit and Culture",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: V41.0220. Studies in contemporary British fiction, exploring postwar British culture in an era of profound political and economic change and social upheaval. Examines a range of avant-garde, neorealist, postcolonial, and popular texts that challenge received notions of ?Englishness.? Particular attention is paid to the interaction between literature and other cultural forms, such as cinema, popular music, and sport.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 615",
+    "title": "Transatlantic Modernism",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 112 .",
+    "description": "Focus on works written between the two world wars, but may also consider earlier works as well as postmodern writing after 1945. Writers may include Virginia Woolf, T.S. Eliot, James Joyce, Ezra Pound, Djuna Barnes, Willa Cather, F. Scott Fitzgerald, and Ernest Hemingway.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 621",
+    "title": "The Irish Renaissance",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Covers the tumultuous period from the fall of Charles Stuart Parnell, through the Easter Rising in 1916, and into the early years of national government in the 1930s. Readings in various genres (poetry, short story, novel, drama). Writers may include Oscar Wilde, W.B. Yeats, James Joyce, Lady Gregory, John Millington Synge, Sean O\u2019Casey, Samuel Beckett, and Flann O\u2019Brien.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 625",
+    "title": "Colloquium:",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers the imaginative ?logic? of James Joyce?s career and the extent to which the trajectory of his works constitutes a ?development? of forces posited in the early writings. Readings span the entire oeuvre, from Dubliners to Finnegans Wake, and include Joyce?s poetry and his play, Exiles.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 640",
+    "title": "Amer Fiction Since WWII",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examination of representative works by contemporary novelists. Authors generally include Barthelme, Bellow, Ellison, Gaddis, Hawkes, Mailer, Malamud, Morrison, Nabokov, Oates, Pynchon, Roth, Updike, and Walker.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 650",
+    "title": "Modern American Drama",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENGL-UA 113 OR ENGL-UA 125 OR ENGL-UA 126 ).",
+    "description": "Study of the drama and theatre of America since 1900, including Eugene O?Neill, Susan Glaspell, the Group Theatre, Thornton Wilder, Tennessee Williams, Arthur Miller, Edward Albee, Sam Shepard, David Mamet, Maria Irene Fornes, and David Henry Hwang.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 675",
+    "title": "Literature and the Environment",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces a range of theories about the relationship between writing and the world: narrative theory, theories of reference, the social production of space, queer theory, and others. We will read work by a range of poets, political scientists, novelists, sociologists, ethnographers, and philosophers.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 700",
+    "title": "Colloquium",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "WREX-UF 101 OR EXPOS-UA 1 .",
+    "description": "Topics and prerequisites vary by semester. Only open to English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 712",
+    "title": "Major Texts in Critical Theory",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "Major texts in critical theory from Plato to Derrida, considered in relation to literary practice. The first half of the course focuses on four major types of critical theory: mimetic, ethical, expressive, and formalist. The second half turns to 20th-century critical schools, such as Russian and American formalism, archetypal criticism, structuralism, psychoanalytic criticism, feminism, reader theory, deconstruction, and historicism.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 716",
+    "title": "Asian-American Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Students will examine a variety of genres (poetry, plays, fiction and nonfiction, literary/cultural criticism, and nontraditional forms) by writers from diverse ethnic backgrounds. We will explore the ways in which the writers treat issues such as racial and ethnic identity, immigration and assimilation, gender, class, sexuality, nationalism, culture and community, history and memory, and art and political engagement.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 721",
+    "title": "History & Literatures of The South Asian Diaspora",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "America is not always the answer. This class offers an introduction to\nthe many and varied fictions that have been produced by diasporic South\nAsians across the globe over the last 150 years: in Australia, Africa,\nEurope, Caribbean. Our exploration of the poetics and politics of\nimmigration will attend to different types of traveller (inc. soldiers,\nstudents, athletes, medics, cosmonauts) and draw on a wide range of media\n(inc. literature, cinema and music). Particular attention will be paid to\nthe diverse geographies of Asian migration - be they plantations, dance\nFloors, restaurants, call centres. Themes to be addressed include\ncoolietude, globalization, the impact of 9/11 and techno-servitude.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 724",
+    "title": "Italian-American Life in Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A study of the fiction and poetry by which Italian American writers have expressed their heritage and their engagement in American life. From narratives of immigration to current work by \u201cassimilated\u201d writers, the course explores the depiction of Italian American identity. Challenging stereotypes, it explores changing family relationships, sexual mores, and political and social concerns.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 728",
+    "title": "Science Fiction",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers contemporary science fiction as literature, social commentary, prophecy, and a reflection of recent and possible future trends in technology and society. Writers considered include such authors as Isaac Asimov, J. G. Ballard, Octavia Butler, Arthur C. Clark, Samuel Delany, Philip K. Dick, William Gibson, Robert Heinlein, Frank Herbert, Ursula K. Le Guin, Neal Stephenson, and Bruce Sterling.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 732",
+    "title": "Introduction to Book History",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "ENGL-UA 732 : \"Introduction to Book History\" offers an introduction to the rapidly-expanding nexus of fields known as the History of the Book. Book History addresses more than just books: it investigates the production, dissemination, and readership of all kinds of textual materials, from papyrus to e-books.  This course, aimed at those who want a broad, introductory overview to the field, offers a sweeping survey of key issues and historical moments and transformations from oral culture to manuscript to print to hypertext. Specific topics will vary from semester to semester, but what unites all book historians is the conviction that the material format of text itself matters.  Hands-on workshops and field trips will allow all students to learn how to \"read\" and describe books, manuscripts, or other texts as meaningful artifacts in themselves (rather than as transparent vehicles of meaning).  Other typical topics include major format changes and technological transitions in book production (e.g. the printing revolution) and their cultural impact, the history of censorship, copyright, and intellectual property, newspapers and periodicals, ephemera, Grub Street and the history of authorship, and the ways that digital texts, resources, and media, and computational tools and methods are currently transforming research in the humanities.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 735",
+    "title": "Readings in Contemporary Literary Theory",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary from term to term.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 775",
+    "title": "Latina/o Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers an in-depth exploration of the rich and diverse literary traditions of Latina/o writers, spanning a wide range of genres, themes, and historical contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 780",
+    "title": "Intro to Postcolonial Studies",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "WREX-UF 101 OR EXPOS-UA 1 .",
+    "description": "This course offers an introduction to the interdisciplinary field of Postcolonial Studies, examining the social, cultural, political, and literary legacies of colonialism and imperialism. Through an exploration of key texts, theories, and historical contexts, students will gain a critical understanding of the complexities surrounding the postcolonial world and its ongoing implications. Only open to English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 800",
+    "title": "Topics:",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "Various Topics in English Literature.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 850",
+    "title": "Junior Seminar: Medieval Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 854",
+    "title": "Junior Seminar: 19th-Century British Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 870",
+    "title": "Junior Seminar: Critical Theories and Methods",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 871",
+    "title": "Junior Seminar: Dramatic Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 872",
+    "title": "Junior Seminar: Genre Studies",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 873",
+    "title": "Junior Seminar: Interdisciplinary Study",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 874",
+    "title": "Junior Seminar: Poetry and Poetics",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 875",
+    "title": "Junior Seminar: World Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "The Junior Seminar prepares students for the relatively independent work of the Senior Seminar. Topics vary by semester. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 910",
+    "title": "Creative Writing Capstone Project",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Individual creative project for students completing the Creative Writing Track in the English Major. The student is guided through the development and writing of a substantial creative project by frequent conferences with the project director. The project typically results in one of the following: a novella, a poetry chapbook, a collection of short stories, or a work of a hybrid genre. Students enrolled in this course also enroll in the one-semester Creative Writing Capstone Colloquium ( ENGL-UA 911 for 2 credit points). Proposals, approved by the student's faculty advisor, must be submitted in advance of the registration period for the term in which the Capstone Project is to be conducted.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 911",
+    "title": "Creative Writing Capstone Colloquium",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Required of all students enrolled in ENGL-UA 910 , Creative Writing Capstone Project. Meets approximately eight times each term to workshop writing projects and engage collectively in the writing process.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 925",
+    "title": "Senior Honors Thesis",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "(ENGL-UA 905 OR ENGL-UA 906).",
+    "description": "To complete the honors program, the student must write a thesis under the supervision of a faculty director in this individual tutorial course. The student chooses a topic (normally at the beginning of the senior year) and is guided through the research and writing by weekly conferences with the thesis director. Students enrolled in this course are also expected to attend a yearlong colloquium for thesis writers ENGL-UA 926 ). Students should consult the director of the honors program about the selection of a topic and a thesis director. Information about the length, format, and due date of the thesis is available on the department?s Web site.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 926",
+    "title": "Senior Honors Colloquium",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Two terms required of all honors seniors. Meets approximately eight times each term.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 950",
+    "title": "Senior Seminar:  Medieval Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 951",
+    "title": "Senior Seminar: Renaissance Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester. Open only to junior and senior English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 953",
+    "title": "Senior Seminar: 18th-Century British Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topic varies significantly each term. Consult the department's undergraduate website for further information.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 954",
+    "title": "Senior Seminar: 19th-Century British Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "( WREX-UF 101 OR EXPOS-UA 1 ).",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 961",
+    "title": "Senior Seminar: 19th-Century American Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 962",
+    "title": "Senior Seminar: 20th-Century American Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 963",
+    "title": "Senior Seminar: African American Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 964",
+    "title": "Senior Seminar: Emergent American Literatures",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 965",
+    "title": "Senior Seminar: Transatlantic Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester. Open only to junior and senior English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 970",
+    "title": "Senior Seminar: Critical Theories and Methods",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 971",
+    "title": "Senior Seminar: Dramatic Literature",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester. Only open to junior and senior English majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 972",
+    "title": "Senior Seminar: Genre Studies",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 973",
+    "title": "Senior Seminar: Interdisciplinary Study",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 974",
+    "title": "Senior Seminar: Poetry and Poetics",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 975",
+    "title": "Senior Seminar: World Literature in English",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 980",
+    "title": "Internship",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: for majors, permission of the student?s departmental adviser; for minors, permission of the department?s internship director. May not be used to fulfill the minimum requirement of either the major or the minor. 2 or 4 points per term; 8 total internship points are the department maximum. Pass/fail. Requires a commitment of 8 to 12 hours of work per week in an unpaid position to be approved by the director of undergraduate studies. The intern?s duties on site should involve some substantive aspect of literary work, whether in research, writing, editing, or production (e.g., at an archive or publishing house, or with a literary agent or an arts administration group). A written evaluation is solicited from the intern?s supervisor at the end of the semester. The grade for the course is based on a final paper submitted to the faculty director.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 981",
+    "title": "Internship",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Internship seminar; please apply via department to enroll.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 995",
+    "title": "The Contemporary Literature Lab",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course bridges scholarly and professional training by providing students with an intensive introduction to the world of contemporary literature: its writers, its communities, and its organizations and institutions. Built around the English Department\u2019s Contemporary Literature Series (CLS), which brings noted authors who are on course syllabi that semester to the NYU campus, the focus of the CLS Lab varies each semester depending on the featured authors. Some of the topics to be explored include: literary publishing, forums for literary discussion and criticism, literary organizations and institutions, and the possibilities and challenges of writing scholarly literary criticism about contemporary literature. By the end of the CLS Lab, students will have a firm grasp of the contemporary literary landscape and they will be better prepared to translate their interests and skills as English majors into the intellectual and professional contexts of the literary world in New York City and beyond.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 996",
+    "title": "Banned Books",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "In this course, we will read books from the American Library Association\u2019s 10 Most Challenged Books list and learn about some of the specific challenges as well as the ALA\u2019s efforts to defend free speech. Since 2021, there has been a sharp spike in censorship attempts in libraries, and most do not come from parents or individual library users. The most common themes that were used as justifications for challenges in 2024 were LGBTQIA+ and race, racism, and social justice. By reading and discussing these books, and by considering them as creative acts and\nobjects, we are fighting against censorship.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 997",
+    "title": "Independent Study",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the director of undergraduate studies. May not duplicate the content of a regularly offered course. Intended for qualified junior and senior English majors or minors, but may not be used to fulfill the minimum requirements of either the major or the minor. 2 or 4 points per term. Requires a paper of considerable length that should embody the result of a semester?s reading, thinking, and frequent conferences with the student?s director. The paper should show the student?s ability to investigate, collect, and evaluate material, finally drawing conclusions that are discussed in a sound and well-written argument. Proposals, approved by the student?s faculty director, must be submitted to the director of undergraduate studies in advance of the registration period for the term in which the independent study is to be conducted.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 998",
+    "title": "Independent Study",
+    "department": "engl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Please apply via department to enroll.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 999",
+    "title": "Mentoring Program Course",
+    "department": "engl_ua",
+    "credits": 0.0,
+    "prerequisites": "",
+    "description": "This course, offered to every English major and minor, pairs students with a Faculty Mentor to create a supportive and vibrant mentoring experience beyond the classroom. Students will meet with their faculty mentor to help connect them with the English faculty, their knowledge and resources and discuss more informally their interests, plan of study and career goals. We know it can be challenging for students to know how to reach out or begin a conversation and build professional or academic relationships, and the mentoring program is designed to support and encourage students throughout their time in the department.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  },
+  {
+    "course_code": "ENGL-UA 9160S",
+    "title": "Global Literature and Times of Perpetual War",
+    "department": "engl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores how literary and cultural works address the state of\nperpetual war of the historical present. Focusing on Third World\ndecolonisation contexts, we will consider how writers and artists\ninterrogate the gender, racial, and national ideologies that fuel violence,\nand how literary cultural analysis contributes towards understanding the\nglobal unevenly distributed effects of war.",
+    "source_url": "https://bulletins.nyu.edu/courses/engl_ua/"
+  }
+]

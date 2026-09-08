@@ -1,0 +1,578 @@
+[
+  {
+    "course_code": "CLASS-UA 2",
+    "title": "Intensive Elementary Latin",
+    "department": "class_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in Latin and to others through assignment by placement test. Given every other year. Spring term only. 6 points. Completes the equivalent of a year's elementary level in one semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 3",
+    "title": "Elementary Latin I",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the essentials of Latin, the language of Vergil, Caesar, and Seneca. Five hours of instruction weekly, with both oral and written drills and an emphasis on the ability to read Latin rather than merely translate it.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 4",
+    "title": "Elementary Latin II",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 3 .",
+    "description": "Continuation of Elementary Latin I.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 5",
+    "title": "Intermediate Latin: Cicero",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 2 or 4 .",
+    "description": "Teaches second-year students to read Latin prose through comprehensive grammar review; emphasis on the proper techniques for reading (correct phrase division, the identification of clauses, and reading in order); and practice reading at sight. Authors may include Caesar, Cicero, Cornelius Nepos, Livy, Petronius, or Pliny, at the instructor's discretion.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 6",
+    "title": "Intermediate Latin: Virgil",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 5 .",
+    "description": "Writings of the greatest Roman poet, focusing on the most generally read portions of his most celebrated poem, the Aeneid. The meter of the poem is studied, and the student learns to read Latin metrically to reflect the necessary sound for full appreciation of the writing. Readings in political and literary history illustrate the setting in the Augustan Age in which the Aeneid was written and enjoyed, the relationship of the poem to the other classical epics, and its influence on the poetry of later times.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 7",
+    "title": "Elementary Greek I",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the complex but highly beautiful language of ancient Greece--the language of Homer, Sophocles, Thucydides, and Plato. Students learn the essentials of ancient Greek vocabulary, morphology, and syntax. Five hours of instruction weekly, with both oral and written drills and an emphasis on the ability to read Greek rather than merely translate it.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 8",
+    "title": "Elementary Greek II",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 7 .",
+    "description": "Continuation of Elementary Greek I.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 9",
+    "title": "Intermediate Greek: Plato",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 8 .",
+    "description": "Reading of Plato's Apology and Crito and selections from the Republic. The purpose of the course is to develop facility in reading Attic prose. Supplements readings in Greek with lectures on Socrates and the Platonic dialogues.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 10",
+    "title": "Intermediate Greek: Homer",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 9 .",
+    "description": "Extensive readings in the Iliad or Odyssey. Proficiency in scansion is expected as well as a good command of Homeric vocabulary. Relevant topics ranging from the Homeric question to problems of oral tradition through the archaeological evidence of Bronze Age Greece and Troy are discussed in class or developed by the student through oral or written reports.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 80",
+    "title": "\u201cIt\u2019s a Love Story\u201d: Reading Roman Elegy through Taylor Swift",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course will explore two parallel bodies of work. The first is the extensive surviving writings of the Roman love elegists, in particular Catullus and Propertius. Both writers present apparently autobiographical accounts of their difficult relationships with their lovers. The second is the no less extensive works of the contemporary singer-songwriter Taylor Swift, which famously blend autobiography and fiction in her accounts of love relationships. The object of the course will be to compare them via close reading, and to explore how identical themes of love and betrayal emerge in different forms governed by changes in gender, class, and power relationships.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 143",
+    "title": "Greek Drama: Aeschylus, Sophocles, Euripides",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to DRLIT-UA 210 . Of the ancient Greeks' many gifts to Western culture, one of the most celebrated and influential is the art of drama. This course covers, through the best available translations, the masterpieces of the three great Athenian dramatists. Analysis of the place of the plays in the history of tragedy and the continuing influence they have had on serious playwrights, including those of the 20th century.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 146",
+    "title": "Greek & Roman Epic",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Detailed study of the epic from its earliest form, as used by Homer, to its use by the Roman authors. Concentrates on the Iliad and the Odyssey of Homer and on Virgil?s Aeneid, but may also cover the Argonautica of the Alexandrian poet Apollonius of Rhodes and Ovid?s Metamorphoses, as well as the epics representative of Silver Latin by Lucan, Silius Italicus, and Valerius Flaccus.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 150",
+    "title": "Sp Tpcs Ancient Art:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 203",
+    "title": "The Novel in Antiquity",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Survey of Greek and Roman narrative fiction in antiquity, its origins and development as a literary genre, and its influence on the tradition of the novel in Western literature. Readings include Chariton's Chaereas and Callirrhoe, Longus's Daphnis and Chloe, Heliodorus's Ethiopian Tale, Lucian's True History, Petronius's Satyricon, and Apuleius's Golden Ass. Concludes with the Gesta Romanorum and the influence of this tradition on later prose, such as Elizabethan prose romance.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 206",
+    "title": "Ancient Political Theory",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will introduce the foundations of ancient democracy and republicanism through reading and critical discussion of the works of Thucydides, Plato, Aristotle, Polybius, Cicero, and others. Ancient political thinkers used observations on history and contemporary politics to demonstrate the merits of different constitutions, which we can compare with the approach of modern political scientists. We will discuss the theory as well as the practice of ancient government, paying due attention to its enormous influence on modern thought and its relevance to problems in our time.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 210",
+    "title": "Represent Ancient Gender Sexuality in Greece&Rome",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This class deals with the constructions of gender and experiences of sexuality in ancient Greece and Rome. Working with texts and representations from varied discourses such as medicine, law, literature, visual art, and philosophy, students explore the ways in which the ancient Greeks and Romans perceived their own bodies in such a way as to differentiate gender and understand desire. The class also discusses how eroticism and gender support and subvert political and social ideologies.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 212",
+    "title": "Everyday Life in Ancient Rome",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will study daily life as it was lived by Romans in the period of the late Republic and early Empire: how they worked and worshipped, how they dressed, fed and entertained themselves. We will look at the lives of women, men and children, at questions of family life and social status, at rich and poor, at slaves and free. We will consider topics such as work and leisure, food and drink, marriage and divorce, crime and punishment, law and property. All of these issues will be examined through a careful study of the evidence from the time, both written and archaeological, giving us direct access to the ways in which people lived, and how they depicted their own lives and the lives of others.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 242",
+    "title": "Greek History from The Bronze Age to Alexander",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to HIST-UA 200 , HEL-UA 242 . Until a few decades ago, Greek history began with Homer and dealt narrowly with the Greek world. Thanks to archaeology, the social sciences, and other historical tools, the chronological and geographical horizons have been pushed back. The history of the Greeks now starts in the third millennium B.C. and is connected to the civilization that lay to the east, rooted in Egypt and Mesopotamia. This course traces Greek history from the Greeks' earliest appearance to the advent of Alexander.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 243",
+    "title": "The Greek World: Alexander to Augustus",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Continuation of the history of ancient Greece from the age of Alexander the Great in the fourth century B.C. until Emperor Augustus consolidated the Roman hold over the eastern Mediterranean in the first century B.C. These three centuries saw the relationship between Rome and the Near East become most meaningful. Examines Alexander's conquests, the states established by his successors (Ptolemies of Egypt and Seleucids of Syria), and the increasing intervention of Rome.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 267",
+    "title": "History of Rome: The Republic",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to HIST-UA 205 . In the sixth century B.C., Rome was an obscure village. By the end of the third century B.C., Rome was master of Italy, and within another 150 years, it dominated almost all of the Mediterranean world. Then followed a century of civil war involving some of the most famous events and men, Caesar, Pompey, and Cato, in Western history. The course surveys this vital period with a modern research interpretation.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 278",
+    "title": "History of The Roman Empire",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to HIST-UA 206 . In the spring of 44 B.C., Julius Caesar was murdered by a group of senators disgruntled with his monarchic ways. However, Caesar's adoptive son and heir, Octavian, was quickly on the scene and in little more than a decade managed to establish himself as Rome's first emperor. About three centuries later, Constantine the Great would rise to imperial power and with him came a new state religion-Christianity. This course examines the social and political history of the Roman Empire from the time of Augustus to that of Constantine and also closely observes the parallel growth of Christianity.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 291",
+    "title": "Special Topics in Classics:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For additional information see the departmental website:\nhttp://classics.as.nyu.edu/page/home.html",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 293",
+    "title": "Special Topics in Classics",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For additional information see the departmental website:\nhttp://classics.as.nyu.edu/page/home.html",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 294",
+    "title": "Special Topics in Classics",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For additional information see the departmental website:\nhttp://classics.as.nyu.edu/page/home.html",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 295",
+    "title": "Senior Honors Seminar",
+    "department": "class_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the Department.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 296",
+    "title": "Topics:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.  For additional information see the departmental website: http://classics.as.nyu.edu/page/home.html\"",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 297",
+    "title": "Senior Honors Thesis",
+    "department": "class_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the Department.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 305",
+    "title": "Intro to Archaeology",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the archaeology of the Mediterranean world examining the history and contexts of sites and monuments, as well as the methods, practices, and research models through which they have been excavated and studied.  From Bronze Age palaces of the Aegean , to the Athenian Acropolis, to the cities of Alexander the Great, the Roman forum, Pompeii, and the Roman provinces,, we consider the ways in which art, archaeology, architecture, everyday objects, landscape, urbanism, technology, and ritual teach us about ancient Greek and Roman societies.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 314",
+    "title": "Greek Sculpture: Prayers in Stone",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "From the \u201cSnake Goddesses\u201d of Minoan Crete, to the marble kouroi of archaic sanctuaries, from the Parthenon sculptures to the Pergamene Altar, the Greeks devoted enormous resources to the sculpting of images.  This course examines sculptural production in Greece from the Bronze Age through the Hellenistic period, with careful attention to materials, techniques, styles, iconography, authorship, patronage, and settings.  The votive function of images as \u201cpleasing gifts\u201d for the gods, their apotropaic role in protecting tombs and temples, and the commemorative function of sculptured grave markers will be considered within the broader context of signification.  Special topics include: divine images, corporality, athletic statuary, portraiture, and architectural decoration.  Sculptures will be examined within the framework of critical theories of representation, mimesis, aesthetics, and reception, as well as within their broader social, political, and historical contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 315",
+    "title": "Greek Painting: From Myth to Image",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "From the house frescoes of Bronze Age Thera to the tomb paintings of Macedonia, from Minoan painted pottery to Athenian red-figured vases, Greek painting was a powerful aesthetic and narrative force within Greek art and culture.  This course traces developments in monumental wall painting and the decoration of vases, with special emphasis on production, exchange, technique, style, authorship, narrative, context, function, and meanings.  Issues of representation and signification will be examined within the frameworks of a variety of critical approaches, including semiotics, structuralism, and formal analysis.  Special emphasis will be placed on issues of reception from the Eighteenth century on, particularly the impact of connoisseurship and the art market on values ascribed to ancient vases.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 316",
+    "title": "The Parthenon and Its Reception:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Traces the history of the Parthenon and its reception through its transformations from the temple of Athena, to Christian church, to mosque, to ruin, to icon of Western art and culture. The landscape, topography, and topology of the Athenian Acropolis are examined with an eye toward understanding the interrelation of place, myth, cult, and ritual. The architectural phases of the Parthenon, its program of sculptural decoration, its relationship to other monuments on the Acropolis, and the foundation myths that lie behind its meaning are scrutinized. Issues of reception, projection, and appropriation are considered, as well as interventions through conservation and reconstruction. Efforts to secure the repatriation of the Parthenon sculptures are reviewed within the broader context of global cultural heritage law and the opening of the New Acropolis Museum.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 360",
+    "title": "Ancient Art at Risk:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the environmental, material, social, and political forces that put ancient art at risk, including exposure to natural elements, acid rain, pollution, dam building, tourism, urban development, armed conflict, looting, theft, and the illicit trade in antiquities.  Issues of conservation, preservation, and ethics are considered through case studies that focus on sites, monuments, and materials.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 404",
+    "title": "Greek and Roman Mythology",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the myths and legends of Greek and Roman mythology, their connections to the wider ancient Mediterranean World, the ways in which gods, spirits, heroes, monsters and everyday mortals are portrayed and ways to approach the meaning of ancient myth. Ancient art works and texts (in translation) are analyzed, including Hesiod\u2019s creation myths, Homer\u2019s Iliad and Odyssey, ancient Greek drama, and other works. Rome\u2019s use of Greek myth will also be covered including Ovid\u2019s metamorphoses and Virgil\u2019s Aeneid. This class will also cover the reception of Greek and Roman myths in modern culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 409",
+    "title": "Ancient Religion:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The period from the beginnings of Greek religion until the spread of Christianity spans over 2,000 years and many approaches to religious and moral issues. Traces developments such as Olympian gods of Homer and Hesiod; hero worship; public and private religion; views of death, the soul, and afterlife; Dionysus; Epicureanism; and Stoicism. Deals with changes in Greek religion during the Roman republic and early empire and the success of Christians in converting pagans in spite of official persecution.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 650",
+    "title": "Topics in Religion:",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to RELST-UA 650 . Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 660",
+    "title": "Martyrdom, Ancient and Modern",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Begins with a close study of the development of the martyrological discourse in classical, early Christian, early Jewish, and Muslim literature and culture. Traces how the concept of martyrdom is deployed in modern culture: the \u201cColumbine martyrs,\u201d \u201cmartyrdom operations\u201d (\u201csuicide bombers\u201d), political martyrdom, and modern notions of holy war.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 700",
+    "title": "The Greek Thinkers",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The origins of nonmythical speculation among the Greeks and the main patterns of philosophical thought, from Thales and other early speculators about the physical nature of the world through Socrates, Plato, Aristotle, the Stoics, the Epicureans, and the Neoplatonists.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 701",
+    "title": "Socrates and His Critics",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Despite having written nothing himself, Socrates is\u2014if not the most influential\u2014certainly one of the most influential intellectual figures in the Western tradition, for it is with Socrates, we are told, that \u201cphilosophy\u201d seems first to move from natural history to an explicit concern for human affairs.  Indeed, so great is the magnitude of this change that we continue to term earlier thinkers \u201cpre-Socratic philosophers.\u201d  His stature is marked again in the name given to a distinctive form of philosophical literature, the Socratic discourse, and an approach to philosophical inquiry and instruction, the so-called Socratic method.  In antiquity, importantly, he inspired Plato, Xenophon, the Stoics, the Skeptics, and the Cynics, beyond those thinkers stretching to influence in Rome and Judea...and four centuries before the presumed time of Jesus, Socrates had already suffered martyrdom for his idiosyncratic political and religious views.  In modernity, his life both fascinates and repels the attention, notably, of Nietzsche; though criticisms of his mode of existence he had already endured in his own time at the hands of the comedian Aristophanes, among others.  Given the state of the evidence, one can look only to the history of the reception of his thought to try to recover any sense of the \u201chistorical Socrates\u201d; but we must likewise ask whether he does not perhaps exert a greater influence as a result of the reception of the doxography itself than for his actual intellectual contributions.  In short, had Socrates never existed, would not the tradition essentially have had to create him, in its move from its origins to ethics and political philosophy?  Even given that he did actually live, is what we have of him really just such a necessary fiction?",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 846",
+    "title": "Virgins, Martyrs, Monks & Saints: Early Christianity",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to RELST-UA 846 .",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 856",
+    "title": "Engaging Early Christian Theology",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to RELST-UA 840",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 871",
+    "title": "Advanced Latin: Epic",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Prerequisite: CLASS-UA 6 or equivalent. Extensive readings in Virgil's Aeneid and the other epics of Rome, including Lucan's Bellum Civile and Lucretius's De Rerum Natura. Consideration will be given to the growth and development of Roman epic, its Greek antecedents, and its relationship to the Romans' construction of their past. Study of the development of the Latin hexameter is also included.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 873",
+    "title": "Advanced Latin: Lyric & Elegy",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Prerequisite: CLASS-UA 6 or equivalent. This course provides extensive readings from the works of Rome's greatest lyric and elegiac poets, including Catullus, Horace, Tibullus, Propertius, and Ovid. The various lyric meters adapted by the Romans are considered, as is the development of the Latin Love Elegy.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 874",
+    "title": "Advanced Latin: Comedy",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Prerequisite: CLASS-UA 6 or equivalent. A selection of plays from those of Plautus and Terence. The development of Roman comedy, its relationship to Greek New Comedy, and its social and cultural place in Roman life is also discussed. Some facility in Plautine and Terentian meter will also be expected.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 875",
+    "title": "Advanced Latin: Satire",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Prerequisite: CLASS-UA 6 or equivalent. With extensive readings from Horace's, Juvenal's, and Persius's satires, this class traces the development of the satiric mode from its earliest beginnings in Rome to its flowering under the Empire. The relationship of satire to the social world of Rome, including its treatment of money, women, political figures, and social climbers, is also examined.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 876",
+    "title": "Advanced Latin: Historians",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Prerequisite: CLASS-UA 006 or equivalent. Readings from the three masters of Roman historiography, Sallust, Livy, and Tacitus. The course also considers the rise and development of history in Rome, its relationship to myth, and its narrative structure and manner.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 877",
+    "title": "Advanced Latin: Philosophy",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "With extensive readings from Roman philosophers such as Cicero, Seneca, and Augustine, this course studies the way in which the Romans transformed and developed the philosophical tradition that they inherited, and the way the problems of Roman society were addressed through philosophy.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 878",
+    "title": "Advanced Latin: Prose",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Selected texts by one or more prose authors will be read in Latin. Since authors and texts vary by semester, this course may be repeated for credit twice (taken up to three times). Prerequisite: CLASS-UA 6 (Intermediate Latin: Virgil) or equivalent.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 879",
+    "title": "Advanced Latin: Poetry",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Selected poetic texts by one or more authors will be read in Latin. Since authors and texts vary by semester, this course may be repeated for credit twice (taken up to three times). Prerequisite: CLASS-UA 6 (Intermediate Latin: Virgil) or equivalent.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 880",
+    "title": "Advanced Latin: Special Authors",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 6 .",
+    "description": "Selected poetic and prose texts will be read in Latin. Since authors and texts vary by semester, this course may be repeated for credit twice (taken up to three times). Prerequisite: CLASS-UA 6 (Intermediate Latin: Virgil) or equivalent.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 891",
+    "title": "Adv Ind Study in Latin",
+    "department": "class_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 1 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 892",
+    "title": "Adv Ind Study in Latin",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 1 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 893",
+    "title": "Adv Ind Study in Latin",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 971",
+    "title": "Advanced Greek: Lyric, Elegiac, & Iambic Poetry",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 10 .",
+    "description": "Prerequisite: CLASS-UA 10 or equivalent. Extensive readings from the lyric, elegiac, and iambic poets of Greece. The course studies the use of the various lyric forms, the different meters employed by the archaic poets, and the social functions of archaic poetry.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 972",
+    "title": "Advanced Greek: Historians",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 10 .",
+    "description": "Prerequisite: CLASS-UA 10 or equivalent. Readings from the two fifth-century masters of Greek historiography, Herodotus and Thucydides. The course examines the themes, narrative structure, and methodology of both writers, as well as giving some consideration to the rise of history-writing in Greece, and its relationship to myth and epic.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 973",
+    "title": "Advanced Greek: Tragedy",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 10 .",
+    "description": "Prerequisite: CLASS-UA 10 or equivalent. Readings of several plays from among those of Aeschylus, Sophocles, and Euripides. Spoken and choral meter are studied, and the role of performance, dramaturgy, and the place of theatre in Athenian society are also examined.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 974",
+    "title": "Advanced Greek: Orators",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 10 .",
+    "description": "Prerequisite: CLASS-UA 10 or equivalent. Readings of several speeches from the major Attic orators (Lysias, Aeschines, and Demosthenes). The course also examines the role of law in Athenian society, procedure in the Athenian courts, and rhetorical education and training.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 975",
+    "title": "Adv Greek: Philosophy",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 10 .",
+    "description": "Prerequisite: CLASS-UA 10 or equivalent. Readings from the dialogues of Plato and the major philosophical works of Aristotle.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 976",
+    "title": "Advanced Greek: Hellenistic Poetry",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "CLASS-UA 10 .",
+    "description": "Prerequisite: CLASS-UA 10 or equivalent. Offers a selection of authors (including  Callimachus, Theocritus, and Apollonius) and genres (pastoral, hymn, epigram, drinking song) from the Hellenistic era.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 980",
+    "title": "Internship",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. Open only to juniors and seniors. 2 or 4 points. Internships with institutions such as the Brooklyn Museum and the American Numismatic Society afford students the opportunity to work outside the University in areas related to the field of classics. Requirements for completion of such internships include periodic progress reports and a paper describing the entire project.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 981",
+    "title": "Internship",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. Open only to juniors and seniors. 2 or 4 points. Internships with institutions such as the Brooklyn Museum and the American Numismatic Society afford students the opportunity to work outside the University in areas related to the field of classics. Requirements for completion of such internships include periodic progress reports and a paper describing the entire project.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 991",
+    "title": "Adv Ind Study in Greek",
+    "department": "class_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 992",
+    "title": "Adv Ind Study in Greek",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 997",
+    "title": "Independent Study",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  },
+  {
+    "course_code": "CLASS-UA 998",
+    "title": "Independent Study",
+    "department": "class_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. 2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/class_ua/"
+  }
+]

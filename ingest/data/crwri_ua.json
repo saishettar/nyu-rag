@@ -1,0 +1,146 @@
+[
+  {
+    "course_code": "CRWRI-UA 815",
+    "title": "Creative Writing: Intro Prose & Poetry",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This popular introductory workshop offers an exciting introduction to the basic elements of poetry and fiction, with in-class writing, take-home reading and writing assignments, and substantive discussions of craft. The course is structured as a workshop, which means that students receive feedback from their instructor and their fellow writers in a roundtable setting, and they should be prepared to offer their classmates responses to their work.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 816",
+    "title": "Intermediate Fiction Workshop",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 815 OR CRWRI-UA 9815 OR CRWRI-UA 816 OR CRWRI-UA 818 OR CRWRI-UA 9818 OR CRWRI-UA 819 OR CRWRI-UA 9819 OR CRWRI-UA 861 OR COSEM-UA 118 OR CRWRI-UA 9828 OR CRWRI-UA 9829 ).",
+    "description": "The intermediate workshops offer budding fiction writers and poets an opportunity to continue their pursuit of writing through workshops that focus on a specific genre. The workshops also integrate in-depth craft discussions and extensive outside reading to deepen students' understanding of the genre and broaden their knowledge of the evolution of literary forms and techniques.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 817",
+    "title": "Intermediate Poetry Workshop",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 815 OR CRWRI-UA 9815 OR CRWRI-UA 817 OR CRWRI-UA 818 OR CRWRI-UA 819 OR CRWRI-UA 9818 OR CRWRI-UA 9819 OR CRWRI-UA 862 OR FYSEM-UA 388 OR CRWRI-UA 9828 OR CRWRI-UA 9829 ).",
+    "description": "The intermediate workshops offer budding fiction writers and poets an opportunity to continue their pursuit of writing through workshops that focus on a specific genre. The workshops also integrate in-depth craft discussions and extensive outside reading to deepen students' understanding of the genre and broaden their knowledge of the evolution of literary forms and techniques.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 818",
+    "title": "Writers in NY: Fiction",
+    "department": "crwri_ua",
+    "credits": 8.0,
+    "prerequisites": "",
+    "description": "Writers in New York offers students of poetry, fiction, and creative nonfiction an opportunity to develop their craft while living the writer's life in Greenwich Village. Daily workshops and craft seminars are supplemented by readings and lectures by New York-based writers and publishing professionals. Field trips, cultural activities, readings, and guest lectures constitute an integral component of the program.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 819",
+    "title": "Writers in NY: Poetry",
+    "department": "crwri_ua",
+    "credits": 8.0,
+    "prerequisites": "",
+    "description": "Writers in New York offers students of poetry, fiction, and creative nonfiction an opportunity to develop their craft while living the writer's life in Greenwich Village. Daily workshops and craft seminars are supplemented by readings and lectures by New York-based writers and publishing professionals. Field trips, cultural activities, readings, and guest lectures constitute an integral component of the program.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 820",
+    "title": "Advanced  Fiction Workshop",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 818 OR CRWRI-UA 9818 OR CRWRI-UA 816 OR CRWRI-UA 820 OR CRWRI-UA 861 OR CRWRI-UA 9828 ).",
+    "description": "Advanced workshops provide emerging writers with the opportunity to hone their individual voice and experiment with different aesthetic strategies in a genre-specific workshop taught by an eminent writer in the field. The workshops focus on innovative revision techniques, the development of a sustainable writing process, and the broadening of students' literary knowledge of classical and contemporary masters. Each advanced workshop has a distinct emphasis and area of exploration--students are advised to pay close attention to the course descriptions, which are available online and in the program office prior to registration.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 825",
+    "title": "Intermediate Creative Nonfiction Workshop",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 815 OR CRWRI-UA 9815 OR CRWRI-UA 818 OR CRWRI-UA 819 OR CRWRI-UA 9818 OR CRWRI-UA 9819 OR CRWRI-UA 825 OR CRWRI-UA 863 OR CRWRI-UA 9828 OR CRWRI-UA 9829 ).",
+    "description": "The intermediate workshops offer budding fiction writers and poets an opportunity to continue their pursuit of writing through workshops that focus on a specific genre. The workshops also integrate in-depth craft discussions and extensive outside reading to deepen students' understanding of the genre and broaden their knowledge of the evolution of literary forms and techniques.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 830",
+    "title": "Advanced  Poetry Workshop",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 830 OR CRWRI-UA 862 OR CRWRI-UA 819 OR CRWRI-UA 9819 OR CRWRI-UA 817 OR CRWRI-UA 9829 ).",
+    "description": "Advanced workshops provide emerging writers with the opportunity to hone their individual voice and experiment with different aesthetic strategies in a genre-specific workshop taught by an eminent writer in the field. The workshops focus on innovative revision techniques, the development of a sustainable writing process, and the broadening of students' literary knowledge of classical and contemporary masters. Each advanced workshop has a distinct emphasis and area of exploration--students are advised to pay close attention to the course descriptions, which are available online and in the program office prior to registration.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 835",
+    "title": "Writers in NY: Creative Nonfiction",
+    "department": "crwri_ua",
+    "credits": 8.0,
+    "prerequisites": "",
+    "description": "Writers in New York offers students of poetry, fiction, and creative nonfiction an opportunity to develop their craft while living the writer's life in Greenwich Village. Daily workshops and craft seminars are supplemented by readings and lectures by New York-based writers and publishing professionals. Field trips, cultural activities, readings, and guest lectures constitute an integral component of the program.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 850",
+    "title": "Advanced Creative Nonfiction Workshop",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 863 OR CRWRI-UA 850 OR CRWRI-UA 825 ).",
+    "description": "Advanced workshops provide emerging writers with the opportunity to hone their individual voice and experiment with different aesthetic strategies in a genre-specific workshop taught by an eminent writer in the field. The workshops focus on innovative revision techniques, the development of a sustainable writing process, and the broadening of students' literary knowledge of classical and contemporary masters. Each advanced workshop has a distinct emphasis and area of exploration--students are advised to pay close attention to the course descriptions, which are available online and in the program office prior to registration.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 861",
+    "title": "Intensive Seminar in Fiction",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 815 OR CRWRI-UA 9815 OR CRWRI-UA 818 OR CRWRI-UA 9818 OR CRWRI-UA 816 OR CRWRI-UA 819 OR CRWRI-UA 9819 OR CRWRI-UA 820 OR CRWRI-UA 861 OR CRWRI-UA 9828 OR CRWRI-UA 9829 ).",
+    "description": "Intensive seminars are limited to 12 students and provide intensive mentoring and guidance for serious and talented undergraduate writers. Seminar applications are made available via the program's undergraduate listserv. All who enroll in the prerequisite CRWRI-UA 815 Intro to Prose & Poetry are added to the listserv; students may also contact creative.writing@nyu.edu to be added and receive all program announcements.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 862",
+    "title": "IntensiveSeminar in Poetry",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 815 OR CRWRI-UA 9815 OR CRWRI-UA 817 OR CRWRI-UA 819 OR CRWRI-UA 9819 OR FYSEM-UA 388 OR CRWRI-UA 818 OR CRWRI-UA 9818 OR CRWRI-UA 830 OR CRWRI-UA 862 OR CRWRI-UA 9828 OR CRWRI-UA 9829 ).",
+    "description": "Intensive seminars are limited to 12 students and provide intensive mentoring and guidance for serious and talented undergraduate writers. Seminar applications are made available via the program's undergraduate listserv. All who enroll in the prerequisite CRWRI-UA 815 Intro to Prose & Poetry are added to the listserv; students may also contact creative.writing@nyu.edu to be added and receive all program announcements.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 863",
+    "title": "Intensive Seminar in Creative Nonfiction",
+    "department": "crwri_ua",
+    "credits": 4.0,
+    "prerequisites": "( CRWRI-UA 815 OR CRWRI-UA 9815 OR CRWRI-UA 818 OR CRWRI-UA 9818 OR CRWRI-UA 819 OR CRWRI-UA 9819 OR CRWRI-UA 825 OR CRWRI-UA 850 OR CRWRI-UA 863 OR CRWRI-UA 9828 OR CRWRI-UA 9829 ).",
+    "description": "Application-based workshop. To be added to the listserv for all announcements, please contact creative.writing@nyu.edu.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 980",
+    "title": "Creative Writing Internship",
+    "department": "crwri_ua",
+    "credits": 2.0,
+    "prerequisites": "CRWRI-UA AND CRWRI-UA.",
+    "description": "To be eligible to apply for departmental credit for an internship, student must be a declared Creative Writing Minor who has already taken or is currently taking a second CRWRI-UA course. Program approval--which includes a review of the proposed statement of responsibilities--is required for registration. Academic credit is awarded for a 5-7 page report on the internship experience at end of term.",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 997",
+    "title": "Creative Writing: Independent Study",
+    "department": "crwri_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Should provide a course of study not available in CRWRI-UA course offerings. Please contact creative.writing@nyu.edu",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  },
+  {
+    "course_code": "CRWRI-UA 998",
+    "title": "Creative Writing: Independent Study",
+    "department": "crwri_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Should provide a course of study not available in CRWRI-UA course offerings. Please contact creative.writing@nyu.edu",
+    "source_url": "https://bulletins.nyu.edu/courses/crwri_ua/"
+  }
+]

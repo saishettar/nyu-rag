@@ -1,0 +1,641 @@
+[
+  {
+    "course_code": "ANTH-UA 1",
+    "title": "Introduction to Cultural Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What does it mean to think anthropologically? This course considers\nhistorically foundational practices of anthropological thought, its core\nmethod, fieldwork, and its most influential product, the ethnography, in\norder to think practically and creatively along the lines of what\nconstitutes cultures, societies, translation, and difference. A central\ngoal is to advance the concept of culture, with its attendant solidarities,\nhierarchies, and exclusions, in order to better understand continually\nchanging systems of collective identifications.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 2",
+    "title": "Introduction to Biological Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Investigates the evolutionary origins of humans. The study of human evolution is a multidisciplinary endeavor involving a synthesis of concepts, techniques, and research findings from a variety of different scientific fields, including evolutionary biology, paleontology, primatology, comparative anatomy, genetics, molecular biology, geology, and archaeology. Explores the different contributions that scientists have made toward understanding human origins and provides a detailed survey of the evidence used to reconstruct the evolutionary history of our own species.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 3",
+    "title": "Introduction to Archaeology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces contemporary archaeology, its theories, practices, and early societies and cultures. Examines current methodological and theoretical viewpoints of archaeological scholarship within the discipline of anthropology. Focuses on key transformations in cultural evolution, such as the origins of modern humans, the emergence of food production, and the development of complex societies, urbanism, and early states. Explores gender roles, landscapes and settlements, technologies, art, cognitive systems, urbanism, and state formation.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 4",
+    "title": "Introduction to Linguistic Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the role of language in culture and society by focusing on gender, ethnicity, social class, verbal genres, literacy, and worldview.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 104",
+    "title": "State and Society in South Asia",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces the cultures and societies of the Indian subcontinent. Focuses not only on the history and ethnography of South Asia, but also on the major concepts and debates in the anthropological study of the region. Topics will include caste, kinship, gender, nationalism, ethnic conflict, globalization, and popular culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 106",
+    "title": "Language, Power, Identity",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores how identity is a process of \u201cbecoming\u201d rather than a mode of \u201cbeing\" by examining how speakers enact their gender, sexuality, race, ethnicity, nationality, religion, and socioeconomic class through everyday conversations, narratives, performances, literacy activities, and public debates. Also explores the moral and political consequences of people's identification strategies by examining how their beliefs about language reinforce or contest normative power structures. Readings on the relationship between bilingual education and accent discrimination, multilingualism and youth counterculture, migration and code-switching, media and religious publics, linguistic nationalism and xenophobia, and literacy and neo/liberalism in different areas of the world.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 107",
+    "title": "Medical Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces key theoretical models for studying illness, health, and medicine from an anthropological perspective. Each module will focus on specific themes supported by ethnographic case studies\u2014such as medicine as a cultural system; patient-doctor interactions; diverse medical traditions and cross-cultural medicine; the medicalization of the life cycle; critical global health studies and humanitarianism; the politics of care; the social lives of medicines; reemerging infections; biomedical technologies; addiction; social suffering; and, ultimately, the political dimensions of health policies both in the U.S. and globally.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 108",
+    "title": "Global Biocultures: Anthropological Perspectives on Public Health",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What does it mean to be healthy? Who decides and by what measures? What is the relationship between health and social environments? Drawing on sociocultural theories of biocultural processes and ethnographies of embodiment, illness, disability, reproduction, violence, and biotechnology, we will examine the biological experience as simultaneously material and socio-culturally plastic. We will ask: what lies at the intersection of health, medicine, society and racism, colonialism, gender-based discrimination, poverty and other key aspects of U.S. and global social environments? To that end, we will consider health and medicine as historically located and as systems that both shape and are significantly shaped by history and socio-cultural norms.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 109",
+    "title": "Fossil Evidence for Human Evolution",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "ANTH-UA 2 .",
+    "description": "Analyzes fossil evidence for human evolution and the paleoanthropological inferences derived from such evidence. Emphasizes methods of phylogenetic reconstruction, taxonomy, functional anatomy, and paleoecology.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 115",
+    "title": "Human Genetics",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "ANTH-UA 2 .",
+    "description": "In-depth analysis of the genetic component of human variability. Discusses mechanisms of inheritance, gene expression in individuals and populations, and alternative explanations for genetic variability. Explores the implications of modern advances in genetics, such as genetic engineering and gene therapy.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 116",
+    "title": "Primate Behavioral Ecology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why do some primates live in large social groups while others are solitary and yet others live in pairs or cooperatively breeding families? Why are strong social hierarchies seen in some primate taxa but not in others? How do multiple species of primates often manage to coexist in the same habitat? Why are social relationships in some primate species characterized by strong bonds among females while such bonds are absent in other primates societies? Why do some species of primates show marked geographic variability in behavior and social structure? The answers to these and other questions lie in understanding the relationships between each species and its ecological and social setting and in understanding each species? phylogenetic history. In this course, students explore the diversity of primate social systems and the evolutionary relationships among the primates, and we discuss many of the general ecological laws that have been proposed by evolutionary biologists as the keys to understanding important features of primate behavior and ecology.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 117",
+    "title": "Evolutionary Medicine",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines human health and disease within an ecological framework, exploring the interactions of environmental, genetic, physiological, and cultural factors in the expression and distribution of human diseases. Develops pathology profiles for nonhuman primates; prehistoric human populations; and hunting and gathering, agricultural, and industrial groups, with emphasis on the expression of infectious disease in human history and newly (re-) emerging diseases.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 119",
+    "title": "The Unstoppable Human Species: Archaeology of Human Evolution",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "ANTH-UA 3 .",
+    "description": "This course covers the archaeological record of human evolution spanning from ~3 million years up until 12 thousand years ago. This critical period in human evolution witnessed a three-fold increase in our brain size, our range/habitat expansion from portions of Africa to the entire subpolar world, and the emergence of fully \u201cmodern\u201d Homo sapiens. During the course you will be introduced to the behavior, ecology, and technology of tool-using humans and their ancestors. We track human cultural evolution from the earliest evidence for culture to discussions about our continuing cultural evolution.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 120",
+    "title": "Introduction to Archaeological Science",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In the past fifty years scientific techniques have increasingly been applied to archaeological material to help answer questions about objects\u2019 age, provenance, and production technology. This information in turn addresses questions related to trade and exchange, cultural identity, human mobility, craft organization, and technological innovation. This lecture-based course provides a non-technical introduction to a wide range of scientific techniques commonly used to\nanalyze archaeological materials. Through the examination of case studies, we will focus on the questions that drive research, discuss the advantages and limitations of the available techniques, and the importance of sampling, calibration, and statistical analysis.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 123",
+    "title": "Media, Culture, and Society",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the social and political life\nof media and how it makes a difference in the daily lives of people as a\npractice \u2013 in production, reception, or circulation. It is organized around\nthe following key questions: What is media? What role do media play in\nproducing or shaping our sense of reality? What is the relationship between\nmedia and culture? How are media implicated in social change? It provides\nan overview of the increasing theoretical attention paid to the mass media\nby anthropologists, and focuses on concrete ethnographic examples.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 126",
+    "title": "Digital Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "There are approximately three billion people online across the globe. They may be checking their email, sending a Tweet, messaging on WhatsApp, reposting a news article on their Facebook page, talking on Zoom, watching or uploading a video on YouTube or TikTok, participating in one of many multi-player gaming worlds, or simply shopping. In the last decade or so anthropologists and media studies scholars have grown increasingly interested in the ways the internet and its participatory promise has embedded itself in our everyday lives. In this course we will read ethnographic and selected theoretical texts as well as scrutinize our own practices to engage with ongoing debates in anthropology and cognate disciplines around the growing global significance of the internet and its mediating technologies.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 127",
+    "title": "Borders and Migration",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course considers the historical underpinnings and contemporary manifestations of borders and their politics while thinking through the experiences of those who cross them. Together we will ask: How are borders constructed and contested? How do those who migrate experience borders? How do the intertwined discourses of citizenship, nativity, and autochthony become destabilized when movement and borders become central heuristics by which to understand belonging and membership? Throughout the course we will read academic texts as well as engage with films and literature to develop a theoretical and practical knowledge of borders and the nation-states they frame, in relationship to contemporary and historical migratory flows.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 129",
+    "title": "Anthropology of Gender and Sexuality",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the social and cultural forces that shape the\nconstruction of sex, gender, and sexuality. It takes these categories as\nnonbinary and fluid. Using an intersectional approach, it considers how\nvarious subject positions including race, ethnicity, socioeconomic status,\nimmigration status, religion, and ability impact gender and sex roles. It\ntraces historical trajectories of foundational feminist anthropology, while\nalso exploring queer theories and performativity. It seeks to interrogate\nsocial hierarchies based on sex, gender, and sexuality, exploring who has\nbeen traditionally excluded from positions of power and privilege. Topics\nsuch as race and porn, BDSM, asexuality, heteronormativity, transgender\nidentities, queer coming out narratives, down-low sexual practices,\npolyamory, sex work, and queer kinship will be explored in order to\nchallenge normative frameworks of sex and gender.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 130",
+    "title": "Introduction to Archaeobotany",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is an introduction to the field of archaeobotany, the study of\nbotanical remains from archaeological sites aimed at the reconstruction and\ninterpretation of human-plant relationships in the past. Through active\nparticipation, students will learn the processes underlying the inclusion\nand preservation of botanical remains in the archaeological record,\nunderstand the main methodologies and laboratory protocols employed for\ntheir recovery and identification, and explore the principal assumptions\ndeployed for their interpretation. Through this work, students will be\ndirectly engaging with the central and current trends in archaeobotanical\nresearch. The course is built around lectures, in-class discussion, and\npractical lab experience. Students will be involved in hands-on work at the\nmicroscope, collectively conducting an analysis of a macro-botanical\nassemblage from an archaeological site.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 131",
+    "title": "The Archeology of Food and Foodways",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Food represents an omnipresent central aspect of human life and experience, being ultimately a requisite for life itself. Nevertheless, food is also more than diet and subsistence: social relationships are built and maintained through foodways \u2013 i.e., through eating habits and culinary practices. In these terms, food and foodways intersect social phenomena, such as gender, ethnicity, status, and religious beliefs. This course provides a multidisciplinary and comparative overview of food and foodways in the Ancient World. The course is organized in three main sections: (i) we will discuss the main theoretical approaches to the study of food and\nfoodways, as well as the methods that we can deploy in order to access the evidence of food and food consumption in the archaeological record; (ii) having introduced the main archaeological approaches to ancient food studies, in the second section of the course we will analyze a selection of topics currently central in the field \u2013 e.g., subsistence and diet, feasting and food security, ethnicity and gender. Each topic will be discussed by means of case studies originating from different regions and periods; (iii) the last section of the course is a regional\nsurvey of food and foodways. In three different classes we will concentrate respectively on food and cooking traditions in the prehistoric and historic periods in Eastern Asia, the Mediterranean Basin, and Central America.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 132",
+    "title": "Hunter-Gatherer Lifeways",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Although they are no longer the dominant form of human sociality or\nadaptation, hunter-gatherers continue to play a pivotal role in\nanthropological theory. But who are hunter-gatherers? Some argue that the\nproblem with trying to pigeon-hole hunter-gatherers is that this taxonomic\nunit holds little practical or evolutionary legitimacy. Others contend that\npeople have evidently lived off the land without agriculture or animal\nhusbandry, so at some level, hunter-gatherer is a meaningful category. Yet,\nfew of the qualities assigned to hunter-gatherers hold up to detailed\ncross-cultural investigation. For example, hunter-gatherer subsistence is\nnot inherently linked to peaceful coexistence, affluence, small group sizes\nor settlement mobility. Moreover, hunter-gatherer populations commonly\nthought to be deeply entrenched in evolutionary time are now known to\nresult from complex historical processes of globalization and colonial\nexpansion. This course will explore the diversity of lifeways subsumed\nunder the banner of the hunter-gatherer. Drawing on a wide range of\ncross-cultural datasets, the course will unpack hunter-gatherer behavioral\nvariability across broad topics, not paradigms. We will examine variations\nin hunter-gatherer subsistence, mobility, social organization, belief\nsystems, landscape use, and material culture. Finally, we will ask to what\ndegree the concept of the hunter-gatherer and the study of modern\nhunter-gatherers can help anthropologists understand and explore human\nbehavior in the deeper past.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 134",
+    "title": "Surveys of Regional Prehistory II:",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "ANTH-UA 3 .",
+    "description": "Examines the archaeological evidence for two major transformations: the origins of food production (the domestication of plants and animals) and the development of early cities and states. Examines how ecological and environmental changes influenced the development of increasingly complex social organization and our present understanding of food production, urbanism, and state-level societies.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 135",
+    "title": "Barbarian Europe",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Between the end of the Ice Age and the expansion of the Roman Empire, temperate Europe witnessed a series of social and economic transformations that represented a transition from a hunting and gathering way of life to urban chiefdoms. Along the way, these hunter-gatherers became agriculturalists and stockherders, learned to use metals, and developed social structures as complex as any found in Old World civilizations. Examines changes in later prehistoric Europe from about 8000 B.C. to the arrival of the Romans.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 136",
+    "title": "Discovering Archaeology in NYC",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In this course, New York City is our archaeological site.  The archaeology\nof New York City extends back some 10,000 years, from Native American\nsocieties, to the colonial encounter, into the industrial era, and through\nto the present day.  In this course we will study the archaeological\ninvestigations that have taken place throughout the five boroughs of New\nYork City.  In doing so we will see how the city became a locus of global\ntrade, in people, goods, and ideas.  We will investigate how, as a nodal\npoint in this global system, it came to develop its own cultures and\nideologies.  We will also learn about the federal, state, and local laws\nthat mandate when and how archaeology is conducted in advance of\nconstruction activities and the extent to which Native American Tribes and\nlocal communities are involved in this process.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 137",
+    "title": "The Archaeology of Climate Change",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Climate change is one of the greatest challenges facing humankind today and most of the public discourse on this topic focuses on the future. And yet, all of our experience with the natural world lies in the past. This course will delve into some of the issues that arise from contemplating climate change in a historical and human evolutionary perspective: what is humans\u2019 natural environment? How many times did the climate change significantly during human history? Did climate determine the course of human evolution and/or social change? When did humans first begin to tinker with the environment? And finally: what solutions for the future can we glean from our collective historical experience? The course will use primary literature from the fields of archaeology, paleoanthropology, and paleoclimatology to guide students toward a better understanding of climate change at the human scale.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 138",
+    "title": "Anthropology of Cities",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Cities and urbanization processes as key spaces for analyzing debates around citizenship, democracy, and national identity across the globe. We also examine cities as creative hubs where some major social transformations are taking place, such as the growth of neoliberalism and the evolution of creative industries and economies across the world. Topics include: Latin American cities, enclave urbanism, new types of segregation, and new imaginaries of class and \u201curban\u201d identities in the region.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 140",
+    "title": "Introduction to Bioarchaeology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Bioarchaeology is a theoretical and methodological framework for studying human\nskeletal remains from archaeological contexts. Over the course of our lives, our\nskeletons are silently recording our unique stories. Through careful analysis,\nbioarchaeologists can \u201cread\u201d these stories and construct osteobiographies, which\ninclude information about age, sex, health, diet, stature, ancestry, activity, and\nexperience of physical trauma. Individual osteobiographies are then assembled to study large-scale, population-level social trends. By integrating these various lines of data with social theory, bioarchaeologists can create a dynamic picture of the past that brings human experience to the foreground. This course provides an introduction to the field of bioarchaeology. Over the course of a semester, students will gain a basic understanding of human osteology and \u2013 through hands-on experience and lectures \u2013 will learn the methods that bioarchaeologists use to study human remains. Case studies from across the globe will then be introduced to demonstrate how bioarchaeology can approach a range of questions about human behavior.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 141",
+    "title": "Human Rights & Culture",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers an overview of the human rights system, looking at its\nbasic elements and studying how it works. It focuses on the relationships\nbetween human rights and culture and between global ideas and practices and\nlocal ones. Human rights campaigns frequently encounter resistance in the\nname of protecting cultural differences. This is particularly common with\nissues concerning women, children, and the family. The course explores\nseveral issues that raise questions of human rights and culture, such as\nfemale genital cutting, trafficking of persons, food justice, and\nindigenous peoples' rights to culture. Using these examples, the course\nconsiders how the human rights system deals with tensions between global\nstandards and local ways of life. It examines the meanings of rights and of\nculture in these debates and shows the implications of adopting an\nanthropological analysis of these situations. The goal of the course is\ndeveloping an understanding of human rights in practice.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 142",
+    "title": "Anthropology of Law",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to the anthropology of law, using Oliver Wendell Holmes\u2019s statement that law can be regarded \u201csimply as a great anthropological document\u201d as a starting provocation. We will move beyond this simple equation to explore how anthropology not only studies, but also produces, sustains, and legitimizes law. The class considers law as a social practice, examining it through various modes, such as law as language, discourse, social technology, and mode of knowledge. Rather than a broad survey, the course aims to develop an anthropological approach to the law, emphasizing critical and analytical tools to interrogate law's authority and its complex relationship with four key concepts: liberalism, capitalism, violence, and justice. The goal is to move beyond assumptions that law is autonomous from capitalism or the opposite of violence/equivalent to justice. Through readings in anthropology, law, legal studies, and film/documentary, we will investigate how law constitutes the worlds we inhabit. Students will be introduced to major themes and debates in the field and will practice reading and engaging with legal texts and practices anthropologically. This class is ideal for students interested in law, justice, anthropological theory, and ethnographic methods.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 143",
+    "title": "Environmental Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is an overview of social science approaches to the study of environment and society. Students will be introduced to key theoretical debates in critical environmental studies such as the relationship between nature and culture, the politics of knowledge, economy and environment, and development and conservation. The class focuses on applying an ethnographic lens to contemporary environmental issues, one that centers on an analysis of power and process, in topics ranging from natural resource extraction, environmental justice, climate change, science and technology, toxicity, pollution, disaster and infrastructure. Articles will be supplemented with film and documentaries throughout the course.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 144",
+    "title": "Approaches to Latinx Studies",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores a set of principles that have guided Latino/a presence in the United States. These principles can be found in many but not necessarily all of the readings. They include urban/rural life, freedom/ confinement, memoir as source of voice/other sources of voice, generational separation and identity, and loss and healing. The course traces a movement through time from masculinist nationalism to the recognition of variations in gender, sexuality, race, class, region, and national origin. Other principles may be added to this list as the course proceeds.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 145",
+    "title": "Last Hunters-First Farmers",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The transition from hunting and gathering to agriculture and animal\nhusbandry is often called the Agricultural Revolution. This change in human\nsubsistence strategies led to changes in many other aspects of human life,\nincluding settlement patterns, demography, social organization, and\nreligious practices. It also provided the economic basis for the\ndevelopment of complex urban societies in many regions of the world.\nExamines the archaeological evidence for the transition from foraging to\nfarming on a worldwide basis.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 146",
+    "title": "Migration, Mobility, and Dispersal in Prehistory",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Most of the public discourse on migration and mobility focuses on policy,\nusing the current situation as a kind of natural state of being, from which\nall moral and rational arguments can be developed. In this course, we will\ntake the long-term view of human evolution on the geologic time scale and\nask ourselves: what is our species\u2019 natural range of residential mobility,\nand how do we compare with the rest of our closest relatives, both living\nand extinct? When did humans settle the different continents for the first\ntime? How did different technologies, such as the wheel and long-distance\nwatercraft affect mobility and migration? What is the extent to which\nsocial structure and kinship affected dispersal and migration? What is the\nhistory of immigration, borders, and intolerance? And finally: what\nsolutions for the future can we glean from our collective historical\nexperience? The course will use primary literature from the fields of\narchaeology, paleoanthropology, paleogenetics, and archaeolinguistics to\nguide students toward a better understanding of why and how people moved\naround the globe in the past.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 148",
+    "title": "Introduction to Native American Studies",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is a general introduction to the field of Native American and\nIndigenous Studies (NAIS). The course will introduce students to the\ncentral questions and debates of NAIS, including but not limited to\nIndigenous hidden histories and oral histories; comparative indigeneities;\nquestions of \u2018discovery\u2019 and colonialism; the politics and representations\nof lands, massacres, and museums; and questions of law, gender, and\nsexuality. It begins by asking students to consider the history of the\nfield and weaves throughout questions about the complicated and contested\nterrain of the term Indigeneity. It ends with discussions about\ndecolonizing research and Indigenous survivance and futures, thus preparing\nstudents to consider theories and methodologies they will encounter in more\nadvanced courses for the NAIS minor. By the end of the semester, students\nwill have gained both historical and ethnographic perspectives on how NAIS\nand other forms of representation help us to know and reproduce ourselves\nand \u2018Others\u2019; the different questions of historical trauma and survival\nthat affect Indigenous communities today and how institutions continue to\nhold a significant role in constructing, controlling and circulating\nIndigenous cultural heritage and representations of the past. The course\nbegins by recognizing and locating the history and continued presence of\nNative American Lenape people here in Mannahatta. It then uses this as a\npoint of departure reaching beyond Native North America to the histories,\npolitics, and experiences of Indigenous populations in an international and\nhemispheric context.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 149",
+    "title": "Populism, Religion, and Crisis in Europe",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Populist rhetoric, rising xenophobia, anti-migrant hysteria, Islamophobia,\n high unemployment, and restrictive legislation have called many of the\n myths that undergird Europe's enlightened public sphere into question. In\n this class, we will turn to a number of recent ethnographic studies in\n Europe to help us re-think the idea of Europe historically and today.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 152",
+    "title": "Introduction to Data Science in Archaeology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to essential data science tools used in modern archaeological research. We will use these data science tools to tackle archaeological questions with contemporary relevance, for example: Why did the Mayan civilization collapse? Why are there giant stone heads on Easter Island? How does archaeological evidence change what we know about the Holocaust? Throughout these questions, we examine the ethics and social impacts of\narchaeology and data science. This is a novice-friendly class for students with no prior experience with archaeology, computers, programming, or statistics.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 205",
+    "title": "Emerging Diseases",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Integrates evolutionary biology, genetics, immunology, ecology, and behavioral ecology, along with sociocultural anthropology, politics, and economics, to better understand newly emerging and reemerging diseases as they affect human health. General evolutionary theory and an introduction to Darwinian medicine are provided before the course examines viral, bacterial, parasitic, and prion-based diseases along with their hosts, vectors, and other organisms. Particular attention is paid to how humans have purposely and inadvertently created both biological and cultural environments for the transmission of different diseases. Media representations and misrepresentations are examined throughout the course.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 206",
+    "title": "The Social Life of Museums",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course considers \u201cthe museum\u201d as an object of ethnographic inquiry, examining it as a social institution embedded in a broader field of cultural heritage that is perpetually under negotiation. We reflect on how museum principles of classification, practices of collection and exhibition, uptake of media, technology, and archiving have influenced the ways in which knowledge has been formed, presented, and represented; and interrogate the role of museums as significant social actors in broad anthropological debates on power, materiality, value, representation, culture, nationalism, circulation, aesthetics, science, history, and \u201cnew\u201d technologies. By the end of the semester, students will have gained both historical and ethnographic perspectives on how museums help us to know and reproduce ourselves and \u201cothers,\u201d and how these institutions craft, control, and circulate cultural heritage in various social lives.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 207",
+    "title": "Primate Communication",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ANTH-UA 2 OR CORE-UA 305 ).",
+    "description": "Examines how primates communicate and why their communication takes the forms it does. Discusses general issues associated with the study of animal communication: potential functions of communication, different modalities by which communicative signals can be transmitted, types of information that can be conveyed via each of these modalities, and ways in which researchers go about studying animal communication systems. Examines ways environmental and sociological factors influence the evolution of forms of communication.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 208",
+    "title": "Evolution and Sex",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will explore the sexual lives of primates through an\nevolutionary lens. From sexual-selection theory to sperm competition to\nendocrinology, we will take a comparative approach to examining just how\nfundamental sexuality is to many aspects of both non-human and human\nprimate biology",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 209",
+    "title": "Disability Worlds: Anthropological Perspectives",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the genealogy of disability as a topic in\nanthropology and related disciplines in the social sciences and humanities,\nexploring the relationship of such work to disability studies, arts and\nactivism. We will consider early key works, as well as recent\nethnographies, stressing the significance of disability for theorizing\nhuman difference in intersection with other experiences of oppression,\nresistance, and creativity. The course will also incorporate guest speakers\non contemporary intersectional activism, films, performance and relevant\nevents at NYU. This course counts for a minor or major in anthropology and\nas a required core course for the disability studies minor.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 219",
+    "title": "Culture, Power, and Visual Representation",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores anthropology\u2019s relationship to visuality, focusing on ethnographic film as a mode for representing culture and as a site of cultural practice. We will examine the emergence of and the contestations around ethnographic film and its relationship to wider debates about documentary and non-fictional film practice, while locating its emergence within the history of visuality that defines 20th century modernity. As the title of the course suggests, one of the central themes we will think through is the relationship between representation, power, and knowledge as manifest in cross-cultural filmic projects. Throughout the course we will interrogate ethnographic film as a signifying practice, its status as a form of anthropological knowledge, and discuss the ethical and political concerns it raises.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 220",
+    "title": "Religion and Media",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces the long-standing and complex connection between\nreligious practices and various media. We'll analyze how human hearing,\nvision, and the performing body have been used historically to express and\nmaintain religious life through music, voice, images, words, and rituals.\nTime will then be spent on more recent electronic media such as radio,\nfilm, television, video, and the Internet. An anthropological/ historical\nperspective on studying religion is pursued.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 222",
+    "title": "Race and Caste",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Among the most consequential expressions of human social\norganization are caste and race. Each is a familiar part of the American\nlandscape, caste construed as exotic (\"Eastern\") and race as homegrown\n(\"Western\"), yet both are objects of critique. The presumed differences\nbetween caste and race have drawn attention to certain forms of social\ninequality while discouraging understanding them beyond conventional\ncategories that define certain geographies. Although caste and race are\nsymbols that represent particular master narratives about country and\nculture, and create and project discrete images of \"the other,\"\non-the-ground distinctions between them always have been slippery, with\nlong histories of interaction between them shaped by varying contexts.\nGeared for students who have had a basic course in anthropology, history,\ncultural studies, sociology, or diaspora, or an area studies course on the\nAtlantic World or South Asia, this course will engage in wide-ranging,\ncomparative, and interdisciplinary exploration of caste and race, both as\ndistinct categorical entities and as imbricated relations of power.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 224",
+    "title": "Belief and Social Life in China",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Chinese word for ?religion? means ?teaching.? Explores what Chinese people ?taught? themselves about the person, society, and the natural world and thus how social life was constructed and maintained. Examines in historical perspective the classic texts of the Taoist and Confucian canon and their synthesis; Buddhist, especially Ch?an (Zen). Discusses the practices of filiality in Buddhism, Confucian orthodoxy, and in folk religion.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 227",
+    "title": "Transnationalism",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "\"Examines what is considered \"new\" in the ongoing reconstruction of world\norder and its accompanying disorder. Also examines how this changes the\nways people earn their livelihoods; how cultures are transmitted and\nhybridized; how migrating populations maintain connections to their\nhomelands; how group identities are constructed and asserted; and how\nsocial movements around newly politicized issues arise. Discusses changing\nroles of nation-states and the growing significance of transnational,\ndiasporic, and globalized social relations and cultural forms.\"",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 229",
+    "title": "Urban Political Ecology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the gap between aspirations for, and the enactment of, urban\nsustainability. How contests over environmental knowledge, sociocultural\nideology, and discourse shape human engagement with urban nature, and in\nturn influence social and natural transformation.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 230",
+    "title": "Urban Greening Lab: New York",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the theory and practice of urban \u201cgreening\u201d as it has been planned, debated, and implemented in New York City. Drawing on analytical tools from the social and biophysical sciences, considers how New York\u2019s historical and contemporary context have shaped the meaning, implementation, and social experience of environmental improvement. Examines \u201cWhat does it mean to \u2018green\u2019 New York? What does it mean to \u2018green\u2019 a city?\u201d The analytical approach seeks to integrate ecosystem ecology concepts, urban design principles, and social scientific sensibilities.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 231",
+    "title": "Latinx Art & Visual Culture",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Perspectives on Latinx visual culture from media to contemporary art, paying particular attention to the political economy of culture, and the racial politics and cultural politics involved in representation in the media, museums and contemporary art worlds. Topics include: visual culture and history, decolonizing perspectives toward museums and collections, workings of art and aesthetics markets and more. Students will write a paper on a related topic of their choice.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 232",
+    "title": "Ethnicity & The Media",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines media images in relation to the making of ethnic and racial identities in the United States. Surveys some of the theoretical approaches to the study of images, paying particular attention to the intersection of history and ideologies or representation. Looks into the nature and politics of stereotypes; inquires into their reproduction through discourses, representations, and practices; and then moves to a comparative examination of media images in relation to the making of African American, Latino, Asian, and Native American images in the media, looking specifically at changes and continuities in the representation of these four minority groups in the media.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 233",
+    "title": "Popular Culture in Latin America",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Latin American Popular culture offers a \"window\" and a \"mirror\" into the\nmany worlds and histories embodied and circulated by the national and\nimagined pueblos (peoples.) It remains an arena for ideas of nationalism\nand identity to be created, maintained, and shared within everyday life.\nThis course explores Latin America's rise and evolution of popular culture.\n\nAnthropologically, in this course, we will inspect the varied and sometimes\nconflicting ways in which popular culture maintains a public commentary on\nviolence and nationalism throughout the hemisphere. Additionally, we will\nexamine the ways in which popular culture (re)solves social problems,\nwhilst also casting a light on inequalities. In the context of Latin\nAmerica, race, gender/sexuality, and class persist as dominant conceptual\nframeworks which complicate 'normative' definitions and expressions of\nnationalism, identity, and citizenship. For this reason, we will ask how do\nunderstandings of gender, class, race, and sexuality shape the ways they\nare (mis)represented in popular culture forms? How does Latin American\npopular culture migrate and shape the Latinx experience and culture\nindustries abroad? Lastly, we will assess the social and political impact\nof popular culture on claims and affirmations of identity, belonging, and\nauthenticity.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 234",
+    "title": "Gods and Profits: Religion and Capitalism",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course explores the 'enchanted' production and reproduction of\ncapitalism and the effects of capitalism on ever-transforming religious\npractices. Through a combination of classical and contemporary approaches\nin political economy, religious studies, and anthropology, we will address\nwhat makes capitalism a unique mode of exchange and explore examples of the\nspirits that haunt the market's invisible hand as well as those that resist\nits powerful reach. Our readings and discussions will cover important\ndebates surrounding the history and origins of capitalism in Europe;\nclassical anthropological writings on \"pre-capitalist\" economies\nencountered during European colonial expansion; and current writings that\nrefuse the distinction between the supposedly separate spheres of religion\nand the economy.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 236",
+    "title": "Monsters and Their Humans",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Humanity has long imagined monstrous transformations of ourselves. What do\nthese creatures mean to us, historically and today? What do we think we are\nbecoming? Investigates the supernatural in popular culture through vampires\nand zombies. Places them in the context of our imagination of the divine\nthrough history and ethnography, and also alongside our intimate problems\nof managing sex, gender, race, and class. The archives of religions,\npsychologies, philosophy, film, TA, and novels provide rich source\nmaterial, Requires a short midterm essay and a longer final project, while\nposting to a forum most weeks.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 238",
+    "title": "The Social Life of Food",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores some of the ways that people use food, cuisines, and eating to organize and engage with social worlds. This focus provides a concrete means for deepening our understanding of alternative models of social explanation. Drawing on ethnographic material from a wide range of cultures, as well as feature films and our own observations and interviews, we consider topics such as the material dimensions of food production, distribution, and consumption (e.g., how food scarcity or abundance shapes collective possibilities, expectations, and values; the causes, consequences, forms, and myths of globalization) and the cultural meanings and social distinctions encoded in food practices (e.g., how food is used cross-culturally as a marker of social identity\u2014class, gender, and ethnicity\u2014and source of meaning\u2014nostalgia, anxiety, and so on).",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 239",
+    "title": "The Anthropology of Property",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is an exploration of theories and practices surrounding the concept of property. We will read some work from political theory and by some early contributors to thinking on property in anthropology; then we turn to work by anthropologists and others who have been contributing to this topic in recent times. We will look at a number of contemporary issues such as property\nrestitution in the former socialist bloc, postcolonial transformations of property forms,\nbioprospecting, and cultural property rights.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 241",
+    "title": "Archaeology of the Americas",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course surveys the archaeology of the Americas from deep prehistory through the colonial period and into the present day. It examines how diverse Indigenous societies\u2014from the Arctic to Patagonia\u2014shaped landscapes, technologies, and social worlds, and how these worlds were transformed through colonial encounters, capitalism, industrialization, and modern urbanization. Students explore Indigenous knowledge systems, environmental histories, labor and production, heritage governance, and decolonial and collaborative archaeological practices. Through regional case studies and scientific methods, the course demonstrates how archaeology links past and present, illuminating the social, cultural, and environmental challenges facing the Americas today. Recommended (but not required) prerequisite: Introduction to Archaeology ( ANTH-UA 3 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 242",
+    "title": "The Neanderthals",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Neanderthals are our closest relatives and, since their discovery in 1856, they have engendered endless fascination. Most of us have some notions of what they and their world was like, but new discoveries and lab techniques have changed much of the scientific knowledge. This course introduces the now richly documented archaeological and biological evidence of Neanderthal lives, environments, and culture, following them to their ultimate extinction. Through a series of lectures and seminar discussions of original scientific literature, students will have a chance to acquaint themselves with the data and reflect on the philosophical implications of a different humanity. Recommended (but not required) prerequisite: Introduction to Archaeology ( ANTH-UA 3 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 300",
+    "title": "Topics in Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores selected key issues and problems in archaeological anthropology. See the department's website for specific topics each term.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 301",
+    "title": "Topics in Social and Cultural Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 302",
+    "title": "Topical Seminar in Biological Anthropology I",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "ANTH-UA 2 .",
+    "description": "This seminar explores, theoretically and methodologically, selected key current issues and problems in biological anthropology.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 303",
+    "title": "Topics in Archaeology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores selected key issues and problems in archaeological anthropology. See the department's website for specific topics each term. May be repeated once (taken two times in total) for 8 total credits as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 304",
+    "title": "Topics in Linguistic Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 326",
+    "title": "Introduction to Forensic Anthropology",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Biological anthropology examines the evolutionary history and adaptability of humans and our ancestors. Forensic anthropology is an applied subfield of biological anthropology that provides expert analysis of the skeleton in a medicolegal setting by utilizing methods developed in skeletal biology, archaeology, and the forensic sciences. Forensic anthropologists play critical roles in identifying victims of mass fatalities (such as World Trade Center and Oklahoma City bombings), in investigating homicides (such as identifying the Russian tsar?s family), and in distinguishing cause of death. We examine how forensic anthropologists approach modern and historic crimes in the laboratory and the field. Students are introduced to the underlying theory and the applied techniques that forensic anthropologists use to recover and identify individuals and assess cause of death.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 401",
+    "title": "Topical Sem:",
+    "department": "anth_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 800",
+    "title": "Special Topics:",
+    "department": "anth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 901",
+    "title": "Honors Research I",
+    "department": "anth_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Open only to honors majors who have the permission of the director of undergraduate studies and the instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 902",
+    "title": "Honors Research II",
+    "department": "anth_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Open only to honors majors who have the permission of the director of undergraduate studies and the instructor. May be taken in either order. 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 903",
+    "title": "Internship",
+    "department": "anth_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Opportunities for students to gain practical work experience sponsored by selected institutions, agencies, and research laboratories are negotiated with the internship sponsor, a departmental supervisor, and the student. Requirements may vary but include 8 to 12 hours of fieldwork per week, regular meetings with the departmental supervisor, and assignments relevant to the internship experience. Student initiation of internship placement is encouraged.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 904",
+    "title": "Internship",
+    "department": "anth_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Opportunities for students to gain practical work experience sponsored by selected institutions, agencies, and research laboratories are negotiated with the internship sponsor, a departmental supervisor, and the student. Requirements may vary but include 8 to 12 hours of fieldwork per week, regular meetings with the departmental supervisor, and assignments relevant to the internship experience. Student initiation of internship placement is encouraged.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 905",
+    "title": "Independent Study",
+    "department": "anth_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the instructor and the director of undergraduate studies. 2 or 4 points per term; 6 or 8 points in exceptional cases.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  },
+  {
+    "course_code": "ANTH-UA 906",
+    "title": "Independent Study",
+    "department": "anth_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "PrereqPrerequisite: permission of the instructor and the director of undergraduate studies. 2 or 4 points per term; 6 or 8 points in exceptional cases.",
+    "source_url": "https://bulletins.nyu.edu/courses/anth_ua/"
+  }
+]

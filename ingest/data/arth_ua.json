@@ -1,0 +1,686 @@
+[
+  {
+    "course_code": "ARTH-UA 1",
+    "title": "History of Western Art I",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to MEDI-UA 1 . Students who have taken ARTH-UA 3 or ARTH-UA 4 will not receive credit for this course. Introduction to the history of painting, sculpture, and architecture from ancient times to the dawn of the Renaissance, emphasizing the place of the visual arts in the history of civilization. Includes the study of significant works in New York museums, such as the Metropolitan Museum of Art, the Cloisters, and the Brooklyn Museum.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 2",
+    "title": "History of Western Art II",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Students who have taken ARTH-UA 5 or ARTH-UA 6 will not receive credit for this course. Offered every semester. 4 points. Introduction to the history of painting, sculpture, and architecture from the early Renaissance to the present day. Includes the study of significant works in New York museums, such as the Metropolitan Museum of Art, the Frick Collec-tion, the Guggenheim Museum, and the Museum of Modern Art.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 3",
+    "title": "Art of the Ancient Mediterranean World",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "History of art in the Western tradition from 20,000 B.C. to the 4th century A.D. From the emergence of human beings in the Paleolithic Age to the developments of civilization in the Near East, Egypt, and the Aegean; the flowering of the Classical Age in Greece; and the rise of the Roman Empire to the beginnings of Christian domination under the Emperor Constantine in the 4th century A.D. Study of the collections of the Metropolitan Museum of Art and the Brooklyn Museum is essential.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 4",
+    "title": "Medieval Art in Europe and the Transcultural Mediterranean",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers a broad introduction to the architecture, pictorial arts, and visual and material culture of the European Middle Ages in the Greek-speaking East, Latin West, and transcultural Mediterranean c. 250\u20131450 CE. It provides an overview of the concepts, developments, and vocabulary necessary for analyzing and understanding the arts of the medieval period in light of the historical, religious, social, cultural, conceptual, and esthetic contexts and of their production and reception. Topics to be examined include the creation of a vocabulary of medieval imagery and architectural forms; uses of and attitudes toward the classical tradition; art and its makers, patrons, and audiences; materials and techniques of medieval art-making; the arts of religious and devotional practice; the relationships of word and image; the imaginative, multisensory, and performative dimensions of medieval art and architecture; medieval cultural exchange and colonization; art and ideologies; the relationship between art and nature; and the functions of and controversies concerning images in the medieval world. Readings include significant primary sources as well as secondary sources that offer a range of approaches to the interpretation and analysis of medieval art, architecture, and visual culture. Museum visits will provide the opportunity to discuss objects firsthand.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 5",
+    "title": "Art in Europe in the Renaissance",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Renaissance, like classical antiquity and the Middle Ages, is a major era of Western civilization embracing a multitude of styles. It is, however, held together by basic concepts that distinguish it from other periods. Main developments of Renaissance art both in Italy and north of the Alps: the Early and High Renaissance; relation to the lingering Gothic tradition; and Mannerism. Emphasis is placed on the great masters of each phase. The survival of Renaissance traditions in Baroque and Rococo art is examined in art and architecture.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 6",
+    "title": "Modern Art in Europe and America",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Art in the Western world from the late 18th century to the present. Content includes the neoclassicism and romanticism of David, Goya, Ingres, Turner, Delacroix; the realism of Courbet; the impressionists; parallel developments in architecture; the new sculptural tradition of Rodin; post-impressionism to fauvism, expressionism, futurism, cubism, geometric abstraction in sculpture and painting, modernism in architecture in the 20th century, and after the First World War, dadaism and surrealism. Also covers developments since 1945, such as action painting, pop art, minimal art, and numerous strands of postmodernism. Study of the collections of the Metropolitan Museum of Art, the Museum of Modern Art, the Guggenheim Museum, and the Whitney Museum of American Art is included.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 10",
+    "title": "Foundations of Art History",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to the skills and concepts they will need in order to develop a meaningful engagement with the visual arts and art history as a global discipline. Rather than providing a chronological survey of great works, it covers examples and perspectives from a wide array of regions, periods, and societies. Topics include materials and techniques of production; formal analysis; subject matter and iconography; historical and cultural contexts; the social role and formation of artists; and the history of art history as a discipline. Pitched for students who have little or no background in the study of art and architecture, this course provides a rigorous introduction to the foundations, techniques and ideologies of the discipline. It is required of all art history majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 101",
+    "title": "Birth of Greek Art: Bronze Age - Geometric",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 1 OR ARTH-UA 3 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5.",
+    "description": "Surveys the art, archaeology, and culture of the Aegean Bronze Age and early Iron Age: from ancient Thera, to the palace-based states of Minoan Crete and the Mycenaean Greek mainland, to developments within communities of the eighth century B.C.E. Architecture, wall painting, sculpture, ceramics, and narrative in early Greek art are among the topics to be examined. Emphasis on critical approaches to material culture within the contexts of religion, sociopolitical and economic organization, burial practices, trade networks, and interactions with neighboring cultures.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 102",
+    "title": "Archaic and Classical Art: Greek and Etruscan",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 1 OR ARTH-UA 3 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5.",
+    "description": "Covers the seventh through the fourth century B.C.E., including the\norientalizing and archaic styles, the emergence of the classical style, and\nthe impact of Macedonian court art under the conquests of Alexander the\nGreat. Studies architecture, sculpture, and vase painting within their\nhistorical and cultural contexts. Includes study of the Metropolitan Museum\nof Art collections.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 103",
+    "title": "Roman Art/Art Under Roman Occupation",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The history of the people who lived in Rome and under Roman occupation spans over 1500 years, from ca. 750 BCE to 750 CE.  It covers creative communities documented in archaeological and textual remains spread across three continents (Europe, Africa and Asia), crisscrossing lands and riding the currents of multiple rivers, seas and the eastern Atlantic Ocean.  The Colosseum, the Pantheon, the marble and gilt bronze statuary of empire and much more testify to an extraordinary period and geography of visual, material and spatial creativity. In part for these reasons, the study of \u201cRoman art\u201d has itself held a central place in the humanities generally and in the discipline of Art History specifically.  Yet the field is fraught; Roman art is tainted with imperialism and colonialism, and its promulgation in European and American curricula has fostered supremacist tendencies as much as it has underpinned aesthetics and philosophy.  So, we must ask, what does it mean for something to be Roman, and what does a canon of Roman art look like?  How can we reach beyond the politics of empire-building to see what people in these places and moments experienced as they created and activated the materials of daily life in such a world?  This is a survey, but it is not an ordinary survey of Roman art.  We will take 20 specific object\u2014from small silver cups to colossal marble temples\u2014and pull them apart to uncover the people they touched, the ways their presences ramified and what they may reveal about being Roman\u2026and not being Roman.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 104",
+    "title": "Greek Architecture",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 3 OR ARTH-UA 10 OR ARTH-UA 601 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Covers Archaic through Hellenistic periods (eighth to first centuries\nB.C.E.). Provides a chronological survey of Greek architectural tradition\nfrom its Iron Age origins, marked by construction of the first all-stone\ntemples, to the late Hellenistic period, embodied in the baroque palace\narchitecture reflected in contemporary theatre stage-buildings. Related\ntopics include: city planning and urbanism; building methods; traditions of\narchitectural patronage.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 105",
+    "title": "Roman Architecture",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A chronological survey of Roman architecture from its early development against the background of the Greek and Etruscan traditions to the dramatic melding of the divergent trends of late antiquity in the great Justinianic churches of Constantinople and Ravenna. The lectures (and accompanying images) and readings present the major monuments and building types, as well as related subjects such Roman engineering, and the interaction between Rome and its provinces.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 110",
+    "title": "Ancient Egyptian Art",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Traces developments in the sculpture, painting, and architecture of ancient Egypt from predynastic beginnings through the Old, Middle, and New Kingdoms until the conquest of Augustus (3100-40 B.C.E.). Special emphasis on Egyptian art in the context of history, religion, and cultural patterns. Includes study of Egyptian collections in the Metropolitan Museum of Art and the Brooklyn Museum.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 150",
+    "title": "Special Topics: Ancient Greek and Roman Art",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites (if any) vary by semester. The course may be repeated twice (taken three times in total, for 12 credits) as specific topics offerings change.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 201",
+    "title": "Art of the Early Middle Ages in Europe",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Christian architecture, sculpture, painting, mosaic, manuscript\nillumination, and luxury arts in the Greek East and Latin West from 200\nC .E. through ca. 950 C.E. Considers visual and material culture of\nChristianity in light of the religious, historical, political, social, and\ncultural contexts. Style periods: Christian, early Byzantine, barbarian,\ninsular, Merovingian, and Carolingian. Topics include: the commemoration of\nthe dead; art and theology; emergence of the cult of saints; early medieval\npatrons; arts of pilgrimage and early monasticism; word and image in early\nmedieval culture; and iconoclasm and debates about the role of images in\nearly Christianity.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 202",
+    "title": "Romanesque Art",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines architecture, sculpture, painting, manuscript illumination, and treasury arts of the Latin West during ca. 950-1200 C.E., including Ottonian, Anglo-Saxon, Mozarabic, First Romanesque, and Romanesque art. Considers visual arts of Christianity in light of the historical, religious, political, social, and cultural contexts of their creation. Topics: the cult of saints and the arts; the art and architecture of\npilgrimage and crusade; monasticism and the arts; Romanesque patrons,\nartists, and audiences; the Romanesque revival of monumental sculpture;\nChristian encounters with Islam and Judaism; secular themes in Romanesque\nart; word and image in Romanesque art; medieval attitudes toward the\nclassical tradition.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 203",
+    "title": "Gothic Art in Northern Europe",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Art of the \"age of the cathedrals\"\u2014including architecture, sculpture,\nstained glass, manuscript illumination, wall painting, luxury arts, and\ntapestry\u2014from origins of the Gothic style in the 12th-century Ile-de-France\nthrough the early 15th century. Considers artistic developments in light of\nreligious, historical, political, social, and cultural contexts of their\ncreation. Topics include: Gothic patrons, artists, builders, and\nart-making; lay literacy and the patronage and reception of art; the cult\nof the Virgin and the arts; the Gothic image as bearer of religious,\npolitical, and social values and ideologies; arts of chivalry and courtly\nlove; naturalism and developments in portraiture; the roles of art in\ndevotional and mystical experience; Gothic art and late medieval notions of\nvision and the self.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 204",
+    "title": "Art and Architecture in The Age of Giotto",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Traces the evolution of the painted altarpiece in relation to its liturgical, devotional, and cultic functions, with consideration of artistic personalities such as Duccio, Simone Martini, and the Lorenzetti. Studies great fresco cycles in churches and chapels from the point of view of artists (including Giotto and Taddeo Gaddi), patron(s), and program. Surveys key monuments of religious and civic architecture and their painted and sculpted decoration within the historical and political contexts of the emerging Italian city-states. Topics include: mendicant orders and the\narts; Black Death and art; status of the artist; gender and social class in\nrepresentation and patronage.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 205",
+    "title": "Medieval Architecture in Europe",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 4 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Surveys the architecture of the Middle Ages in Western Europe with emphasis\non the period from ca. 1000-1500 C.E., from the emergence of the Romanesque\nto the late Gothic period. Examines monumental religious and secular projects, such as cathedrals and civic palaces, from stylistic, technical, functional, iconographic, and ideological perspectives. Topics include regionalism, patronage, the status of the \"architect,\" and the concept of the multimedia ensemble. Situates buildings within their social, religious, and political contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 250",
+    "title": "Special Topics: Medieval Art in Europe",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites (if any) vary by semester. The course may be repeated twice (taken three times in total, for 12 credits) as specific topics offerings change.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 301",
+    "title": "Architecture and Urbanism in Renaissance Europe",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 2 OR ARTH-UA 5 OR ARTH-UA 10 OR ARTH-UA 601 OR Advanced Placement Examination Art History >= 5).",
+    "description": "A new style of architecture developed in 15th century Florence against the\nbackground of a vigorously evolving humanist culture and spread throughout\nItaly and beyond over the course of the 16th century. Traces the evolution\nof Renaissance architecture through the work of major figures such as\nBrunelleschi, Alberti, Bramante, Michelangelo, and Palladio. Special\nattention is given to the social, cultural, and historical conditions that\nshaped the built environment.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 302",
+    "title": "Architecture & Urbanism in the Age of the Baroque",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An architectural history of Europe, circa 1600\u20131750, with emphasis on the social, cultural, and historical conditions that shaped the built environment. Palaces, churches, villas, gardens, and urban spaces such as streets and piazzas are studied in terms of the life that went on in and around them. Themes under discussion include the pursuit of status through architectural patronage; the use of buildings to communicate political power or religious authority; the role of ceremony and spectacle in shaping architectural space and design; the interconnections between the arts of painting, sculpture, and architecture; and the dissemination of the baroque style throughout Europe and beyond. Special attention is given to the contributions of Bernini, Borromini, and Cortona in Rome; Guarini and Juvarra in Piedmont; Mansart, Le Vau, and Le N\u00f4tre in France; Fischer von Erlach, Neumann, and the Asam brothers in Germany and Austria.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 303",
+    "title": "Northern Renaissance Art, 1400-1530",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 with a Minimum Grade of C OR ARTH-UA 2 with a Minimum Grade of C OR ARTH-UA 5 with a Minimum Grade of C OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Addresses painting north of the Alps, ca. 1380- 1530, partly late medieval,\npartly Renaissance. Examines the connection of breathtaking technique and\ndeeply religious aspects of the art to function, symbolic thought,\npatronage, and changes in the society to which painting was related. Also\nexplains ways in which we write history when most of the vital written\ndocuments are missing or destroyed. Artists discussed include Jan van Eyck,\nthe Master of Flemalle, Rogier van der Weyden, Jean Fouquet, Hugo van der\nGoes, Jerome Bosch, Albrecht D\u00fcrer, Matthias Gr\u00fcnewald, and Hans Holbein.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 304",
+    "title": "16th Century Art North of The Alps",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 5 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Topics include the development of landscape as a separate subject in art;\nthe Reformation's effects on subject matter and aesthetics; what\nnortherners learned from the classicizing Italians and what the Italians\nlearned from northern realism; aspects of patronage and the art market; the\nnorthern interest in peasant life and in the grotesque; the sociopolitical\nsignificance of dress; and the importance of printmaking. Among the artists\nconsidered are the German artists Albrecht D\u00fcrer, Matthias Gr\u00fcnewald, Hans\nHolbein the Younger, and the Cranach family; the Netherlandish artists\nHieronymus (Jerome) Bosch, Quentin Massys, Lucas van Leyden, Jan Gossaert,\nand Pieter Brueghel the Elder; and Jean and Fran\u00e7ois Clouet and other\nartists associated with the French court.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 305",
+    "title": "Italian Renaissance Sculpture",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 5 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "The role of sculpture in the visual arts in Italy from ca. 1400-1600.\nBegins with Donatello and his contemporaries, including Ghiberti,\nVerrocchio, and Pollaiuolo, before moving on to Michelangelo's sculpture\nand a comparison of his works with those of contemporaries and followers,\nending with Giambologna.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 306",
+    "title": "Early Masters of Italian Renaissance Painting",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Achievements of the chief painters of the 15th century with special attention to the Tuscan tradition. A brief introduction to Giotto and his time provides background for the paintings of Masaccio and his artistic heirs (Fra Angelico, Filippo Lippi, Piero della Francesca). In the later 15th century, social and cultural changes generated by power shifts from Medici Florence to papal Rome also affected art patronage, creating new tensions and challenges for artists and fostering the emergence of new modes of visualization. Topics include the role of pictorial narrative, perspective, and mimesis; the major techniques of Renaissance painting; and the relationship of painting to the other visual arts.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 307",
+    "title": "Age of Leonardo, Raphael & Michelangelo",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Painting, sculpture, and the graphic arts in Florence and Rome from about\n1470 to the mid-16th century. Begins with Andrea del Verrochio, Leonardo,\nPerugino, Raphael, Domenico Ghirlandaio, and Michelangelo; investigates new\npictorial modes emerging after 1510 in Andrea del Sarto, Pontormo, Rosso,\nParmigianino, Giulio Romano, and other members of Raphael's school; and\nthen considers their younger contemporaries and successors, including Bronzino and Vasari. Emphasizes the patronage, symbolic tasks, and functions of Renaissance painting and critically examines historical concepts such as high Renaissance, mannerism, and *maniera*.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 308",
+    "title": "Golden Age Venetian Painting",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 5 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "The art of Venice and its surroundings, Emilia and Lombardy. Covers the\nBellini and Vivarini artistic families, Giorgione, Titian, and Sebastiano\ndel Piombo; the itinerant careers of Carlo Crivelli and Lorenzo Lotto; and\nthe origins and implications of Correggio's and his student Parmigianino's\ndaring experiments. Examines the significance of the mature Titian for his\ncontemporaries Veronese, Tintoretto, and Bassano. In the 18th century,\nTiepolo brings Venice's golden age to a close. Stresses artistic reciprocity between northern and central Italy.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 309",
+    "title": "Italian Art in The Age of The Baroque",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Painting and sculpture in Italy, 1580-1700. Highlights major developments\nin the visual arts and the work of leading artists including Caravaggio,\nCarracci, Bernini, and Poussin. Examines the blurring of boundaries between\nthe real and the imaginary, the instantaneous and the infinite, the\nimitative and the innovative. Special attention is paid to the creative\nprocess and the influences on it: the role of the patron, the logistics of\nsite, and the artist's own thought process as revealed through preparatory\ndrawings and sketches.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 311",
+    "title": "Dutch &Flemish Painting, 1600-1700",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In Flanders, Rubens overturned all previous concepts of painting and was\nthe first to deserve the term \"baroque.\" Van Dyck, his pupil, took Rubens's\nstyle to England. Dutch painters, including Hals, Rembrandt, and Vermeer,\nmoved in a different direction, addressing every aspect of their country\nand society: the peasant, the quiet life of the well-ordered household, the\nsea and landscape, views of the cities, and church interiors.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 313",
+    "title": "French Art From Versailles to the Age of Rococo, c. 1660-1760",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 5 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "French art, architecture, and material culture from the mid-17th to late\n18th centuries. Topics include the artistic splendors of the court of Louis\nXIV at Versailles and the relationship of art and politics; the French\nAcademy and the Paris Salon; cross-cultural exchange and its impact on\ndecorative arts and interior design; gardens and landscape; intersections\nbetween Enlightenment art, philosophy, and science; gender and patronage;\nand the rise and fall of the rococo.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 315",
+    "title": "Art in Spain from El Greco to Goya",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Begins with El Greco in Italy and Toledo, Vel\u00e1zquez, Zurbar\u00e1n, Murillo,\nRibera, and Vald\u00e9s Leal before moving to the 18th century (the Tiepolo\nfamily, Mel\u00e9ndez). Defines Spain in the 16th and 17th century as a global\npower by considering colonial-era art in such New World centers as Mexico\nCity and Lima. The focus then shifts to the art of Francisco de Goya and\nthe projection of Spanish art into the modern era.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 316",
+    "title": "Latin American Art: From Colonial to Modern",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 5 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Begins with a brief consideration of the achievements of the great\npre-Hispanic civilizations (Aztec, Maya, Inca, and others) prior to contact\nwith the Iberian world. Emphasis on colonial painting, sculpture, and\narchitecture in Mexico and Central America, the Caribbean, and the Andes.\nExamines painting and sculpture of the 19th century and the secularization\nof Latin American art, and then the establishment of modernism from 1900\nonward. Important modern artists such as Frida Kahlo, Joaqu\u00edn\nTorres-Garc\u00eda, Tarsila do Amaral, Wifredo Lam, and the surrealists bring\nthe survey to approximately 1950.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 317",
+    "title": "European and American Decorative Arts: Renaissance to Modern",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 5 ) AND ( ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "History of the design of objects used in daily life. Studies works of art in a social and historical context. Beginning with the Italian, French, and northern Renaissance, surveys the Louis styles in France, international neoclassicism, and the Victorian style. Concludes with the modern period. Stresses the history of furniture, although also covers glass, silverware, tapestries, ceramics, wallpaper, carpets, and small bronzes.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 350",
+    "title": "Special Topics: Renaissance and Baroque Art in Europe and the Americas",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites (if any) vary by semester. The course may be repeated twice (taken three times in total, for 12 credits) as specific topics offerings change.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 404",
+    "title": "American Art before 1940",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 204 )  AND Advanced Placement Examination Art History >= 5.",
+    "description": "Examines the art that developed in what is now the United States, from the beginnings of European colonization until the First World War and the internationalizing of American art. Includes painting, sculpture, and architecture, concentrating on the work of Copley, Cole, Winslow Homer, Mary Cassatt, and others. New York City provides major collections of\npainting and sculpture, as well as outstanding examples of architecture.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 407",
+    "title": "Abstract Expressionism to Pop Art",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Considers the varied avant-gardes of the United States, England, France,\nItaly, Latin America, Africa, the Middle East, and South Asia in the years\nimmediately after World War II, then focuses on the development of the New\nYork School from abstract expressionism, through neo-dada and other\nmovements of the late 1950s, and into the pop art and minimalism of the\n1960s. Also examines the parallel but divergent development of an\ninternational avant-garde linking France, Italy, and South America.\nEmphasizes the global perspective by surveying avant-gardes of the 1950s\nand 1960s in Africa, the Middle East, South Asia, and Japan, and how they\nresponded to developments in Paris and New York.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 408",
+    "title": "Early Modern Architecture",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR ARTH-UA 601 OR ARTH-UA 661 ) AND ( CORE-UA 722 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Focuses on the creation of modern building types such as the bank, state\ncapitol, museum, railroad station, and skyscraper. After considering the\nforms and meanings associated with neoclassicism, examines the Gothic\nrevival and subsequent 19th-century movements (e.g., high Victorian Gothic,\nSecond Empire, beaux-arts classicism) as efforts to find appropriate\nexpressions for diverse building forms. Students consider changes resulting\nfrom the Industrial Revolution, including developments in technology, and\nthe reforms of art nouveau and secession architecture.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 409",
+    "title": "Modern Architecture",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers a historical survey of the built environment from 1800 to the present. Starting with the intensification of global interconnectivity in the 19th century, we will explore the role of architecture and urbanism since 1800 through themes such as industrialization, colonialism, orientalism, nationalism, fascism, post-colonialism, imperialism, and war. Rather than a Eurocentric reading of the past two centuries, which offers a narrative of modernity as an invention of the West that was then adopted by the rest of the world, we will recognize modernity as a global condition and a way of understanding the human condition and the built environment of the past two centuries. Global in scope, the course provides a chronological and thematic account of the technologies, socio-economic forces, aesthetic impulses and collective desires that have shaped the built environment. Particular attention will be given to the fraught relationship between modernity and imperialism; the rise and fall of \u2018modernism\u2019 as a specific set of design methods and discursive strategies; non-Western modernisms; and interfaces between architecture and other artistic disciplines. Furthermore, this course traces the interactions and exchanges of architectural styles and ideas in a highly connected modern world, in order to understand the ways in which diverse societies translated ideas, appropriated forms and styles from distant geographies and cultures, and used architecture and design to respond to socio-political changes.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 411",
+    "title": "Neo-Classicism to Realism",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "The Enlightenment's valorization of cool rationalism contributed to the\nrise of neoclassicism as a dominant style, while the era's opposing\ncelebration of emotion as the purest form of intellectual and spiritual\nexpression (as in Rousseau) gave rise to romanticism. Following on the\nheels of romanticism, realism has been seen as both a rejection and an\nextension of it. Focuses on these three stylistic movements and examines\nhow late 18th- and early 19th-century artists negotiated not just the\naesthetic ideas of the Enlightenment but its political consequences as we",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 412",
+    "title": "Impressionism to Post-Impressionism",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Begins by considering how impressionism refined and redirected the artistic\naims of 19th-century realism, then follows the development of progressive\nart to the brink of cubism and pure abstraction in the first years of the\n20th century. Following impressionism and post-impressionism, close\nattention is paid to symbolism, aestheticism, art nouveau, the Arts and\nCrafts movement, fauvism, and expressionism. The aesthetic aims of these\nmovements are analyzed in tandem with the social and cultural conditions\nthat generated them.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 413",
+    "title": "Cubism to Surrealism",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "After analyzing the invention of cubism by Picasso and Braque, examines its\ninternational reverberations, including Italian futurism, the later phases\nof German expressionism, and constructivism in revolutionary Russia. The\ndada movement in the period during and after World War I is considered as a\nreaction to the apparent cultural and artistic bankruptcy of Western\ncivilization. Addresses the tensions in the multiple currents of surrealism: metamorphic, academic, and abject, and then analyzes painting after World War II, from Pollock to Dubuffet, as an extension and transformation of prewar trends.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 414",
+    "title": "Contemporary Art",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "First concentrates on the development of contemporary art in New York,\nLondon, and Berlin. Discussion of the decade 1975-1985 is organized around\nthe opposition between art as social critique and art as spiritual expression. Discussion of 1985-1995 focuses on the re-emergence of narrative, and on identity and bodily experience as organizing metaphors. Discussion of 1995-2010 focuses on comic-book imagery, amusement park installation, and allegorical abstraction. Finally, considers the diverse art scenes of Russia and Eastern Europe, Latin America and the Caribbean, Africa, the Middle East, South Asia and Australia, and China from 1989 to the present. Considers how \"Western\" art formats have provided vehicles for responding to diverse experiences such as the collapse of Communism, rapid industrialization, and ethnic and religious conflict.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 431",
+    "title": "Aesthetic History of Photography",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Chronicles the history of photography's complex and symbiotic relationship\nto painting, sculpture, architecture, installation, and performance. Beginning with the medium's invention and the early fights of its practitioners to establish themselves as fine artists, describes photographers' unique attempts to negotiate their relationships with both artistic movements and the media culture of which they are a part. Assesses the impact of art movements, cultural attitudes, and new technologies on\nphotographers across the history of the medium.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 432",
+    "title": "Social History of Photography",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR Advanced Placement Examination Art History >= 5.",
+    "description": "A social and political history of photography, from its beginnings to the\npresent day. Focuses on the popular forms of photographic imagery, such as\nadvertising, fashion, travel photography, family portraits and snapshots,\nscientific documents, documentary reform, and photojournalism, and\ndescribes the medium's relationship to Western (and global) social history\nduring the modern era. Readings from Susan Sontag, John Berger, and Roland\nBarthes.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 433",
+    "title": "Toward a Critical Vocabulary of Photography",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 10 and ARTH-UA 2 with a Minimum Grade of C OR ARTH-UA 6 with a Minimum Grade of C OR Advanced Placement Examination Art History >= 5.",
+    "description": "Emphasizes the analysis and synthesis of visual and written information.\nCritical readings from Roland Barthes, Donna Haraway, Susan Sontag, Boris\nGroys, bell hooks, Thomas Kuhn, Mircea Eliade, John Berger, and George\nKubler, as well as selections from fiction and graphic novels, are\nconsidered in relation to historical and contemporary pictures. Considers\ntopics in philosophy, art history, science, literature, and cultural\nstudies that are relevant to photography.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 450",
+    "title": "Special Topics: Modern Art",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites (if any) vary by semester. The course may be repeated twice (taken three times in total, for 12 credits) as specific topics offerings change.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 507",
+    "title": "Asian Art in Ny Museums and Galleries",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A hands-on fieldwork course that meets at museum storerooms and exhibitions, private collections, and commercial galleries. The material studied varies according to the museum exhibitions available at the time the course is offered. Emphasizes visual analysis and requires active discussion of the works of art. Particularly suitable for students interested in a museum or gallery career.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 510",
+    "title": "East Asian Art I: China, Korea, Japan to 1000 Ce",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the art and culture of the Far East. The materials are presented in a chronological and thematic approach corresponding to the major dynastic and cultural changes of China, Korea, and Japan. Teaches how to \"read\" works of art in order to interpret a culture or a historical period; it aims at a better understanding of the similarities and differences among the cultures of the Far East.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 511",
+    "title": "East Asian Art II:China, Korea, Japan, 1000Ce-Pr",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introductory survey. Emphasizes an overall understanding of the development of art and culture, as well as mastery of specific works of art. East Asian Art I followed the development of the common cultural heritage of the Northeast Asia region. Part of this commonality is due to the extraordinary influence of an early-developing Chinese civilization on Japan and Korea. However, Japan and Korea also developed their own cultures and arts. Topics include Song landscape paintings, Edo 'floating world' prints, Koryo celadons, and modern art.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 512",
+    "title": "Arts of China",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the diversity of artistic expression in China, including architecture and gardens, painting and sculpture, and ceramics and textiles. Concentrates on the function of artworks, their physical and sociological context, and the meanings they convey. To give the course a solid historical grounding, the time period covered is limited to around five hundred years (period covered varies from semester to semester).",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 520",
+    "title": "Arts of Japan",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to the art produced in Japan from the Neolithic to the Modern era. The study of the institutional, political, and economic contexts in which art objects were created and circulated will shed light on deeper issues concerning the function and meaning of luxury items in elite culture\u2019s display of power and self-fashioning. Markedly interdisciplinary, the course will familiarize students with art objects and will provide analytical tools for the understanding of the stories these objects were meant to tell. Our discussion will also explore how knowledge about Japan evolved in the West and its current state in contemporary academic discourses, museum practices, and the art market.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 530",
+    "title": "South Asian Art: Indus Valley to the Present",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introductory survey of the history of South Asia from 2000 B.C.E. to 1200 C.E., with an emphasis on the Indian subcontinent. From the Indus Valley culture to the present day, artistic production has played a critical role in the transmission of religious beliefs and the development of cultural systems in and around South Asia. Diverse regions were linked by trade, politics, and cultural relationships, and interaction can be charted through the changing forms and functions of art. We consider the historical circumstances surrounding the production of South and Southeast Asian art, as well as the problems that art historians face when trying to interpret the surviving evidence. We look at art in a variety of media, including, but not limited to, architecture, urban form, sculpture, painting, and performance.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 540",
+    "title": "Art in Islamic World I: from Prophet to Mongols",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Provides an outline of Islamic material in its early and classical periods, from 650 to 1200. The period saw the initial formation of an Arab empire stretching from the Atlantic Ocean to the Indian Ocean, a decline in centralized authority, and the rise to political prominence of various North African, Iranian, and Central Asian dynasties from the 10th century onward. These political developments are reflected in the increasingly heterogeneous nature of Islamic material culture over this time span.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 541",
+    "title": "Art in The Islamic World II: Mongols to Modernism",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is intended as an introduction to the arts of Islam during a period of dynamic cultural and political change in the Islamic world. Beginning with the Mongol invasions of the 13th century, the course traces the development of Islamic art and architecture through the eras of Timur, the gunpowder empires (the Mughals, Ottomans, Safavids) and European colonialism, to the art of the nation-state in the 20th-century.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 550",
+    "title": "Sp Tpcs Non-Western Art:",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 560",
+    "title": "Arts of Africa",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the historical and contemporary arts of Africa, ranging from ancient architecture, masquerades, and traditional sculpture to modern photography, recent digital works and multi-media installations.  Special attention is given to key moments of contact between different societies within Africa and between Africa and the Americas and Europe, including histories of imperialism and decolonization. It is also considers the challenges and politics of interpreting African arts in our current globalizing world.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 570",
+    "title": "North American Indian Arts",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Major traditions in painting, sculpture, and architecture of the native peoples of North America, Mexico, Central America, and Andean South America. Material from pre-contact times through the 20th century. Deals with questions of theory and differences between indigenous and Western world views; the relationship of the arts to shamanism, priesthoods, guardian spirits, deities, and beliefs regarding fauna and flora; impact of European contact on indigenous arts and civilization.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 601",
+    "title": "History of Architecture: Antiquity to Present",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the history of Western architecture, emphasizing the formal, structural, programmatic, and contextual aspects of selected major monuments from ancient times to the present. Monuments discussed include the Parthenon, the Roman Pantheon, Hagia Sophia, the cathedral at Chartres, St. Peter's, Palladio's Villa Rotonda, St. Paul's Cathedral, Versailles, the London Crystal Palace, Frank Lloyd Wright's Fallingwater, Le Corbusier's Villa Savoye, the Guggenheim Museum in Bilbao, Mies van der Rohe's Barcelona Pavilion, and others. Lectures analyze monuments within their contexts of time and place. Also considers aspects of city planning in relation to certain monuments and to the culture and events of their time.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 650",
+    "title": "Sp Tpcs in Urban Design & Architecture:",
+    "department": "arth_ua",
+    "credits": 2.0,
+    "prerequisites": "ARTH-UA 661 with a Minimum Grade of C AND ARTH-UA 601 with a Minimum Grade of C.",
+    "description": "Subjects change from semester to semester and are outside of the usual classification areas.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 661",
+    "title": "Shaping The Urban Environment",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces basic concepts of Western urbanism, focusing primarily on Europe and the United States. Lectures, readings, and course work present both a survey of city form since antiquity and an analysis of contemporary urban issues. Students investigate key elements of urban development, including roads, walls, water, housing, transportation, and open space, as well as factors influencing these elements, such as types and shapes of cities, engineering, and architectural form as an expression of political systems. Special attention is given to real estate development, landmark preservation, city planning, and community participation in New York City.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 663",
+    "title": "Hist of City Planning, 19th & 20th Centuries",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the history of cities, planning, and urban design in Europe and the United States since 1800. Students can expect both a survey of city planning history and consideration of thematic issues. Lectures and readings emphasize the social, political, and economic factors shaping modern cities, including industrialization, housing, sanitation, transportation, social reform, recreation, and infrastructure, as well as cultural and aesthetic debates about style, monumentality, and diversity in cities. Course work includes readings of primary documents and recent interpretations, individual research, and field trips to notably planned sites in the New York area.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 670",
+    "title": "Decision-Making & Urban Design",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 661 with a Minimum Grade of C AND ARTH-UA 601 with a Minimum Grade of C.",
+    "description": "The impact and limitations of private and public decision-making power on urban design and architecture. City architecture in light of the values and priorities set by a society. Recognition of citizens' groups as increasingly important factors in city planning and related changes. Critically evaluates the complexity of decision-making and historical circumstances as related to the built urban environment on the basis of historical and modern American and European examples.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 671",
+    "title": "Architecture in Context",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 661 with a Minimum Grade of C AND ARTH-UA 601 with a Minimum Grade of C.",
+    "description": "Addresses issues arising from new structures and interventions to existing structures, which must relate to existing well-defined contexts of the sort found throughout New York City. Students are encouraged to think about, discuss, create, and present designs that recognize and suit their contexts. The focus is on typical New York City building types. Includes townhouses, additions to existing structures, adaptive reuse of residential structures for institutional use, streetscape improvements, and urban parks.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 672",
+    "title": "Environmental Design: Issues & Methods",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 661 with a Minimum Grade of C AND ( ARTH-UA 601 with a Minimum Grade of C OR ARTH-UA 661 OR ARTH-UA 661 ).",
+    "description": "This course offers an in-depth understanding of the development and direction of environmental sustainability with a focus on architecture and design. The course presents technological advances in the design of sustainable buildings and landscape and addresses methods for evaluating and documenting the ecological impact of such advances. Numerous case studies of various building types will be analyzed to understand practical applications of theoretical principles. The aesthetic and social impact of new construction, renovation and site development on the natural and man-made eco-system will be the focus of discussions, including current events.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 673",
+    "title": "Urban Design: Infrastructure",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 661 with a Minimum Grade of C AND ARTH-UA 601 with a Minimum Grade of C.",
+    "description": "Serves as a laboratory for the investigation of New York City's infrastructure, using the definition of the word as a point of departure. In what ways can the city be perceived as a collective undertaking, with intricate components interwoven in continuous strands? What systems and forces give the city and its neighborhoods their current form, and what influences their future shape? Can these systems be dissected? What do these analyses tell us about the relationship of the city to its inhabitants and to the wider environment? Through lectures, reading assignments, discussions, and field trips, we investigate some of the major components of the city's infrastructure, such as the street grid, water supply, waste disposal, and subway system.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 674",
+    "title": "Urban Design & The Law",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 601 AND ARTH-UA 661 .",
+    "description": "Relationship between physical surroundings and the basis of society in law. Examines the effects of zoning laws and building codes; urban renewal legislation; condemnation procedures; real estate law; law concerning tenants; taxation; special bodies such as the Port Authority of New York and New Jersey; preservation and landmarks; licensing procedures for architects, engineers, and planners; and pollution control measures. Special attention to laws of New York City and nearby communities.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 675",
+    "title": "Seminar in Urban Options for The Future",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 661 OR ARTH-UA 601 ).",
+    "description": "Focuses on alternative futures for the city of tomorrow that may be effected through the development of new forms of technology and the utilization and exploitation of the state of the art in urban structural designs. Topics include redesign of the business district; recovery of city resources; and social, political, and economic implications of new city forms considered in projections for a new urban face.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 676",
+    "title": "Drawing for Architects & Others",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 601 with a Minimum Grade of C AND ARTH-UA 661 with a Minimum Grade of C.",
+    "description": "Teaches students to perceive\u2014to record phenomena manually without relying on formulaic methods of drawing perspective, volumetrics, and the like. Students are encouraged to examine proportion, scale, light, shade, and texture, as well as means of expression, the nature and essence of objects, various media, and graphic composition. Assists students in creating a comprehensive series of drawings and in building a portfolio.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 677",
+    "title": "Reading The City",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 661 with a Minimum Grade of C AND ARTH-UA 601 with a Minimum Grade of C.",
+    "description": "The course will focus on observation and documentation of a historical section of New York City from its foundation to the present. Students will participate in field walks and attend in-class lectures and discussions.? A principal objective of the course is to have students learn to read the historical stratigraphy of the city by using primary and secondary sources such as maps, prints, and panoramas, as well as City Council minutes and other printed documents. The goal is to have students deepen their understanding of phenomena that they have observed at first hand.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 701",
+    "title": "Museums & The Art Market",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 6 OR ARTH-UA 10 OR ARTH-UA 9002  OR Advanced Placement Examination Art History >= 5).",
+    "description": "An overview of history and theory. Presents a series of lectures and case studies examining such issues as the birth of the museum, the role played by world's fairs and biennials, the impact of collectors, the art market, and the gallery system. Visits to museums, galleries, and auction houses in New York.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 800",
+    "title": "Advanced Seminar",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Departmental consent required to enroll. Open only to departmental majors who have completed five 4-credit art history courses. Other interested students must have a relevant background and receive permission from course instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 801",
+    "title": "Senior Honors Thesis I",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open to urban design & architecture studies majors who have been accepted as candidates for honors in urban design & architecture studies in the first term of their senior year and who have the permission of the director of undergraduate studies. See this department's subheading, \"Graduation with Honors,\" for eligibility requirements. Students are expected to work on their theses over a period of two semesters. Applicants must have a GPA of 3.65 in urban design & architecture studies courses and an overall GPA of 3.65 as stipulated by the College's honors program regulations.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 804",
+    "title": "Independent Studies",
+    "department": "arth_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Independent study consists of the investigation, under the guidance and supervision of a designated instructor, of a research topic agreed on by the student and instructor and approved by the director of undergraduate studies. Requires a substantial report written by the end of the term. Internships receive a maximum of 2 credits, and written work is required, just as it is for any other independent study. Prior approval by a faculty member is required for internship credit.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 850",
+    "title": "Special Topics:",
+    "department": "arth_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Subjects change from semester to semester and are outside of the usual classification areas.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  },
+  {
+    "course_code": "ARTH-UA 851",
+    "title": "Special Topics",
+    "department": "arth_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Subjects change from semester to semester and are outside of the usual classification areas.",
+    "source_url": "https://bulletins.nyu.edu/courses/arth_ua/"
+  }
+]
