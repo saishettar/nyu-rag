@@ -134,5 +134,45 @@
   {
     "question": "Is there a course specifically about the U.S. Supreme Court?",
     "expected_course_codes": ["POL-UA 333"]
+  },
+  {
+    "question": "Is there a course on neuroeconomics?",
+    "expected_course_codes": ["NEURL-UA 312"]
+  },
+  {
+    "question": "Which course covers the biology of memory?",
+    "expected_course_codes": ["NEURL-UA 317"]
+  },
+  {
+    "question": "Which course covers computational chemistry?",
+    "expected_course_codes": ["CHEM-UA 752"]
+  },
+  {
+    "question": "Is there a course on structural DNA nanotechnology?",
+    "expected_course_codes": ["CHEM-UA 828"]
+  },
+  {
+    "question": "Which course teaches the fundamentals of bioinformatics?",
+    "expected_course_codes": ["BIOL-UA 124"]
+  },
+  {
+    "question": "Is there a course on genome engineering?",
+    "expected_course_codes": ["BIOL-UA 545"]
+  },
+  {
+    "question": "Is there a course on pidgin and creole languages?",
+    "expected_course_codes": ["LING-UA 38"]
+  },
+  {
+    "question": "Which course covers African American Vernacular English?",
+    "expected_course_codes": ["LING-UA 23"]
+  },
+  {
+    "question": "Which course covers environmental justice and inequality?",
+    "expected_course_codes": ["ENVST-UA 480"]
+  },
+  {
+    "question": "Is there a course on the biogeochemistry of global change?",
+    "expected_course_codes": ["BIOL-UA 66", "ENVST-UA 370"]
   }
 ]

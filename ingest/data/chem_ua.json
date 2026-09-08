@@ -1,0 +1,299 @@
+[
+  {
+    "course_code": "CHEM-UA 120",
+    "title": "Introduction to Modern Chemistry",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "",
+    "description": "Selected principles and applications of chemistry, with emphasis on the fundamental nature of chemistry. Basic course dealing with concepts of atomic and molecular structure, chemical bonding, solution chemistry, equilibrium, reaction rates, and properties of gases, liquids, and solids.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 125",
+    "title": "General Chemistry I & Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "",
+    "description": "This course constitutes an introduction to inorganic and physical chemistry for science majors, engineers, and the prehealth professions. Emphasizes the fundamental principles and theories of chemistry. Topics include the theories of atomic structure; stoichiometry; properties of gases, liquids, solids, and solutions; periodicity of the properties of elements; chemical bonding; equilibrium; kinetics, thermodynamics; acid-base reactions; electrochemistry, coordination chemistry, and nuclear chemistry. The underlying unity of chemistry is a basic theme. Laboratories provide an introduction to basic techniques used in experimental chemistry. Many experiments use a computer interface to provide experience in modern methods of data collection and to allow thorough analysis of experimental results. Proper laboratory procedures, chemical safety rules, and environmentally sound methods of chemical disposal and waste minimization are important components of the course. Experiments are selected to provide illustration and reinforcement of course topics, including manual and automated titrations, basic chromatography, stoichiometry, thermodynamics, and colorimetry. Prerequisite: Algebra, Trigonometry, and Functions ( MATH-UA 9 ; formerly Algebra and Calculus) or equivalent, or placement into either Mathematics for Economics I ( MATH-UA 131 ; formerly MATH-UA 211) or Calculus I ( MATH-UA 121 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 126",
+    "title": "General Chemistry II & Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "CHEM-UA 125 with a Minimum Grade of C OR (CHEM-UA 101 with a Minimum Grade of C AND CHEM-UA 103 with a Minimum Grade of C) OR CHEM-UA 127 OR (CHEM-UA 109 AND CHEM-UA 111).",
+    "description": "See General Chemistry I and Laboratory ( CHEM-UA 125 ), above. Laboratories are a continuation of CHEM-UA 125 , with emphasis on the analysis of quantitative data rather than its collection. Experiments are selected to provide illustration and reinforcement of the topics covered in the course, including solution chemistry, kinetics, equilibrium, buffers, solubility, and electrochemistry.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 129",
+    "title": "Accelerated General Chemistry",
+    "department": "chem_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "This course is a single-semester accelerated and advanced course for first-year students intending to major in Chemistry or in general in the sciences or engineering. Students enrolling into this course are expected to have completed advanced high school courses in the subject areas of chemistry, math, and physics. The course addresses quantum mechanics in the context of atomic structure, thermodynamics in the context of properties of matter and chemical transformations, and reaction kinetics. The course aims to bolster understanding of the various aspects of chemistry through explorations at a deeper level than in a standard general chemistry course. The course is built around foundational concepts and their application to understanding chemistry broadly. The course is accompanied by an associated laboratory, designed to reinforce lecture topics. The course allows students to proceed faster towards advanced courses in the Chemistry sequence.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 140",
+    "title": "Mathematics of Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 122 with a Minimum Grade of C  OR Advanced Placement Examination Calculus BC >= 5).",
+    "description": "This course is designed to provide students with a foundation in the mathematical concepts commonly used in chemistry and which are needed for more advanced work including upper-division courses and/or research.  Course topics include vectors and matrices, calculus of several variables, basis expansions, ordinary differential equations, partial differential equations, and an introduction to group theory.  Rather than presenting these topics in a highly theoretical manner, however, they are conveyed through the vehicle of and in the context of actual applications to real chemical problems.  Concepts are enforced through in-class problem solving as well as weekly problem sets.  Students will be encouraged to apply both analytical techniques as well as tools such as Matlab, Mathematica, or high-level programming languages such as Python.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 210",
+    "title": "Principles of Organic and Biological Chemistry and Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "CHEM-UA 120 with a Minimum Grade of C.",
+    "description": "This one-semester course covers topics such as nomenclature, conformations, stereochemistry, chemical reactions, and synthesis of organic compounds. Fundamentals of biochemistry are introduced, including carbohydrates, lipids, amino acids, peptides, and nucleic acids.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 225",
+    "title": "Organic Chemistry I & Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "CHEM-UA 126 with a Minimum Grade of C OR CHEM-UA 128 OR CHEM-UA 129 OR ( CHEM-SHU 126 AND CHEM-SHU 128 ) OR ( CM-UY 1021 AND CM-UY 1023 ).",
+    "description": "This course constitutes an introduction to the chemistry of organic compounds. The material is presented in the functional group framework, incorporating reaction mechanisms. Topics include structure and bonding of organic materials, nomenclature, conformational analysis, stereochemistry, spectroscopy, and reactions of aliphatic and aromatic hydrocarbons, alcohols, ethers, amines, and carbonyl compounds. Multifunctional organic compounds are covered, including topics of relevance to biochemistry, such as carbohydrates, amino acids, peptides, and nucleic acids. Laboratories provide training in the basic techniques of the organic chemistry laboratory, including crystallization, distillation, extraction, and other separation techniques, such as column chromatography. Experiments involving the synthesis of organic compounds are introduced, as well as qualitative organic analysis. Advanced Placement credit in Chemistry (or equivalent advanced standing examinations) is not an acceptable prerequisite for any CHEM-UA course.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 226",
+    "title": "Organic Chemistry II & Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "CHEM-UA 225 with a Minimum Grade of C OR CHEM-UA 227 with a Minimum Grade of C OR CHEM-UH 2010 OR ( CHEM-UA 9225 AND CHEM-UA 9225 ) OR ( CHEM-SHU 225 AND CHEM-SHU 225L ) OR ( CM-UY 2211 AND CM-UY 2213 ).",
+    "description": "This course constitutes a continuation of the study of chemistry of organic compounds. The material is presented in the functional group framework, incorporating reaction mechanisms. Topics include structure and bonding of organic materials, nomenclature, conformational analysis, stereochemistry, spectroscopy, and reactions of aliphatic and aromatic hydrocarbons, alcohols, ethers, amines, and carbonyl compounds. Multifunctional organic compounds are covered, including topics of relevance to biochemistry, such as carbohydrates, amino acids, peptides, and nucleic acids. Laboratories provide training in the syntheses of organic precursors in high yields and high purity needed for multistep procedures. An extensive research project involving unknown compounds is conducted. The use of IR and NMR spectroscopy is explored. Advanced Placement credit in Chemistry (or equivalent advanced standing examinations) is not an acceptable prerequisite for any CHEM-UA course.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 227",
+    "title": "Majors Organic Chemistry I & Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "( CHEM-UA 126 OR CHEM-UA 128 OR CHEM-UA 129 ).",
+    "description": "Emphasizes the theory and structures of covalent bonded materials and\ndevelops greater insight into reaction mechanisms, plus the challenges and\ncreativity leading to scientific discovery. This course is designed for\nstudents intending to become chemistry and biochemistry majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 228",
+    "title": "Majors Organic Chemistry II & Laboratory",
+    "department": "chem_ua",
+    "credits": 5.0,
+    "prerequisites": "( CHEM-UA 225 with a Minimum Grade of C OR CHEM-UA 227 with a Minimum Grade of C OR CHEM-UH 2010 with a Minimum Grade of C).",
+    "description": "Emphasizes the theory and structures of covalent bonded materials and\ndevelops greater insight into reaction mechanisms, plus the challenges and\ncreativity leading to scientific discovery. This course is designed for\nstudents intending to become chemistry and biochemistry majors.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 651",
+    "title": "Quantum Mechanics & Spectroscopy",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "MATH-UA 122 AND PHYS-UA 12 OR PHYS-UA 93 AND CHEM-UA 126 OR CHEM-UA 128 WITH A MINIMUM GRADE OF C.",
+    "description": "An introduction to quantum mechanics' general principles and applications. Covers electronic structure of one- and many-electron atoms, theory of chemical bonding in diatomic and polyatomic molecules. Includes principles and applications of molecular spectroscopy, including rotational, vibrational, electronic, and nuclear magnetic resonance. Elements of photochemistry are also included. Mathematics of Chemistry ( CHEM-UA 140 ) is strongly recommended as a prerequisite; students may substitute Linear Algebra ( MATH-UA 140 ) and/or Calculus III ( MATH-UA 123 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 652",
+    "title": "Thermodynamics & Kinetics",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "MATH-UA 122 AND PHYS-UA 12 OR PHYS-UA 93 AND CHEM-UA 126 OR CHEM-UA 128 WITH A MINIMUM GRADE OF C.",
+    "description": "Develops the close connection between the microscopic world of quantum mechanics and the macroscopic world of thermodynamics. Topics include properties of gases, elementary statistical thermodynamics, and thermodynamics of single and multicomponent systems. Mathematics of Chemistry ( CHEM-UA 140 ) is strongly recommended as a prerequisite; students may substitute Linear Algebra ( MATH-UA 140 ) and/or Calculus III ( MATH-UA 123 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 653",
+    "title": "Physical Chemistry for the Life Sciences",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 125 AND CHEM-UA 126 AND CHEM-UA 140 ) OR ( CHEM-UA 129 AND CHEM-UA 140 ).",
+    "description": "This course builds up biomolecules and macromolecular assemblies from atoms and electronic structure using quantum concepts. It then establishes the connection between the microscopic molecular world and the macroscopic world of thermodynamics and reaction kinetics. Topics include particles, waves, energy levels, and other quantum concepts, electrons and their spin, atomic and molecular orbitals, chemical bonding theory, spectroscopy, X-ray scattering and electron microscopic, energetic particle therapies, laws of thermodynamics, properties of solutions, chemical and biochemical equilibria, acids and bases, phases and phase coexistence in membranes and organelles, rate laws, reaction kinetics, drug binding kinetics, and diffusion. Prerequisites: Either CHEM-UA 125 (General Chemistry I & Laboratory) and CHEM-UA 126 (General Chemistry II & Laboratory) or CHEM-UA 129 (Accelerated General Chemistry), PHYS-UA 11 (General Physics I) and PHYS-UA 12 (General Physics II), all with grades of C or better. MATH-UA 122 (Calculus II), CHEM-UA 140 (Mathematics of Chemistry), or equivalent is strongly recommended.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 661",
+    "title": "Physical Chemistry Laboratory",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 651 with a Minimum Grade of C OR CHEM-UA 652 with a Minimum Grade of C OR CHEM-SHU 651 with a Minimum Grade of C OR CHEM-SHU 652 ).",
+    "description": "Introduction to the principles and practices of experimental methods widely used in analytical and research laboratories. Emphasizes understanding of background physicochemical theory as well as capabilities and limitations of methods and interpretations of data. Covers instrumental methods, such as UV/visible spectroscopy, FT-IR, NMR, and fluorescence, for the systematic characterization of compounds and the use of interfaced computers for data collection and spreadsheet analysis. Studies also include an introduction to computer modeling of molecular properties. Optional experiments include fluorescence studies of protein denaturation and laser studies of excited state kinetics.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 662",
+    "title": "Analytical Chemistry Lecture and Laboratory",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 126 with a Minimum Grade of C OR CHEM-UA 128 OR CHEM-UA 129 with a Minimum Grade of C) AND MATH-UA 121 with a Minimum Grade of C.",
+    "description": "Formerly Experimental Methods II. This course provides instruction in the use of instruments that are central to modern chemical analyses. The principles that underlie the measurements and the corresponding instrument function are presented. Criteria for the selection of particular instrumental methods are described and the advantages and limitations of specific methods are discussed. The laboratory component of the course provides the opportunity for students to familiarize themselves with a variety of instrumental methods that they will encounter in the laboratory as undergraduates, and later in the work environment or advanced study programs. Lecture and Lab, 4 credits. Prerequisites: General Chemistry II and Laboratory ( CHEM-UA 126 ) and Calculus I ( MATH-UA 121 ) or equivalent, both with a grade of C or better. Recommended corequisite: either Physical Chemistry: Quantum Mechanics and Spectroscopy ( CHEM-UA 651 ) or Physical Chemistry: Thermodynamics and Kinetics ( CHEM-UA 652 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 711",
+    "title": "Inorganic Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 226 OR CHEM-UA 228 OR CHEM-UA 9226 OR CHEM-UH 3010 ) AND ( CHEM-UA 651 OR CHEM-UA 652 ).",
+    "description": "Studies of methods in inorganic chemistry that make use of symmetry to describe bonding and spectra of inorganic compounds. Reactions and kinetics are also discussed for inorganic, organometallic, and bioinorganic compounds. Selected topics in main group chemistry are also included.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 752",
+    "title": "Computational Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Formerly Computational Nanotechnology. Provides students with a good basic knowledge of molecular modeling and a computational laboratory workbench for computer-based discovery research. The computer laboratory provides access to cutting-edge molecular modeling techniques and software and a hands-on research experience. From the course, the students would not only develop a practical understanding of computational methods (strengths, limitations, applicability), but also\ndevelop competence in applying these computational methods to molecular\nmodeling. Prerequisite: Organic Chemistry II and Laboratory ( CHEM-UA 226 ) or Majors Organic Chemistry II and Laboratory ( CHEM-UA 228 ). Corequisite or prerequisite: Physical Chemistry: Quantum Mechanics and Spectroscopy ( CHEM-UA 651 ) or Physical Chemistry: Thermodynamics and Kinetics ( CHEM-UA 652 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 828",
+    "title": "Structural DNA Nanotechnology",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 226 OR CHEM-UA 228 OR CHEM-UA 881 ).",
+    "description": "This is a course on a new field of research, which\n has been growing exponentially since the start of the twenty first century.\n The field deals primarily with the control of molecular structure on the\n nanometer scale through programming it by means of DNA secondary\n structures. The course will consist of a series of lectures by the\n instructor and then a series of presentations of recent papers in the\n field. A nascent textbook will be used as appropriate.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 830",
+    "title": "Special Topics in Advanced Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "CHEM-UA 226 AND MATH-UA 121 AND PHYS-UA 11 AND ( PHYS-UA 12 OR PHYS-UA 9011 ) AND PHYS-UA 9012 .",
+    "description": "Topics vary by instructor and term.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 850",
+    "title": "Special Topics in Biochemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "CHEM-UA 881 .",
+    "description": "Cellular Biochemistry will look specifically at the Biochemistry as it\nrelates to the cell biology of eukaryotic cells. This course will show the\nrelationship if eukaryotic cell compartmentation (organelles) and how this\nplays a vital role in the control and regulation of the biochemistry of the\ncell.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 860",
+    "title": "Special Topics in Physical Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 126 OR CHEM-UA 129 ) AND PHYS-UA 11 AND PHYS-UA 12 AND MATH-UA 121 .",
+    "description": "Topics may vary by semester. When the topic is Physical Chemistry for Life Science, the course is restricted to Biochemistry and GPH/Chemistry majors only. This course does not satisfy an advanced chemistry elective.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 868",
+    "title": "Chemical Biology",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "( CHEM-UA 226 OR CHEM-UA 228 with a Minimum Grade of C OR CHEM-SHU 126 ) AND ( CHEM-UA 881 with a Minimum Grade of C OR CHEM-UH 3020 OR CHEM-SHU 881 ).",
+    "description": "This interdisciplinary field of research seeks to understand and control\nbiological processes at the molecular and structural levels, with an\nemphasis on the development of chemical reagents and tools. Emphasizes the\nthought process involved in making new discoveries and the insights gained\nfrom these discoveries, and introduces physical organic principles and\nbiophysical spectroscopy methods as necessary. Highlights application of\nsynthetic organic chemistry to develop ligands and inhibitors that regulate\nbiomolecular interactions (including DNA-protein, RNA-protein, and\nprotein-protein interactions) as potential therapeutics.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 881",
+    "title": "Biochemistry I",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "CHEM-UA 226 with a Minimum Grade of C OR CHEM-UA 228 OR ( CHEM-UA 9226 AND CHEM-UA 9226 ) OR CHEM-UH 3010 OR CHEM-SHU 226 OR CM-UY 2223 .",
+    "description": "Introduction to the chemistry of living cells. Topics include structure and function of proteins, lipids, carbohydrates, and nucleic acids; enzyme structure, mechanism and regulation of enzyme activity, and membrane structure and transport; and mechanisms of cellular processes and cellular physiology, including ion channels and pumps, cell motility, and the immune response. The second term emphasizes analysis of basic metabolic pathways, including glycolysis, electron transport, and oxidative phosphorylation, as well as mechanisms of metabolic regulation and integration.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 882",
+    "title": "Biochemistry II",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Continuation of Biochemistry I ( CHEM-UA 881 ), which serves as the prerequisite to this course. Introduction to the chemistry of living cells. Structure and function of proteins, lipids, carbohydrates, and nucleic acids; enzyme structure, mechanism, and regulation of enzyme activity; membrane structure and transport; and mechanisms of cellular processes and cellular physiology, including ion channels and pumps, cell motility, and the immune response. The second term emphasizes analysis of basic metabolic pathways, including glycolysis, electron transport, and oxidative phosphorylation, as well as mechanisms of metabolic regulation and integration.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 885",
+    "title": "Experimental Biochem & Laboratory",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "CHEM-UA 881 with a Minimum Grade of C.",
+    "description": "Introduction to molecular analysis of biomolecules. Selected experiments and instruction in analytical techniques used in biochemical research, including chromatography, spectrophotometry, and electrophoresis; isolation and characterization of selected biomolecules; kinetic analysis of enzymatic activity; analysis of protein-protein and protein-DNA interactions that direct basic biochemical pathways.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 890",
+    "title": "Advanced Biochemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course focuses on an interdisciplinary overview of physical and chemical principles and their applications to modern topics of biochemical, biomedical and biological interest. It emphasizes the basic principles of typical biophysical techniques that are used to study important macromolecules such as proteins and nucleic acids. Topics include molecular spectroscopic techniques such as light absorption, fluorescence techniques, optical activity, electrophoresis, and nuclear magnetic resonance. Applications from selected areas of biomedicine and biotechnology are described that include examples focused on biomolecular spectroscopy, single molecule spectroscopy and molecular beacons, DNA technology, and fluorescence and magnetic resonance imaging. Prerequisites and corequisites: Physical Chemistry: Quantum Mechanics and Spectroscopy ( CHEM-UA 651 ) and Physical Chemistry: Thermodynamics and Kinetics ( CHEM-UA 652 ) with grades of C or better (one must be taken as a prerequisite and the other can be taken as a corequisite).",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 911",
+    "title": "Advanced Organic Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "CHEM-UA 226 OR CHEM-UA 228 .",
+    "description": "This course focuses on structure and theory in organic chemistry with a particular emphasis on the application of stereoelectronic and conformational effects on reaction mechanisms, catalysis and molecular recognition.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 993",
+    "title": "Tutorial in Chemistry",
+    "department": "chem_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In consultation with the director of undergraduate studies, the student selects a faculty member to serve as a tutor for an in-depth exploration of a specific topic in chemistry. As compared with V25.0995, 0996, 0997, and 0998, described below, research is not a necessary component. Discussions with the faculty member take place weekly, and a paper at the end of the semester is required.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 995",
+    "title": "Senior Honors in Chem",
+    "department": "chem_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisites: permission of the department and one semester of Advanced Independent Study and Research ( CHEM-UA 997 or 998 ). Restricted to senior chemistry or biochemistry majors with a 3.65 both overall and in the courses required for the major. Required for candidates for the degree with honors. CHEM-UA 995 offered in the fall; CHEM-UA 996 offered in the spring. 2 to 4 credits per term.\nIn consultation with the director of undergraduate studies, the student chooses a faculty member to serve as adviser in an independent program of research in experimental or theoretical chemistry. The student selects an adviser in the spring of the junior year or earlier and undertakes the work that spring, the following summer, and into the senior year. Attendance and participation in a weekly class session is required in the fall. A written progress report, thesis draft, or oral presentation at the end of the fall semester of the senior year is required as specified by the instructor. In the spring, student progress on the senior thesis is guided by weekly meetings with the instructor. Research is completed during the spring term, and the student presents the work at the annual College of Arts and Science Undergraduate Research Conference near the end of the term. The research culminates in the writing of a senior thesis that must be approved by the adviser and the director of undergraduate studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 996",
+    "title": "Senior Honors Chemistry",
+    "department": "chem_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisites: permission of the department and one semester of Advanced Independent Study and Research ( CHEM-UA 997 or 998 ). Restricted to senior chemistry or biochemistry majors with a 3.65 both overall and in the courses required for the major. Required for candidates for the degree with honors. CHEM-UA 995 offered in the fall; CHEM-UA 996 offered in the spring. 2 to 4 credits per term.\nIn consultation with the director of undergraduate studies, the student chooses a faculty member to serve as adviser in an independent program of research in experimental or theoretical chemistry. The student selects an adviser in the spring of the junior year or earlier and undertakes the work that spring, the following summer, and into the senior year. Attendance and participation in a weekly class session is required in the fall. A written progress report, thesis draft, or oral presentation at the end of the fall semester of the senior year is required as specified by the instructor. In the spring, student progress on the senior thesis is guided by weekly meetings with the instructor. Research is completed during the spring term, and the student presents the work at the annual College of Arts and Science Undergraduate Research Conference near the end of the term. The research culminates in the writing of a senior thesis that must be approved by the adviser and the director of undergraduate studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 997",
+    "title": "Adv Independent Study & Research",
+    "department": "chem_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "The research adviser is selected in consultation with the Director of Undergraduate Studies. Individual study in a selected area tailored to the student's needs insofar as is possible. Independent Study and Research may be used for an internship provided it involves research. Training is provided in current research areas. Requires a written research report at the end of the semester. CHEM-UA 997 is offered in the fall; CHEM-UA 998 is offered in the spring.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 998",
+    "title": "Adv Independent Study & Research",
+    "department": "chem_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Individual study in a selected area tailored to the student\u2019s needs insofar as is possible. Independent Study and Research may be used for an internship provided it involves research. Training is provided in current research areas. Requires a written research report at the end of the semester. CHEM-UA 997 is offered in the fall; CHEM-UA 998 is offered in the spring.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  },
+  {
+    "course_code": "CHEM-UA 999",
+    "title": "Research/Internship",
+    "department": "chem_ua",
+    "credits": 0.0,
+    "prerequisites": "",
+    "description": "Credits: 0 or 1. Graded Pass/Fail. Requires permission of the department.",
+    "source_url": "https://bulletins.nyu.edu/courses/chem_ua/"
+  }
+]

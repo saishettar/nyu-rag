@@ -38,6 +38,15 @@ def _rows_to_dicts(rows) -> list[dict]:
     return [dict(zip(_COLUMNS, row)) for row in rows]
 
 
+def _normalize_for_title_match(text: str) -> str:
+    """Lowercase and fold '&' to 'and' so a title like 'Pidgin & Creole
+    Languages' still matches a query that spells it out ('pidgin and creole
+    languages') - found while adding Linguistics: that paraphrase fell
+    through to pure semantic search, which underperforms on rare vocabulary
+    crowded by 40+ other course titles in the same department."""
+    return re.sub(r"\s+", " ", text.lower().replace("&", " and ")).strip()
+
+
 def _match_referenced_codes(query: str, all_courses: list[tuple[str, str]]) -> set[str]:
     """Pure matching logic, separated from the DB fetch so it's unit-testable
     without a live Postgres connection: which course codes does `query`
@@ -49,9 +58,9 @@ def _match_referenced_codes(query: str, all_courses: list[tuple[str, str]]) -> s
         if code in known_codes
     }
 
-    query_lower = query.lower()
+    query_normalized = _normalize_for_title_match(query)
     for code, title in all_courses:
-        if len(title) >= _MIN_TITLE_MATCH_LEN and title.lower() in query_lower:
+        if len(title) >= _MIN_TITLE_MATCH_LEN and _normalize_for_title_match(title) in query_normalized:
             referenced.add(code)
 
     return referenced

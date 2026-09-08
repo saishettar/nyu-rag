@@ -1,0 +1,20 @@
+[
+  {
+    "course_code": "PUBPL-UA 800",
+    "title": "Senior Seminar",
+    "department": "pubpl_ua",
+    "credits": 4.0,
+    "prerequisites": "UPADM-GP 101 OR UPADM-GP 9101 AND UPADM-GP 111 OR ECON-UA 18 OR BIOL-UA 42 or ENVST-UA 310 or POL-UA 850 or PSYCH-UA 10 or SOC-UA 302 or UGPH-GU 20 AND UPADM-GP 140 Restriction: (Academic Plan = Public Policy).",
+    "description": "The Senior Seminar will serve as a capstone experience for all public\npolicy majors in their senior year.  Students will apply the analytical\nmethods and substantive knowledge of the policy process they have gained to\na current policy problem of their choosing.  Each student will write a\nsenior seminar paper that consists of both policy analysis and\nrecommendations for action.  The seminar itself will provide structured\nguidance and supervision on the preparation and execution of a piece of\npolicy analysis.  Opportunities to engage with real-world producers and\nclients of policy analysis will be structured into the seminar.\nInstructors for the seminar will include faculty at both Wagner and CAS.",
+    "source_url": "https://bulletins.nyu.edu/courses/pubpl_ua/"
+  },
+  {
+    "course_code": "PUBPL-UA 801",
+    "title": "Honor Thesis",
+    "department": "pubpl_ua",
+    "credits": 4.0,
+    "prerequisites": "PUBPL - UA 800.",
+    "description": "The Honors Seminar of the Public Policy Program is designed to assist honors students in researching and writing the honors thesis, a thirty-page original piece of work that proposes a new policy to manage or solve a public problem, explains the historical background to the policy problem, and provides a real-world strategy for implementing the proposal. The Seminar begins with group discussions and one group project to hone questions and research strategies for the thesis. With the assistance of the instructor, the students then design their own individual research projects. For the remainder of the seminar the students meet one-on-one with the instructor or present their findings to the group. The course ends with a short thesis defense and the submission of the thesis. Students must earn at least a B+ in the seminar to achieve honors.",
+    "source_url": "https://bulletins.nyu.edu/courses/pubpl_ua/"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "course_code": "URBS-UA 101",
+    "title": "Social and Cultural Analysis 101",
+    "department": "urbs_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to SCA-UA 101 . Introduces theories, methods, and political trajectories central to the Department of Social and Cultural Analysis (SCA). Addresses how\nindividuals and populations structure their worlds and navigate the resulting social, cultural, and political terrain. It privileges scholarly work with an intersectional approach, drawing on theoretical insights from such fields as social geography, feminism and queer studies, ethnic studies, urban and metropolitan studies, critical race theory, labor studies, and cultural studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/urbs_ua/"
+  },
+  {
+    "course_code": "URBS-UA 102",
+    "title": "The City",
+    "department": "urbs_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Required for the majors in Urban Studies and Anthropology; Urban Studies and History; Urban Studies and Social and Cultural Analysis; and Urban Studies and Sociology. A broad and interdisciplinary introduction to the field of urban studies,\nsurveying the major approaches deployed to investigate the urban experience\nin the social space of the modern city. Explores the historical geography\nof capitalist urbanization with attention to North American and European\ncities, to colonial and postcolonial cities, and to the global contexts of\nurban development. Major topics include urban politics and governance;\nsuburban and regional development; urban social movements; urban planning;\nthe gendering of urban space and racial segregation in urban space. Formerly titled Approaches to Metropolitan Studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/urbs_ua/"
+  },
+  {
+    "course_code": "URBS-UA 201",
+    "title": "Geographic Information Systems",
+    "department": "urbs_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to UPADM-GP 283 . Students must enroll in both the lecture and a\nlab section. Required for the majors in Urban Studies and Anthropology;\nUrban Studies and History; Urban Studies and Social and Cultural Analysis;\nand Urban Studies and Sociology. Understanding geographic relationships\nbetween people, land use, and resources is fundamental to planning. Urban\nplanners routinely use spatial analysis to inform decision-making. This\ncourse will introduce students to Geographic Information Systems (GIS), a\ntool to analyze and visualize spatial data. The course will emphasize the\ncore functions of GIS: map making, data management, and spatial analysis.\nStudents will learn cartographic best practices, how to find and create\nspatial data, spatial analysis methodology, and how to approach problem\nsolving from a geographic perspective. Throughout the course, students will\nbuild a portfolio of professional quality maps and data visualizations.",
+    "source_url": "https://bulletins.nyu.edu/courses/urbs_ua/"
+  },
+  {
+    "course_code": "URBS-UA 301",
+    "title": "Urban Lab",
+    "department": "urbs_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "At the core of Urban Studies is learning in action. The Urban Lab will provide students with both a critical learning experience through site visits, in-class\ndiscussion, meetings with key urban policy analysts, public officials, and\nnon-profit leaders. It will provide students with the opportunity to\nconduct policy-relevant research on urban themes. It seeks to provide\nstudents with skills that will help them when they seek post-graduation\nemployment. Over the course of a semester, students work to address\nchallenges and solve problems confronting cities today. Students will\nengage in readings and discussions about a key issue. Specific topics vary.",
+    "source_url": "https://bulletins.nyu.edu/courses/urbs_ua/"
+  }
+]

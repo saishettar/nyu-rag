@@ -21,7 +21,12 @@ USER_AGENT = "nyu-course-rag research project (contact: sai.r.shettar@gmail.com)
 # back CS prerequisites, Data Science shares faculty and cross-lists courses,
 # Economics is a common CS joint major/minor pairing, Philosophy backs CS
 # theory via Logic, Psychology overlaps Data Science's cognitive-science side,
-# Politics covers tech policy and data-driven political analysis).
+# Politics covers tech policy and data-driven political analysis, Neural
+# Science continues the cognitive-science overlap with Psychology, Chemistry
+# and Biology back computational chemistry/bioinformatics electives,
+# Linguistics backs Data Science's NLP courses, and Public Policy/Urban
+# Studies/Environmental Studies are the other data-driven quantitative
+# social-science majors alongside Economics and Politics).
 DEPARTMENTS = {
     "csci_ua": "https://bulletins.nyu.edu/courses/csci_ua/",
     "math_ua": "https://bulletins.nyu.edu/courses/math_ua/",
@@ -31,6 +36,13 @@ DEPARTMENTS = {
     "phil_ua": "https://bulletins.nyu.edu/courses/phil_ua/",
     "psych_ua": "https://bulletins.nyu.edu/courses/psych_ua/",
     "pol_ua": "https://bulletins.nyu.edu/courses/pol_ua/",
+    "neurl_ua": "https://bulletins.nyu.edu/courses/neurl_ua/",
+    "chem_ua": "https://bulletins.nyu.edu/courses/chem_ua/",
+    "biol_ua": "https://bulletins.nyu.edu/courses/biol_ua/",
+    "ling_ua": "https://bulletins.nyu.edu/courses/ling_ua/",
+    "pubpl_ua": "https://bulletins.nyu.edu/courses/pubpl_ua/",
+    "urbs_ua": "https://bulletins.nyu.edu/courses/urbs_ua/",
+    "envst_ua": "https://bulletins.nyu.edu/courses/envst_ua/",
 }
 
 

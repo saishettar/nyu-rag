@@ -1,0 +1,371 @@
+[
+  {
+    "course_code": "LING-UA 1",
+    "title": "Language",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Language is a social phenomenon, but languages share elaborate and specific structural properties. Speech communities exist, exhibit variation, and change within the strict confines of universal grammar, part of our biological endowment. Universal grammar is discovered through the careful study of the structures of individual languages, by cross-linguistic investigations, and the investigation of the brain. Introduces fundamental properties of the sound system and of the structure and interpretation of words and sentences against this larger context. Not open to students who have completed LING-UA 3 .",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 2",
+    "title": "The Linguistics of Names",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is a general introduction to linguistic analysis through the study of personal, product, and place names. Throughout the course, we will use linguistic data to assess whether names constitute a special component of language, or whether they behave linguistically like non-name words. Topics include trends in naming and the diffusion of linguistic innovations, the phonological processes involved in nickname formation, sound symbolism, place names and their connection to settlement history, sociodemographic correlates of name choice, and names and the mind/brain. Students will gain hands-on experience working with linguistic data by analyzing patterns in names.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 3",
+    "title": "Language and Mind",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces the field of cognitive science through an examination of language behavior. Begins with interactive discussions of how best to characterize and study the mind. These principles are then illustrated through an examination of research and theories related to language representation and use. Draws from research in both formal linguistics and psycholinguistics. Not open to students who have completed LING-UA 1 .",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 4",
+    "title": "Meaning",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the scientific study of meaning. How can we model our intuitive knowledge of meaning in a way that does not merely translate words into other words? In particular, how exactly does the meaning of a complex expression depend on the meanings of its parts? For instance, what is the meaning of a question? The emphasis will be on building basic theoretical tools, concepts, and techniques that will allow us to analyze a variety of beautiful and intricate patterns of meaning in natural language. Formerly Introduction to Semantics.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 5",
+    "title": "Intro Psycholinguistics",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 1 or LING-UA 3 .",
+    "description": "Psycholinguistics aims to understand the mental processes that underlie both the representation and acquisition of language. Topics include language acquisition, speech perception, lexical representation and access, sentence production, and the relationship between phonology and orthography. Identical to PSYCH-UA 56 .",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 6",
+    "title": "Patterns in Language",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Can machines think? Do patterns in online searches predict the spread of the flu? Did Shakespeare really write that sonnet? Scientists use patterns in language to answer these questions, using the same concepts that underlie search engines, automatic translators, speech recognition, spell-checkers, and auto-correction tools. Focuses on the technological and linguistic ideas behind these applications and offers hands-on experience and insight into how they work. No programming experience required.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 8",
+    "title": "Language, Power, and Identity",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores how identity is a process of \u201cbecoming\u201d rather than a mode of \u201cbeing\" by examining how speakers enact their gender, sexuality, race, ethnicity, nationality, religion, and socioeconomic class through everyday conversations, narratives, performances, literacy activities, and public debates. Also explores the moral and political consequences of people's identification strategies by examining how their beliefs about language reinforce or contest normative power structures. Readings on the relationship between bilingual education and accent discrimination, multilingualism and youth counterculture, migration and code-switching, media and religious publics, linguistic nationalism and xenophobia, and literacy and neo/liberalism in different areas of the world. Identical to ANTH-UA 106 .",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 9",
+    "title": "Indigenous Languages of the Americas",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Focuses on phonology and phonetics (i.e., sound structure), but also addresses the structure of words and phrases. Topics: bilingualism, language contact, language loss, indigenous language education, literacy, orthography, and language policy. Emphasis on the Quechuan languages of the Andes in South America, spoken in Ecuador, Peru, and Bolivia.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 10",
+    "title": "Structure of The Russian Language",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 13 .",
+    "description": "An introduction to the morphosyntax of Russian. Students learn how to analyze the underlying structures of this language by using formal tools in syntactic theory. The core areas of Russian grammar: case, aspect, argument structure alternations, topic/ focus structure, negation, binding, control, and wh-movement. No knowledge of Russian required.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 11",
+    "title": "Sounds of the World\u2019s Languages",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The human vocal tract is capable of producing hundreds of distinct sounds used in languages across the world. In this course, we explore the anatomy and acoustics of speech to understand how we produce and perceive the sounds of language. The class will also introduce other aspects of phonetics, such as the International Phonetic Alphabet, the relationship between spelling and sound, and sociophonetics. Formerly Sound and Language.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 12",
+    "title": "Phonological Analysis",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 11 .",
+    "description": "How languages organize sounds into highly constrained systems. Topics: What do the sound systems of all languages have in common? How can they differ from each other? What is the nature of phonological processes, and why do they occur?",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 13",
+    "title": "Grammatical Analysis",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 1 OR LING-UA 3 .",
+    "description": "What determines the sequencing of words in a given language? How can we explain word-order variation within and across languages? Are there universal syntactic properties common to the grammar of all languages? Presents the modern generative approach to the scientific study of language and systematically develops a model that will account for the most basic syntactic constructions of natural language.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 14",
+    "title": "Language Change",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The methods of genealogical classification and subgrouping of languages. Examines patterns of replacement in phonology, morphology, and syntax. Focuses on internal and comparative phonological, morphological, and syntactic reconstruction. Considers phonological developments such as Grimm\u2019s, Grassmann\u2019s, and Verner\u2019s Laws.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 15",
+    "title": "Language & Society",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course investigates the ways in which language reflects and creates the social order. We\u2019ll study how variation in language relates to social factors like gender, age, social class, and ethnicity, and we\u2019ll explore the social contexts under which languages are born, die, and change. The course will feature hands-on research, allowing you to collect and analyze data on how people use language in real life.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 16",
+    "title": "Grammatical Analysis II",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 13 .",
+    "description": "Introduces primary literature in syntactic theory and leads to an independent research project. Topics vary: binding theory, control, case theory, constraints on movement, antisymmetry, argument structure and applicatives, ellipsis, derivation by phase, etc.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 18",
+    "title": "Bilingualism",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers social forces that favor or inhibit bilingualism, as well as the educational consequences of bilingual education (and of monolingual education for bilingual children). Examines the impact of bilingualism on the languages involved. Special attention to code switching, with particular reference to its psycholinguistic and sociolinguistic aspects.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 19",
+    "title": "Advanced Semantics",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 4 .",
+    "description": "Builds a solid command of predicate logic and elements of the lambda calculus. Introduces the principles of compositional model theoretic semantics. Analyzes constituent order and a set of specific phenomena, possibly varying from year to year.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 21",
+    "title": "Sex, Gender, & Language",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "How linguistic practices reflect and shape our gender identity. Do women and men talk differently? Are these differences universal or variable across cultures? How does gendered language intersect with race and class-linked language? What impact does gendered language have on social power relationships?",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 23",
+    "title": "African American Vernacular English",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "African American Vernacular English in terms of its linguistic and cultural distinctiveness, both intrasystemically and compared to other dialects of American English. Relates the English vernacular spoken by African Americans in urban settings to creole languages. The history of its expressive uses, and the educational, attitudinal, and social implications connected with the language.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 27",
+    "title": "Grammatical Diversity",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 13 .",
+    "description": "Introduces the syntax of languages quite different from English, from various parts of the world. Considers what they may have in common with English and with each other and how to characterize the ways in which they differ from English and from each other.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 29",
+    "title": "Morphology",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "( LING-UA 1 OR LING-UA 3 ).",
+    "description": "Introduces rules for composing words and sentences from the smallest units\nof linguistic combination (morphemes). Why can the same message be\nexpressed in one word in some languages but require an entire sentence in\nothers? Why do the shapes of prefixes, suffixes, and roots change depending\non their semantic and phonological context? What rules do different\nlanguages use for forming new words?",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 30",
+    "title": "Language in Latin America",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explore how identity, power and society are reflected in language through the rich backdrop of Latin America, where hundreds of indigenous and Creole languages are spoken alongside the colonial languages of Spanish, Portuguese and French. The analysis of linguistic structure provides a window into dialect variation (how you can tell where someone is from just by hearing them talk) that emerges from distinctive historical and political contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 37",
+    "title": "The Syntax/Semantics Interface Cross-linguistically",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 4 AND LING-UA 13 .",
+    "description": "In many languages of the world, the topic and the focus of the sentence,\nthe scope relations among quantifiers and negation, and the role of the\nspeaker and addressee are made transparent by word order and various\nsuffixes on the verb. Studies data from languages from Hungarian to\nKathmandu Newari from the perspective of theoretical linguistics and asks\nwhat they tell us about how the syntax/semantics interface works in\nuniversal grammar.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 38",
+    "title": "Pidgin & Creole Languages",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Addresses three questions: (1) how pidgins/creoles (P/Cs) come into being, (2) why P/Cs have the properties they do, and (3) why P/Cs\u2014regardless of the circumstances of their genesis\u2014share so many features. Examines P/Cs vis-a-vis other types of languages.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 42",
+    "title": "Romance Syntax",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 13 .",
+    "description": "Introduces the syntax of Romance languages, primarily French, Italian, and Spanish, but also various Romance dialects. Considers what they have in common with each other (and with English) and how best to characterize the ways in which they differ from each other (and from English).",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 43",
+    "title": "Neural Bases of Language",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "PSYCH-UA 25 OR PSYCH-UA 29 OR LING-UA 1 OR LING-UA 3 .",
+    "description": "A state-of-the-art survey of the cognitive neuroscience of language, a rapidly developing multidisciplinary field at the intersection of linguistics, psycholinguistics, and neuroscience. Covers all aspects of language processing in the healthy brain, from early sensory perception to sentence-level semantic interpretation, as well as a range of neurological and development language disorders.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 44",
+    "title": "Field Methods",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 11 AND LING-UA 13 .",
+    "description": "Students interview a native speaker of an unfamiliar language to study all aspects of the language\u2019s grammar: phonetics, phonology, morphology, syntax, semantics. We evaluate and organize real, nonidealized linguistic data and formulate generalizations that serve as the basis for research.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 48",
+    "title": "Linguistics as Cognitive Science",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Approaches from linguistics, philosophy, and psychology. Topics: the evidence for constructing grammars, the interpretation of grammatical rules as cognitive or neural operations, the significance of neo-behaviorist approaches to language and computational modeling for a cognitive theory of language, the connection between linguistics theory and genetics, and the importance of sociocultural and historical variation for understanding the nature of language.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 52",
+    "title": "Machine Learning for Language Understanding",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "( CSCI-UA 2 OR CSCI-UA 3 OR CSCI-UA 101 ) AND MATH-UA 121 AND ( ECON-UA 18 OR ECON-UA 20 OR MATH-UA 333 OR MATH-UA 334 OR MATH-UA 185 OR MATH-UA 338 ).",
+    "description": "This course covers widely-used machine learning methods for language understanding\u2014with a special focus on machine learning methods based on artificial neural networks\u2014and culminates in a substantial final project in which students write an original research paper in AI or computational linguistics. If you take this class, you\u2019ll be exposed only to a fraction of the many approaches that researchers have used to teach language to computers. However, you\u2019ll get training and practice with all the research skills that you\u2019ll need to explore the field further on your own. This includes not only the skills to design and build computational models, but also to design experiments to test those models, to write and present your results, and to read and evaluate results from the scientific literature.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 54",
+    "title": "Learning to Speak: First and Second Lang Acquisition of Sound",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "( LING-UA 11 OR LING-UA 12 ).",
+    "description": "We discuss scientific data from both first- and second-language acquisition of sound systems to understand how they differ, and how humans learn language both in infancy and adulthood. Presupposes an introduction to phonetics, phonology, and/or psycholinguistics.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 55",
+    "title": "Intro to Morphology at An Advanced Level",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "LING-UA 12 AND LING-UA 13 .",
+    "description": "The building blocks of words and sentences: the atomic units of word structure, their hierarchical and linear arrangement, and their phonological realization(s). An introduction to fundamental issues including allomorphy, morpheme order, paradigm structure, blocking, and cyclicity. Interactions of morphology with syntax, phonology, semantics, and variation.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 57",
+    "title": "English Dialects",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Regional dialects of English in the United States and abroad. Dialect variation is studied on many linguistic levels, from word choice to the pronunciation of vowels to the construction of sentences. Topics include the fundamentals of dialectology, the historical development of regional dialects, mechanisms of language change, and social evaluation of dialects. Connections are made to techniques of quantitative data analysis, practical applications of dialectology, and the importance of dialect data for the development of (socio)linguistic theory.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 59",
+    "title": "Child Language Acquisition",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "( LING-UA 1 OR LING-UA 3 ) AND have not taken:.",
+    "description": "How do children acquire language so quickly and reliably? This course examines linguistic development from infancy through early childhood, drawing on monolingual, bilingual, and atypical populations. Topics include the development of sounds, words, grammar, meaning, and language use, in a variety of spoken and signed languages, as well as contemporary theories and debates in language acquisition based on primary research.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 60",
+    "title": "Structure of Korean",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 259 .",
+    "description": "Covers the various aspects of the Korean language, focusing on\nits uniqueness in light of general linguistics. The course begins with a\nbrief introduction to the language structure in general and proceeds to\nmore extensive overviews of the Korean language in the following areas:\ngenetic affiliation, historical development, lexicon, writing system, sound\npatterns, word structure, and sentence structure. The primary objective of\nthe course is to gain a general understanding of the Korean language and to\nbe able to analyze some of the linguistic phenomena that are unique to the\nKorean language.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 61",
+    "title": "Human Sentence Processing",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "How do we understand and produce sentences in a language we speak? How do we acquire the knowledge that underlies this ability? Psycholinguistics seeks to address these questions using quantitative measurements drawn from sources such as corpora or human experiments, as well as using computational simulations implementing cognitive models. This class is an introduction to the methods and questions studied in experimental linguistics, with a focus on the mechanisms that underlie language comprehension by adult speakers, at the word level and above (syntax, semantics and pragmatics). Formerly titled Experimental Syntax and Semantics.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 62",
+    "title": "Language, Power, and Technology",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "All technology involves language in some way. Whether it\u2019s for processing human language or a coding language developed to write functions that a computer can process. Whether it\u2019s language output from a Generative AI model or the labels assigned to the data to train image recognition software. It all involves language. And with each step comes the social biases that get passed on through language, biases about languages or language varieties, and even the biases embedded in the language we use. In this course, we will develop a way of critically engaging with technology and bias in pursuit of fair and responsible technology. We ask, how is\ntechnology talked about? Who influences that? Whose language does technology work better or worse for? What impacts does that have? How is technology developed? And how might different social and language systems in that development lead to different impacts?",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 102",
+    "title": "Research Seminar",
+    "department": "ling_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester. Requires permission of the instructor. May be taken up to four times (16 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 980",
+    "title": "Internship",
+    "department": "ling_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "981 Prerequisite: permission of the director of undergraduate studies. In the term prior to the internship, the student must present a written description of the proposed internship that clearly indicates the linguistic content of the project. 1 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 981",
+    "title": "Internship",
+    "department": "ling_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "981 Prerequisite: permission of the director of undergraduate studies. In the term prior to the internship, the student must present a written description of the proposed internship that clearly indicates the linguistic content of the project. 1 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 997",
+    "title": "Independent Study",
+    "department": "ling_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of director of undergraduate studies. 1 to 4 points each term.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  },
+  {
+    "course_code": "LING-UA 998",
+    "title": "Independent Study",
+    "department": "ling_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the director of undergraduate studies. 1 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/ling_ua/"
+  }
+]

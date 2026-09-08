@@ -46,6 +46,16 @@ class TestMatchReferencedCodes:
         )
         assert result == {"MATH-UA 121", "CSCI-UA 102"}
 
+    def test_matches_title_when_query_spells_out_ampersand(self):
+        # Found while adding Linguistics: "Pidgin & Creole Languages" wasn't
+        # matched by "pidgin and creole languages", so the query fell
+        # through to pure semantic search and missed the course entirely
+        # among 40+ other Linguistics titles.
+        all_courses = [("LING-UA 38", "Pidgin & Creole Languages")]
+        assert _match_referenced_codes(
+            "is there a course on pidgin and creole languages?", all_courses
+        ) == {"LING-UA 38"}
+
 
 class TestCombine:
     def test_self_matches_are_always_first(self):

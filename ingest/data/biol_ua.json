@@ -1,0 +1,659 @@
+[
+  {
+    "course_code": "BIOL-UA 3",
+    "title": "Human Reproduction & Development",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to human reproductive anatomy, physiology and endocrinology, conception, pregnancy and development of the human embryo, childbirth, and principles of human heredity. Related topics are contraception and sexually transmitted diseases.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 4",
+    "title": "Human Physiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Investigation into how the human body functions. Overview of cellular structure and function is followed by an in-depth study of the nervous, endocrine, cardiovascular, and other organ systems.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 7",
+    "title": "Practical Human Physiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course is geared toward the beginning health professional students. This physiology course will focus on how the human body works. Anatomy will also be discussed as the various physiological mechanisms are only possible due to its close interrelationship. Students will be introduced to both clinical and research methodologies and will be able to apply this knowledge in a laboratory setting.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 10",
+    "title": "Essential Molecular Biology: Dissecting The Cellular Machinery,",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is for those who have ever wondered how the \u201cmolecules of life\u201d (e.g. DNA, RNA, and proteins) work together to make complex organisms. Through a series of interactive lectures and discussions, we will look at what the molecules of life are, how they interact with each other, and what happens when things go wrong. Additionally, we will explore how we know what we know in molecular biology, including a discussion of the experiments that led us to\nthese discoveries, the questions that remain unanswered, and the cutting-edge technologies that are key to bridging gaps in our understanding of the molecular components of life. By the end of the course, we hope students will be able to approach science news articles and molecular biology in popular culture with a new appreciation.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 11",
+    "title": "Principles of Biology I",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introductory course mainly for science majors, designed to acquaint the student with the fundamental principles and processes of biological systems. Subjects include the basics of chemistry pertinent to biology, biochemistry and cell biology, genetics and molecular biology, anatomy and physiology, neurobiology, ecology, population genetics, and history and classification of life forms and evolution. Laboratory exercises illustrate the basics of experimental biology, molecular biology, biochemistry, and genetics, as well as the diversity of life forms and organ systems.\nNo prerequisite or corequisite, although potential biology and neural\nscience majors are expected, as first-year students, to concurrently take\nthe CHEM-UA 125 and CHEM-UA 126 sequence. Biology majors are not required\nto register for the 1-credit Principles of Biology Lab ( BIOL-UA 123 ); it is\nintended for prehealth students not majoring in Biology.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 12",
+    "title": "Principles of Biology II",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 11 with a Minimum Grade of C OR BIOL-UA 9011 with a Minimum Grade of C OR BMS-UY 1003 ).",
+    "description": "Continuation of Principles of Biology I ( BIOL-UA 11 ), which serves as prerequisite for this course.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 16",
+    "title": "Ecological Field Methods",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 12 OR BIOL-UA 9012 OR BMS-UY 2003 .",
+    "description": "Prerequisite: Fundamentals of Ecology (BIOL UA-63) (may be taken concurrently). Students learn the skills needed to design and implement field experiments, interpret data and present ecological research. While investigating real habitats (forests, salt marshes, urban landscapes), students perform biological surveys and measure abiotic parameters. Ecological techniques are nested within questions in biodiversity and community structure, invasion biology, urban ecology, habitat alteration and climate change. During approximately half of the lectures, class meets at off-campus field sites. Students should not schedule meetings or classes either directly before or after class time.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 21",
+    "title": "Molecular and Cell Biology I",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 with a Minimum Grade of C OR BMS-UY 2003 ) AND ( CHEM-UA 126 OR CM-UY 1023 OR CM-UY 1013 ).",
+    "description": "In-depth study of cell biology, with an emphasis on the molecular aspects of cell function. Topics include protein structure and synthesis, gene expression and its regulation, cell replication, and specialized cell structure and function. The course provides an introduction to genomics and bioinformatics and examines developmental biology, evolution, and systems biology.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 22",
+    "title": "Molecular and Cell Biology II",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 OR BIOL-SHU 21 with a Minimum Grade of C.",
+    "description": "Continuation of Molecular and Cell Biology I ( BIOL-UA 21 ), which serves as prerequisite for this course.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 23",
+    "title": "Vertebrate Anatomy",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C.",
+    "description": "Study of the evolutionary development of backboned animals, with emphasis on the mammals. Treats the major organ systems of vertebrate groups, with stress on structural-functional interpretations. Laboratory work includes detailed dissection of representative vertebrates. Field trips to the American Museum of Natural History help illustrate some of the topics.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 25",
+    "title": "Physiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 21 with a Minimum Grade of C AND BIOL-UA 22 ) OR ( BIOL-SHU 21 AND BIOL-SHU 22 ).",
+    "description": "A comparative course that encompasses vertebrate and invertebrate physiology. Extensive discussion of the anatomy and physiology of the human cardiovascular system, the human lung, the human kidney, and the human brain. There is a focus on the physiological integration of organ systems, underlying cellular/molecular mechanisms, and adaptation. Ventilation, organism scale and environment, blood, the cardiovascular system, acid-base regulation, osmoregulation, feeding, digestion and absorption, the nervous system and behavior, muscle, endocrine function, and reproduction are studied. Special topics include human physiology in extreme environments (high-altitude and diving), a detailed analysis of mammalian vision, animal sleep and hibernation, and the comparative physiology of animals that live at deep-sea hydrothermal vents. The laboratory includes traditional physiology experiments, as well as an introduction to bioinformatics.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 26",
+    "title": "Developmental Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C AND BIOL-UA 22 with a Minimum Grade of C.",
+    "description": "Introduction to the principles and experimental strategies of developmental biology. Covers the cellular and molecular basis for pattern in the embryo; the determination of cell fate; cell differentiation; the genes controlling these events; how they are identified and studied; and the cellular proteins that affect shape, movement, and signaling between cells. Special emphasis on the experimental basis for our knowledge of these subjects from studies in fruit flies, nematodes, frogs, plants, and mice.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 27",
+    "title": "ATB: Experimental Physiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C AND BIOL-UA 22 with a Minimum Grade of C AND BIOL-UA 25 .",
+    "description": "This advanced level course introduces an integrated approach of the experimental physiology at the level of molecular and cellular physiology; nervous and endocrine control of systems; and organ and body system. Through student-designed experiments, the course overviews the technical foundations of experimental design, critical data analysis, and modelling. Professional skills are enhanced via readings of current literature, preparation and presentation of a research talk, and writing a formal paper.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 30",
+    "title": "Genetics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 with a Minimum Grade of C  AND Corequisite: BIOL-UA 21 with a Minimum Grade of C) OR CHEM-UA 881 .",
+    "description": "An introductory course in genetics covering classical genetics, chromosome structure and mutation, gene function and regulation, and aspects of molecular and developmental genetics. Recent studies in human genetics and their applications are also discussed.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 31",
+    "title": "ATB: Genetics & Genomics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 AND Corequisite: BIOL-UA 30 .",
+    "description": "Covers genetic principles by means of a project-based laboratory. Students characterize mutants genetically and phenotypically. Analyses of dominance, linkage, recombination, dosage effects, and complementation are performed in the first part of the course. The second part of the course addresses genetic approaches made possible by the availability of complete genome sequences (genomics).Special note: Although the class is held at the listed hours (as described in the course registration bulletin), and attendance at the start of each class session is mandatory, the biological nature of the work may require some laboratory time outside the scheduled laboratory session.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 32",
+    "title": "Gene Structure and Function",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 OR BIOL-SHU 22 .",
+    "description": "Intermediate course in the molecular basis of gene action in viruses, prokaryotes, and eukaryotes. Covers topics drawn from the following areas or other current work: structure and organization of the genetic material, replication, repair, transcription, translation, recombination, oncogenesis, and regulation of gene expression.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 37",
+    "title": "ATB: Cell Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 OR BIOL-SHU 22 .",
+    "description": "Introduction to the methodology used to study cell structure and function. In the laboratory, students study the fundamentals of cell biology and the experimental approaches used to examine the cell. Experimental topics cover cellular, subcellular, and macromolecule localization; biochemical analysis of the cell; and cell culture techniques.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 42",
+    "title": "Biostatistics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 12 .",
+    "description": "Provides an introduction to the use of statistical methods for analyzing biological data. Introduces methods for describing and displaying data, the role and use of probability in describing and understanding living systems, hypothesis testing, and how to design experiments. Biological data and R\u2014a free, open-source statistical software package\u2014are used to gain proficiency with these tools.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 44",
+    "title": "Microbiology and Microbial Genomics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C OR BIOL-SHU 22 .",
+    "description": "Intended for majors and minors in biology as a comprehensive description of microbes, the most abundant and diverse organisms on the planet. Organized into four modules: the microbial cell, microbial genomics, microbial development and adaptation, and microbial interactions with the host and the environment. Through lectures and critical analysis of primary literature, students are led to realize how the advent of genomics has revolutionized microbiology, a scientific discipline that is more than a century old.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 45",
+    "title": "Biostatistics and Human Genetics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 12 Corequisite: BIOL-UA 21 .",
+    "description": "\"Deciphering the information encoded in the human genome is one of the greatest (and most exciting) challenges of the 21st century. This course will provide an introduction to studying and interpreting the human genome with a focus on the statistical methods required for its study. Fundamental concepts in human genetics will be introduced including inheritance of mendelian disease, population genetics, multifactorial disease and functional genomics. Accompanying each topic will be an introduction to the statistical concepts and tools that are required to study inheritance, genes and gene function. These include probability, hypothesis\ntesting, ANOVA, regression, correlation and likelihood. Hands on experience will be provided through weekly assignments using the statistical programming language, R. Prior experience with statistics and genetics is not required.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 50",
+    "title": "Immunology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 with a Minimum Grade of C OR BIOL-UH 2010 with a Minimum Grade of C OR BIOL-SHU 22 .",
+    "description": "Introduction to immunology, with attention to the genetics, molecular, and cell biology of antibody production; T-cell mediated immune responses; and innate immunity. Topics include the nature of antigens, hypersensitivities, transplantation, cytokines, autoimmunity, cancer, response to infection, and vaccines.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 58",
+    "title": "Evolution",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C OR BIOL-SHU 21 .",
+    "description": "Introductory course covering a broad range of topics in modern evolutionary thought and practice, including ecological context of evolutionary change, interpretation of the fossil record, patterns of extinctions, speciations and biogeographic distributions, genetic variation and population structure, natural selection and adaptations, reconstruction of evolutionary history and phylogeny, molecular evolution, evolutionary novelties and the evolution of developmental systems, and human evolution and social issues.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 63",
+    "title": "Fundamentals of Ecology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENVST-UA 100 OR BIOL-UA 11 OR BIOL-UA 12 ).",
+    "description": "Students investigate the relationship between abiotic and biotic components of an ecosystem. Building upon an introduction to environmental factors, students examine the interplay between these components at the organismal, population, community and ecosystem levels. Throughout the course, we discuss current ecological applications and issues, such as habitat destruction, sustainability, disease, invasive species, and global climate change. Intended for students majoring in biology (ecology track) and environmental studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 64",
+    "title": "Geographic Information Systems for Ecology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 OR BIOL-UA 9012 OR BIOL-SHU 21 OR BIOL-SHU 22 ) OR ENVST-UA 100 ).",
+    "description": "Geographic information systems (GIS) are computerized systems for the capture, storage, management, analysis, and display of geographically referenced data and their attributes. Emphasizes mastery of the basic principles and applications of GIS, including coordinate systems, data transformations, spatial analysis, and accuracy assessment. Laboratory exercises analyze ecological data and examples and provide extensive hands-on experience with ArcGIS, a professional GIS software package.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 66",
+    "title": "Biogeochemistry of Global Change",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 OR BIOL-UA 9012 OR ENVST-UA 100 OR ENVST-UA 370 ).",
+    "description": "Biogeochemistry is the study of biological controls on the chemistry of the environment and geochemical regulation of ecological structure and function. This course will introduce the fundamental principles of biogeochemistry. Additionally, we will utilize the scientific literature from peer-reviewed journals to explore specific case studies on the global change of biogeochemistry e.g., acid precipitation, nitrogen deposition, eutrophication of the oceans, etc.from the field of biogeochemistry.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 70",
+    "title": "ATB: Microbiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 21 AND BIOL-UA 44 ) OR BIOL-UA 50 OR ( BIOL-SHU 21 AND BIOL-SHU 22 ).",
+    "description": "In this course you will culture bacteria from soil and fermented food products. Bacteria will be isolated from these sources and identified using a variety of microbiological techniques. These include staining and using the microscope; culturing bacterial isolates under different growth conditions; subjecting the bacterial isolates to range of biochemical differential tests; and DNA sequence analysis of a gene from the isolates. The data obtained from microbiological techniques and comparison of DNA sequence with computer databases will be used to identify the unknown bacterial isolates. You will also test mutants of the bacteria Bacillus subtilis for the ability to form spores and culture bacteriophage. This course is designed to provide an investigative approach to learning many of the standard techniques of a microbiology lab.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 92",
+    "title": "The Science of Teaching",
+    "department": "biol_ua",
+    "credits": 1.0,
+    "prerequisites": "BIOL-UA 21 and BIOL-UA 22 or BIOL-UA 63 .",
+    "description": "This course is required for students participating as Peer Facilitators in the Principles of Biology lecture sequence. This course provides a strong introduction to effective teaching, including designing and implementing active learning exercises, incorporating technology in learning, creating explicit learning objectives, instilling belonging and inclusion in the classroom, and responding to potential conflict. The first half of each meeting is set aside to discuss the PoB tutorials with the Instructor of Record for PoB. The second half of the session will be a paper discussion about teaching more generally.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 100",
+    "title": "Intro to Neural Science",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 11 OR BIOL-SHU 21 .",
+    "description": "Introductory lecture course covering the fundamental principles of neuroscience. Topics include principles of brain organization, structure and ultrastructure of neurons, neurophysiology and biophysics of excitable cells, synaptic transmission, neurotransmitter systems and neurochemistry, neuropharmacology, neuroendocrine relations, molecular biology of neurons, development and plasticity of the brain, aging and diseases of the nervous system, organization of sensory and motor systems, structure and function of cerebral cortex, and modeling of neural systems.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 103",
+    "title": "Bioinformatics in Medicine and Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 AND BIOL-UA 21 ) OR ( BIOL-SHU 21 AND BIOL-SHU 22 ).",
+    "description": "Due to recent advancements in High Throughput Genomics technology we are able to study the function of many genes. We have the ability to compare genes in normal vs. diseased cells, to help us better understand the molecular mechanisms of the different diseases. In this course students will learn how to program in R, a powerful statistical programming language, use statistical methods to analyze real biomedical data, and learn how to interpret the results.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 123",
+    "title": "Principles of Biology Laboratory",
+    "department": "biol_ua",
+    "credits": 1.0,
+    "prerequisites": "BIOL-UA 11 AND Corequisite: BIOL-UA 12 .",
+    "description": "In  this  introductory  lab,  you will  be exposed to different  approaches  in  modern  biology.   Each may  introduce  a  model  system  or  a  field of  study.    This  lab can  help  frame  your  interests  and your  further  study  within the Biology  Department  at  NYU.   You\u2019ll  be  pushed to  study  living organisms  at  all  levels,  from  their  genes  and  molecules,  to  their  organismal  phenotypes,  to how  organisms  interact  in communities  and with  abiotic  factors.   Because  of  the  scope  of  the lab,  two  framing  principles  are  the  levels  of  organization  \u2013  from  the molecular  to the ecological  \u2013  and  the  techniques  used  to study  each level,  and  model  organisms  that  are  widely used  in research  labs  to  understand  particular  systems.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 124",
+    "title": "Fundamentals of Bioinformatics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "The course has a lecture and a recitation component. During the recitation the students will use popular software packages to analyze publicly available data from genome projects and high-throughput experiments. The course is divided into three sections: Genomics students will learn about different DNA-sequencing technologies and the challenges behind analyzing the sequences. Students will learn the concepts behind aligning sequences and predicting where genes reside in sequences. Structural Bioinformatics students will learn the concepts behind predicting RNA and protein structures. Functional Genomics students will learn about gene expression analysis and how it can be used to identify changes in genome structure and gene activity.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 130",
+    "title": "ATB: Epigenetics",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 21 AND CHEM-UA 225 ).",
+    "description": "This is an upper-level elective lab course for students majoring in Biology and those seeking to fulfill requirements for entrance into advanced degree programs. Using biochemical and genetic approaches with the yeast Saccharomyces cerevisiae, students will characterize a large multisubunit protein complex that modifies chromatin and is involved in gene regulation. S. cerevisiae is a unicellular eukaryote better known as baker\u2019s yeast that is a widely used biochemical and genetic model organism. Affinity chromatography will be used to produce purified preparations of wild-type and mutant protein complexes. The purified protein complexes will be compared using a wide variety of biochemical techniques, including Sypro Red-stained SDS-PAGE, western blot, enzymatic assay, and protein interaction assays. Yeast expressing the same mutants will be used in genetic experiments to evaluate the importance of the protein complex in cell growth and gene regulation in the cell.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 150",
+    "title": "ATB:Immunology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 AND BIOL-UA 50 .",
+    "description": "In this course students will learn the principles of immunology and neuroendocrinology. The course will cover immune cells and their role in innate and adaptive immune responses; the function, structure, types and development of antibodies and the mechanisms behind their effects; the mechanism of response to stress and the role of cortisol and the nervous system in this response. The laboratory experiments will focuson immunological methods employing antibodies, such as agglutination, immunodiffusion, immunocytochemistry, Western blotting and ELISA. Through designing and carrying out a research project to test a relationship between stress and the immune system, students will be introduced to the process of scientific research, will develop an understanding of how to collect and analyze the significance of data, and will gain the skills for reading, presenting and writing a scientific paper.\nMinor in",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 223",
+    "title": "Molecular and Cell Biology Laboratory",
+    "department": "biol_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "This laboratory course applies concepts learned in the Molecular and Cell Biology course ( BIOL-UA 21 ) to a molecular biology research project. The research project will introduce students to standard genetic and biochemical techniques common in a molecular biology lab, such as DNA isolation, agarose-gel electrophoresis, and transformation. The project also will provide students with a hands-on understanding of how modern DNA-sequencing technology, along with bioinformatic tools, can be used to discover genetic differences and understand cellular function.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 255",
+    "title": "Mathematics and Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 AND MATH-UA 121 .",
+    "description": "Intended primarily for students in the life sciences or prehealth with interest and ability in mathematics. Topics of medical importance using mathematics as a tool, including control of the heart, optimal principles in the lung, cell membranes, electrophysiology, countercurrent exchange in the kidney, acid-base balance, muscle, cardiac catheterization, and computer diagnosis. Material from the physical sciences is introduced as needed and developed within the course.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 256",
+    "title": "Computers in Medicine & Biolog",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 11 AND BIOL-UA 12 AND BIOL-UA 21 AND BIOL-UA 255 .",
+    "description": "Introduces students studying biology or mathematics to the use of computers as tools for modeling physiological phenomena. Each student constructs two computer models selected from the following list: circulation, gas exchange in the lung, control of cell volume, and the renal countercurrent mechanism, and then uses the model to conduct simulated physiological experiments.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 327",
+    "title": "NY Underground",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 OR ENVST-UA 100 ).",
+    "description": "Prerequisite: Principles of Biology II ( BIOL-UA 12 ) or Environmental Systems Science ( ENVST-UA 100 ). Investigates the life and resources underneath New York, with a focus on energy, transportation, and water (potable and waste). Concludes with the biotic components of New York\u2019s fascinating dendritic underground environment. Features hands-on data collection and field trips (including one all-day field trip).",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 390",
+    "title": "Urban Ecology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 63 OR ENVST-UA 325 ).",
+    "description": "We are currently living in a time where city residents outnumber rural residents. In addition, the projected expansion of human population growth is largely predicted to occur in urban areas. Urban Ecology is an interdisciplinary and emerging field of research focused on the consequences of urbanization on ecological processes. In addition to a physically transformed natural landscape, cities are unique from other systems in terms of hydrology, temperature, noise, air quality and many other abiotic factors. In this course we will investigate the consequences of urban constructs on ecological systems. We will discuss factors such as nutrient cycling, organismal behavior and phenology, disease, and the drivers and patterns of biodiversity in urban systems. We will also talk about green spaces, urban planning, and the future of these expanding manmade landscapes. A significant component of this course will involve discussion of current literature. This is an upper-level reasoning course designed primarily for students majoring in biology (ecology track) and environmental studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 444",
+    "title": "Microbiology and Microbial Physiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "Molecular and Cell Biology I.",
+    "description": "This course explores key concepts and recent advances in microbiology with a primary focus on bacteria and fungi. The course is organized into two modules: one on the microbial cell and one on microbial interactions. Topics include microbial cell structure, growth, and evolution as well as host-pathogen interactions. The course is a hybrid lecture and discussion course with a recitation. Students will be introduced to and discuss primary scientific literature related to the lecture material.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 500",
+    "title": "At the Bench: Disease Ecology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 63 OR ENVST-UA 325 OR BIOL-UA 21 ).",
+    "description": "This is an upper-level undergraduate course that will teach students about the environmental determinants of disease vectors, and the molecular techniques used to measure prevalence of a pathogen in these vectors. Students will partake in a semester-long research project on Lyme disease, the most prevalent vector-borne disease in the United States. The aim of the project is to determine the prevalence of Borrelia burgdorferi, the Lyme disease causative agent, in tick populations from selected New Jersey or New York forests. Students will collect ticks, bring them back to the lab and analyze them for the presence of the Borrelia burgdorferi bacteria. Then collected and analyzed data will be fed into epidemiological models to assess human risk of Lyme disease in the studied areas.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 501",
+    "title": "Disease, Drugs, and DNA Repair",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 .",
+    "description": "A discussion-based course that examines the extraordinary means that cells use to maintain the structural integrity of DNA and prevent changes to the molecular information contained within it. An emphasis on diseases like cancer, progeria, Huntington's disease, and others will form an important framework for understanding the critical need for DNA repair and genome maintenance.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 502",
+    "title": "Gene Expression in Health and Disease",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "Molecular and Cell Biology I.",
+    "description": "This course covers both the fundamentals and most recent advances in molecular biology. We will explore the logic and mechanics underlying the regulation of gene expression as well as pathogen defense strategies in organisms ranging from bacteria to humans. The course is structured as alternating lectures and research paper discussions. Students will be introduced to cutting-edge methods in molecular biology and how scientists apply new knowledge to develop therapies and drugs.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 522",
+    "title": "Epigenetics and Human Diseases",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Epigenetics is the study of heritable traits that are not induced by changes of DNA sequences. The purpose of this course is to help students understand the key concepts and principles in epigenetics, one of the most exciting frontiers in biology, and recent important progress in the field. The course will also explore the impact of epigenetics on human health and disease, and promote critical assessment of research through reading and discussion of primary research articles.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 525",
+    "title": "Genetic Circuits",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 AND MATH-UA 121 .",
+    "description": "In this discussion-based class we will build a bottom-up understanding of the architecture and function of genetic circuits by analyzing simple cases in bacterial cells. These will include genetic circuits that undergo oscillatory, switch-like, and excitatory dynamics. Our central strategy for understanding these genetic circuits will be to use computational techniques to model their dynamics and to compare our theoretical results to experimental data derived from primary scientific literature.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 530",
+    "title": "Cancer Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 .",
+    "description": "This course covers the fundamental mechanisms of cancer emergence and evolution. Cancer is a devastating disease with huge medical and economical implications. Since the US declared the \u201cWar on Cancer\u201d in 1971, the government has spent billions of dollars in research while patients all around the world spend similar sums in medical bills. These investments have led to significant discoveries and therapeutic improvements, but a definitive cure for cancer remains elusive. The course will cover some of the most important advances in cancer research, with a special emphasis on why basic research is critical to address the challenges posed by this disease. Students will gain a solid foundation on the fundamental molecular and cellular mechanisms behind tumor initiation, progression, and spreading. Students will also learn how tumors evolve and how this evolutionary process is largely responsible for the difficulties in eradicating cancer. The course finishes with discussion of how basic research has enabled novel therapeutic approaches that are bringing us a step closer to cure cancer.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 545",
+    "title": "Genome Engineering",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 22 OR BIOL-UA 9022 ).",
+    "description": "A discussion-based course on principles underlying current and future genetic engineering approaches, ranging from unicellular organisms to whole animals. Focuses on the development and invention of technologies for engineering biological systems at the genomic level, including high-throughput functional genomic screens, gene editing therapies and the ethical and social implications of new technologies.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 555",
+    "title": "Modern Methods in Protein Research",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 AND ( CHEM-UA 225 OR CHEM-UA 227 ).",
+    "description": "In this course students will be involved in a semester-long project studying the Outer surface protein C (OspC) from the Lyme disease bacterial pathogen Borrelia burgdorferi. Osp C is essential for the survival (infectivity) of the pathogen after its introduction into the skin of vertebrate hosts, including humans, via tick bite, but its molecular function remains unknown. Osp C is also one of the most variable proteins in Borrelia with more than 30 genetic variants throughout the bacterial population. However, the role of the different variants is not well understood. A key goal of the course is for students to gain hands-on research experience in\nmethods used in modern laboratories working with recombinant proteins.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 560",
+    "title": "Plant Science and Biotechnology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Plant biology is relevant to any scientist whose work requires an understanding of food security, climate change, genetic engineering, and drug discovery. This course focuses on the organismal and molecular biology of plants with an emphasis on subjects that have a direct impact on imminent societal challenges. For example, the extension of plant-microbe symbioses is the subject of a multi-million dollar Gates Foundation project to address climate change by lowering energy intensive nitrogen inputs. Other efforts seek the introduction of C4 photosynthesis to new crops in order to stabilize food production in the hot, dry climates that lie ahead. Plant secondary compounds and now plant-based antibody production are important tools in modern medicine. The course does not aim to debate these often-controversial approaches but rather to provide a scientific basis to understand them. The material will incorporate and reinforce concepts in genetics and molecular biology. The course will also emphasize development of rigorous scientific communication skills needed for careers in research and medicine rather than in-class testing. Writing assignments will include a personal essay of scientific interests and a scientific summary of primary research that will be developed\ninto a short research proposal and final presentation.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 573",
+    "title": "3D Genome Regulation",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 .",
+    "description": "A fundamental question in biology is how gene expression is regulated during development and differentiation. The way genes are expressed is intimately connected to ways in which the genome is organized in the 3D nucleus. Understanding 3D genome organization is now becoming possible thanks to chromosome conformation capture technologies combined with nucleic acid sequencing, proteomics, bioinformatics, advanced imaging, and molecular genetic techniques. These approaches are providing unprecedented insight into genetic and epigenetic mechanisms that regulate gene expression programs. Through an inquiry-based approach we will examine scientific discoveries and research publications on 3D genome regulation during development, differentiation, and disease.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 599",
+    "title": "Discovery to Health",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "Molecular and Cell Biology II.",
+    "description": "This undergraduate course explores recent advancements in biological treatments, including RNA-based technologies, antibodies, and peptides. Each week two primary research articles will be studied in detail, including the concepts and the techniques involving the molecular and cellular biology approaches that were used. Students will prepare and present the research articles. The students will learn how to read a primary research paper, understand and present research design and experimental methods. Evaluation methods include presentations, weekly quizzes, tests and a final paper. This course requires reading and understanding two primary\nresearch articles a week.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 700",
+    "title": "Evolutionary Zoology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 22 OR BIOL-UA 63 OR BIOL-UA 100 ).",
+    "description": "Animals are one of life\u2019s most successful lineages, occupying nearly every environment. This course provides an introduction to the diversity of animal form and function in the context of phylogeny and evolution, with a focus on the invertebrates, the majority of animals. Lectures will be devoted alternately to individual branches of the tree of animals and to common themes in the ways animals have evolved to fit and shape their environments. We will discuss morphology, physiology, reproduction, development, and ecology. We will discuss the unique genomic and molecular characteristics of each branch of animal life, with attention to the ways that nonmodel organisms can provide insights into core cellular and molecular processes, including cell-cell communication and biomineralization. We will also discuss the intersection of these animals with human interests, including economic zoology, ecosystem services, and medicine. In laboratory and field exercises, students will learn to collect and identify invertebrate animals and to form and test hypotheses about their attributes.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 726",
+    "title": "Global Change Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 11 and BIOL-UA 12 .",
+    "description": "This course introduces students to the emerging and exponentially growing field of global change biology. This interdisciplinary field incorporates ecological and evolutionary theory, genomics, anthropology, and social sciences to study how humans have impacted natural systems and the consequences for life on Earth. A major component of the course will be developing scientific research skills, which students will practice through writing micro-research proposals. Students will also learn from scientists working on different aspects of ecology and evolution discussed in the course through local field trips.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 800",
+    "title": "Topics: University Courses in Biology",
+    "department": "biol_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Open to undergraduate students in any NYU school or discipline (no prerequisites). Courses are seven weeks long, graded Pass/Fail, and designed for students who are eager to connect across fields and explore timely topics. The topics offered by the Department of Biology vary by semester. Students may take the course four times in total (1 credit each time) as specific topics change. Does not count toward any major or minor in Biology.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 902",
+    "title": "Topics",
+    "department": "biol_ua",
+    "credits": 0.0,
+    "prerequisites": "",
+    "description": "This course is reserved for the Undergraduate Peer Facilitators who lead tutorials in our Principles of Biology course. In SoT, the PFs reflect on their weekly teaching experiences and engage in discussions based on papers from pedagogical journals, exploring effective teaching and learning strategies. \nRecruitment for Peer Facilitators occurs in late November/early December, and again in late April/early May. \n   -",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 916",
+    "title": "Advanced Research",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 917",
+    "title": "Special topics: Reasoning for Ecology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 21 OR BIOL-UA 63 OR ENVST-UA 100 ).",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 920",
+    "title": "Spring Special Topics Course",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 .",
+    "description": "Special topics may vary from semester to semester, and can be broad in scope or focused on some aspect of biology. A detailed course description will be made available when topics are announced. This course satisfies the foundational upper-level elective requirement.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 922",
+    "title": "Spring Special Topics Course",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "First week of registration the Biology courses are reserved for Biology majors only. Prereq BIOL-UA 22 Microbiology and Microbial Physiology Scope: The course is intended as a comprehensive description of microbes with a primary focus on bacteria and fungi (although viruses and protists will also be discussed). Course topics include the structure and function of microbial cells, growth and cell division, signaling and stress response, microbial development, and microbial interactions with each other, the host and the environment. Format: The course is a lecture course with a recitation. During the recitation, students discuss articles related to the lecture material",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 923",
+    "title": "Special Topics: 3D Genome Regulation",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 .",
+    "description": "One of the most important questions in biology is understanding how gene expression is regulated during development and differentiation. The way genes are expressed is intimately connected to ways in which the genome is organized in the 3D nucleus. Understanding higher-order genome organization is now becoming possible thanks to chromosome conformation capture technologies in combination with DNA/RNA sequencing and proteomics, as well as more traditional molecular genetic, biochemical, and cell biological techniques. These integrated approaches are providing an unprecedented amount of information on genetic and epigenetic mechanisms that regulate gene expression programs. Through an inquiry-based approach we will examine some of the milestone scientific discoveries and latest research publications on 3D genome regulation during development, differentiation, and disease.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 924",
+    "title": "Spring Special Topics Course",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Special topics may vary from semester to semester, and can be broad in scope or focused on some aspect of biology. A detailed course description will be made available when topics are announced. This course satisfies the quantitative upper-level elective requirement.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 925",
+    "title": "Special Topics: Lab Skills",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 926",
+    "title": "Advanced Research:",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 932",
+    "title": "Special Topics:",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Special topics may vary from semester to semester, and can be broad in\nscope or focused on some aspect of biology. A detailed course description\nwill be made available when topics are announced. This course satisfies the reasoning upper-level elective requirement for those in the ecology-track.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 942",
+    "title": "Special Topics:",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Special topics may vary from semester to semester, and can be broad in\nscope or focused on some aspect of biology. A detailed course description\n will be made available when topics are announced. This course satisfies\n the reasoning upper-level elective requirement for those in the ecology-track.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 950",
+    "title": "Topics: Science in the World",
+    "department": "biol_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "For students engaged in paid or unpaid internships that are related to Biology but are not laboratory research positions. Restricted to students who cannot otherwise earn academic credit for non-research scientific placements. Typically requires 8 to 15 hours per week in fall or spring and up to 40 hours per week in the summer of meaningful, supervised work projects; no more than 25% of the work can be clerical or menial in nature. Facilitates a reflective and analytical approach to experiential learning. Students keep field journals and write papers that explore various aspects of their placement and related issues. Counts toward the total credits required for the baccalaureate degree but not toward any major or minor program. IMPORTANT: F-1 and J-1 international students must consult with the Office of Global Services (381 Lafayette Street; 212-998-4720) before registering. Requires permission from the department to enroll. Cannot be repeated for credit.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 954",
+    "title": "Advanced Research in Microbiology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 22 .",
+    "description": "In this course, students will investigate the functional and structural\nproperties of bacterial spores, which are among the most resistant\norganisms on Earth. The spore-forming bacterium Bacillus subtilis is\nreadily amenable to genetic manipulation and is a well-established model\nsystem for molecular and cellular biology. Students will get the\nopportunity to conduct hands-on experiments in the Eichenberger laboratory,\nthus learning classic molecular microbiology techniques and familiarize\nthemselves with fluorescence microscopy.In the first half of the semester,\nstudents will learn classic microbiology procedures, and in the second part\nof the semester they will conduct an independent project characterizing\nmutant bacteria.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 957",
+    "title": "Advanced Research in Synthetic Biology",
+    "department": "biol_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 21 AND BIOL-UA 22 .",
+    "description": "Students will contribute to the collaborative and international research\nproject Sc2.0, specifically working with members of the Boeke laboratory\nfrom NYU Langone. The goal of the Sc2.0 project is to build the first\nsynthetic eukaryotic organism using a \"bottom up\" approach, marking a\ngroundbreaking achievement in the field of synthetic biology. Saccharomyces\ncerevisiae, also known as the budding yeast, is the well-established model\norganism used in this project. Students will gain hands-on research\nexperience in microbiology, cellular biology, and genetics while working\nwith the budding yeast in this course.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 980",
+    "title": "Independent Laboratory Research (External Institution)",
+    "department": "biol_ua",
+    "credits": 0.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C AND BIOL-UA 22 AND Restriction: Cumulative Grade Point Avg.",
+    "description": "Intended only for biology majors. The details of individual internships are established by the director of undergraduate studies. Field or laboratory research with a sponsor at an organization or institution in the metropolitan area other than the Department of Biology. Students with the necessary background in course work and who, in the opinion of the sponsor, possess intellectual independence and ability may register for an internship in some field of biology. The student must approach an individual at the organization or institution to obtain sponsorship and agreement to provide counsel and any necessary space and facilities for the research project. The director of undergraduate studies maintains a file of suitable opportunities and is available to help students identify organizations of interest. The student must submit a lab or research notebook and a final paper.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 981",
+    "title": "Independent Laboratory Research (External Institution)",
+    "department": "biol_ua",
+    "credits": 0.0,
+    "prerequisites": "BIOL-UA 22 and a minimum GPA 3.2 both overall and in the major and departmental consent.",
+    "description": "Field or laboratory research with a sponsor at an organization or institution in the metropolitan area other than the Department of Biology. Students with the necessary background in course work and who, in the opinion of the sponsor, possess intellectual independence and ability may register for an internship in some field of biology. The student must approach an individual at the organization or institution to obtain sponsorship and agreement to provide counsel and any necessary space and facilities for the research project. The director of undergraduate studies maintains a file of suitable opportunities and is available to help students identify organizations of interest. The student must submit a lab or research notebook and a final paper.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 995",
+    "title": "Becoming a Scientist (Honors)",
+    "department": "biol_ua",
+    "credits": 2.0,
+    "prerequisites": "( BIOL-UA 997 OR BIOL-UA 998 OR BIOL-UA 980 OR BIOL-UA 981 ) AND BIOL-UA 21 .",
+    "description": "Succeeding in a scientific career requires intelligence and expertise in the laboratory, but also skills in scientific writing, oral communication, and ethics. Undergraduate biology majors conducting independent laboratory-based research projects read scientific papers and communicate scientific results in both oral and written reports. Topics: inspiring science and scientists, choosing a good scientific problem, defining your scientific strategy (grant writing), giving scientific presentations, scientific ethics, and career paths.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 997",
+    "title": "Independent Laboratory Research (NYU Bio)",
+    "department": "biol_ua",
+    "credits": 2.0,
+    "prerequisites": "BIOL-UA 21 with a Minimum Grade of C AND BIOL-UA 22 AND Restriction: Cumulative Grade Point Avg.",
+    "description": "Intended primarily for biology majors. Field or laboratory research with a faculty sponsor in the Department of Biology. Students with the necessary background in course work and who, in the opinion of a faculty sponsor, possess intellectual independence and ability may register for independent study in some field of biology. The student must approach a faculty member in his or her field of interest to obtain sponsorship and agreement to provide counsel and any necessary space and facilities for the research project. Requires a written report on the research.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 998",
+    "title": "Independent Laboratory Research (NYU Bio)",
+    "department": "biol_ua",
+    "credits": 0.0,
+    "prerequisites": "BIOL-UA 21 .",
+    "description": "Field or laboratory research with a faculty sponsor in the Department of Biology. Students with the necessary background in course work and who, in the opinion of a faculty sponsor, possess intellectual independence and ability may register for independent study in some field of biology. The student must approach a faculty member in his or her field of interest to obtain sponsorship and agreement to provide counsel and any necessary space and facilities for the research project. Requires a written report on the research.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  },
+  {
+    "course_code": "BIOL-UA 999",
+    "title": "Undergraduate Research Thesis",
+    "department": "biol_ua",
+    "credits": 2.0,
+    "prerequisites": "BIOL-UA 995 .",
+    "description": "Requires a full literature search of the subject and a formal written report on the research in publication form.",
+    "source_url": "https://bulletins.nyu.edu/courses/biol_ua/"
+  }
+]

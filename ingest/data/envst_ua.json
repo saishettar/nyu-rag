@@ -1,0 +1,506 @@
+[
+  {
+    "course_code": "ENVST-UA 100",
+    "title": "Environmental Systems Science",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A comprehensive survey of critical issues in environmental systems science, focusing on: human population; the global chemical cycles; ecosystems and biodiversity; endangered species and wildlife; nature preserves; energy flows in nature; agriculture and the environment; energy systems from fossil fuels to renewable forms; Earth?s waters; Earth?s atmosphere; carbon dioxide and global warming; urban environments; wastes; and paths to a sustainable future.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 101",
+    "title": "Environment & Society",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Environment & Society is a broad exploration of the foundations of Environmental Studies. It examines several of the major concepts that have been developed and refined over the years, decades and centuries to attempt to understand humanity\u2019s relationship with nature and manage our impact on the environment. Many of the ideas we will explore in class underpin a range of environmental sub-disciplines, from environmental governance and ethics, to environmental justice and history. As such, it is one of the gateway courses to the Environmental Studies major. More specifically, the issues we will cover of the course of the semester include environmental history and concepts of nature and the environment; the rise of environmentalism; environmental skepticism; anthropogenic global change; population and consumption, ecological footprint analysis and other environmental indicators; environmental justice; public goods and collective action problems; environmental politics; environmental values; and the future of environmentalism. This course will cover a significant amount of demanding material in order to prepare students for upper-level courses.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 226",
+    "title": "Climate Change",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Climate change is among the most complex and challenging problems that we have confronted as a civilization, and the responses and impacts will vary largely across space and the global population. This course is designed to give you an overview of the scientific basis of climatic change, and will expose you to multiple facets of a very interdisciplinary and encompassing field. You will be introduced to the physical science of our climate system, the contributing system components, and the basic mechanisms that govern how the climate system responds to drivers of change. We'll then explore climate change from multiple perspectives: paleoclimatic change, recent historical variability and change, and then future climate projections.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 275",
+    "title": "Where the City Meets the Sea: Studies in Coastal Urban Environments",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Uses the built and natural environments of coastal cities as laboratories to examine the environmental and ecological implications of urban development in coastal areas. Student teams use field-based studies and Geographic Information System (GIS) data to examine patterns and processes operating in coastal cities. Offered simultaneously at NYU New York and NYU Abu Dhabi, and students collaborate extensively with students from their sister campus.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 300",
+    "title": "Advanced Topics:",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENVST-UA 100 OR BIOL-UA 12 ).",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 307",
+    "title": "Methods in Environmental Monitoring",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "Environmental Systems Science.",
+    "description": "Environmental data are critical to understanding our world. Though data are increasingly available, the quality and utility of data depend on knowing how they were collected and the assumptions of the sensors used to collect them. Furthermore, low-cost sensors are transforming our ability to measure the environment at higher spatial and temporal scales than ever before. In this course, students will learn the programming needed to work with environmental sensors, design and implement an environmental monitoring project, learn how to document and annotate data and analyses for release on public repositories, and present the\nresults of these projects.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 310",
+    "title": "Environmental Quantitative Methods",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 100 .",
+    "description": "Of critical importance to Environmental Studies is the collection, analysis, and interpretation of environmental data and modeling results. Environmental data is often constituted and impacted by multiple variables and factors, and must be placed into context within the population and systems from which it was sampled. What are the best methods and practices in collecting data? How do we characterize a particular environmental variable? How do we identify specific changes or trends in the data? How can we tell if these changes and trends are significant? How are multiple variables related to one another? And how can we use quantitative methods of analysis to help us interpret environmental data and information?",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 315",
+    "title": "Environmental and Molecular Analysis of a Disease",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 63 OR ENVST-UA 325 OR BIOL-UA 21 ).",
+    "description": "The environmental determinants of disease vectors and the\nmolecular techniques used to measure prevalence of a pathogen in these\nvectors. Students conduct a semester-long research project to determine the\nprevalence of Borrelia burgdorferi (the Lyme disease causative agent) in\ntick populations from local forests. Combines field collection, lab work,\nand epidemiological models.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 320",
+    "title": "Introduction to Conservation Science Analysis",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENVST-UA 100 OR BIOL-UA 12 ).",
+    "description": "Critically explores current and past biodiversity conservation problems and proposed or attempted solutions through a quantitative modeling lens. Students will apply several modeling techniques used to measure and address biodiversity loss to diverse species, ecosystems, global regions, spatial and temporal scales, and anthropogenic impacts.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 323",
+    "title": "Introduction to Marine Ecology and Conservation",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course analyzes several aspects of our oceans, with particular emphasis on human impacts and examines some of the recent major threats, including lack of governance for the high seas, deep-sea mining, and the effects of climate change on aquatic animals. We will focus ecological relationships between marine organisms and their environment, with the introduction of humans as marine predators and ecological disturbers",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 325",
+    "title": "Fundamentals of Ecology",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 100 OR ( BIOL-UA 11 AND BIOL-UA 12 ) OR (BIOL-UA 13 AND BIOL-UA 14).",
+    "description": "Presents basic ecological principles and concepts,\nincluding ecological relationships within ecosystems, energy flow,\nbiogeochemical cycles, limiting factors, community ecology, population\necology, niche, climax, and major ecological habitats. These topics are\nrelated to current environmental problems such as habitat destruction,\nclimate change, biological invasions, loss of biodiversity, and\noverpopulation. Several field trips are scheduled during the regular class\nperiods.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 327",
+    "title": "NY Underground",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENVST-UA 100 OR BIOL-UA 12 ).",
+    "description": "Every day, millions of people walk the streets of New York City. But what is happening below those city streets? This course will investigate the life and resources underneath NYC and is divided into three principle modules: energy, transportation, and water (potable and wastewater). For each module, we will discuss the mechanics, history and significance of the infrastructure from the perspective of environmental scientists. At the end of the course we relate the biotic components of New York\u2019s fascinating dendritic underground environment. This seminar course will integrate classroom learning with practical experience and hands-on application through data collection and field trips.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 331",
+    "title": "Food Production and Climate Change",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 100 .",
+    "description": "RProvides an overview of our current global food system, which is embedded within larger environmental systems that it both impacts and depends on. Explores the evolution of our food system and how humans have modified the environment in order to meet increasing food demand. Examines how climate change and variability impact our ability to grow and harvest crops, and how these impacts vary across geographic, economic, and even gender space. Finally, addresses the environmental footprint of emerging food movements, their efficacy, and a host of alternative future food production trajectories that promise a range of environmental, socio-economic and nutritional impacts.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 333",
+    "title": "Limits of The Earth: Issues in Human Ecology",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 100 OR CORE-UA 311.",
+    "description": "Examines the array of environmental problems facing modern society, including global pollution and the impact of human population growth on land-use patterns, earth resources, energy supply and use, water, agriculture, and ecosystems.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 346",
+    "title": "Animal Behavior for Compassionate Conservation",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course has three objectives: (i) situating animal behavior within environmental studies and animal studies, (ii) surveying the emerging field of compassionate conservation, (iii) providing students with hands-on experience collecting and processing animal behavior data.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 360",
+    "title": "Fundamental Dynamics of Earth's Atmosphere and Climate",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( MATH-UA 121 with a Minimum Grade of B OR MATH-UH 1011Q OR MATH-UA 221 OR MATH-UA 132 OR MATH-UA 122 OR MATH-SHU 131 OR Advanced Placement Examination Calculus AB Subscore >= 4 OR Math Placement (Calculus 2) Calculus 2 >= 100).",
+    "description": "This course will be an introduction to the dynamical processes that drive the circulation of the atmosphere and ocean, and their interaction. The aim of the course is to develop both qualitative and quantitative understanding of the processes that generate weather and climate. The course is technical, involving physics and mathematics, but lectures will be driven by consideration of observations and experiments. Topics include the global energy balance, convection and radiation (the greenhouse effect), effects of planetary rotation, structure of the atmospheric circulation, structure of the oceanic circulation, climate and climate variability.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 370",
+    "title": "Biogeochemistry of Global Change",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 11 OR BIOL-UA 13 OR BIOL-UA 9011 ) AND ( BIOL-UA 12 OR BIOL-UA 14 OR BIOL-UA 9012 OR ENVST-UA 100 ).",
+    "description": "Biogeochemistry is the study of biological controls on the chemistry of the environment and geochemical regulation of ecological structure and function. This course will introduce the fundamental principles of biogeochemistry. Additionally, we will utilize the scientific literature from peer-reviewed journals to explore specific case studies on the global change of biogeochemistry (e.g., acid precipitation, nitrogen deposition, eutrophication of the oceans, etc.) from the field of biogeochemistry.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 372",
+    "title": "Exploring Earth: Remote Sensing and Spatial Analysis",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 12 OR BIOL-UA 14 OR BIOL-UA 9012 OR ENVST-UA 100 ).",
+    "description": "This course teaches the fundamentals of remote sensing as it applies to studying the environment. We first cover satellite mechanics and methods to measure properties of Earth's surface. Students will then learn to manipulate and analyze data in two different geographic information systems (GIS): Google Earth Engine and QGIS. These tools will be used to explore topics of land cover change, natural hazards and human settlement.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 385",
+    "title": "Climate and Life",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 100 .",
+    "description": "Designed to help students understand and explore the role of the biosphere in Earth\u2019s systems and processes, with particular emphasis on the climate system and key principles of biosphere- climate interactions. Explores the response of the biosphere to change, both anthropogenic and natural, and aims to track, nderstand, and anticipate current and future changes in natural and human biospheric systems. Concludes with implications for future policy decisions.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 390",
+    "title": "Urban Ecology",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( BIOL-UA 63 OR ENVST-UA 325 ).",
+    "description": "We are currently living in a time where city residents outnumber rural residents. In addition, the projected expansion of human population growth is largely predicted to occur in urban areas. Urban Ecology is an interdisciplinary and emerging field of research focused on the consequences of urbanization on ecological processes. In addition to a physically transformed natural landscape, cities are unique from other systems in terms of hydrology, temperature, noise, air quality and many other abiotic factors. In this course we will investigate the consequences of urban constructs on ecological systems. We will discuss factors such as nutrient cycling, organismal behavior and phenology, disease, and the drivers and patterns of biodiversity in urban systems. We will also talk about green spaces, urban planning, and the future of these expanding manmade landscapes. A significant component of this course will involve discussion of current literature. This is an upper-level reasoning course designed primarily for students majoring in biology (ecology track) and environmental studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 395",
+    "title": "Water Science and Security",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course confronts the present and future challenge of sharing water resources that are abundant for some and scarce for others.  We will start with the science of water, what it provides for us and how it constrains us.  We will examine perceptions of scarcity through film and field trips.  We will consider the way we use water and the tools we have for sharing it and valuing it.  Finally, we\u2019ll draw on games and role play to draw out the challenges of managing water conflict and achieving equitable, efficient use of water resources.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 400",
+    "title": "Ethics & The Environment",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Environmental philosophy is a large subject that involves questions in metaphysics, philosophy of science, and history of philosophy, as well as in such normative areas as ethics, aesthetics, and political philosophy. This class is primarily devoted to these normative areas. Beginning with some basic concepts in value theory, the goal is not to arrive at definite solutions to specific environmental problems, but rather (i) to improve your ability to think critically, read closely, and to argue well about environmental issues; (ii) to introduce you to some major controversies in environmental philosophy; and (iii) to aid you in arriving at your own rational and clear-minded views about the matters under discussion",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 407",
+    "title": "Climate Politics: When Policy meets Reality",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course will cover the optimal way to curb carbon emissions, how to price fossil or subsidize low-carbon energy, and the role new technologies, including solar geoengineering. The class will discuss a number of different climate policy objectives and policies throughout the semester, and then place them in a political context. By the end of the course, students be well prepared to apply fundamental economic and political economy tools to a host of climate questions, and to do so without fear, favor, or jargon.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 410",
+    "title": "Environmental Economics",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In this course, we will understand environmental problems and policy through an economic perspective. We will focus on the interaction between our means of production and our economic \u201csystem\u201d and the \u201cenvironment\u201d. This course introduces the students to key concepts in environmental economics and sustainability, conceptually and practically. The first part of the course builds the toolkit, i.e., the concepts from economics and how they apply to \u201cgeneral\u201d environmental problems. The second part is instead organized around applied topics like climate change, biodiversity loss, energy policy, urban policy, discounting, and growth.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 422",
+    "title": "Science in Environmental Policy",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 101 .",
+    "description": "Science plays a fundamental role in environmental policy. It can put an issue on the political agenda, it often guides and underpins rationales for policy, while enabling us to monitor implementation. In short, science can provide a reason for humankind to act on environmental problems, while policy enables us to do so. Therefore, understanding how science translates into policy \u2013 from a theoretical, historical and practical perspective \u2013 is critical to understanding environmental governance. This course explores how the scientific process, as well as scientists themselves, influence environmental policy \u2013 from agenda setting, to legislation and implementation. In order to ground the discussion, the course will focus on specific issues including, but not necessarily limited to: stratospheric ozone depletion, climate change, genetically modified organisms (GMOs), pesticides, whaling and nutrient pollution.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 423",
+    "title": "History of United States Environmental Policy",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This survey course will focus on the historical development of U.S. federal\nauthority and capacity over public lands and resources, including the\ngermination and expansion of the idea of a coherent public interest with\nrespect to air, water, forests, landscapes, and other environmental\nattributes. The course will address U.S. environmental policy through\nseveral lenses, including (1) a set of two introductory sessions in which\nstudents are introduced to key terminology, concepts, and orientations\ntoward the domain of environmental policy; (2) a core series of sessions\nthrough which we survey how historical precedents have shaped contemporary\nU.S. environmental policies and programs. As we work through the semester,\nwe will also review several contemporary, but still evolving, environmental\npolicy topics (e.g., climate change, invasive species, fracking) in light\nof historical precedents.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 424",
+    "title": "Environmental Qualitative Methods",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores the research methodology of ethnography, as it applies to Environmental Studies. The course focuses on the work from the field Environmental Anthropology. By reading finished ethnographies together, they will consider the practice of ethnography \u201cbackwards,\u201d in a manner that allows for learning from the methodological design, and ultimate path, each author took to arrive at the analysis presented in each book. The goal is to acquaint with the ways that qualitative data can and do function as \u201cdata,\u201d and the ways in which they can enrich quantitative data forms for a more robust understanding of environmental change.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 431",
+    "title": "Urban Environmentalism",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores environmental issues in urban centers, their causes and impacts, and the rise of a movement that considers the \u201cenvironment\u201d not just as the term we use to describe the natural world from which many urban residents feel dissociated, but rather as the array of places where we live, work and play. We will consider the relationship between society and public policy in the context of environmentalism, social justice and urban health. This course introduces students to sustainability planning and public policy analysis, with a focus on policy development, implementation and decision-making in New York City. We will examine the powers of the NYC Council and consider the role of agencies, the private sector, and interest groups as critical parts of a bureaucracy through which environmental issues are shaped, managed and negotiated. Through case studies, students will understand the political, legal, economic and technical and scientific constraints of the policy decision-making process and explore the path towards managing, using and protecting environmental resources in urban centers.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 435",
+    "title": "Environmental Governance",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENVST-UA 100 OR ENVST-UA 101 ).",
+    "description": "Human activities are having an unprecedented impact on the planet. In \u201cEnvironmental Regulation in Practice\u201d we will study some of the most serious environmental threats facing humanity and how they are being managed, if at all. Topics include: climate change, stratospheric ozone depletion, air pollution, biodiversity loss, nutrient pollution, fisheries collapse, and genetically modified organisms.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 440",
+    "title": "Food, Animals, & The Environment",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 101 .",
+    "description": "The purpose of Food, Animals, and the Environment is to critically analyze the place of animals in our food system and in the environment, with an emphasis on the intersection between them. The course examines the main impacts that agriculture has on humans, nonhumans, and the environment, as well as some of the questions that these impacts raise for the ethics of food production, consumption, and activism. This seminar is designed to reflect the rich overlap between the fields of Environmental Studies and Animal Studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 444",
+    "title": "Governing Disaster",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "How do governments maintain their power in a world of accelerating disasters, from floods and droughts to heat waves and pandemics? To answer this question, the course examines the mutual constitution of modern government and disasters: how governments produce ostensibly \u201cnatural\u201d disasters and how such disasters, in turn, legitimate the powers of government \u2013especially forms of technocratic and authoritarian rule. It traces the governmental, technological, and scientific techniques through which environmental hazards are not only reconfigured to\nprotect certain populations over others, but also how certain hazards become knowable and visible as a \u201cdisaster,\u201d while others are made unknowable, invisible, or routine in the interests of maintaining governmental power.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 445",
+    "title": "Global Environmental Politics",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Environmental problems are now at the forefront of political discussions. This course examines the law, politics and policy of global environmental issues including energy, climate, biodiversity, food and water. The course aims to provide a broad overview of the key concepts, actors, debates and issues in global environmental politics. It demonstrates the complexities both of the nature of the problems as well as the solutions. The proliferation of global institutions and international actors and the absence of central enforcement mechanisms are hallmarks of addressing environmental problems.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 450",
+    "title": "Topics in Environmental Values & Society",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 465",
+    "title": "Business and the Environment",
+    "department": "envst_ua",
+    "credits": 3.0,
+    "prerequisites": "",
+    "description": "This course is a broad overview of pressing questions regarding the relationship between business and the environment. It aims to give students a look at the major drivers of environmental change, the shifting roles of government and NGOs, as well as some areas where there may be business opportunities.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 466",
+    "title": "Urban Environmental Systems",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The planet is increasingly urban and rapidly urbanizing. Cities concentrate not only people, but also infrastructure and economies, creating hotspots of risk to extreme events from heat waves and floods to pandemics. As cities become the dominant living environment for humans, there is growing concern about how to make such places simultaneously more habitable, healthy, and safe, more equitable, more resilient, and more sustainable. This course will examine urban systems from an interdisciplinary approach including reading, discussion, and direct discourse with diverse scholars across the social sciences, climate sciences, ecology, and design.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 470",
+    "title": "Climate and Society",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 101 .",
+    "description": "This is an intermediate Environmental Studies elective about how societies understand and respond to climate change. We will analyze the values, assumptions, and perceptions that contribute to our understanding of climate change. The main topics are ethics, justice, and responsibility; definitions of nature; cost-benefit analysis and the precautionary principle; geo-engineering; contrarianism; framing and communication; social engagement; and education. Central questions include: Is climate change a technical or social problem? What makes climate change uniquely challenging to understand and respond to? Which ethical and perceptual frameworks are best suited for both understanding and responding to climate change? Who is responsible, and what moral implications does this have? What assumptions about values, behavior, economics, and nature do we make when discussing climate change? How does climate change challenge our conceptions of nature, morality, society, and economics? Does climate change pose a special challenge to society, or does it simply amplify existing challenges?",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 475",
+    "title": "Topics in Environmental Values and Society",
+    "department": "envst_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 476",
+    "title": "Topics in Environmental Values and Society",
+    "department": "envst_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 480",
+    "title": "Environmental Justice & Inequality",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Traces the origins of the uneven distribution of environmental problems and\nhazards across various communities and analyzes how environmental problems\nreflect and exacerbate social inequality. Surveys the historical emergence\nof the environmental justice movement and explores competing moral and\npolitical visions for achieving equal protection from environmental hazards\n(both natural and manmade).",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 482",
+    "title": "Conservation in the Anthropocene",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "We have entered a new geological age called the Anthropocene, in which humans have become a primary driver of environmental change. As a result, natural systems are shifting rapidly, with increased rates of species extinctions, movement of organisms to new locations, and changes to how ecosystems work. In this course, we will use a combination of lecture, discussion, readings, and independent projects to explore how the fields of conservation and natural resource management are evolving to keep up in our rapidly changing world.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 490",
+    "title": "Urban Political Ecology",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 101 .",
+    "description": "Explores the gap between aspirations for, and the enactment\nof, urban sustainability. How contests over environmental knowledge,\nsociocultural ideology, and discourse shape human engagement with urban\nnature, and in turn influence social and natural transformation.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 495",
+    "title": "Urban Greening Lab: New York",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 101 .",
+    "description": "Explores the theory and practice of urban \u201cgreening\u201d as it has been planned, debated, and implemented in New York City. Drawing on analytical tools from the social and biophysical sciences, considers how New York\u2019s historical and contemporary context have shaped the meaning, implementation, and social experience of environmental improvement. Examines \u201cWhat does it mean to \u2018green\u2019 New York? What does it mean to \u2018green\u2019 a city?\u201d The analytical approach seeks to integrate ecosystem ecology concepts, urban design principles, and social scientific sensibilities.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 500",
+    "title": "Introduction to Animal Studies",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Animal Studies is an interdisciplinary field drawing on the humanities, social sciences, and natural sciences to ask questions about the lives of nonhuman animals and our relationships with them. This course introduces students to the key thinkers, theories, and methods that have shaped the field. Through historical, scientific, and cultural perspectives, we will explore how humans have imagined, represented, and lived alongside other species, and what these relationships reveal about power, empathy, and our place in nature. Students will gain foundational tools for thinking critically about animals as subjects of knowledge, agents of culture, and partners in shared ecological worlds.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 535",
+    "title": "The Arrogant Ape",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Darwin saw humans as part of the web of life, not the pinnacle of a natural hierarchy. Yet modern culture often treats humans as uniquely intelligent, virtuous, and successful\u2014an outlook that legitimizes environmental exploitation. This course examines human exceptionalism as an ideology grounded more in delusion and faith than in evidence. We explore how this mindset has shaped scientific practice itself, influencing research questions, experimental designs, and interpretations in ways that privilege human traits. Through case studies in evolutionary theory, animal cognition, primatology, and related fields, students learn to identify bias, trace its historical roots, and engage with more humble, less anthropocentric scientific approaches.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 605",
+    "title": "Animal Sex and Sexuality",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Sex and sexuality in the animal world are stunningly diverse, encompassing a staggering array of behaviors, traits, and strategies in service of reproduction, socialization, and pleasure. In this seminar, students explore the natural history of sex, analyze how scientists have studied animal sex through time, and discover how shifting conceptualizations of what is \u201cnatural\u201d in the animal world have important implications for human society. Students will discuss readings in evolutionary biology, animal behavior, history of science, and gender studies to explore the\ncomplex responses to seemingly simple questions such as \u201cHow do animals have sex?\u201d and \u201cWhat is biological sex?",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 630",
+    "title": "Animals and Public Policy",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers how public policy is created, how social change occurs, and the influence of science, government, business, and non-governmental organizations on animal-related policies, legislation, litigation, and consumer campaigns, as well the meaning of \"animal rights\" and the impact of the modern animal protection movement.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 675",
+    "title": "Literature and the Environment",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course provides an overview of Anglophone environmental literature of the 19th, 20th, and 21st centuries, focusing specifically on texts and cultural histories that may inform our understanding of current environmental problems. Taking the term \u201cenvironment\u201d in the widest sense possible (i.e., as referring to human as well as more-than-human environments), we\u2019ll consider how environmental concerns have shaped literary innovation, and how literature has conversely come to influence environmental discourse. To this end, while tracking shifting attitudes toward \u201cnature\u201d and the \u201cenvironment,\u201d we\u2019ll read foundational and lesser-known works associated with British romanticism, American transcendentalism, wilderness and conservation literature, New Deal-era progressive politics, postcolonial critique, the modern environmental movement, environmental justice, cli-fi, and eco-poetics. We will also bring to bear on these works vital sociological and theoretical frameworks foregrounding Black, Indigenous, queer, trans, women\u2019s, and working-class thought and experiences",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 700",
+    "title": "Introduction to Environmental Humanities",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to the interdisciplinary field of environmental humanities. Exploring an exciting range of novels, films, video games, and podcasts, as well as critical texts by philosophers, historians, and anthropologists, we will investigate some of the forms \u201cnature\u201d takes in capitalist and socialist modernity\u2014from sublime confrontation to picturesque display, and from utopian dreamscape to dystopian wasteland. We will also consider how works in\ndiverse media both enable and complicate such fantasies, in some cases articulating national or imperial justifications for the seizure of Indigenous lands, the pollution of air and water through energy extraction, or the development of nuclear weaponry.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 800",
+    "title": "Internship in Environmental Studies",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "Open to Environmental Studies majors and minors only who are sophomore standing or above.",
+    "description": "The internship, which is normally completed during the junior year, prepares students for their professional lives by providing them with experience in environment-related organizations such as nonprofits, research institutes, and governmental organizations. At the beginning of the internship, students and the internship advisor agree to a learning contract that establishes specific goals, as well as a schedule for achieving them. Interns meet collectively during the semester to share their experiences and present brief reports.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 900",
+    "title": "Environmental Studies Senior Seminar",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "ENVST-UA 100 AND ENVST-UA 101 .",
+    "description": "The Environmental Studies Senior Seminar is a research and\nprofessional seminar attended by all senior Environmental Studies majors in\neither the fall or spring semester of their senior year. It meets twice per\nweek, with both sessions taught by the same instructor, ideally a core\nEnvironmental Studies faculty member. The seminar will include both a\nregular research and professional seminar series (about 12 per semester) as\nwell as classroom instruction.\n\nThe purpose of the senior seminar is to integrate environmental research\nand practice into the senior experience, teach critical and integrative\nthinking, and enhance community- and cohort-building.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 950",
+    "title": "Honors Seminar in Environmental Studies",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course builds on that skill and aims to push you a bit further and encourage you to produce your own research in the realm of environmental studies with the aim of preparing you for graduate school. You will be expected to formulate your own research question, and will be required to put together a large literature review, methods/research design, and hopefully a pilot study and even some results. Areas covered include preparing research proposals, using the literature in devising and evaluating research, statistical analysis, library facilities, research ethics, and communicating science. By the time we have finished, you should understand the differences between qualitative and quantitative research, various methods of both types of research, as well as many of the inner-workings of research. You are expected to find the edge of a problem and push it further, however incrementally, by producing some excellent research of your own.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 997",
+    "title": "Independent Study",
+    "department": "envst_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: Permission of the department. Intensive research under the supervision of a department faculty member. Independent studies range from 1-4 credits depending on the amount of work agreed upon between the student and faculty member.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 9300S",
+    "title": "Hydrological Monitoring and Modelling",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In this course, you will engage with field-based and\nquantitative problems related to water quantity and quality. This includes\na multi-day field trip to regional NSW to collect samples and engage with\nfield-based activities. During these activities, you will develop\nfield-based skills for collection of hydrological data. The data will be\nused later in the unit to analyse and map the water quantity and quality\nissues in the catchment, relating this to landscape, management and\nclimate. The second part of the course focuses on developing an insight\ninto model building, model calibration, validation and sensitivity\nanalysis. It links back to the field experience by using long-term data\ncollected by previous student cohorts and focussing on the identified\nlandscape issues. This part of the study will allow you to directly engage\nwith numerical approaches in prediction and forecasting in landscape\nhydrological models. The course is specifically designed to extend your\nfield hydrological knowledge and to strengthen your analytical and\nnumerical skills in this area.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 9372S",
+    "title": "Environmental GIS",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is designed to impart knowledge and skills in\nspatial analysis and geographical information science (GIS) for\ndecision-making in an environmental context. The lecture material will\npresent several modules: introduction to GIS, digital terrain mapping,\nremote sensing and applications. Practical exercises will focus on learning\ngeographical information systems (GIS) and how to apply them to land\nresource assessment, including digital terrain modelling, land-cover\nassessment, sub-catchment modelling, ecological applications, and soil\nquality assessment for decisions regarding sustainable land use and\nmanagement.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 9450S",
+    "title": "Politics and Environment: Current Issues",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The focus of environmental politics often shifts, and this\ncourse will examine key contemporary issues in the field - from the more\nlongstanding to emergent issues just gaining political urgency. The course\nwill focus on key issues in depth; this may include climate change,\nenvironmental justice, food politics, sustainable cities, and/or other\ntimely issues in the Australian or global context. Students will be\nrequired to do intensive research in a relevant and salient area of\ninterest in environmental politics and policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  },
+  {
+    "course_code": "ENVST-UA 9451S",
+    "title": "Global Challenges: Food, Water, Climate",
+    "department": "envst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In this course students will gain an understanding of the\nkey environmental challenges of the 21st century; namely food security,\nclimate change, water security, biodiversity protection, ecosystems\nservices and soil security. In the second half, using Australian case\nstudies, we will explore how we manage different agro-ecosystems within\ntheir physical constraints around water, climate and soil, while\nconsidering linkages with the global environmental challenges. Management\nnow, in the past and the future will be considered, with an emphasis on\nfood production. This course is recommended for students interested in\ngaining a broad overview of the environmental challenges of the 21st\ncentury, both globally and within Australia.",
+    "source_url": "https://bulletins.nyu.edu/courses/envst_ua/"
+  }
+]

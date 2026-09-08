@@ -1,0 +1,155 @@
+[
+  {
+    "course_code": "NEURL-UA 100",
+    "title": "Introduction to Neural Science",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "BIOL-UA 11 OR BIOL-SHU 21 Corequisite: BIOL-UA 12 or BIOL-SHU 22 .",
+    "description": "Introductory lecture course covering the fundamental principles of neuroscience. Topics include principles of brain organization, structure and ultrastructure of neurons, neurophysiology and biophysics of excitable cells, synaptic transmission, neurotransmitter systems and neurochemistry, neuropharmacology, neuroendocrine relations, molecular biology of neurons, development and plasticity of the brain, aging and diseases of the nervous system, organization of sensory and motor systems, structure and function of the cerebral cortex, and modeling of neural systems.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 210",
+    "title": "Cellular & Molecular Neurobiology",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 100 Corequisite: BIOL-UA 21 .",
+    "description": "A lecture course that provides students with broad exposure to current questions and experimental approaches in cellular neuroscience. Lectures are organized into three areas: cell structure and organization of the vertebrate central nervous system, mechanisms underlying neural signaling and plasticity, and control of cell form and its developmental determinants.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 211",
+    "title": "Cellular & Molecular Neurobiology Lab",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 100 AND Corequisite: BIOL-UA 21 .",
+    "description": "A laboratory course that provides students with broad exposure to experimental approaches in cellular neuroscience. Laboratories are organized into two areas: cell structure and organization of the vertebrate central nervous system, and mechanisms underlying neural signaling and plasticity. Laboratory instruction is given in anatomical, physiological, and biochemical methods for investigating the biology of nerve cells.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 220",
+    "title": "Behavioral and Integrative Neuroscience",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 100 OR NEUR-SHU 210 .",
+    "description": "Lecture course that focuses on how the brain uses both sensory and stored information to generate behavior. Lectures cover four main areas: sensory process, learning and memory, motivational and attentional mechanisms, and the motor system.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 221",
+    "title": "Behavioral & Integrative Neuroscience Lab",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 100 .",
+    "description": "A laboratory course that address the physiological and anatomical bases of behavior. Laboratory experiments will emphasize mammalian sensory, motor, regulatory, and motivational mechanisms involved in the control of behavior, and higher mental processes such as those involved in language and memory.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 301",
+    "title": "Honors Seminar",
+    "department": "neurl_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Intended for honors-track seniors currently conducting research towards their honors thesis. Covers both practical and theoretical aspects of succeeding in science with topics such as scientific writing, authorship and publication practices, navigating mentorship relationships, and oral presentation skills. Structured as a weekly seminar class with active participation, including student presentation of journal articles and varying length presentations of students' own research projects.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 302",
+    "title": "Special Topics in Neural Science",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Seminar providing in-depth treatment of an area of current interest in neuroscience. Lectures present background material and address current problems in the area. Students read and discuss review articles and current literature on the topic. Course content and prerequisites are determined on a semester-by-semester basis. May be taken up to five times (20 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 305",
+    "title": "Development and Dysfunction of the Nervous System",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 210 .",
+    "description": "The development of the nervous system is a unique field of study because it requires us to synthesize information from most areas of biology. These include everything from genetics through animal behavior. The course begins by considering the maturation of behavioral milestones that we seek to explain at the level of neural mechanism. The nervous system emerges from a stem cell population which ultimately creates an enormous diversity of neuron and glial cell types. In mammals, approximately 1011 neurons come to be precisely connected to one another as growing neuronal process are guided to their correct targets by a series of molecular cues. Even after these specific connections are attained, there occurs a dramatic change in their function and connectivity. During this period of developmental plasticity, the nervous system is influenced by environmental experiences, and this process can shape adult behavioral abilities. Finally, we will consider how normal developmental mechanisms can be disrupted, leading to severe neurological disorders that last a lifetime.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 306",
+    "title": "Special Topics in Neural Science Lab",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course combines lectures, discussions, and experimental work. Topics vary, but may include neurogenetics and computational neuroscience. Projects vary but may include designing and conducting experiments, analyzing data, and writing and presenting results. Prerequisites vary by topic. May be taken up to five times (20 credits) as topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 310",
+    "title": "How to Build a Brain: From Channels to Networks",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 210 OR NEURL-UA 220 .",
+    "description": "This is a computational neuroscience class. Brain function is determined by ion channels that generate neuronal firing and by the synapses that allow information transfer between neurons in a network. To facilitate analyses of this complex process, neuroscientists use computer simulations to make predictions and design experiments. Students will build a network from the ground up. Using simulations, students will examine how biophysical properties affect the firing of neurons, how groups of neurons interact, and how information flows through neural networks. \u2018Skeleton\u2019 MATLAB programs will be provided, which the student can easily modify to explore the various processes that affect  function.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 311",
+    "title": "Neurogenetics and Behavior",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 100 AND BIOL-UA 21 .",
+    "description": "Understanding the relationship between genes and behavior will be the primary goal of this course. Students will learn both classic and contemporary genetic tools that are utilized by researchers to study behaviors such as courtship, addiction, memory, sleep, and aggressive behavior. The course will focus on learning about animal model systems (fruit flies, nematodes, zebrafish, and mice) amenable to genetic manipulation. The course will also discuss the relationship among genetics, development, and neural circuitry. Through analyzing and presenting primary scientific articles, students will communicate their understanding of neurogenetics. Students will examine research topics that are at the forefront in the field of neurogenetics and behavior.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 312",
+    "title": "Neuroeconomics",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 220 .",
+    "description": "Neuroeconomics covers the neuroscientific, economic and psychological foundations of human and animal decision-making. Aimed mostly at juniors and seniors in Neural Science and Psychology, the course is also appropriate for Economics and Stern students. Topics covered include: Subjective Value Theory and its Representation in the Brain, Intertemporal Choice, Neural Foundations of Game Theory, Consumer Decision-Making, Neural Foundations of Prospect Theory, and Efficient Coding as an Explanation for Choice Inconsistency. Class periods begin with a one hour lecture by the Professor; this is followed by student presentations of relevant original research articles and open discussion of those articles.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 313",
+    "title": "Neurobiology of Brain Disorders",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Understanding the neurobiological basis of neurodevelopmental and neurodegenerative disorders is the primary goal of this course. Students will learn the clinical manifestation of these disorders and how researchers utilize genetic, molecular, and cellular tools to study aberrant brain function and behavior in disease models. The course will largely be focused on mouse models of brain disorders, but other model systems will also be discussed, such as fruit flies, zebrafish, rats, and human stem cell-derived models, including brain organoids.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 314",
+    "title": "Decisions and Actions",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 220 .",
+    "description": "This course will present the fundamentals of the fields of sensory perception, and an introduction to sequential decisions and reinforcement learning as it applies to navigation. The emphasis is on understanding core principles and ideas about how neural systems work and how we can start to understand how neural activity gives rise to behavior.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 315",
+    "title": "Communicating Neuroscience",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 210 OR NEURL-UA 220 .",
+    "description": "The main objective of this course is to learn and practice effective communication\nmethods for translating the significance of neuroscience research to a broad\naudience. The class will closely examine the relationship between neural science\nresearch, popular media, and government policy. Students will analyze scientific\nresearch papers and discuss the dissemination of results to the general public.\nStudents will also hone their writing skills and practice communicating to a scientific\naudience. Students will be assigned a scientific article in the field of neuroscience to\npresent to the class. Presentations will be followed by a discussion of popular press articles corresponding to the neuroscience research article previously discussed in class. Students will critique both scientific journal articles and corresponding popular press articles and will discuss the strengths and weaknesses of each article. Students will also discuss the impact of neuroscience research on shaping government policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 317",
+    "title": "Biology of Memory in Mammals: Processes, Developmental Evolution, Diseases",
+    "department": "neurl_ua",
+    "credits": 4.0,
+    "prerequisites": "NEURL-UA 220 and BIOL-UA 21 .",
+    "description": "This course will present the fundamentals of the fields of sensory perception, and an introduction to sequential decisions and reinforcement learning as it applies to navigation. The emphasis is on understanding core principles and ideas about how neural systems work and how we can start to understand how neural activity gives rise to behavior. There will be lectures with background mandatory reading, mostly reviews or classical papers. Course material does not come from textbooks, thus attendance is mandatory and critical for success in the course. Simply memorizing facts without a deep understanding will generally not yield good performance.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  },
+  {
+    "course_code": "NEURL-UA 998",
+    "title": "Independent Study",
+    "department": "neurl_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Independent study with a Center for Neural Science faculty member. Open to advanced neural science majors with permission of the director of undergraduate studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/neurl_ua/"
+  }
+]
