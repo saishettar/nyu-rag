@@ -16,6 +16,7 @@ export default {
         "accent-hover": "var(--accent-hover)",
         "accent-soft": "var(--accent-soft)",
         "accent-ink": "var(--accent-ink)",
+        "accent-contrast": "var(--accent-contrast)",
         danger: "var(--danger)",
         "danger-soft": "var(--danger-soft)",
       },

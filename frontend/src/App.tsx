@@ -2,11 +2,11 @@
 THESIS: citations are not text, they're a pointer — clicking one moves you to
 the real course record, refusing the category default of "chat with sources
 listed below and never touched again."
-OWN-WORLD: warm-neutral canvas (#fafaf8 / #18181a dark), one committed cobalt
-accent (#2e4dd4 / #7c93ff dark) reserved for interactive elements only —
-citations, active nav, send button — never as a field; IBM Plex Sans for UI,
-IBM Plex Mono for course codes and data; a bracket glyph "[ ]" as the mark,
-echoing the [COURSE-CODE] citation itself.
+OWN-WORLD: monochrome canvas (#ffffff / #212121 dark), ink-black/white accent
+(#0d0d0d / #ececec dark) reserved for interactive elements only — citations,
+active nav, send button — never as a field; IBM Plex Sans for UI, IBM Plex
+Mono for course codes and data; a bracket glyph "[ ]" as the mark, echoing
+the [COURSE-CODE] citation itself.
 STORY: a student or evaluator asks a course-planning question, sees a cited
 answer, and can click straight from a citation into the live catalog record
 that backs it — grounding made tangible, not asserted.
