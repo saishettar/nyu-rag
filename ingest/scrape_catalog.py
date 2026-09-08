@@ -17,15 +17,16 @@ REQUEST_DELAY_SECONDS = 2
 USER_AGENT = "nyu-course-rag research project (contact: sai.r.shettar@gmail.com)"
 
 # department slug -> bulletin URL. CAS has 51 "_ua" department pages total;
-# scope is being rolled out batch by batch toward full CAS coverage. The
-# first three batches (Math/Physics/Data-Science/Economics/Philosophy/
-# Psychology/Politics/Neural-Science/Chemistry/Biology/Linguistics/Public
-# Policy/Urban Studies/Environmental Studies) prioritized departments CS
-# students actually cross-reference; this batch (History, English,
-# Anthropology, Art History, Journalism, International Relations, Classics,
-# Creative Writing) is the broadly-popular humanities/social-science
-# departments that don't have a specific CS-overlap story but round out
-# general coverage.
+# scope is being rolled out batch by batch toward full CAS coverage. Batches
+# 1-2 prioritized departments CS students actually cross-reference
+# (Math/Physics/Data-Science/Economics/Philosophy/Psychology/Politics/
+# Neural-Science/Chemistry/Biology/Linguistics/Public Policy/Urban Studies/
+# Environmental Studies); batch 3 (History, English, Anthropology, Art
+# History, Journalism, International Relations, Classics, Creative Writing)
+# and this batch (Music, Religious Studies, Comparative Literature, East
+# Asian Studies, Law and Society, Middle Eastern and Islamic Studies,
+# Dramatic Literature, European and Mediterranean Studies) round out general
+# coverage with no specific CS-overlap story.
 DEPARTMENTS = {
     "csci_ua": "https://bulletins.nyu.edu/courses/csci_ua/",
     "math_ua": "https://bulletins.nyu.edu/courses/math_ua/",
@@ -50,6 +51,14 @@ DEPARTMENTS = {
     "intrl_ua": "https://bulletins.nyu.edu/courses/intrl_ua/",
     "class_ua": "https://bulletins.nyu.edu/courses/class_ua/",
     "crwri_ua": "https://bulletins.nyu.edu/courses/crwri_ua/",
+    "music_ua": "https://bulletins.nyu.edu/courses/music_ua/",
+    "relst_ua": "https://bulletins.nyu.edu/courses/relst_ua/",
+    "colit_ua": "https://bulletins.nyu.edu/courses/colit_ua/",
+    "east_ua": "https://bulletins.nyu.edu/courses/east_ua/",
+    "lwsoc_ua": "https://bulletins.nyu.edu/courses/lwsoc_ua/",
+    "meis_ua": "https://bulletins.nyu.edu/courses/meis_ua/",
+    "drlit_ua": "https://bulletins.nyu.edu/courses/drlit_ua/",
+    "euro_ua": "https://bulletins.nyu.edu/courses/euro_ua/",
 }
 
 

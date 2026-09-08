@@ -1,0 +1,470 @@
+[
+  {
+    "course_code": "MEIS-UA 100",
+    "title": "Topics in Middle Eastern Language",
+    "department": "meis_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Topics (and possible prerequisites) vary by semester. May be taken four times in total (8 credits in total) as specific topics change. As a 2-credit course, this does not count toward any MEIS-UA major or minor.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 101",
+    "title": "Elementary Arabic I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Elementary Arabic I course is a novice level course in Modern Standard Arabic. (MSA)\nThe course work aims to balance the four skills (listening, speaking, reading, and writing). It also introduces aspects of Arab culture.\nThe course is designed to teach students to pronounce, read and write MSA.\nFall semester starts with Arabic alphabet (letters and sounds) then introduces topics such as greetings, self introduction, family, weather and food.\nNo prior knowledge of Arabic or a placement test is required for enrollment in this course.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 103",
+    "title": "Intermediate Arabic I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "(MEIS-UA 102 OR ARABL-UH 1120 ) AND ( MEIS-UA 101 OR ARABL-UH 1110 ).",
+    "description": "Builds on the skills acquired in Elementary Arabic I and II, with increased emphasis on writing and reading from modern sources, in addition to aural/oral proficiency.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 104",
+    "title": "Intermediate Arabic II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "( MEIS-UA 101 OR ARABL-UH 1110 ) AND (MEIS-UA 102 OR ARABL-UH 1120 ) AND ( MEIS-UA 103 OR ARABL-UH 2110 ).",
+    "description": "This is a high intermediate level course designed to bring the intermediate level students to an advanced level of proficiency. The course expands on communication skills, cultural understanding, reading, listening comprehension and writing skills. Students are able to discuss general topics and express opinions in Modern Standard Arabic. Emphasis is placed on reading authentic materials. Topics typically covered include: College life & education, relationships, immigrants, arts and films, diglossia in Arabic. Placement test or completion of Intermediate I is required for enrollment in this course.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 301",
+    "title": "Elementary Urdu I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course sequence is based on the integration of learning outcomes across Interpersonal, Interpretive, and Presentational Modes of Communication. The emphasis is on the development of the literacy skills (reading and writing) and the aural skills (listening and speaking) through a variety of interactive class, small-group, and paired activities, project- and real life-based tasks. Learners gain familiarity with products, practices, and perspectives of the Urdu speaking communities and their cultures. Students learn basic grammar and vocabulary to meet functional performance goals at the Novice level and to build a foundation for continued language learning. During this course, students generally perform in the Novice range, although in the case of the Urdu heritage language learners, a few abilities may emerge in the Intermediate range especially in the aural skill. Read more.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 303",
+    "title": "Intermediate Urdu I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Continues where Elementary Urdu leaves off. The students are introduced to literary texts. Along with specific language tasks, criticism and analysis now form part of the curriculum. Dictation, memorizing poetry, comprehension, and engaging in longer sessions of conversation form an important part of this course. By the end of this course, students should have achieved some fluency in reading literary texts, writing short essays, and carrying on a conversation.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 304",
+    "title": "Intermediate Urdu II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This sequence is focused on the development of the four skills (reading, writing, speaking and listening) through class- and small-group activities, text- and film-based, individual and team projects in the three modes of communication. Students accomplish real-world communicative tasks in culturally appropriate ways through Urdu as they explore products, practices, and perspectives of the Urdu culture(s). Students learn more complex grammar and vocabulary to enable them to meet functional performance goals at this level and to equip them for continued life-long language learning. Students perform consistently in the Intermediate range while a few abilities may emerge in the Advanced range, especially in the case of Urdu heritage language learners. Prerequisite: Intermediate Urdu I ( MEIS-UA 303 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 401",
+    "title": "Elementary Persian I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Conversational and formal Persian with a focus on grammar, phonetics, and pronunciation of modern standard Persian through reading simple fiction, nonfiction and poetry as well as social media and the news. Writing short compositions and engaging in everyday conversations with an emphasis on the four skills of speaking, listening, reading and writing.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 403",
+    "title": "Intermediate Persian I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "MEIS-UA 402 AND MEIS-UA 401 .",
+    "description": "Builds on the skills acquired in Elementary Persian I and II through continued study of grammar and syntax. Practice in spoken Persian. Introduction to classical and modern prose and poetry.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 404",
+    "title": "Intermediate Persian II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "MEIS-UA 403 AND MEIS-UA 402 AND MEIS-UA 401 .",
+    "description": "Continued work on grammar, syntax, listening and speaking. Introduction to classical and modern Persian literature, with more focus on the news and social media literacy. Presentational and academic Persian and more complex textual and interpersonal communicative skills.  Prerequisite: Intermediate Persian I ( MEIS-UA 403 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 405",
+    "title": "Elementary Hindi",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "MEIS-UA 405 This course sequence is based on the integration of learning outcomes across Interpersonal, Interpretive, and Presentational Modes of Communication. The emphasis is on the development of the literacy skills (reading and writing) and the aural skills (listening and speaking) through a variety of interactive class-, small-group, and paired activities, project- and real life-based tasks. Students gain familiarity with products, practices, and perspectives of the diverse Hindi-speaking communities and their culture(s).They learn basic grammar and vocabulary to be able to express themselves in simple and memorized language about everyday personal topics. Thus they meet functional performance goals at the Novice level and build a foundation for continued language learning. Students generally perform in the Novice range, although in the case of the Hindi heritage language learners, a few abilities may emerge in the Intermediate range especially in the aural skills. Read more.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 406",
+    "title": "Elementary Hindi II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course sequence is based on the integration of learning outcomes across Interpersonal, Interpretive, and Presentational Modes of Communication. The emphasis is on the development of the literacy skills (reading and writing) and the aural skills (listening and speaking) through a variety of interactive class-, small-group, and paired activities, project- and real life-based tasks. Students gain familiarity with products, practices, and perspectives of the diverse Hindi-speaking communities and their culture(s).They learn basic grammar and vocabulary to be able to express themselves in simple and memorized language about everyday personal topics. Thus they meet functional performance goals at the Novice level and build a foundation for continued language learning. Students generally perform in the Novice range, although in the case of the Hindi heritage language learners, a few abilities may emerge in the Intermediate range especially in the aural skills. Read more.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 407",
+    "title": "Intermediate Hindi I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Designed to further develop fluency in oral and written communication. In addition to the class, small-group activities, and language and computer lab sessions, students are given an individual assignment to work with native speakers from the community and report on their findings. The reading assignments are designed to broaden understanding of content used for oral presentations.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 408",
+    "title": "Intermed Hindi II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This sequence is focused on the development of the four skills (reading, writing, speaking and listening) and is based on the integration of content, culture and language. Students perform in the three modes of communication as they explore products, practices, and perspectives of the diverse Hindi speaking communities and their culture(s). Students learn more complex grammar and vocabulary through class- and small-group activities, text- and film-based, individual and team projects. They learn to express themselves on topics related to the community and the world, and thus meet functional performance goals at this level and are equipped for continued life-long language learning. Students perform consistently in the Intermediate range while a few abilities may emerge in the Advanced range, especially in the case of Hindi heritage language learners. Prerequisite: Intermediate Hindi I ( MEIS-UA 407 ) or equivalent.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 409",
+    "title": "Advanced Hindi I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offers an overview of Indian culture via original texts and is designed to improve students' advanced-level reading, as well as their written and oral discourse in Hindi. Emphasis is placed on the development of linguistic skills required for a close reading and in-depth analysis of complex texts. Introduction is learner-centered, and students have a choice in the selection of the texts and topics for their presentations. Taught seminar-style, the course combines classroom discussions, oral reports, and occasional background lectures. Students should have completed the two-year sequence of Hindi or have an equOffers an overview of Indian culture via original texts and is designed to improve students' advanced-level reading, as well as their written and oral discourse in Hindi. Emphasis is placed on the development of linguistic skills required for a close reading and in-depth analysis of complex texts. Introduction is learner-centered, and students have a choice in the selection of the texts and topics for their presentations. Taught seminar-style, the course combines classroom discussions, oral reports, and occasional background lectures. Students should have completed the two-year sequence of Hindi or have an equivalent background.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 410",
+    "title": "Advanced Hindi II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is designed to further develop students\u2019 proficiency in Hindi language skills (listening, speaking, reading, and writing) at an advanced level and it aims to increase students\u2019 awareness and ability to use the Hindi language in different settings and registers. Emphasis is placed on the application of complex grammatical structures, vocabulary expansion, and cultural understanding through authentic materials and contexts. The goals of this course are to offer opportunities for students to report about current events, create narratives and arguments, express opinions and participate in debates about different issues related to Indian culture, literature, history, politics and economy. The focus is on developing higher proficiency through a variety of texts, articles related to Indian economic, historic, social and cultural issues and short stories by Premchand, Yashpal, Kamleshwar, Susham Bedi and other writers. Online resources and selected movies will be used to address the variety of topics. Read more.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 501",
+    "title": "Elementary Turkish I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Students develop basic proficiency in speaking, listening, reading and writing skills in Turkish while building grammatical knowledge and vocabulary.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 503",
+    "title": "Intermediate Turkish I",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "MEIS-UA 502 AND MEIS-UA 501 .",
+    "description": "Materials from Turkish newspapers, magazines, literature, and radio provide the basis for reading comprehension and conversational ability in modern Turkish.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 504",
+    "title": "Intermed Turkish II",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "MEIS-UA 503 AND MEIS-UA 502 AND MEIS-UA 501 .",
+    "description": "Students develop complex grammatical skills and vocabulary to enhance speaking, reading, listening and writing proficiency with the goal of engaging with both everyday and abstract topics. Prerequisite: Intermediate Turkish I ( MEIS-UA 503 ) or equivalent.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 518",
+    "title": "Topics in Middle Eastern History:",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Advanced undergraduate course that focuses on specic issues in Middle Eastern history. Topics vary each time it is offered.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 616",
+    "title": "Topics in Islamic History",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 640",
+    "title": "The Making of The Muslim Middle East, 600 - 1400",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A historical and comparative approach to the first half millennium of Islamic history. Course traces the cultural and religious strands shaping the institutions, belief systems, and practices. Using primary sources, students explore the major debates in the cultural history of this period.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 650",
+    "title": "Ottoman Empire and the World Around It",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Ottoman Empire, renowned for its enduring presence in world history,\nheld sway over vast regions spanning Eastern Europe, the Middle East, and\nNorth Africa for over six centuries. This course embarks on a comprehensive\njourney, tracing the empire's evolution from its origins as a frontier\nprincipality in Anatolia in the 14th century to its tumultuous trajectory\nthrough the centuries as a global powerhouse, ultimately culminating in its\ndissolution in the 20th century following the conclusion of World War I. As\nwe delve into the course material, we will explore how the Ottoman Empire's\npolitical, economic, and social structures underwent profound\ntransformations, shaping the lives of its diverse inhabitants.\nSimultaneously, we will contextualize the Ottoman imperial experience\nwithin the broader global context, considering its enduring impact on\nEurope, the Middle East, and North Africa, both past and present. Topics\nencompass pivotal areas such as state and identity formation, military\nencounters, technological advancements, environmental considerations, urban\nand rural life, religious and ethnic diversity, gender roles, family\nstructures, legal systems, and developments in fields ranging from science\nto art and architecture. Throughout the semester, we will enrich the\nlearning experience with complementary materials, including movies,\ndocumentaries, fictions, and field trips, to gain a holistic understanding\nof the Ottoman Empire's multifaceted history and legacy.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 660",
+    "title": "Mediterranean Worlds",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to HIST-UA 131 . Offered every other year. This course focuses on the territories around the Mediterranean Sea, once united by the Roman Empire, after their division into three major cultural zones: Latin Christendom, Byzantium, and Islamic dynasties. Despite linguistic and religious differences, the people of these zones were in constant interaction with each other. Focusing on the period from roughly 900-1600, this course traces these interactions through primary sources translated from Latin, Greek, Arabic, Hebrew and the languages of Western Europe, alongside material culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 688",
+    "title": "Topics in Modern Middle Eastern History",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 690",
+    "title": "The Emergence of The Modern Middle East",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Surveys main political, social, economic, and intellectual currents of the 20th century. Emphasis on historical background and development of current problems in the region. Topics include imperialism, nationalism, religion, Orientalism, women, class formation, oil, the Arab-Israeli crisis, and the Iranian revolution.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 697",
+    "title": "Palestine, Zionism, & Israel",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is a survey of the history of Palestine in the modern period, focusing on the conflict for control of this land from its origins in the late nineteenth century until the present. The purpose of this course is to examine the evolution of this ongoing struggle in its historical context and to try to understand why the various parties to this conflict have thought and acted as they did.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 703",
+    "title": "Islam in the World",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course focuses on the ways in which Islamic belief and practices are\ntaught, comprehended, debated and experienced in daily life in communities\nof Muslims across the contemporary world. We study the different forms such\npractices and beliefs take in the context of societies, cultures, histories\nand political economies of varying kinds, from the Middle East to\nIndonesia, from West Africa to India. We examine wide-ranging debates among\nMuslims about what is orthodox and what is unorthodox, what is permitted\nand what not, how children and adults should be taught to \"be Muslim\" and\nwhat an ethical Muslim life really is in our complex and conflict-ridden\nworld. Reading materials centers on anthropologists' close study of\ncommunities and groups across the Muslim world today.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 708",
+    "title": "Modern and Contemporary Arabic Literature",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Landmarks of Modern and Contemporary Arabic Literature\nSignificant prose works (in translation) of the Arabic literary tradition\nfrom approximately the last hundred years are considered through the prisms\nof their multiple contexts\u2014including, but not limited to, historical,\nsocial, cultural, gender, and class\u2014and also examined as works of art.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 710",
+    "title": "Masterpieces of Medieval Arabic Literature in Translation",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Survey of the masterpieces of Arabic, Persian, and Turkish literature from pre-Islamic times to the present. Selected texts in translation from the major genres, both in prose and poetry, are studied as works of art in themselves and as a reflection of the societies that produced them.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 711",
+    "title": "Literature & Society in the Middle East",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Selected works in translation of leading 20th-century poets, novelists, and short story writers that reflect changing conditions and mores within Middle Eastern and North African societies. Investigates such topics as conflicts between traditionalists and modernists, the impact of urbanization on rural societies, and the existential dilemmas of men and women.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 716",
+    "title": "The Arabian Nights",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Arabian Nights have been an essential and dynamic literary meeting point between Arabic/Islamic literature and the Western canon. This course examines both sides of this cultural dichotomy. Literary analysis of the tales includes close reading of the structure of the original as well as modern variations by authors such as Poe and Rushdie.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 717",
+    "title": "South Asian Literature",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to a selection of writings in various Indian languages (Bengali, Punjabi, Hindi, Urdu, Malayalam, Rajasthani. etc.) available in translation in English. The focus of this course is on the representation of gender and sexuality, as well as its relation to other factors such as class, caste, religion or ethnicity and how the depictions are mediated particularly through emerging fictional conventions in prose writing. The course begins with pre-independence texts and then moves on to the narratives of Partition. As the cultural and historical contexts are examined within which literature has evolved in South Asia, emphasis is also placed on the voices of women and the role they play in the development of literary movements. Finally, contemporary texts are analyzed to gain a broader understanding of how tradition and modernity are embedded in South Asian literature with emphasis on gender representations. Read more.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 718",
+    "title": "Introduction to Ancient Indian Literature",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introductory course designed to acquaint students with the great works of the ancient Indian literary tradition, a major part of which was written in Sanskrit. The earliest form of that language, called Vedic Sanskrit, is the language of the Vedic hymns, especially those of the Rig Veda. Sanskrit has had an unbroken literary tradition for over 3,000 years. This rich and vast literary, religious, and philosophical heritage is introduced in this course. In addition, students work with excerpts from the Jain and Buddhist canons written in Prakrits and examples of Tamil poetry. Selections from the Vedic literature, classical drama, epics, story literature, and lyric poetry are studied in English translation.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 720",
+    "title": "Middle Eastern Literature",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offerings (which may vary) focus on one or more Middle Eastern literary\ntraditions and/or cultural traditions and/or genres of writing, using a\nthematic or theoretical approach.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 728",
+    "title": "Women and Gender in Islam",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Investigates the complexity of the messages and models relating to gender in one of the world's most influential religious traditions. Beginning with the rise of Islam and sampling primary and secondary sources from a range of times and places, examines how foundational texts and personalities are interpreted and reinterpreted for changing times.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 729",
+    "title": "Gender,Identity,&Society in The Middle East",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "By exploring the history of the region and different theories, this course examines how social cleavages have been created and maintained in the Middle East and North Africa. It will focus on several categories such as gender, sect, religion, and class.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 747",
+    "title": "Arab Theatre & Film:",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines recent trends in contemporary Arab theatre and film, contextualizing these within a broader history of Arab performance. Particular attention is given to how experimental practitioners have explored issues of human rights and the control of territories under the modern state. Strategies addressed include the conflation of the past and present as a means of exploring the persistence of the colonial power structure in the modern Arab world; the use of the parable to speak truth to power; the incorporation of the populist entertainment forms that directly engage the audience; and the use of familiar tales to explore new political realities.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 749",
+    "title": "Age of Empires in Early Modern Eurasia: Ottomans, Safavids, and Mughals",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers a comprehensive exploration of the early modern Ottoman, Safavid, and  Mughal empires through a people-centered, non\u2013Eurocentric lens. It examines the  geographically expansive, ethnically diverse, and culturally rich worlds of these empires by  focusing on lived experiences rather than distant observers. Alongside major historical events, the course explores socio-political and cultural dynamics, including state formation, identity,  political interaction, urban and rural life, and everyday practices. Special attention is given to religious and ethnic minorities, as well as developments in science, art, and architecture, offering a holistic understanding of these empires and their enduring legacies. No Prerequisite.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 750",
+    "title": "Politics of The Middle East",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Historical-political background of the Middle East and its contemporary social and political problems, including the impact of the West; religious and liberal reactions; conflict of nationalisms (Arab, Iranian, Turkish, and Zionist); and revolutionary socialism. Specific social, political, and economic problems?using a few selected countries for comparison and analysis?including the role of the military, the intelligentsia, the religious classes, the legitimization of power, urban-rural cleavages, bureaucracy, and political parties.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 751",
+    "title": "Topics in Mideast Politics:",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 757",
+    "title": "Travel Literature",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics: \u201cimaginative geography\u201d; Greek versus Barbarian; the Hajj; Orientalism, Occidentalism, and ethnography; transnationalism in relation to class and gender; tourism; migrant workers; and exile and narratives of return. Representations of travel in different genres and contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 780",
+    "title": "Islamic Law & Society",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces students to Islamic law through a reading of its various genres and a study of a selection of secondary sources covering a number of substantive topics (for example, ritual, criminal, and public law). Also focuses on the ways Islamic law has interacted with Islamic societies in historical practice and the way it has adapted, or not adapted, to the challenges of modernity.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 781",
+    "title": "The Qu'Ran and Its Interpretation",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the content, themes and style of the Qur?an and surveying the diversity of interpretive approaches to the text (legal, mystical, sectarian, literary, and politically engaged) in the medieval and modern periods.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 782",
+    "title": "Tpcs in Islamic Studies",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 785",
+    "title": "Sociology of Religion: Islam & the Modern World",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is designed to explore the role of religion in modern societies. We will examine religion as an important social institution and also as a cultural system. We will study canonical and contemporary theories of religion (Marx, Durkheim, Weber, Dewey, and Geertz). The focus of the course, however, will be Islam. We will look at the cultural context and historical construction of Islam, as well as the different social contexts within which Islam has evolved. We will examine the relationship between Islam and modernity, including secular ideologies, gender politics, and modern democracy. We will pay particular attention to the role that Islam plays in the everyday life of those who practice it, who are affected by it, or who struggle with it as their tradition. Our goal is to study Islam not as a fixed object or authentic tradition but as a social and cultural phenomenon subject to change, contestation, and critique.  Texts may include John Dewey, A Common Faith; Karen Armstrong, Islam: A Short History; Fatima Mernissi, Islam and Democracy; Leila Ahmed, A Quiet Revolution: The Veil's Resurgence, from the Middle East to America. Elizabeth Fernea, and In Search of Islamic Feminism.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 796",
+    "title": "Iran Past and Present",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course delves into Iran's complex history, exploring key events from the sixteenth century Shi\u2019itization to modern-day tensions. We'll cover the Safavids, Afsharids, Qajars, and pivotal moments like the Constitutional Revolution, oil nationalization, and the Islamic revolution. Cultural elements, including Shi`ism, the Iranian film industry, and the role of the Supreme Leader, will be highlighted. We'll also discuss U.S.-Iran relations and examine power dynamics, wealth distribution, social status, and collective identity. Readings encompass both Iranian-authored and external sources, focusing on cultural and historical themes, such as power dynamics, wealth, and identity within religious and ethnic communities.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 798",
+    "title": "Topics in Modern Middle Eastern Culture",
+    "department": "meis_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Topics courses in Modern Middle Eastern Culture",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 863",
+    "title": "Sufis: Mystics in Islam",
+    "department": "meis_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers a general and interpretive narrative tracing of Sufism\nfrom its period of origin until recent times. It observes the development\nand spread of the so-called \u201cIslamic mysticism\u201d through the Middle East,\nAsia, Africa, and ultimately Europe and the United States. Moving beyond a\nfocus on doctrines and practices, this course situates Sufism in its\nsocial, cultural and historical contexts. We will learn how Sufi holy\npersonages gained followers, not only among tribesmen and peasants, but\nalso emperors, merchants, and bureaucrats. We will then look at how such\nalliances made leading Sufis powerful even at the zenith of European\nimperialism and in today\u2019s globalized world.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 980",
+    "title": "Internship",
+    "department": "meis_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission and placement for departmental majors from the director of undergraduate studies. 2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 997",
+    "title": "Independent Study",
+    "department": "meis_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the instructor. 1 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  },
+  {
+    "course_code": "MEIS-UA 998",
+    "title": "Independent Study",
+    "department": "meis_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the instructor. 1 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/meis_ua/"
+  }
+]

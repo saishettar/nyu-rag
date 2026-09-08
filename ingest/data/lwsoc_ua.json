@@ -1,0 +1,56 @@
+[
+  {
+    "course_code": "LWSOC-UA 1",
+    "title": "Law and Society",
+    "department": "lwsoc_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the study of law as a political practice. We treat law as a political practice from multiple disciplinary standpoints, examining how law and a range of legal institutions embody and constitute political, cultural, economic, and social forces. We examine the mobilization of rights, the use of litigation, and vernacular legal discourse, largely within the context of the United States, but with reference to transnational struggles. In the course of doing so, we study the relationship between making social policy and the use of litigation by social movements. Specifically, we study litigation strategies at the appellate and trial levels by focusing on three sociolegal movements: the civil rights movement, the women?s movement, and class action tort cases. What are the political dimensions of legal arguments and legal remedies for racial and gender discrimination and toxic torts? Under what conditions is law an empowering and/or effective political resource? What are the limits of legality in the making of social change?",
+    "source_url": "https://bulletins.nyu.edu/courses/lwsoc_ua/"
+  },
+  {
+    "course_code": "LWSOC-UA 503",
+    "title": "Criminology",
+    "department": "lwsoc_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the making of criminal laws and their enforcement by police, courts, prisons, probation and parole, and other agencies. Criminal behavior systems, theories of crime and delinquency causation, victimization, corporate and governmental crime, and crime in the mass media. Policy questions.",
+    "source_url": "https://bulletins.nyu.edu/courses/lwsoc_ua/"
+  },
+  {
+    "course_code": "LWSOC-UA 506",
+    "title": "Juvenile Justice",
+    "department": "lwsoc_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Addresses the history of the juvenile justice system and the nature and extent of youth offending, policies, and societal implications. Focuses on explanatory correlates and theoretical perspectives within research, and also on strategies used to prevent, treat, and control. Environmental impacts include schools, families, economics, and communities, in addition to the study of individual traits, peers, and drug use. Students apply these collaboratively and experientially to the structure within which juveniles are taken into custody, treated, processed, rehabilitated, or punished. Finally, students examine basic criminal justice research methods\nand the role of science and inquiry for effective policies, programming, and reform.",
+    "source_url": "https://bulletins.nyu.edu/courses/lwsoc_ua/"
+  },
+  {
+    "course_code": "LWSOC-UA 951",
+    "title": "Tpcs in Law & Society:",
+    "department": "lwsoc_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/lwsoc_ua/"
+  },
+  {
+    "course_code": "LWSOC-UA 997",
+    "title": "Independent Study",
+    "department": "lwsoc_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/lwsoc_ua/"
+  },
+  {
+    "course_code": "LWSOC-UA 998",
+    "title": "Independent Study",
+    "department": "lwsoc_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/lwsoc_ua/"
+  }
+]

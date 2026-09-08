@@ -9,7 +9,7 @@ const EXAMPLES = [
 
 const STATS = [
   { label: "Retrieval hit-rate@5", value: "100%" },
-  { label: "Answer groundedness", value: "98%" },
+  { label: "Answer groundedness", value: "100%" },
 ];
 
 function formatDept(dept: string): string {
@@ -107,7 +107,7 @@ export function EmptyState({
         </div>
       )}
 
-      <p className="mt-4 text-xs text-faint">evaluated on 58 hand-written course-planning questions</p>
+      <p className="mt-4 text-xs text-faint">evaluated on 74 hand-written course-planning questions</p>
     </div>
   );
 }

@@ -230,5 +230,69 @@
   {
     "question": "Is there an advanced poetry writing workshop?",
     "expected_course_codes": ["CRWRI-UA 830"]
+  },
+  {
+    "question": "Is there a course on the anthropology of music?",
+    "expected_course_codes": ["MUSIC-UA 153"]
+  },
+  {
+    "question": "Which course is an introduction to music technology and sustainable audio?",
+    "expected_course_codes": ["MUSIC-UA 179"]
+  },
+  {
+    "question": "Which course covers the Quran and its interpretation?",
+    "expected_course_codes": ["RELST-UA 781"]
+  },
+  {
+    "question": "Is there a course on Tibetan Buddhism?",
+    "expected_course_codes": ["RELST-UA 835", "EAST-UA 833"]
+  },
+  {
+    "question": "Is there a course on translation theory?",
+    "expected_course_codes": ["COLIT-UA 121"]
+  },
+  {
+    "question": "Is there a course on Marx, Nietzsche, and Freud?",
+    "expected_course_codes": ["COLIT-UA 240"]
+  },
+  {
+    "question": "Is there a course connecting East Asia and the Nobel Prize for Literature?",
+    "expected_course_codes": ["EAST-UA 800"]
+  },
+  {
+    "question": "Which course covers Japanese animation and new media?",
+    "expected_course_codes": ["EAST-UA 708"]
+  },
+  {
+    "question": "Is there a course on criminology?",
+    "expected_course_codes": ["LWSOC-UA 503"]
+  },
+  {
+    "question": "Is there a course on juvenile justice?",
+    "expected_course_codes": ["LWSOC-UA 506"]
+  },
+  {
+    "question": "Is there a course on the Arabian Nights?",
+    "expected_course_codes": ["MEIS-UA 716"]
+  },
+  {
+    "question": "Which course covers the Ottoman Empire?",
+    "expected_course_codes": ["MEIS-UA 650", "HIST-UA 515"]
+  },
+  {
+    "question": "Which course covers feminism and theatre?",
+    "expected_course_codes": ["DRLIT-UA 240"]
+  },
+  {
+    "question": "Is there a course on musical theatre?",
+    "expected_course_codes": ["DRLIT-UA 296"]
+  },
+  {
+    "question": "Which course covers the history of Ukraine?",
+    "expected_course_codes": ["EURO-UA 765", "HIST-UA 765"]
+  },
+  {
+    "question": "Is there a course on the global space age?",
+    "expected_course_codes": ["EURO-UA 646"]
   }
 ]

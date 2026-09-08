@@ -1,0 +1,866 @@
+[
+  {
+    "course_code": "EAST-UA 91",
+    "title": "East Asian Art I: China, Korea, Japan to 1000 Ce",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the art and culture of the Far East, presented in a chronological and thematic approach corresponding to the major dynastic and cultural changes of China, Korea, and Japan. Teaches how to \"read\" works of art in order to interpret a culture or a historical period; aims at a better understanding of the similarities and differences among the cultures of the Far East.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 92",
+    "title": "East Asian Art II: China, Korea, Japan to 1000 Ce",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A continuation of introduction to the art and culture of the Far East, presented in a chronological and thematic approach corresponding to the major dynastic and cultural changes of China, Korea, and Japan. Teaches how to \"read\" works of art in order to interpret a culture or a historical period; aims at a better understanding of the similarities and differences among the cultures of the Far East.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 95",
+    "title": "Topics in Asian History",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "EAST-UA 95 4 points.\nTopics vary from semester to semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 201",
+    "title": "Elementary Chinese I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Designed to develop and reinforce language skills in listening, speaking, reading, and writing as it relates to everyday life situations. The objectives are: to master the Chinese phonetic system (pinyin and tones) with satisfactory pronunciation; to understand the construction of commonly used Chinese Characters (both simplified and traditional) and learn to write them correctly; to understand and use correctly basic Chinese grammar and sentence structures; to build up essential vocabulary; to read and write level appropriate passages; to become acquainted with aspects of Chinese culture and society related to the course materials.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 202",
+    "title": "Elementary Chinese II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 201 OR EAST-UA 9201 OR CHIN-SHU 101 OR (CHIN-SHU 101S AND CHIN-SHU 101S2).",
+    "description": "Designed to develop and reinforce language skills in listening, speaking, reading, and writing as it relates to everyday life situations. The objectives are: to master the Chinese phonetic system (pinyin and tones) with satisfactory pronunciation; to understand the construction of commonly used Chinese Characters (both simplified and traditional) and learn to write them correctly; to understand and use correctly basic Chinese grammar and sentence structures; to build up essential vocabulary; to read and write level appropriate passages; to become acquainted with aspects of Chinese culture and society related to the course materials.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 203",
+    "title": "Intermediate Chinese I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 202 OR EAST-UA 9202 OR CHIN-SHU 102 OR (CHIN-SHU 102S AND CHIN-SHU 102S2).",
+    "description": "Designed to consolidate the student's overall aural-oral proficiency. Focuses gradually on the written aspect of Chinese. The objectives are: to be able to obtain information from extended conversation; to both express and expound on, in relative length, feelings and opinions on common topics; to expand vocabulary and learn to decipher meaning of compound words; to develop reading comprehension of extended narrative, expository and simple argumentative passages; to solve non-complex textual problems with the aid of dictionaries; to write in relative length personal narratives, informational narratives, comparison and discussion of viewpoints with level-appropriate vocabulary and grammatical accuracy, as well as basic syntactical cohesion; to continue being acquainted with aspects of Chinese culture and society related to the course materials.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 204",
+    "title": "Intermediate Chinese II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 203 OR EAST-UA 9203 OR CHIN-SHU 201 OR (CHIN-SHU 201S1 AND CHIN-SHU 201S2).",
+    "description": "Designed to consolidate the student's overall aural-oral proficiency. Focuses gradually on the written aspect of Chinese. The objectives are: to be able to obtain information from extended conversation; to both express and expound on, in relative length, feelings and opinions on common topics; to expand vocabulary and learn to decipher meaning of compound words; to develop reading comprehension of extended narrative, expository and simple argumentative passages; to solve non-complex textual problems with the aid of dictionaries; to write in relative length personal narratives, informational narratives, comparison and discussion of viewpoints with level-appropriate vocabulary and grammatical accuracy, as well as basic syntactical cohesion; to continue being acquainted with aspects of Chinese culture and society related to the course materials.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 205",
+    "title": "Advanced Chinese I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 204 OR EAST-UA 9204 OR EAST-UA 232 OR EAST-UA 9232 OR CHIN-SHU 202 ).",
+    "description": "Designed to further develop proficiency in speaking and writing through readings on and discussions of socio-cultural topics relevant to today's China. Focuses on improving reading comprehension and writing skills. The objectives are: to further improve oral communicative competence by incorporating semi-formal or formal usages; to acquire vocabulary and patterns necessary for conducting semi-formal or formal discussions of socio-cultural topics; to increase reading speed of texts with more advanced syntax; to learn to make context-based guess about the meaning of a new word, conduct sentence analysis and solve textual problems with the aid of dictionaries; to write and present more fully developed narratives or reasoned and structured arguments in length; to learn to employ basic rhetoric methods; to learn to appreciate stylistic usage of Chinese language.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 206",
+    "title": "Advanced Chinese II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 205 OR EAST-UA 9205 OR CHIN-SHU 301 ).",
+    "description": "Designed to further develop proficiency in speaking and writing through readings on and discussions of socio-cultural topics relevant to today's China. Focuses on improving reading comprehension and writing skills. The objectives are: to further improve oral communicative competence by incorporating semi-formal or formal usages; to acquire vocabulary and patterns necessary for conducting semi-formal or formal discussions of socio-cultural topics; to increase reading speed of texts with more advanced syntax; to learn to make context-based guess about the meaning of a new word, conduct sentence analysis and solve textual problems with the aid of dictionaries; to write and present more fully developed narratives or reasoned and structured arguments in length; to learn to employ basic rhetoric methods; to learn to appreciate stylistic usage of Chinese language.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 207",
+    "title": "Topics in Conversational Chinese",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "EAST-UA 204 .",
+    "description": "This is a 2-credit repeatable course designed for students who have\ncompleted Intermediate Chinese II or equivalent, and wish to get additional\nopportunities to further expand their vocabulary and grammatical knowledge\nwith a focus on strengthening their conversational skills and/or get more\nchance to practice speaking outside of their regular Advanced Chinese I/II\nclasses. Students will perform in various conversational tasks, such as\npresenting, discussing, debating, etc. and improve the description and\nnarration skills that the advanced level learners are expected to have.\nStudents will engage in conversation in a clearly participatory manner in\norder to communicate information on autobiographical topics, as well as\ntopics of community, national, or international interest.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 208",
+    "title": "Topics in Advanced Conversational Chinese",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "EAST-UA 206 .",
+    "description": "EAST-UA 208 Prerequisites: EAST-UA 206 or permission of the instructor. 2 points per term.\nDevelops intensive speaking and listening skills using a wide range of topics (general interest, current affairs, special fields of interest). Strengthens students' ability to give detailed narratives, respond to unanticipated complications, confidently discuss and support opinions and hypotheses, and master basic structures of the spoken language.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 211",
+    "title": "Learning Chinese through Media",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "( EAST-UA 206 OR EAST-UA 9206).",
+    "description": "Thisis a 4-credits post-advanced level course designed for students who finish advanced Chinese study and want to further improve their Chinese through exposure to various media sources, such as films, magazines, newspapers, TV, Internet, and user-created content (UCC). Students will learn conversation and composition from the sources, further develop communication skills in Chinese, and discuss various topics related to contemporary issues in China.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 213",
+    "title": "Readings in Chinese Poetry I",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "( EAST-UA 206 OR EAST-UA 9206  OR Mandarin, Simp Lang Plcmt Placement >= 3302.13 OR Mandarin, Trad Lang Plcmt Placement >= 3302.",
+    "description": "Designed to help students understand and appreciate the linguistic and aesthetic features of Chinese language rendered in poetic form and to improve their ability to read and interpret authentic texts in general. Integrates language learning with poetry study, introduces the formal structure of Chinese classical poetry and surveys its stylistic variations at different historical conjunctures. Conducted primarily in Chinese. English translations of the poems are provided as references from time to time.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 214",
+    "title": "Readings in Chinese Poetry II",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "( EAST-UA 206 OR EAST-UA 9206 OR EAST-UA 213 ).",
+    "description": "EAST-UA 213 , 214 Prerequisites: EAST-UA 206 and permission of the instructor. Offered every semester. 2 points per term.\nDesigned to help students understand and appreciate the linguistic and aesthetic features of the Chinese language rendered in poetic form and to improve their ability to read and interpret authentic texts in general. Integrates language learning with poetry study, introduces the formal structure of Chinese classical poetry, and surveys its stylistic variations at different historical conjunctures. Conducted primarily in Chinese. English translations of the poems are provided as references from time to time.\nSample syllabus for 213 (PDF), 214 (PDF)",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 216",
+    "title": "Learning Chinese through Reading and Writing",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "EAST-UA 204 or EAST-UA 232 .",
+    "description": "This is a 2-credit course designed for students who have completed Intermediate Chinese II or equivalent and wish to expand their knowledge of the Chinese language system, including the use of vocabulary; grammar appropriate for different formats and contexts; knowledge of the logical relationship between sentences and the connection between paragraphs; and the fundamentals of Chinese writing, including the correct use of punctuation and writing styles of various essays. Students will benefit from this additional language practice concurrent with their Advanced Chinese I/II classes and read authentic texts on subjects spanning Chinese society and culture in contemporary contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 221",
+    "title": "Readings in Chinese Culture I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 206 OR EAST-UA 9206 OR EAST-UA 212 OR EAST-UA 222 OR EAST-UA 224 OR EAST-UA 226 ).",
+    "description": "Designed to enhance Chinese proficiency through reading authentic materials rich in cultural connotations. Stresses primarily reading and writing. The objectives are: to develop speaking skills needed for semi-formal or formal presentation on academic topics; to develop specialized vocabulary; to further improve reading speed and develop skills needed to conduct textual analysis on and, on some occasions, translate texts with syntactical sophistication and stylistic nuance; to develop responsiveness to and ability to interpret linguistic features of different genres and writing styles; to advance strategies for autonomous learning of Chinese from an analytical perspective.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 222",
+    "title": "Readings in Chinese Culture II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "( EAST-UA 206 OR EAST-UA 9206 OR EAST-UA 212 OR EAST-UA 221 OR EAST-UA 224 OR EAST-UA 228).",
+    "description": "EAST-UA 222 Prerequisites: EAST-UA 206 and permission of the instructor. Offered every semester. 4 points per term.\nDesigned to enhance Chinese proficiency through reading authentic materials rich in cultural connotations. Stresses primarily in reading and writing. The objectives are: to develop speaking skills needed for a semi-formal or formal presentation on academic topics; to develop specialized vocabulary; to further improve reading speed and develop skills needed to conduct textual analysis and, on some occasions, to translate texts with syntactical sophistication and stylistic nuance; to develop responsiveness to and ability to interpret linguistic features of different genres and writing styles; to advance strategies for autonomous learning of Chinese from an analytical perspective.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 223",
+    "title": "Politico-Philosophical Texts in Classical Chinese",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 226 .",
+    "description": "This course is designed to be a continuation of Introduction to Classical Chinese ( EAST-UA 226 ). Through close reading and understanding of selected foundational texts of ancient Chinese political and philosophical thoughts, the course aims to further familiarize students with important linguistic features unique to Classical Chinese and develop their reading comprehension skills in this highly stylized linguistic form. Readings will be selected from The Analects (\u8ad6\u8a9e), Mencius (\u5b5f\u5b50)\uff0cMozi (\u58a8\u5b50),\uff0cZhuangzi (\u838a\u5b50)\uff0cXunzi (\u8340\u5b50)\uff0cHan Feizi (\u97d3\u975e\u5b50)\uff0cBook of Lord Shang (\u5546\u541b\u66f8) and Springs &amp; Autumns of Master L\u00fc (\u5442\u6c0f\u6625\u79cb)\uff0cas well as from writings by Han Dynasty thinkers such as Chao Cuo (\u6641\u932f) and Jia Yi (\u8cc8\u8abc) . This course is particularly suitable for EAS or humanities and social science majors with an interest to consult these readings in their own advanced studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 224",
+    "title": "Narrative Texts in Classical Chinese",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 226 .",
+    "description": "his course is a continuation of Introduction to Classical Chinese ( EAST-UA\n226 ). It is designed as a post-advanced level intensive reading class for\nundergraduate students who already have attained advanced proficiency in\nModern Mandarin and basic knowledge in Classical Chinese, and for whom\nClassical Chinese is necessary for them to conduct research in their\nadvanced studies. Texts to be covered in the class will include previously\ntaught materials and be mainly selected from primary historical sources\nsuch as \u5de6\u4f20\uff0c\u53f2\u8bb0, \u6c49\u4e66\uff0c \u540e\u6c49\u4e66\uff0c \u4e09\u56fd\u5fd7 and literary sources like \u8d4b\uff0c \u795e\u8bdd\uff0c \u5fd7\u602a\uff0c \u4f20\u5947\uff0c \u7b14\u8bb0 and\n\u5c0f\u8bf4.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 225",
+    "title": "Chinese Language and Structure",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This is a 4-credit Advanced level language course designed for\nnon-heritage students who wish to review and reinforce what they have\nlearned in the elementary and/or intermediate level courses. Through\nintense and systematic study of essential Chinese grammatical points\ncovered in earlier courses, the course aims to provide a solid footing for\nnon-heritage students before they more on to regular Advanced I ( EAST-UA\n205 ) and/or II ( EAST-UA 205 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 226",
+    "title": "Introduction to Classical Chinese",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "( EAST-UA 206 OR EAST-UA 9206 OR EAST-UA 212 OR EAST-UA 221 OR EAST-UA 222 OR EAST-UA 224 OR Mandarin, Simp Lang Plcmt Placement >= 3302.26 OR Mandarin, Trad Lang Plcmt Placement >= 3302.",
+    "description": "This course is designed to give students an introduction to basic syntax, grammar, and vocabulary of Classical Chinese through close readings of authentic texts. Almost all these texts are historically significant canon texts that are extremely rich in classical Chinese cultural connotation. They are selected from a wide variety of genres, such as historical literature, philosophical and political writings, written correspondence, poetry, essay, some of which are unique to Chinese culture. The course aims to develop the students' reading and comprehension skills in this highly stylized form of written Chinese, acquaint students not only with the classic Chinese cultural heritage but also underlying working mechanism that is in many ways relevant to the form and usage of today\u2019s Mandarin Chinese.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 231",
+    "title": "Elementary Chinese for Advanced Beginners",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course is designed for students who can understand and speak conversational Chinese related to daily-life situations, but have not learned to read/write Chinese characters. This includes students who were raised in a non-Chinese speaking country but in a home where Mandarin Chinese dialect was spoken, and/or students who have acquired a certain level of Mandarin Chinese language proficiency (primarily speaking and listening) by living or working in a Chinese speaking country/region for an extended time. Students who understand or speak a Chinese dialect other than Mandarin should consult the Chinese language faculty about whether this is the appropriate course for them. This course aims to develop students\u2019 correct pronunciation, grammatical accuracy and overall competence in reading and writing.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 232",
+    "title": "Intermediate Chinese for Advanced Beginners",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Continuation of Elementary Chinese for Advanced Beginners.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 247",
+    "title": "Elementary Japanese I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introductory course in modern spoken and written Japanese, designed to develop fundamental skills in the areas of speaking, listening, reading, and writing. Gives contextualized instructions to develop both communicative and cultural competency. Systematically introduces the Japanese writing system (Hiragana, Katakana, and Kanji).",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 248",
+    "title": "Elementary Japanese II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 247 with a Minimum Grade of C-).",
+    "description": "No previous training in the language is required for EAST-UA 247 . Prerequisite for EAST-UA 248 : EAST-UA 247 with a minimum grade of C-. Offered in the fall and spring. 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 249",
+    "title": "Intermediate Japanese I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 248 with a Minimum Grade of C-).",
+    "description": "Continuing study of Japanese at the intermediate level. Stresses reading comprehension, spoken fluency, and composition, with materials organized around social and cultural topics; continues to introduce new Kanji characters.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 250",
+    "title": "Intermediate Japanese II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 249 with a Minimum Grade of C-).",
+    "description": "Prerequisite for EAST-UA 249 : EAST-UA 248 with a minimum grade of C-. Prerequisite for EAST-UA 250 : EAST-UA 249 with a minimum grade of C-. Offered in the fall and spring. 4 points per term.\nContinuing study of Japanese at the intermediate level. Stresses reading comprehension, spoken fluency, and composition, with materials organized around social and cultural topics. Continues to introduce new Kanji characters.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 252",
+    "title": "Advanced Japanese I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "( EAST-UA 250 OR Japanese Language Placement Placement >= 3302.",
+    "description": "Continuing study of Japanese at the advanced level. Stresses reading comprehension, spoken fluency, and composition; uses original materials, such as newspaper/magazine articles, TV news, and video. Introduces additional Kanji characters. Advanced use of Japanese and character dictionaries.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 253",
+    "title": "Advanced Japanese II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 252 .",
+    "description": "Prerequisite for EAST-UA 252 : EAST-UA 250 with a minimum grade of C+. Prerequisite for EAST-UA 253 : EAST-UA 252 with a minimum grade of C+. Offered in the fall and spring. 4 points per term.\nContinuing study of Japanese at the advanced level. Stresses reading comprehension, spoken fluency, and composition; uses original materials, such as newspaper/magazine articles, TV news, and video. Introduces additional Kanji characters. Advanced use of Japanese and character dictionaries.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 254",
+    "title": "Elementary Korean I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "First-year Korean designed to introduce the Korean language and alphabet, Hangul. This course provides a solid foundation in all aspects of the language, including speaking, listening, reading, and writing. Students study the language\u2019s orthographic and phonetic systems, grammar, syntax, and vocabulary within social and cultural contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 255",
+    "title": "Elementary Korean II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 254 or Korean Language Placement Score 21.",
+    "description": "First-year Korean designed to introduce the Korean language and alphabet, Hangul. This course provides a solid foundation in all aspects of the language, including speaking, listening, reading, and writing. Students study the language\u2019s orthographic and phonetic systems, grammar, syntax, and vocabulary within social and cultural contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 256",
+    "title": "Intermediate Korean I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 255 OR EAST-UA 281 or Korean Language Placement Score 41.",
+    "description": "The Korean language at the intermediate level: phonetics, grammar, syntax, and vocabulary. Emphasizes the development of communicative skills in speaking, reading, and writing. Develops the language\u2019s major social and cultural contexts. Requires students to write about and discuss various topics.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 257",
+    "title": "Intermediate Korean II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 256 with a Minimum Grade of C-).",
+    "description": "Prerequisite for EAST-UA 256 : Elementary Korean II ( EAST-UA 255 ), Elementary Korean for Advanced Speakers ( EAST-UA 281 ) or placement exam. Prerequisite for EAST-UA 257 : EAST-UA 256 or placement exam. Offered in the fall and spring. 4 points.\nThe Korean language at the second-year level: phonetics, grammar, syntax, and vocabulary. Emphasizes the development of communicative skills in speaking, reading, and writing. Develops the language's major social and cultural contexts. Requires students to write about and discuss various topics.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 258",
+    "title": "Advanced Korean I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 257 with a Minimum Grade of C- OR EAST-UA 282 with a Minimum Grade of C-).",
+    "description": "This course is designed to assist advanced students of Korean language as they continue to learn skills in conversation, reading, and writing. Reading Korean newspapers and visiting Korean Web sites are integrated as part of the course\u2019s instruction.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 259",
+    "title": "Advanced Korean II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 258 with a Minimum Grade of C-).",
+    "description": "This course is designed to assist advanced students of Korean language as they continue to learn skills in conversation, reading, and writing. Reading Korean newspapers and visiting Korean Web sites are integrated as part of the course\u2019s instruction.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 261",
+    "title": "Media Korean",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "( EAST-UA 259 OR EAST-UA 299 OR Korean Language Placement Placement >= 3302.",
+    "description": "This course is designed to improve students? understanding of written and spoken Korean through exposure to various media sources, such as newspapers, magazines, TV, and film. Class discussions help enhance the students? speaking proficiency as well.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 262",
+    "title": "Conversation & Composition I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 253 .",
+    "description": "This course is designed for students who have obtained post-advanced level of aural and oral as well as reading and writing skills in Japanese.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 263",
+    "title": "Readings in Japanese Cultures II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 253 .",
+    "description": "This course is intended for students who are interested in using Japanese in their future career. In this course, we will 1) discuss and raise awareness of the cultural difference in work environment between Japan and other countries, 2) discuss cultural and social topics through the topic of business cases, 3) reinforce grammatical features from the previous course, including keigo, the honorific language, 4) improve intermediate to advanced grammatical structures, focusing on those of JLPT N1 to N3.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 264",
+    "title": "Readings in Japanese Literature I",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 253 .",
+    "description": "This course is designed for those who already have more than basic Japanese skills to conduct daily conversations and write academic essays, but want to reach the next proficiency level.Throughout the semester, students will read short stories written by prominent Japanese authors (Meiji era to present) who are well-known in Japanese society.  Their stories are often covered in \u56fd\u8a9e textbooks.  This course aims to help students further their four Japanese language skills through extensive reading.  They will read not only to understand the storyline but also to read between the lines and appreciate the different types of writing styles, by looking at the historical and cultural background (for example) and analyzing expressions in the stories.  In addition, students will practice discussing them both orally and in writing.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 266",
+    "title": "Readings in Contemporary Japanese Writings",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 253 .",
+    "description": "Close readings in contemporary Japanese writings in social commentaries, history and literature. Emphasizes furthering reading and writings skills, and to a lesser extent speaking and listening. Students develop further strategies for autonomous learning.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 270",
+    "title": "Topics in Japanese Language",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "EAST-UA 250 .",
+    "description": "This course is designed for students to benefit from pedagogical materials newly developed by the instructor for Japanese language study. The specific content and materials will vary depending on the instructor and the focus of the course in a given semester. What remains consistent is the emphasis on innovation in course design and the enthusiasm that comes from exploring new approaches to Japanese language learning.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 271",
+    "title": "Intermediate Japanese Reading Practice",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course is designed for students whose levels of Japanese are Intermediate I and Intermediate II. The overall goal of this course is to help students build reading speed, reading fluency, vocabularies, expressions, and writing skills through experiencing the pleasure of reading. Students read self-selected Japanese reading materials and read them independently at their own pace using the extensive reading approach (Day & Bamford, 1998). The focus of the class will be individual reading activity and consultations with the instructor. Additional activities, such as book talk, reading-aloud, presentations, and discussions will be incorporated\ninto the class.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 273",
+    "title": "Advanced Japanese Reading Practice",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course is designed for students whose levels of Japanese are Advanced I and above. The overall goal of this course is to help students build reading speed, reading fluency, vocabularies, expressions, and writing skills through experiencing the pleasure of reading. Students read self-selected Japanese reading materials and read them independently at their own pace using the extensive reading approach (Day & Bamford, 1998). The focus of the class will be individual\nreading activity and consultations with the instructor. Additional activities, such as book talk, reading-aloud, presentations, and discussions will be incorporated into the class.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 281",
+    "title": "Elementary Korean for Advanced Speakers",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This intensive elementary course covers the first-year Korean material in a single semester. The course is designed for students with some Korean-speaking background, who can understand and speak basic to intermediate conversational Korean but do not have previous formal language training in reading and writing. It aims to develop students\u2019 correct pronunciation, grammatical accuracy and overall competence in reading and writing.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 282",
+    "title": "Intermediate Korean for Advanced Speakers",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "( EAST-UA 281 OR EAST-UA 255 OR Korean Language Placement Placement >= 3302.",
+    "description": "This intensive intermediate course covers the second-year Korean material in a semester. The course is designed for students with intermediate-level speaking proficiency but with reading and writing ability equivalent to a student who has completed elementary level Korean, who can understand, with near-standard pronunciation and without basic major grammatical errors, conversational Korean related to daily-life situations and simple sociocultural topics. It aims to further strengthen students\u2019 correct pronunciation and intonation, grammatical accuracy, ability to understand differences in nuances and overall competence in reading and writing.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 283",
+    "title": "Structure of Korean",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The class is designed for students who would like to enhance the understanding the linguistic features of Korean. The Structure of Korean introduces various aspects of the Korean language, focusing on its uniqueness in light of general linguistics. The course begins with a brief introduction to the language structure in general and proceeds to more extensive overviews of the Korean language such as genetic affiliation, historical development, lexicon, writing system, sound patterns, word structure, and sentence structure.  The primary objective of the course is to gain a general understanding of the Korean language and to be able to analyze some of the linguistic phenomena that are unique to the Korean language.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 299",
+    "title": "Readings in Modern Korean",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 259 ).",
+    "description": "This advanced reading course provides students the opportunity to enhance their Korean literacy skills while doing some concentrated reading on issues, areas, and genres of their own interest. A wide range of texts is used in class, including fiction, poetry, social and cultural criticism, and journalism, among others.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 300",
+    "title": "Topics",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 302",
+    "title": "Topics in East Asian Language Studies",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "EAST-UA 204 or EAST-UA 231 or EAST-UA 250 or EAST-UA 257 or EAST-UA 282 .",
+    "description": "This course is designed for students to benefit from a pedagogical material that is being newly developed by the instructor. The language taught might be Chinese, Japanese, or Korean. The content and materials covered will also vary widely depending on who is teaching the course in the particular semester. What remains the same is the novelty and enthusiasm that comes from innovative course design.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 303",
+    "title": "Topics in East Asian Language Studies",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "EAST-UA 204 or EAST-UA 231 or EAST-UA 250 or EAST-UA 257 or EAST-UA 282 .",
+    "description": "This course is designed for students to benefit from a pedagogical material that is being newly developed by the instructor. The language taught might be Chinese, Japanese, or Korean. The content and materials covered will also vary widely depending on who is teaching the course in the particular semester. What remains the same is the novelty and enthusiasm that comes from innovative course design.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 351",
+    "title": "Belief and Social Life in China",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Chinese word for ?religion? means ?teaching.? Explores what Chinese people ?taught? themselves about the person, society, and the natural world and thus how social life was constructed and maintained. Examines in historical perspective the classic texts of the Taoist and Confucian canon and their synthesis; Buddhist, especially Ch?an (Zen). Discusses the practices of filiality in Buddhism, Confucian orthodoxy, and in folk religion.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 507",
+    "title": "Asian Art in Ny Museums & Galleries",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "(ARTH-UA 513 OR ARTH-UA 510 OR ARTH-UA 531 OR ARTH-UA 512 OR ARTH-UA 520 ).",
+    "description": "A hands-on fieldwork course that meets at museum storerooms and exhibitions, private collections, and commercial galleries. The material studied varies according to the museum exhibitions available at the time the course is offered. Emphasizes visual analysis and requires active discussion of the works of art. Particularly suitable for students interested in a museum or gallery career.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 517",
+    "title": "Problems in Contemporary China",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is designed to examine selected major problems in contemporary China (1980s to the present).  On the one hand, these problems can be seen as partially representative of China\u2019s social, economic, cultural, and intellectual transformation from a Maoist-socialist state to a capitalist one-party state, transformations that have had and continue to have far-reaching consequences for China and the world in the past three decades. On the other hand, and just as importantly, these problems also can be seen as partially representative of the global transformations that intersected with and helped shape the direction of China\u2019s changes, just as China firmly integrated itself into global capitalism and its attendant systems of knowledge production and social formations beginning in the 1980s.  I have chosen to focus on the problems in which I am particularly interested; there are many other potential ones. If you do not see something on this syllabus, we will not be covering it in this class.  However, as there is a mini-research paper requirement at the end of the semester, you may explore another aspect of contemporary China in which you are particularly interested to fulfill that requirement.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 518",
+    "title": "The Western Encounter with Early China",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "4 points, seminar. First offered spring 2016, and every other year thereafter. Prerequisite: Ideally, it should follow the departmentally required Cultures & Contexts course.\nThis class will attempt to trace the development of the field traditionally known as \u201cSinology\u201d in the West. We will study a range of East-West encounters, including the accounts of European explorers beginning with Marco Polo, the pioneering translations of scholarly missionaries, and the academic contributions of European and American linguists and historians. Through reading the scholarship of earlier generations, students can expect to acquire basic familiarity with the Chinese classics, but the focus of the course will be on historiography. In addition to common reading assignments, students will be asked to write three short papers and give in\u2010class presentations on the work of particular Sinologists.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 526",
+    "title": "Chinese Cultural Revolution in the Global Context",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "\"China\u2019s \u201cGreat Proletarian Cultural Revolution\u201d (GPCR/CR, 1966-1976) was one of the most important political and cultural events of the twentieth century. For various reasons, including the highly-contested nature of the decade and the difficulty of pursuing serious scholarship on the issue in the PRC, studies of the CR have, until very recently, remained partial and highly polemical. Nevertheless, there has been an explosion of new work on the topic in recent years, the most intriguing of which seeks to rethink the CR in heretofore unexplored ways. Intended for students who have at least some background in modern Chinese history, cultural studies, literature and/or film, this course will exploit and engage with these new ways of thinking about this hugely consequential period.\n\nThrough careful reading, discussion, and research, this class will explore different dimensions of the CR: what did it mean to those who participated at the time of their participation? What did it mean in its aftermath? Why and how did such a utopian movement devolve into its opposite? How can we think about the CR today and what should our ethical considerations be in doing so?  Students will be asked to check their prejudices at the door, to come in with fresh minds and fresh ideas, so as to explore how such a monumental movement could have taken hold in China for a decade. We will not start with any pre-judgements about the CR, its politics, its meaning, or its afterlives. Rather, these will be the objects of our discovery.\"",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 531",
+    "title": "Asia'S Revolutns: China/ India/Vietnam, 1885-1962",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The aim of this introductory course is to develop a comparative understanding of the national independence movements in China, India, and Vietnam, as well as the context within which they unfolded, in the period 1885-1962. The course will introduce students to some of the figures in modern Asian history who played a major role in the transition of India and Vietnam from colonial subordination to independent nationhood and of China from its semi-colonial status to liberation. The principal figures whose writings will be studied and compared are Mohandas Gandhi, Mao Zedong, and Ho Chi Minh in order to develop a third angle of comparison. The course will give due attention to other relevant figures such as Gokhale, Tilak, Jinnah, and Nehru in the case of India; Li Hongzhang, Sun Yatsen, Chen Duxiu, La Dazhao, and Chiang Kai-shek in the case of China; Phan Boi Chau in the case of Vietnam.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 532",
+    "title": "Empire & Imperialism in East Asia",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines Japanese colonialism in Hokkaido, Okinawa, Taiwan, Korea, Manchuria, and beyond from the 1870s to the end of World War II, and then again through its informal re-emergence in partnership with the US during the Cold War era to the present day. It uses history, literature, and film to learn about assimilation, the \"comfort woman\" issue, Marxism in East Asia, US militarism, the emergence of Asian \"economic miracles,\" and nuclear power.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 536",
+    "title": "Gender and Radicalism in Modern China",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the interrelated rise of political, ideological, and cultural radicalisms and of gender issues as a major subject and object of transformative social activity in 19th- and 20th-century China. Introduces approaches to gender theory and historical analysis through the use of primary and secondary sources on China, as well as through films and other visuals. Emphasis is on synthesizing contradictory material and on historical analytical issues. Includes heavy writing and class discussion component.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 540",
+    "title": "Chinese Film and Society",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines Chinese films in broad social, political, and cultural contexts. The specific topic varies from filmic representation of revolution and socialism to the avant-garde experimentation in post-Mao China. The approach is comparative and analytical, with a focus on the particular experiences of Chinese modernity as refracted by the visual images and cultural politics. The course is not limited to film productions of the People?s Republic of China but covers Chinese films made during the Republican period (1911-1949) and films from Taiwan and Hong Kong as well. It is also designed to inform students of the intellectual and social environment that conditions the film production and of the critical, theoretical development in Chinese film studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 543",
+    "title": "Mass Culture: China",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the important role of mass culture in modern China. Our interest in \u201cmass culture\u201d will be twofold. First, we will consider the development and cultural impact of media technologies and media objects geared towards a mass audience. Second, we will explore the notion of \u201cthe masses\u201d as a conceptual framework through which Chinese cultural producers and intellectuals, both before and after the 1949 revolution, made sense of the world and their place in it. Materials to be discussed include literature, film, visual art, and music from the late\nimperial period to the present day.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 551",
+    "title": "Topics in Chinese Hist",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 552",
+    "title": "The Cold War in Asia: 1945-2001",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will focus on U.S. foreign policy in Asia since 1945. The ways U.S. global interests and concerns sought to shape Asian realities (and were shaped in turn by them) will be the touchstone for examining the Cold War in Asia. We will examine the following topics: the occupation of Japan and early US global economic visions; the US and the Chinese revolution before the Korean War; the Korean War and the isolation of China; the Vietnam War and the Kennedy/Johnson years; Nixon\u2019s global geopolitical vision and his policies towards Vietnam, China, and Japan; Carter and the meaning of human rights diplomacy in Asia; Reagan and the Asian issues involved in an intensified Cold War against Russia; George H. W. Bush and Asia\u2019s place in \u201ca New World Order;\u201d and finally, the Clinton and George W. Bush years. Throughout the course, we shall examine key de-classified National Security documents, interpreting their meaning and language, while\ncarefully assessing the arguments used to justify American policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 569",
+    "title": "Topics:",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics in East Asian Studies is a variable-content course examining selected aspects of East Asian history, literature, culture, media, and society. Some courses might also address the broader diaspora. Courses may address issues such as colonialism, revolution, modernity, popular culture, identity, and contemporary developments. Through interdisciplinary approaches, students gain a deeper understanding of East Asia\u2019s historical developments and its place in the world. Specific topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 603",
+    "title": "Cultural Insights of Business Communication",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is intended to develop students' skills and bicultural fluency for those who aspire to work in culturally diverse settings. With a focus on business culture in China and the U.S., we will discuss the challenges and strategies for interacting with and leading team members in culturally diverse settings. Through a combination of lectures, real-life case discussions, guest lectures, and hands-on practice, students will gain valuable insights into how cross-cultural differences manifest in daily life and the workplace and the challenges they create. We will also examine how cross-border businesses communicate effectively to connect with consumers.\n\nThis course is conducted in both Chinese and English. It counts as a CAS elective (it does not apply toward the EAS major or minor or fulfill the CAS language requirement). For permission to enroll, students should contact the instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 604",
+    "title": "Cultural Insights of Cross-Border Business",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "With a focus on China and the U.S., we will discuss how cross-border businesses delight their customers by uncovering cultural insights. Through a combination of lectures, extensive real-life case studies, in-class activities, and hands-on practice, students will gain valuable insights into how cross-cultural differences manifest in business and the challenges they create.\n\nNotes: This course is conducted in both Chinese and English. It counts as a CAS elective (it does not apply toward the EAS major or minor or fulfill the CAS language requirement). For permission to enroll, students should contact the instructor.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 608",
+    "title": "History of Capitalism in Korea",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will introduce students to the history of capitalism in Korea. It encourages students to maintain temporal as well as epistemological distance from the capitalist world in which we presently inhabit, since we are living deep within capitalism. It will attempt this challenging enterprise, first, by taking a historical journey back to Korea before its capitalist subsumption; secondly, by examining specific capitalist forms in modern Korea; and, finally, by engaging in\ntheoretical discussions of capitalism in a global sense. Students will gain new insights about capitalism in Korea that will resonate across the rest of the world.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 609",
+    "title": "History of Modern Korea",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is designed to be a forum for students to engage with critical approaches and debates on the history of modern Korea. History is normally identified as a truthful reconstruction of the past that is endorsed because of its fidelity to factual evidence. In this normative conceptualization of history, however, less attention is paid to the truth that our understanding of the past is informed by current politics and shaped within a given system of representation. This predicament, which faces all historians, is unavoidable in the study of Korean history as well, particularly because the postcolonial division of the two Koreas has conditioned the use and abuse of national history in dealing with contemporary social concerns. In reading and discussing historically significant texts along with relevant theoretical accounts, we will thus attend to the complex relationship between knowledge production and power structures, between an event and its modes of representation. Mindful of the political and epistemological questions involved in the writing and understanding of history, we will examine major events and processes that have (trans)formed modern Korean society: colonization, partition, the Korean War, industrialization, democratization, and globalization. We will also trace how people in Korea, individually and collectively, have been affected by, and have responded to, these historical changes in their everyday lives and beyond. By exploring diverse materials about modern Korean history, we will ultimately seek to locate the \u201cnational\u201d issues being addressed\u2014colonial domination, capitalist modernization, the Cold War, and neoliberal restructuring\u2014within broader transnational contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 610",
+    "title": "Korean Modernism",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers the problem of colonial modernism through a close reading of literary and other cultural texts from early 20th-century Korea. Asks what it means to enter modernity under colonial rule by questioning the relationship between imperialism, writing, and subjectivity in particular. Through intensive reading of works from 1920s-1930s Korea, students obtain an idea of the parameters of modern Korean literature and of the main issues involved in the discussion of modernity in Korea.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 611",
+    "title": "20th Century Korean Lit in Translation",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Provides an overview of 20th-century Korean literature, tracing its development under the competing influences of tradition, history, and the West. Readings include drama, poetry, and fiction from modern and contemporary periods. Includes occasional lectures on classical forms of Korean literature and drama.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 617",
+    "title": "Topics in East Asian Cinema",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 618",
+    "title": "Approaches to Chinese Cinema",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Beginning with one of the earliest Chinese films still in existence and ending with a 2017 blockbuster, our class will examine not only a variety of Chinese films spanning nearly a hundred years of production, but also a number of different intellectual approaches to understanding these films. By focusing on one selected film per week, we will develop our own critical capacities in a way that pays attention to issues of history, politics, ideology, the material conditions of production, aesthetics, and intellectual life. We will generally follow a chronological organization and focus on important works by major directors from different parts of the Sinophone world. We will complement our critical focus on individual films with a selection of secondary readings, some of which will help to paint a broader picture of Chinese cinematic history, and some of which will provide specific readings of films through a variety of interpretive methods. The course is by no means exhaustive, and after being introduced to these several representative films and critical approaches, by the end of the semester students will hopefully be better equipped to continue navigating this rich field of cinematic production on their own.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 708",
+    "title": "Japanese Animation & New Media",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course looks at the terms and conditions of Japanese animation (primarily anime) as, in many ways, a new and unique mode of expression. The course is framed by terms in which anime might, or might not, shift earlier modes of expression, both literary and animated: the prevalence of mythology in animation and the tension between mythology and ideology; the importance of genre; and the impact of ostensibly old and new media on narrative structure and reception. Implications of these conditions for thinking about Japanese culture are also considered.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 717",
+    "title": "Literary Transformations in Post-Mao China",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "After the death of Mao Zedong and fall of the Gang of Four in 1976, the ideological stranglehold that had suffocated literary production in China during the Cultural Revolution gave way to a flourishing of literary exploration and experimentation. This course will look closely at the trajectories, developments, disjunctions, and transformations of literature beginning with the initial post-Mao period and moving through to the present-day. Reading some of the most important works by contemporary PRC writers, we will ask what they can tell us about the current state of Chinese society and what the future might hold.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 719",
+    "title": "Tpcs in Japan Lit:",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary semester by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 720",
+    "title": "The Inventions of Modern Japanese Literature",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course focuses on the part played by ?literature? in the establishment of national and individual subjectivity in prewar Japan (1868-1945). It is one of the great ironies of modernity that the emergence of national community is marked by an ever-greater isolation of the individual subject. Readings of literary texts in combination with critical essays help students to examine this paradox in relation to changes in the practice of reading, the construction of the ?reader? and the ?author,? the practice and effects of translation and travel, the privileging of the spoken voice, and the solidification of the ?novel? as a genre. Students pay as much attention to formal questions such as point of view and narrative strategy as to ?content? and are ever wary of the fact that they are reading in translation.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 721",
+    "title": "Mod Japanese Lit in Translation II",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Exposes students to some of the most provocative and entertaining novels written in Japanese since the end of the Second World War. Students see how the collapse of totalizing ideologies brought by Japan?s defeat led to an extremely fertile and yet somewhat atomized literary landscape. In this new postwar terrain, it became increasingly difficult to think of literature in terms of ?schools? or ?influences,? as questions of cultural and individual identity became harder and harder to answer in a world of material prosperity and cultural hybridization.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 722",
+    "title": "Readings in Chinese Philosophy and Culture",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Basic introduction to the writings of Confucius, his adversaries, and his successors, followed by a reading of several novels regarded as national classics.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 725",
+    "title": "Maoism & The Chinese Tradition",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This class examines approaches to \u201ctraditional\u201d Chinese history and culture, as enacted in the Yan\u2019an period, the first seventeen years of the People\u2019s Republic,and the Cultural Revolution. During the course of our explorations, we will take aim at the\npurported existence of a unified, millennia-old \u201cChinese tradition\u201d by considering how this invented notion was crucial to the iconoclastic intellectual movements of the early twentieth century. After all, calls to break with \u201ctradition\u201d necessarily presuppose that such a \u201ctradition\u201d exists\u2014that is to say, they produce a notion of \u201ctradition\u201d only to denounce it. We will trace the cultural lineage of Mao and his -ism, loosely construed, back to this bait-and-switch. Indeed, we will see to what extent Mao-period characterizations of feudalism and the Old Society repeatedly reenact it. At the same time, we will see that the Communists were also at pains to maintain \u201ctraditional\u201d cultural forms through processes of recuperation and reinvention. How do we make sense of this additional twist? And what does all this say about the status of Mao(ism) and the \u201cChinese tradition\u201d today?\"",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 726",
+    "title": "Historical Epics of China and Japan",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Involves in-depth study of the major epics of China, Japan, and Vietnam?the historical-military and the social-romantic. The Chinese historical epic Three Kingdoms is read against the Japanese epic Tale of the Heike. Emphasis is placed on the political nature of the dynastic state form, the types of legitimacy and the forms of rebellion, the process of breakdown and reintegration of an imperial house, the empire as dynasty and as territory, and the range of characterology. In the second half of the course, the Chinese classic Dream of the Red Chamber is read against the Japanese Tale of Genji. In addition to the above-mentioned topics, attention is given to the role of women and marriage in a governing elite, the modalities of social criticism in a novel of manners. The Vietnamese national classic Tale of Kieu is used as an introduction to the course because it combines all of the key topics. Finally, we pay particular attention to the ways in which Buddhist, Daoist, and Confucian doctrines function in each work.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 729",
+    "title": "Traditional Drama of China & Japan",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course compares a set of Chinese and Japanese pre-modern dramas, mainly as literature but also as performance, by exploring the contrasts and parallels of incident, character, plot design, and theme of the two theatrical traditions. Attention is given to the historical background of each work and to the social conditions and customs that each reflects. The cultural salience of each work is also considered. Where possible and appropriate scenes or entire plays are screened for the class or assigned for viewing.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 731",
+    "title": "20th Century Chinese Lit in Translation",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In this course we will examine the development of modern Chinese literature from the beginning of the 20th century to the present. We will begin with the late-Qing literature written just prior to the collapse of the imperial order with the 1911 Republican revolution. We will then turn to the work of Lu Xun, long considered the father of modern Chinese literature. We will then trace the development of modern and contemporary Chinese literature in the context of colonialism, war and revolution. Our focus will be upon how China both critically assimilates and transforms the modern concept of literature according to the specific needs of a \u201csemi-colonial, semi-feudal\u201d modern nation-state in the process of its formation. Emphasis will be placed on developing the skills needed for careful and critical analyses of literary texts.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 732",
+    "title": "Modern Chinese Fiction",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will survey literature produced at various points in the tumult of modern Chinese history, from the early Twentieth Century through to the present day. While the time period will be broad, we will hope to engage in close, critical readings of significant works of fiction from a selection of major authors writing in Chinese. Most of the course will focus on writers from Mainland China, with the inclusion of several examples of works from the broader Sinosphere. How do certain concerns of modernity arise in different texts, at different times, and for different writers in different places? What different relationships do we see being shaped between literature, life, and politics, and how does fiction negotiate certain tensions and anxieties about modern and contemporary life? By exploring a variety of engaging novels and short stories, we will hope to gain a more nuanced understanding of modern writing in Chinese, and the role that fiction has played as both an agent of modernity and a reflection of modern \u201cChinese\u201d life, broadly conceived.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 735",
+    "title": "Modern Korea & The Korean Diaspora",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Rather than a comprehensive history of the Korean diaspora, our study will focus on specific histories of displacement and movement out of Korea at different historical junctures, and of settling, or dwelling in Japan and the United States. Chronologically, our readings and discussion will be grouped into three periods. From 1900-1945, a period of competing colonialisms and empires in Asia/Pacific, we will look at how Koreans became racialized in Japan and the United States through institutions and structures like the labor market, with specific focus on Korean day laborers in 1920s Japan and Korean agricultural workers in Hawaii and the West Coast, and how they adopted and/or resisted identities as subjects of the Japanese empire, or as an ethnic-minority in the United States. From 1945-1990, a period of national partition, followed by the Korean War that, unending, made the Cold War especially ferocious on the Korean peninsula, we will examine specific political organizations and movements in Korea, Japan, and the United States that sought various ways of challenging U.S. hegemony in East Asia, overcoming the structure of division (both political and psychological), while at the same time challenging long-standing, structured inequalities of class and race in Japan and the United States. From 1990-present, a period of democratic transition in Korea, we will also examine the increased possibility of moving between cities like Los Angeles and Seoul not as separate spaces, but almost as a single community, in tandem with money, goods, and information. Examining various narratives (including literature and film) about experiences of displacement, and of living within or on the margins of dominant cultures in 20th century Japan and United States, we will pay attention to how identities (such as Zainichi, or Korean-American) were constituted by and against complex regimes of differentiation and homogenization along lines of race, class, gender, and sexuality.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 737",
+    "title": "Vietnam: the war & its history",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Focus on the American War in Vietnam. Begins by examining Vietnamese cultural and national identity and the impact of French colonialism and then examines: the war of 1946-54 between the French and the Viet Minh; the early American OSS links with Ho Chi Minh and the Truman administration's deepening commitments to the French; the policies of the Eisenhower administration, from Dien Bien Phu and the Geneva Conference in 1954 to the decision to back Ngo Dien Diem; the deepening commitment of the Kennedy administration; the escalating war of the Johnson years; and the end of the war under Nixon and Ford. Concludes with legacies and interpretations of the war.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 800",
+    "title": "East Asia and the Nobel Prize for Literature",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What does the Nobel Prize say about the state of literature in East Asia, and about the idea of the prize itself? What does it suggest about the idea of national literature, world literature, and the role of literary prizes in negotiating these fraught categories? This course will combine close literary analysis with a broader theoretical discussion of these issues. While engaging critically with works produced by East Asian laureates (and potential laureates), we will simultaneously\ninterrogate the Nobel Prize itself and the particular questions it raises about the categorization, function, and assessment of literature in today\u2019s world.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 832",
+    "title": "Intro to Buddhism",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to this complex religion, emphasizing its history, teachings, and practices. Discusses its doctrinal development in India, then emphasizes certain local practices: Buddhism and the family in China; Buddhism, language, and hierarchy in Japan; the politics of Buddhist Tibet; and Buddhist art. Finally the course touches on Buddhism in the United States.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 833",
+    "title": "Tibetan Buddhism",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Begins with the principles of the tradition, then moves from the 7th-century arrival of Buddhism in Tibet to the present-day encounter with Western devotees of exiled Tibetan lamas. Topics include doctrinal innovation, ritual, myth, art, sacred geography, revelation, and the role of Buddhism in Tibet\u2019s relationship with its neighbors.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 950",
+    "title": "Topics in Asian Studies:",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics in Asian Studies is a variable-content course examining selected aspects of Asian history, literature, culture, media, and society. Some courses might also address the broader diaspora. Courses may address issues such as colonialism, revolution, modernity, popular culture, identity, and contemporary developments. Through interdisciplinary approaches, students gain a deeper understanding of Asia\u2019s historical developments and its place in the world. Specific topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 951",
+    "title": "Topics in Korean Studies",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics in Korean Studies is a variable-content course examining selected aspects of Korea\u2019s history, literature, culture, media, and society. Some courses might also address the broader Korean diaspora. Courses may address issues such as colonialism, revolution, modernity, popular culture, identity, and contemporary developments. Through interdisciplinary approaches, students gain a deeper understanding of Korea\u2019s historical developments and its place in the world. Specific topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 952",
+    "title": "Topics in Chinese Studies",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary from semester to semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 953",
+    "title": "Topics in Japanese Studies",
+    "department": "east_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics in Japanese Studies is a variable-content course examining selected aspects of Japan\u2019s history, literature, culture, media, and society. Some courses might also address the broader Japanese diaspora. Courses may address issues such as colonialism, revolution, modernity, popular culture, identity, and contemporary developments. Through interdisciplinary approaches, students gain a deeper understanding of Japan\u2019s historical developments and its place in the world. Specific topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 954",
+    "title": "Topics in East Asian Studies",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Topics in East Asian Studies is a rubric for introductory courses covering various aspects of the study of East Asia, including the study of its history, culture, society, politics, economics, and contemporary issues. The courses introduce students to an array of humanistic methodologies to foster a deeper appreciation and  comprehension of this diverse and dynamic region. By the end of the course, students will have a basic understanding of East Asian history, culture, society, and contemporary challenges, enabling them to critically engage with issues related to this vital and dynamic region.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 980",
+    "title": "Internship",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 981",
+    "title": "Internship",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Internships allow students to gain experience in areas relevant to their field of study. Students must find a host organization for their proposed internships (i.e. through the NYU Wasserman Center or on Handshake). To receive credits, internships must maintain a non-paying status.The student must fill out the online form for approval by the Director of Undergraduate Studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 997",
+    "title": "Independent Study",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "2 or 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  },
+  {
+    "course_code": "EAST-UA 998",
+    "title": "Independent Study",
+    "department": "east_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "\"Independent Study is done ONLY at the NYU New York Campus\nStudents should have a 3.5 GPA and must be an EAS Major/Minor\nIndependent Study adviser(s) must be a full-time Faculty and/or a full-time Language Lecturer. Independent Study must either be Civilization-Based or Language-Based\"",
+    "source_url": "https://bulletins.nyu.edu/courses/east_ua/"
+  }
+]

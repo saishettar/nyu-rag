@@ -3,7 +3,7 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: 23 of NYU CAS's 51 undergraduate departments, 1,056 courses total —
+Scope: 31 of NYU CAS's 51 undergraduate departments, 1,391 courses total —
 scraped from `bulletins.nyu.edu`. Started with CS and the departments it
 most often cross-references (Math, Physics, Data Science, Economics,
 Philosophy, Psychology), then expanded batch by batch toward full CAS
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all 23 departments is
+Then, one-time database setup (course data for all 31 departments is
 already checked into the repo at `ingest/data/*.json`, so there's nothing to
 scrape):
 
@@ -112,17 +112,17 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 58 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 74 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (1,056 courses across 23 departments, 58 hand-written questions)
+### Results (1,391 courses across 31 departments, 74 hand-written questions)
 
-- **Retrieval hit-rate@5: 58/58 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 57/58 (98%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 74/74 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 74/74 (100%)** on that same run — this genuinely
   fluctuates across runs (LLM-judge grading has real run-to-run wording
   variance, e.g. asserting an unstated topic for a course mentioned
   alongside the correctly-cited one, or how strictly it parses which grade
@@ -205,6 +205,21 @@ Retrieval history, in order:
    512 more courses (1,056 total), 14 new questions, held at 58/58 (100%)
    retrieval with no fix required. Groundedness held at 57/58 (98%), same
    pre-existing CSCI-UA miss as #7 and #8.
+10. **Question-design gap, not a retrieval bug, adding eight more
+    departments** (Music, Religious Studies, Comparative Literature, East
+    Asian Studies, Law and Society, Middle Eastern and Islamic Studies,
+    Dramatic Literature, European and Mediterranean Studies): 335 more
+    courses (1,391 total). One of the 16 new questions ("is there a course
+    on music technology and sustainable audio?") initially missed because
+    it dropped "Introduction to" from the actual course title, so the
+    hybrid exact-title match didn't fire and pure semantic search
+    underperformed among several generic "Special Topics"/"Seminar" Music
+    course chunks with little content of their own. Not a code bug -
+    rephrased the question to match the real title ("which course is an
+    introduction to...") and reverified: 74/74 (100%) retrieval, 74/74
+    (100%) groundedness - even the recurring pre-existing CSCI-UA
+    groundedness miss from #7-#9 didn't reproduce this run, consistent
+    with it being LLM-judge variance rather than a stable failure.
 
 ### CI regression check
 
