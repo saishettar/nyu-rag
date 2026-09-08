@@ -56,7 +56,7 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [catalogOpen, setCatalogOpen] = useState(false);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
-  const [catalogCollapsed, setCatalogCollapsed] = useState(false);
+  const [catalogCollapsed, setCatalogCollapsed] = useState(true);
   const [searchView, setSearchView] = useState(false);
 
   const scrollRef = useRef<HTMLDivElement>(null);
