@@ -1,0 +1,569 @@
+[
+  {
+    "course_code": "POL-UA 100",
+    "title": "Political Theory",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Introduces students to some outstanding theories of politics. The theories treated offer alternative conceptions of political life, and they are examined from both theoretical and historical perspectives. Among the theorists included are Plato, Aristotle, Locke, Machiavelli, Hobbes, Rousseau, Mill, and Marx.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 120",
+    "title": "Topics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the development of political thought from Machiavelli to Nietzsche through a careful study of primary works. Authors include Hobbes, Locke, Rousseau, Hegel, Marx, and Nietzsche.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 130",
+    "title": "Ethics, Politics and Public Policy",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Provides students with the ability systematically to evaluate ethically controversial public policy issues using concepts from normative political theory. In the first half of the course, we consider the means by which policy is implemented: Under what conditions, if any, might we permit political actors to do bad in order to do good? In the second half, we consider the ends of public policy: What is it we want the state to accomplish, and at what cost? Substantive policy topics vary from semester to semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 160",
+    "title": "Democracy & Dictatorship",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Democracy and dictatorships have traditionally been analyzed in terms of their apparently different institutional characteristics and legal foundations. Examines these traditional interpretations but leans heavily toward ideological and contextual factors. Challenges traditional distinctions between democracy and dictatorship.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 170",
+    "title": "Amer Political Thought",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 100 OR SOCSC-UH 1310 OR POLSC-AD 137).",
+    "description": "Study of American political ideas and debate from colonial times to the present. Topics include Puritanism, revolution and independence, the Constitution framing, Hamiltonian nationalism, Jeffersonian republicanism, Jacksonian democracy, pro- and antislavery thought, Civil War and Reconstruction, social Darwinism and laissez-faire, the reformist thought of populism, progressivism and socialism, legal realism, the New Deal and 20th-century liberalism, modern conservatism, civil rights, and war protest. Readings and discussion are based on original and interpretative sources.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 195",
+    "title": "Political Theory Seminar:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Advanced seminar for juniors and seniors in political theory. The specific topic of the seminar is announced each year.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 300",
+    "title": "Power & Politics in America",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A survey of national political institutions and behavior in the United States, which introduces students to a variety of analytical concepts and approaches useful for the study of domestic politics. Concepts typically covered include public goods and collective action; preference aggregation and the median voter theorem; delegation, representation, and accountability; agenda control; inter-branch bargaining; and the mechanisms of private influence on public policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 311",
+    "title": "The Biology of Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why do we participate in politics? Who tends to participate? When are we most likely to participate? Political scientists have traditionally focused on factors such as demography, socioeconomic status, mobilization, electoral institutions, and social norms to answer these questions. However, scholars have recently begun to explore the possibility that genetic differences may, at least in part, help to explain individual differences in political participation.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 315",
+    "title": "Controversies in Public Policy:  Logic and Evidence",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 850 .",
+    "description": "This course is about using logic to think about issues of public policy and evidence to do the same thing. One way to think about this course is it is sabermetrics (logic and evidence applied to baseball, and in Moneyball) applied to vastly more important topics than baseball: making schools better, designing health policy and dealing with climate change (with tons of other policy applications possible, but we will focus on these three).",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 320",
+    "title": "Congress & Legislative Assemblies",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Origin, structure, functions, and dynamics of legislatures in the United States. Although some attention is given to state legislatures and municipal lawmaking bodies, the major emphasis is on the Congress. Readings include a textbook, official sources such as the Congressional Record and Congressional District Data Book, and the new behavioral studies and commentaries.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 330",
+    "title": "American Constitution",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Interpretation of the U.S. Constitution through the reading of Supreme Court opinions. Distribution of constitutional power among Congress, the president, and the federal courts; between the national government and the states; and among the states. Constitutional law and American political and economic development. Cases are read and discussed closely for their legal and philosophical content.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 332",
+    "title": "Civil Liberties",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Interpretation of the Bill of Rights, the Civil War amendments, and other rights in the U.S. Constitution through the reading of Supreme Court opinions. Topics include freedom of speech and press; free exercise of religion and separation of church and state; the right of privacy; rights of the criminally accused; equal protection of the law against race, gender, and other discrimination; and the rights of franchise and citizenship. Cases are read and discussed closely for their legal and philosophical content.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 333",
+    "title": "The U.S. Supreme Court",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Institutional examination of the third branch of government as chief interpreter of the Constitution and reviewer of the work of government. Considers the structure, procedures, personnel, and informal organization of the Court along with the appointment process. Gives some attention to the impact of the Court?s decisions and to public opinion about the Court. Emphasis on the Court?s political role in a democratic polity.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 335",
+    "title": "Law and Society",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Critically examines the relationship between law and political and social movements such as the civil rights movement, the women?s movement, and the labor and environmental movements. Emphasis on law as a political process and legal remedies for racial and gender discrimination and class action torts. Deals with the politics of rights and the limits and possibilities of law as a process for social change.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 336",
+    "title": "Gender in Law",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the relationship between gender politics, legal theory, and social policy. Studies the role that the legal arena and certain historical conditions have played in creating, revising, and protecting particular gender identities and not others and examines the political effects of those legal constructions. Analyzes the major debates in feminist legal theory, including theories of equality, the problem of essentialism, and the relevance of standpoint epistomology. In addition to examining how the law understands sex discrimination in the workplace and the feminization of the legal profession, also addresses to what extent understandings of the gender affect how law regulates the physical body by looking at the regulation of reproduction and of consensual sexual activity. In light of all of the above, considers to what extent law is or is not an effective political resource in reforming notions of gender in law and society.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 337",
+    "title": "The Rule of Law",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The rule of law requires that people in positions of authority should exercise their power within a constraining framework of public laws rather than on the basis of their own preferences or their own ideology. Explores the theory surrounding the rule of law ideal. Focuses on the political conditions that promote the rule of law as well as on the challenges to the rule of law in time of emergencies. Topics include the connection between law and morality, the political foundation of the rule of law, the interaction among political institutions in promoting or subverting the rule of law, the rule of law in times of crisis, the effects of emergency powers on the rule of law, and the rule of law and terrorism prevention.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 342",
+    "title": "American Public Opinion",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 300 OR POLSC-UH 2412 ).",
+    "description": "Prerequisite: POL-UA 300 . Offered every other year. 4 points. Covers two areas of great importance to American democratic society. One area deals with the attempts made to define, identify, survey, analyze, and evaluate the influence of what is referred to as public opinion. The other concerns how citizens unite in interest groups to influence or pressure government. Role and methods of interest groups in American society and their relationship to political parties, elected and appointed officeholders, and the democratic process. A study of who governs in the United States.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 354",
+    "title": "The Politics of Administrative Law",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every other year. 4 points. Examines legal, political, and economic issues in government regulation. Covers such classic debates and issues as the historical origins of regulation, the legal philosophy of administrative regulation, the relationship between courts and agencies, the political and social conflicts surrounding regulatory politics, and the role of law in state formation.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 360",
+    "title": "Urban Gov'T & Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 300 OR POLSC-UH 2412 ).",
+    "description": "This course will introduce you to the study of local and urban politics in the U.S. Municipal governments profoundly impact the day-to-day of citizens. Cities have substantial power over policy areas from education and public safety to transportation, and they also address basic needs: making sure the trash gets taken out, the water runs, and that people are safe from crime. And yet, cities are often quite constrained in their policy choices. For example, one of the central challenges facing municipal government is how to attract and maintain a middle class tax base while providing essential services for low-income residents. This course will explore patterns of city politics against the background of American social and cultural history, including the impulse toward reform and the effects of reform efforts on the distribution of power in the community. Additional topics will include issues related to voting, race and ethnicity, gentrification, and the relationship between cities and the federal government.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 382",
+    "title": "Politics of Poverty & Welfare",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Poverty and welfare problems in the United States and the controversies aroused by them. Concentrates on the causes of poverty and dependency among the controversial working-age poor, the history of programs and policies meant to help them, and the enormous impact these issues have had on national politics.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 395",
+    "title": "American Field Sem:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Advanced seminar for juniors and seniors in American politics. The specific topic of the seminar is announced each year.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 396",
+    "title": "Honors Sem:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 850 .",
+    "description": "Prerequisites: Power and Politics in America ( POL-UA 300 ), three other politics courses, junior or senior standing, and a minimum 3.5 GPA. Offered periodically. 4 points.\nReexamines the premise that independent courts have functioned as the best guarantor of civil rights and liberties, particularly against the supposed abuse of legislative majorities. Considers the record of rights protections both in the United States and more globally.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 500",
+    "title": "Comparative Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Major concepts, approaches, problems, and literature in the field of comparative politics. Methodology of comparative politics, the classical theories, and the more recent behavioral revolution. Reviews personality, social structure, socialization, political culture, and political parties. Major approaches such as group theory, structural-functionalism, systems analysis, and communications theory and evaluation of the relevance of political ideology; national character; elite and class analysis; and problems of conflict, violence, and internal war.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 515",
+    "title": "Political Economy of Gender",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 850 Introduction to Research Methods in Politics.",
+    "description": "Explores causes and consequences of gender inequality and will draw on evidence from industrialized as well as developing nations around the world. Considers such questions as: What is gender and how do social scientists study it? How do such inequalities shape societies? How can gender inequalities be addressed? Students will engage critically with theoretical arguments about gender and will draw on various kinds of research designs and empirical evidence to adjudicate between them.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 526",
+    "title": "Contemporary Democratic Transitions",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to the forces that can precipitate the development of a democratic political system. The focus is on how regime transitions can be shaped by the strategic choices of principal political agents. Hence, rather than lingering on modernization or international dependency theories, the objective is to highlight the different mechanisms by which political actors from various social classes in a dictatorship can establish or demand a more democratic political system. We pay particular attention to the lower class (poor, working class) and the upper class (bourgeoisie, middle class, regime insiders). Emphasis is placed on Africa, with comparative material and systematic evidence drawn from nations in Southern Europe and Latin America.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 530",
+    "title": "Latin American Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Analysis of how political power relates to social structure, economic change, and international pressures in Latin America. Presents case studies of three to five Latin American nations at distinct levels of social modernization. These comparative cases illustrate trends including the struggle for democracy, military interference in politics, and party competition. Covers political conditions in Caribbean nations.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 540",
+    "title": "Politics of The Middle East",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every other year. 4 points. Historical-political background of the Middle East and its contemporary social and political problems, including the impact of the West; religious and liberal reactions; conflict of nationalisms (Arab, Iranian, Turkish, and Zionist); and revolutionary socialism. Specific social, political, and economic problems?using a few selected countries for comparison and analysis?including the role of the military, the intelligentsia, the religious classes, the legitimization of power, urban-rural cleavages, bureaucracy, and political parties.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 560",
+    "title": "East Asian Politics: China & Japan",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every other year. 4 points. Introduction to the workings of the political systems of China and Japan. Examines the impact of tradition, demands of modernization, ideology, role of the elite, and social dynamics, as well as political institutions and processes. Compares the Chinese and the Japanese \"models\" of development with a view to evaluating their relevance to other areas.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 562",
+    "title": "Comparative Politics of South Asia",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 500 .",
+    "description": "Introduces the comparative politics of South Asia. Analyzes the politics of South Asian countries, including India, Pakistan, Bangladesh, Sri Lanka and Nepal, individually and in a comparative framework. Readings are chosen from across disciplines, including political science, anthropology, economics, and history. The course also uses novels and films on South Asia to illustrate themes highlighted in the readings.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 564",
+    "title": "The Origins of Political Order in Asia",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the origins and development of political order in Asia from antiquity to the present. Drawing on social science and historical scholarship, students will explore how geography, religion, social class, and imperial legacies shaped political authority across China, India, Japan, Korea, and Southeast Asia. Topics include early state formation, the rise and fall of empires, the impact of colonialism, and the transformations of the modern era. The course emphasizes critical engagement with leading works in political science and history and\nunderstanding Asian history via the theories and tools of political science.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 570",
+    "title": "Political & Econ Development in Comparative Perspective",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 500 OR POLSC-UH 1111 ).",
+    "description": "Introduction to the political processes of change and development. Survey of classical and contemporary theories of political and economic development ranging from neoclassical to structural to recent endogenous growth theories. Focuses on institutions and governance as conditions for growth and development. Examines the relationship between political and economic change in selected countries as well as global patterns.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 584",
+    "title": "Contemporary African Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course offers an introduction to contemporary African politics. Our goal is to introduce students to the most pressing problems African countries have faced since independence. Questions motivating the course include: (1) Why state institutions weaker in African than in other developing regions? (2) What explains Africa's slow economic growth? (3) What can be done to improve political accountability on the continent? (4) Why have some African countries been plagued by high levels of political violence while others have not? (5) Can or should the West attempt to \"save\" Africa?",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 585",
+    "title": "Authoritarianism",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "Comparative Politics.",
+    "description": "The course introduces students to the political science literature on authoritarian regimes, the most prevalent form of government throughout history. What are the sources of political authority under authoritarianism? What institutional and power structures do elites establish to further their interests? Why do political institutions differ across authoritarian regimes, and why does that matter? Why do some authoritarian regimes face popular insurrections, coups, and democratization while others do not? How do authoritarian regimes manipulate public opinion through propaganda, biased media, and personality cults? How vulnerable are present-day\ndemocracies to authoritarian backsliding? By the end of the course, students should be able to understand the basic principles of politics under authoritarianism. The course covers various historical and contemporary cases from Africa, Europe, Asia, and Latin America.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 595",
+    "title": "Comparative Field Seminar:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Advanced seminar for juniors and seniors in comparative politics. The specific topic of this seminar is announced each year.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 596",
+    "title": "Honors Sem: Ethnic Identity Politics & Democracy",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 500 .",
+    "description": "n/a",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 700",
+    "title": "International Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Analysis of state behavior and international political relations; how things happen in the international state system and why. Emphasizes the issue of war and how and in what circumstances states engage in violence. Topics include different historical and possible future systems of international relations, imperialism, the Cold War, game theory and deterrents, national interests, and world organization.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 710",
+    "title": "U.S. Foreign Policy",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Analysis of the sources of U.S. foreign policy and the major international problems facing the United States today. Considers the role of national interest, ideology, and institutions in the making and executing of U.S. foreign policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 711",
+    "title": "The Politics of Human Rights",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the political history of the international human rights regime; the causes of contemporary human rights problems; the economic, social, and political factors associated with human rights progress; and strategic approaches employed to improve human rights.\"",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 712",
+    "title": "National Security",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: POL-UA 700 . Offered every year. 4 points. Starting with the traditional arena of national security and U.S. military policy, students analyze how national security decisions are made in this country, as well as the past and current military strategies used to carry out those decisions. From there, students examine the particular national security concerns and policies of Russia, China, Germany, and Japan. This course also looks at new thinking on national security, asking to what extent international trade and competition, immigration, illegal drugs, and the environment should be considered national security issues.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 720",
+    "title": "Diplomacy & Negotiation",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Analyzes the theory and practice of diplomacy, with special emphasis on bargaining strategies that nations use to try to settle their differences and avoid wars, including the use of mediators, arbitrators, and institutions like the United Nations. Applies game theory to analyze the use of exaggeration, threats, and deception in bilateral and multilateral diplomacy. Supplements case studies of international negotiation, especially in crises, with studies of domestic bargaining used in the formulation of foreign policy.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 730",
+    "title": "International Organizations",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 700 OR POLSC-UH 1112 ).",
+    "description": "Detailed study of the nature, historical development, and basic principles of international organization. Emphasizes the structure and actual operation of the United Nations.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 740",
+    "title": "International Law",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The norms that govern states in their legal relations and the current development of law among nations, based on cases and other legal materials relating to the nature and function of the law; recognition of states and governments; continuity of states and state succession; jurisdiction over persons, land, sea, air, and outer space; international responsibility and the law of claims; diplomatic privileges and immunities; treaties; regulation of the use of force; and the challenges posed by new states to the established legal order. Emphasis on the case-law method, as used in law school instruction.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 741",
+    "title": "War, Peace, and World Order",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 700 .",
+    "description": "Characteristics and conditions of war and peace and the transition from one to the other from the perspective of political and social science. Examines the role and use of coercion in global affairs, with emphasis on attempts to substitute negotiation, bargaining, market forces, politics, and law for the resort to massive violence in moderating disputes.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 742",
+    "title": "Terrorism",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 700 OR POLSC-UH 1112 ).",
+    "description": "Comparative study of terrorism as a domestic political phenomenon. Examines foundational issues, economic, psychological, strategic, and social theories of terrorism as well as theories of the cessation of terrorist violence, government negotiation with terrorists, the relationship between terrorists and nonviolent political actors, and the internal political economy of terrorist organizations. Considers terror in the Middle East (especially emphasizing Hamas), nationalist terror (ETA and the IRA), and Maoist revolutionary terror (with emphasis on the Shining Path).",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 760",
+    "title": "Int'L Pol of Middle East",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Systematic study of the international politics of the Middle East, emphasizing the period since World War II. Emphasis on the relationship among patterns of inter-Arab, Arab-Israeli, and great-power politics, and on the relationship between domestic and external politics. Attempts to relate the Arab-Israeli conflict to interregional politics, the place and role of Turkey and Iran, and the problems in the Persian Gulf.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 770",
+    "title": "International Relations of Asia",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 700 .",
+    "description": "Identical to V33.0770. Prerequisite: V53.0700. Offered every other year. 4 points. The relations of and between the principal Asian national actors (e.g., China, Japan, India) and the relationship of the Asian \"subsystem\" to the international system. Covers the traditional Asian concepts of transnational order, the impact of external interventions, the modern ideological conflict and technological revolution, the emergent multilateral balance beyond Vietnam, the changing patterns of relations in the Asian subsystem traced to the international evolution from bipolarity to multicentrism, and the U.S. role in Asia.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 775",
+    "title": "Int'L Political Economy",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 700 OR POLSC-UH 1112 ).",
+    "description": "This course serves as an introduction to the workings of the contemporary international political-economic system and introduces students to some of the main analytical frameworks that political economists use to understand this system. Finally, the course familiarizes students with analytical tools that serve to gain a better understanding of the current problems and opportunities facing actors in today?s international political economy.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 795",
+    "title": "Internatl Field Sem:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "( POL-UA 500 OR POL-UA 700 ).",
+    "description": "Advanced seminar for juniors and seniors in international relations. The specific topic of the seminar is announced each year.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 796",
+    "title": "Honors Sem: American Empire",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 700 .",
+    "description": "Prerequisites: V53.0700 and three other politics courses, junior or senior standing, 3.5 GPA. Offered every year. 4 points. A broad survey of the debate about American power and influence in international affairs that provides sufficient background for students to do a major research paper on the topic. Some view the American role today as creating an empire, while others view U.S. influence as just a reflection of the wealth and military might that Americans command. There are many other thoughtful perspectives as well.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 812",
+    "title": "Intro to Political Psychology",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Personality, the dynamics of social groups, and the effect of emotion on decision making, as applied to the media and political advertising, race relations, the legitimacy of government institutions, and the formation of opinions and ideologies. Describes political psychology experimentation.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 840",
+    "title": "Introduction to Game Theory",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Game theory is a mathematical tool used to study strategic interactions. Whenever the choices made by two or more distinct decision makers have an effect on the others? outcomes, the interaction between them is game-theoretic in nature. As suggested by its recent emergence into popular culture, game theory has been applied widely, in attempts to address phenomena in a variety of academic disciplines, including political science, economics, and biology. Because much of politics is about allocation of scarce goods, such as power and wealth, and the competition for these goods, much of politics would seem to be a natural fit for the language of game theory.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 842",
+    "title": "Doing Political Economy: Apprs to Public Policy",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Political economy is a field of inquiry that has made great strides in recent years in explaining political and economic behavior by characterizing the incentives of actors and the context in which these actors make decisions and influence outcomes. The purpose of this course is to introduce students to these theoretical approaches and show how they can be used to address contemporary policy questions.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 844",
+    "title": "Games, Strategy, and Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every year. 4 points. Theories of political strategy with emphasis on the theory of games. Uses of strategy in defense and deterrence policies of nations, guerrilla warfare of revolutionaries and terrorists, bargaining and negotiation processes, coalitions and the enforcement of collective action, and voting in committees and elections. Secrecy and deception as political strategies and uses of power, with some applications outside political science.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 845",
+    "title": "Social Choice & Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces students to social choice theory applied to political science. It focuses on (1) individual choice, (2) group choice, (3) collective action, and (4) institutions. It looks at models of individuals\u2019 voting behavior, the incentive structures of interest groups, and the role of institutions. The emphasis is analytical, though students are not expected to have a background in formal mathematics.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 850",
+    "title": "Introduction to Research Methods for Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "New research is the most exciting and important aspect of political science: we are able to pose novel questions, construct fresh theories, and provide new evidence about the way the world works. But before we start doing research, we have to learn how it is done. With this in mind, this class will introduce students to quantitative techniques used for research in the study of politics. Part of this task is conceptual: helping students to think sensibly and systematically about research design. To this end, students will learn how data and theory fit together, and how to measure the quantities we care about. But part of the task is practical too: students will learn a `toolbox' of methods--including statistical software--that enable them to execute their plans.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 851",
+    "title": "Intermediate Quantitative Methods for Politics",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "POL-UA 850 Introduction to Research Methods for Politics.",
+    "description": "The course prepares students to (1) conduct original quantitative political science research in preparation for thesis, seminar, or honors projects in subsequent semesters and to (2) take higher-level data analysis courses such as causal inference or courses in data science. Topics include reproducible statistical programming, data visualization, univariate and multivariate data analysis, regression, addressing confounding, and sample-theoretic statistical inference. The\ncourse is hands-on and involves frequent quantitative inference and statistical programming activities both in class and as homework assignments. Assignments will require that students demonstrate both conceptual/mathematical understanding and the ability to conduct reproducible data analyses.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 950",
+    "title": "Senior Honors I",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: application and admission to the honors program. Offered in the fall. 4 points. This seminar provides students with the skills needed to design a feasible research project in political science and supports students in the development of a detailed research proposal for the senior thesis.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 951",
+    "title": "Senior Honors II",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The purpose of this seminar is to support students in the writing of their senior theses.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 970",
+    "title": "Internship in Pol & Govt",
+    "department": "pol_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Not counted toward the major; normally limited to no more than 8 credits in total of internships ( POL-UA 970 ) and Readings and Research ( POL-UA 990 ). Prerequisites: open to junior and senior politics majors, 3.0 GPA overall, and permission of the director of internships. Offered every semester. 2 to 4 points per term. Integration of part-time working experience in governmental agencies or other political offices and organizations with study of related problems in politics and political science. Relates certain scholarly literature in the discipline to observational opportunities afforded by the internship experience. Internship applications can be obtained through the Department of Politics. Applications are due September 30 for fall internships and January 30 for spring internships.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 990",
+    "title": "Readings & Research",
+    "department": "pol_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: written approval of student's departmental adviser, instructor, and director of undergraduate studies. Offered every semester. 2 or 4 points. Students with exceptional intellectual ability (3.0 average in at least three previous politics courses) are permitted to carry on supervised individual readings and research with regular politics faculty members only.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 993",
+    "title": "Topics:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 994",
+    "title": "Topics:",
+    "department": "pol_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offered every semester. 4 points. Advanced undergraduate course, often given in seminar style, to accommodate professors and faculty in the department who wish to give a one-time or experimental course. Encourages department or visiting faculty to give courses on subject areas or issues not in the permanent course offerings.",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  },
+  {
+    "course_code": "POL-UA 999",
+    "title": "Topics in Politics:",
+    "department": "pol_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/pol_ua/"
+  }
+]

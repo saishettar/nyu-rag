@@ -20,7 +20,8 @@ USER_AGENT = "nyu-course-rag research project (contact: sai.r.shettar@gmail.com)
 # these are the ones CS students actually cross-reference (Math and Physics
 # back CS prerequisites, Data Science shares faculty and cross-lists courses,
 # Economics is a common CS joint major/minor pairing, Philosophy backs CS
-# theory via Logic, Psychology overlaps Data Science's cognitive-science side).
+# theory via Logic, Psychology overlaps Data Science's cognitive-science side,
+# Politics covers tech policy and data-driven political analysis).
 DEPARTMENTS = {
     "csci_ua": "https://bulletins.nyu.edu/courses/csci_ua/",
     "math_ua": "https://bulletins.nyu.edu/courses/math_ua/",
@@ -29,6 +30,7 @@ DEPARTMENTS = {
     "econ_ua": "https://bulletins.nyu.edu/courses/econ_ua/",
     "phil_ua": "https://bulletins.nyu.edu/courses/phil_ua/",
     "psych_ua": "https://bulletins.nyu.edu/courses/psych_ua/",
+    "pol_ua": "https://bulletins.nyu.edu/courses/pol_ua/",
 }
 
 

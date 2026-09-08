@@ -126,5 +126,13 @@
   {
     "question": "Which course covers social psychology?",
     "expected_course_codes": ["PSYCH-UA 32"]
+  },
+  {
+    "question": "Which course covers quantitative and statistical methods for political science research?",
+    "expected_course_codes": ["POL-UA 851"]
+  },
+  {
+    "question": "Is there a course specifically about the U.S. Supreme Court?",
+    "expected_course_codes": ["POL-UA 333"]
   }
 ]

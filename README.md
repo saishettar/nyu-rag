@@ -3,13 +3,13 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: seven CAS departments students actually cross-reference — Computer
+Scope: eight CAS departments students actually cross-reference — Computer
 Science (`CSCI-UA`), Math (`MATH-UA`), Data Science (`DS-UA`), Physics
-(`PHYS-UA`), Economics (`ECON-UA`), Philosophy (`PHIL-UA`), and Psychology
-(`PSYCH-UA`), 255 courses total — scraped from `bulletins.nyu.edu`. CAS has
-51 department pages in total; the scraper's `DEPARTMENTS` map
-(`ingest/scrape_catalog.py`) is a one-line-per-department list, so adding
-more is mostly data verification, not code.
+(`PHYS-UA`), Economics (`ECON-UA`), Philosophy (`PHIL-UA`), Psychology
+(`PSYCH-UA`), and Politics (`POL-UA`), 318 courses total — scraped from
+`bulletins.nyu.edu`. CAS has 51 department pages in total; the scraper's
+`DEPARTMENTS` map (`ingest/scrape_catalog.py`) is a one-line-per-department
+list, so adding more is mostly data verification, not code.
 
 ![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
 
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all seven departments is
+Then, one-time database setup (course data for all eight departments is
 already checked into the repo at `ingest/data/*.json`, so there's nothing to
 scrape):
 
@@ -111,17 +111,17 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 32 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 34 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (255 courses across 7 departments, 32 hand-written questions)
+### Results (318 courses across 8 departments, 34 hand-written questions)
 
-- **Retrieval hit-rate@5: 32/32 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 30/32 (94%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 34/34 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 33/34 (97%)** on that same run — this genuinely
   fluctuates across runs (LLM-judge grading has real run-to-run wording
   variance, e.g. asserting an unstated topic for a course mentioned
   alongside the correctly-cited one, or how strictly it parses which grade
@@ -177,6 +177,14 @@ Retrieval history, in order:
    cited one (an unstated-topic claim), not a retrieval or citation error -
    the kind of run-to-run fluctuation this project has always reported
    honestly rather than smoothing over.
+7. **No regression adding Politics:** an 8th department (63 more courses,
+   318 total) held retrieval at 34/34 (100%) again. Groundedness came in at
+   33/34 (97%), and the one miss was on a pre-existing CSCI-UA question
+   ("what's a good course after Algorithms for someone interested in
+   theory?") - an unsupported inference about what `CSCI-UA 310` covers,
+   unrelated to Politics or to this expansion, and again consistent with
+   the run-to-run LLM-judge variance already documented above rather than
+   a new regression.
 
 ### CI regression check
 
