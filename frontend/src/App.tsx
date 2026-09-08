@@ -54,6 +54,8 @@ export default function App() {
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [catalogOpen, setCatalogOpen] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [catalogCollapsed, setCatalogCollapsed] = useState(false);
 
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -161,6 +163,8 @@ export default function App() {
         onNewChat={newChat}
         open={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
+        collapsed={sidebarCollapsed}
+        onCollapse={() => setSidebarCollapsed(true)}
       />
 
       <div className="flex min-w-0 flex-1 flex-col">
@@ -168,8 +172,13 @@ export default function App() {
           <div className="flex items-center gap-3">
             <button
               aria-label="Open sidebar"
-              onClick={() => setSidebarOpen(true)}
-              className="rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink lg:hidden"
+              onClick={() => {
+                setSidebarOpen(true);
+                setSidebarCollapsed(false);
+              }}
+              className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
+                sidebarCollapsed ? "" : "lg:hidden"
+              }`}
             >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <path
@@ -186,8 +195,13 @@ export default function App() {
           </div>
           <button
             aria-label="Open course catalog"
-            onClick={() => setCatalogOpen(true)}
-            className="rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink xl:hidden"
+            onClick={() => {
+              setCatalogOpen(true);
+              setCatalogCollapsed(false);
+            }}
+            className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
+              catalogCollapsed ? "" : "xl:hidden"
+            }`}
           >
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
               <rect x="2.5" y="3" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
@@ -227,6 +241,8 @@ export default function App() {
         highlightedCode={highlightedCode}
         open={catalogOpen}
         onClose={() => setCatalogOpen(false)}
+        collapsed={catalogCollapsed}
+        onCollapse={() => setCatalogCollapsed(true)}
       />
     </div>
   );

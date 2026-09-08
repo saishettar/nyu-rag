@@ -26,6 +26,8 @@ export function Sidebar({
   onNewChat,
   open,
   onClose,
+  collapsed,
+  onCollapse,
 }: {
   conversations: Conversation[];
   activeId: number | null;
@@ -33,6 +35,8 @@ export function Sidebar({
   onNewChat: () => void;
   open: boolean;
   onClose: () => void;
+  collapsed: boolean;
+  onCollapse: () => void;
 }) {
   return (
     <>
@@ -44,15 +48,29 @@ export function Sidebar({
         />
       )}
       <aside
-        className={`fixed inset-y-0 left-0 z-40 flex w-72 shrink-0 flex-col border-r border-border bg-sidebar transition-transform duration-200 ease-out lg:static lg:z-auto lg:translate-x-0 ${
+        className={`fixed inset-y-0 left-0 z-40 flex w-72 shrink-0 flex-col overflow-hidden border-r border-border bg-sidebar transition-[transform,width,border-color] duration-200 ease-out lg:static lg:z-auto lg:translate-x-0 ${
           open ? "translate-x-0" : "-translate-x-full"
-        }`}
+        } ${collapsed ? "lg:w-0 lg:border-r-0" : "lg:w-72"}`}
       >
-        <div className="flex items-center gap-2 px-4 pb-1 pt-4 text-accent">
-          <BracketMark />
-          <span className="text-[0.95rem] font-semibold tracking-tight text-ink">
-            NYU Course Assistant
-          </span>
+        <div className="flex w-72 shrink-0 flex-col h-full">
+        <div className="flex items-center justify-between gap-2 px-4 pb-1 pt-4 text-accent">
+          <div className="flex items-center gap-2">
+            <BracketMark />
+            <span className="text-[0.95rem] font-semibold tracking-tight text-ink">
+              NYU Course Assistant
+            </span>
+          </div>
+          <button
+            aria-label="Collapse sidebar"
+            onClick={onCollapse}
+            className="hidden shrink-0 rounded-md p-1 text-faint hover:bg-surface hover:text-ink lg:flex"
+          >
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <rect x="2" y="2.5" width="12" height="11" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
+              <path d="M6.5 2.5v11" stroke="currentColor" strokeWidth="1.3" />
+              <path d="M4.7 6l-1.4 2 1.4 2" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
         </div>
 
         <div className="px-3 pt-3">
@@ -102,6 +120,7 @@ export function Sidebar({
 
         <div className="border-t border-border px-4 py-3 text-xs leading-snug text-faint">
           CAS: CS, Math, Data Science, Physics · grounded in NYU's Bulletin
+        </div>
         </div>
       </aside>
     </>

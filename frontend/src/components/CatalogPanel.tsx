@@ -16,6 +16,8 @@ export function CatalogPanel({
   highlightedCode,
   open,
   onClose,
+  collapsed,
+  onCollapse,
 }: {
   courses: Course[];
   loading: boolean;
@@ -27,6 +29,8 @@ export function CatalogPanel({
   highlightedCode: string | null;
   open: boolean;
   onClose: () => void;
+  collapsed: boolean;
+  onCollapse: () => void;
 }) {
   const rowRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -46,26 +50,40 @@ export function CatalogPanel({
         />
       )}
       <aside
-        className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm shrink-0 flex-col border-l border-border bg-surface transition-transform duration-200 ease-out xl:static xl:z-auto xl:w-80 xl:translate-x-0 ${
+        className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm shrink-0 flex-col overflow-hidden border-l border-border bg-surface transition-[transform,width,border-color] duration-200 ease-out xl:static xl:z-auto xl:translate-x-0 ${
           open ? "translate-x-0" : "translate-x-full"
-        }`}
+        } ${collapsed ? "xl:w-0 xl:border-l-0" : "xl:w-80"}`}
       >
+        <div className="flex w-full max-w-sm shrink-0 flex-col h-full xl:w-80 xl:max-w-none">
         <div className="flex items-center justify-between px-4 pt-4">
           <h2 className="text-sm font-semibold text-ink">Course catalog</h2>
-          <button
-            aria-label="Close catalog"
-            onClick={onClose}
-            className="rounded-md p-1 text-faint hover:text-ink xl:hidden"
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-              <path
-                d="M3 3l10 10M13 3L3 13"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-            </svg>
-          </button>
+          <div className="flex items-center gap-1">
+            <button
+              aria-label="Collapse catalog"
+              onClick={onCollapse}
+              className="hidden shrink-0 rounded-md p-1 text-faint hover:bg-canvas hover:text-ink xl:flex"
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <rect x="2" y="2.5" width="12" height="11" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
+                <path d="M9.5 2.5v11" stroke="currentColor" strokeWidth="1.3" />
+                <path d="M11.3 6l1.4 2-1.4 2" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+            <button
+              aria-label="Close catalog"
+              onClick={onClose}
+              className="rounded-md p-1 text-faint hover:text-ink xl:hidden"
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path
+                  d="M3 3l10 10M13 3L3 13"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
 
         <div className="flex flex-col gap-2 px-4 pb-3 pt-3">
@@ -134,6 +152,7 @@ export function CatalogPanel({
               })}
             </ul>
           )}
+        </div>
         </div>
       </aside>
     </>
