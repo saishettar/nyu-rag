@@ -47,6 +47,7 @@ export default function App() {
   const [lastFailedText, setLastFailedText] = useState<string | null>(null);
 
   const [courses, setCourses] = useState<Course[]>([]);
+  const [allCourses, setAllCourses] = useState<Course[]>([]);
   const [catalogLoading, setCatalogLoading] = useState(true);
   const [departments, setDepartments] = useState<string[]>([]);
   const [catalogQuery, setCatalogQuery] = useState("");
@@ -64,6 +65,7 @@ export default function App() {
   useEffect(() => {
     api.listConversations().then(setConversations).catch(() => {});
     api.listDepartments().then(setDepartments).catch(() => {});
+    api.listCourses("", null).then(setAllCourses).catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -232,7 +234,7 @@ export default function App() {
 
             <div ref={scrollRef} className="flex-1 overflow-y-auto">
               {messages.length === 0 && !messagesLoading ? (
-                <EmptyState onExample={send} />
+                <EmptyState onExample={send} courses={allCourses} />
               ) : (
                 <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 lg:px-8">
                   {messages.map((m) => (
