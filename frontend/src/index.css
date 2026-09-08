@@ -23,16 +23,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --canvas: #212121;
-    --surface: #2f2f2f;
-    --sidebar: #171717;
-    --border: #3d3d3d;
+    --canvas: #000000;
+    --surface: #171717;
+    --sidebar: #000000;
+    --border: #2a2a2a;
     --ink: #ececec;
     --muted: #b4b4b4;
     --faint: #8e8ea0;
     --accent: #ececec;
     --accent-hover: #d1d1d1;
-    --accent-soft: #3a3a3a;
+    --accent-soft: #262626;
     --accent-ink: #ececec;
     --accent-contrast: #0d0d0d;
     --danger: #ff8a7a;
