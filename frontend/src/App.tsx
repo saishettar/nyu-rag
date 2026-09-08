@@ -27,6 +27,7 @@ import { useEffect, useRef, useState } from "react";
 import { api, ApiError } from "./api";
 import type { Conversation, Course, Message } from "./types";
 import { Sidebar } from "./components/Sidebar";
+import { ChatSearchView } from "./components/ChatSearchView";
 import { CatalogPanel } from "./components/CatalogPanel";
 import { EmptyState } from "./components/EmptyState";
 import { MessageBubble } from "./components/MessageBubble";
@@ -56,6 +57,7 @@ export default function App() {
   const [catalogOpen, setCatalogOpen] = useState(false);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [catalogCollapsed, setCatalogCollapsed] = useState(false);
+  const [searchView, setSearchView] = useState(false);
 
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -96,6 +98,7 @@ export default function App() {
   function selectConversation(id: number) {
     setActiveId(id);
     setSidebarOpen(false);
+    setSearchView(false);
     setError(null);
   }
 
@@ -103,6 +106,7 @@ export default function App() {
     setActiveId(null);
     setMessages([]);
     setSidebarOpen(false);
+    setSearchView(false);
     setError(null);
   }
 
@@ -161,89 +165,108 @@ export default function App() {
         activeId={activeId}
         onSelect={selectConversation}
         onNewChat={newChat}
+        onOpenSearch={() => {
+          setSearchView(true);
+          setSidebarOpen(false);
+        }}
         open={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
         collapsed={sidebarCollapsed}
         onCollapse={() => setSidebarCollapsed(true)}
+        onExpand={() => setSidebarCollapsed(false)}
       />
 
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="flex items-center justify-between border-b border-border px-4 py-3 lg:px-6">
-          <div className="flex items-center gap-3">
-            <button
-              aria-label="Open sidebar"
-              onClick={() => {
-                setSidebarOpen(true);
-                setSidebarCollapsed(false);
-              }}
-              className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
-                sidebarCollapsed ? "" : "lg:hidden"
-              }`}
-            >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <path
-                  d="M2.5 5h13M2.5 9h13M2.5 13h13"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </button>
-            <h1 className="truncate text-sm font-medium text-muted">
-              {activeConversation?.title ?? "New chat"}
-            </h1>
-          </div>
-          <button
-            aria-label="Open course catalog"
-            onClick={() => {
-              setCatalogOpen(true);
-              setCatalogCollapsed(false);
-            }}
-            className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
-              catalogCollapsed ? "" : "xl:hidden"
-            }`}
-          >
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-              <rect x="2.5" y="3" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
-              <rect x="2.5" y="8" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
-              <rect x="2.5" y="13" width="13" height="2" rx="1" stroke="currentColor" strokeWidth="1.4" />
-            </svg>
-          </button>
-        </header>
+        {searchView ? (
+          <ChatSearchView
+            conversations={conversations}
+            activeId={activeId}
+            onSelect={selectConversation}
+            onNewChat={newChat}
+            onBack={() => setSearchView(false)}
+          />
+        ) : (
+          <>
+            <header className="flex items-center justify-between border-b border-border px-4 py-3 lg:px-6">
+              <div className="flex items-center gap-3">
+                <button
+                  aria-label="Open sidebar"
+                  onClick={() => {
+                    setSidebarOpen(true);
+                    setSidebarCollapsed(false);
+                  }}
+                  className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
+                    sidebarCollapsed ? "" : "lg:hidden"
+                  }`}
+                >
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                    <path
+                      d="M2.5 5h13M2.5 9h13M2.5 13h13"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </button>
+                <h1 className="truncate text-sm font-medium text-muted">
+                  {activeConversation?.title ?? "New chat"}
+                </h1>
+              </div>
+              <button
+                aria-label="Open course catalog"
+                onClick={() => {
+                  setCatalogOpen(true);
+                  setCatalogCollapsed(false);
+                }}
+                className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
+                  catalogCollapsed ? "" : "xl:hidden"
+                }`}
+              >
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="3" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
+                  <rect x="2.5" y="8" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
+                  <rect x="2.5" y="13" width="13" height="2" rx="1" stroke="currentColor" strokeWidth="1.4" />
+                </svg>
+              </button>
+            </header>
 
-        <div ref={scrollRef} className="flex-1 overflow-y-auto">
-          {messages.length === 0 && !messagesLoading ? (
-            <EmptyState onExample={send} />
-          ) : (
-            <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 lg:px-8">
-              {messages.map((m) => (
-                <MessageBubble key={m.id} message={m} onCite={handleCite} />
-              ))}
-              {sending && <ThinkingIndicator />}
-              {error && <ErrorBanner message={error} onRetry={retry} />}
+            <div ref={scrollRef} className="flex-1 overflow-y-auto">
+              {messages.length === 0 && !messagesLoading ? (
+                <EmptyState onExample={send} />
+              ) : (
+                <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 lg:px-8">
+                  {messages.map((m) => (
+                    <MessageBubble key={m.id} message={m} onCite={handleCite} />
+                  ))}
+                  {sending && <ThinkingIndicator />}
+                  {error && <ErrorBanner message={error} onRetry={retry} />}
+                </div>
+              )}
             </div>
-          )}
-        </div>
 
-        <div className="mx-auto w-full max-w-3xl px-4 pb-4 lg:px-8">
-          <ChatInput disabled={sending} onSend={send} />
-        </div>
+            <div className="mx-auto w-full max-w-3xl px-4 pb-4 lg:px-8">
+              <ChatInput disabled={sending} onSend={send} />
+            </div>
+          </>
+        )}
       </div>
 
-      <CatalogPanel
-        courses={courses}
-        loading={catalogLoading}
-        query={catalogQuery}
-        onQueryChange={setCatalogQuery}
-        department={catalogDepartment}
-        departments={departments}
-        onDepartmentChange={setCatalogDepartment}
-        highlightedCode={highlightedCode}
-        open={catalogOpen}
-        onClose={() => setCatalogOpen(false)}
-        collapsed={catalogCollapsed}
-        onCollapse={() => setCatalogCollapsed(true)}
-      />
+      {!searchView && (
+        <CatalogPanel
+          courses={courses}
+          loading={catalogLoading}
+          query={catalogQuery}
+          onQueryChange={setCatalogQuery}
+          department={catalogDepartment}
+          departments={departments}
+          onDepartmentChange={setCatalogDepartment}
+          highlightedCode={highlightedCode}
+          open={catalogOpen}
+          onClose={() => setCatalogOpen(false)}
+          collapsed={catalogCollapsed}
+          onCollapse={() => setCatalogCollapsed(true)}
+        />
+      )}
     </div>
   );
 }
