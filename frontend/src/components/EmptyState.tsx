@@ -60,9 +60,10 @@ export function EmptyState({
   );
 
   const deptCounts = useMemo(() => {
+    if (!hasFavorites) return [];
     const counts = new Map<string, number>();
     for (const c of courses) {
-      if (hasFavorites && !favorites.has(c.department)) continue;
+      if (!favorites.has(c.department)) continue;
       counts.set(c.department, (counts.get(c.department) ?? 0) + 1);
     }
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
@@ -101,19 +102,21 @@ export function EmptyState({
         ))}
       </div>
 
-      {deptCounts.length > 0 && (
+      {totalDepartmentCount > 0 && (
         <div className="mt-4 w-full max-w-2xl rounded-xl border border-border bg-surface p-4 text-left shadow-panel">
           <h2 className="text-[0.68rem] font-medium uppercase tracking-wide text-faint">
-            {hasFavorites ? "Courses by favorite department" : "Courses by department"}
+            Courses by favorite department
           </h2>
-          <ul className="mt-3 flex flex-col gap-2.5">
-            {deptCounts.map(([code, count]) => (
-              <DeptBar key={code} code={code} count={count} max={maxCount} />
-            ))}
-          </ul>
-          {!hasFavorites && (
-            <p className="mt-3 text-[0.68rem] leading-snug text-faint">
-              Star departments in the course catalog panel to pin them here.
+          {hasFavorites ? (
+            <ul className="mt-3 flex flex-col gap-2.5">
+              {deptCounts.map(([code, count]) => (
+                <DeptBar key={code} code={code} count={count} max={maxCount} />
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-3 text-xs leading-relaxed text-faint">
+              No favorite departments yet — star a few in the course catalog
+              panel to see their course counts here.
             </p>
           )}
         </div>
