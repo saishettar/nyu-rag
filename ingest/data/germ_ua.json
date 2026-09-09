@@ -1,0 +1,308 @@
+[
+  {
+    "course_code": "GERM-UA 1",
+    "title": "Elementary German I",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open only to students with no previous training in German; others require permission of the department. Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 2",
+    "title": "Elementary German II",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 1 OR GERM-UA 9001 OR German Language Placement Placement >= 5100.",
+    "description": "Continuation of GERM-UA 1 .",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 3",
+    "title": "Intermediate German I",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 2 OR GERM-UA 9002 OR GERM-UA 10 OR GERM-UA 9010 OR German Language Placement Placement >= 5100.",
+    "description": "Intermediate level courses introduce more complex features of the language and focus on building reading and writing skills, while continuing to develop conversational ability.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 4",
+    "title": "Intermediate German II",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 3 OR GERM-UA 9003 OR German Language Placement Placement >= 5100.",
+    "description": "Continuation of GERM-UA 3 .",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 10",
+    "title": "Intensive Elementary German",
+    "department": "germ_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in German and to others on assignment by placement examination or with permission of the department. Completes the equivalent of a year's elementary work GERM-UA 1 and GERM-UA 2 in one semester. Emphasizes spoken and written communication skills. Introduces students to the basic conventions, idioms, and structures of contemporary spoken German.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 20",
+    "title": "Intensive Intermediate German",
+    "department": "germ_ua",
+    "credits": 6.0,
+    "prerequisites": "( GERM-UA 10 OR GERM-UA 2 ).",
+    "description": "Completes the equivalent of a year?s intermediate work GERM-UA 3 and GERM-UA 4 in one semester. Continuing emphasis on developing spoken and written communication skills. Students learn more-advanced features of the language and begin to read longer and more-complex texts.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 111",
+    "title": "Conversation/Composition",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 4 OR GERM-UA 20 ).",
+    "description": "Offered every year. 4 points. Required for the German major. Aims to improve students? proficiency in writing and speaking German in three functional areas: description, narration, and argumentation. Grammar and vocabulary are reviewed and practiced as appropriate. Students examine and discuss texts of various genres, then draft and present work of their own in each genre. Discussion and writing components are closely coordinated. Activities inclOffered every year. 4 points. Required for the German major. Aims to improve students? proficiency in writing and speaking German in three functional areas: description, narration, and argumentation. Grammar and vocabulary are reviewed and practiced as appropriate. Students examine and discuss texts of various genres, then draft and present work of their own in each genre. Discussion and writing components are closely coordinated. Activities include presentations, peer review, guided writing, and editing.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 132",
+    "title": "Germany:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 4 OR GERM-UA 20 ).",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 133",
+    "title": "German Culture 1890-1989",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 4 OR GERM-UA 20 ).",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 152",
+    "title": "Introduction to German Literature",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 4 OR GERM-UA 20 ).",
+    "description": "Introduction to representative authors and works of German literature, with emphasis on the modern period. Students learn basic conventions of literature and literary interpretation, as well as strategies for the effective reading of shorter and longer prose works, drama, and poetry. Guided writing assignments focus on developing the language skills necessary for effective written analysis and interpretation of literary texts in German.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 153",
+    "title": "Techniques of Translation",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "( GERM-UA 20 OR GERM-UA 4 ).",
+    "description": "Offered periodically. 4 points. Introduces students to the history, theory, and practice of translation through German and English texts taken from a variety of cultural backgrounds. While engaging in the craft of translation first hand, students encounter diverse grammatical, syntactical, and stylistic problems, thus gaining a deeper understanding of the German language. Also stresses the acquisition of vocabulary and complex idiomatic structures necessary for effective reading comprehension, as well as written expression.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 200",
+    "title": "History of the Jews in 20th Century Europe:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 202",
+    "title": "Topics:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 220",
+    "title": "Intro to German Culture & Thought",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 240",
+    "title": "Marx, Nietzsche, & Freud",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the work of these three seminal authors by focusing on their notions of interpretation, history, subjectivity, politics, religion, and art. The seminar does not present their work chronologically, but rather creates a dialogue between the authors around each topic and, thereby, delineates the origins of much modern thought.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 242",
+    "title": "Marx and the Culture of Capitalism",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course serves as an introduction to the thought and legacy of Karl Marx. Marx\u2019s\ntheory of capitalism centers on the concept of value. Value is the interface between\nculture and commerce, the hinge on which Marx\u2019s theory and Marxism turn. Although Marx sometimes distinguished between an economic \u201cbase\u201d and a legal-cultural \u201csuperstructure,\u201d he managed to depict the culture of capitalism as a whole. This method forms one of his crucial legacies, which we will explore in and after Marx. Organized around a slow reading of Capital, Volume 1, the course will also feature short readings from those who inspired Marx (David Ricardo, G. W. F. Hegel, Charles Babbage and Ada Lovelace) and those his work influenced (Rosa Luxemburg, Theodor W. Adorno, Stuart Hall, Donna Haraway). We will follow the trajectory that Capital itself takes, from the commodity and the concept of value to machinery, cooperation, and accumulation.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 244",
+    "title": "Topics:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 249",
+    "title": "Introduction to Theory-German Media Theory:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 283",
+    "title": "Topics:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 297",
+    "title": "Tpcs in 19th Cent Lit:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 298",
+    "title": "Topics in 20th Cent Lit:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 347",
+    "title": "The German Enlightenment",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 366",
+    "title": "20th and 21st Century German Prose",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 369",
+    "title": "Post 1945 German Lit",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 377",
+    "title": "Modern German Drama",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 390",
+    "title": "Topcs in German Cinema:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 420",
+    "title": "Modernism:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 456",
+    "title": "Age of Goethe",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 466",
+    "title": "Fin De Siecle",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 488",
+    "title": "Seminar 20th Century:",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester. For current term course description, please see\nthe German Department website at http://as.nyu.edu/german/courses.html\n<http://as.nyu.edu/german/courses.html>",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 500",
+    "title": "Honors Thesis",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "GERM-UA 152 AND GERM-UA 111 .",
+    "description": "Offered in the spring. Student works under the guidance of a faculty member to produce a research paper of 40 to 60 pages. The thesis can be written in German or English. If it is written in English, the student must also write an abstract of 3 to 4 pages in German. There will also be a one-hour oral presentation of the senior thesis with two faculty members.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 977",
+    "title": "Internship",
+    "department": "germ_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Requires permission of the department.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 990",
+    "title": "Independent Study",
+    "department": "germ_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. May be repeated for credit. Offered every semester. 1 to 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  },
+  {
+    "course_code": "GERM-UA 999",
+    "title": "Senior Honors Seminar",
+    "department": "germ_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. Offered in the fall. 4 points. Advanced seminar for honors students.",
+    "source_url": "https://bulletins.nyu.edu/courses/germ_ua/"
+  }
+]

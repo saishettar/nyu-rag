@@ -1,0 +1,173 @@
+[
+  {
+    "course_code": "PORT-UA 1",
+    "title": "Portuguese for Beginners I",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in Portuguese and to others on assignment by placement test. This beginning course is designed to teach the elements of Portuguese grammar and language structure through a primarily oral approach. Emphasis is on building vocabulary and language patterns to encourage spontaneous language use in and out of the classroom.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 2",
+    "title": "Portuguese for Beginners II",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 1 , placement test, or permission of the Directors of the Language Program.",
+    "description": "This course utilizes more advanced grammar, building on the foundation from PORT-UA 1 , along with more intensive reading comprehension drills to foster spontaneous communication and a deeper knowledge of the culture of the Portuguese-speaking world. The ultimate goal of this course is to help students further develop the oral, written and analytical skills in the language that were acquired in Elementary Portuguese I. A continuation of PORT-UA 1 .",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 3",
+    "title": "Intermed Portuguese I",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 2 or PORT-UA 11 , placement test, or permission of the Directors of the Language Program.",
+    "description": "This first intermediate-level course reviews grammar, language structure, and culture, concentrating on fluency and accuracy through listening, speaking, reading, and writing activities. This course expands on grammar topics by introducing more advanced concepts like the subjunctive, the personal infinitive, and compound tenses. Short fiction, the news and the arts are also utilized to foster spontaneous communication and knowledge of the culture of the Portuguese-speaking world. A continuation of PORT-UA 2 and PORT-UA 11 .",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 4",
+    "title": "Intermed Portuguese II",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 3 , placement test, or permission of the Directors of the Language Program.",
+    "description": "This second intermediate-level course aims to promote fluency in speaking and proficiency in reading and writing. It includes readings and discussions on contemporary texts from Portuguese-speaking countries, reviews complex grammar, and contextualizes new structures and vocabulary through these readings. Prerequisite: PORT-UA 3 , placement test, or permission of the Directors of the Language Program.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 11",
+    "title": "Elementary Portuguese for Spanish Speakers",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "native, near-native, or advanced proficiency in Spanish, demonstrated by having taken Advanced Spanish ( SPAN-UA 50 or SPAN UA -51) or by consultation with the Directors of the Language Program.",
+    "description": "Designed for advanced Spanish speakers with a reasonable command of grammar, this course provides a comprehensive and accelerated approach to learning Portuguese. By drawing comparisons between pronunciation patterns, grammar rules, and vocabulary in both languages, students can effectively transfer their existing skills from Spanish to Portuguese.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 50",
+    "title": "Advanced Portuguese",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 4 ; placement test or permission of the Directors of the Language Program.",
+    "description": "This is an advanced level course designed to expand students\u2019 lexical and grammatical understanding of the language. It also introduces students to the fundamental principles of expository writing and oral expression through the analysis of videos, examples from visual arts related to fashion, gastronomy, soccer, and music, as well as short stories, poems, and essays on culture, sociology, and history. The core goal is to discuss and analyze the constitutive elements of Luso-Brazilian society in the first decades of the 21st Century. Special attention will be devoted to the evolution of Contemporary Luso-Brazilian societies in the light of social and artistic phenomena. We will read essential pieces, see images and videos produced by the most sophisticated cultural authors and critics, and compare their views on art and society.  This approach is designed to encourage students to discuss course materials, stimulate creative thinking, and enhance their ability to express complex ideas fluently in both written and spoken Portuguese. Upon completing the semester, students will have the necessary linguistic skills for advanced-level Portuguese.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 100",
+    "title": "Tpcs in Advanced Portuguese",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 50 or PORT- UA 300; written exam or permission of the Directors of the Language Program.",
+    "description": "PORT-UA 100 Topics in Advanced Portuguese  (4 Credits)\nA descriptive review of grammar through the use of more sophisticated sentence patterns and vocabulary offers students the opportunity to think independently and to analyze the work of artists and writers. Short literary pieces and plays, works of art and news media are utilized to prompt writing responses, critical ideas and informed classroom discussions. The ultimate goal of this course is to expand, refine, and solidify students\u2019  knowledge of the Portuguese language, cultures and communications.\nGrading: CAS Graded\nRepeatable for additional credit: No",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 170",
+    "title": "Independent Study (fall)",
+    "department": "port_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Majors who have completed preliminary requirements for the major (\u201cfoundations\u201d courses) may have the opportunity to pursue directed research for 2 or 4 credits under the supervision of a professor in the department, in most cases a professor with whom they have previously taken an upper-level literature/culture course. Students should first contact the professor to discuss this possibility; the student and professor will devise a syllabus to be submitted for approval to the Director of Undergraduate Studies. For majors only, no exceptions. Requires the agreement of the sponsoring professor and permission of the Director of Undergraduate Studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 171",
+    "title": "Independent Study (spring)",
+    "department": "port_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Majors who have completed preliminary requirements for the major (\u201cfoundations\u201d courses) may have the opportunity to pursue directed research for 2 or 4 credits under the supervision of a professor in the department, in most cases a professor with whom they have previously taken an upper level literature/culture course. Students should first contact the professor to discuss this possibility; the student and professor will devise a syllabus to be submitted for approval to the Director of Undergraduate Studies. For majors only, no exceptions. Requires the agreement of the sponsoring professor and permission of the Director of Undergraduate Studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 215",
+    "title": "Cultural History of the Luso-Brazilian World",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In this course, based on a selection of (canonic as well as more marginal) literary, filmic, and musical works, we will learn about the way in which Portuguese seaward expansion opened the path for Western colonialism and globalization, as well as about the forms of local agency and resistance that challenged or subverted Portuguese colonial rule. We will look at the contested processes of construction and the ultimate demise of the Portuguese empire and the emergence of post-colonial nation-states (starting with the independence of Brazil at the beginning of the nineteenth century) through a range of literary, artistic, musical and filmic expressions. Discussion of these materials will raise issues about the ideological underpinnings of colonialism and decolonization as well as on the diasporic memory-work individuals and communities carry out through poetry, music, and dance. The overall aim of the course is to raise sensitivity about the multiple interconnections and cross-fertilizations that sustain and enrich Luso-Brazilian cultures in the present \u2014 including, not least, the Portuguese heritage of New York City, with the foundation, in 1654, of its first Jewish congregation by exiles from Recife, Brazil, and the presence until today of sizeable Portuguese, Azorean and Brazilian communities.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 300",
+    "title": "Topics (in Portuguese)",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 50 ;  written exam or permission of the Directors of the Language Program.",
+    "description": "Taught in Portuguese. Topics address a wide range of cultural expressions from the Luso-Afro-Brazilian world, as well as their historical and sociopolitical contexts. As a 300-level course taught in Portuguese, this course provides structured opportunities to advance critical thinking skills through use of written Portuguese. May be taken up to four times in total (16 total credits) as content changes and with the advice of the department.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 304",
+    "title": "Tropic\u00e1lia: Pop, Politics, and Counterculture in Brazil",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 50 ;  written exam or permission of the Directors of the Language Program.",
+    "description": "Brazil\u2019s \u201ctropicalist\u201d musical, artistic and literary movement of the Sixties and Seventies remains one of the most powerful and influential aesthetic experiences from the late twentieth century in all of Latin America. Its shrill juxtapositions of cosmopolitan with rural, and ethnic with industrial musical forms, of concrete poetry and street slang, hippie fashions and local TV kitsch aesthetics, enraged both the dictatorship and the traditional Left. In the course, we will study Tropic\u00e1lia\u2019s musical expressions (Caetano Veloso, Gilberto Gil, Gal Costa, Os Mutantes, Tom Z\u00e9, Jorge Ben) as well as their visual and literary forerunners and contemporaries (including, for example, the visual artist H\u00e9lio Oiticica, the poets Torquato Neto, Ana Cristina C\u00e9sar, and Waly Salom\u00e3o, film and theater directors Jos\u00e9 Celso Martinez Corr\u00eaa and Glauber Rocha, and the writer and underground filmmaker Jos\u00e9 Agrippino de Paula). We are also going to look into the longer history of the notion of the \u2018tropical\u2019 and into the impact Tropic\u00e1lia has had on more recent musical and cultural movements in Brazil (Manguebeat, Afro-Reggae, Fora do Eixo, or Baile-Funk).",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 400",
+    "title": "Advanced Topics (in Portuguese)",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "PORT-UA 50 or PORT- UA 300; written exam or permission of the Directors of the Language Program.",
+    "description": "Taught in Portuguese. Topics address a wide range of cultural expressions from the Luso-Afro-Brazilian world as well as their historical and sociopolitical contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 401",
+    "title": "Topics: Brazil (taught in English)",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary. Focused on Brazilian culture, society, and/or arts and the relationship between these. Recent topics include Brazilian architecture, the Amazon, and Brazilian poetry and song.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 403",
+    "title": "On Eating Others",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The notion of cannibalism is a recurring concern in the history of ideas regarding the primitive, the animalistic, the monstrous, or any of the other classifications frequently invoked to mark others, regardless of their actual culinary preferences. Reflection upon cannibalism as an intellectual phenomenon suggests how people eat people, or at least the possibility of it, says a great deal about those that do not. In some regions of the Caribbean and Brazil, ideas regarding cannibalism have made an important turn, such that the cannibal has become a provocative affirmation of self. The aim of this course is to think about cannibalism, not, as it often is, as a theme for anthropologists and ethnographers, but rather as an intellectual problem that has enjoyed a very long life in the history of ideas about self. In this course, we shall revisit a selection of texts regarding cannibalism from Columbus\u2019 diaries to the present, and including works by, Montaigne, Shakespeare, Oswald de Andrade, Nelson Pereira dos Santos, and Suely Rolnik, in the company of some key notions involving postcolonial theory. Readings will be made available in Portuguese, Spanish, and English, and course papers may be carried out in any of the three languages according to student interest and ability.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 405",
+    "title": "Narrating Poverty in Brazil",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Taught in English. This course examines literary works in various genres (novels, autobiography, short stories), and Brazilian films (Cinema Novo and after, including documentaries), that attempt to narrate the experience of poverty. We will discuss texts by Graciliano Ramos, Carolina Maria de Jesus, Clarice Lispector, Rubem Fonseca, and Patricia Melo and view films (Barren Lives, The Scavengers, The Hour of the Star, Pixote, Bus 174 and City of God, Babil\u00f4nia 2000 and Black Orpheus), in light of key questions. How do these texts reflect on the nature of representation and on the investments of author and reader in images of deprivation? How do they present the connections of poverty with violence, stigmatization, and citizenship rights? How do they frame the ethical responsibilities of the writer or film-maker, as well as of readers and spectators? What are the patterns of consumption and circulation of these texts?",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 461",
+    "title": "Topics: Portugal and Luso-Africa (taught in English)",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Taught in English. Topics vary by semester and focus on a wide range of cultural expressions from the Luso-Afro-Brazilian context as well as their historical and sociopolitical contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 500",
+    "title": "Advanced Topics (in English)",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Taught in English. Topics address a wide range of cultural expressions from the Luso-Afro-Brazilian world as well as their historical and sociopolitical contexts.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  },
+  {
+    "course_code": "PORT-UA 562",
+    "title": "Contemporary Cinemas in Portuguese: Brazil, Portugal, Luso-Africa",
+    "department": "port_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Spanning five continents and three oceans, filmmaking in Portuguese is among the most wide-spread in the world\u2013but also the most difficult to watch, given the mutual remoteness of shooting locations and audiences, making for only a relatively small market share. Between East Timor, Mozambique, Brazil, Macau, and Portugal, no single, unified film culture exists but rather an archipelago of cinemas shot through with multiple Asian, African and Amerindian languages and cultures. And yet, film offers us an insight into this worldwide web of histories of colonization, revolution, migration and diaspora \u2013themes that the Brazilian Cinema Novo of the 60s and 70s had already explored and that new African and Portuguese cinemas have revisited in recent years: racial and sexual difference, transnational migration, or the legacies of Empire and slavery, among others. Films studied include: Como Era Gostoso o Meu Franc\u00eas (How Tasty Was My Little Frenchman, Nelson Pereira dos Santos, Brazil 1971), Sambizanga(Sarah Maldoror, Angola 1973), Nh\u00e1 Fala(My Voice, Flora Gomes, Guinea-Bissau/Cabo Verde 2002), O Her\u00f3i (The Hero, Z\u00e9z\u00e9 Gamboa, Angola 2004), Virgem Margarida(Virgin Margarita, Lic\u00ednio Azevedo, Mozambique 2012), Cavalo Dinheiro(Horse Money, Pedro Costa, Portugal 2014) and Bacurau(Kl\u00e9ber Mendon\u00e7a Filho, Brazil 2019). The course will be taught in English but students and speakers of Portuguese will be offered additional critical readings in the language.",
+    "source_url": "https://bulletins.nyu.edu/courses/port_ua/"
+  }
+]

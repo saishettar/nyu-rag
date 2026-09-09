@@ -1,0 +1,524 @@
+[
+  {
+    "course_code": "FREN-UA 1",
+    "title": "Elemen French Level I",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in French and to others on assignment by placement test. Not equivalent to FREN-UA 10 . Only by combining FREN-UA 1 with FREN-UA 2 can a student complete the equivalent of FREN-UA 10 and then continue on to the intermediate level. Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 2",
+    "title": "Elem French Level II",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Continuation of FREN-UA 1 . In order to continue on to the intermediate level, a student must complete both FREN-UA 1 and FREN-UA 2 . This sequence is equivalent to FREN-UA 10 . Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 10",
+    "title": "Intens Elementary French",
+    "department": "fren_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in French and to others on assignment by placement test. Completes the equivalent of a year's elementary level in one semester. Offered every semester. 6 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 11",
+    "title": "Intermediate French I",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Not equivalent to FREN-UA 20 . Only by combining FREN-UA 11 with FREN-UA 12 can a student complete the equivalent of FREN-UA 20 and then continue on to the post-intermediate level. Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 12",
+    "title": "Intermediate French II",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Continuation of FREN-UA 11 . In order to fulfill the MAP requirement and continue on to the post-intermediate level, a student must complete both FREN-UA 11 and FREN-UA 12 . This sequence is equivalent to FREN-UA 20 . Offered every semester. 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 20",
+    "title": "Intens Intermed French",
+    "department": "fren_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "Completes the equivalent of a year's intermediate level in one semester. Offered every semester. 6 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 26",
+    "title": "Louisiana Immersion Program",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "( FREN-UA 12 OR FREN-UA 20 OR French Language Placement Score >= 46).",
+    "description": "In this French immersion course you will have the opportunity to work on\nimproving your spoken French as we explore together the linguistic,\nhistorical, and cultural contexts of French-speaking Louisiana with a focus\non Louisiana (Cajun) French.  This course combines eight class meetings in\nNew York with a week-long linguistic and cultural immersion program in New\nOrleans, Baton Rouge, and Arnaudville, Louisiana.  This program is being\nrun in partnership with NYU's Alternative Spring Break Program, and as such\nit will include a service learning component.  In addition to a number of\nscholarly articles on a variety of both historical and modern-day aspects\nof francophone Louisiana, readings for this course will include a selection\nof Louisiana poetry and short stories as well as a novel.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 27",
+    "title": "Living in French in North America: An Immersion Program in New England and Quebec",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "( FREN-UA 12 OR FREN-UA 20 OR French Language Placement Score >= 46).",
+    "description": "This course offers a unique combination of classroom study in New York and a study and service week (in coordination with the Alternative Spring Break program) in locations in the United States and Canada: Lowell, MA; Orono, ME; Quebec City; Victoriaville; and Montreal. The course introduces students to the linguistic and cultural diversity of the francophone presence in North America, promoting the discussion of Francophone cultures and issues of migration, integration, and cultural diversity in relation to the United States. Readings include scholarly materials (in English and French) as well as texts by Franco-Americans (including Jack Kerouac) and novels, short stories, and poems by Qu\u00e9b\u00e9cois authors.. The work done during the trip will include academic community service (recording for an oral history project) and more traditional community service (volunteering in Quebec). Through this course, participants will gain a greater understanding of the diversity of Francophone America as well as a sharpened awareness of issues of multiculturalism and migration. Application required, contact the Department of French for more information.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 30",
+    "title": "Advanced French: Language, Culture, and Expression",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Systematizes and reinforces the language skills presented in earlier-level\ncourses through an intensive review of grammar, written exercises, an\nintroduction to composition, lexical enrichment, and literary analysis. Formerly titled French Grammar and Composition.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 101",
+    "title": "Spoken Contemp French I",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 ).",
+    "description": "Helps the student to develop vocabulary, improve pronunciation, and learn new idiomatic expressions. Introduction to corrective phonetics and emphasis on understanding contemporary French through a study of such authentic documents as radio and television interviews, advertisements, and spontaneous oral productions.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 102",
+    "title": "Advanced French Conversation",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 101 OR FREN-UA 9101 ).",
+    "description": "Develops the skills presented in V45.0101 through an in-depth study of French phonetics (corrective and theoretical) and analysis of the modes of oral discourse in French. Emphasis on understanding spoken French (modes of argument, persuasion, and emotion) through analysis of authentic documents; development of student discourse in French.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 103",
+    "title": "French Phonetics",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 ).",
+    "description": "Provides advanced French language students with the opportunity to improve their pronunciation through a detailed analysis of the sound systems of both French and English.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 105",
+    "title": "Written Contemporary French",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 ).",
+    "description": "Designed to improve the student's written French and to provide advanced training in French and comparative grammar. Students are trained to express themselves in a variety of writing situations (for example, diaries, transcriptions, narrations, letters). Focuses on the distinction between spoken and written styles and the problem of contrastive grammar. Emphasis on accuracy and fluency of usage in the written language.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 107",
+    "title": "French Translation",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "Practice of translation through French and English texts taken from a variety of sources to present a range of contrasting grammatical and stylistic problems. Also stresses acquisition of vocabulary.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 108",
+    "title": "French: Advanced Techniques of Translation",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 107 .",
+    "description": "This course is designed for students who want to further explore the richness of the French language and culture through a wide range of activities, topics and materials. This upper level course provides students with a unique opportunity to reflect upon the challenges that any translation work involves, primarily by making assessments and decisions. You will work on engaging pieces of literature and philosophy, journalistic essays, comics, cinema and subtitling, music, poetry and more.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 109",
+    "title": "Acting French",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 OR FREN-UA 9105 OR FREN-UA 106 OR FREN-UA 9106  OR French Language Placement Score >= 710 OR Advanced Placement Examination French Literature >= 4).",
+    "description": "Use of dramatic situations and readings to help students overcome inhibitions in their oral use of language. The graduated series of exercises and activities is designed to improve pronunciation, intonation, expression, and body language. These include phonetic practice, poetry recitation, skits, improvisation, and memorization of dramatic texts. Reading, discussion, and performance of scenes from plays by renowned dramatists. Extensive use of audio and video material.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 110",
+    "title": "Business French",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 OR FREN-UA 9030 OR FREN-SHU 30 .",
+    "description": "Designed for students who wish to learn the specialized language used in French business. Emphasis on oral and written communication and the acquisition of a business and commercial vocabulary dealing with the varied activities of a commercial firm (e.g., advertising, transportation, banking). Stresses group work in simulated business situations and exposure to authentic spoken materials.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 111",
+    "title": "Creative Writing in French",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 105 .",
+    "description": "In this course, students with a solid grasp of French have the opportunity\nto continue refining their knowledge of the language by a variety of\nworkshop-based creative-writing activities. Time will be split between\nreading and discussing short texts in a variety of genres (as models,\npoints of inspiration, etc.) and creative writing proper. Students will\nwrite a variety of texts throughout the semester, ranging from\nautobiographical to experimental.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 113",
+    "title": "French for International Relations",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Students will gain a greater appreciation of the role that French plays in international relations through an exploration of the use of French in diplomacy with Francophone countries, international organizations, supranational entities, etc.  Students will acquire vocabulary and pragmatic skills relevant to the world of international relations and will develop specific reading, writing, and presentational skills related to the sphere of international relations.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 114",
+    "title": "French for Media and Communication",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "French, Grammar and Composition ( FREN-UA 30 ).",
+    "description": "This is an advanced French for Specific Purposes course; all material is in the target language (French). The students will explore contemporary French and Francophone cultures as represented in French media (written press, radio, and TV news). A variety of topics will be covered to offer a cross-section of French-speaking society. Students will also develop their written and spoken French through a critical observation of French media. Students will follow the events of France's and other Francophone media, and participate in discussions on different topics, as they are debated in the media.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 115",
+    "title": "Approaches to French Language",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Approaches the French language as it is used both in and outside of France\nthrough an exploration of some of the principal domains of linguistic\nstudy: phonetics, phonology, morphology, syntax, the external history of\nFrench, and sociolinguistic and regional variation. Emphasizes the internal\nworkings of the French language as well as the place and roles of French\nthroughout the Francophone world.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 140",
+    "title": "Approaches to French Literature",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "This course offers an introduction to central works in French literature, while presenting students with a toolkit for literary analysis. Eschewing a strictly chronological approach, we will explore some of the key lines of thought animating French literary production from the Middle Ages through the twentieth century. Students will have the opportunity to refine their skills in reading\nand writing through in-class workshops devoted to techniques for close reading, developing a thesis from textual evidence, and identifying arguments in critical texts. Our objectives will be both to understand the diverse functions of literature as a cultural practice and to prepare students to take Discovery courses and other advanced seminars in literature.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 143",
+    "title": "Approaches to French and Francophone Performing Arts",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "This course, which is entirely conducted in French, is an introduction to French and\nFrancophone Performing Arts from the early modern period to the present day. The\nemphasis is placed on the relationship between the performers and the viewers through theatrical illusion, speech, and the body in the theater, operas, ballets and poetry readings. Students will discuss the significance of social issues in French and Francophone performing arts on a global scale. The main sources are read and\ndiscussed in French. They include landmark texts and recordings of works by writers and performers including: Moli\u00e8re, Corneille, Hugo, Rimbaud, Verlaine, Cocteau, Mnouchkine, Delcuvellerie.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 145",
+    "title": "French: Approaches to Francophone Literature",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Offered every year. 4 points. Examines literature from a network of French-speaking countries that form a Francophone space. Addresses the colonial past as well as the anticolonial and postcolonial situations in which French colonialism is replaced by more complex relationships and ideologies. Special attention is paid to language and the role of the writer in elaborating a postcolonial national identity. Writers studied may include Edouard Glissant and Patrick Chamoiseau of Martinique, Jacques Roumain of Haiti, Ahmadou Kourouma of the Ivory Coast, and Assia Djebar of Algeria.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 150",
+    "title": "Versailles; Life as Art",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-SHU 30 OR FREN-UA 101 OR FREN-UA 105 ).",
+    "description": "When conducted in English, numbered V45.0850 and also open to French majors who read the works in the original aWhen conducted in English, numbered V45.0850 and also open to French majors who read the works in the original and do their written work in French. Offered every other year. 4 points. Fabulous Versailles, the synthesis of baroque and classical aesthetics and the cult of kingship, serves as an introduction to the study of major aspects of 17th- and 18th-century culture and French influence on European civilization. This course views the intellectual, artistic, and social complexities of the period through the works of contemporary philosophers, dramatists, artists, memorialists, and historians from Descartes to Voltaire. Films, field trips, and multimedia presentations of music and art.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 163",
+    "title": "Approaches to French History",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "This course is an exploration of the forces, ideas, and tensions that have shaped France and the French-speaking world across time. The course examines pivotal moments and developments in the history of France through a range of historical lenses, allowing for varied points of emphasis. Students will analyze the dynamic interrelations between history, literature, society, fine arts, and philosophy, considering how cultural production can both reflect and influence historical change. Students will engage directly with historical texts and scholarly interpretations to develop critical perspectives on the past and better understand its repercussions and reinterpretations in the present. Students will examine major intellectual movements, social transformations, political conflicts, and the relationships between state, nation, and citizenry, all of which have played a role in defining French and Francophone identities and experiences, as they refine their skills in analysis, discussion, and oral and written presentation.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 164",
+    "title": "French Contemporary France",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "The concept of ?French civilization? in both its mythical and real aspects. Gives the student considerable knowledge about the economic and social features of contemporary France. Uses the comparative approach between French and American culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 190",
+    "title": "Race in France: Literature, Film, Theory",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "In recent years, France\u2019s complex relationship with race has been the object of intense debates. Traditionally, France has relied on a universalist ideal of color-blindness that does not recognize the existence of race and rejects its use in public discourse and political action. Today, however, a growing number of activists and intellectuals contend that the traditional republican ban on\nrace has not only failed to prevent racism but makes it impossible to fully measure racist discriminations. This course investigates how French and francophone writers, intellectuals, artists and filmmakers, have engaged with these questions. While exploring the historical and political context of these debates, we will ask ourselves how artistic and literary practices can challenge established concepts of identity. In addition to introducing you to important intellectual and artistic debates in contemporary France, this course will also offer you the opportunity to rethink some of the categories that structure U.S. debates on these questions by confronting them to a different cultural context.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 532",
+    "title": "The 18th Century French Novel",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 ).",
+    "description": "The novel comes into its own during the 18th century. It fought for recognition as a ?worthy genre.? The development of the novel as an aesthetic form and the social and moral preoccupations it reveals are studied in a variety of authors such as Marivaux, Voltaire, Diderot, Rousseau, Laclos, and Sade.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 562",
+    "title": "French Thought from Montaigne to Sartre",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Deals with the various currents of ideas and the transformations in values, taste, and feeling that constitute the Enlightenment in France. Particular attention to the personality, writings, and influence of the following authors: Montaigne, Descartes, Montesquieu, Voltaire, Diderot, Rousseau, and Sartre. Significant works by these thinkers and others are closely read and interpreted.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 563",
+    "title": "French Thought from Existentialism to Political Ecology (in French)",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "What is the meaning of existence, and of life in society? This is the question the principal thinkers of \u201cFrench Theory\u201d attempted to answer in the second half of the 20th century. This important moment of intellectual life continues to influence thinkers today around the world. The principal questions and intellectual movements studied in this course include: existentialism (Sartre), structuralism (Levi-Strauss), deconstruction (Derrida), the intersection of power and sexuality (Foucault), sociology of culture (Bourdieu), feminism (Beauvoir, Cixous), postcolonial identities (Glissant), animalism, political ecology (Serres).",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 632",
+    "title": "French Novel and Society: The 19th Century",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Study of Balzac, Stendhal, Flaubert, and Zola as a means of identifying the individual?s changing relationship to the environment and the social, political, and intellectual contexts of his or her epoch. Problems of 19th-century novel, narrative structure, point of view, invention, and observation.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 731",
+    "title": "French Novel: The 20th Century",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The major French novelists of the 20th century have moved the novel away from the traditional 19th-century concept. Proust and Gide developed a first-person-singular narrative in which the reader is participant. Breton uses the novel for a surrealist exploration. With Celine and Malraux, the novel of violent action becomes a mirror of man's situation in a chaotic time and leads to the work of Sartre and Camus, encompassing the existentialist viewpoint. Covers Beckett's sparse, complex narratives and Robbe-Grillet's \"new\" novels. Novels are studied with respect to structure, technique, themes, language, and significant passages.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 771",
+    "title": "The French Canon: Proust",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 ) AND FREN-UA 9105 .",
+    "description": "\"Reading of *In Search of Lost Time*. Major topics include the novel as confession, the unconscious and creation, perception and language, sexuality, decadence, the artistic climate in Europe and France from the end of the 19th century through World War I, and the hero as artist.\"",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 825",
+    "title": "How to Doubt Everything \u2013 Montaigne\u2019s Essais",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why is it important to doubt? How do we doubt? And if we doubt what we think and what we should \u2018do,\u2019 then how can we know ourselves? How much can/should we doubt and when (if at all) should we stop? These are (some of) the questions central to this course, to be explored by careful reading, analysis, and discussion of a significant number of the chapters that make up Montaigne\u2019s unique book, the Essais (1580-92)\u2014whose English title should really be The Trials. In this work, which the author continued to expand and modify with each new edition, Montaigne fashions a new style of writing that functions not to communicate knowledge, but to constantly question and confound what we think we know\u2014and, doing so, he creates a new kind of self-portrait and understanding of individual and collective identity.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 829",
+    "title": "Theatre in The French Tradition",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Study of the theatrical genre in France including the Golden Age playwrights (Corneille, Racine, and Moli?re); 18th-century irony and sentiment; and the 19th-century theatrical revolution. Topics: theories of comedy and tragedy, development of stagecraft, romanticism and realism, the theatre as a public genre, its relationship to taste and fashion, and its sociopolitical function.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 850",
+    "title": "Versailles: The Making of a World Heritage Site",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Fabulous Versailles, the synthesis of baroque and classical aesthetics and the cult of kingship, introduces study of major aspects of 17th- and 18th-century culture and French influence on European civilization. Views the intellectual, artistic, and social complexities of the period through the works of contemporary philosophers, dramatists, artists, memorialists, and historians from Descartes to Voltaire. Films, field trips, and multimedia presentations of music and art.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 865",
+    "title": "Topics in French and Francophone Literature and Culture",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Courses on subjects of special interest by either a regular or visiting faculty member. For specific courses, please consult the class schedule. Recent topics include Paris in history, art, and literature; La Belle Epoque; Paris and the birth of modernism. May be taken four times (16 credits total) as specific topics change.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 867",
+    "title": "Existentialism & The Absurd",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Main expressions of existential thought in Jean-Paul Sartre, Simone de Beauvoir, and Albert Camus. Attention to the French existentialists? concern for commitment in political and social affairs of the times. Examines absurdist literature since the 1950?s in the ?theatre of the absurd,? in fiction, and in critical work of other contemporary French writers. Covers Ionesco, Beckett, Genet, Robbe-Grillet, and Barthes; precursors of the absurd such as Kafka and C?line; and practictioners of the absurd outside of France (e.g., Pinter, Albee, Barthelme).",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 868",
+    "title": "Topics in French Lit",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The department offers occasional courses on subjects of special interest to either a regular or visiting faculty member. For specific courses, please consult the class schedule.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 869",
+    "title": "Topics in French and Francophone Literature and Culture",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 878",
+    "title": "History of French Filmmaking from its Origins to the New Wave (in English)",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "\"This course is an introduction to the history of French cinema from its origins to the New Wave through the lens of art and French civilization (history, literature, class, gender, ethnicity). The movements and directors we will be studying include : early cinema (Lumi\u00e8re brothers, M\u00e9li\u00e8s), Surrealism and the Avant-Garde (Bunuel, Dreyer), Poetic Realism (Renoir, Carn\u00e9), the \u00ab New Wave \u00bb (Godard, Truffaut, Varda, Demy).\n\"",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 879",
+    "title": "History of French and Francophone Filmmaking since the New Wave (in English",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Globalization has generated new challenges and identities in France and in Francophonie that are reflected by contemporary French and Francophone cinemas. This course offers an introduction to the history of French and Francophone auteur cinema since the New Wave from two angles: (1) the director\u2019s artistic signature and (2) the contextualization of films in the political and cultural history of the French speaking world.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 890",
+    "title": "Race in France: Literature, Film, Theory",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Course conducted in English. In recent years, France\u2019s complex relationship with race has been the object of intense debates. Traditionally, France has relied on a universalist ideal of color-blindness that does not recognize the existence of race and rejects its use in public discourse and political action. Today, however, a growing number of activists and intellectuals contend that the traditional republican ban on race has not only failed to prevent racism but makes it impossible to fully measure racist discriminations. This course investigates how French and francophone writers, intellectuals, artists and filmmakers, have engaged with these questions. While exploring the historical and political context of these debates, we will ask ourselves how artistic and literary practices can challenge established concepts of identity. In addition to introducing you to important intellectual and artistic debates in contemporary France, this course will also offer you the opportunity to rethink some of the categories that structure U.S. debates on these questions by confronting them to a different cultural context.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 904",
+    "title": "French News in Conversation",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "In this course, students gather once a week for \u201cFrench news, with coffee.\u201d Before each workshop, students read articles in online French news sources (Le Monde, Le Monde diplomatique, Le Figaro, etc.), research new vocabulary, and consign the most important ideas and their personal reactions in a \u201cnews journal.\u201d During the discussion-based workshop, students (in French) will discuss the news, review vocabulary, and generally utilize and improve their fluency and cultural competency. Particular emphasis will be placed on news items relating to diversity and ecology within France and the French-speaking world.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 905",
+    "title": "Machines \u00e0 \u00e9crire",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "Students not only read the work of, but also meet and discuss their reading\nwith, contemporary French writers who speak at the Maison Fran\u00e7aise as part\nof the interview series \u201cFrench Literature in the Making\u201d organized by\ncelebrated French journalist Olivier Barrot.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 920",
+    "title": "History of the French Language",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Conducted in French/English\nHow did French develop from a regional dialect of Vulgar Latin lacking in\nprestige into a major international language of diplomacy, literature, and\ncommerce spoken on every continent?  That is the question we will explore\ntogether in this course on the history of the French language.  We will\ntrace the development of French from its origins in Vulgar Latin up until\nthe beginning of the modern era through an examination of the internal\nhistory of the language (phonological, morphological, syntactic and\nsemantic changes) as well as its external history (social, demographical,\nand political changes).  Along the way we will focus on a variety of both\nprimary and secondary sources.  While we will be discussing linguistic and\nsociolinguistic developments in French, this course does not require any\nprior knowledge of linguistics",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 925",
+    "title": "How to Doubt Everything \u2013 Montaigne\u2019s Essais",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why is it important to doubt? How do we doubt? And if we doubt what we think and what we should \u2018do,\u2019 then how can we know ourselves? How much can/should we doubt and when (if at all) should we stop? These are (some of) the questions central to this course, to be explored by careful reading, analysis, and discussion of a significant number of the chapters that make up Montaigne\u2019s unique book, the Essais (1580-92)\u2014whose English title should really be The Trials. In this work, which the author continued to expand and modify with each new edition, Montaigne fashions a new style of writing that functions not to communicate knowledge, but to constantly question and confound what we think we know\u2014and, doing so, he creates a new kind of self-portrait and understanding of individual and collective identity.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 929",
+    "title": "Theatre in The French Tradition",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Study of the theatrical genre in France, including the golden age playwrights (Corneille, Racine, Moli?re); 18th-century irony and sentiment; and the 19th-century theatrical revolution. Topics include theories of comedy and tragedy; development of stagecraft; romanticism and realism; and the theatre as a public genre, its relationship to taste and fashion, and its sociopolitical function.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 935",
+    "title": "French and Francophone Women Writers",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 9030 OR FREN-UA 101 OR FREN-UA 9101 OR FREN-UA 105 OR FREN-UA 9105 ).",
+    "description": "The rich and diverse literary works by women express their individuality and their important social and cultural role in France from the 12th century to the present. The course studies both the changing sociohistorical context of these writers and the common problems and themes that constitute a female tradition. Writers include Marie de France, Christine de Pisan, Marguerite de Navarre, Mme. de S?vign?, Germaine de Sta?l, George Sand, Colette, Simone de Beauvoir, and Marguerite Duras.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 965",
+    "title": "Topics in French and Francophone Literature and Culture",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 30 OR FREN-UA 101 OR FREN-UA 105 ).",
+    "description": "Courses on subjects of special interest by either a regular or visiting faculty member. For specific courses, please consult the class schedule. Recent topics include Paris in history, art, and literature; La Belle \u00e9poque; Paris and the birth of modernism.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 980",
+    "title": "Internship",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "( FREN-UA 115 OR FREN-UA 163 ) AND Restriction: Academic Program  Visiting/Special StudentNYU PrecollegeWriters in NYHyperlocal JournalismCultural CapitalTisch High School Program.",
+    "description": "Prerequisite: permission of the department. Offered every semester. 2 or 4 points per term. Offers upper-level students the opportunity to apply their studies to the \"outside world.\" Working closely with a sponsor and a faculty adviser, students pursue internships in such diverse areas as international trade, banking, publishing, and law. Interested students should apply to the department early in the semester before they wish to begin their internship.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 981",
+    "title": "Internship in French",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "( FREN-UA 115 OR FREN-UA 163 ).",
+    "description": "Students have the opportunity to complete internships for credit either in New York City or at NYU Paris. In New York, students must identify their own internships. Students must obtain permission from their departmental advisor for an internship. In conjunction with the internship, students must enroll in an independent study under the directorship of a departmental instructor. Students are responsible for finding an instructor and coordinating with them.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 991",
+    "title": "Senior Seminar",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. Topics (and specific prerequisites) vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 992",
+    "title": "Senior Seminar",
+    "department": "fren_ua",
+    "credits": 4.0,
+    "prerequisites": "FREN-UA 30 .",
+    "description": "Two Senior Seminars are regularly offered each semester. The Senior Seminar provides French majors in their final year of study the chance to delve deep into the exploration of a specific topic (most often a specialty of the faculty member designing and teaching the course) and do their own original research.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 995",
+    "title": "Honors Thesis",
+    "department": "fren_ua",
+    "credits": 2.0,
+    "prerequisites": "FREN-UA 991 .",
+    "description": "The French Honors Program is open to all students majoring in French with an overall grade point average of 3.65 and an average of 3.65 in the major. Students admitted to the Honors Program will complete a 6-credit sequence (in addition to the credits for their major) during their senior year, which includes the writing of an honors thesis, an original work of scholarship in the field of French and/or Francophone literature or culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 997",
+    "title": "Independent Study",
+    "department": "fren_ua",
+    "credits": 1.0,
+    "prerequisites": "( FREN-UA 115 OR FREN-UA 163 ).",
+    "description": "An Independent Study is an opportunity for students to work closely with a faculty advisor on a subject or interest related to their area of study. After securing approval from a faculty member in writing, the student should see the Director of Undergraduate Studies (DUS) in order to register for an Independent Study course. Independent Study courses may be taken for 2 or 4 credits. The faculty adviser and the student will together determine the course content and graded assignments of the Independent Study. An Independent Study can be applied towards the major and/or minor.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  },
+  {
+    "course_code": "FREN-UA 998",
+    "title": "Independent Study",
+    "department": "fren_ua",
+    "credits": 1.0,
+    "prerequisites": "( FREN-UA 115 OR FREN-UA 163 ).",
+    "description": "An Independent Study is an opportunity for students to work closely with a faculty advisor on a subject or interest related to their area of study. After securing approval from a faculty member in writing, the student should see the Director of Undergraduate Studies (DUS) in order to register for an Independent Study course. Independent Study courses may be taken for 2 or 4 credits. The faculty adviser and the student will together determine the course content and graded assignments of the Independent Study. An Independent Study can be applied towards the major and/or minor.",
+    "source_url": "https://bulletins.nyu.edu/courses/fren_ua/"
+  }
+]

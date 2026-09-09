@@ -21,12 +21,20 @@ USER_AGENT = "nyu-course-rag research project (contact: sai.r.shettar@gmail.com)
 # 1-2 prioritized departments CS students actually cross-reference
 # (Math/Physics/Data-Science/Economics/Philosophy/Psychology/Politics/
 # Neural-Science/Chemistry/Biology/Linguistics/Public Policy/Urban Studies/
-# Environmental Studies); batch 3 (History, English, Anthropology, Art
-# History, Journalism, International Relations, Classics, Creative Writing)
-# and this batch (Music, Religious Studies, Comparative Literature, East
-# Asian Studies, Law and Society, Middle Eastern and Islamic Studies,
-# Dramatic Literature, European and Mediterranean Studies) round out general
-# coverage with no specific CS-overlap story.
+# Environmental Studies); batches 3-4 (History, English, Anthropology, Art
+# History, Journalism, International Relations, Classics, Creative Writing,
+# Music, Religious Studies, Comparative Literature, East Asian Studies, Law
+# and Society, Middle Eastern and Islamic Studies, Dramatic Literature,
+# European and Mediterranean Studies) round out general coverage with no
+# specific CS-overlap story. This batch is the remaining real academic
+# departments -- mostly foreign languages and area studies (French, German,
+# Italian, Portuguese, Russian and Slavic Studies, Hebrew and Judaic
+# Studies, Hellenic Studies, Irish Studies, Latin American-Caribbean
+# Studies, Medieval and Renaissance Studies, Animal Studies, Child/
+# Adolescent Mental Health Studies, Expository Writing). The remaining ~7
+# slugs not in this map are administrative/curriculum categories (College
+# Core Curriculum, First-Year Seminars, Non-Departmental, etc.), deferred
+# for individual review rather than scraped by default.
 DEPARTMENTS = {
     "csci_ua": "https://bulletins.nyu.edu/courses/csci_ua/",
     "math_ua": "https://bulletins.nyu.edu/courses/math_ua/",
@@ -59,6 +67,19 @@ DEPARTMENTS = {
     "meis_ua": "https://bulletins.nyu.edu/courses/meis_ua/",
     "drlit_ua": "https://bulletins.nyu.edu/courses/drlit_ua/",
     "euro_ua": "https://bulletins.nyu.edu/courses/euro_ua/",
+    "fren_ua": "https://bulletins.nyu.edu/courses/fren_ua/",
+    "germ_ua": "https://bulletins.nyu.edu/courses/germ_ua/",
+    "ital_ua": "https://bulletins.nyu.edu/courses/ital_ua/",
+    "port_ua": "https://bulletins.nyu.edu/courses/port_ua/",
+    "russn_ua": "https://bulletins.nyu.edu/courses/russn_ua/",
+    "hbrjd_ua": "https://bulletins.nyu.edu/courses/hbrjd_ua/",
+    "hel_ua": "https://bulletins.nyu.edu/courses/hel_ua/",
+    "irish_ua": "https://bulletins.nyu.edu/courses/irish_ua/",
+    "latc_ua": "https://bulletins.nyu.edu/courses/latc_ua/",
+    "medi_ua": "https://bulletins.nyu.edu/courses/medi_ua/",
+    "anst_ua": "https://bulletins.nyu.edu/courses/anst_ua/",
+    "cams_ua": "https://bulletins.nyu.edu/courses/cams_ua/",
+    "expos_ua": "https://bulletins.nyu.edu/courses/expos_ua/",
 }
 
 

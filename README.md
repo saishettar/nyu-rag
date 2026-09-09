@@ -3,7 +3,7 @@
 Ask natural-language questions about NYU's course catalog and get grounded,
 cited answers instead of keyword-searching the Bulletin manually.
 
-Scope: 31 of NYU CAS's 51 undergraduate departments, 1,391 courses total —
+Scope: 44 of NYU CAS's 51 undergraduate departments, 1,870 courses total —
 scraped from `bulletins.nyu.edu`. Started with CS and the departments it
 most often cross-references (Math, Physics, Data Science, Economics,
 Philosophy, Psychology), then expanded batch by batch toward full CAS
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all 31 departments is
+Then, one-time database setup (course data for all 44 departments is
 already checked into the repo at `ingest/data/*.json`, so there's nothing to
 scrape):
 
@@ -112,17 +112,17 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 74 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 100 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
 - **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
 - **Answer groundedness** — a second Claude call judges whether each answer
   is fully supported by the retrieved courses and cites a course code.
 
-### Results (1,391 courses across 31 departments, 74 hand-written questions)
+### Results (1,870 courses across 44 departments, 100 hand-written questions)
 
-- **Retrieval hit-rate@5: 74/74 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 74/74 (100%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 100/100 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 100/100 (100%)** on that same run — this genuinely
   fluctuates across runs (LLM-judge grading has real run-to-run wording
   variance, e.g. asserting an unstated topic for a course mentioned
   alongside the correctly-cited one, or how strictly it parses which grade
@@ -220,6 +220,16 @@ Retrieval history, in order:
     (100%) groundedness - even the recurring pre-existing CSCI-UA
     groundedness miss from #7-#9 didn't reproduce this run, consistent
     with it being LLM-judge variance rather than a stable failure.
+11. **No regression adding the remaining real academic departments** (13 at
+    once: French, German, Italian, Portuguese, Russian and Slavic Studies,
+    Hebrew and Judaic Studies, Hellenic Studies, Irish Studies, Latin
+    American-Caribbean Studies, Medieval and Renaissance Studies, Animal
+    Studies, Child/Adolescent Mental Health Studies, Expository Writing --
+    leaving only administrative/curriculum categories like College Core
+    Curriculum and First-Year Seminars unscoped). 479 more courses (1,870
+    total), 26 new questions (all phrased to closely match exact course
+    titles, learning from #10's near-miss), held at 100/100 (100%)
+    retrieval and 100/100 (100%) groundedness with no fix required.
 
 ### CI regression check
 

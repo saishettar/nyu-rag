@@ -1,0 +1,614 @@
+[
+  {
+    "course_code": "HBRJD-UA 1",
+    "title": "Elementary Hebrew I",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Active introduction to modern Hebrew as it is spoken and written in Israel today. Presents the essentials of Hebrew grammar, combining the oral-aural approach with formal grammatical concepts. Reinforces learning by reading of graded texts. Emphasizes the acquisition of idiomatic conversational vocabulary and language patterns.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 2",
+    "title": "Elementary Hebrew II",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "HBRJD-UA 1 ).",
+    "description": "A dynamic continuation of Elementary Hebrew I, this course will work towards improving your fluency in modern Hebrew through speaking, listening, reading, and writing. It will emphasize everyday conversation, cultural context, and engaging language use. Students will deepen their understanding of grammar and vocabulary through interactive activities and varied assignments. Full participation and consistent preparation are key to success in this immersive, Hebrew-rich environment.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 3",
+    "title": "Intermediate Hebrew I",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "HBRJD-UA 2 OR HBRJD-UA 9002 ).",
+    "description": "Open to students who have completed HBRJD-UA 2 or HBRJD-UA 5, or those who have been placed at this level through the placement examination. Builds on skills acquired in Elementary Hebrew I and II and develops a deepening command of all linguistic skills. Modern literary and expository texts are read to expand vocabulary and grammatical knowledge, with conversation and composition exercises built around the texts. Introduces selections from Israeli media. Addresses the relationship between classical and modern Hebrew.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 4",
+    "title": "Intermediate Hebrew II",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "HBRJD-UA 3 ).",
+    "description": "A dynamic continuation of Intermediate Hebrew I, this course will enhance students\u2019 proficiency in reading, writing, speaking, and listening to modern Hebrew. Alongside the study of more advanced morphology and syntactic structures, it will emphasize exposure to and comprehension of literary texts and newspaper articles, as well as authentic Israeli music, films, television, videos, and podcasts. Full participation and consistent preparation are key to success in this immersive, hands-on, Hebrew-rich environment.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 7",
+    "title": "Intensive Biblical Hebrew",
+    "department": "hbrjd_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "Students in the summer intensive Introductory Biblical Hebrew sequence learn the fundamentals of Hebrew as this language is employed in the Hebrew Bible. We will begin by studying the rudiments of biblical Hebrew phonology and pronunciation and proceed, over the course of the session, to delve into biblical Hebrew nominal and verbal morphology and syntax through exercises in reading and composition. To facilitate this reading and writing, students will master a broad vocabulary that touches on all areas of life, from agriculture and animal husbandry to theology and politics. By means of these approaches, we will equip ourselves with the essential tools for exploring the fascinating and complex literature of ancient Israel and Judah. There are no prerequisites for this course.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 10",
+    "title": "Hebrew Language Through Film: Cultural Encounters wit Israeli Society",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "HBRJD-UA 4 or minimum of 41 on the placement exam, or permission of the Director of the language program (DLP).",
+    "description": "An advanced language course conducted in Hebrew, focusing on aspects of Israeli society as they are portrayed in primarily 21st century Israeli films and television. The aspects examined include immigration and immigrants, ethnic groups within Israeli society, religious communities and their relationship to the secular world, the kibbutz , periphery vs. center, the Israeli-Arab conflict and military service. The course will foster a deeper understanding of the Hebrew language\u2019s various registers and their manifestation in different social contexts and genres. The class will strengthen the students\u2019 proficiency in the four language skills, with emphasis on listening and speaking. Students will be required to view films, and to engage in pre- and post-viewing activities such as reading background materials in Hebrew, participate in class discussions, and writing in Hebrew about the films.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 13",
+    "title": "Advanced Hebrew",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "( HBRJD-UA 4 OR HBRJD-UA 6).",
+    "description": "Reading and discussion of modern literary and expository works. Focuses on the many stylistic registers that modern Hebrew has developed. Intended to train students in fluent expository writing and advanced reading comprehension, concentrating on Hebrew idiom and vocabulary, emphasizing literary form and style of composition.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 14",
+    "title": "Elementary Yiddish I",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Active introduction to Yiddish as a spoken and written language in its historical and contemporary forms. Presents the essentials of Yiddish grammar through a communicative approach with devoted attention to global Yiddish culture in all its forms (song, food, literature, theater, newspapers etc.). We will use the Yiddish Book Center's new textbook In Eynem.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 19",
+    "title": "Sex, Gender & The Bible",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course investigates the constitution of male and female -- both human and divine -- in the Hebrew Bible through close readings of selected biblical texts. We probe the difference between biblical gender roles and their analogues in the Greco-Christian tradition and its 20th-century heir \u2013 Freudian psychoanalysis. We also ask what light biblical views on sexual difference can shed on contemporary feminist demands for equal-rights.\n\nNo prerequisites.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 23",
+    "title": "The Bible as Literature",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The mission of this course is to approach the Hebrew Bible/Tanakh (a.k.a Old Testament) as a corpus of ancient compositions that can be treated as literary works\u2014not solely as sacred texts with modern religious authority, nor solely as texts to be mined for historical information. When this is done, the student can encounter bright and vivid literary ecosystems replete with complex characters, rich plot lines, and harrowing ordeals. Over the course of the term, significant attention will be given to the messages and ideologies encoded in these stories, some of which addressed ancient socio-political conditions and others which sought to convey broader universal principles. Attention will also be given to the analysis of aesthetics, where we will take stock of the strategies of story-crafting: What narrative styles, details, and techniques were commonly used in the building of these narratives? What styles are not used at all? How do these compositional choices affect the reading experience? Finally, this course will give attention to what does\u2014and does not\u2014 receive plot attention in these materials: What topics, themes, and character profiles take center stage? What voices might have been sidelined in antiquity, and how might such marginalizations affect character constructions within the world of the narrative? Finally, how does the reader's own social location affect the reading experience and interpretation? This course seeks to address these questions and more through a close reading of select biblical texts. Course meetings will involve reading these selections together and discussing the content at hand.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 29",
+    "title": "Israeli Music: Contesting National Culture",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the musical construction of Israeli national identity. Through this course, students will (1) learn to think critically about the political and cultural aspects of music and other expressive forms; (2) become acquainted with Israeli society, culture, and identity politics; (3) develop a sophisticated understanding of contemporary Israeli music; (4) enhance their understanding of the theoretical literature on nationalism, postnationalism, and globalization; and (5) learn the fundamentals of performance and discourse analysis.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 50",
+    "title": "Heresy, Dissent, and Jewish Law",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "HBRJD-UA 4 OR equivalent OR permission from the instructor.",
+    "description": "This two-credit course examines the tolerance or intolerance of dissent both in the pages of Jewish tradition and on the stage of Jewish history. The course is organized along chronological lines, beginning with sectarianism in the Dead Sea Scrolls and the development of a pluralistic tradition in rabbinic literature and culminating with the denominational turn in modern Jewish life. We will pay attention to tensions between ideological purity and social pragmatism, how individuals and communities navigated these boundaries, and the extent to which Jewish\nsociety could sustain, and even argue for, diversity and dissent within its ranks.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 73",
+    "title": "Advanced Hebrew: Israeli Communications Media",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "( HBRJD-UA 4 OR HBRJD-UA 6).",
+    "description": "Extensive selections from a representative range of Israeli media, including newspapers, magazines, and broadcasting. Stresses study of various approaches in the different media as well as practical exercises in comprehending Israeli press styles.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 76",
+    "title": "Modern Hebrew Literature in Translation",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Comprehensive introduction to representative works of modern Hebrew literature from the writers of the Hebrew national renaissance of the late 19th century to the present. Focuses on thematic and structural analysis of texts in light of social and intellectual movements of the period. Readings include selections from Peretz, Berdichevsky, Ahad Ha?am, Gnessin, Brenner, Agnon, Hazaz, Yehoshua, and Appelfeld.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 79",
+    "title": "A Philosophical Path to Spiritual Awakening",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Normative, traditional Judaism focuses on obedience to Jewish law (halakha) for the sake of a divine reward, while contemporary Judaism is often conceived as about communal, ethnic affiliation. Jewish spirituality is generally attributed to Kabbalah, a non-rational esoteric Jewish mystical tradition. This course will explore a forgotten rationalist Jewish spiritual tradition whose aim is enlightenment and freedom. Major texts to be studied include Biblical Wisdom literature, especially the Book of Ecclesiastes, plus selections from rabbinic aggadic literature, Maimonides, Spinoza, Moses Mendelssohn, Mendel Lefin, and Emmanuel Levinas.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 90",
+    "title": "Monsters and Jewish Modernity",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What is a monster? How does it come into being? Why do monsters capture modern imagination and at what historical junctions do they tend to reappear? From the Golem of the Maharal of Prague to the creation of Dr. Frankenstein, monsters have often figured the anxieties, fantasies, and collective distress of the societies from which they hail. Jewish modernity in particular saw the rapid reproduction of monstrous figures as allegories and metaphors for the ambivalent state of European Jews vis-\u00e0-vis their surrounding societies. Whether an outcast, a dangerous force from within or a defender against external persecutions, monsters totter on the border between imagination and destruction, conveying at once a promise and a threat. This course explores monstrosity as a critical framework through which we may reflect on such issues as belonging, gender, race, abnormality and hybridity. We shall consider the monstrous as it relates to \u201cJewish questions\u201d, but also as a cultural figure with a life of its own who recurs across times, languages, and cultures, embodying different states of outsiderness and exception. On our quest to face monstrosity, we shall encounter a variety of texts and genres, including short stories, essays, novels, plays and films. We will discuss literary works by authors such as Mary Shelley and Franz Kafka, acquaint ourselves with the discipline of Monster Studies and comment on various key monsters of Western society.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 102",
+    "title": "Introduction to Judaism",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Provides a general introduction to Judaism in its many ancient and modern\nexpressions. Students are introduced both to the historical narrative of\nthe Jewish people and the beliefs and practices of the Jewish religion. We\naddress the questions of \"what do Jews believe?\" and \"what do Jews do?\"\nIdeas and motifs of Judaism to be addressed include: the Bible in Judaism,\nrabbinic literature, theology, Jewish mysticism (Kabbalah) and philosophy,\nJewish law, Jewish nationalism, anti-Semitism, messianism, Jewish culture\nand identity, the synagogue, ritual and worship, life cycle, festivals and\ncalendar. We will take advantage of the many resources in New York City for\nunderstanding Jewish history and culture. This will include visits to the\nJewish Museum, The Center for Jewish History, the Eldridge Street\nSynagogue, the Lower East Side, and the second cemetery (1805-29) of the\nSpanish and Portuguese community. These visits complement our in-class\ntopics of study. All museum admission costs are covered by NYU.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 103",
+    "title": "Modern Jewish History",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Major developments in the history and culture of the Jews from the 16th to the 20th centuries, emphasizing the meanings of modernity in the Jewish context, differing paths to modern Jewish identity, and internal Jewish debates over the relative merits of modern and traditional Jewish values.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 111",
+    "title": "Judaism: from Medieval to Modern Times",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Intellectual-historical examination of continuities and discontinuities between medieval and modern Judaism as revealed in selected texts produced during the last thousand years. Emphasis is placed upon how the interactions of Jewish thinkers with the cultures of their surroundings affected their understandings of Judaism.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 116",
+    "title": "Early History of God",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores evidence concerning the appearance of monotheism in ancient Israel, including the Hebrew Bible, ancient writing from Israel and its neighbors, and a range of other artifacts. The premise of the course is that Israel was not alone in ascribing priority of power to a single god, and Israel?s result is comprehensible only in the context of these wider currents.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 125",
+    "title": "Ancient Near Eastern Mythology",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The myths of the ancient Near East represent the earliest literary expressions of human thought. Students in this class read myths from ancient Egypt, Mesopotamia, Ugarit, Anatolia, and Israel, studying the myths themselves as literary works as well as exploring the ideas and broader issues that shaped them. These myths, including both extensive literary masterpieces such as the Epic of Gilgamesh and shorter work such as the Flight of Etana to Heaven, offer a window into the religious mentality of the ancient Near East, which in turn laid the foundation for many elements of modern Western culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 126",
+    "title": "Introduction to the Hebrew Bible (Old Testament)",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduces students to the modern study of the Bible from historical, literary, and archeological points of view. Reading and analysis of texts in translation.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 131",
+    "title": "Dead Sea Scrolls: Judaism & Christianity",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Survey of the importance of the Dead Sea Scrolls for the history of early Judaism and Christianity. Reading and discussion of English translations of the major texts.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 137",
+    "title": "Antisemitism: Then and Now",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Anti-Semitism has been called the longest hatred in the history of the\nWest. The roots of anti-Jewish animosity begin in antiquity, taking on many\nforms throughout the history of Christian Europe. Anti-Semitism takes a new\nracial and political turn in the modern period, both in Christian and\nMuslim societies, on the far right and the far left of the political\nspectrum. Through lectures and discussion we take a deep dive into the\nhistory of anti-Semitism and cover much terrain, from classic anti-Jewish\nrhetoric and imagery in western Christendom to modern anti-Semitic hatred\nand its devastating consequences in Europe and the United States.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 139",
+    "title": "Apocalypse and the End of Days",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines ancient Jewish and Christian apocalyptic texts and the ongoing influence of apocalyptic ideas in modern religious movements and contemporary culture. Jewish and Christian apocalypses express their authors\u2019 most profound thoughts, anxieties, and hopes about the mysteries of the creation of the world, the relationship between God and humanity, the nature of evil, and, most prominently, expectations about the impending end of the world. This course explores the social and historical setting of these texts and provides students with the tools to decode the symbolic vocabulary of apocalypses. The modern fascination with apocalypse is discussed alongside modern religious movements and contemporary films that are heavily steeped in the vocabulary and theology of apocalypse.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 140",
+    "title": "Talmudic Stories",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "HBRJD-UA 3 or equivalent.",
+    "description": "The Babylonian Talmud, the foundational source of Jewish law, also contains a vast corpus of stories that tell of the lives and deeds of the Talmudic Rabbis.  Although the stories preserve many historical and biographical details, they are best approached as didactic fictions that serve a variety of functions. Some stories transmit values, portray ethical living, provide role models for students and teach elements of Jewish religious practice. Other stories engage Talmudic laws, explain their origins, justify changes, and even challenge or undermine them.  Still others grapple with the enduring questions of human existence: suffering and illness, death, the relationship between the sexes, free will and fate. Other stories focus on particular dimensions of rabbinic life within the Talmudic academy, such as the demands of Torah study, competition with other sages, and even jockeying for leadership positions. Apart from providing an introduction to basic Jewish beliefs and practices, this course will focus on method, on how to read and interpret Talmudic stories. Originally transmitted orally, Talmudic stories are extremely terse, and demand careful attention to the artful use of language, vocabulary, figurative expressions, metaphors, the use of irony, and literary structure, much like the study of poetry. Most of class time will be devoted to the close reading, discussion and interpretation of stories. We will also learn how to apply different methods of literary analysis, including structuralism, folkloristic methods, comparative analysis, new historicism, and gender criticism.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 141",
+    "title": "Land of Israel Through The Ages",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Surveys the history of the Land of Israel with special attention to its various inhabitants and cultures from prehistoric times to the present. Archeological findings receive thorough attention.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 144",
+    "title": "Yiddish in America",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course explores the role of Yiddish in the history and culture of the United States.  The chronological coverage is from the age of mass migration at the turn of the twentieth century to our days. Students will learn about Yiddish-speaking farmers and trade unionists, Anarchists, Socialists, Zionists, and Communists. The course examines the Yiddish press, theater, cinema, scholarship, and literature. Special attention is paid to such leading Yiddish authors as Morris Rosenfeld, Sholom Asch, Isaac Bashevis Singer, and Abraham Cahan. It discusses the role of Yiddish in education, religion, and other domains of American Jewish life, both historically and in contemporary times.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 145",
+    "title": "Jews and Muslims: Perceptions and Polemics",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The current state of Jewish-Muslim relations is tragically fraught with mutual suspicion and competing historical narratives that are manifest as much in the religious as in the political arena. In the midst of this fractious debate, it is sometimes forgotten that Jews have for centuries been a vital presence throughout the Islamic world and have contributed in rich and dynamic ways to Islamic civilization right up to contemporary times. This course explores the intricate relations between Jews and Muslims from the formative period of Islam in the Middle Ages to the exodus of Middle Eastern and North African Jewish communities in the twentieth century to the religious and political tensions in contemporary times. The course will consider not only the complex dynamics of perceptions and relations in the past, but the human, cultural, and political ramifications of this vital historical relationship in the present. We will explore Jewish-Muslim relations through religious texts, historical documents, memoir literature, music, and film. The main focus of class time will consist of discussion of the required readings or other material. Your preparation and participation is vital. Each of you is expected to take careful notes on the readings and to formulate at least one question on some aspect of the readings that you would like the class to consider or that you would like clarified. Be sure to articulate your question and bring it with you to class. A portion of each class will be addressed to your questions.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 150",
+    "title": "Ancient Egyptian Mythology and Religion",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Ancient Egyptian Mythology and Religion will focus on many aspects of Egyptian religion: conceptions of the divine in a polytheistic context, temple ritual, hymns, personal piety, the relationship between religion and magic, mortuary religion and its evolution and material consequences.  Questions will be approached through both study of the primary sources in English translation: myths (very broadly conceived), other religious writings (including mortuary texts such as the Book of the Dead and the Underworld books), as well as art and artifacts  connected with religious practice, such as amulets and votives.  In addition, students will read the standard secondary source analyses by noted historians of Egyptian religion and critique them based on the primary sources.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 152",
+    "title": "Jewish Humor",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why are the Jews so funny? (Are Jews funny, or at least funnier than other people?) What is unique about Jewish humor? Why are so many comedians, satirical novelists, and film directors Jewish? Are Jews as funny as they used to be? In this course we will seek to answer these questions by tracing the history of Jewish humor in the nineteenth and twentieth centuries. We will begin with the birth of Jewish humor in the Yiddish-speaking shtetls of nineteenth-century Eastern Europe, where Sholem Aleichem and other writers brought schlemiels, schlimazels, and schnorrers to life through their colorful stories. We will then track the evolution and migration of Jewish humor across the European continent and on to America, where the Jewish funnyman and woman have transformed the cultural landscape. During the twentieth century, a \u201cYiddishization\u201d of popular humor took place in both the United States and the Soviet Union. Woody Allen, Mel Brooks, Joan Rivers, Sarah Silverman, Jerry Seinfeld, Larry David, and an even newer generation of comedians have made American humor Jewish, and Jewish humor American. We will also look at how the Jews have used laughter as both a coping mechanism and an instrument of self-defense against pogroms, forced migrations, antisemitism, and even the Holocaust.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 162",
+    "title": "Topics in Judaic Studies",
+    "department": "hbrjd_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Diverse issues in Jewish History and Culture. Note to students: courses\ngraded pass/fail cannot be counted toward any major or minor",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 164",
+    "title": "American Jews and the Law",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "How have American Jews encountered the law, and how has American law encountered Jews? This course introduces students to theories about the relationship between law and society as it traces the history of Jews\u2019 treatment under criminal, constitutional, property, immigration, and humanitarian laws. It examines how Jews used legal ideals to broaden their rights while also\nhighlighting divisions among Jews and between Jews and others about topics ranging from the freedom of speech to reproductive rights to church-state matters. As students explore legal battles, they will learn to ask new questions about how the law works and when it fails.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 172",
+    "title": "American Jewish History",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Study of the major events and personalities in American Jewish history since colonial times; the waves of Jewish immigration and development of the American Jewish community.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 173",
+    "title": "American Jewish Politics and Identity",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the origin, development, and future of American Judaism.\nAttention will be paid to the development of the major religious\ndenominations, the emergence of secular Judaism and the impact of factors\nsuch as immigration, feminism, sub-urbanization, the Holocaust and the\nState of Israel on American Jewish life.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 174",
+    "title": "Israel & American Jewry",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the relations between the Jewish community in Israel (including Palestine before the establishment of the state) and the American Jewish community from 1914 to 1992. Considers ideological issues (especially different views of Jewish collectivity) as well as political and diplomatic developments in the relations between Israel and the American Jewish community in the generation prior to the Six Day War of 1967. Concludes with an examination of the internal Israeli political debates that have invoked the greatest concern among American Jews: ?who is a Jew?? the Law of Return, and the peace process.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 176",
+    "title": "Jewish Migrations in The Modern Era",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This class explores international migration as a shaping force in modern Jewish history. Since the 17th century, Jews have been involved in an ongoing process of shifting residences en masse from and within Europe as well as from the Islamic lands. They have relocated to North and South America, South Africa, and Australia, as well as to Israel. This course explores many of the issues raised by the prominence of migration as a feature of modern Jewish migrations, including the similarities and differences between Jewish and non-Jewish migrations of the same time, the causes and structures of the migrations, and the impact of migration upon the various aspects of integration in the receiving societies.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 177",
+    "title": "Topics in Judaic Studies",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Diverse issues in Jewish History and Culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 180",
+    "title": "Zionism & The State of Israel",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the history of Zionism and as an ideology and political movement from its origins in the 19th century to the present as reflected in the modern State of Israel. Topics include ideological foundations, the role of Herzl and the rise of political Zionism, the Balfour Declaration, early Jewish settlements in Palestine, Zionism as a cultural focus for diaspora Jewry, the Arab-Zionist encounter, modern Israeli society, and contemporary critiques of Zionism.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 185",
+    "title": "Jewish Women in Modern Times: Gender and Sexuality",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores the social, cultural and political histories of Jewish women in modern Europe and the United States from the French Revolution through World War II, focusing on the era of Emancipation, the bourgeois 19th century, both World Wars, and the Holocaust. We will examine the options women had, the boundaries against which they pushed, and the roles they created for themselves in public and in private. Students will read secondary sources as well as memoirs, diaries, and letters.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 191",
+    "title": "Russian Jewish History",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The course focuses on Jewish history in imperial Russia, from the end of the 18th to the beginning of the 20th centuries.  It also contains overview lectures covering the Soviet and post-Soviet periods.  The topics discuss the government\u2019s politics towards Jews, attempts to integrate them into larger society, establishment and development of Russian Jewish civil society, Jewish participation in the revolutionary movement, and aspects of Jewish social, economic, and cultural life in villages, towns, and cities.  Other topics analyze the role of women in family and communal life, military service, anti-Jewish violence, and emigration.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 193",
+    "title": "Palestine Zionism and Israel",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course is a survey of the history of Palestine in the modem period, focusing on the conflict for control of this land from its origins in the late nineteenth century until the present. The purpose of this course is to examine the evolution of this ongoing struggle in its historical context and to try to understand why the various parties to this conflict have thought and acted as they did.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 195",
+    "title": "The Psychology of the Israeli-Palestinian Conflict",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Israeli-Palestinian conflict has been a focal point in American news recently, sparking passionate debates and demonstrations on campuses nationwide. What makes this conflict so compelling? Why does it dominate global discourse? This course delves into the deep psychological underpinnings of this enduring conflict. We'll explore how social constructions, collective narratives, and trauma shape the perceptions and experiences of individuals on both sides. Additionally, we will\nevaluate various psychological interventions aimed at transforming the Israeli-Palestinian conflict.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 200",
+    "title": "Hist of the Jews in 20th Cent Europe: Comparative Perspectives-Italy, Germany/France",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores the interactions of Jews and other Western Europeans after World War II, noting their interlocking histories and memories even after the Holocaust.  Students will learn about Western European Jewish life from Emancipation through the early 20th century, the Holocaust and the immediate postwar turmoil especially in Germany, Italy and France. They will analyze how Italians, Germans -- East and West \u2013 and French citizens did or did not come to terms with the Fascist and Nazi past. They will study Jewish perspectives on their lives in Europe, including those of the Displaced Persons, but also those of Jews who chose to stay in their homelands. The class will learn why these Jews remained, how they experienced their citizenship, and how they interacted with non-Jews. Readings will analyze Jewish memories and memory cultures in a variety of nations and segments of society. Assignments look at conflicting European and Jewish historical memories, including the general silence about the Holocaust of the early postwar years, the Jewish demand for reparations, the attractions of Israel for some Jews, and the growing acknowledgement of the Holocaust in political culture as well as the building of museums and monuments about Jewish history and the Holocaust.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 298",
+    "title": "Topics in 20th Century Literature",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by term",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 419",
+    "title": "Issues in Israel's Social History",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "From the mass arrival of Middle Eastern Jewry in the 1950s to the emergence of the tent protests in 2011, this course will examine how a wide-range of societal issues, conflicts, and dilemmas shaped the historical trajectory of Israeli society. It is meant to provide an introduction to some of the complexities present in Israeli society.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 420",
+    "title": "Rabbis, Rebels and Reformers: Readings in Jewish Philosophy",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What has Athens to do with Jerusalem? How has Jewish tradition been enriched and transformed by its creative engagement with philosophy? This course is an intensive introduction to the classics of Jewish philosophy from its origins in the Bible and Greek antiquity through its creative integration of medieval Arab philosophy, culminating with the Jewish philosophers of modernity, from Europe to the United States. We grapple with how these thinkers forged a synthesis between reason and religion and creatively integrated Jewish and non-Jewish sources of wisdom. We will pay close attention to how Jewish thinkers continually reimagine their ancestral tradition in light of the burning questions and ideas of each generation.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 422",
+    "title": "Living a Good Life: Greek and Jewish Perspectives",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What makes a life well lived? Through a close reading of primary sources we'll explore classic Jewish and Greek approaches to this problem. Central questions will include: Does living well require acquiring knowledge and wisdom? What\u2019s the place of moral responsibility in a good life? Is a good life, a happy life or does it require sacrificing happiness? Does religion lead to living well or hinder it? How do love and friendship contribute to a good life? We'll not only explore these questions theoretically, but also test them practically to see how our responses to them can enhance personal well-being.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 428",
+    "title": "Creating a Good Society: Christian and Jewish Perspectives",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course explores Greek, Christian and Jewish responses to the problem:\nHow does one create a good society? Central questions to be explored\ninclude: What is the best form of government? What economic system is\nideal? Should the government actively promote a vision of the good life or\nleave it to individual to decide the good for themselves? Should the\ngovernment prioritize the freedom, equality, or happiness of its\ninhabitants? What role should religion and nationhood play in society? What\nmodels of education should the government promote? How does gender inform\nthese considerations? The course will focus on careful analysis of primary\ntexts. Thinkers to be studied include: Plato, Maimonides, Hobbes, Locke,\nRousseau, Wollstonecraft, Mendelssohn, Marx, Hess. Having first taken the\ncourse: Living a Good Life: Greek and Jewish Perspectives is highly\ndesirable.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 590",
+    "title": "Topics in Archaeology",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Study of a selected topics in Hebrew and Judaic Studies, with careful\nattention to literary and cultural problems. This includes analysis of\nmajor texts and issues in the field. Topics may vary from History of Jewish\nLanguages to Violence, Sex and Culture in Biblical Israel, and more.\n\nExample: History of Jewish Languages\n\nAround the world, wherever Jews have lived, they have spoken and written\nsomewhat differently from the non-Jews around them. Their languages have\ndiffered by as little as the addition of a few Hebrew words or by so much\nthat they are largely \"unintelligible\" to outsiders. This class explores\nthis spectrum of Jewish linguistic practice, including languages like\nJudeo-Arabic, Judeo-Spanish and Yiddish, as well as the use of Yiddish\nwords among secular Jews in America or Jewish Russian spoken in Israel\ntoday. The course uses sociolinguistic methods and emphasized the\nconnection between Language and Religion.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 625",
+    "title": "Jewish Graphic Novels",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will use Jewish graphic narratives as an entry point for broader discussions about global Jewish culture. On the one hand we will pay significant attention to the particularities and affordances of the graphic medium from its inception as comics to its contemporary iteration as graphic narratives. On the other hand, we\u2019ll cover wide-ranging thematic facets such as grief, queerness, gender, assimilation, translation, immigration, love, the Holocaust and Holocaust memory, Israel, Europe, the US and more. Authors will include but are not limited to Amy Kurzweil, Leela Corman, Julia Alekseyeva, Tyler Feder, Sol Brager, Liana Finck, Art Spiegelman, Rutu Modan, and others. Formerly titled Jewish American Fiction.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 664",
+    "title": "Yiddish Literature and Translation",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the literary and cultural activity of modern Yiddish-speaking Jewish communities in Eastern Europe, the Soviet Union, and the United States from 1890 to 1950. Focuses on the distinct role that Yiddish played in modern Jewish culture during the first half of the 20th century, when the language was the vernacular of the majority of world Jewry. Examines how ?Yiddish modernism? took shape in different places and spheres of activity during a period of extraordinary upheaval.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 685",
+    "title": "The Holocaust: The Third Reich and The Jews",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Holocaust is perhaps the defining event of the twentieth century. The destruction of European Jewry challenges assumptions about progress and modernity and raises fundamental questions about human behavior. This class will provide an analysis of the encounter between the Third Reich and the Jews, discussing the persecution and murder of European Jews from the vantage point of Germans, Jews, collaborators, and bystanders. We will investigate the ideological roots of the decision to implement the Final Solution, discuss the nature of the Third Reich and the development of Nazi policies, and address Jewish responses to these policies. Finally, we will evaluate some of the problems and controversies that characterize scholarship on the Holocaust.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 689",
+    "title": "Jewish Europe after the Holocaust",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Concentrates on the social, political, and cultural forces that shaped Jewish life in post-1945 Europe. Topics: reconstruction of Jewish communities, repression and anti-Semitic campaigns in the Soviet Union and Poland, the impact of Israel, emigration and migration, Jewish-Christian relations, and assimilation and acculturation. Students also learn about various reactions to the Holocaust.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 710",
+    "title": "Israeli Politics and Society",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the power structure and mechanisms of contemporary Israeli politics beginning with the emergence of the provisional government in 1948. Traces how Israel's national institutions, key basic bills and the legislation mechanism, and electoral system developed. The course also examines key fault lines in Israeli social, political, and economic life, including Jewish-Arab relations; the balance between the welfare state and economic liberalism; Union workers and gender relations.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 760",
+    "title": "Hebrew Revival Literature: Modernism and Nationalism in the 20th Century",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "In the beginning of the twentieth century, Hebrew literature became a major site of transformation and reform. But how could a \u201cmodern\u201d literature be written in a non-spoken, holy tongue? In both its themes and aesthetics, the literature of \u201cHebrew Revival\u201d reshaped the Hebrew language and employed it to envision modern Jewish subjectivity and create it anew. This literature articulated new modes of thinking on Jewish nationalism, identity, body and sexuality. Identifying literature as a modern institution, entwined with the rise of nationalism, this course examines the links between modernist poetics and the nationalist imagination. It asks how literature constructs nationalist consciousness and whether, and in what ways, it ever exceeds it. Our weekly sessions will be dedicated to reading diverse texts (short stories, poems, novels, essays and literary theory and tackling some of the issues that they raise, including the emergence of Zionism, gender and sexuality, Jewish immigration to Palestine, religion and secularization. We will acquire methodologies of literary analysis, pay attention to rhetoric and style, and practice close reading.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 778",
+    "title": "Eros and Sexuality in Modern Jewish Literature",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "What\u2019s love got to do with it? This question has been debated by Jewish writers since the inception of modern Jewish literature. For decades, Jewish authors, artists, and intellectuals negotiated the status of romantic and sexual love within Judaism, often as a troubling, at times alien, subject matter in the context of Jewishness and the Jewish tradition. With the rise of modern Yiddish and Hebrew literatures in the beginning of the twentieth century, writers articulated new modes of conceiving desire, love, sex, and gender, especially as they related to Jewish society and politics, and these issues continue to be debated within the different avenues of Jewish culture today. This course is devoted to exploring the transforming status of eros and sexuality in Jewish culture by focusing on a diverse selection of literary works, alongside drama, film, and academic essays. Building on feminist and queer theory, our discussions will revolve around issues such as sexual politics and nationalism, love and religion, border-crossing, constructions of femininity and masculinity, and queer love. All materials are available in English translation.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 779",
+    "title": "Modern American Jewish Literature and Culture",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the body of imaginative literature (novels, short stories, poetry, and drama) written by American Jews. Links these literary works to the changing position of Jews within American society.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 784",
+    "title": "Readings in Talmud (in Hebrew)",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Studies a selected section of the Hebrew and Aramaic text of the Babylonian Talmud, utilizing both traditional and academic methods of study.\u200e Emphasis is on mastering the themes and concepts while studying the text and its commentaries in depth.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 845",
+    "title": "Rabbinic Responses to Modernity",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "HBRJD-UA 4 OR equivalent OR permission from the instructor.",
+    "description": "This two-point course explores the variety of Orthodox rabbinic responses to the complex challenges of modernity.  It covers key questions posed to rabbinic authorities on urgent topics of the day, from the nineteenth century to the twenty-first, including the novelty of secular education, the impact of religious reform, the winds of political change and democratic government, and advances in technology and medicine.  Each week we will explore another aspect of modern life to which Jewish law responded by combining adherence to tradition with social realism.  Our main source material will be the responsa literature from rabbinic authorities across the Jewish world, from Western and Eastern Europe to the Middle East and North Africa, and from the State of Israel to the United States.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 947",
+    "title": "Topics in Biblical Hebrew",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 948",
+    "title": "Topics in Israel Studies:",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course utilizes the expertise of visiting professors and NYU faculty to examine diverse topics in Israel\u2019s culture and history in the modern era.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 949",
+    "title": "Topics in the Bible and Ancient Near East:",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics in the Bible and the Ancient Near East offers a range of particular subjects.  These vary by term.\n\nThis course engages the reality that the Bible pervades public media and\n discourse even where it is not named or acknowledged. The ultimate interest\n of the course is the Bible itself, how it is read (or not read, but still\n used) today in relation to the purposes and contexts of its writing in\n ancient time.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 950",
+    "title": "Topics in Modern Jewish History:",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course offers a range of subjects within the field of modern Jewish history. Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 960",
+    "title": "Seminar in the Archaeology of Israel",
+    "department": "hbrjd_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The archaeology of Israel has a long and important history for\nunderstanding the people and literature connected to its land. This\ncourse introduces students to the principal theories and methods of\narchaeological research and the history of the land of Israel, with a\nparticular focus on the Hellenistic and Roman periods. Through the study of\nseveral significant sites and the material culture of the land, students\nwill learn how archaeological findings contribute to the study of Israel\nand its history.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 965",
+    "title": "Topics in Jewish Literature and Culture",
+    "department": "hbrjd_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course will examine conflicts regarding the place of religion in the public sphere within the Jewish and Israeli context, through close readings of pivotal moments in modern Hebrew literature and culture. How did modern Hebrew literature evolve from the end of the 19th century until the present? What role did questions of religion and secularism play? We will begin by examining the literary formation of the 'new Jew' in the writings of the revival period, such as Berdichevsky and Bialik, followed by the concept of \"the negation of the Diaspora\" and the construction of binaries such as strength and weakness, health and sickness. We will further explore the works of prominent authors, including: S.Y. Agnon, Pinchas Sadeh, and Yona Wallach. Finally, we will apply a critical lens to the rise of contemporary religious-Zionist Literature and film in light of current social and political changes in Israel. Knowledge of Hebrew is not required - all texts are in English.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 997",
+    "title": "Independent Study:Hebrew",
+    "department": "hbrjd_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Open to honors and nonhonors students. Prerequisite: permission of the instructor. Offered every semester. 1 to 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  },
+  {
+    "course_code": "HBRJD-UA 998",
+    "title": "Independent Study",
+    "department": "hbrjd_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Open to honors and non-honors students. Prerequisite: permission of the instructor. Offered every semester. 1 to 4 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/hbrjd_ua/"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "course_code": "IRISH-UA 100",
+    "title": "Modern Irish Language Elementary I",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course introduces students to the rudiments of the Irish language, including phonemes and pronunciation, syntactical structure, and verbal conjugations. In addition, a history of the language is provided, as well as a general introduction to Irish culture, including discussions of family and place names. Students are encouraged to begin speaking with basic sentence structures.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 101",
+    "title": "Modern Irish Language Elementary II",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "IRISH-UA 100 .",
+    "description": "This course builds on the grammatical lessons of Elementary Irish I and expands into more complex verbal conjugations while concentrating on idiomatic expressions. The accumulation of vocabulary is stressed and students are introduced to basic literature in Irish while developing beginning conversational fluency.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 102",
+    "title": "Modern Irish Language Intermediate I",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "IRISH-UA 101 .",
+    "description": "For the more advanced student of Irish, this course focuses on improving conversational fluency and on expanding vocabulary through reading more complex literature in Irish.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 103",
+    "title": "Modern Irish Language Intermediate II",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "IRISH-UA 102 .",
+    "description": "The focus of this course is on conversational fluency, reading complex literature in Irish, and writing in the Irish language, further encouraging students to strengthen their pronunciation and command of spoken Irish.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 152",
+    "title": "Introduction to Celtic Music",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course provides a comprehensive introduction to the traditional and contemporary music of the Celtic areas of Western Europe, Ireland, Scotland, Wales, Brittany, and Galicia. Recordings and live performances present the extraordinary range of singing styles and the musical instruments employed in each culture, including harps, bagpipes, and a variety of other wind, free reed, keyboard, and stringed instruments. Forms and musical styles are explored in depth along with a study of their origin, evolution, and cultural links.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 170",
+    "title": "Migration in World History: The Irish Case",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Particular attention to the movements of Irish on the European continent and in Britain; the United States, Canada, and the Caribbean; Australia and New Zealand; and South America. The consequences of emigration for Ireland and for the receiving nations, as well as Ireland\u2019s transformation in the late twentieth century from emigrant nursery to emigrant destination. Consideration of some of the most prominent Irish diasporic communities.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 171",
+    "title": "The Irish Abroad in the Early Modern World",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will explore the roots of the global Irish presence.  There were well established communities of Irish expatriates on the European continent by the death of Queen Elizabeth I in 1603, and Irish mariners, merchants, settlers, and servants took part in the formation of the Atlantic World during the seventeenth and eighteenth centuries.  Important chapters in this story involve the American and French Revolutions and the creation of the new America nation.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 172",
+    "title": "Transatlantic Connections: Ireland and America since 1920",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the history of Ireland (including Northern Ireland), the United States, and significantly Irish America, as they intersect or diverge over the course of the twentieth century.  When Northern Ireland was created in 1920 and the Irish Free State in 1922, there were 2.3 million Irish-born living in America, nearly half the population of the entire island.  A new phase in Irish-American relations began during which diplomacy, economics, education, immigration, nationalism, tourism, culture, philanthropy and the circulatory movement of capital emerged as major arenas for interaction.  Through readings, films, oral history and discussions that highlight the comparative element of this course, students will examine key themes that connect Ireland and the United States in this period as well as interrogating an emerging historiography.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 180",
+    "title": "The Irish and New York",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers the symbiotic relationship between a developing metropolis and an\nimmigrant people since the 18th century, with a special concentration on\nsignificant mid-19th century political, social and cultural changes when\nNew York City was dramatically altered by the Irish. Students explore how\ncertain themes and events are used to define and mythologize the urban and\nethnic, and consider the factors beyond race and language which help define\nand preserve ethnic group identity over time.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 181",
+    "title": "Topics in Irish History:",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Emphasis varies by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 182",
+    "title": "History of Modern Ireland I (1485-1800)",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Examines the English conquest of Ireland from the reign of Elizabeth I to the last meeting of the Irish Parliament. Key themes include the plantation of Ireland with settlers from England, Scotland, and Wales; the decline of the Gaelic political order and culture; the religious reformation and Counter-Reformation; Ireland as a site of English and European wars; the imposition of a penal code; and the vain attempt to rebel against British rule in the late 18th century, resulting in the Act of Union, which disestablished the Irish Parliament in Dublin.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 183",
+    "title": "History of Modern Ireland II (1800-present)",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "From the Act of Union in 1800, Ireland has struggled to find a place in the modern world. This course examines the major social and political forces that have shaped Ireland as it transitioned from a British colony to an independent European nation.  Particular attention is paid to nationalism, emigration, economics, diplomacy, tourism, culture, and developments in Anglo-Irish and American-Irish relations over time, including Northern Ireland in the twentieth century. The ultimate goal of this course is to learn to think critically about the past and its influence on the present by understanding causality, change over time, complexity, context, and contingency.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 185",
+    "title": "Seminar in Irish History",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Intensive examination of specific areas of Irish, Irish America, or global\nIrish diaspora history with an emphasis on critical reading and individual\nresearch projects.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 187",
+    "title": "The Irish in America",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "From the sixteenth century to the present, Irish people have been crossing the Atlantic to the Americas, stretching from Newfoundland to the Amazon. From the eighteenth century, they became one of the most significant ethnic groups to steadily migrate from Europe to the United States. Their impact has been disproportional to their numbers but this only\npartially explains our contemporary understanding of \"Irish America.\" Ethnicity is an imprint and defining feature of American life yet the Irish experience with it over the past five centuries is a story complicated by multiple generations, diversity of class, continuing immigration, and rapid changes in both the homeland and the receiving country. This course considers the factors affecting emigration from Ireland; examines the impact\nof the Irish on the development of the United States since the colonial period, particularly on its cities; studies the changing Irish image in American popular culture; and considers the implications of longevity on the American immigrant experience.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 188",
+    "title": "Seminar in Irish Studies",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Intensive examination of an interdisciplinary topic. Varies by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 208",
+    "title": "Two Diasporas: Irish and Italian",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Just as the United States received more immigrants than any other country,\nIreland and Italy are among the classic nations of emigrants. Why did so\nmany people leave Ireland and Italy? What were the economic, political,\nreligious, and personal motivations? How were people able to leave in such\nlarge numbers, given their poverty? Where did they go? How did they travel?\nAnd what effect did they have on the societies where they settled,\nespecially the United States, which attracted more than five million Irish\nimmigrants and more than five million Italian immigrants?",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 306",
+    "title": "Vikings and Celts: Ireland, Scandinavia and the North Sea World during the 'Long Viking Age'",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the late eighth to twelfth centuries, from our earliest evidence of Scandinavian raiders sailing across the seas to Ireland, Scotland and England, to the establishment and fall of dynasties at home and abroad, conversion and cultural assimilation. Different aspects of medieval history will be investigated, from political, military and economic events and processes to the myriad of social and cultural changes that were to have a long-term impact on Ireland and the North Sea world. Although the Irish experience of the Viking Age will be at the heart of this course, the entire north Atlantic region will be examined. No Prerequisite.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 307",
+    "title": "Myths and Cultures of The Ancient Celts",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "From Roman claims of human sacrifice to tales of shape-shifting goddesses and from heroes that live for hundreds of years to journeys to Otherworlds and magical creatures, the world of Celtic myth and its interpretation presents us with a rich panorama. This class explores what we know about non-Christian religions in the Celtic regions, drawing on archaeological evidence and examining literary sources for medieval perceptions of paganism. In the first part of the class we will define what we can really know about the \u2018religious\u2019 beliefs of the wider Celtic world before and during the Roman conquests before turning to the literary tales that survive from the Middle Ages that are set in the non-Christian past of Ireland and Wales. We will question what can be defined as \u2018myth\u2019 and how stories of pagan gods and heroes are treated in a medieval Christian world. This course will take a critical approach to the material and continue to question how much we can know about these early belief systems and what our surviving literary texts meant to their various audiences.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 514",
+    "title": "British and Irish Politics",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores the evolution of the Anglo-Irish relationship from Ireland's break\nwith the United Kingdom following the Easter Rising (1916) and its War of\nIndependence (1919-1922) and Civil War (1922-23) through to the foundation\nof the Irish Free State, the Great Depression, the Second World War, the\nNorthern Ireland Troubles (1969-1998) and signing of the Good Friday\nAgreement (1998) up to the recent ructions caused by Brexit (2016-). Key\nthemes will include the dynamics of decolonization; the politics of\nnationalism, republicanism and unionism; post-colonial and post-imperial\nstate building; emigration; civil rights; paramilitarism; collusion and\nstate violence; peacebuilding; European integration and neoliberal\nglobalization. Attention will be paid to the major political forces and\npersonalities which reshaped this relationship, from Michael Collins, Eamon\nDe Valera, David Lloyd George and Winston Churchill to Gerry Adams, Bertie\nAhern, Margaret Thatcher and Tony Blair.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 621",
+    "title": "The Irish Renaissance",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Covers the tumultuous period from the fall of Charles Stewart Parnell, through the Easter Rising in 1916, and into the early years of national government in the 1930s. Readings in various genres (poetry, short story, novel, drama) may include Oscar Wilde, W.B. Yeats, James Joyce, Lady Gregory, John Millington Synge, Sean O\u2019Casey, Samuel Beckett, and Flann O\u2019Brien.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 624",
+    "title": "Irish Poetry after Yeats",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Although this seminar will trace Irish poetry beginning in the 1930s with the influence of W.B. Yeats, the emphasis will be on later twentieth-century poets (including Seamus Heaney, Louis MacNeice and Alan Gillis) and poetry by women (like Eavan Boland, Colette Bryce, Ailbhe Darcy, Vona Groarke, Leontia Flynn and Sinead Morrissey). We will discover new writers publishing poems and books in contemporary magazines and poetry journals and dip into contemporary Irish language poetry (read in translation). Reading these poets will allow us to grapple with some of the most pressing issues facing poetry criticism in the Irish Studies field and beyond: the struggle with Yeats\u2019s commanding example; the relation of poetry to national partition and the civil crisis in Northern Ireland; the confining and liberating aspects of lyric tradition; the use of translation as a means of finding voice; the agency of poetry in forcing change within a conservative cultural climate; the arrival of prosperity in Ireland and the consequent need to revise our conceptions of Irish culture.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 625",
+    "title": "Colloquium: Joyce",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Study of James Joyce\u2019s major works. Readings span his entire oeuvre, from Dubliners to Finnegans Wake, with a detailed reading of Ulysses.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 626",
+    "title": "The Beckett Colloquium",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will conduct an intensive examination of Samuel Beckett's career, reading closely his poetry, novels, letters, essays, and dramatic works against the literary, philosophical, political and historical contexts in which they were written and received. Along the way we will consider how attempts to define Beckett -- as Irish, as French, as Modernist, Existentialist, Post-modernist, humanist, and nihilist -- have all fallen short of his unique blend of tragic and comic genius. Although there will occasionally be lectures on significant historical or critical issues, the class will be\nconducted principally through rigorous class discussion like a seminar.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 627",
+    "title": "Irish Women Writers",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Irish women writers have historically been marginalized and excluded from the literary canon. This class seeks to historicize and respond to these concerns by foregrounding Irish women writers and arguing for a \u201ctradition\u201d of women\u2019s writing. We focus primarily on work from the twentieth and twenty-first centuries, after beginning with Maria Edgeworth\u2019s groundbreaking novel Castle Rackrent (1800). We will read novels, drama, poetry, and short stories and ask questions about aesthetics, historical context, gender, sexuality, race, class, and religion. To complicate and challenge our own views of these texts, we will also supplement our readings with academic scholarship, including postcolonial theory, Irish feminist theory, and other relevant literary and cultural criticism. This course is designed to help you develop your critical skills as writers and thinkers, as well as your ability to engage with scholarship in literary theory, criticism, and interpretation.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 700",
+    "title": "Topics in Irish Studies",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "( IRISH-UA 100 OR EURO-UA 100).",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 701",
+    "title": "Irish Dramatists",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A study of the rich dramatic tradition of Ireland since the days of William\nButler Yeats, Lady Gregory, and the fledgling Abbey Theatre. Playwrights\ncovered include John Millington Synge, Sean O' Casey, Samuel Beckett,\nBrendan Behan, Brian Friel, Tom Murphy, Frank McGuinness, and Anne Devlin.\nIssues of Irish identity, history, and postcoloniality are engaged\nalongside an appreciation of the emotional texture, poetic achievements,\nand theatrical innovations that characterize this body of dramatic work.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 761",
+    "title": "Topics in Irish Literature",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 800",
+    "title": "Arthurian Legend: Arthur and The Celts",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Discusses the legend of the famous king as a hero in medieval Wales and Ireland and depictions of Arthur ranging from villain to tragic hero. Explores how the Celtic Arthur compares with the continental Romances; the legend\u2019s interpretation of Christianity and the pagan past; the depiction of \u201cmagic\u201d and \u201cmiracles\u201d within the texts; and the role of gender in medieval writing.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 801",
+    "title": "Slave, Saint, and Symbol: Saint Patrick\u2019s Life and Legacy",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores how Patrick, a man taken to Ireland as a slave in Late Antique Britain, became the saint celebrated annually around the world on March 17. Includes how he portrayed himself in his own writings, how seventh-century political machinations promoted a cult that made him the chief saint of Ireland, how medieval writers depicted him as saving epic heroes from hell, and how he eventually became an enduring secular symbol of Ireland itself. Students  read a variety of primary and secondary sources to think critically about the changing legacy of one man over\na millennium and a half..",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 902",
+    "title": "Topics in Irish Literary, Visual, & Performing Arts",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 991",
+    "title": "Interdisciplinary Seminar",
+    "department": "irish_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester, for example \"Irish American Literature as History\".",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  },
+  {
+    "course_code": "IRISH-UA 998",
+    "title": "Independent Study",
+    "department": "irish_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the director of undergraduate studies. 2 or 4 points per term. Independent study with an Irish studies faculty member.",
+    "source_url": "https://bulletins.nyu.edu/courses/irish_ua/"
+  }
+]

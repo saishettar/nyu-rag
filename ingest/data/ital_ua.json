@@ -1,0 +1,461 @@
+[
+  {
+    "course_code": "ITAL-UA 1",
+    "title": "Elementary Italian I",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in Italian and to others on assignment by placement test.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 2",
+    "title": "Elementary Italian II",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "( ITAL-UA 1 OR ITAL-UA 9001 OR Italian Language Placement Placement >= 5900.",
+    "description": "Continuation of ITAL-UA 1 . To continue on to the intermediate level, a student must complete both ITAL-UA 1 and ITAL-UA 2 . This sequence is equivalent to ITAL-UA 10 .",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 10",
+    "title": "Intensive Elementary Italian",
+    "department": "ital_ua",
+    "credits": 6.0,
+    "prerequisites": "",
+    "description": "Open to students with no previous training in Italian and to others on assignment by placement test. Completes the equivalent of Elementary Italian I and II in one semester. Offered every semester. 6 points.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 11",
+    "title": "Intermediate Italian I",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 2 OR ITAL-UA 9002 OR ITAL-UA 10 OR ITAL-UA 9010 ).",
+    "description": "Not equivalent to ITAL-UAV 20. Only by combining ITAL-UA 11 with ITAL-UA 12 can a student complete the equivalent of ITAL-UA 20 and then continue on to the postintermediate level.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 12",
+    "title": "Intermediate Italian II",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "( ITAL-UA 11 OR Italian Language Placement Placement >= 5900.",
+    "description": "Continuation of ITAL-UA 11 . To fulfill MAP requirements and continue on to the postintermediate level, a student must complete both ITAL-UA 11 and ITAL-UA 12 . This sequence is equivalent to ITAL-UA 20 .",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 20",
+    "title": "Intensive Intermediate Italian",
+    "department": "ital_ua",
+    "credits": 6.0,
+    "prerequisites": "ITAL-UA 2 OR ITAL-UA 9002 OR ITAL-UA 10 OR ITAL-UA 9010 ).",
+    "description": "Completes the equivalent of Intermediate Italian I and II in one semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 30",
+    "title": "Advanced Review of Modern Italian",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 12 OR ITAL-UA 20 OR equivalent course OR Italian Language Placement Placement 59-67.",
+    "description": "This course is a prerequisite for other advanced courses in language, literature, and culture and society. Systematizes and reinforces the language skills presented in earlier-level courses through an intensive review of grammar and composition, lexical enrichment, improvement of speaking ability, and selected readings from contemporary Italian literature.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 101",
+    "title": "Conversations in Italian",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 30 or equivalent or Italian Language Placement Score  >= 68.",
+    "description": "Students entering this course should have mastered the fundamental structure of Italian. Designed to help students gain confidence and increase their effectiveness in speaking present-day Italian. Through discussions, oral reports, and readings, students improve pronunciation, become familiar with idiomatic expressions, and develop vocabulary that allows them to communicate with others on topics such as family and student life, politics, the arts, food, and fashion. Useful for students who are planning to study or travel abroad.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 103",
+    "title": "Creative Writing in Italian",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "( ITAL-UA 30 OR ITAL-UA 9030 ).",
+    "description": "A creative approach to writing in Italian that emphasizes transformations of texts. Students are encouraged to rewrite, parody, and shift genres, with the aim of improving their writing and reading techniques.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 107",
+    "title": "Italian Through Cinema",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 30 or equivalent or Italian Language Placement Score  >= 68.",
+    "description": "Students entering this course should have mastered the fundamental structure of Italian. Aims to enrich knowledge of Italian language, culture, and society through screening and discussion of contemporary Italian cinema and detailed analysis of selected film scripts. Students are encouraged to use different idiomatic expressions and recognize regional linguistic variety. Special emphasis is placed on developing a more extensive vocabulary and an expressive range suited to discussion of complex issues and their representation.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 110",
+    "title": "Translation",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 30 .",
+    "description": "Introduces students to the theory and practice of translation. While engaging in the craft of translation firsthand, students gain a deeper understanding of the Italian language through the study of contemporary texts, such as Italian novels and short stories. The course also stresses the acquisition of vocabulary and complex idiomatic structures necessary for effective reading comprehension, as well as written expression. A special emphasis is on the analysis of dialogue, style, and linguistic choices of each author, in order to explore the development of the written language, slang, regional expressions, and linguistic differences that have accompanied and defined the evolution of Italian over the past 20 years.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 115",
+    "title": "Readings in Medieval and Renaissance Literature",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 30 or equivalent or Italian Language Placement Score  >= 68.",
+    "description": "This course explores Italian culture and literature from the Medieval era to the late phases of the early modern period. We will examine foundational authors such as Dante, Petrarch, and Boccaccio, with a focus on key developments in Italian society and the role of women as producers of both written and visual culture. The course will emphasize the religious culture of the Medieval period and the Renaissance's rediscovery of classical models. In addition to textual analysis, we will highlight significant achievements in art, architecture, and the emergence of archaeology. Texts will be studied mostly in Italian, supplemented by English translations. Instruction will primarily be in Italian, with accommodations and supporting materials in English.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 116",
+    "title": "Readings in Modern Italian Literature",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "ITAL-UA 30 or equivalent or Italian Language Placement Score  >= 68.",
+    "description": "The course covers Italian literature from the nineteenth to the twenty-first century, from Leopardi to Elena Ferrante, with particular attention to developments and movements in Italian culture such as: the impact of twentieth-century wars and of Fascism; the rise of Neorealism; the avant-garde; and the recent growth of women's voices and multicultural approaches. Literary texts are accompanied by visual art, photography, music, and cinema. Readings are in Italian with recourse to English translations; teaching is in Italian, but with accommodations and supporting use of English.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 121",
+    "title": "The Renaissance",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Same as HIST-UA 121. The history of the Renaissance from its origins in the\n14th century to its waning at the end of the 16th century. Focuses on\ndevelopments in Italy, especially the development of republican\ncity-states, the social basis for the explosion in artistic and\nintellectual production, and the emergence of new forms of political and\nscientific analysis.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 140",
+    "title": "Traduttore-Traditore:",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "\"This 2-credit course offers an opportunity for students who\ndo know some Italian to read, discuss, decipher, memorize and work with the\noriginal Italian text in a number of creative ways aimed at improving\ncomprehension and expressive skills while becoming deeply familiar with a\ngreat classic. Offered as a pairing to a 4-credit content course. \"",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 145",
+    "title": "Love &War Renaiss Italy: Chivalric Romance & Epic",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Offers the opportunity to study two of the greatest works of Italian literature, Lodovico Ariosto\u2019s Orlando furioso (1532) and Torquato Tasso\u2019s Gerusalemme liberata (1581). Looks at these poems in their historical context and in relation to the rich literary traditions of romance and epic that converge in them. Thematic focuses include the construction of gender and the representation of religious and racial \u201cotherness.\u201d",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 147",
+    "title": "Machiavelli",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The inventor of modern political science, Niccolo Machiavelli is one of the most original thinkers in the history of Western civilization. In this course, Machiavelli?s political, historical, and theatrical works are read in the context in which they were conceived?the much tormented and exciting Florence of the 15th and early 16th centuries struggling between republican rule and the magnificent tyranny of the Medici family. The course also aims at dismantling the myth of ?evilness? that has surrounded Machiavelli through the centuries, especially in the Anglo-Saxon world, through a close reading of such masterpieces as The Prince, The Discourses, and The Mandrake Root.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 148",
+    "title": "Giordano Bruno and the Art of Memory",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Art of Memory reached a peak of refinement and complexity during the Italian Renaissance. More than just tools for passive retention of information: memory devices were designed to structure thought, organize knowledge, answer philosophical questions, and even create new content. This course will examine how culture of memory impacted on literary production, emphasizing the symbiotic relationship between textual and visual codes. A central figure in our study will be the heretic philosopher and cosmologist Giordano Bruno, burnt at the stake by the Roman Inquisition in 1600. Bruno conceived his elaborate mnemonic system as a mirror of the infinite universe and nature's creative principles. We will begin with an exploration of Bruno's works explicitly devoted to memory, tracing both continuity and innovation in relation to earlier traditions. We will then engage with Bruno's Italian dialogues, his writings on magic, and his satirical comedy \"Candlebearer\", seeking connections between his memory theory and his literary style, doctrine of infinity and strategy of self-representation.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 150",
+    "title": "Visual Languages of the Renaissance: Emblems, Dreams, Hieroglyphs",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Making knowledge visible was one of the great Renaissance endeavors. Some\n of the period's most characteristic products were born out of the\n conviction that concepts could be turned into images and organized into a\n visual language, more profound and universal than discursive logic.\n Egyptian hieroglyphs and dream visions were considered typical vehicles of\n this advanced mode of communication. The desire to emulate their symbolic\n density is reflected both in literature and in art, often in ways that\n challenge common distinctions between visual and verbal communication. In\n this course you will be introduced to an assortment of works representative\n of such interplay between text and image: emblem books, dream books and\n dream-centered works, hieroglyphic inventions and studies, collections of\n proverbs, iconology manuals, etc. Among the books examined are some widely\n considered as the finest examples of design in the history of printing.\n Early modern and recent theory of emblems will also be discussed. As a\n present-day counterpart of Renaissance emblems, the course will conclude\n with a survey of corporate logos and Russian criminal tattoos.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 152",
+    "title": "Visual Poetry",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines objects with a dual nature:  literary artifacts that are also visual compositions \u2014 texts that function simultaneously as pictures. While two primary focuses will be on Italy and on 20th century experimental literary forms,  (Futurist\u2019s \u201cparole in libert\u00e0\u201d, \u201cpoesia visiva\u201d, concrete poetry), students will also explore a wider range of such textual-visual hybrids, from the classical world through the Middle Ages, the Renaissance and the Baroque period.  In order to trace the transnational circulation of visual models, comparative examples and references from English and other languages (with translations in English) will be offered.  Specific readings and discussions will address theoretical issues raised by iconic texts \u2014 how do we read visual poetry? What does it mean to be engaged as a reader and as a viewer at the same time?",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 155",
+    "title": "Francesco Petrarca Rime",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The full title of the seminar is \"Francesco Petrarch\u2019s \"Lyric Poems and Petrarchism\" The course is dedicated to the \"Rime\" of Francesco Petrarca (1304-1374), read in continuity with the poetic and cultural tradition that Aretino inherits, strengthens, and renews, and mirrors other works including a selection of Letters, and fragments from \"The Secret\" and \"Invectives\". Intellectual and Humanist, Francesco Petrarca (1304-1374) is one of the greatest Italian and European poets. His achievements in lyric poetry has made him the most acclaimed and imitated poet of Europe during the Renaissance and a model for lyrical poetry for centuries. The course proposes a reading of Francesco Petrarca, Rime in the excellent translation of Robert Durling. The importance Petrarch gives to the medieval Christian Platonism is the core of our exploration. The role played by the ancient and medieval theory of interior word in Petrarch\u2019s thought and poetry will be emphasized. It offers the student the opportunity to gain a perspective on classicality, medieval literary tradition and thought, and on the genesis of humanism. The course includes the Petrarchism in the lyric poetry from\nVittoria Colonna,Gaspara Stampa.Veronica Franco up to Michelangelo and Tasso.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 171",
+    "title": "Topics in Italian Culture",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 172",
+    "title": "Topics:",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Courses on subjects of special interest taught by a regular or visiting faculty member. For specific courses, please consult the class schedule.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 173",
+    "title": "Topics in Ital Culture:",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Courses on subjects of special interest taught by a regular or visiting faculty member. For specific courses, please consult the class schedule.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 174",
+    "title": "Italian Films, Italian Histories I",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Studies representation of Italian history through the medium of film from ancient Rome through the Risorgimento. Issues to be covered throughout include the use of filmic history as a means of forging national identity.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 176",
+    "title": "Italian Colonial Legacies: Perspectives in Literature and Film",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Italy participated in colonial endeavors from almost as soon as it was established as a nation. After World War II, Italy lost its colonies and made an effort to forget its colonial past, but many authors, filmmakers, and intellectuals engaged with these repressed colonial legacies. The first part of the course explores perspectives on colonialism from authors hailing from within the colonial center; the second focuses on perspectives of authors hailing from places formerly occupied or colonized by Italy. We will place all of these materials into context with broader ideas about the mechanisms of colonialism and imperialism.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 177",
+    "title": "Topics in Italian Culture",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Subjects of special interest taught by a regular or visiting faculty member. Topics vary by semester; for specific offerings, please consult the class schedule.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 178",
+    "title": "Race and Gender in Italian Pop",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Italian pop music has shaped Italy\u2019s image at home since the early 1900s. We will examine music, genre, lyrics, and style through a range of primary and secondary sources, investigating how Italian pop music constructs ideas of gender and race within and beyond Italy. We will track the evolution of mainstream pop phenomena like Sanremo and its role in creating ideas of \u201cItalianness\u201d and enforcing gender roles; look to how alternative scenes and \u201ccounterculture\u201d genres subverted ideas of the racialized and gendered Italian subject; and investigate the reception of \u201cforeign\u201d performers in Italy. This course will be taught in English.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 180",
+    "title": "Drama Queens: Opera, Gender and the Poetics of Excess",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "According to the Oxford English Dictionary, a drama queen is \u201ca person who is prone to exaggeratedly dramatic behavior.\u201d While drama queens exist in real life, opera is their ideal environment. Echoing back to their tragic fates, the powerful voices of opera\u2019s heroines never ceased to affect their empathetic public. In fact, excess and overreactions are key to the operatic experience both on stage and in the audience. By focusing on the ways in which drama queens are brought to life, the course explores the social, political, and gender dynamics that inform the melodramatic imagination. Along with a broad introduction to the development of opera from 1600 to 1900, the course offers a theoretical background across literature and musical culture, reception, voice/sound and gender studies. Case studies include works by Monteverdi, Mozart, Rossini, Bellini, Donizetti, Verdi, Puccin. No musical skills required.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 265",
+    "title": "Violence and Memory in Contemporary Italy",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Acts of public violence, against individuals or groups of people, have been recurrent in the history of modern Italy. They include large-scale\nkillings of civilians in its colonies in the 1920s and 1930s, massacres and sexual violence on Italian soil during World War Two, acts of terrorism peaking in the years 1969-1982, and a wave of mafia killings in the 1990s. This course asks why acts of public violence happen, why they recur,  and how they have been remembered in different ways or forgotten. Historians have spoken, in relation to this, about Italy's \"divided memory\".  Drawing widely on visual evidence, including photographs, posters and film, the course examines four cases where violence has given rise to intense controversy and debate over historical memory.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 269",
+    "title": "Dante\u2019s Divine Comedy in Context",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to MEDI-UA 269 The Divine Comedy is a very long poem traditionally judged to be one of the most\nimportant in Western culture. At the center of the poem is the human being, his condition in the after life and his punishment or reward. Taken literally, the theme is the state of the souls after the death. But allegorically, the true subject is moral life and thus the torments of the sins themselves or the enjoyment of a happy and saintly life. Since the beginning of its circulation the Divine Comedy has been seen as a text to be read in context, that is in light of the cultural tradition Dante was channelling and interpreting. This course proposes a reading of Dante's Commedia, considered in light of the ancient and medieval idea of learning. The objective of the course is to familiarize students with one of the most important author of Western culture. Through Dante's texts, students will gain a perspective on the Biblical, Christian, and Classical traditions as well as on the historical, literary, philosophical context of medieval Europe.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 270",
+    "title": "Dante'S Divine Comedy",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Students study the Divine Comedy both as a mirror of high medieval culture and as a unique text that breaks out of its cultural bounds. The entire poem is read, in addition to selections from the Vita Nuova and other complementary minor works.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 271",
+    "title": "Boccaccio'S Decameron",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A study of Boccaccio?s Decameron with particular emphasis on themes, conceptual innovations, and influences on French and English literatures.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 282",
+    "title": "Italian Cinema & Lit:",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Studies the relationship between Italian literature and post-World War II cinema, including the poetics and politics of the process of cinematic adaptation. Among the authors and directors examined are Lampedusa, Bassani, Sciascia, Visconti, Moravia, De Cespedes, DeSica, and Rosi.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 285",
+    "title": "Topics in Italian Lit:",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Courses on subjects of special interest taught by a regular or visiting faculty member. For specific courses, please consult the class schedule.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 300",
+    "title": "The Passions of Elena Ferrante",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The success of Elena Ferrante's Neapolitan novels is astounding, not only\nbecause of the record-breaking sales, but also because of the strong\nemotions they thematize and arouse. In this course, we will read novels,\ninterviews, and essays by Ferrante, asking why her work inspires such\npassionate reading, and whether there is political efficacy in all this\naffect. Engaging with Sianne Ngai, Elspeth Probyn, Lauren Berlant and\nothers, we will consider the political and aesthetic implications of ugly\nand opaque emotions like irritation, envy, disgust, and shame. We will also\nstudy major influences\u2014including writers Ferrante cites frequently in\ninterviews: Adriana Cavarero, Carla Lonzi, Luisa Muraro, and Elsa Morante;\nas well as those she tends to refrain from naming: Christa Wolf and\nIngeborg Bachmann. Reading knowledge of Italian is suggested but not\nrequired. Class discussion will be conducted in English; texts will be\navailable in English and Italian.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 301",
+    "title": "Topics in Contemporary Italian Literature",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisites and topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 303",
+    "title": "I, the Author: Autofiction, Autobiography, and Fiction in Contemporary Literature",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will focus on identity and the autobiographical experience as narrated by a selection of contemporary American and European authors, with a particular attention to Italian examples. Through the analysis of their work, it will focus on how authorship and the identity/presence of the author has evolved in contemporary times, and how this evolution reverberates beyond national borders. We will investigate what moves these authors, what aspects of their experience they choose to narrate and how they relate to their own subjectivity and the world.\nWe will explore thematic differences and convergences, social and historical influences, the\nrelationship between the self and society, the evolution of narrative languages and purposes.\nThe selection of readings is representative of the emergence of a new literary genre that blends\nmemoir, autofiction and fiction, and describes the changing intellectual, cultural and social\nlandscape of a literature that can no longer be contained within its national boundaries, but is\ninspired by a quest for a new identity or new identities, ignited by and reflected in today\u2019s\nglobalized world.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 307",
+    "title": "Narrating the Mediterranean",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Aims to teach students how (post)colonialism, immigration and conflict have influenced past and current sociopolitical contexts of the Mediterranean. Through class discussions and critical writing assignments, the course considers the relationship between Mediterranean history/politics and its unique forms of artistic production and narration that have emerged in recent years.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 309",
+    "title": "Weird Italy",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Italy is known as the homeland of poets and saints, but what about weirdos? This course turns stereotypes of Italy as the land of classicism inside out, focusing on its distinctively weird modern artistic production. From Giacomo Leopardi to Italo Calvino and modern \"weirdcore,\" we will study landmark texts, films, and art across the 20th century. Leveraging contemporary theories of the weird and eerie, we will explore what it means for art to be weird, why it fascinates us, and how Italian culture distinctly shapes these aesthetics. No prior knowledge of Italian required.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 310",
+    "title": "Sounds of Italy 1910-1970",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines a variety of sound artifacts and sound related texts from the period between WWI and the 70s \u2014 between the early noise machines of the Futurists and the experiments of maverick singer Demetrio Stratos. Yet the focus will not be exclusively on music proper: we will examine sound in a range of manifestations and contexts \u2014 propaganda, magic-religious rituals, oral poetry, folklore, commercial sound design, prison songs, soundtracks, etc. The course will touch upon issues such as the relationship between music and other arts; the development of Italian media; Fascist sound politics; prison songs; the discussion on technology for sound production/ consumption in Italian cultural circles; the survival of (largely non-textual) oral-aural art forms.  The course is in English,\nno Italian required.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 370",
+    "title": "Authoritarianism from Mussolini to the Present",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course will examine authoritarianism from the Fascist and\nearly Communist years up to the present. Leaders include Mussolini, Hitler,\nFranco, Stalin, Mobutu, Pinochet, Gaddafi, Mao, Putin, Orban, Erdogan, and\nmore.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 400",
+    "title": "From Polenta to Marinara: History of Italian Food",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "In this course we will cover the Italian varieties of food in their past and present forms. The first half of the course will explore the history of food from past civilizations, leading up to World War I, just after the great immigration to the New World. Time periods examined will be ancient Rome, Medieval, Renaissance, Risorgimento, leading to the modern era. The second part of the course will introduce students to the regional varieties of Italian food and the role of\nthis topic in the arts, film and TV.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 401",
+    "title": "La bella figura: Self & National Identity in Italian Fashion",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "If in the collective imaginary fashion is linked to glamour, style, and aesthetics, no\ncountry more actively evokes and embodies these concepts than Italy. Italian identity, culture, and economy remain deeply connected to fashion as both an institution and industry. Well before Italy\u2019s belated unification in 1861, fashion long played a key role in the construction of national style and courtly life from the Middle Ages and Renaissance to the twentieth-century design houses which reshaped not only commercial and aesthetic trends, but solidified Italy\u2019s association with post-war design culture more broadly. This course explores the development of Italian fashion from its roots in Medieval Communes to the dynamics of the modernity and the post-modernity of the 19 th and 20 th centuries, concluding with a close look at contemporary fashion as a creative force of socio-cultural change.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 405",
+    "title": "From Polenta to Marinara: History of Italian Food",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Covers the Italian varieties of food in their past and present forms. We will explore the history of food from past civilizations, leading up to World War 1, just after the great immigration to the New World. Time periods examined will be ancient Rome, Medieval, Renaissance, Risorgimento, leading to the modern era.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 410",
+    "title": "La Bella Figura: Self and National Identity in Italian Fashion",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Italian identity, culture, and economy remain deeply connected to fashion as both an institution and industry. Examines how fashion played a key role in the construction of national style and courtly life from the Middle Ages and Renaissance to the twentieth-century design houses, which not only reshaped commercial and aesthetic trends, but also solidified Italy\u2019s association with post-war design culture more broadly.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 724",
+    "title": "Italian-American Life in Literature",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to V41.0724. Hendin. Offered every two to three years. 4 points. A study of the fiction and poetry by which Italian American writers have expressed their heritage and their engagement in American life. From narratives of immigration to current work by \"assimilated\" writers, the course explores the depiction of Italian American identity. Challenging stereotypes, it explores changing family relationships, sexual mores, and political and social concerns.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 861",
+    "title": "Tpcs in Italian-American Culture",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisites and topics vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 990",
+    "title": "Honors Independent Study",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Undergraduate students in the Honors Program write a thesis overseen by an\nItalian Studies faculty member in their senior year. In fall, the student prepares research for their thesis in the course ITAL-UA 999 Seniors Honors Seminar. In spring, the student writes the thesis under the guidance of a faculty member in the course ITAL-UA 990 Honors Independent Study. Both count as advanced courses for the major. Students work closely with a departmental faculty member who becomes the honors thesis adviser (chosen in consultation with the Director of Undergraduate Studies). The thesis should be a work of scholarship and/or criticism from 40 to 60 pages in length.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 997",
+    "title": "Independent Study",
+    "department": "ital_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. Offered every semester. 2 or 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  },
+  {
+    "course_code": "ITAL-UA 999",
+    "title": "Senior Honors Seminar",
+    "department": "ital_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite: permission of the department. Offered in the fall. 4 points. Seminar with variable content. Prepares students for the senior honors thesis. Primary focus is on research and the application of critical methodologies. Open to students who have been accepted in the honors program in Italian studies. (See Prerequisite: permission of the department. Offered in the fall. 4 points. Seminar with variable content. Prepares students for the senior honors thesis. Primary focus is on research and the application of critical methodologies. Open to students who have been accepted in the honors program in Italian studies. (See \"Eligibility and requirements\" under \"Honors Program in Italian Studies\" in the \"Program\" section.)",
+    "source_url": "https://bulletins.nyu.edu/courses/ital_ua/"
+  }
+]

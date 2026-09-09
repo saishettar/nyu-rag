@@ -12,8 +12,8 @@
       "CSCI-UA 473"
     ],
     "hit": true,
-    "answer": "After completing **Data Structures [CSCI-UA 102]**, several courses become available since they list it as a prerequisite:\n\n- **[CSCI-UA 201] Computer Systems Organization** \u2013 requires only CSCI-UA 102 (with a minimum grade of C, or equivalent), making it one of the most direct next steps. It covers computer architecture, assembly language, and low-level programming concepts.\n\n- **[CSCI-UA 479] Data Management and Analysis** \u2013 also requires just CSCI-UA 102 (min grade C) as the core prerequisite. Good if you're interested in databases, data analysis, and working with various data formats.\n\n- **[CSCI-UA 310] Basic Algorithms** \u2013 requires CSCI-UA 102 plus MATH-UA 120 and MATH-UA 121 (or MATH-UA 131). A strong choice if you've also completed the calculus sequence and want to deepen your theoretical CS foundation.\n\n- **[CSCI-UA 473] Fundamentals of Machine Learning** \u2013 requires CSCI-UA 102 plus MATH-UA 140 and a linear algebra/stats course (MATH-UA 185, 333, 334, 338, or MA-UY 2224). A good option if you have the math prerequisites and want to explore machine learning.\n\nIf you haven't taken additional math courses yet, **[CSCI-UA 201]** or **[CSCI-UA 479]** are the most immediately accessible next steps, since they only require CSCI-UA 102. If you have the math background, **[CSCI-UA 310]** is a classic and highly recommended next course for building core CS theory skills.",
-    "groundedness": "GROUNDED: All claims about prerequisites and course content accurately reflect the CONTEXT, and multiple course codes (e.g., CSCI-UA 201, 479, 310, 473) are cited correctly."
+    "answer": "Based on the listings, several courses list **CSCI-UA 102 (Data Structures)** as a prerequisite, making them good options to take next:\n\n- **[CSCI-UA 201] Computer Systems Organization** \u2014 requires CSCI-UA 102 (or equivalent) with a Minimum Grade of C. It covers computer architecture, assembly language, and internal data representation.\n\n- **[CSCI-UA 310] Basic Algorithms** \u2014 requires CSCI-UA 102 with a Minimum Grade of C, along with MATH-UA 120 and MATH-UA 121/131. It builds on data structures by studying algorithm design and efficiency (sorting, searching, graph algorithms).\n\n- **[CSCI-UA 479] Data Management and Analysis** \u2014 requires CSCI-UA 102 with a Minimum Grade of C (or equivalent). It focuses on databases, data extraction/transformation, and analysis tools.\n\n- **[CSCI-UA 473] Fundamentals of Machine Learning** \u2014 requires CSCI-UA 102 along with specific math courses (MATH-UA 140 and one of MATH-UA 185/333/334/338 or MA-UY 2224). It introduces machine learning theory and applications.\n\nThe best choice depends on your interests:\n- If you want to go deeper into **theoretical CS and algorithm design**, [CSCI-UA 310] is a natural next step.\n- If you're interested in **systems-level programming**, [CSCI-UA 201] is ideal.\n- If you're drawn to **data-centric applications**, [CSCI-UA 479] is a good fit.\n- If you're aiming for **AI/ML**, [CSCI-UA 473] is the route, though it requires additional math prerequisites.",
+    "groundedness": "GROUNDED: All claims (prerequisites, course descriptions, and additional math requirements) accurately reflect the CONTEXT, and multiple course codes are cited."
   },
   {
     "question": "Which introductory programming course has no prerequisites and is meant for complete beginners?",
@@ -28,8 +28,8 @@
       "CSCI-UA 453"
     ],
     "hit": true,
-    "answer": "Based on the course listings, **[CSCI-UA 2]** \"Introduction to Computer Programming (No Prior Experience)\" is the introductory programming course with no prerequisites (Prerequisites: None) that is designed for complete beginners. As stated in its description, \"No prior computer experience assumed\" and it requires only \"Three years of high school mathematics or equivalent.\"\n\nBy contrast, **[CSCI-UA 3]** is also listed with no formal prerequisites, but it is explicitly intended for students who \"already have had some exposure to programming,\" making it unsuitable for complete beginners.",
-    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's description of CSCI-UA 2 (no prerequisites, no prior experience assumed) and correctly contrasts it with CSCI-UA 3, citing both course codes without adding unsupported claims."
+    "answer": "**[CSCI-UA 2] Introduction to Computer Programming (No Prior Experience)** is the course meant for complete beginners. It has no formal prerequisites listed (only \"Three years of high school mathematics or equivalent\" is required), and it is explicitly described as an introduction \"for students with no prior computer experience assumed\" [CSCI-UA 2].\n\nBy contrast, [CSCI-UA 3] is designed for students who already have \"some exposure to programming,\" making it unsuitable for complete beginners.",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the CONTEXT\u2019s description of CSCI-UA 2 (no prerequisites, no prior experience assumed) and correctly contrasts it with CSCI-UA 3, citing both course codes."
   },
   {
     "question": "Which course teaches relational databases and SQL?",
@@ -44,8 +44,8 @@
       "DS-UA 202"
     ],
     "hit": true,
-    "answer": "Based on the course listings, three courses cover relational databases:\n\n1. **[CSCI-UA 60]** Database Design and Implementation \u2014 explicitly teaches \"SQL to study the principles and implementations of relational databases\" along with Python and an introduction to other paradigms like NoSQL.\n\n2. **[CSCI-UA 479]** Data Management and Analysis \u2014 covers \"traditional relational databases as well as non-relational databases to store, manipulate, and query data,\" including data modeling and API programming (note: students cannot take both this and CSCI-UA 60).\n\n3. **[CSCI-UA 480]** Special Topics in Computer Science \u2014 its description also mentions \"extracting, transforming and analyzing data... with traditional relational databases as well as non-relational databases.\"\n\nIf you're specifically looking for a course centered on **SQL and relational database design principles**, **[CSCI-UA 60]** is the most direct match, as it explicitly names SQL in its description.",
-    "groundedness": "GROUNDED: All claims (course descriptions, mutual exclusivity note, SQL emphasis in CSCI-UA 60) are directly supported by the CONTEXT and multiple course codes are cited."
+    "answer": "Based on the course listings, three courses teach relational databases and SQL:\n\n- **[CSCI-UA 60]** (Database Design and Implementation) explicitly states it uses \"SQL to study the principles and implementations of relational databases\" alongside Python and an introduction to NoSQL.\n\n- **[CSCI-UA 479]** (Data Management and Analysis) covers \"traditional relational databases as well as non-relational databases to store, manipulate, and query data,\" though SQL is not named explicitly (queries are mentioned generally).\n\n- **[CSCI-UA 480]** (Special Topics in Computer Science) also describes \"traditional relational databases as well as non-relational databases\" for extracting, transforming, and analyzing data, again without explicitly naming SQL.\n\nIf you're specifically looking for a course that names **SQL** directly, **[CSCI-UA 60]** is the clearest match based on the provided listings.",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's descriptions of CSCI-UA 60, CSCI-UA 479, and CSCI-UA 480 regarding relational databases and SQL, without adding unsupported claims."
   },
   {
     "question": "Is there a course on operating systems?",
@@ -60,8 +60,8 @@
       "CSCI-UA 2"
     ],
     "hit": true,
-    "answer": "Yes. **[CSCI-UA 202] Operating Systems** covers this topic \u2014 it addresses \"the principles and design of operating systems,\" including \"process scheduling and synchronization, deadlocks, memory management including virtual memory, input-output and file systems,\" along with programming assignments [CSCI-UA 202].\n\nTo enroll, you need one of the following prerequisites: **CSCI-UA 201** (Computer Systems Organization) with a minimum grade of C, or CENG-SHU 202, or CS-UH 2010, or ENGR-UH 3511 [CSCI-UA 202].",
-    "groundedness": "GROUNDED \u2014 the answer accurately reflects the course description and prerequisites for CSCI-UA 202 as stated in the context, citing the course code appropriately."
+    "answer": "Yes. **[CSCI-UA 202] Operating Systems** covers the principles and design of operating systems, including process scheduling and synchronization, deadlocks, memory management (including virtual memory), and input-output and file systems, along with programming assignments [CSCI-UA 202].\n\nIts prerequisite is CSCI-UA 201 (or equivalent, such as CENG-SHU 202, CS-UH 2010, or ENGR-UH 3511) with a minimum grade of C [CSCI-UA 202].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites of CSCI-UA 202 as stated in the context, with no unsupported claims."
   },
   {
     "question": "What course should I take to learn about neural networks and machine learning?",
@@ -76,8 +76,8 @@
       "LING-UA 52"
     ],
     "hit": true,
-    "answer": "Based on the course listings provided, several courses cover neural networks and machine learning, each with a different focus:\n\n- **[DS-UA 112] Principles of Data Science II** \u2013 Covers machine learning principles in supervised, unsupervised, and reinforcement learning, including \"neural network approaches\" alongside classical methods like random forests and support vector machines, with a capstone project. Note: this is restricted to students majoring/minoring in Data Science or majoring in Computer and Data Science or Data Science and Mathematics [DS-UA 112].\n\n- **[CSCI-UA 473] Fundamentals of Machine Learning** \u2013 Teaches theoretical foundations of machine learning and its application to real-world problems (e.g., protein interaction prediction, tumor detection), though the description does not explicitly mention neural networks [CSCI-UA 473].\n\n- **[LING-UA 52] Machine Learning for Language Understanding** \u2013 Focuses specifically on \"machine learning methods based on artificial neural networks\" applied to language understanding, culminating in an original research paper [LING-UA 52].\n\n- **[CSCI-UA 74] Big Ideas: Artificial Intelligence** \u2013 A high-level, 2-credit overview course introducing machine learning and AI concepts broadly, with no prerequisites, taught by AI experts including Yann LeCun [CSCI-UA 74].\n\n- **[DS-UA 205] Machine Learning for Climate Change** \u2013 Applies \"modern machine learning techniques\" to climate problems, but requires DS-UA 112 as a prerequisite and is more specialized/advanced [DS-UA 205].\n\n**Recommendation:** If you want a course explicitly centered on neural networks with a research component, **[LING-UA 52]** is the most direct match given its stated focus on \"artificial neural networks.\" If you want a broader foundation covering both classical ML and neural networks, **[DS-UA 112]** (if you're eligible) fits well. For an introductory, low-commitment overview, **[CSCI-UA 74]** has no prerequisites and covers AI/ML fundamentals at a high level.",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions provided (e.g., neural network content in DS-UA 112 and LING-UA 52, lack of explicit neural network mention in CSCI-UA 473, no-prerequisite status of CSCI-UA 74, and prerequisite/specialization of DS-UA 205), and multiple course codes are cited."
+    "answer": "Based on the course listings provided, several courses cover neural networks and machine learning:\n\n1. **[DS-UA 112] Principles of Data Science II** \u2013 This course explicitly covers machine learning principles including \"classical prediction and classification methods such as random forests or support vector machines as well as **neural network approaches** to these problems,\" and even touches on generative AI. It requires DS-UA 111 as a prerequisite and is restricted to students majoring/minoring in Data Science, Computer and Data Science, or Data Science and Mathematics.\n\n2. **[CSCI-UA 473] Fundamentals of Machine Learning** \u2013 This is a general machine learning course covering \"theoretical foundations\" and practical applications, though the description doesn't explicitly mention neural networks. Prerequisites include CSCI-UA 102, MATH-UA 140, and one of MATH-UA 185/333/334/338 or MA-UY 2224.\n\n3. **[LING-UA 52] Machine Learning for Language Understanding** \u2013 This course has \"a special focus on machine learning methods based on **artificial neural networks**,\" applied specifically to language understanding, culminating in a research paper. Prerequisites include CSCI-UA 2/3/101, MATH-UA 121, and one of ECON-UA 18/20 or MATH-UA 333/334/185/338.\n\n4. **[CSCI-UA 74] Big Ideas: Artificial Intelligence** \u2013 A 2-credit high-level overview course covering \"fundamentals of AI and its key sub-areas including machine learning, natural language processing, computer vision.\" It has no prerequisites, making it the most accessible option if you want an introductory, less technical overview.\n\n**Recommendation:** If you want the most direct and explicit coverage of neural networks alongside broader machine learning, **[DS-UA 112]** or **[LING-UA 52]** are your best bets, since both explicitly mention neural network approaches. If you want an easier entry point with no prerequisites, **[CSCI-UA 74]** offers a big-picture introduction to AI and machine learning topics. Your choice should depend on your prerequisite completion and whether you want a technical, project-based course (DS-UA 112, LING-UA 52) or an introductory survey (CSCI-UA 74).",
+    "groundedness": "GROUNDED - All claims (course descriptions, prerequisites, credit values, and mentions of neural networks/machine learning) accurately reflect the provided CONTEXT, and multiple course codes (DS-UA 112, CSCI-UA 473, LING-UA 52, CSCI-UA 74) are cited."
   },
   {
     "question": "Which course covers natural language processing?",
@@ -92,8 +92,8 @@
       "LING-UA 16"
     ],
     "hit": true,
-    "answer": "Both **[CSCI-UA 469]** and **[DS-UA 302]** cover Natural Language Processing\u2014they are cross-listed versions of the same course. Both apply computational and linguistic knowledge to processing natural languages (English, Chinese, Spanish, Japanese), covering topics such as formal languages, hidden Markov models, part-of-speech tagging, vector-based methods, shallow and full parsing, semantic role labeling, information extraction, and machine translation [CSCI-UA 469][DS-UA 302]. Both require CSCI-UA 201 with a grade of C or higher as a prerequisite [CSCI-UA 469][DS-UA 302].",
-    "groundedness": "GROUNDED. The answer accurately reflects the context, which explicitly states both courses are cross-listed, share identical descriptions, and both cite CSCI-UA 201 (grade C or higher) as the prerequisite."
+    "answer": "Based on the listings provided, two courses cover Natural Language Processing:\n\n- **[CSCI-UA 469]** Natural Language Processing \u2014 This course applies computational and linguistic knowledge to processing natural languages (English, Chinese, Spanish, Japanese), covering topics such as machine translation, information extraction, information retrieval, formal languages, hidden Markov models, part of speech tagging, vector-based methods, shallow and full parsing, semantic role labeling, and machine translation. Prerequisite: CSCI-UA 201 with a grade of C or higher.\n\n- **[DS-UA 302]** Natural Language Processing \u2014 This is cross-listed with CSCI-UA 469 and shares the exact same description, topics, and prerequisites (CSCI-UA 201 with a grade of C or higher). Note: [CSCI-UA 469] is the sponsor course, while [DS-UA 302] is the non-sponsor cross-listing.\n\nBoth course codes point to the same content, so students would take whichever aligns with their program (e.g., Computer Science vs. Data Science).",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's descriptions, prerequisites, and cross-listing note for both CSCI-UA 469 and DS-UA 302, citing both course codes correctly."
   },
   {
     "question": "What's the prerequisite chain to get into Theory of Computation?",
@@ -108,8 +108,8 @@
       "PHIL-UA 75"
     ],
     "hit": true,
-    "answer": "To enroll in **[CSCI-UA 453] Theory of Computation**, you need to satisfy both of the following requirement groups:\n\n1. **One of:**\n   - CSCI-UA 201\n   - CS-UH 2010\n   - ENGR-UH 3511\n   - CENG-SHU 202\n\n**AND**\n\n2. **One of:**\n   - CSCI-UA 310\n   - CS-UH 1052\n   - ENGR-UH 3510\n   - CSCI-SHU 220\n\nThis is stated directly in the course listing: \"Prerequisites: ( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 )\" [CSCI-UA 453].\n\n**Note:** The provided course listings do not include details on CSCI-UA 201, CS-UH 2010, ENGR-UH 3511, CENG-SHU 202, CSCI-UA 310, CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220 themselves, so I cannot describe what prerequisites (if any) lead into *those* courses. Based solely on the listings given, the chain into CSCI-UA 453 stops at those two groups of courses.",
-    "groundedness": "GROUNDED: The answer accurately restates the exact prerequisite structure for CSCI-UA 453 from the context, cites the course code, and correctly notes it cannot trace further back since those prerequisite courses' details aren't provided."
+    "answer": "Based on the listings, [CSCI-UA 453] Theory of Computation requires:\n\n**( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 )**\n\nThis means you need to satisfy **both** of the following groups:\n\n1. One of: CSCI-UA 201, CS-UH 2010, ENGR-UH 3511, or CENG-SHU 202\n2. One of: CSCI-UA 310, CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220\n\nThe provided course listings do not include detailed entries for CSCI-UA 201, CSCI-UA 310, or the other alternative courses listed (CS-UH 2010, ENGR-UH 3511, CENG-SHU 202, CS-UH 1052, ENGR-UH 3510, CSCI-SHU 220), so I cannot describe what prerequisites *those* courses themselves require. The listings only confirm that [CSCI-UA 453] itself requires one course from each of the two groups above \u2014 I don't have information on any further upstream prerequisites for those specific courses.",
+    "groundedness": "GROUNDED: The answer accurately reproduces the CSCI-UA 453 prerequisite structure verbatim from CONTEXT, cites the course code, and correctly states no further upstream information is available without adding unsupported claims."
   },
   {
     "question": "Is there a course on cryptography?",
@@ -124,8 +124,8 @@
       "MATH-UA 395"
     ],
     "hit": true,
-    "answer": "Yes \u2014 **[CSCI-UA 478] Intro to Cryptography** is a course focused on cryptography. It covers \"symmetric-key encryption (block ciphers, modes of operations, AES), message authentication (pseudorandom functions, CBC-MAC), public-key encryption (RSA, ElGamal), digital signatures (RSA, Fiat-Shamir), and authentication applications (identification, zero-knowledge)\" [CSCI-UA 478].\n\nIts prerequisite is one of: CSCI-UA 310 (with a Minimum Grade of C), CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220 [CSCI-UA 478].",
-    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course description and prerequisites listed for CSCI-UA 478 in the context, with no unsupported claims."
+    "answer": "Yes \u2014 **[CSCI-UA 478] Intro to Cryptography** is a course focused on cryptography. It covers \"symmetric-key encryption (block ciphers, modes of operations, AES), message authentication (pseudorandom functions, CBC-MAC), public-key encryption (RSA, ElGamal), digital signatures (RSA, Fiat-Shamir), and authentication applications (identification, zero-knowledge)\" [CSCI-UA 478].\n\nIts prerequisite is one of: CSCI-UA 310 (min grade C), CS-UH 1052, ENGR-UH 3510, or CSCI-SHU 220 [CSCI-UA 478].",
+    "groundedness": "GROUNDED \u2014 the answer accurately reflects the CSCI-UA 478 description and prerequisites as given in the context, with no unsupported claims."
   },
   {
     "question": "What course covers big data processing and analytics?",
@@ -140,8 +140,8 @@
       "DS-UA 111"
     ],
     "hit": true,
-    "answer": "Based on the course listings, **[CSCI-UA 476] Processing Big Data for Analytics Applications** directly covers this topic. It \"introduces platforms, tools, and the architectures that facilitate scalable management and processing of vast quantities of data,\" including hands-on experience with Apache Hadoop, HDFS, MapReduce, HBase, Hive, Spark, and other big data tools [CSCI-UA 476].\n\nAdditionally, **[CSCI-UA 475] Predictive Analytics** is related, as it focuses on \"extracting useful information from historical data...for the purpose of predicting future trends\" using data mining, clustering, and classification algorithms, though it does not specifically emphasize \"big data\" scale processing tools the way CSCI-UA 476 does [CSCI-UA 475].\n\nFor a course specifically on **big data** processing and analytics infrastructure, **[CSCI-UA 476]** is the most directly relevant listing provided.",
-    "groundedness": "GROUNDED: The answer accurately reflects course descriptions from the context, correctly citing CSCI-UA 476's focus on big data tools/architectures and CSCI-UA 475's focus on predictive analytics without fabricating additional claims."
+    "answer": "Based on the course listings, **CSCI-UA 476 (Processing Big Data for Analytics Applications)** is the course that most directly covers big data processing and analytics [CSCI-UA 476]. It explicitly focuses on \"platforms, tools, and architectures that facilitate scalable management and processing of vast quantities of data,\" including hands-on experience with distributed processing tools like Hadoop MapReduce, HBase, Hive, Spark, and other Apache big data tools [CSCI-UA 476].\n\nAdditionally, **CSCI-UA 475 (Predictive Analytics)** is related, as it covers analytics techniques for extracting insights from data, including data mining, classification, and clustering algorithms, though it does not specifically emphasize \"big data\" scale or distributed systems [CSCI-UA 475].",
+    "groundedness": "GROUNDED \u2014 The answer accurately summarizes CSCI-UA 476's course description (scalable data processing, Hadoop, Spark, etc.) and correctly notes CSCI-UA 475's focus on analytics without big-data-scale emphasis, both directly supported by CONTEXT and citing course codes."
   },
   {
     "question": "Which course teaches software engineering practices?",
@@ -156,8 +156,8 @@
       "CSCI-UA 430"
     ],
     "hit": true,
-    "answer": "Based on the provided listings, two courses teach software engineering practices:\n\n1. **[CSCI-UA 474] Software Engineering** \u2013 This course focuses on \"practical techniques and methods of software engineering,\" including advanced object-oriented design, design patterns, refactoring, code optimization, UML, threading, user interface design, enterprise application development, and development tools, applied through a semester-long group project [CSCI-UA 474].\n\n2. **[CSCI-UA 430] Agile Software Development and DevOps** \u2013 This course covers Agile software development methodology and DevOps practices, teaching \"core methodologies, technologies, and tools used in the software industry today\" for automating and managing the software development process [CSCI-UA 430].\n\nBoth require **CSCI-UA 201 with a Minimum Grade of C** as a prerequisite (or equivalent alternatives for CSCI-UA 474) [CSCI-UA 474][CSCI-UA 430].",
-    "groundedness": "GROUNDED: The answer accurately summarizes the descriptions and prerequisites of CSCI-UA 474 and CSCI-UA 430 as given in the context, citing both course codes without adding unsupported claims."
+    "answer": "Based on the listings provided, two courses teach software engineering practices:\n\n1. **[CSCI-UA 474] Software Engineering** \u2013 This course focuses on \"practical techniques and methods of software engineering,\" including \"advanced object-oriented design, design patterns, refactoring, code optimization, universal modeling language, threading, user interface design, enterprise application development, and development tools,\" applied through a semester-long group project [CSCI-UA 474].\n\n2. **[CSCI-UA 430] Agile Software Development and DevOps** \u2013 This course covers Agile methodology and DevOps practices, teaching \"core methodologies, technologies, and tools used in the software industry today\" for managing software projects with changing requirements [CSCI-UA 430].\n\nBoth require **CSCI-UA 201** (with a minimum grade of C) as a prerequisite [CSCI-UA 474][CSCI-UA 430].",
+    "groundedness": "GROUNDED: The answer accurately summarizes content from CSCI-UA 474 and CSCI-UA 430 as given in the context, with correct quotes and prerequisites, and cites course codes appropriately."
   },
   {
     "question": "What course teaches agile development and DevOps?",
@@ -172,8 +172,8 @@
       "CSCI-UA 3"
     ],
     "hit": true,
-    "answer": "CSCI-UA 430 (Agile Software Development and DevOps) teaches this material [CSCI-UA 430]. It covers \"core methodologies, technologies, and tools used in the software industry today,\" specifically Agile's methodology for adapting to changing project requirements and DevOps' automation of development and operations tasks [CSCI-UA 430]. The prerequisite is CSCI-UA 201 with a Minimum Grade of C [CSCI-UA 430].",
-    "groundedness": "GROUNDED: The answer accurately summarizes CSCI-UA 430's description and prerequisite as stated in the context, with no unsupported claims."
+    "answer": "CSCI-UA 430 (Agile Software Development and DevOps) is the course that teaches agile development and DevOps methodologies, covering \"core methodologies, technologies, and tools used in the software industry today,\" including Agile's methodology and DevOps' automation processes [CSCI-UA 430].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description for CSCI-UA 430 as given in the context, and cites the course code."
   },
   {
     "question": "Is there an introductory course for students with no prior programming experience?",
@@ -188,8 +188,8 @@
       "CSCI-UA 61"
     ],
     "hit": true,
-    "answer": "Yes. **[CSCI-UA 2] Introduction to Computer Programming (No Prior Experience)** is designed specifically for this purpose. According to the listing, it is intended for students with \"No prior computer experience assumed,\" and the prerequisite is simply \"Three years of high school mathematics or equivalent\" [CSCI-UA 2].\n\nThe course description also notes that \"students with any programming experience should consult with the computer science department before registering\" [CSCI-UA 2], reinforcing that it targets beginners specifically.\n\nFor students with *some* prior experience (rather than none), there is a related alternative course, **[CSCI-UA 3] Introduction to Computer Programming (Limited Prior Experience)**, which serves students \"who already have had some exposure to programming\" [CSCI-UA 3].",
-    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's descriptions of CSCI-UA 2 and CSCI-UA 3, citing both course codes without adding unsupported claims."
+    "answer": "Yes. **[CSCI-UA 2] Introduction to Computer Programming (No Prior Experience)** is explicitly designed for students with no prior computer experience \u2014 its description states \"No prior computer experience assumed\" and lists \"Three years of high school mathematics or equivalent\" as the only prerequisite [CSCI-UA 2].\n\nThis course (or CSCI-UA 3, which is for students with *limited* prior experience) serves as a prerequisite for students with no previous programming experience who wish to continue on to [CSCI-UA 101] Intro to Computer Science [CSCI-UA 2][CSCI-UA 3][CSCI-UA 101].",
+    "groundedness": "GROUNDED - The answer accurately reflects the CONTEXT's description of CSCI-UA 2 and its relationship to CSCI-UA 3 and CSCI-UA 101, citing multiple course codes without adding unsupported claims."
   },
   {
     "question": "What course teaches web design fundamentals?",
@@ -204,8 +204,8 @@
       "CSCI-UA 453"
     ],
     "hit": true,
-    "answer": "Based on the listings, **CSCI-UA 4 (Introduction to Web Design and Computer Principles)** is the course that teaches web design fundamentals. It \"introduces students to both the practice of web design and the basic principles of computer science,\" with a practice component that \"covers not only web design but also current graphics and software tools\" [CSCI-UA 4]. It also has no prerequisites, making it accessible as a foundational course [CSCI-UA 4].\n\nNote that other courses build on these fundamentals but assume CSCI-UA 4 as a prerequisite rather than teaching web design basics themselves, including:\n- [CSCI-UA 61] Web Development and Programming, which requires CSCI-UA 4 as a prerequisite\n- [CSCI-UA 360] Drawing on the Web, which also requires CSCI-UA 4\n- [CSCI-UA 380] Topics of General Interest, which likewise requires CSCI-UA 4",
-    "groundedness": "GROUNDED - The answer accurately cites CSCI-UA 4 as the foundational web design course using direct quotes from the context, and correctly notes the prerequisite relationships for CSCI-UA 61, CSCI-UA 360, and CSCI-UA 380 without introducing unsupported claims."
+    "answer": "Based on the listings, **CSCI-UA 4 (Introduction to Web Design and Computer Principles)** is the course that teaches web design fundamentals. It \"Introduces students to both the practice of web design and the basic principles of computer science,\" with a practice component that \"covers not only web design but also current graphics and software tools\" [CSCI-UA 4]. It has no prerequisites and assumes no prior computing experience [CSCI-UA 4].\n\nNote that other courses build on this foundation, such as CSCI-UA 61 (Web Development and Programming) and CSCI-UA 360 (Drawing on the Web), both of which list CSCI-UA 4 as a prerequisite [CSCI-UA 61][CSCI-UA 360].",
+    "groundedness": "GROUNDED: All claims (course description, prerequisites, and related courses listing CSCI-UA 4 as prerequisite) are directly supported by the CONTEXT and cite valid course codes."
   },
   {
     "question": "Which course covers artificial intelligence?",
@@ -220,8 +220,8 @@
       "PHIL-UA 83"
     ],
     "hit": true,
-    "answer": "Based on the provided listings, several courses cover artificial intelligence, each with a different focus:\n\n- **[CSCI-UA 472] Artificial Intelligence** \u2013 A 4.0-credit course focusing on representation and reasoning, machine learning, and natural language processing. It requires prerequisites in programming and data structures (CSCI-UA 201 and CSCI-UA 310, or equivalents) [CSCI-UA 472].\n\n- **[CSCI-UA 74] Big Ideas: Artificial Intelligence** \u2013 A 2.0-credit, high-level overview course with no prerequisites, covering fundamentals of AI including machine learning, natural language processing, and computer vision, taught by a team led by Yann LeCun [CSCI-UA 74].\n\n- **[PHIL-UA 83] Philosophy of Artificial Intelligence** \u2013 A 4.0-credit philosophy course examining conceptual and ethical questions about AI (e.g., whether AI can think, be conscious, or pose risks), requiring an introductory philosophy course as a prerequisite [PHIL-UA 83].\n\n- **[DS-UA 112] Principles of Data Science II** \u2013 While not exclusively an AI course, it touches on AI-related topics such as machine learning (supervised, unsupervised, reinforcement learning) and mentions \"current developments in machine learning, such as generative AI\" [DS-UA 112].\n\nIf you're looking for a technical, computer-science-based AI course, **CSCI-UA 472** or **CSCI-UA 74** would be most relevant. For a conceptual/ethical perspective, **PHIL-UA 83** is the best fit. For AI within a broader data science context, **DS-UA 112** is applicable.",
-    "groundedness": "GROUNDED: All claims (credits, prerequisites, topics, instructor) accurately reflect the provided course descriptions, and multiple course codes (e.g., CSCI-UA 472, CSCI-UA 74, PHIL-UA 83, DS-UA 112) are cited."
+    "answer": "Based on the listings provided, several courses cover artificial intelligence, each with a different focus:\n\n- **[CSCI-UA 472]** *Artificial Intelligence* \u2013 A core computer science course focusing on \"representation and reasoning, machine learning, and natural language processing,\" aimed at developing computer systems that carry out cognitively difficult tasks [CSCI-UA 472].\n\n- **[CSCI-UA 74]** *Big Ideas: Artificial Intelligence* \u2013 A high-level, 2-credit overview course covering \"fundamentals of AI and its key sub-areas including machine learning, natural language processing, computer vision as well as its applications in different domains\" [CSCI-UA 74].\n\n- **[PHIL-UA 83]** *Philosophy of Artificial Intelligence* \u2013 Approaches AI from a philosophical angle, examining \"questions raised by the technology of artificial intelligence, and by large language models in particular,\" including topics like AI consciousness, ethics, and societal impact [PHIL-UA 83].\n\nAdditionally, while not exclusively AI courses, both **[DS-UA 111]** and **[DS-UA 112]** touch on related machine learning concepts:\n- [DS-UA 112] explicitly covers \"machine learning\" including \"supervised learning, unsupervised learning, and reinforcement learning\" and mentions \"current developments in machine learning, such as generative AI\" [DS-UA 112].\n- [DS-UA 111] is the prerequisite foundational course but focuses more on general data science and statistical principles rather than AI specifically [DS-UA 111].\n\nIf you're looking for a dedicated AI course, **[CSCI-UA 472]** and **[CSCI-UA 74]** are the most direct matches, while **[PHIL-UA 83]** offers a philosophical perspective on AI.",
+    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions given in the context, and multiple course codes (e.g., CSCI-UA 472, CSCI-UA 74, PHIL-UA 83, DS-UA 111, DS-UA 112) are cited."
   },
   {
     "question": "What course focuses on numerical computing methods?",
@@ -236,8 +236,8 @@
       "MATH-UA 396"
     ],
     "hit": true,
-    "answer": "Based on the course listings, there are three courses that focus on numerical computing methods:\n\n1. **[CSCI-UA 421]** Numerical Computing \u2014 This course directly introduces numerical computation, covering floating-point arithmetic, the IEEE floating-point standard, direct methods (e.g., for systems of linear equations), iterative methods (e.g., for nonlinear equations), and discretization methods (e.g., for differential equations), along with numerical error analysis and the use of software like Matlab [CSCI-UA 421].\n\n2. **[MATH-UA 358]** Honors Numerical Analysis \u2014 Covers analysis of numerical algorithms including solving nonlinear equations, optimization, eigenvalues/eigenvectors, matrix factorizations, linear regressions, function interpolation/approximation/integration, Fast Fourier Transform-based signal processing, and Monte Carlo simulation [MATH-UA 358].\n\n3. **[MATH-UA 352]** Numerical Analysis \u2014 Explores how mathematical problems can be solved computationally, covering topics from root-finding procedures to differential equations and the finite element method, using Matlab for practical examples [MATH-UA 352].\n\nThe other two courses in the list, **[CSCI-UA 453]** Theory of Computation and **[MATH-UA 396]** Special Topics II, do not focus on numerical computing methods \u2014 CSCI-UA 453 is centered on formal language theory and computability, while MATH-UA 396 has variable topics not specified here.",
-    "groundedness": "GROUNDED: The answer accurately summarizes each course's description as given in the context and cites multiple valid course codes (CSCI-UA 421, MATH-UA 358, MATH-UA 352, CSCI-UA 453, MATH-UA 396) without introducing unsupported claims."
+    "answer": "Based on the course listings, three courses focus on numerical computing methods:\n\n1. **[CSCI-UA 421]** Numerical Computing \u2013 This course explicitly focuses on numerical computation, covering floating-point arithmetic, the IEEE floating-point standard, direct methods (e.g., for systems of linear equations), iterative methods (e.g., for nonlinear equations), discretization methods (e.g., for differential equations), and numerical errors, with programming assignments often using Matlab [CSCI-UA 421].\n\n2. **[MATH-UA 352]** Numerical Analysis \u2013 This course explores how mathematical problems can be analyzed and solved with a computer, covering topics from root-finding procedures to differential equations and the finite element method, using Matlab [MATH-UA 352].\n\n3. **[MATH-UA 358]** Honors Numerical Analysis \u2013 This is an honors-level version covering numerical algorithms for solving nonlinear equations, optimization, eigenvalues/eigenvectors, matrix factorizations, linear regressions, function interpolation/approximation/integration, Fast Fourier Transform, and Monte Carlo simulation, with a programming component (e.g., Julia, Matlab, or NumPy) [MATH-UA 358].\n\nIf you're looking for a specific one, note that **[CSCI-UA 421]** is titled \"Numerical Computing\" directly, while **[MATH-UA 352]** and **[MATH-UA 358]** are titled \"Numerical Analysis\" but cover closely related content with a heavier mathematical proof orientation.",
+    "groundedness": "GROUNDED: All claims about course content, topics, and titles accurately reflect the CONTEXT descriptions for CSCI-UA 421, MATH-UA 352, and MATH-UA 358, and multiple course codes are cited."
   },
   {
     "question": "Which course teaches object-oriented programming?",
@@ -252,8 +252,8 @@
       "CSCI-UA 474"
     ],
     "hit": true,
-    "answer": "Based on the listings, **[CSCI-UA 470] Object Oriented Programming** is the course specifically dedicated to teaching object-oriented programming. It \"introduces the important concepts of object-oriented design and languages, including code reuse, data abstraction, inheritance, and dynamic overloading,\" and covers features of Java and C++ that support this paradigm [CSCI-UA 470].\n\nAdditionally, two other courses touch on object-oriented programming concepts but are not primarily focused on it:\n- **[CSCI-UA 3] Introduction to Computer Programming (Limited Prior Experience)** \"introduces object-oriented programming, recursion, and other important programming concepts\" using Python, though this course does not count toward the Computer Science major [CSCI-UA 3].\n- **[CSCI-UA 474] Software Engineering** includes \"advanced object-oriented design\" as one of its topics, but its main focus is broader software engineering practices [CSCI-UA 474].",
-    "groundedness": "GROUNDED \u2014 The answer accurately reflects the CONTEXT's descriptions of CSCI-UA 470, CSCI-UA 3, and CSCI-UA 474 without adding unsupported claims, and cites multiple course codes."
+    "answer": "Based on the listings, two courses relate to object-oriented programming:\n\n1. **[CSCI-UA 470]** Object Oriented Programming \u2014 This course directly focuses on object-oriented design and languages, covering \"code reuse, data abstraction, inheritance, and dynamic overloading,\" with in-depth coverage of Java and C++ features supporting object-oriented programming. Prerequisite: CSCI-UA 201 (or equivalent) with a Minimum Grade of C.\n\n2. **[CSCI-UA 3]** Introduction to Computer Programming (Limited Prior Experience) \u2014 This introductory course also \"introduces object-oriented programming, recursion, and other important programming concepts\" using Python, though it does not count toward the Computer Science major.\n\nFor a course dedicated specifically to teaching object-oriented programming in depth, **[CSCI-UA 470]** is the most directly relevant listing.",
+    "groundedness": "GROUNDED \u2014 the answer accurately reflects the course descriptions and cites CSCI-UA 470 and CSCI-UA 3 without introducing unsupported claims."
   },
   {
     "question": "What's a good course to take after Algorithms for someone interested in theory?",
@@ -268,8 +268,8 @@
       "MATH-UA 120"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, **[CSCI-UA 453] Theory of Computation** would be a strong fit for someone interested in theory after taking Algorithms.\n\nThis course takes \"a mathematical approach in studying topics in computer science,\" covering regular languages, finite automata, context-free languages, pushdown automata, computability theory, and an introduction to NP-completeness [CSCI-UA 453]. This aligns well with theoretical computer science interests, moving from the algorithmic/computational focus of an Algorithms course into more abstract, foundational questions about what can and cannot be computed.\n\nNote on prerequisites: [CSCI-UA 453] requires a course equivalent to CSCI-UA 201 (or CS-UH 2010/ENGR-UH 3511/CENG-SHU 202) AND a course equivalent to CSCI-UA 310 (or CS-UH 1052/ENGR-UH 3510/CSCI-SHU 220). If \"Algorithms\" corresponds to one of these prerequisite courses at NYU, this would be a natural next step.\n\nI don't have enough information in these listings to confirm exactly which course \"Algorithms\" refers to at your campus, so you may want to verify that its equivalent prerequisite is satisfied before enrolling in [CSCI-UA 453].",
-    "groundedness": "GROUNDED: The answer's claims about CSCI-UA 453's content and prerequisites are directly supported by the context, and it appropriately notes uncertainty about whether \"Algorithms\" matches the prerequisite courses rather than asserting unsupported facts."
+    "answer": "Based on the listings provided, **[CSCI-UA 453] Theory of Computation** would be a good fit for a student interested in theory who has completed Algorithms.\n\nHere's why it aligns well:\n\n- It requires prerequisites of ( CSCI-UA 201 OR CS-UH 2010 OR ENGR-UH 3511 OR CENG-SHU 202 ) AND ( CSCI-UA 310 OR CS-UH 1052 OR ENGR-UH 3510 OR CSCI-SHU 220 ) [CSCI-UA 453] \u2014 suggesting it builds on foundational CS coursework that typically follows an algorithms course in a standard curriculum sequence.\n- The course content is explicitly theoretical, covering \"regular languages and some of their representations (deterministic finite automata, non-deterministic finite automata, regular expressions); proof of non-regularity. Context free languages and pushdown automata; proofs that languages are not context free. Elements of computability theory. Brief introduction to NP-completeness\" [CSCI-UA 453].\n- The description notes it \"takes a mathematical approach in studying topics in computer science\" [CSCI-UA 453], which fits a theory-oriented interest, including its introduction to NP-completeness\u2014a natural extension of algorithmic complexity topics typically covered in an Algorithms course.\n\n**Note:** The provided listings do not explicitly state that CSCI-UA 453 is meant to be taken *after* an Algorithms course specifically, so I cannot confirm a direct sequential relationship from the text alone \u2014 but based on its prerequisite structure and content focus, it is the clearest theory-track course among those listed.\n\nThe other courses provided ([MATH-UA 358], [DS-UA 111], [CSCI-UA 74], [MATH-UA 120]) do not focus on theoretical computer science in the way described in the question, so they are less directly relevant to this specific interest.",
+    "groundedness": "GROUNDED: The answer cites CSCI-UA 453 and its stated prerequisites/content directly from the context, explicitly flags the unconfirmed inference about it following Algorithms, and does not assert unsupported claims about the other courses."
   },
   {
     "question": "Which course involves building web applications with client and server-side technologies?",
@@ -284,8 +284,8 @@
       "CSCI-UA 521"
     ],
     "hit": true,
-    "answer": "Based on the listings, two courses focus on building web applications with client and server-side technologies:\n\n- **CSCI-UA 61 (Web Development and Programming)**: \"This course will provide a practical approach to web technologies and programming. Students will build interactive, secure and powerful web programs. This course will cover client and server side technologies for the web\" [CSCI-UA 61].\n\n- **CSCI-UA 467 (Applied Internet Technology)**: This course \"covers full-stack... web development,\" including \"server programming, database implementation, frontend markup, styling and interactivity,\" and involves using \"current server and client-side web frameworks and libraries to build dynamic, data-driven sites\" [CSCI-UA 467].\n\nNote that these two courses are mutually exclusive\u2014students who complete one are not eligible to take the other [CSCI-UA 61][CSCI-UA 467].",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions and mutual exclusivity stated in the context, with both CSCI-UA 61 and CSCI-UA 467 cited."
+    "answer": "Based on the listings, two courses involve building web applications with client and server-side technologies:\n\n- **[CSCI-UA 61]** (Web Development and Programming) explicitly states it \"will cover client and server side technologies for the web\" and focuses on building \"interactive, secure and powerful web programs.\"\n\n- **[CSCI-UA 467]** (Applied Internet Technology) also covers full-stack development, described as encompassing \"every aspect of building a database driven web application: server programming, database implementation, frontend markup, styling and interactivity.\"\n\nNote that these two courses are mutually exclusive\u2014per [CSCI-UA 61] and [CSCI-UA 467], students who complete one are not eligible to take the other.",
+    "groundedness": "GROUNDED: All claims (course descriptions and mutual exclusivity) are directly supported by the CONTEXT, and both CSCI-UA 61 and CSCI-UA 467 are cited."
   },
   {
     "question": "Is there a course specifically about predictive analytics?",
@@ -300,8 +300,8 @@
       "DS-UA 205"
     ],
     "hit": true,
-    "answer": "Yes. **[CSCI-UA 475] Predictive Analytics** is specifically about this topic. It focuses on \"extracting useful information from historical data and present data for the purpose of predicting future trends,\" covering the analytics life-cycle and techniques such as data preprocessing, data reduction algorithms, data clustering algorithms, data classification algorithms, uplifting algorithms, association rules, data mining algorithms, and recommender systems [CSCI-UA 475].\n\nIts prerequisites are CSCI-UA 201 AND CSCI-UA 310 AND (MATH-UA 140 OR MATH-UA 148) [CSCI-UA 475].",
-    "groundedness": "GROUNDED \u2013 The answer accurately reflects the course description and prerequisites for CSCI-UA 475 as stated in the CONTEXT, with no unsupported claims."
+    "answer": "Yes. **[CSCI-UA 475] Predictive Analytics** is specifically focused on this topic. It covers \"the art and science of extracting useful information from historical data and present data for the purpose of predicting future trends,\" including techniques such as data preprocessing, data reduction algorithms, data clustering algorithms, data classification algorithms, uplifting algorithms, association rules, data mining algorithms, and recommender systems [CSCI-UA 475].\n\nIts prerequisites are CSCI-UA 201 AND CSCI-UA 310 AND MATH-UA 140 OR MATH-UA 148 [CSCI-UA 475].",
+    "groundedness": "GROUNDED. The answer accurately quotes and cites CSCI-UA 475's description and prerequisites directly from the context without adding unsupported claims."
   },
   {
     "question": "What course discusses the ethical and social impact of computing on society?",
@@ -313,11 +313,11 @@
       "CSCI-UA 521",
       "LING-UA 62",
       "CSCI-UA 520",
-      "ANTH-UA 126"
+      "CAMS-UA 503"
     ],
     "hit": true,
-    "answer": "Based on the course listings, **CSCI-UA 1 (Computers and Society)** directly addresses this topic. It explicitly covers \"the impact of the digital computer on individuals, organizations, and modern society as a whole, and the social, political, and ethical issues involved in the computer industry\" [CSCI-UA 1].\n\nTwo related courses also touch on aspects of technology's social/ethical impact, though with different emphases:\n\n- **LING-UA 62 (Language, Power, and Technology)** examines social biases embedded in language and technology, asking questions about fairness, bias, and how technology development affects different social groups [LING-UA 62].\n- **ANTH-UA 126 (Digital Anthropology)** explores how internet technologies have embedded themselves in everyday life, using anthropological perspectives to examine the global significance of digital mediation [ANTH-UA 126].\n\nIf you're specifically looking for a computer science course centered on ethics and societal impact, **CSCI-UA 1** is the most directly relevant based on these listings.",
-    "groundedness": "GROUNDED: The answer accurately reflects the course descriptions given, cites CSCI-UA 1, LING-UA 62, and ANTH-UA 126, and makes no claims beyond what the CONTEXT supports."
+    "answer": "Based on the listings, **CSCI-UA 1 Computers and Society** is the course that directly addresses this topic. It explicitly covers \"the impact of the digital computer on individuals, organizations, and modern society as a whole, and the social, political, and ethical issues involved in the computer industry\" [CSCI-UA 1].\n\nA related but more specialized course is **LING-UA 62 Language, Power, and Technology**, which examines how technology development intersects with social bias, fairness, and responsibility, particularly through the lens of language [LING-UA 62].\n\nAdditionally, **CAMS-UA 503 Clicks, Likes, and Tweets: Behavioral Addiction in the Digital Space** touches on social impact from a different angle, focusing on the psychological and societal consequences of digital technology use, such as addiction and its effects on mental health [CAMS-UA 503].\n\nIf you're looking specifically for a course centered on computing's broad societal and ethical implications, **CSCI-UA 1** is the most direct match [CSCI-UA 1].",
+    "groundedness": "GROUNDED: The answer accurately paraphrases course descriptions from the context (CSCI-UA 1, LING-UA 62, CAMS-UA 503) without introducing unsupported claims, and cites multiple course codes."
   },
   {
     "question": "Which course covers linear algebra?",
@@ -332,8 +332,8 @@
       "MATH-UA 352"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, **[MATH-UA 140] Linear Algebra** is the course that covers linear algebra. Its description explicitly states it covers \"Systems of linear equations. Gaussian elimination, matrices, determinants, and Cramer's rule. Vectors, vector spaces, basis and dimension, linear transformations. Eigenvalues, eigenvectors, quadratic forms\" [MATH-UA 140].\n\nAdditionally, MATH-UA 140 appears as a prerequisite for several other courses that build on linear algebra concepts, including [MATH-UA 358], [MATH-UA 250], [MATH-UA 325], and [MATH-UA 352], indicating it serves as the foundational linear algebra course in this set of listings.",
-    "groundedness": "GROUNDED: The answer correctly identifies MATH-UA 140 as the linear algebra course using its exact description, and accurately notes its role as a prerequisite in the other listed courses without adding unsupported claims."
+    "answer": "[MATH-UA 140] (Linear Algebra) is the course that covers linear algebra topics, including systems of linear equations, Gaussian elimination, matrices, determinants, Cramer's rule, vectors, vector spaces, basis and dimension, linear transformations, eigenvalues, eigenvectors, and quadratic forms.",
+    "groundedness": "GROUNDED: The answer cites MATH-UA 140 and accurately reflects its description from the context without adding unsupported claims."
   },
   {
     "question": "What's a good course to take after Calculus I?",
@@ -348,8 +348,8 @@
       "BIOL-UA 255"
     ],
     "hit": true,
-    "answer": "Based on the listings, several courses build directly on **[MATH-UA 121] Calculus I**:\n\n- **[MATH-UA 122] Calculus II** \u2014 the natural next step in the math sequence, requiring a minimum grade of C in [MATH-UA 121] (or equivalent AP credit), covering techniques of integration, plane analytic geometry, and infinite series.\n\n- **[PHYS-UA 11] General Physics I** \u2014 lists [MATH-UA 121] as an acceptable prerequisite (alongside MATH-UA 131 or AP Calculus credit), making it a good option if you're interested in applying calculus to physics (kinematics, dynamics, thermodynamics, etc.).\n\n- **[MATH-UA 255] Mathematics and Biology** \u2014 open to those with a C or better in [MATH-UA 121] (or MATH-UA 132) plus BIOL-UA 11, geared toward premedical students interested in applying math to biological/medical topics.\n\n- **[BIOL-UA 255] Mathematics and Biology** \u2014 a similar course for life sciences/prehealth students, requiring [MATH-UA 121] plus BIOL-UA 21.\n\nIf you're continuing in pure math, **[MATH-UA 122] Calculus II** is the most direct and standard choice. If you have specific interests in physics or biology, [PHYS-UA 11], [MATH-UA 255], or [BIOL-UA 255] are also strong options depending on your major and additional prerequisites already met.",
-    "groundedness": "GROUNDED: All claims accurately reflect the prerequisite information and course descriptions given in the CONTEXT, and multiple course codes (e.g., MATH-UA 122, PHYS-UA 11) are cited."
+    "answer": "Based on the listings provided, after completing **[MATH-UA 121] Calculus I**, you have a few options:\n\n1. **[MATH-UA 122] Calculus II** \u2013 This is the direct continuation of the calculus sequence, covering techniques of integration, plane analytic geometry, polar coordinates, parametric equations, and infinite series. It explicitly lists a minimum grade of C in [MATH-UA 121] as a qualifying prerequisite, making it the natural next step in the math sequence.\n\n2. **[PHYS-UA 11] General Physics I** \u2013 This course also accepts [MATH-UA 121] as a prerequisite, so if you're interested in physics (especially as a preprofessional student or non-physics science major), this could be a good next step.\n\n3. If you're a life sciences/prehealth student, **[BIOL-UA 255] Mathematics and Biology** requires both [BIOL-UA 21] and [MATH-UA 121], or **[MATH-UA 255] Mathematics and Biology** requires [MATH-UA 121] (or [MATH-UA 132]) along with [BIOL-UA 11] \u2014 both apply math to biological/medical topics if that interests you.\n\nThe most standard and commonly recommended next step, especially if continuing in a math-intensive track, is **[MATH-UA 122] Calculus II**, since it directly builds on the material from [MATH-UA 121].",
+    "groundedness": "GROUNDED: The answer accurately reflects the prerequisite relationships and course descriptions given in the context, citing multiple course codes (e.g., MATH-UA 122, PHYS-UA 11, BIOL-UA 255, MATH-UA 255) without introducing unsupported claims."
   },
   {
     "question": "Which course introduces data science principles?",
@@ -364,8 +364,8 @@
       "DS-UA 100"
     ],
     "hit": true,
-    "answer": "Based on the listings, **DS-UA 111 (Principles of Data Science I)** is the course that introduces data science principles [DS-UA 111]. It is described as the first course in a two-part sequence that \"introduces foundational concepts in data science, with a focus on statistical principles\" [DS-UA 111].\n\nAdditionally, **DS-UA 100 (Discovering Data Science in the Age of AI)** serves as an introductory overview course \"for non-majors,\" offering a \"one-semester tour of data science highlights\" with no assumed background in math or programming [DS-UA 100]. However, it is intended for students who are not majoring/minoring in Data Science, whereas DS-UA 111 is the foundational course for those who are [DS-UA 111][DS-UA 100].",
-    "groundedness": "GROUNDED: All claims about DS-UA 111 and DS-UA 100 accurately reflect the CONTEXT, and both course codes are cited."
+    "answer": "Based on the course listings, **DS-UA 111 (Principles of Data Science I)** introduces foundational concepts in data science, with a focus on statistical principles, including developing Python programming skills and learning to draw conclusions from and make predictions with data [DS-UA 111].\n\nAdditionally, **DS-UA 100 (Discovering Data Science in the Age of AI)** serves as an introductory tour of data science highlights for non-majors, covering Python programming, basic probability/statistics, and causal inference, with no assumed background required [DS-UA 100].\n\nThe key difference: DS-UA 111 is restricted to students intending to major/minor in Data Science or related majors, while DS-UA 100 is designed for all other students who want an introduction without pursuing the major [DS-UA 111][DS-UA 100].",
+    "groundedness": "GROUNDED - The answer accurately reflects details from the CONTEXT for both DS-UA 111 and DS-UA 100, including their content, prerequisites/restrictions, and target audiences, and cites course codes appropriately."
   },
   {
     "question": "What course covers responsible or ethical data science practices?",
@@ -380,8 +380,8 @@
       "DS-UA 100"
     ],
     "hit": true,
-    "answer": "**DS-UA 202 (Responsible Data Science)** is the course that directly covers this topic. It focuses on \"ethics and responsibility in data science, including legal compliance, data quality, algorithmic fairness and diversity, transparency of data and algorithms, privacy, and data protection\" [DS-UA 202].\n\nAdditionally, two other courses touch on ethics as part of broader content:\n\n- **DS-UA 111 (Principles of Data Science I)** notes that \"students will also explore related ethical, legal, and privacy issues\" as part of its foundational curriculum [DS-UA 111].\n- **DS-UA 100 (Discovering Data Science in the Age of AI)** does not explicitly mention ethics in its description, so it cannot be cited for this topic based on the listing provided [DS-UA 100].\n\nFor a course dedicated specifically to responsible/ethical data science, **DS-UA 202** is the best match [DS-UA 202].",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions provided, correctly quoting DS-UA 202 and DS-UA 111, and appropriately notes DS-UA 100 lacks explicit ethics content, with proper citations throughout."
+    "answer": "**DS-UA 202 (Responsible Data Science)** is the course that directly covers responsible and ethical data science practices. According to its description, it \"tackles the issues of ethics and responsibility in data science, including legal compliance, data quality, algorithmic fairness and diversity, transparency of data and algorithms, privacy, and data protection\" [DS-UA 202]. It requires DS-UA 112 as a prerequisite and is restricted to Majors/Minors [DS-UA 202].\n\nAdditionally, **DS-UA 111 (Principles of Data Science I)** touches on related topics, noting that students \"will also explore related ethical, legal, and privacy issues\" as part of its broader introduction to data science [DS-UA 111]. However, this is a secondary component of a course primarily focused on statistical and programming foundations, whereas DS-UA 202 is dedicated specifically to responsibility and ethics in data science.",
+    "groundedness": "GROUNDED: All claims (DS-UA 202's description, prerequisites, and DS-UA 111's ethical/legal/privacy mention) are directly supported by the CONTEXT, and both course codes are cited."
   },
   {
     "question": "Is there a course on quantum mechanics?",
@@ -396,8 +396,8 @@
       "PHYS-UA 800"
     ],
     "hit": true,
-    "answer": "Yes. Several courses cover quantum mechanics:\n\n- **[PHYS-UA 123] Quantum Mechanics I** \u2013 covers foundational topics like wave-particle duality, the Schr\u00f6dinger equation, angular momentum, spin, and perturbation theory.\n- **[PHYS-UA 124] Quantum Mechanics II** \u2013 a continuation of PHYS-UA 123, covering time-dependent Schr\u00f6dinger equation, scattering theory, and applications to atomic/nuclear/particle physics.\n- **[PHYS-UA 138] Quantum Information and Quantum Computing** \u2013 applies quantum mechanics to information theory, covering entanglement, quantum computing, and cryptography (requires PHYS-UA 123).\n- **[PHYS-UA 800] Special Topics in Physics** \u2013 touches on quantum entanglement and quantum information as part of broader contemporary physics topics.\n\nAdditionally, **[CHEM-UA 652] Thermodynamics & Kinetics** references the connection between quantum mechanics and macroscopic thermodynamics, though it is not primarily a quantum mechanics course.",
-    "groundedness": "GROUNDED. The answer accurately summarizes the course descriptions and prerequisites provided in the context, citing multiple valid course codes (PHYS-UA 123, PHYS-UA 124, PHYS-UA 138, PHYS-UA 800, CHEM-UA 652) without introducing unsupported claims."
+    "answer": "Yes. There are multiple courses covering quantum mechanics:\n\n- **[PHYS-UA 123] Quantum Mechanics I** \u2013 covers foundational topics such as wave-particle duality, the Schr\u00f6dinger equation, angular momentum, spin, and perturbation theory.\n- **[PHYS-UA 124] Quantum Mechanics II** \u2013 a continuation of [PHYS-UA 123], covering the time-dependent Schr\u00f6dinger equation, scattering theory, and applications to atomic, molecular, nuclear, and particle physics.\n- **[PHYS-UA 138] Quantum Information and Quantum Computing** \u2013 applies quantum mechanics to information theory, requiring [PHYS-UA 123] as a prerequisite.\n- **[PHYS-UA 800] Special Topics in Physics** \u2013 includes quantum-related topics like quantum entanglement and quantum information, though it counts only toward minors, not the major.\n\nAdditionally, **[CHEM-UA 652] Thermodynamics & Kinetics** touches on the connection between quantum mechanics and thermodynamics, though it is not a dedicated quantum mechanics course.",
+    "groundedness": "GROUNDED. The answer accurately summarizes the course descriptions and prerequisites as stated in the context, citing multiple valid course codes (e.g., PHYS-UA 123, PHYS-UA 124, PHYS-UA 138, PHYS-UA 800, CHEM-UA 652) without introducing unsupported claims."
   },
   {
     "question": "Which course covers general relativity?",
@@ -412,8 +412,8 @@
       "ENGL-UA 252"
     ],
     "hit": true,
-    "answer": "Two courses in the listings explicitly cover general relativity:\n\n- **[PHYS-UA 170]** *General Relativity* \u2014 This course directly focuses on general relativity, covering topics such as \"special relativity, gravity as geometry, black holes, gravitational waves, cosmology, Einstein equations.\" It requires PHYS-UA 120 with a minimum grade of C.\n\n- **[PHIL-UA 94]** *Philosophy of Physics* \u2014 This course discusses \"Einstein's special and general theories of relativity\" from a philosophical perspective on space and time, and notably requires no math above basic algebra.\n\nAdditionally, **[PHYS-UA 15]** *Introduction to Cosmology* mentions covering cosmological topics \"through the lens of the theory of relativity,\" though it is not specifically focused on general relativity the way [PHYS-UA 170] and [PHIL-UA 94] are.",
-    "groundedness": "GROUNDED \u2014 All claims (course focuses, prerequisites, and quoted descriptions) directly match the CONTEXT, and multiple course codes (PHYS-UA 170, PHIL-UA 94, PHYS-UA 15) are cited accurately."
+    "answer": "Based on the listings, general relativity is covered in:\n\n- **[PHYS-UA 170] General Relativity** \u2014 This course is directly and entirely focused on general relativity, covering \"special relativity, gravity as geometry, black holes, gravitational waves, cosmology, Einstein equations.\"\n\n- **[PHIL-UA 94] Philosophy of Physics** \u2014 This course also addresses general relativity, discussing \"Einstein's special and general theories of relativity\" in the context of understanding space and time, though from a philosophical rather than technical perspective, and no math beyond algebra is required.\n\n- **[PHYS-UA 15] Introduction to Cosmology** \u2014 This course touches on relativity as well, noting it covers cosmology \"through the lens of the theory of relativity,\" though it does not name general relativity specifically as a topic.\n\nFor a technical, physics-focused treatment of general relativity, **PHYS-UA 170** is the most directly relevant course.",
+    "groundedness": "GROUNDED \u2014 every claim (PHYS-UA 170's topics, PHIL-UA 94's discussion of Einstein's theories, PHYS-UA 15's mention of \"theory of relativity\") is directly supported by the CONTEXT, and multiple course codes are cited."
   },
   {
     "question": "Is there a course on labor markets and labor economics?",
@@ -428,8 +428,8 @@
       "ECON-UA 354"
     ],
     "hit": true,
-    "answer": "Yes. **[ECON-UA 351] Labor Economics** directly addresses this topic. It \"analyzes the functioning of the labor market in both theoretical and statistical terms,\" examining \"the determinants of wage and employment levels in perfect and imperfect labor markets, including the concept of education and training as human capital.\" It also covers \"models of labor market dynamics... including those of job search and matching,\" and highlights \"the role of public policy in the functioning of labor markets\" [ECON-UA 351].\n\n**Prerequisites:** One of ECON-UA 10, ECON-UA 9010, ECON-UA 11, ECON-UB 1, ECON-UH 2010, or ECON-SHU 10 (with a minimum grade of C) [ECON-UA 351].",
-    "groundedness": "GROUNDED \u2014 The answer accurately quotes and summarizes the ECON-UA 351 course description and prerequisites exactly as given in the CONTEXT, citing the course code."
+    "answer": "Yes. **[ECON-UA 351] Labor Economics** directly covers this topic. According to the listing, it \"analyzes the functioning of the labor market in both theoretical and statistical terms,\" examining:\n\n- Determinants of wage and employment levels in both perfect and imperfect labor markets\n- The concept of education and training as human capital\n- Models of labor market dynamics, including job search and matching\n- The role of public policy in labor markets\n\n**Prerequisites:** One of the following with a minimum grade of C: ECON-UA 10, ECON-UA 9010, ECON-UA 11, ECON-UB 1, ECON-UH 2010, or ECON-SHU 10 [ECON-UA 351].",
+    "groundedness": "GROUNDED: The answer accurately summarizes the course description and prerequisites for ECON-UA 351 exactly as stated in the context, with no unsupported claims."
   },
   {
     "question": "Which course covers health economics?",
@@ -439,13 +439,13 @@
     "retrieved": [
       "ECON-UA 354",
       "ECON-UA 290",
-      "ECON-UA 998",
-      "ECON-UA 13",
-      "MATH-UA 131"
+      "MEDI-UA 91",
+      "MEDI-UA 172",
+      "MEDI-UA 760"
     ],
     "hit": true,
-    "answer": "[ECON-UA 354] Health Economics covers this topic, studying \"the economics of healthcare demand, provision, and institutions\" using tools from industrial organization, labor economics, information economics, public economics, and behavioral economics to analyze healthcare markets, government healthcare policy, and healthcare systems [ECON-UA 354].",
-    "groundedness": "GROUNDED: The answer accurately summarizes the ECON-UA 354 course description and cites the course code as required."
+    "answer": "ECON-UA 354 (Health Economics) covers the economics of healthcare demand, provision, and institutions, applying tools from industrial organization, labor economics, information economics, public economics, and behavioral economics to analyze healthcare markets and policy [ECON-UA 354].",
+    "groundedness": "GROUNDED: The answer accurately summarizes the ECON-UA 354 course description from the context and cites the course code."
   },
   {
     "question": "Is there a course on the philosophical foundations of computability?",
@@ -460,8 +460,8 @@
       "CSCI-UA 74"
     ],
     "hit": true,
-    "answer": "Based on the listings, there are two closely related courses on computability and its logical/mathematical foundations:\n\n- **[PHIL-UA 75] Computability and Incompleteness** \u2014 offered through the Philosophy department, covering the theory of computability and major limitative results of mathematical logic, including the undecidability of first-order logic, G\u00f6del's incompleteness theorems, and Tarski's theorem on the non-definability of truth.\n- **[MATH-UA 231] Computability and Incompleteness** \u2014 explicitly identical in content to [PHIL-UA 75], cross-listed in Mathematics, covering the same topics (undecidability, incompleteness, Tarski's theorem).\n\nWhile these courses are not purely \"philosophical\" in a narrow sense (they are mathematically rigorous and cross-listed with Math), the fact that [PHIL-UA 75] is housed in the Philosophy department and deals with foundational logical results (undecidability, incompleteness, non-definability of truth) makes it the closest match to a course on philosophical foundations of computability.\n\nFor contrast, [CSCI-UA 453] Theory of Computation covers computability from a computer science/mathematical perspective (automata, formal languages, NP-completeness) rather than a philosophical one, and [PHIL-UA 5] Minds and Machines addresses philosophy of mind and cognitive science (e.g., whether machines could think) rather than computability theory specifically.\n\n**Conclusion:** Yes \u2014 [PHIL-UA 75] (cross-listed as [MATH-UA 231]) is the course that most directly addresses computability from a philosophical/logical foundations angle, given its home in the Philosophy department and its focus on foundational results like incompleteness and undecidability.",
-    "groundedness": "GROUNDED: The answer accurately describes the courses' content, departments, and prerequisites as stated in CONTEXT, and cites multiple course codes (PHIL-UA 75, MATH-UA 231, CSCI-UA 453, PHIL-UA 5) without introducing unsupported claims."
+    "answer": "Yes. **[PHIL-UA 75]** *Computability and Incompleteness*, offered through the Philosophy department, is specifically about the philosophical/mathematical foundations of computability. It covers \"the theory of computability and...the major limitative results of mathematical logic, including the undecidability of first-order logic, G\u00f6del's incompleteness theorems, and Tarski's theorem on the non-definability of truth\" [PHIL-UA 75]. It requires prior logic coursework (PHIL-UA 70, PHIL-SHU 70, PHIL-UH 1810, or MATH-UA 120) [PHIL-UA 75].\n\nThis course is cross-listed with **[MATH-UA 231]**, which is explicitly noted as \"Identical to PHIL-UA 75\" and covers the same content on computability theory and incompleteness [MATH-UA 231].\n\nNote: If you're interested in a more general philosophical treatment of computation and mind (rather than the formal/logical foundations specifically), **[PHIL-UA 5]** *Minds and Machines* touches on related philosophical issues like \"whether a machine could think\" and \"computational...approaches to the mind,\" though it is not focused on computability theory per se [PHIL-UA 5].\n\nBy contrast, **[CSCI-UA 453]** *Theory of Computation* covers computability from a computer science/mathematical perspective (automata, formal languages, NP-completeness) rather than a philosophical one [CSCI-UA 453].",
+    "groundedness": "GROUNDED: The answer's claims (course descriptions, prerequisites, cross-listing, and distinctions between courses) are all directly supported by the CONTEXT, and it cites multiple course codes (e.g., PHIL-UA 75, MATH-UA 231, PHIL-UA 5, CSCI-UA 453)."
   },
   {
     "question": "Which course covers the philosophy of artificial intelligence?",
@@ -476,8 +476,8 @@
       "DS-UA 112"
     ],
     "hit": true,
-    "answer": "The course that covers the philosophy of artificial intelligence is **PHIL-UA 83 (Philosophy of Artificial Intelligence)** [PHIL-UA 83]. It examines questions about how large language models work, whether AI can think, understand, or be conscious, and broader ethical and societal implications of AI.\n\nA related course, **PHIL-UA 5 (Minds and Machines)** [PHIL-UA 5], also touches on philosophical issues connected to AI, such as whether a machine could think and debates between computational and biological approaches to the mind, though it is framed more broadly around cognitive science rather than AI specifically.",
-    "groundedness": "GROUNDED \u2014 the answer accurately summarizes PHIL-UA 83 and PHIL-UA 5 based solely on the course descriptions given, citing course codes present in the context."
+    "answer": "PHIL-UA 83, Philosophy of Artificial Intelligence, directly covers this topic. It examines questions raised by AI technology and large language models, including how LLMs work, whether they represent the world or think, whether AI could be conscious, and what ethical responsibilities we have regarding AI [PHIL-UA 83].\n\nAdditionally, PHIL-UA 5, Minds and Machines, is related but broader in scope, addressing philosophy through cognitive science topics such as whether a machine could think, computational vs. biological approaches to the mind, and connectionism/neural nets [PHIL-UA 5].",
+    "groundedness": "GROUNDED \u2014 All claims match the course descriptions given for PHIL-UA 83 and PHIL-UA 5, and both course codes are cited."
   },
   {
     "question": "Is there a course on cognitive neuroscience?",
@@ -492,8 +492,8 @@
       "PSYCH-UA 29"
     ],
     "hit": true,
-    "answer": "Yes. **PSYCH-UA 25 (Cognitive Neuroscience)** is a course explicitly focused on this topic. It \"provides students with a broad understanding of the foundations of cognitive neuroscience, including dominant theories of the neural underpinnings of a variety of cognitive processes and the research that has led to those theories\" [PSYCH-UA 25]. It requires PSYCH-UA 1 (or equivalent AP/IB credit) as a prerequisite [PSYCH-UA 25].\n\nAdditionally, **LING-UA 43 (Neural Bases of Language)** covers a related area\u2014the cognitive neuroscience of language specifically\u2014describing itself as \"a state-of-the-art survey of the cognitive neuroscience of language\" [LING-UA 43]. It lists PSYCH-UA 25 as one of its acceptable prerequisites [LING-UA 43], indicating it builds on the foundational cognitive neuroscience course.",
-    "groundedness": "GROUNDED: All claims (course descriptions, prerequisites, and quotes) are directly supported by the CONTEXT, and multiple course codes (PSYCH-UA 25, LING-UA 43, PSYCH-UA 1) are cited accurately."
+    "answer": "Yes. **PSYCH-UA 25 (Cognitive Neuroscience)** provides a broad understanding of the foundations of cognitive neuroscience, covering dominant theories of the neural underpinnings of cognitive processes and the research methods used in the field [PSYCH-UA 25].\n\nAdditionally, there is a related course, **LING-UA 43 (Neural Bases of Language)**, which focuses specifically on the cognitive neuroscience of language, an interdisciplinary area combining linguistics, psycholinguistics, and neuroscience [LING-UA 43]. Note that PSYCH-UA 25 is listed as one of its prerequisite options, indicating a direct connection between the two courses [LING-UA 43].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course descriptions and prerequisite relationships stated in the context, citing PSYCH-UA 25 and LING-UA 43."
   },
   {
     "question": "Which course covers social psychology?",
@@ -508,8 +508,8 @@
       "PSYCH-UA 39"
     ],
     "hit": true,
-    "answer": "**[PSYCH-UA 32] Social Psychology** is the course that directly covers social psychology. It serves as an \"Introduction to theories and research about the social behavior of individuals, such as perception of others and the self, attraction, affiliation, altruism and helping, aggression, moral thought and action, attitudes, influence, conformity, social exchange and bargaining, group decision making, leadership and power, and environmental psychology\" [PSYCH-UA 32].\n\nAdditionally, several other courses build on or relate to social psychology and list PSYCH-UA 32 as a prerequisite or alternative prerequisite:\n\n- **[PSYCH-UA 38] Lab in Social & Organizational Psycholog** requires PSYCH-UA 32 (or PSYCH-UA 30 or PSYCH-UA 62) as a prerequisite, focusing on research methodology in organizational psychology [PSYCH-UA 38].\n- **[PSYCH-UA 39] Lab in Personality & Social Psychology** also lists PSYCH-UA 32 as an acceptable prerequisite, covering methodology and research design in personality and social psychology [PSYCH-UA 39].\n- **[PSYCH-UA 75] Political Psychology** requires PSYCH-UA 32 as a prerequisite, applying social and personality psychology perspectives to political topics [PSYCH-UA 75].\n- **[PSYCH-UA 53] Psychological Science and Society Lab** lists PSYCH-UA 32 as one of several acceptable prerequisites [PSYCH-UA 53].\n\nHowever, the core course dedicated specifically to social psychology is **[PSYCH-UA 32] Social Psychology**.",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions and prerequisite relationships given in the context, and it cites multiple course codes (e.g., PSYCH-UA 32, PSYCH-UA 38)."
+    "answer": "**[PSYCH-UA 32] Social Psychology** is the course that directly covers social psychology. It offers an \"Introduction to theories and research about the social behavior of individuals, such as perception of others and the self, attraction, affiliation, altruism and helping, aggression, moral thought and action, attitudes, influence, conformity, social exchange and bargaining, group decision making, leadership and power, and environmental psychology\" [PSYCH-UA 32].\n\nNote that several other courses build on or relate to this topic but are not themselves the core social psychology course:\n- [PSYCH-UA 38] is a lab course in social & organizational psychology that requires PSYCH-UA 32 (or equivalents) as a prerequisite.\n- [PSYCH-UA 39] is a lab in personality & social psychology that also lists PSYCH-UA 32 as an acceptable prerequisite.\n- [PSYCH-UA 75] Political Psychology requires PSYCH-UA 32 as a prerequisite and draws on perspectives from social psychology.\n- [PSYCH-UA 53] requires PSYCH-UA 32 among other options as a prerequisite but is focused on psychological science and society broadly, not specifically social psychology.",
+    "groundedness": "GROUNDED: all claims (course description and prerequisite relationships) are directly supported by the CONTEXT, and multiple course codes (e.g., PSYCH-UA 32, 38, 39, 75, 53) are cited accurately."
   },
   {
     "question": "Which course covers quantitative and statistical methods for political science research?",
@@ -524,8 +524,8 @@
       "POL-UA 994"
     ],
     "hit": true,
-    "answer": "Based on the course listings provided, two courses directly cover quantitative and statistical methods for political science research:\n\n1. **[POL-UA 850] Introduction to Research Methods for Politics** \u2013 This is the foundational course, introducing students to \"quantitative techniques used for research in the study of politics.\" It covers how to think about research design, how data and theory fit together, and a \"toolbox\" of methods including statistical software [POL-UA 850]. It has no prerequisites.\n\n2. **[POL-UA 851] Intermediate Quantitative Methods for Politics** \u2013 This is a more advanced course that builds on POL-UA 850 (listed as its prerequisite). It covers topics such as \"reproducible statistical programming, data visualization, univariate and multivariate data analysis, regression, addressing confounding, and sample-theoretic statistical inference\" [POL-UA 851]. It is designed to prepare students for original quantitative research (e.g., thesis, seminar, or honors projects) and for higher-level data analysis courses [POL-UA 851].\n\nIn summary, **POL-UA 850** serves as the introductory course in quantitative/statistical research methods, while **POL-UA 851** offers an intermediate, more hands-on continuation for students who have completed POL-UA 850 [POL-UA 850][POL-UA 851].",
-    "groundedness": "GROUNDED: The answer's claims about POL-UA 850 and POL-UA 851 (content, prerequisites, and quoted descriptions) match the CONTEXT verbatim, and it cites both course codes."
+    "answer": "Based on the course listings, two courses specifically cover quantitative and statistical methods for political science research:\n\n1. **[POL-UA 850] Introduction to Research Methods for Politics** \u2013 This introductory course teaches \"quantitative techniques used for research in the study of politics,\" covering research design, how data and theory fit together, measurement, and a \"toolbox\" of methods including statistical software [POL-UA 850].\n\n2. **[POL-UA 851] Intermediate Quantitative Methods for Politics** \u2013 This is a more advanced course that builds on POL-UA 850 (listed as its prerequisite). It covers \"reproducible statistical programming, data visualization, univariate and multivariate data analysis, regression, addressing confounding, and sample-theoretic statistical inference,\" and prepares students for original quantitative research as well as higher-level courses like causal inference or data science [POL-UA 851].\n\nTogether, these two courses form a sequence: POL-UA 850 introduces foundational quantitative research methods, while POL-UA 851 offers more intermediate/advanced statistical techniques [POL-UA 850][POL-UA 851].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course descriptions for POL-UA 850 and POL-UA 851 as given in the context, with no unsupported claims, and cites both course codes."
   },
   {
     "question": "Is there a course specifically about the U.S. Supreme Court?",
@@ -540,8 +540,8 @@
       "POL-UA 396"
     ],
     "hit": true,
-    "answer": "Yes. **[POL-UA 333] The U.S. Supreme Court** is specifically about the Supreme Court as an institution \u2014 it examines the Court's structure, procedures, personnel, and the appointment process, its role as chief interpreter of the Constitution, its impact on decisions and public opinion, and its political role in a democratic polity [POL-UA 333].\n\nRelated but distinct courses include:\n- **[POL-UA 330] American Constitution**, which focuses on interpreting the Constitution through Supreme Court opinions and the distribution of constitutional power among branches and levels of government [POL-UA 330].\n- **[POL-UA 332] Civil Liberties**, which also uses Supreme Court opinions but focuses on the Bill of Rights and civil liberties topics like free speech, privacy, and equal protection [POL-UA 332].\n- **[HIST-UA 7] The U.S. Constitution: History and Law**, which covers the history of the Constitution's creation and interpretation more broadly, not the Court itself [HIST-UA 7].\n- **[POL-UA 396] Honors Sem**, which reexamines the role of independent courts in protecting civil rights and liberties, but is not solely about the Supreme Court [POL-UA 396].\n\nOf these, only **[POL-UA 333]** is explicitly and specifically dedicated to the U.S. Supreme Court as its subject.",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions provided in the context, and multiple course codes (e.g., POL-UA 333, POL-UA 330, POL-UA 332, HIST-UA 7, POL-UA 396) are cited."
+    "answer": "Yes. [POL-UA 333] \"The U.S. Supreme Court\" is specifically focused on the Supreme Court as an institution\u2014examining its structure, procedures, personnel, informal organization, the appointment process, the impact of its decisions, public opinion about the Court, and its political role in a democratic polity.\n\nRelated but distinct courses that involve the Supreme Court primarily as a vehicle for studying constitutional law (rather than the institution itself) include:\n- [POL-UA 330] \"American Constitution,\" which interprets the Constitution through reading Supreme Court opinions.\n- [POL-UA 332] \"Civil Liberties,\" which similarly uses Supreme Court opinions to explore the Bill of Rights and related constitutional protections.\n- [HIST-UA 7] \"The U.S. Constitution: History and Law,\" which covers the Constitution's history and interpretation more broadly, not the Court as an institution.\n- [POL-UA 396] \"Honors Sem,\" which examines courts' role in protecting rights and liberties, but is a seminar with specific prerequisites (POL-UA 850) rather than a dedicated course on the Supreme Court itself.\n\nIf your interest is in the Supreme Court as an institution specifically, [POL-UA 333] is the course tailored to that topic.",
+    "groundedness": "GROUNDED. The answer accurately summarizes POL-UA 333's description and correctly characterizes the other cited courses (POL-UA 330, POL-UA 332, HIST-UA 7, POL-UA 396) based solely on details provided in the context, without introducing unsupported claims."
   },
   {
     "question": "Is there a course on neuroeconomics?",
@@ -556,8 +556,8 @@
       "ECON-UA 13"
     ],
     "hit": true,
-    "answer": "Yes. **[NEURL-UA 312] Neuroeconomics** covers the neuroscientific, economic, and psychological foundations of human and animal decision-making, including topics like Subjective Value Theory, Intertemporal Choice, Neural Foundations of Game Theory, Consumer Decision-Making, and Neural Foundations of Prospect Theory [NEURL-UA 312]. It requires NEURL-UA 220 as a prerequisite and is aimed primarily at juniors and seniors in Neural Science and Psychology, though it's also open to Economics and Stern students [NEURL-UA 312].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description, topics, prerequisites, and target audience for NEURL-UA 312 as stated in the context, with no unsupported claims."
+    "answer": "Yes. **[NEURL-UA 312] Neuroeconomics** is a course covering \"the neuroscientific, economic and psychological foundations of human and animal decision-making,\" including topics such as Subjective Value Theory, Intertemporal Choice, Neural Foundations of Game Theory, Consumer Decision-Making, and Neural Foundations of Prospect Theory [NEURL-UA 312]. It requires the prerequisite NEURL-UA 220 and is aimed primarily at juniors and seniors in Neural Science and Psychology, though it is also open to Economics and Stern students [NEURL-UA 312].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description, topics, prerequisite, and target audience for NEURL-UA 312 as stated in the context, with no unsupported claims, and it cites the course code."
   },
   {
     "question": "Which course covers the biology of memory?",
@@ -572,8 +572,8 @@
       "BIOL-UA 800"
     ],
     "hit": true,
-    "answer": "**[NEURL-UA 317]** \u2014 \"Biology of Memory in Mammals: Processes, Developmental Evolution, Diseases\" is the course listed that covers this topic. According to its description, it \"will present the fundamentals of the fields of sensory perception, and an introduction to sequential decisions and reinforcement learning as it applies to navigation,\" with an emphasis on \"understanding core principles and ideas about how neural systems work and how we can start to understand how neural activity gives rise to behavior\" [NEURL-UA 317].\n\nNote: Its prerequisites are NEURL-UA 220 and BIOL-UA 21 [NEURL-UA 317].",
-    "groundedness": "GROUNDED \u2014 The answer accurately quotes and cites NEURL-UA 317's description and prerequisites directly from the context without adding unsupported claims."
+    "answer": "**[NEURL-UA 317]** \u2014 Biology of Memory in Mammals: Processes, Developmental Evolution, Diseases is the course that covers the biology of memory, as indicated by its title and description addressing \"sensory perception\" and \"sequential decisions and reinforcement learning as it applies to navigation,\" with a focus on \"how neural systems work and how we can start to understand how neural activity gives rise to behavior\" [NEURL-UA 317].\n\nNote: This course requires **NEURL-UA 220** and **BIOL-UA 21** as prerequisites [NEURL-UA 317]. None of the other listed courses (BIOL-UA 92, BIOL-UA 100, BIOL-UA 920, BIOL-UA 800) reference memory specifically in their descriptions.",
+    "groundedness": "GROUNDED \u2014 The answer accurately quotes the course description and prerequisites from NEURL-UA 317 in the CONTEXT and does not introduce unsupported claims."
   },
   {
     "question": "Which course covers computational chemistry?",
@@ -588,8 +588,8 @@
       "CHEM-UA 140"
     ],
     "hit": true,
-    "answer": "Based on the course listings, **[CHEM-UA 752] Computational Chemistry** is the course that covers computational chemistry. It \"provides students with a good basic knowledge of molecular modeling and a computational laboratory workbench for computer-based discovery research,\" giving access to \"cutting-edge molecular modeling techniques and software and a hands-on research experience\" [CHEM-UA 752]. Its prerequisites are Organic Chemistry II and Laboratory (CHEM-UA 226) or Majors Organic Chemistry II and Laboratory (CHEM-UA 228), with a corequisite or prerequisite of Physical Chemistry: Quantum Mechanics and Spectroscopy (CHEM-UA 651) or Physical Chemistry: Thermodynamics and Kinetics (CHEM-UA 652) [CHEM-UA 752].",
-    "groundedness": "GROUNDED: The answer accurately quotes and summarizes the CHEM-UA 752 course description and prerequisites as given in the context, without adding unsupported claims."
+    "answer": "[CHEM-UA 752] (Computational Chemistry) covers this topic. It \"provides students with a good basic knowledge of molecular modeling and a computational laboratory workbench for computer-based discovery research,\" giving access to \"cutting-edge molecular modeling techniques and software and a hands-on research experience,\" and helps students \"develop competence in applying these computational methods to molecular modeling\" [CHEM-UA 752].\n\nIts prerequisites are Organic Chemistry II and Laboratory (CHEM-UA 226) or Majors Organic Chemistry II and Laboratory (CHEM-UA 228), with Physical Chemistry: Quantum Mechanics and Spectroscopy (CHEM-UA 651) or Physical Chemistry: Thermodynamics and Kinetics (CHEM-UA 652) as a corequisite or prerequisite [CHEM-UA 752].",
+    "groundedness": "GROUNDED \u2014 The answer accurately quotes and paraphrases the CHEM-UA 752 course description and prerequisites exactly as given in the context, citing the course code."
   },
   {
     "question": "Is there a course on structural DNA nanotechnology?",
@@ -604,8 +604,8 @@
       "CHEM-UA 890"
     ],
     "hit": true,
-    "answer": "Yes. **[CHEM-UA 828] Structural DNA Nanotechnology** is a course focused on this field. It covers \"control of molecular structure on the nanometer scale through programming it by means of DNA secondary structures,\" consisting of instructor lectures and student presentations of recent papers in the field [CHEM-UA 828].\n\n**Prerequisites:** Students must have completed one of the following courses [CHEM-UA 828]:\n- CHEM-UA 226 (Organic Chemistry II and Laboratory), or\n- CHEM-UA 228 (Majors Organic Chemistry II & Laboratory), or\n- CHEM-UA 881",
-    "groundedness": "GROUNDED: The answer accurately summarizes CHEM-UA 828's description and prerequisites as stated in the context, and cites the course code."
+    "answer": "Yes. **[CHEM-UA 828] Structural DNA Nanotechnology** is a 4.0-credit course focused specifically on this field. It covers controlling molecular structure at the nanometer scale by programming it via DNA secondary structures, and includes lectures by the instructor along with student presentations of recent papers in the field [CHEM-UA 828].\n\nThe prerequisites for this course are ( CHEM-UA 226 OR CHEM-UA 228 OR CHEM-UA 881 ) [CHEM-UA 828]. Note that CHEM-UA 228 (Majors Organic Chemistry II & Laboratory) is listed among the provided courses and itself requires CHEM-UA 225, CHEM-UA 227, or CHEM-UH 2010 as prerequisites [CHEM-UA 228].",
+    "groundedness": "GROUNDED \u2014 All claims (course description, credits, prerequisites, and CHEM-UA 228's own prerequisites) are directly supported by the CONTEXT, and course codes like CHEM-UA 828 and CHEM-UA 228 are cited."
   },
   {
     "question": "Which course teaches the fundamentals of bioinformatics?",
@@ -620,8 +620,8 @@
       "BIOL-UA 12"
     ],
     "hit": true,
-    "answer": "[BIOL-UA 124] \"Fundamentals of Bioinformatics\" is the course that teaches the fundamentals of bioinformatics. According to the listing, [BIOL-UA 124] covers genomics (DNA-sequencing technologies, sequence alignment, gene prediction), structural bioinformatics (RNA and protein structure prediction), and functional genomics (gene expression analysis). It has a lecture and recitation component, with the recitation focused on using software packages to analyze publicly available genome project and high-throughput experiment data. The prerequisite for this course is BIOL-UA 21 [BIOL-UA 124].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites for BIOL-UA 124 as stated in the context, with no unsupported claims."
+    "answer": "[BIOL-UA 124] (Fundamentals of Bioinformatics) is the course that teaches the fundamentals of bioinformatics. According to the listing, [BIOL-UA 124] covers genomics (DNA-sequencing technologies, sequence alignment, gene prediction), structural bioinformatics (RNA and protein structure prediction), and functional genomics (gene expression analysis). It has a lecture and recitation component, with the recitation focused on using software packages to analyze publicly available genomic data. Its prerequisite is BIOL-UA 21.",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description for BIOL-UA 124, including its sections, structure, and prerequisite, without adding unsupported claims."
   },
   {
     "question": "Is there a course on genome engineering?",
@@ -636,8 +636,8 @@
       "BIOL-UA 800"
     ],
     "hit": true,
-    "answer": "Yes. **[BIOL-UA 545] Genome Engineering** is a course focused specifically on this topic. It is described as \"a discussion-based course on principles underlying current and future genetic engineering approaches, ranging from unicellular organisms to whole animals,\" covering \"high-throughput functional genomic screens, gene editing therapies and the ethical and social implications of new technologies\" [BIOL-UA 545]. Its prerequisite is BIOL-UA 22 or BIOL-UA 9022 [BIOL-UA 545].",
-    "groundedness": "GROUNDED: The answer accurately quotes and paraphrases the CONTEXT description and prerequisites for BIOL-UA 545 without adding unsupported claims."
+    "answer": "Yes. **[BIOL-UA 545] Genome Engineering** is a discussion-based course covering \"principles underlying current and future genetic engineering approaches, ranging from unicellular organisms to whole animals,\" including \"high-throughput functional genomic screens, gene editing therapies and the ethical and social implications of new technologies\" [BIOL-UA 545]. Its prerequisite is BIOL-UA 22 or BIOL-UA 9022 [BIOL-UA 545].",
+    "groundedness": "GROUNDED: The answer accurately quotes and cites BIOL-UA 545's description and prerequisites directly from the CONTEXT without adding unsupported claims."
   },
   {
     "question": "Is there a course on pidgin and creole languages?",
@@ -652,8 +652,8 @@
       "LING-UA 44"
     ],
     "hit": true,
-    "answer": "Yes. **[LING-UA 38] Pidgin & Creole Languages** covers this topic. It has no prerequisites and addresses how pidgins and creoles (P/Cs) form, why they share certain properties, and how they compare to other language types [LING-UA 38].",
-    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT description of LING-UA 38, including its lack of prerequisites and the three questions it addresses, and cites the course code."
+    "answer": "Yes, there is a course specifically on this topic: **LING-UA 38, \"Pidgin & Creole Languages\"** [LING-UA 38]. It has no prerequisites [LING-UA 38] and addresses how pidgins/creoles originate, why they develop the properties they do, and why they share common features across different circumstances of genesis, comparing them to other language types [LING-UA 38].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course title, prerequisites, and content description for LING-UA 38 as given in the context, with no unsupported claims."
   },
   {
     "question": "Which course covers African American Vernacular English?",
@@ -665,11 +665,11 @@
       "ENGL-UA 963",
       "COLIT-UA 851",
       "ENGL-UA 251",
-      "ENGL-UA 252"
+      "IRISH-UA 102"
     ],
     "hit": true,
-    "answer": "[LING-UA 23] African American Vernacular English covers this topic. It examines African American Vernacular English \"in terms of its linguistic and cultural distinctiveness, both intrasystemically and compared to other dialects of American English,\" relates it to creole languages, and discusses \"the history of its expressive uses, and the educational, attitudinal, and social implications connected with the language\" [LING-UA 23].",
-    "groundedness": "GROUNDED \u2014 the answer accurately quotes and summarizes the LING-UA 23 course description without adding unsupported claims, and cites the course code."
+    "answer": "[LING-UA 23] African American Vernacular English is the course that covers this topic. It examines African American Vernacular English \"in terms of its linguistic and cultural distinctiveness, both intrasystemically and compared to other dialects of American English,\" and relates it to creole languages, including \"the history of its expressive uses, and the educational, attitudinal, and social implications connected with the language\" [LING-UA 23].",
+    "groundedness": "GROUNDED: The answer accurately quotes and summarizes the LING-UA 23 course description without adding unsupported claims, and cites the course code."
   },
   {
     "question": "Which course covers environmental justice and inequality?",
@@ -684,8 +684,8 @@
       "ENVST-UA 475"
     ],
     "hit": true,
-    "answer": "[ENVST-UA 480] is the course that specifically covers environmental justice and inequality. It traces the origins of the uneven distribution of environmental problems and hazards across communities, analyzes how environmental problems reflect and exacerbate social inequality, and surveys the historical emergence of the environmental justice movement [ENVST-UA 480].\n\nAdditionally, [ENVST-UA 101] (Environment & Society) touches on environmental justice as one of its broader topics, but it is not the primary focus of that course [ENVST-UA 101].",
-    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course descriptions, citing ENVST-UA 480 as the course specifically focused on environmental justice and correctly noting that ENVST-UA 101 mentions environmental justice as one of several broader topics, both claims supported directly by the CONTEXT."
+    "answer": "[ENVST-UA 480] Environmental Justice & Inequality specifically covers this topic, tracing the origins of the uneven distribution of environmental problems and hazards across communities, analyzing how environmental problems reflect and exacerbate social inequality, and surveying the historical emergence of the environmental justice movement [ENVST-UA 480].\n\nAdditionally, [ENVST-UA 101] Environment & Society also touches on this subject as part of its broader survey of Environmental Studies foundations, explicitly listing \"environmental justice\" among the topics covered during the semester [ENVST-UA 101].",
+    "groundedness": "GROUNDED \u2014 Both claims are directly supported by the CONTEXT descriptions of ENVST-UA 480 and ENVST-UA 101, and both course codes are cited."
   },
   {
     "question": "Is there a course on the biogeochemistry of global change?",
@@ -701,8 +701,8 @@
       "ENVST-UA 422"
     ],
     "hit": true,
-    "answer": "Yes. There are two versions of this course:\n\n- **[BIOL-UA 66] Biogeochemistry of Global Change** \u2014 offered through Biology, with prerequisites of (BIOL-UA 12 OR BIOL-UA 9012 OR ENVST-UA 100 OR ENVST-UA 370).\n- **[ENVST-UA 370] Biogeochemistry of Global Change** \u2014 offered through Environmental Studies, with prerequisites of (BIOL-UA 11 OR BIOL-UA 13 OR BIOL-UA 9011) AND (BIOL-UA 12 OR BIOL-UA 14 OR BIOL-UA 9012 OR ENVST-UA 100).\n\nBoth list identical course descriptions: they introduce the fundamental principles of biogeochemistry and use peer-reviewed literature to explore case studies on global biogeochemical change, such as acid precipitation, nitrogen deposition, and ocean eutrophication [BIOL-UA 66][ENVST-UA 370].",
-    "groundedness": "GROUNDED: All claims (course titles, departments, prerequisites, and descriptions) directly match the CONTEXT, and both course codes BIOL-UA 66 and ENVST-UA 370 are cited."
+    "answer": "Yes. There are two cross-listed courses titled **Biogeochemistry of Global Change**:\n\n- **[BIOL-UA 66]** \u2013 offered through Biology, with prerequisites (BIOL-UA 12 OR BIOL-UA 9012 OR ENVST-UA 100 OR ENVST-UA 370).\n- **[ENVST-UA 370]** \u2013 offered through Environmental Studies, with prerequisites (BIOL-UA 11 OR BIOL-UA 13 OR BIOL-UA 9011) AND (BIOL-UA 12 OR BIOL-UA 14 OR BIOL-UA 9012 OR ENVST-UA 100).\n\nBoth describe the course identically: it introduces the fundamental principles of biogeochemistry (biological controls on environmental chemistry and geochemical regulation of ecological structure/function), and uses peer-reviewed literature to examine case studies such as acid precipitation, nitrogen deposition, and ocean eutrophication [BIOL-UA 66][ENVST-UA 370].\n\nNote: this is distinct from **[BIOL-UA 726] Global Change Biology**, which focuses on ecological/evolutionary and social-science perspectives on human impacts on natural systems, rather than biogeochemical cycling specifically.",
+    "groundedness": "GROUNDED: The answer accurately reflects the course details, prerequisites, and descriptions from CONTEXT and cites multiple correct course codes (BIOL-UA 66, ENVST-UA 370, BIOL-UA 726) without adding unsupported claims."
   },
   {
     "question": "Is there a course on pandemics in world history?",
@@ -717,7 +717,7 @@
       "HIST-UA 211"
     ],
     "hit": true,
-    "answer": "Yes. **[HIST-UA 79] Pandemics in World History** is a course that surveys the world history of pandemics, focusing on their spatial, social, political, cultural, and economic aspects, as well as their Asian connections and entanglements with empire, capitalism, and globalization [HIST-UA 79].",
+    "answer": "Yes. **[HIST-UA 79] Pandemics in World History** is a course that surveys the world history of pandemics, focusing on their spatial, social, political, cultural, and economic aspects, including their Asian connections and entanglements with empire, capitalism, and globalization [HIST-UA 79].",
     "groundedness": "GROUNDED: The answer accurately reflects the course description for HIST-UA 79 without adding unsupported claims, and cites the course code."
   },
   {
@@ -728,13 +728,13 @@
     "retrieved": [
       "HIST-UA 23",
       "POL-UA 712",
-      "INTRL-UA 990",
-      "DRLIT-UA 244",
-      "ENGL-UA 59"
+      "ITAL-UA 172",
+      "RUSSN-UA 191",
+      "INTRL-UA 990"
     ],
     "hit": true,
-    "answer": "Based on the listings provided, **[HIST-UA 23] Espionage and the Making of the Modern World** covers this topic.\n\nAccording to its description, [HIST-UA 23] examines \"the great sweep of world history from 1939 to 2015 through the lens of the role played by spies, code-breakers, saboteurs, intelligence analysts and the organizations for which they worked.\" The course discusses modern espionage cases involving intelligence services from the US, Russia/Soviet Union, Britain, China, Cuba, France, Germany, Iran, Israel, Jordan, Saudi Arabia, and Vietnam [HIST-UA 23]. It also raises broader questions about why nations engage in spying and covert action, and what costs these activities impose on individuals and international security [HIST-UA 23].",
-    "groundedness": "GROUNDED \u2014 The answer only restates details from the HIST-UA 23 description and cites that course code."
+    "answer": "**[HIST-UA 23]** (\"Espionage and the Making of the Modern World\") is the course that covers this topic. It examines world history from 1939 to 2015 through the lens of spies, code-breakers, saboteurs, and intelligence analysts, focusing primarily on US, Russian (Soviet), and British intelligence services, while also touching on Chinese, Cuban, French, German, Iranian, Israeli, Jordanian, Saudi, and Vietnamese intelligence activities [HIST-UA 23].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description for HIST-UA 23 as given in the context, with no unsupported claims, and cites the course code."
   },
   {
     "question": "Which course covers Dante's Divine Comedy?",
@@ -743,14 +743,14 @@
     ],
     "retrieved": [
       "ENGL-UA 142",
-      "COLIT-UA 270",
-      "CLASS-UA 874",
-      "ARTH-UA 350",
-      "PHIL-UA 30"
+      "ITAL-UA 270",
+      "MEDI-UA 271",
+      "ITAL-UA 269",
+      "MEDI-UA 269"
     ],
     "hit": true,
-    "answer": "Two courses cover Dante's Divine Comedy:\n\n- **[ENGL-UA 142]** Dante's Divine Comedy \u2014 studies the entire poem alongside selections from the Vita Nuova and other minor works, examining it as both a reflection of high medieval culture and a text that transcends its cultural context.\n\n- **[COLIT-UA 270]** Dante's Divine Comedy: Inferno, Purgatorio \u2014 covers the same content, studying the entire poem plus selections from the Vita Nuova and other complementary minor works, with the same framing of the text as both a cultural mirror and a boundary-breaking work.\n\nBoth courses have identical descriptions and no prerequisites [ENGL-UA 142][COLIT-UA 270].",
-    "groundedness": "GROUNDED \u2014 the answer accurately reflects both course entries' descriptions and prerequisites without adding unsupported claims, and cites course codes ENGL-UA 142 and COLIT-UA 270."
+    "answer": "Based on the listings, there are two distinct courses on Dante's *Divine Comedy*, each cross-listed under multiple department codes:\n\n1. **\"Dante's Divine Comedy\"** \u2013 cross-listed as [ENGL-UA 142], [ITAL-UA 270], and [MEDI-UA 271]. This course studies the Divine Comedy \"both as a mirror of high medieval culture and as a unique text that breaks out of its cultural bounds,\" reading the entire poem plus selections from the *Vita Nuova* and other minor works [ENGL-UA 142][ITAL-UA 270][MEDI-UA 271].\n\n2. **\"Dante's Divine Comedy in Context\"** \u2013 cross-listed as [ITAL-UA 269] and [MEDI-UA 269]. This course focuses on reading the Commedia \"in light of the ancient and medieval idea of learning,\" situating it within Biblical, Christian, and Classical traditions and the broader historical, literary, and philosophical context of medieval Europe [ITAL-UA 269][MEDI-UA 269].\n\nSo, depending on the department through which a student wants to take it, they could enroll via English (ENGL-UA 142), Italian (ITAL-UA 270 or ITAL-UA 269), or Medieval Studies (MEDI-UA 271 or MEDI-UA 269).",
+    "groundedness": "GROUNDED: The answer accurately summarizes both courses, their cross-listed codes, and descriptions as stated in the context, with no unsupported claims."
   },
   {
     "question": "Is there a course called Writing New York?",
@@ -765,8 +765,8 @@
       "CRWRI-UA 997"
     ],
     "hit": true,
-    "answer": "Yes. There is a course called **Writing New York** [ENGL-UA 180], described as \"an introduction to the history of New York through an exploration of fiction, poetry, plays, and films about the city, from Washington Irving's A History of New York to Frank Miller's graphic novel The Dark Knight Returns,\" with two lectures and one recitation section each week [ENGL-UA 180]. It has no prerequisites and carries 4.0 credits [ENGL-UA 180].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course title, description, credits, and prerequisites as stated in the context, and cites the course code ENGL-UA 180."
+    "answer": "Yes. There is a course called **Writing New York** [ENGL-UA 180], described as \"an introduction to the history of New York through an exploration of fiction, poetry, plays, and films about the city\" [ENGL-UA 180]. It carries 4.0 credits and has no prerequisites [ENGL-UA 180].\n\nNote that this is distinct from the \"Writers in NY\" series (Creative Nonfiction [CRWRI-UA 835], Fiction [CRWRI-UA 818], and Poetry [CRWRI-UA 819]), which are similarly named but separate 8.0-credit creative writing programs based in Greenwich Village.",
+    "groundedness": "GROUNDED: All claims (title, description, credits, prerequisites, and comparison to the \"Writers in NY\" series) are directly supported by the CONTEXT, and multiple course codes (e.g., ENGL-UA 180, CRWRI-UA 835) are cited."
   },
   {
     "question": "Is there a course on data science in archaeology?",
@@ -781,8 +781,8 @@
       "DS-UA 100"
     ],
     "hit": true,
-    "answer": "Yes. **[ANTH-UA 152] Introduction to Data Science in Archaeology** is a course that introduces essential data science tools used in modern archaeological research, applying them to archaeological questions (e.g., the Mayan civilization collapse, Easter Island statues, Holocaust archaeology) while also examining the ethics and social impacts of archaeology and data science [ANTH-UA 152]. It is described as novice-friendly, requiring no prior experience with archaeology, computers, programming, or statistics [ANTH-UA 152].",
-    "groundedness": "GROUNDED: The answer accurately summarizes details from the ANTH-UA 152 course description without adding unsupported claims, and it cites the course code."
+    "answer": "Yes. **[ANTH-UA 152] Introduction to Data Science in Archaeology** is a course that introduces essential data science tools used in modern archaeological research, applying them to archaeological questions (e.g., the Mayan civilization collapse, Easter Island's stone heads, Holocaust archaeology) while examining the ethics and social impacts of archaeology and data science [ANTH-UA 152]. It is described as novice-friendly, with no prior experience in archaeology, computers, programming, or statistics required [ANTH-UA 152].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description of ANTH-UA 152 without adding unsupported claims, and cites the course code."
   },
   {
     "question": "Which course covers digital anthropology?",
@@ -797,8 +797,8 @@
       "DRLIT-UA 244"
     ],
     "hit": true,
-    "answer": "[ANTH-UA 126] covers Digital Anthropology, focusing on the anthropological study of internet use and digital mediating technologies.",
-    "groundedness": "GROUNDED \u2014 the answer accurately reflects the description given for ANTH-UA 126 without adding unsupported claims."
+    "answer": "[ANTH-UA 126] is the course that covers digital anthropology. It focuses on how the internet and its mediating technologies (email, social media, messaging apps, video platforms, gaming worlds, etc.) have become embedded in everyday life, examined through ethnographic and theoretical texts in anthropology and related disciplines [ANTH-UA 126].",
+    "groundedness": "GROUNDED: The answer accurately summarizes the course description for ANTH-UA 126 without introducing unsupported claims, and it cites the course code."
   },
   {
     "question": "Is there a course on ancient Egyptian art?",
@@ -813,8 +813,8 @@
       "ARTH-UA 10"
     ],
     "hit": true,
-    "answer": "Yes. **[ARTH-UA 110] Ancient Egyptian Art** is specifically dedicated to this topic, tracing the sculpture, painting, and architecture of ancient Egypt from predynastic beginnings through the Old, Middle, and New Kingdoms up to the conquest of Augustus (3100-40 B.C.E.), with attention to historical, religious, and cultural context [ARTH-UA 110].\n\nAdditionally, ancient Egyptian art is covered as part of a broader survey in **[ARTH-UA 3] Art of the Ancient Mediterranean World**, which includes \"developments of civilization in the Near East, Egypt, and the Aegean\" within its coverage of Western art history from 20,000 B.C. to the 4th century A.D. [ARTH-UA 3].",
-    "groundedness": "GROUNDED. The answer accurately reflects the descriptions of both ARTH-UA 110 and ARTH-UA 3 as given in the context, with no unsupported claims."
+    "answer": "Yes. **ARTH-UA 110 (Ancient Egyptian Art)** specifically traces the sculpture, painting, and architecture of ancient Egypt from predynastic beginnings through the Old, Middle, and New Kingdoms until the conquest of Augustus (3100\u201340 B.C.E.) [ARTH-UA 110].\n\nAdditionally, Egyptian art is touched on more broadly (alongside other ancient civilizations) in **ARTH-UA 3 (Art of the Ancient Mediterranean World)**, which covers art history from the Paleolithic Age through developments in the Near East, Egypt, and the Aegean, up to the Roman Empire [ARTH-UA 3].",
+    "groundedness": "GROUNDED: Both claims accurately reflect the course descriptions provided, and the answer cites ARTH-UA 110 and ARTH-UA 3 as given in the context."
   },
   {
     "question": "Which course covers Italian Renaissance sculpture?",
@@ -824,13 +824,13 @@
     "retrieved": [
       "ARTH-UA 305",
       "ARTH-UA 350",
+      "ITAL-UA 115",
       "ARTH-UA 301",
-      "ARTH-UA 5",
-      "ARTH-UA 309"
+      "MEDI-UA 333"
     ],
     "hit": true,
-    "answer": "Italian Renaissance sculpture is covered by **[ARTH-UA 305] Italian Renaissance Sculpture**, which examines \"the role of sculpture in the visual arts in Italy from ca. 1400-1600,\" beginning with Donatello and contemporaries like Ghiberti, Verrocchio, and Pollaiuolo, before addressing Michelangelo's sculpture and ending with Giambologna [ARTH-UA 305].",
-    "groundedness": "GROUNDED: The answer accurately quotes and summarizes the ARTH-UA 305 course description without adding unsupported claims, and cites the course code."
+    "answer": "[ARTH-UA 305] Italian Renaissance Sculpture is the course that specifically covers this topic. It examines \"the role of sculpture in the visual arts in Italy from ca. 1400-1600,\" beginning with Donatello and his contemporaries (Ghiberti, Verrocchio, and Pollaiuolo), then moving to Michelangelo's sculpture, and concluding with Giambologna [ARTH-UA 305].",
+    "groundedness": "GROUNDED: The answer accurately quotes and summarizes the ARTH-UA 305 description without adding unsupported claims, and cites the course code."
   },
   {
     "question": "Which course covers journalism ethics and First Amendment law?",
@@ -845,8 +845,8 @@
       "JOUR-UA 504"
     ],
     "hit": true,
-    "answer": "[JOUR-UA 502] (Journalism Ethics & First Amendment Law) covers this topic. According to the listing, it is \"divided equally between ethics and the law,\" exposing students to \"various ethical and legal issues surrounding the field of journalism\" [JOUR-UA 502].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description of JOUR-UA 502, citing the course code and quoting directly from the provided context without adding unsupported claims."
+    "answer": "[JOUR-UA 502] \"Journalism Ethics & First Amendment Law\" is described as covering these topics directly: \"This 14-week class is divided equally between ethics and the law. Through the weekly lecture and assigned readings, students are exposed to the various ethical and legal issues surrounding the field of journalism\" [JOUR-UA 502].",
+    "groundedness": "GROUNDED: The answer accurately quotes and cites JOUR-UA 502, which the context directly describes as covering journalism ethics and law."
   },
   {
     "question": "Is there a course called Report New York?",
@@ -861,8 +861,8 @@
       "COLIT-UA 132"
     ],
     "hit": true,
-    "answer": "Yes, there is a course called **Report New York** [JOUR-UA 21]. It is a 4.0-credit journalism course focused on gathering and writing the news, using New York City\u2014especially the East Village\u2014as a reporting lab [JOUR-UA 21]. Note that this course is designed for high school students and is explicitly **not open to undergraduates** [JOUR-UA 21].",
-    "groundedness": "GROUNDED: The answer accurately reflects the content and details from JOUR-UA 21 as described in the context, with no unsupported claims, and cites the course code."
+    "answer": "Yes, there is a course called **Report New York** [JOUR-UA 21]. It is a 4.0-credit journalism course focused on gathering and writing the news, using New York City\u2014especially the East Village\u2014as its reporting lab. The course covers news evaluation, reporting and writing techniques, specialized beats, story assignment and planning, and journalism ethics [JOUR-UA 21]. Note that it is designed for high school students and is explicitly **not open to undergraduates** [JOUR-UA 21].",
+    "groundedness": "GROUNDED: The answer accurately reflects the details in the JOUR-UA 21 course description and cites the course code."
   },
   {
     "question": "Is there a course connecting Roman elegy to Taylor Swift?",
@@ -872,13 +872,13 @@
     "retrieved": [
       "CLASS-UA 80",
       "CLASS-UA 873",
+      "LATC-UA 341",
       "CLASS-UA 879",
-      "CLASS-UA 971",
-      "CLASS-UA 880"
+      "CLASS-UA 971"
     ],
     "hit": true,
-    "answer": "Yes \u2014 **[CLASS-UA 80]**, \"It's a Love Story\": Reading Roman Elegy through Taylor Swift, is specifically designed to connect these two areas. It compares the surviving works of Roman love elegists such as Catullus and Propertius with the songs of Taylor Swift, examining how both bodies of work blend autobiography and fiction in depicting love relationships, and explores shared themes of love and betrayal as they manifest differently across gender, class, and power dynamics [CLASS-UA 80].\n\nFor reference, Catullus and Propertius (the Roman elegists discussed) also appear in other Latin courses like **[CLASS-UA 873]** (Advanced Latin: Lyric & Elegy), which covers the development of Latin Love Elegy through poets including Catullus and Propertius, though this course does not mention Taylor Swift.",
-    "groundedness": "GROUNDED \u2014 The answer accurately reflects CLASS-UA 80's description and correctly notes CLASS-UA 873 covers Catullus/Propertius without Taylor Swift, citing both course codes without adding unsupported claims."
+    "answer": "Yes \u2014 **[CLASS-UA 80] \"It's a Love Story\": Reading Roman Elegy through Taylor Swift** is specifically designed to connect Roman elegy with Taylor Swift's music. According to the listing, it examines the works of Roman love elegists like Catullus and Propertius alongside Taylor Swift's songwriting, comparing how both bodies of work blend autobiography and fiction in depicting love relationships. The course uses close reading to explore themes of love and betrayal across both traditions, examining how these themes are shaped by differences in gender, class, and power relationships [CLASS-UA 80].\n\nNo other course in the provided listings makes this specific connection, though **[CLASS-UA 873] Advanced Latin: Lyric & Elegy** does cover Roman elegiac poets including Catullus and Propertius in a more traditional Latin-language context, without reference to Taylor Swift [CLASS-UA 873].",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the CLASS-UA 80 description and correctly notes CLASS-UA 873 covers Roman elegists without any Taylor Swift connection, citing both course codes without adding unsupported claims."
   },
   {
     "question": "Which course covers Greek and Roman mythology?",
@@ -890,11 +890,11 @@
       "RELST-UA 404",
       "CLASS-UA 972",
       "ARTH-UA 150",
-      "CLASS-UA 10"
+      "HEL-UA 108"
     ],
     "hit": true,
-    "answer": "Two courses in these listings specifically cover Greek and Roman mythology:\n\n- **[CLASS-UA 404] Greek and Roman Mythology** \u2013 Examines myths and legends of Greek and Roman mythology, their connections to the ancient Mediterranean World, and analyzes texts like Hesiod's creation myths, Homer's *Iliad* and *Odyssey*, Greek drama, Ovid's *Metamorphoses*, and Virgil's *Aeneid*, along with the reception of these myths in modern culture [CLASS-UA 404].\n\n- **[RELST-UA 404] Greek and Roman Mythology** \u2013 Also titled \"Greek and Roman Mythology,\" this course discusses the myths and legends of Greek mythology, covering figures like gods, demigods, heroes, and monsters, from Hesiod's *Theogony* through the Trojan War, with special emphasis on Homer's account of Odysseus's return in the *Odyssey* [RELST-UA 404].\n\nBoth courses have no prerequisites [CLASS-UA 404][RELST-UA 404].",
-    "groundedness": "GROUNDED: The answer accurately summarizes both CLASS-UA 404 and RELST-UA 404 descriptions and prerequisites as stated in the context, citing course codes correctly."
+    "answer": "Two courses cover Greek and Roman mythology:\n\n- **[CLASS-UA 404] Greek and Roman Mythology** \u2013 Examines myths and legends of Greek and Roman mythology, including Hesiod's creation myths, Homer's *Iliad* and *Odyssey*, ancient Greek drama, Ovid's *Metamorphoses*, and Virgil's *Aeneid*, as well as the reception of these myths in modern culture [CLASS-UA 404].\n\n- **[RELST-UA 404] Greek and Roman Mythology** \u2013 Discusses the myths and legends of Greek mythology, covering gods, demigods, heroes, nymphs, monsters, and mortals, beginning with Hesiod's *Theogony* and ending with the Trojan War and the return of Odysseus as told in Homer's *Odyssey* [RELST-UA 404].",
+    "groundedness": "GROUNDED: Both course descriptions and details cited match the CONTEXT exactly, and course codes (CLASS-UA 404, RELST-UA 404) are cited."
   },
   {
     "question": "Is there an advanced fiction writing workshop?",
@@ -909,8 +909,8 @@
       "CRWRI-UA 817"
     ],
     "hit": true,
-    "answer": "Yes. **[CRWRI-UA 820] Advanced Fiction Workshop** is available. It provides emerging writers with the opportunity to hone their individual voice and experiment with different aesthetic strategies in a genre-specific workshop taught by an eminent writer in the field, focusing on innovative revision techniques, development of a sustainable writing process, and broadening literary knowledge of classical and contemporary masters [CRWRI-UA 820].\n\nTo enroll, students must have completed one of the following prerequisites: [CRWRI-UA 818], [CRWRI-UA 9818], [CRWRI-UA 816], [CRWRI-UA 820], [CRWRI-UA 861], or [CRWRI-UA 9828].",
-    "groundedness": "GROUNDED: All claims match the CRWRI-UA 820 course description and prerequisites listed in the context, and the course code is cited."
+    "answer": "Yes. **[CRWRI-UA 820] Advanced Fiction Workshop** is offered. It provides emerging writers the opportunity to hone their individual voice and experiment with different aesthetic strategies in a genre-specific workshop taught by an eminent writer in the field, focusing on innovative revision techniques, developing a sustainable writing process, and broadening literary knowledge of classical and contemporary masters [CRWRI-UA 820].\n\nPrerequisites for this course are one of the following: CRWRI-UA 818, CRWRI-UA 9818, CRWRI-UA 816, CRWRI-UA 820, CRWRI-UA 861, or CRWRI-UA 9828 [CRWRI-UA 820].",
+    "groundedness": "GROUNDED \u2014 the answer accurately restates CRWRI-UA 820's description and prerequisites as given in the context, with no unsupported claims."
   },
   {
     "question": "Is there an advanced poetry writing workshop?",
@@ -925,8 +925,8 @@
       "CRWRI-UA 816"
     ],
     "hit": true,
-    "answer": "Yes \u2014 **[CRWRI-UA 830] Advanced Poetry Workshop** (4.0 credits) is offered.\n\nDetails:\n- It is designed for emerging writers to \"hone their individual voice and experiment with different aesthetic strategies in a genre-specific workshop taught by an eminent writer in the field,\" focusing on \"innovative revision techniques, the development of a sustainable writing process, and the broadening of students' literary knowledge of classical and contemporary masters\" [CRWRI-UA 830].\n- Prerequisites require having completed one of the following: CRWRI-UA 830, CRWRI-UA 862, CRWRI-UA 819, CRWRI-UA 9819, CRWRI-UA 817, or CRWRI-UA 9829 [CRWRI-UA 830]. Notably, this includes **CRWRI-UA 817 (Intermediate Poetry Workshop)** as a qualifying prerequisite course [CRWRI-UA 817], suggesting a typical progression from intermediate to advanced poetry study.",
-    "groundedness": "GROUNDED \u2014 The answer accurately describes CRWRI-UA 830's course description and prerequisites as stated in the context, citing course codes correctly."
+    "answer": "Yes. **[CRWRI-UA 830] Advanced Poetry Workshop** is listed as an advanced-level poetry workshop (4.0 credits). It is designed for emerging writers to hone their individual voice, experiment with aesthetic strategies, and focus on innovative revision techniques under the guidance of an eminent writer in the field [CRWRI-UA 830].\n\nTo enroll, students must first complete one of the following prerequisite courses: CRWRI-UA 830, CRWRI-UA 862, CRWRI-UA 819, CRWRI-UA 9819, CRWRI-UA 817, or CRWRI-UA 9829 [CRWRI-UA 830]. Notably, **[CRWRI-UA 817] Intermediate Poetry Workshop** is one of the qualifying prerequisites, suggesting a typical progression from intermediate to advanced poetry study [CRWRI-UA 817].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites of CRWRI-UA 830 as stated in the context, and correctly notes CRWRI-UA 817 as one of its listed prerequisites."
   },
   {
     "question": "Is there a course on the anthropology of music?",
@@ -941,8 +941,8 @@
       "MUSIC-UA 111"
     ],
     "hit": true,
-    "answer": "Yes \u2014 **[MUSIC-UA 153] Anthropology of Music** is offered. It has no prerequisites and explores how musical practices are embedded in social life, examining histories, politics, economic flows, and individual biographies to understand music's and sound's centrality to culture and society. Topics vary by semester [MUSIC-UA 153].",
-    "groundedness": "GROUNDED \u2014 The answer accurately restates the description and details of MUSIC-UA 153 as given in the context, with no unsupported claims, and cites the course code."
+    "answer": "Yes. **[MUSIC-UA 153] Anthropology of Music** is offered, exploring how musical practices are embedded in social life, including histories, politics, economic flows, and individual biographies, and examining music's centrality to culture and society [MUSIC-UA 153]. It has no prerequisites [MUSIC-UA 153].",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's description of MUSIC-UA 153, including its content and lack of prerequisites, and cites the course code."
   },
   {
     "question": "Which course is an introduction to music technology and sustainable audio?",
@@ -957,8 +957,8 @@
       "MUSIC-UA 153"
     ],
     "hit": true,
-    "answer": "The course [MUSIC-UA 179] \"Introduction to Music Technology and Sustainable Audio\" is the one that introduces students to music technology and sustainable audio, covering topics such as MIDI, digital audio workstations, analog and digital signal processing, recording techniques, and mixing/mastering [MUSIC-UA 179].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course title and description of MUSIC-UA 179 as stated in the context, with no unsupported claims."
+    "answer": "MUSIC-UA 179 (Introduction to Music Technology and Sustainable Audio) is the course that introduces music technology and sustainable audio [MUSIC-UA 179].",
+    "groundedness": "GROUNDED \u2014 the answer directly matches the course title and code given in the context without adding unsupported claims."
   },
   {
     "question": "Which course covers the Quran and its interpretation?",
@@ -970,11 +970,11 @@
       "RELST-UA 785",
       "RELST-UA 244",
       "MEIS-UA 781",
-      "RELST-UA 983"
+      "MEDI-UA 782"
     ],
     "hit": true,
-    "answer": "Two listed courses cover the Quran and its interpretation:\n\n- **[RELST-UA 781]** *The Quran and Its Interpretation* \u2014 An introduction to the content, themes, and style of the Quran, surveying the diversity of interpretive approaches (legal, mystical, sectarian, literary, and politically engaged) in the medieval and modern periods.\n\n- **[MEIS-UA 781]** *The Qu'Ran and Its Interpretation* \u2014 Cross-listed with the same content: an introduction to the content, themes, and style of the Qur'an, surveying the diversity of interpretive approaches (legal, mystical, sectarian, literary, and politically engaged) in the medieval and modern periods.\n\nThese appear to be the same course offered under two different department codes (Religious Studies and Middle Eastern and Islamic Studies).",
-    "groundedness": "GROUNDED: The answer accurately cites RELST-UA 781 and MEIS-UA 781 with descriptions matching the CONTEXT verbatim, and the inference that they are the same cross-listed course is reasonably supported by their identical titles and descriptions."
+    "answer": "Two course listings cover the Quran and its interpretation:\n\n- **[RELST-UA 781]** *The Quran and Its Interpretation* \u2014 an introduction to the content, themes, and style of the Quran, surveying diverse interpretive approaches (legal, mystical, sectarian, literary, and politically engaged) in the medieval and modern periods.\n- **[MEIS-UA 781]** *The Qu'Ran and Its Interpretation* \u2014 same course description, cross-listed under Middle Eastern and Islamic Studies.\n\nBoth appear to be the same course offered under two different department codes.",
+    "groundedness": "GROUNDED \u2014 The answer accurately cites both RELST-UA 781 and MEIS-UA 781, matching their descriptions in the context, and reasonably infers they are cross-listed based on identical content."
   },
   {
     "question": "Is there a course on Tibetan Buddhism?",
@@ -990,8 +990,8 @@
       "ANTH-UA 224"
     ],
     "hit": true,
-    "answer": "Yes. There are two cross-listed courses on Tibetan Buddhism:\n\n- **[EAST-UA 833] Tibetan Buddhism** \u2013 Covers the principles of the tradition, from the 7th-century arrival of Buddhism in Tibet to the present-day encounter with Western devotees of exiled Tibetan lamas. Topics include doctrinal innovation, ritual, myth, art, sacred geography, revelation, and Buddhism's role in Tibet's relations with its neighbors [EAST-UA 833].\n\n- **[RELST-UA 835] Tibetan Buddhism** \u2013 Explicitly identical to [EAST-UA 833], this course provides an introduction to Tibetan Buddhist doctrine and practice from historical and thematic perspectives, beginning with a classic Tibetan guide to the tradition, and covers the same topics (doctrinal innovation, ritual, myth, art, sacred geography, revelation, and Buddhism's role in Tibet's regional relationships), using primary texts in translation and secondary scholarly literature [RELST-UA 835].\n\nBoth have no prerequisites [EAST-UA 833][RELST-UA 835].",
-    "groundedness": "GROUNDED: The answer accurately summarizes both course descriptions from the context and cites the course codes EAST-UA 833 and RELST-UA 835 without adding unsupported claims."
+    "answer": "Yes. There are two cross-listed courses on Tibetan Buddhism:\n\n- **[EAST-UA 833] Tibetan Buddhism** \u2013 Covers the tradition from its 7th-century arrival in Tibet to the present-day encounter with Western devotees of exiled Tibetan lamas, including doctrinal innovation, ritual, myth, art, sacred geography, revelation, and Buddhism's role in Tibet's relations with its neighbors.\n\n- **[RELST-UA 835] Tibetan Buddhism** \u2013 Identical to [EAST-UA 833], offered periodically. It provides an introduction to Tibetan Buddhist doctrine and practice from historical and thematic perspectives, starting with a classic Tibetan guide to the tradition and proceeding historically, with readings from primary texts in translation and secondary literature on the study of religion and Tibetan Buddhism.\n\nBoth have no prerequisites and carry 4.0 credits.",
+    "groundedness": "GROUNDED: All claims (content, prerequisites, credits, cross-listing) accurately reflect the CONTEXT and cite course codes EAST-UA 833 and RELST-UA 835."
   },
   {
     "question": "Is there a course on translation theory?",
@@ -999,15 +999,15 @@
       "COLIT-UA 121"
     ],
     "retrieved": [
+      "ITAL-UA 110",
       "COLIT-UA 121",
-      "ENGL-UA 712",
-      "LING-UA 16",
-      "EAST-UA 264",
-      "ENGL-UA 975"
+      "FREN-UA 108",
+      "GERM-UA 153",
+      "ENGL-UA 712"
     ],
     "hit": true,
-    "answer": "Yes. **[COLIT-UA 121] Translation Theory: Comparative Approaches and Case Studies** is a course dedicated to translation theory. It introduces students to key texts and issues in the history of translation theory, situating translation within comparative literary studies, cross-cultural analysis, and related fields. Topics include the figure of the translator as mediator, a history of translation theory, debates on untranslatability in world literature, the politics of translation in relation to nationalism and cultural appropriation, linguistic ecology, and translation studies in the era of AI and machine translation [COLIT-UA 121]. This course has no prerequisites [COLIT-UA 121].",
-    "groundedness": "GROUNDED: The answer accurately summarizes the content and prerequisites of COLIT-UA 121 as stated in the context, with no unsupported claims."
+    "answer": "Yes. **[COLIT-UA 121] Translation Theory: Comparative Approaches and Case Studies** is explicitly focused on translation theory, covering its history, key texts, and issues such as untranslatability, cultural politics, linguistic ecology, and translation in the age of AI [COLIT-UA 121].\n\nOther translation-related courses exist but are more practice/technique oriented rather than theory-focused, though some include theoretical elements:\n- **[ITAL-UA 110] Translation** emphasizes hands-on translation practice and language acquisition, not theory specifically [ITAL-UA 110].\n- **[FREN-UA 108] French: Advanced Techniques of Translation** focuses on practical translation challenges across various media [FREN-UA 108].\n- **[GERM-UA 153] Techniques of Translation** introduces \"history, theory, and practice of translation\" but centers on hands-on translation work between German and English [GERM-UA 153].\n\nIf you're specifically looking for a course dedicated to translation *theory*, **[COLIT-UA 121]** is the best match from these listings.",
+    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions provided (e.g., COLIT-UA 121's theoretical focus, ITAL-UA 110 and FREN-UA 108's practice orientation, and GERM-UA 153's blend of \"history, theory, and practice\"), and multiple course codes are cited."
   },
   {
     "question": "Is there a course on Marx, Nietzsche, and Freud?",
@@ -1016,14 +1016,14 @@
     ],
     "retrieved": [
       "COLIT-UA 240",
+      "GERM-UA 240",
       "POL-UA 120",
-      "HIST-UA 103",
-      "HIST-UA 509",
-      "HIST-UA 12"
+      "GERM-UA 242",
+      "RUSSN-UA 810"
     ],
     "hit": true,
-    "answer": "Yes. **[COLIT-UA 240] Marx, Nietzsche, & Freud** directly examines the work of these three authors, focusing on their notions of interpretation, history, subjectivity, politics, religion, and art [COLIT-UA 240].\n\nAdditionally, related but not identical coverage appears elsewhere:\n- **[POL-UA 120] Topics** studies political thought from Machiavelli to Nietzsche, including Marx and Nietzsche among its authors, though Freud is not mentioned [POL-UA 120].\n- **[HIST-UA 12] Modern Europe** includes Freud as one of its featured readings/writers, alongside broader European history topics, but does not focus specifically on Marx, Nietzsche, and Freud together [HIST-UA 12].\n\nThe course that most directly and specifically matches your question is **[COLIT-UA 240]**.",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions provided, and multiple course codes (COLIT-UA 240, POL-UA 120, HIST-UA 12) are cited correctly."
+    "answer": "Yes. There are two cross-listed courses specifically titled \"Marx, Nietzsche, & Freud\": [COLIT-UA 240] and [GERM-UA 240]. Both examine the work of these three authors, focusing on their notions of interpretation, history, subjectivity, politics, religion, and art, and create a dialogue between the authors around each topic rather than presenting their work chronologically.\n\nAdditionally, related but distinct courses touch on some of these thinkers individually:\n- [POL-UA 120] covers Nietzsche and Marx (among other political philosophers like Hobbes, Locke, Rousseau, and Hegel) as part of a broader survey of political thought from Machiavelli onward, but does not focus on Freud.\n- [GERM-UA 242] focuses specifically on Marx and the culture of capitalism, without covering Nietzsche or Freud.",
+    "groundedness": "GROUNDED. All claims accurately reflect the course descriptions in the context, and it cites multiple course codes (COLIT-UA 240, GERM-UA 240, POL-UA 120, GERM-UA 242) with correct details."
   },
   {
     "question": "Is there a course connecting East Asia and the Nobel Prize for Literature?",
@@ -1038,8 +1038,8 @@
       "ENGL-UA 975"
     ],
     "hit": true,
-    "answer": "Yes. [EAST-UA 800] \"East Asia and the Nobel Prize for Literature\" specifically addresses this connection, examining what the Nobel Prize reveals about the state of literature in East Asia, engaging with works by East Asian laureates and potential laureates, and critically interrogating the Nobel Prize itself alongside concepts of national literature and world literature [EAST-UA 800].",
-    "groundedness": "GROUNDED: The answer accurately summarizes the description of EAST-UA 800 without adding unsupported claims, and cites the course code."
+    "answer": "Yes. **[EAST-UA 800] East Asia and the Nobel Prize for Literature** examines what the Nobel Prize for Literature reveals about the state of literature in East Asia, engaging critically with works by East Asian laureates (and potential laureates), while also interrogating the Nobel Prize itself and its implications for concepts of national literature, world literature, and the role of literary prizes [EAST-UA 800].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description for EAST-UA 800 without adding unsupported claims, and it cites the course code."
   },
   {
     "question": "Which course covers Japanese animation and new media?",
@@ -1054,8 +1054,8 @@
       "EAST-UA 270"
     ],
     "hit": true,
-    "answer": "[EAST-UA 708] (Japanese Animation & New Media) covers Japanese animation and new media, examining anime as a unique mode of expression and considering the impact of old and new media on narrative structure and reception [EAST-UA 708].",
-    "groundedness": "GROUNDED: The answer accurately reflects the course description for EAST-UA 708 without adding unsupported claims, and it cites the course code."
+    "answer": "Japanese animation and new media is covered by **[EAST-UA 708]**, \"Japanese Animation & New Media,\" which examines anime as a distinct mode of expression, exploring themes such as mythology, ideology, genre, and the impact of old and new media on narrative structure and reception in relation to Japanese culture.",
+    "groundedness": "GROUNDED: The answer accurately summarizes the course description for EAST-UA 708 without introducing unsupported claims, and it cites the course code."
   },
   {
     "question": "Is there a course on criminology?",
@@ -1065,13 +1065,13 @@
     "retrieved": [
       "LWSOC-UA 503",
       "LWSOC-UA 506",
+      "CAMS-UA 133",
       "ANTH-UA 142",
-      "ANTH-UA 326",
-      "CLASS-UA 297"
+      "ANTH-UA 326"
     ],
     "hit": true,
-    "answer": "Yes. **[LWSOC-UA 503] Criminology** directly covers this topic, examining \"the making of criminal laws and their enforcement by police, courts, prisons, probation and parole, and other agencies,\" as well as \"criminal behavior systems, theories of crime and delinquency causation, victimization, corporate and governmental crime, and crime in the mass media\" [LWSOC-UA 503].\n\nRelated courses that touch on adjacent topics include:\n- **[LWSOC-UA 506] Juvenile Justice**, which addresses youth offending, juvenile justice system history, and criminal justice research methods [LWSOC-UA 506].\n- **[ANTH-UA 142] Anthropology of Law**, which examines law's relationship to violence and justice from an anthropological perspective, though it is not specifically a criminology course [ANTH-UA 142].\n- **[ANTH-UA 326] Introduction to Forensic Anthropology**, which deals with investigating crimes (e.g., homicides) but from a biological/forensic science angle rather than criminology proper [ANTH-UA 326].",
-    "groundedness": "GROUNDED: All claims accurately reflect the course descriptions provided in the context, and multiple course codes (e.g., LWSOC-UA 503, LWSOC-UA 506, ANTH-UA 142, ANTH-UA 326) are cited correctly with matching content."
+    "answer": "Yes \u2014 **[LWSOC-UA 503] Criminology** is specifically dedicated to this topic. It examines the making of criminal laws and their enforcement by police, courts, prisons, probation, and parole, along with criminal behavior systems, theories of crime and delinquency causation, victimization, corporate and governmental crime, crime in the mass media, and related policy questions [LWSOC-UA 503].\n\nRelated but distinct courses that touch on criminal justice themes include:\n- **[LWSOC-UA 506] Juvenile Justice**, which focuses on youth offending, juvenile justice system history, and prevention/treatment strategies rather than criminology broadly [LWSOC-UA 506].\n- **[ANTH-UA 142] Anthropology of Law**, which studies law as a social practice from an anthropological perspective, not criminology per se [ANTH-UA 142].\n- **[ANTH-UA 326] Introduction to Forensic Anthropology**, which deals with forensic science techniques for investigating crimes, but is not a criminology course [ANTH-UA 326].",
+    "groundedness": "GROUNDED \u2014 The answer accurately summarizes LWSOC-UA 503's description and correctly characterizes the other cited courses (LWSOC-UA 506, ANTH-UA 142, ANTH-UA 326) without adding unsupported claims."
   },
   {
     "question": "Is there a course on juvenile justice?",
@@ -1080,14 +1080,14 @@
     ],
     "retrieved": [
       "LWSOC-UA 506",
-      "LWSOC-UA 503",
-      "POL-UA 396",
-      "CLASS-UA 297",
-      "PHIL-UA 3"
+      "CAMS-UA 135",
+      "CAMS-UA 507",
+      "CAMS-UA 134",
+      "CAMS-UA 133"
     ],
     "hit": true,
-    "answer": "Yes \u2014 [LWSOC-UA 506] Juvenile Justice is a course that \"addresses the history of the juvenile justice system and the nature and extent of youth offending, policies, and societal implications,\" covering theoretical perspectives, prevention/treatment strategies, and the processing of juveniles within the justice system [LWSOC-UA 506].",
-    "groundedness": "GROUNDED \u2014 the answer accurately paraphrases and quotes the CONTEXT description of LWSOC-UA 506 without adding unsupported claims, and cites the course code."
+    "answer": "Yes. There are multiple courses on juvenile justice:\n\n- **[LWSOC-UA 506] Juvenile Justice** \u2014 directly addresses the history of the juvenile justice system, youth offending, policies, and criminal justice research methods.\n- **[CAMS-UA 135] Mental Health and Juvenile Justice** \u2014 focuses on the intersection of mental illness and youth involvement in the juvenile justice system.\n- **[CAMS-UA 507] With Liberty & Justice for All? How \"The System\" Fails Youth and Families** \u2014 examines juvenile justice as one of several \"systems of care\" that often fail youth.\n\nAdditionally, **[CAMS-UA 133] From Huck Finn to Columbine** touches on how the criminal justice system responds to delinquent behavior, though it is not exclusively focused on juvenile justice.",
+    "groundedness": "GROUNDED: The answer accurately cites course codes and descriptions directly supported by the CONTEXT without adding unsupported claims."
   },
   {
     "question": "Is there a course on the Arabian Nights?",
@@ -1103,7 +1103,7 @@
     ],
     "hit": true,
     "answer": "Yes. **[MEIS-UA 716] The Arabian Nights** is a course that examines the Arabian Nights as a literary meeting point between Arabic/Islamic literature and the Western canon, including close reading of the original tales' structure as well as modern variations by authors such as Poe and Rushdie.",
-    "groundedness": "GROUNDED - The answer accurately reflects the course description for MEIS-UA 716 without adding unsupported claims, and cites the course code."
+    "groundedness": "GROUNDED - The answer accurately reflects the CONTEXT description of MEIS-UA 716 without adding unsupported claims."
   },
   {
     "question": "Which course covers the Ottoman Empire?",
@@ -1119,8 +1119,8 @@
       "MEIS-UA 749"
     ],
     "hit": true,
-    "answer": "Based on the course listings, the following courses cover the Ottoman Empire:\n\n1. **[HIST-UA 515]** *The Ottoman Empire and the World Around it* \u2014 This course is directly and entirely focused on the Ottoman Empire, tracing its history from its 14th-century origins in Anatolia through its dissolution in the 20th century, covering political, economic, social, religious, and cultural dimensions [HIST-UA 515].\n\n2. **[MEIS-UA 650]** *Ottoman Empire and the World Around It* \u2014 This appears to be the same course content as HIST-UA 515, offered under the MEIS department, covering identical material on the Ottoman Empire's evolution, structures, and global impact [MEIS-UA 650].\n\n3. **[MEIS-UA 616]** *Topics in Islamic History* \u2014 This course has variable topics each semester, so it may cover the Ottoman Empire depending on the specific offering, though this is not guaranteed by the description alone [MEIS-UA 616].\n\n4. **[ARTH-UA 541]** *Art in The Islamic World II: Mongols to Modernism* \u2014 This course includes the Ottomans as one of the \"gunpowder empires\" discussed within its broader survey of Islamic art and architecture [ARTH-UA 541].\n\n5. **[MEIS-UA 749]** *Age of Empires in Early Modern Eurasia: Ottomans, Safavids, and Mughals* \u2014 This course explicitly covers the Ottoman Empire alongside the Safavid and Mughal empires, focusing on their political, cultural, and social dynamics in the early modern period [MEIS-UA 749].\n\nFor a course dedicated solely to the Ottoman Empire, **[HIST-UA 515]** and **[MEIS-UA 650]** are the most direct matches.",
-    "groundedness": "GROUNDED: every claim in the answer accurately reflects the course descriptions given in CONTEXT (including the appropriately hedged mention of MEIS-UA 616), and it cites multiple course codes such as HIST-UA 515 and MEIS-UA 650."
+    "answer": "Based on the course listings, several courses cover the Ottoman Empire:\n\n1. **[HIST-UA 515]** *The Ottoman Empire and the World Around it* \u2013 This course is entirely dedicated to the Ottoman Empire, tracing its history from its 14th-century origins as a frontier principality in Anatolia through its dissolution in the 20th century, covering political, economic, social, religious, and cultural dimensions [HIST-UA 515].\n\n2. **[MEIS-UA 650]** *Ottoman Empire and the World Around It* \u2013 This appears to be the same course as HIST-UA 515, cross-listed under the Middle Eastern and Islamic Studies department, with identical content covering the Ottoman Empire's full historical trajectory [MEIS-UA 650].\n\n3. **[MEIS-UA 749]** *Age of Empires in Early Modern Eurasia: Ottomans, Safavids, and Mughals* \u2013 This course also covers the Ottoman Empire, though as part of a comparative study alongside the Safavid and Mughal empires, focusing on early modern socio-political and cultural dynamics [MEIS-UA 749].\n\nAdditionally, two courses touch on the Ottoman Empire more indirectly:\n- **[MEIS-UA 616]** *Topics in Islamic History* \u2013 Since topics vary by semester, this course *could* cover the Ottoman Empire depending on the semester, but the listing does not confirm this specifically [MEIS-UA 616].\n- **[ARTH-UA 541]** *Art in The Islamic World II: Mongols to Modernism* \u2013 This course mentions the Ottomans as one of the \"gunpowder empires\" studied within the broader context of Islamic art and architecture [ARTH-UA 541].\n\nFor a course **exclusively focused** on the Ottoman Empire, **[HIST-UA 515]** or **[MEIS-UA 650]** would be the most direct answers.",
+    "groundedness": "GROUNDED: The answer accurately reflects the course descriptions provided, correctly noting direct Ottoman coverage in HIST-UA 515, MEIS-UA 650, and MEIS-UA 749, while appropriately hedging on MEIS-UA 616 and citing the specific \"gunpowder empires\" mention in ARTH-UA 541."
   },
   {
     "question": "Which course covers feminism and theatre?",
@@ -1135,8 +1135,8 @@
       "DRLIT-UA 296"
     ],
     "hit": true,
-    "answer": "[DRLIT-UA 240] (Feminism and Theatre) directly covers this topic, studying \"plays by female playwrights and feminist theatre from the perspective of contemporary feminist theory,\" including themes like \"strategies for asserting new images of women on stage, the dramatic devices employed by female playwrights, lesbian aesthetics, race, class, and the rejection of realism\" [DRLIT-UA 240].\n\nAdditionally, [DRLIT-UA 258] (Political Theatre) touches on related themes, noting that its focus may include \"women's performance art\" and \"feminist and queer theory\" as part of its examination of socially engaged theatre [DRLIT-UA 258].",
-    "groundedness": "GROUNDED: Both claims accurately quote and cite the provided course descriptions (DRLIT-UA 240 and DRLIT-UA 258) without adding unsupported information."
+    "answer": "DRLIT-UA 240 (Feminism and Theatre) is the course that covers this topic, examining plays by female playwrights and feminist theatre through the lens of contemporary feminist theory, including themes such as strategies for asserting new images of women on stage, lesbian aesthetics, race, class, and the rejection of realism [DRLIT-UA 240].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description for DRLIT-UA 240 without adding unsupported claims, and it cites the course code."
   },
   {
     "question": "Is there a course on musical theatre?",
@@ -1151,8 +1151,8 @@
       "DRLIT-UA 134"
     ],
     "hit": true,
-    "answer": "Yes, there is a course specifically on musical theatre: **[DRLIT-UA 296] Musical Theatre**, a 4.0-credit course with no prerequisites. The listing notes that \"topics and prerequisites vary by semester\" [DRLIT-UA 296], but no further details about specific content are provided in these listings.",
-    "groundedness": "GROUNDED: The answer accurately cites DRLIT-UA 296 Musical Theatre with correct credit value, prerequisites, and course description without adding unsupported claims."
+    "answer": "Yes. [DRLIT-UA 296] Musical Theatre is a course offered specifically on this topic, though its content notes that \"topics and prerequisites vary by semester\" [DRLIT-UA 296].",
+    "groundedness": "GROUNDED: The answer accurately cites DRLIT-UA 296 Musical Theatre and correctly quotes the context's note that topics and prerequisites vary by semester, without adding unsupported claims."
   },
   {
     "question": "Which course covers the history of Ukraine?",
@@ -1163,13 +1163,13 @@
     "retrieved": [
       "EURO-UA 765",
       "HIST-UA 765",
+      "RUSSN-UA 191",
       "HIST-UA 103",
-      "HIST-UA 292",
-      "HIST-UA 263"
+      "RUSSN-UA 810"
     ],
     "hit": true,
-    "answer": "Based on the course listings, two identical courses cover the history of Ukraine:\n\n- **[EURO-UA 765]** History of Ukraine\n- **[HIST-UA 765]** History of Ukraine\n\nThese two courses are cross-listed (identical) [EURO-UA 765][HIST-UA 765], offering an undergraduate survey of Ukrainian history spanning from the medieval period of Kyiv-Rus to the present. Topics include Ukraine's history within the Polish-Lithuanian Commonwealth, the role of the Cossacks, imperial rule by the Romanov and Habsburg empires, the Soviet era (including the Holodomor famine of the 1930s), Ukrainian independence in 1991, and the origins and course of the current war of Russian aggression [EURO-UA 765][HIST-UA 765].",
-    "groundedness": "GROUNDED: The answer accurately reflects the context, correctly identifying EURO-UA 765 and HIST-UA 765 as identical courses covering the specified topics, and cites both course codes."
+    "answer": "Both [EURO-UA 765] and [HIST-UA 765] cover the History of Ukraine\u2014they are identical cross-listed courses [EURO-UA 765]. The course offers an undergraduate survey spanning from the medieval history of Kyiv-Rus to the current ongoing war, including Ukraine's history within the Polish-Lithuanian Commonwealth, the role of the Cossacks, imperial rule by the Romanov and Habsburg empires, the Soviet era (including the Holodomor famine of the 1930s), Ukrainian independence in 1991, and the origins of the current war of Russian aggression [HIST-UA 765].",
+    "groundedness": "GROUNDED: The answer accurately reflects the content and cross-listing of EURO-UA 765 and HIST-UA 765 as described in the context, and cites both course codes."
   },
   {
     "question": "Is there a course on the global space age?",
@@ -1184,7 +1184,425 @@
       "PHYS-UA 7"
     ],
     "hit": true,
-    "answer": "Yes. **[EURO-UA 646] The Global Space Age** is a course that directly addresses this topic. It examines the rise and fall of the \"Age of Space\" from a global perspective, covering topics such as the Weimar Republic's \"rocket fad,\" Nazi \"wonder weapons,\" the Sputnik shock, the American moon landings, and the historical origins of techno-nationalism from the Cold War era to the contemporary Space Race in Asia [EURO-UA 646].",
-    "groundedness": "GROUNDED: The answer accurately summarizes the description of EURO-UA 646 without introducing unsupported claims, and it cites the course code."
+    "answer": "Yes. **[EURO-UA 646] The Global Space Age** is a course specifically on this topic. It examines \"the rise and fall of the Age of Space from a global perspective,\" covering topics such as the 'rocket fad' of the Weimar Republic, Nazi 'wonder weapons,' the Sputnik shock, the American moon landings, and the historical origins of techno-nationalism from the Cold War to today's Space Race in Asia [EURO-UA 646].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description of EURO-UA 646 without adding unsupported claims."
+  },
+  {
+    "question": "Is there a course called Machines \u00e0 \u00e9crire?",
+    "expected": [
+      "FREN-UA 905"
+    ],
+    "retrieved": [
+      "FREN-UA 905",
+      "CSCI-UA 74",
+      "EURO-UA 200",
+      "ENGL-UA 59",
+      "CSCI-UA 201"
+    ],
+    "hit": true,
+    "answer": "Yes. **Machines \u00e0 \u00e9crire** is [FREN-UA 905], a 2.0-credit course. It involves students reading works by and meeting/discussing them with contemporary French writers who speak at the Maison Fran\u00e7aise, as part of the \"French Literature in the Making\" interview series organized by journalist Olivier Barrot [FREN-UA 905].\n\nThe prerequisites are one of the following: FREN-UA 30, FREN-UA 9030, FREN-UA 101, FREN-UA 9101, FREN-UA 105, or FREN-UA 9105 [FREN-UA 905].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description, credits, and prerequisites for FREN-UA 905 as stated in the context."
+  },
+  {
+    "question": "Is there a course called History of the French Language?",
+    "expected": [
+      "FREN-UA 920"
+    ],
+    "retrieved": [
+      "FREN-UA 920",
+      "LING-UA 1",
+      "LING-UA 59",
+      "LING-UA 44",
+      "LING-UA 42"
+    ],
+    "hit": true,
+    "answer": "Yes. **History of the French Language** [FREN-UA 920] is listed, worth 4.0 credits, with a prerequisite of [FREN-UA 30].\n\nAccording to the description in [FREN-UA 920], the course traces the development of French \"from its origins in Vulgar Latin up until the beginning of the modern era,\" examining both its internal history (phonological, morphological, syntactic, and semantic changes) and external history (social, demographic, and political changes). It is conducted in French/English and does not require prior knowledge of linguistics, per [FREN-UA 920].",
+    "groundedness": "GROUNDED: All claims (credits, prerequisite, course description details, language of instruction, no linguistics prerequisite) are directly supported by the FREN-UA 920 entry in the context."
+  },
+  {
+    "question": "Is there a course called The German Enlightenment?",
+    "expected": [
+      "GERM-UA 347"
+    ],
+    "retrieved": [
+      "GERM-UA 347",
+      "HIST-UA 509",
+      "GERM-UA 369",
+      "COLIT-UA 220",
+      "EURO-UA 167"
+    ],
+    "hit": true,
+    "answer": "Yes. **The German Enlightenment** is offered as [GERM-UA 347], a 4.0-credit course with no prerequisites. Note that its topics vary by semester, so students should check the German Department website for the current term's specific course description [GERM-UA 347].",
+    "groundedness": "GROUNDED: All claims (course title, code, credits, no prerequisites, topics vary by semester, check department website) are directly supported by the CONTEXT entry for GERM-UA 347."
+  },
+  {
+    "question": "Is there a course called Fin De Siecle?",
+    "expected": [
+      "GERM-UA 466"
+    ],
+    "retrieved": [
+      "GERM-UA 466",
+      "EURO-UA 998",
+      "EURO-UA 200",
+      "PORT-UA 171",
+      "PORT-UA 170"
+    ],
+    "hit": true,
+    "answer": "Yes. **[GERM-UA 466] Fin De Siecle** is listed as a 4.0-credit course with no prerequisites. Its topics vary by semester, and the current course description is available on the German Department website [GERM-UA 466].",
+    "groundedness": "GROUNDED: The answer accurately reflects the details given for GERM-UA 466 in the context, including credits, prerequisites, and the note about varying topics, and cites the course code."
+  },
+  {
+    "question": "Is there a course called The Passions of Elena Ferrante?",
+    "expected": [
+      "ITAL-UA 300"
+    ],
+    "retrieved": [
+      "ITAL-UA 300",
+      "DRLIT-UA 971",
+      "ITAL-UA 180",
+      "ITAL-UA 285",
+      "DRLIT-UA 175"
+    ],
+    "hit": true,
+    "answer": "Yes. **[ITAL-UA 300]** is titled \"The Passions of Elena Ferrante,\" a 4.0-credit course with no prerequisites that examines Elena Ferrante's Neapolitan novels, interviews, and essays, exploring the emotions and political implications of her work alongside influences like Adriana Cavarero, Carla Lonzi, Luisa Muraro, Elsa Morante, Christa Wolf, and Ingeborg Bachmann [ITAL-UA 300].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course title, credits, prerequisites, and description from ITAL-UA 300 as given in the context, with no unsupported claims."
+  },
+  {
+    "question": "Is there a course called From Polenta to Marinara: History of Italian Food?",
+    "expected": [
+      "ITAL-UA 400",
+      "ITAL-UA 405"
+    ],
+    "retrieved": [
+      "ITAL-UA 400",
+      "ITAL-UA 405",
+      "HIST-UA 176",
+      "ITAL-UA 171",
+      "COLIT-UA 173"
+    ],
+    "hit": true,
+    "answer": "Yes. There are actually two versions of this course listed:\n\n- **[ITAL-UA 400]** *From Polenta to Marinara: History of Italian Food* (2.0 credits) \u2014 no prerequisites. It covers the history of Italian food from past civilizations through World War I (ancient Rome, Medieval, Renaissance, Risorgimento, to the modern era), and in its second half explores regional Italian food varieties and their role in arts, film, and TV.\n\n- **[ITAL-UA 405]** *From Polenta to Marinara: History of Italian Food* (4.0 credits) \u2014 no prerequisites. It covers the same historical arc of Italian food history (ancient Rome through the Risorgimento and into the modern era, up to World War I and the era of immigration), but is a 4-credit version without the additional focus on regional food/arts described in the 2-credit version.\n\nSo the same course title exists in two credit variants: [ITAL-UA 400] (2 credits) and [ITAL-UA 405] (4 credits).",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's two listings for \"From Polenta to Marinara: History of Italian Food\" (ITAL-UA 400, 2 credits, and ITAL-UA 405, 4 credits) without introducing unsupported claims."
+  },
+  {
+    "question": "Is there a course called Tropic\u00e1lia: Pop, Politics, and Counterculture in Brazil?",
+    "expected": [
+      "PORT-UA 304"
+    ],
+    "retrieved": [
+      "PORT-UA 304",
+      "PORT-UA 401",
+      "PORT-UA 500",
+      "PORT-UA 50",
+      "LATC-UA 370"
+    ],
+    "hit": true,
+    "answer": "Yes. **Tropic\u00e1lia: Pop, Politics, and Counterculture in Brazil** is offered as [PORT-UA 304], a 4.0-credit course. It explores Brazil's \"tropicalist\" musical, artistic, and literary movement of the 1960s\u201370s, covering figures like Caetano Veloso, Gilberto Gil, Gal Costa, Os Mutantes, Tom Z\u00e9, and Jorge Ben, as well as related visual artists, poets, and filmmakers [PORT-UA 304].\n\nThe prerequisites for this course are **PORT-UA 50** (Advanced Portuguese) along with a written exam or permission of the Directors of the Language Program [PORT-UA 304].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course details, description, and prerequisites as stated in the context, and cites the course code PORT-UA 304."
+  },
+  {
+    "question": "Is there a course called On Eating Others?",
+    "expected": [
+      "PORT-UA 403"
+    ],
+    "retrieved": [
+      "PORT-UA 403",
+      "ANTH-UA 238",
+      "ANTH-UA 131",
+      "CAMS-UA 203",
+      "ANST-UA 440"
+    ],
+    "hit": true,
+    "answer": "Yes, there is a course called **\"On Eating Others\"** [PORT-UA 403]. It explores cannibalism as an intellectual and historical concept related to notions of \"the other,\" rather than as a strictly anthropological topic. The course examines texts ranging from Columbus's diaries to modern works by authors such as Montaigne, Shakespeare, Oswald de Andrade, Nelson Pereira dos Santos, and Suely Rolnik, incorporating postcolonial theory [PORT-UA 403]. It carries 4.0 credits and has no prerequisites [PORT-UA 403].",
+    "groundedness": "GROUNDED: All claims (title, topics, authors, credits, prerequisites) accurately reflect the PORT-UA 403 course description, and the course code is cited."
+  },
+  {
+    "question": "Is there a course called Tolstoy Vs. Dostoevsky?",
+    "expected": [
+      "RUSSN-UA 846"
+    ],
+    "retrieved": [
+      "RUSSN-UA 846",
+      "RUSSN-UA 822",
+      "RUSSN-UA 810",
+      "RUSSN-UA 191",
+      "HIST-UA 103"
+    ],
+    "hit": true,
+    "answer": "Yes. **[RUSSN-UA 846] Tolstoy Vs. Dostoevsky** is a 4.0-credit course with no prerequisites. It examines novels and shorter texts by Lev Tolstoy and Fyodor Dostoevsky in the context of Russian history and culture, covering topics such as modernity and the rise of the novel, philosophy of history, theory and history of the novel, literature and social critique, and the principles and limits of literary representation. Readings and discussions are in English, and no prior background in Russian literature or culture is required, though students should be willing to read extensively and participate in discussion [RUSSN-UA 846].",
+    "groundedness": "GROUNDED: The answer accurately reflects the details given for RUSSN-UA 846 in the context without adding unsupported claims, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Gogol?",
+    "expected": [
+      "RUSSN-UA 828"
+    ],
+    "retrieved": [
+      "RUSSN-UA 828",
+      "EURO-UA 200",
+      "RUSSN-UA 810",
+      "GERM-UA 377",
+      "EAST-UA 262"
+    ],
+    "hit": true,
+    "answer": "Yes. [RUSSN-UA 828] is titled \"Gogol\" \u2014 a critical examination of Gogol's short stories and his unfinished novel Dead Souls, with no prerequisites.",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the CONTEXT entry for RUSSN-UA 828 (title, description, and \"no prerequisites\"), and cites the course code."
+  },
+  {
+    "question": "Is there a course called Jewish Humor?",
+    "expected": [
+      "HBRJD-UA 152"
+    ],
+    "retrieved": [
+      "HBRJD-UA 152",
+      "HBRJD-UA 625",
+      "RELST-UA 679",
+      "HBRJD-UA 140",
+      "HBRJD-UA 590"
+    ],
+    "hit": true,
+    "answer": "Yes \u2014 **[HBRJD-UA 152] Jewish Humor** is listed as a 4.0-credit course with no prerequisites. It traces the history of Jewish humor from 19th-century Yiddish-speaking Eastern Europe through its evolution in America, covering figures like Sholem Aleichem, Woody Allen, Mel Brooks, Joan Rivers, Sarah Silverman, Jerry Seinfeld, and Larry David, as well as humor's role as a coping mechanism against antisemitism and the Holocaust [HBRJD-UA 152].",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course details from HBRJD-UA 152 as described in the context, with no unsupported claims, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Yiddish in America?",
+    "expected": [
+      "HBRJD-UA 144"
+    ],
+    "retrieved": [
+      "HBRJD-UA 144",
+      "GERM-UA 377",
+      "HBRJD-UA 590",
+      "RUSSN-UA 191",
+      "HBRJD-UA 664"
+    ],
+    "hit": true,
+    "answer": "Yes. **[HBRJD-UA 144] Yiddish in America** is a 4.0-credit course with no prerequisites. It explores the role of Yiddish in U.S. history and culture, from the mass migration era at the turn of the 20th century to the present, covering Yiddish-speaking farmers, trade unionists, Anarchists, Socialists, Zionists, and Communists, as well as the Yiddish press, theater, cinema, scholarship, and literature\u2014including authors like Morris Rosenfeld, Sholom Asch, Isaac Bashevis Singer, and Abraham Cahan [HBRJD-UA 144].",
+    "groundedness": "GROUNDED: The answer accurately summarizes the course description for HBRJD-UA 144 as given in the context, without adding unsupported claims, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Greek Islands: Myth, Archaeology, and Networks?",
+    "expected": [
+      "HEL-UA 700"
+    ],
+    "retrieved": [
+      "HEL-UA 700",
+      "CLASS-UA 972",
+      "HEL-UA 108",
+      "CLASS-UA 305",
+      "HEL-UA 130"
+    ],
+    "hit": true,
+    "answer": "Yes, there is a course called **Greek Islands: Myth, Archaeology, and Networks** [HEL-UA 700]. It has no prerequisites and examines \"insularity\" across the Greek world from Prehistory through Byzantine times, focusing on archaeology and material culture, including topics like ecology, art and architecture, myth and history, religious/political/economic networks, colonization, and maritime networks [HEL-UA 700].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course details from HEL-UA 700 as stated in the context, with no unsupported claims, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Modern Greek Politics?",
+    "expected": [
+      "HEL-UA 525"
+    ],
+    "retrieved": [
+      "HEL-UA 525",
+      "CLASS-UA 206",
+      "CLASS-UA 972",
+      "HEL-UA 107",
+      "HEL-UA 159"
+    ],
+    "hit": true,
+    "answer": "Yes \u2014 [HEL-UA 525] is titled \"Modern Greek Politics\" (4.0 credits, no prerequisites). It examines Greek politics and society, including topics like mass politics and clientelism, polarization and democratic stability, development without industrialization, the relationship between the state and the economy, and debates on modernization theory [HEL-UA 525].",
+    "groundedness": "GROUNDED \u2014 the answer accurately reflects the title, credits, prerequisites, and content described for HEL-UA 525 in the context, and cites the course code."
+  },
+  {
+    "question": "Is there a course called The Beckett Colloquium?",
+    "expected": [
+      "IRISH-UA 626"
+    ],
+    "retrieved": [
+      "ENGL-UA 700",
+      "IRISH-UA 626",
+      "DRLIT-UA 244",
+      "ARTH-UA 450",
+      "CLASS-UA 150"
+    ],
+    "hit": true,
+    "answer": "Yes, there is a course called **The Beckett Colloquium**, listed as [IRISH-UA 626]. It involves an intensive examination of Samuel Beckett's career, covering his poetry, novels, letters, essays, and dramatic works, along with the literary, philosophical, political, and historical contexts of his writing [IRISH-UA 626]. There are no prerequisites for this course [IRISH-UA 626].",
+    "groundedness": "GROUNDED: All claims match the CONTEXT entry for IRISH-UA 626, which is cited."
+  },
+  {
+    "question": "Is there a course called Slave, Saint, and Symbol: Saint Patrick's Life and Legacy?",
+    "expected": [
+      "IRISH-UA 801"
+    ],
+    "retrieved": [
+      "IRISH-UA 801",
+      "MEDI-UA 761",
+      "RELST-UA 181",
+      "HIST-UA 181",
+      "IRISH-UA 181"
+    ],
+    "hit": true,
+    "answer": "Yes. There is a course titled \"Slave, Saint, and Symbol: Saint Patrick's Life and Legacy\" \u2014 [IRISH-UA 801]. It explores how Patrick, taken to Ireland as a slave in Late Antique Britain, became Ireland's chief saint, examining his own writings, seventh-century political promotion of his cult, medieval depictions of him, and his eventual status as a secular symbol of Ireland [IRISH-UA 801].\n\nNote: [MEDI-UA 761], listed under the title \"Myths and Culture of The Ancient Celts,\" has an identical course description to [IRISH-UA 801], which appears to be a listing inconsistency in the provided data.",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course description under IRISH-UA 801 and correctly notes the description overlap with MEDI-UA 761, without adding unsupported claims."
+  },
+  {
+    "question": "Is there a course called Elementary Quechua I?",
+    "expected": [
+      "LATC-UA 101"
+    ],
+    "retrieved": [
+      "LATC-UA 101",
+      "LATC-UA 102",
+      "LATC-UA 104",
+      "LATC-UA 103",
+      "EAST-UA 202"
+    ],
+    "hit": true,
+    "answer": "Yes. **Elementary Quechua I** is listed as [LATC-UA 101], a 4.0-credit course with no prerequisites.",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT, which lists LATC-UA 101 as \"Elementary Quechua I\" with 4.0 credits and no prerequisites."
+  },
+  {
+    "question": "Is there a course called Elementary Haitian Creole I?",
+    "expected": [
+      "LATC-UA 121"
+    ],
+    "retrieved": [
+      "LATC-UA 121",
+      "LATC-UA 122",
+      "LATC-UA 123",
+      "LATC-UA 124",
+      "FREN-UA 26"
+    ],
+    "hit": true,
+    "answer": "Yes \u2014 [LATC-UA 121] Elementary Haitian Creole I is offered, worth 4.0 credits with no prerequisites. It introduces students with little or no prior knowledge to Haitian Krey\u00f2l, developing introductory speaking, reading, and writing skills [LATC-UA 121].",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course details from LATC-UA 121 as stated in the context, including credits, prerequisites, and course description, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Medieval Latin?",
+    "expected": [
+      "MEDI-UA 824"
+    ],
+    "retrieved": [
+      "MEDI-UA 824",
+      "CLASS-UA 5",
+      "CLASS-UA 3",
+      "ENGL-UA 950",
+      "CLASS-UA 4"
+    ],
+    "hit": true,
+    "answer": "Yes. There is a course called **Medieval Latin**, listed as [MEDI-UA 824]. It has no prerequisites, and its description notes that it should be viewed under Classics (CLASS-UA), suggesting cross-listing with the Classics department [MEDI-UA 824].",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT's description of MEDI-UA 824, including its lack of prerequisites and cross-reference to Classics, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Introductory Old English?",
+    "expected": [
+      "MEDI-UA 960"
+    ],
+    "retrieved": [
+      "MEDI-UA 960",
+      "IRISH-UA 102",
+      "IRISH-UA 101",
+      "IRISH-UA 103",
+      "ENGL-UA 445"
+    ],
+    "hit": true,
+    "answer": "Yes. **[MEDI-UA 960] Introductory Old English** is listed as a 4.0-credit course with no prerequisites. It introduces students to the Old English language, literature, and culture of pre-Norman England, covering grammar and vocabulary, along with topics like the heroic code, conversion and cultural syncretism, Anglo-Saxon law and customs, Viking invasions, and the Norman Conquest. The course concludes with reading excerpts from *Beowulf* in the original Old English and performing scenes from the poem [MEDI-UA 960].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description in the context and cites MEDI-UA 960."
+  },
+  {
+    "question": "Is there a course called Animal Minds?",
+    "expected": [
+      "ANST-UA 410"
+    ],
+    "retrieved": [
+      "ANST-UA 410",
+      "ENVST-UA 500",
+      "ANST-UA 200",
+      "ENVST-UA 346",
+      "ANST-UA 650"
+    ],
+    "hit": true,
+    "answer": "Yes \u2014 **Animal Minds** is offered as [ANST-UA 410], a 4.0-credit course with no prerequisites. It examines the philosophy of cognitive ethology and comparative psychology, addressing questions about animal consciousness, agency, and moral status [ANST-UA 410].",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course title, code, credits, prerequisites, and content described for ANST-UA 410 in the context."
+  },
+  {
+    "question": "Is there a course called Animals and Public Policy?",
+    "expected": [
+      "ANST-UA 500",
+      "ENVST-UA 630"
+    ],
+    "retrieved": [
+      "ANST-UA 500",
+      "ENVST-UA 630",
+      "ANST-UA 400",
+      "ENVST-UA 346",
+      "ENVST-UA 500"
+    ],
+    "hit": true,
+    "answer": "Yes. \"Animals and Public Policy\" is offered under two course codes: [ANST-UA 500] and [ENVST-UA 630]. Both are 4.0-credit courses with no prerequisites, and both share the same description, which covers how public policy is created, how social change occurs, and the influence of science, government, business, and non-governmental organizations on animal-related policies, legislation, litigation, and consumer campaigns, as well as the meaning of \"animal rights\" and the impact of the modern animal protection movement.",
+    "groundedness": "GROUNDED: The answer accurately reflects the CONTEXT, citing both ANST-UA 500 and ENVST-UA 630, with matching credit values, prerequisites, and descriptions."
+  },
+  {
+    "question": "Is there a course called The Science of Happiness?",
+    "expected": [
+      "CAMS-UA 110"
+    ],
+    "retrieved": [
+      "CAMS-UA 110",
+      "CAMS-UA 205",
+      "PSYCH-UA 79",
+      "HBRJD-UA 422",
+      "CAMS-UA 147"
+    ],
+    "hit": true,
+    "answer": "Yes. **The Science of Happiness** is [CAMS-UA 110], a 4.0-credit course with no prerequisites. It examines college-student mental health and wellness, drawing on neuroscience and positive psychology to explore topics like mindfulness, relationships, and self-esteem, culminating in a final project promoting mental wellness on campus.",
+    "groundedness": "GROUNDED: The answer accurately summarizes CAMS-UA 110's details as stated in the context and cites the course code."
+  },
+  {
+    "question": "Is there a course called Clicks, Likes, and Tweets: Behavioral Addiction in the Digital Space?",
+    "expected": [
+      "CAMS-UA 503"
+    ],
+    "retrieved": [
+      "CAMS-UA 503",
+      "ANTH-UA 126",
+      "CAMS-UA 150",
+      "HIST-UA 314",
+      "HIST-UA 4"
+    ],
+    "hit": true,
+    "answer": "Yes \u2014 **[CAMS-UA 503] Clicks, Likes, and Tweets: Behavioral Addiction in the Digital Space** is offered, worth 2.0 credits with no prerequisites. It examines behavioral addiction to smartphones and digital platforms, covering the brain mechanisms and behavioral patterns underlying addiction, how these mechanisms are exploited to capture attention, the emotional/physical/social consequences of digital device overuse, and strategies to regain balance at personal and societal levels [CAMS-UA 503].",
+    "groundedness": "GROUNDED \u2014 The answer accurately reflects the course details (credits, prerequisites, and content topics) as stated in CONTEXT and cites CAMS-UA 503."
+  },
+  {
+    "question": "Is there a course called Writing toward Linguistic Justice?",
+    "expected": [
+      "EXPOS-UA 11"
+    ],
+    "retrieved": [
+      "EXPOS-UA 11",
+      "EXPOS-UA 9",
+      "ENGL-UA 201",
+      "EXPOS-UA 4",
+      "COLIT-UA 125"
+    ],
+    "hit": true,
+    "answer": "Yes, there is a course called **Writing toward Linguistic Justice** [EXPOS-UA 11]. It has no prerequisites and immerses students in debates over conceptions of voice in writing studies, using case studies (starting with the 1974 \"Students' Rights to Their Own Language\" resolution) to explore questions about what writing is, what it does, how writers write, and what rules writers follow [EXPOS-UA 11].",
+    "groundedness": "GROUNDED: The answer accurately reflects the course description and prerequisites for EXPOS-UA 11 as stated in the context, and cites the course code."
+  },
+  {
+    "question": "Is there a course called Advanced Essay Writing for Science?",
+    "expected": [
+      "EXPOS-UA 16"
+    ],
+    "retrieved": [
+      "EXPOS-UA 16",
+      "EXPOS-UA 22",
+      "EXPOS-UA 1",
+      "EXPOS-UA 30",
+      "EXPOS-UA 100"
+    ],
+    "hit": true,
+    "answer": "Yes. **[EXPOS-UA 16] Advanced Essay Writing for Science** is a 4.0-credit course designed for science and pre-health students. It focuses on building the ability to read and summarize research papers, write grant proposals, understand disciplinary writing conventions, develop multimodal science communication skills, and reflect in writing on motivations to pursue a career in science or medicine [EXPOS-UA 16].\n\nIts prerequisites are either EXPOS-UA 1, or both EXPOS-UA 4 and EXPOS-UA 9, and it also requires the student's Academic Program to be UA-College of Arts & Science [EXPOS-UA 16].",
+    "groundedness": "GROUNDED: All claims match the CONTEXT description of EXPOS-UA 16, and the course code is cited."
   }
 ]

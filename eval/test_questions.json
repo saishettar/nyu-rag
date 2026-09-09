@@ -294,5 +294,109 @@
   {
     "question": "Is there a course on the global space age?",
     "expected_course_codes": ["EURO-UA 646"]
+  },
+  {
+    "question": "Is there a course called Machines à écrire?",
+    "expected_course_codes": ["FREN-UA 905"]
+  },
+  {
+    "question": "Is there a course called History of the French Language?",
+    "expected_course_codes": ["FREN-UA 920"]
+  },
+  {
+    "question": "Is there a course called The German Enlightenment?",
+    "expected_course_codes": ["GERM-UA 347"]
+  },
+  {
+    "question": "Is there a course called Fin De Siecle?",
+    "expected_course_codes": ["GERM-UA 466"]
+  },
+  {
+    "question": "Is there a course called The Passions of Elena Ferrante?",
+    "expected_course_codes": ["ITAL-UA 300"]
+  },
+  {
+    "question": "Is there a course called From Polenta to Marinara: History of Italian Food?",
+    "expected_course_codes": ["ITAL-UA 400", "ITAL-UA 405"]
+  },
+  {
+    "question": "Is there a course called Tropicália: Pop, Politics, and Counterculture in Brazil?",
+    "expected_course_codes": ["PORT-UA 304"]
+  },
+  {
+    "question": "Is there a course called On Eating Others?",
+    "expected_course_codes": ["PORT-UA 403"]
+  },
+  {
+    "question": "Is there a course called Tolstoy Vs. Dostoevsky?",
+    "expected_course_codes": ["RUSSN-UA 846"]
+  },
+  {
+    "question": "Is there a course called Gogol?",
+    "expected_course_codes": ["RUSSN-UA 828"]
+  },
+  {
+    "question": "Is there a course called Jewish Humor?",
+    "expected_course_codes": ["HBRJD-UA 152"]
+  },
+  {
+    "question": "Is there a course called Yiddish in America?",
+    "expected_course_codes": ["HBRJD-UA 144"]
+  },
+  {
+    "question": "Is there a course called Greek Islands: Myth, Archaeology, and Networks?",
+    "expected_course_codes": ["HEL-UA 700"]
+  },
+  {
+    "question": "Is there a course called Modern Greek Politics?",
+    "expected_course_codes": ["HEL-UA 525"]
+  },
+  {
+    "question": "Is there a course called The Beckett Colloquium?",
+    "expected_course_codes": ["IRISH-UA 626"]
+  },
+  {
+    "question": "Is there a course called Slave, Saint, and Symbol: Saint Patrick's Life and Legacy?",
+    "expected_course_codes": ["IRISH-UA 801"]
+  },
+  {
+    "question": "Is there a course called Elementary Quechua I?",
+    "expected_course_codes": ["LATC-UA 101"]
+  },
+  {
+    "question": "Is there a course called Elementary Haitian Creole I?",
+    "expected_course_codes": ["LATC-UA 121"]
+  },
+  {
+    "question": "Is there a course called Medieval Latin?",
+    "expected_course_codes": ["MEDI-UA 824"]
+  },
+  {
+    "question": "Is there a course called Introductory Old English?",
+    "expected_course_codes": ["MEDI-UA 960"]
+  },
+  {
+    "question": "Is there a course called Animal Minds?",
+    "expected_course_codes": ["ANST-UA 410"]
+  },
+  {
+    "question": "Is there a course called Animals and Public Policy?",
+    "expected_course_codes": ["ANST-UA 500", "ENVST-UA 630"]
+  },
+  {
+    "question": "Is there a course called The Science of Happiness?",
+    "expected_course_codes": ["CAMS-UA 110"]
+  },
+  {
+    "question": "Is there a course called Clicks, Likes, and Tweets: Behavioral Addiction in the Digital Space?",
+    "expected_course_codes": ["CAMS-UA 503"]
+  },
+  {
+    "question": "Is there a course called Writing toward Linguistic Justice?",
+    "expected_course_codes": ["EXPOS-UA 11"]
+  },
+  {
+    "question": "Is there a course called Advanced Essay Writing for Science?",
+    "expected_course_codes": ["EXPOS-UA 16"]
   }
 ]

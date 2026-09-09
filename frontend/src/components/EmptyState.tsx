@@ -122,7 +122,7 @@ export function EmptyState({
         </div>
       )}
 
-      <p className="mt-4 text-xs text-faint">evaluated on 74 hand-written course-planning questions</p>
+      <p className="mt-4 text-xs text-faint">evaluated on 100 hand-written course-planning questions</p>
     </div>
   );
 }

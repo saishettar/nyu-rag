@@ -1,0 +1,83 @@
+[
+  {
+    "course_code": "ANST-UA 200",
+    "title": "Animals & Society",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course analyzes the ways that animal and human lives intersect.  Specifically, it examines how relationships with animals both reflect and shape social life, culture, and how people think about themselves.  We will explore the myriad and contradictory positions that animals occupy in society (e.g., as pets, pests) and deconstruct the social origins of these seemingly natural categories.  We will also take a grounded look at what actually happens when humans and animals interact, which sheds new light on the nature of human and animal consciousness.  Fundamentally, students will learn how the roles that animals take on in our lives, and the ways that we think about and relate to them, are patterned by geography, culture, class, gender, and so on.",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 323",
+    "title": "Introduction to Marine Ecology and Conservation",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course analyzes several aspects of our oceans, with particular emphasis on human impacts and examines some of the recent major threats, including lack of governance for the high seas, deep-sea mining, and the effects of climate change on aquatic animals. We will focus ecological relationships between marine organisms and their environment, with the introduction of humans as marine predators and ecological disturbers",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 400",
+    "title": "Ethics and Animals",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the morality of our treatment of nonhuman animals. We start by asking about the nature of moral rights and duties. What are rights, and where do they come from? How do we resolve conflicts among rights? Do animals have rights? Next, what are obligations, and where do they come from? What makes right actions right? Do we have special obligations to members of our own family, nation, or species? Is there a moral difference between killing and letting die? Do we have group obligations as well as individual obligations? We then ask how these issues apply to our treatment of nonhuman animals. Are we justified in treating animals as property under the law? Are we justified in using animals for food, clothing, entertainment, research, or companionship? Finally, what are the ethics of animal advocacy? Here we consider abolition vs. regulation, incrementalism vs. absolutism, and legal reform vs. direct action.",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 410",
+    "title": "Animal Minds",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course examines the philosophy of cognitive ethology and comparative psychology. We begin by discussing the nature of animal minds. Are animals conscious? Do they experience pain? Do they have beliefs? Do they use language? Are they self-conscious? How can we know? This involves applying concepts from metaphysics and epistemology to research in cognitive ethology and comparative psychology. We then discuss more general questions like: Are animals agents? Do they have free will? Do they live meaningful lives? Do they have moral rights? This involves applying concepts from ethics, existentialism, and other areas of philosophy to our conclusions about animal minds. Finally, we also ask, along the way, how research on animal minds can affect our philosophical theories. For example, should we revise our theories of consciousness, language, agency, morality, and so on if they seem to have implausible implications about animals?",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 440",
+    "title": "Food, Animals, & The Environment",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The purpose of Food, Animals, and the Environment is to critically analyze the place of animals in our food system and in the environment, with an emphasis on the intersection between them. The course examines the main impacts that agriculture has on humans, nonhumans, and the environment, as well as some of the questions that these impacts raise for the ethics of food production, consumption, and activism. This seminar is designed to reflect the rich overlap between the fields of Environmental Studies and Animal Studies.",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 475",
+    "title": "Literature and the Environment",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This class explores the role of literature in creating empathy \u2013 how can it help us imagine the lives of \u201cothers\u201d & that of animals? By querying the politics of meat mainly through contemporary literature, we put three similar (yet often disconnected) disciplines in conversation with each other: food studies, environmental studies, and animal studies. Two key questions we will address are:  1. What relationship \u2013 if any \u2013 is there between what we eat and who we are? 2. How are the intimate spaces of both human and nonhuman bodies \u2013 and their cultivation \u2013 related to notions of ecological violence?",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 500",
+    "title": "Animals and Public Policy",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Considers how public policy is created, how social change\noccurs, and the influence of science, government, business, and\nnon-governmental organizations on animal-related policies, legislation,\nlitigation, and consumer campaigns, as well the meaning of \u201canimal rights\u201d\nand the impact of the modern animal protection movement.",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 600",
+    "title": "Topics in AS:",
+    "department": "anst_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "\"Topics vary by semester.\nPrerequisites vary by topic\"",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  },
+  {
+    "course_code": "ANST-UA 650",
+    "title": "Topics in Animal Studies",
+    "department": "anst_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Topics vary by semester.\nPrerequisites vary by topic",
+    "source_url": "https://bulletins.nyu.edu/courses/anst_ua/"
+  }
+]

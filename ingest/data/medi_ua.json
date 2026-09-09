@@ -1,0 +1,524 @@
+[
+  {
+    "course_code": "MEDI-UA 1",
+    "title": "History of Western Art I",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the history of painting, sculpture, and architecture from ancient times to the dawn of the Renaissance, emphasizing the place of the visual arts in the history of civilization. Includes the study of significant works in New York museums, such as the Metropolitan Museum of Art, the Cloisters, and the Brooklyn Museum.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 2",
+    "title": "History of Western Art II",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the history of painting, sculpture, and architecture from the early Renaissance to the present day. Includes the study of significant works in New York museums, such as the Metropolitan Museum of Art, the Frick Collection, the Guggenheim Museum, and the Museum of Modern Art.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 12",
+    "title": "Literature & Culture of Renaissance",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 20",
+    "title": "Medieval Art",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 91",
+    "title": "Topics",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 98",
+    "title": "Art in The Islamic World",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 105",
+    "title": "History of Christian Thought",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 111",
+    "title": "The Early Middle Ages",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Europe in the early Middle Ages was created out of a mixture of ingredients?the legacy of the Roman Empire; the growth and development of Christianity; invading peoples who settled within the boundaries of the former Roman Empire; the clash of competing languages, religions, and legal systems. This tumultuous time forged a new entity, medieval Europe, whose development, growing pains, and creative successes this course examines. Uses the records and artifacts of the period itself as central elements for investigating the period.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 115",
+    "title": "Readings in Medieval and Renaissance Literature",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ITAL-UA 30 OR ITAL-UA 9030 ).",
+    "description": "Introductory-level literature course that, through a close reading of authors such as Dante, Boccaccio, Petrarch, Machiavelli, and Ariosto, focuses on how to understand a literary text in Italian. Covers Italian literature from its origins to the 17th century.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 121",
+    "title": "The Renaissance",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The history of the Renaissance from its origins in the 14th century to its waning at the end of the 16th century. Focuses on developments in Italy, especially the development of republican city-states, the social basis for the explosion in artistic and intellectual production, and the emergence of new forms of political and scientific analysis.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 130",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Varying in content from term to term, these courses are designed to\nintroduce students to the Middle Ages and/or Renaissance through the lens\nof a broadly defined topic: for instance, a defining cultural preoccupation\nor ambition, such as \"world-making\"; an influential cultural production or\nphenomenon, such as the literature of exploration and travel; or the\norigins and development of a material and social structure, such as the\ncity.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 147",
+    "title": "Machiavelli",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The inventor of modern political science, Niccol\u00f2 Machiavelli is one of the most original thinkers in the history of Western civilization. Machiavelli\u2019s political, historical, and theatrical works are read in the context in which they were conceived\u2014the much tormented and exciting Florence of the 15th and early 16th centuries, struggling between republican rule and the magnificent tyranny of the Medici family.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 148",
+    "title": "Giordano Bruno and the Art of Memory",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "The Art of Memory reached a peak of refinement during the Italian Renaissance. Far more than instruments for remembering, memory devices aimed to organize knowledge and were intended as tools for creative output. We examine the impact of the culture of memory on the literary production of the time, highlighting the interdependence between textual and visual codes. Focuses on the heretic philosopher and cosmologist Giordano Bruno, burned at the stake by the Roman Inquisition in 1600, who conceived his imposing mnemonic system as an inner mirror of the infinite universe. Sampling the varied textual genres of Bruno's work (philosophical dialogues, writings on magic, a satirical comedy), we seek to answer the same question posed to Bruno by Henry III of France: is the Art of Memory acquired \"by magic\" or \"by science\"?",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 155",
+    "title": "Colloq: Shakespeare",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Specific plays and poetry vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 172",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 173",
+    "title": "Topics in Italian Cult:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 201",
+    "title": "Art of Early Mid Ages",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 4 OR MEDI-UA 1 OR MEDI-UA 200  OR Advanced Placement Examination Art History >= 5).",
+    "description": "Christian architecture, sculpture, painting, mosaic, manuscript illumination, and luxury arts of the Greek East and Latin West from their origins ca. 200 C.E. through ca. 950 C.E. Considers the visual and material culture of Christianity in the Mediterranean world, Asia Minor, the Middle East, and northern Europe in light of the religious, historical, political, social, and cultural contexts of their creation. Style periods include early Christian, early Byzantine, barbarian, insular, Merovingian, and Carolingian. Monuments studied include the catacombs, the Arch of Constantine, the great mosaic programs of Italy, Hagia Sophia, the Lindisfarne Gospels and Book of Kells, and Charlemagne's palace chapel at Aachen. Topics include art and the commemoration of the dead; Christian attitudes toward Judaism and the classical tradition; art and theology; the emergence of the cult of saints and its art and architecture; early medieval patrons; arts of pilgrimage and early monasticism; word and image in early medieval culture; and iconoclasm and debates about the role of images in early Christianity.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 202",
+    "title": "Romanesque Art",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 4 ).",
+    "description": "Prerequisite: Foundations of Art History ( ARTH-UA 10 ) or a score of 5 on the AP Art History exam. Examines architecture, sculpture, painting, manuscript illumination, and treasury arts of the Latin West during ca. 950-1200 C.E., including Ottonian, Anglo-Saxon, Mozarabic, First Romanesque, and Romanesque art. Considers visual arts of Christianity in light of the historical, religious, political, social, and cultural contexts of their creation. Topics: the cult of saints and the arts; the art and architecture of pilgrimage and crusade; monasticism and the arts; Romanesque patrons, artists, and audiences; the Romanesque revival of monumental sculpture; Christian encounters with Islam and Judaism; secular themes in Romanesque art; word and image in Romanesque art; medieval attitudes toward the classical tradition.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 203",
+    "title": "Gothic Art Northern Eur",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 4 OR Advanced Placement Examination Art History >= 5).",
+    "description": "Prerequisite: Foundations of Art History ( ARTH-UA 10 ) or a score of 5 on the AP Art History exam. Art of the \"age of the cathedrals\"\u2014including architecture, sculpture, stained glass, manuscript illumination, wall painting, luxury arts, and tapestry\u2014from origins of the Gothic style in the 12th-century Ile-de-France through the early 15th century. Considers artistic developments in light of religious, historical, political, social, and cultural contexts of their creation. Topics include: Gothic patrons, artists, builders, and art-making; lay literacy and the patronage and reception of art; the cult of the Virgin and the arts; the Gothic image as bearer of religious, political, and social values and ideologies; arts of chivalry and courtly love; naturalism and developments in portraiture; the roles of art in devotional and mystical experience; Gothic art and late medieval notions of vision and the self.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 204",
+    "title": "Art and Architecture in The Age of Giotto",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 OR ARTH-UA 4 ).",
+    "description": "Prerequisite: Foundations of Art History ( ARTH-UA 10 ) or a score of 5 on the AP Art History exam. Traces the evolution of the painted altarpiece in relation to its liturgical, devotional, and cultic functions, with consideration of artistic personalities such as Duccio, Simone Martini, and the Lorenzetti. Studies great fresco cycles in churches and chapels from the point of view of artists (including Giotto and Taddeo Gaddi), patron(s), and program. Surveys key monuments of religious and civic architecture and their painted and sculpted decoration within the historical and political contexts of the emerging Italian city-states. Topics include: mendicant orders and the arts; Black Death and art; status of the artist; gender and social class in representation and patronage.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 205",
+    "title": "Medieval Architecture",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 2 OR ARTH-UA 4 ).",
+    "description": "Surveys the architecture of the Middle Ages in Western Europe with emphasis on the period from ca. 1000\u20131500 C.E., from the emergence of the Romanesque to the late Gothic period. Examines monumental religious and secular projects, such as the soaring cathedral of Amiens and the civic palaces of communal Italy, from stylistic, technical, functional, iconographic, and ideological perspectives. Topics include regionalism, patronage, the status of the \"architect,\" and the concept of the multimedia ensemble. Also situates buildings within their social, religious, and political contexts and examines the advantages and shortcomings of different approaches to the study of medieval architecture.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 210",
+    "title": "British Literature I",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "ENGL-UA 101 .",
+    "description": "Survey of English literature from its origins in the Anglo-Saxon epic through Milton. Close reading of representative works, with attention to the historical, intellectual, and social contexts of the period.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 215",
+    "title": "Readings in Spanish Literature",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Readings and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 250",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 269",
+    "title": "Dante's Divine Comedy in Context",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Identical to ITAL-UA 269 The Divine Comedy is a very long poem traditionally judged to be one of the most\nimportant in Western culture. At the center of the poem is the human being, his condition in the after life and his punishment or reward. Taken literally, the theme is the state of the souls after the death. But allegorically, the true subject is moral life and thus the torments of the sins themselves or the enjoyment of a happy and saintly life. Since the beginning of its circulation the Divine Comedy has been seen as a text to be read in context, that is in light of the cultural tradition Dante was channelling and interpreting. This course proposes a reading of Dante's Commedia, considered in light of the ancient and medieval idea of learning. The objective of the course is to familiarize students with one of the most important author of Western culture. Through Dante's texts, students will gain a perspective on the Biblical, Christian, and Classical traditions as well as on the historical, literary, philosophical context of medieval Europe.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 270",
+    "title": "Sem:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 271",
+    "title": "Dante'S Divine Comedy",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Students study the Divine Comedy both as a mirror of high medieval culture and as a unique text that breaks out of its cultural bounds. The entire poem is read, in addition to selections from the Vita Nuova and other complementary minor works.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 285",
+    "title": "Topics in Italian Lit:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Courses on subjects of special interest taught by either a regular or a visiting faculty member. For specific courses, please consult the current class schedule.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 290",
+    "title": "Seminar:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 303",
+    "title": "Northern Renaissance Art, 1400-1530",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ARTH-UA 1 with a Minimum Grade of C OR ARTH-UA 2 with a Minimum Grade of C OR ARTH-UA 5 with a Minimum Grade of C  OR Advanced Placement Examination Art History >= 5).",
+    "description": "Addresses painting north of the Alps, ca. 1380\u20131530, partly late medieval, partly Renaissance. Examines the connection of breathtaking technique and deeply religious aspects of the art to function, symbolic thought, patronage, and changes in the society to which painting was related. Also explains ways in which we write history when most of the vital written documents are missing or destroyed. Artists discussed include Jan van Eyck, the Master of Flemalle, Rogier van der Weyden, Jean Fouquet, Hugo van der Goes, Enguerrand Quarton, Jerome Bosch, Albrecht D\u00fcrer, Matthias Gr\u00fcnewald, and Hans Holbein.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 311",
+    "title": "Dutch & Flemish Painting 1600-1700",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "ARTH-UA 2 AND ARTH-UA 5 .",
+    "description": "In Antwerp, Rubens overturned all previous concepts of painting. The first to deserve the term \"Baroque,\" he dominated Flanders. Van Dyck, his pupil, took Rubens's style to England. Dutch painters, including Hals, Rembrandt, and Vermeer, moved in a different direction, addressing every aspect of their country and society: the peasant, the quiet life of the well-ordered household, the sea and landscape, views of the cities, and church interiors.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 314",
+    "title": "Literature of The French Renaissance",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( FREN-UA 115 OR FREN-UA 163 ).",
+    "description": "Readings and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 333",
+    "title": "Renaissance Art",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to Renaissance and baroque art and architecture, 1400\u20131750. The course situates major developments in the arts against the context of historical, cultural, religious, technological, and social change. Topics include the emergence of humanism and its engagement with the ancient past; the development of transformative new techniques and technologies for making art; the function of art in religious, public, and domestic settings; the role of the patron; the impact of the Protestant and Catholic Reformations on art and society; the ever-expanding range of iconography; and the proliferation of new genres. Emphasis is placed on the great masters in each phase, and close study of works in the Metropolitan Museum of Art and the Frick Collection is an integral part of the course.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 335",
+    "title": "Cervantes &  Don Quijote",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Prerequisite when taught in Spanish: completion of any SPAN-UA 300-level course; no prerequisite when taught in English. Close reading of Don Quijote and/or the Novelas ejemplares, supplemented by critical and historical texts. Topics: madness and desire, authorship, seductions and dangers of reading, the status of representation, the relation between history and truth, the Inquisition, Spanish imperialism, the New World, and the Morisco expulsion.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 400",
+    "title": "The English Renaissance",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Introduction to the major writers of the 16th and early 17th centuries. Such representative works as More's Utopia, Sidney's Defense of Poetry, Spenser's Faerie Queene, and works of the lyric poets from Wyatt to Sidney are studied in relation to humanism and the Reformation.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 410",
+    "title": "Shakespeare",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Why is Shakespeare still a vital cultural force 400 years after his death? How was he able to speak both to us and to audiences of his own day? This course will survey Shakespeare\u2019s major plays and poems, and will look at their historical, cultural and theatrical contexts. But we will also consider Shakespeare\u2019s afterlife on stage and screen. Prerequisites: ( EXPOS-UA 1 OR EXPOS-UA 5 ).",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 443",
+    "title": "Seminar Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 445",
+    "title": "Colloquium:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 450",
+    "title": "Colloquium: Milton",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "( ENGL-UA 101 OR ENGL-UA 101 ) AND ENGL-UA 111 AND Restriction: Academic Plan = Medieval and Renaissance Studi-BA.",
+    "description": "Emphasis on the major poems\u2014Paradise Lost, Paradise Regained, and Samson Agonistes\u2014with some attention to the early poems and the prose. Traces the poet's sense of vocation, analyzes the gradual development of the Miltonic style, and assesses Milton's position in the history of English literature, politics, and theology.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 640",
+    "title": "The Making of The Muslim Middle East, 600-1400",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "A historical and comparative approach to the first half-millennium of Islamic history. Traces the cultural and religious strands shaping institutions, belief systems, and practices. Students analyze primary sources and explore major debates in the cultural history of this period.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 700",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 760",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 761",
+    "title": "Myths and Culture of The Ancient Celts",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Explores how Patrick, a man taken to Ireland as a slave in Late Antique Britain, became the saint celebrated annually around the world on March 17. Includes how he portrayed himself in his own writings, how seventh-century political machinations promoted a cult that made him the chief saint of Ireland, how medieval writers depicted him as saving epic heroes from hell, and how he eventually became an enduring secular symbol of Ireland itself. Students read a variety of primary and secondary sources to think critically about the changing legacy of one man over a millennium and a half..",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 782",
+    "title": "Topics in Islamic Studies:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 800",
+    "title": "Arthurian Legend",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Beginning with early stories of King Arthur and the knights of the Round Table, the course focuses on masterpieces of French, English, and German medieval literature. Through the European literary tradition, students examine larger problems of the development of medieval literature: the conception of history, the rise of the romance genre, the themes of courtly love, the code of chivalry, and philosophical and theological questions as the Arthurian material is developed through the stories of the Holy Grail.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 824",
+    "title": "Medieval Latin",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "See description under Classics (CLASS-UA).",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 869",
+    "title": "Topics in French Literature",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 901",
+    "title": "Workshop in Medieval and Renaissance Studies I",
+    "department": "medi_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course is a forum for cultivating the interdisciplinary work of students working in the medieval and early modern periods and for expanding their awareness of the professional world of Medieval and Renaissance studies in academia and beyond. Workshop activities will include discussing readings in the fields of the Workshop participants, discussing and critiquing pre-circulated papers or works-in-progress presented by NYU faculty, visiting scholars, and members of the Workshop; and discovering and experimenting with new research tools. In all of these activities Workshop participants will also engage with overarching issues of concern to the\nfield such as the benefits and limitations of periodization, the Digital Humanities, Public Humanities, and the role of Medieval and Renaissance Studies in the academy and in society at large. Enrollment in the Workshop for two semesters, preferably over the course of one academic year, will be a requirement for majors in Medieval and Renaissance Studies. It will usually be taken in their senior year but may be taken earlier with the permission of the MARC.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 902",
+    "title": "Workshop in Medieval and Renaissance Studies II",
+    "department": "medi_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "This course is a forum for cultivating the interdisciplinary work of students working in the medieval and early modern periods and for expanding their awareness of the professional world of Medieval and Renaissance studies in academia and beyond. Workshop activities will include discussing readings in the fields of the Workshop participants, discussing and critiquing pre- circulated papers or works-in-progress presented by NYU faculty, visiting scholars, and members of the Workshop; and discovering and experimenting with new research tools. In all of these activities Workshop participants will also engage with overarching issues of concern to the\nfield such as the benefits and limitations of periodization, the Digital Humanities, Public Humanities, and the role of Medieval and Renaissance Studies in the academy and in society at large. Enrollment in the Workshop for two semesters, preferably over the course of one academic year, will be a requirement for majors in Medieval and Renaissance Studies. It will usually be taken in their senior year but may be taken earlier with the permission of the MARC.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 920",
+    "title": "Workshop: Topics in Medieval History",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 950",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Topics and prerequisites vary by semester.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 960",
+    "title": "Introductory Old English",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "An introduction to the Old English language and literature as well as the culture of England before the Norman Conquest of 1066. Students learn the grammar and vocabulary of this earliest surviving form of English, while being introduced to topics such as the heroic code; conversion and cultural syncretism; the rise of English national identity; monasticism and spirituality; the law and customs of the Anglo-Saxons; the Viking invasions and the Norman Conquest; and hybridity and multilingualism. Concludes with reading excerpts from Beowulf in the original and orally performing scenes from the poem.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 983",
+    "title": "Topics:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "This course, varying in content from term to term, focuses on special themes. Recent offerings include Tolkien and Lewis: The Medievalist?s Answer to Modernism; Religion and Identity in Medieval Europe; The Kiss; Gothic Romance; Music and Cosmology; Poets, Patrons, and Public in Medieval Lyric; Gender Issues in the Art of the Middle Ages; Myths and Legends of the Middle Ages; Doomsday: The Last Judgment in Medieval Culture; Medieval Minstrels; Angels; Sexual Transgression in the Middle Ages and Renaissance; Saints: Lore and Legend; The Troubadours: Lyrics, Love, and War; Early Irish Art; The Middle Ages at the Movies; The Medieval Book (held at the Pierpont Morgan Library).",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 991",
+    "title": "Seminar:",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Each semester, the course is devoted to a topic chosen for its interdisciplinary character. Recent offerings have included The Bible in the Middle Ages; Renaissance Libraries; Millenarianism; 1497-1498: The Renaissance at Full Tilt; Visions of Medieval History; The Age of Chivalry; The World of the Celts; Apocalypse, Then: Visions of the End in the Middle Ages and the Renaissance; Journey in Medieval Christian Theology; Interpreting the Medieval World; Idealization and Satire in the Sixteenth Century; The 12th-Century Renaissance; The Classical Tradition in the Middle Ages; Christian Culture in the Middle Ages; Literature and Culture of the Renaissance; Renaissance Monarchy; Medieval and Renaissance Travel Journals; and The Structure of Knowledge in the Renaissance.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 992",
+    "title": "Interdisiplinary Seminar",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Each semester, the course is devoted to a topic chosen for its interdisciplinary character. Recent offerings have included Chaucer\u2019s Italy; The Bible in the Middle Ages; Renaissance Libraries; Millenarianism; 1497-1498: The Renaissance at Full Tilt; Visions of Medieval History; The Age of Chivalry; The World of the Celts; Apocalypse, Then: Visions of the End in the Middle Ages and the Renaissance; Journey in Medieval Christian Theology; Interpreting the Medieval World; Idealization and Satire in the 16th Century; The 12th-Century Renaissance; The Classical Tradition in the Middle Ages; Christian Culture in the Middle Ages; Literature and Culture of the Renaissance; Renaissance Monarchy; Medieval and Renaissance Travel Journals; and The Structure of Knowledge in the Renaissance.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 997",
+    "title": "Independent Study",
+    "department": "medi_ua",
+    "credits": 2.0,
+    "prerequisites": "",
+    "description": "Prerequisite: written permission of the director of the program. Counts toward majors and minors only. May not duplicate the content of a regularly scheduled course. 1 to 4 points per term.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 998",
+    "title": "Independent Study",
+    "department": "medi_ua",
+    "credits": 1.0,
+    "prerequisites": "",
+    "description": "Requires permission of the department.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  },
+  {
+    "course_code": "MEDI-UA 999",
+    "title": "Senior Honors Seminar",
+    "department": "medi_ua",
+    "credits": 4.0,
+    "prerequisites": "",
+    "description": "Open only to majors. Students meet regularly with their faculty advisers as they complete the research and writing of the 40-page senior honors thesis.",
+    "source_url": "https://bulletins.nyu.edu/courses/medi_ua/"
+  }
+]
