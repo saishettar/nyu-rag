@@ -37,6 +37,17 @@ import { ErrorBanner } from "./components/ErrorBanner";
 
 let localId = -1;
 
+const FAVORITE_DEPARTMENTS_KEY = "nyu-rag:favoriteDepartments";
+
+function loadFavoriteDepartments(): Set<string> {
+  try {
+    const raw = localStorage.getItem(FAVORITE_DEPARTMENTS_KEY);
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch {
+    return new Set();
+  }
+}
+
 export default function App() {
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [activeId, setActiveId] = useState<number | null>(null);
@@ -53,6 +64,7 @@ export default function App() {
   const [catalogQuery, setCatalogQuery] = useState("");
   const [catalogDepartment, setCatalogDepartment] = useState<string | null>(null);
   const [highlightedCode, setHighlightedCode] = useState<string | null>(null);
+  const [favoriteDepartments, setFavoriteDepartments] = useState<Set<string>>(loadFavoriteDepartments);
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [catalogOpen, setCatalogOpen] = useState(false);
@@ -158,6 +170,23 @@ export default function App() {
     setCatalogOpen(true);
   }
 
+  function toggleFavoriteDepartment(department: string) {
+    setFavoriteDepartments((prev) => {
+      const next = new Set(prev);
+      if (next.has(department)) {
+        next.delete(department);
+      } else {
+        next.add(department);
+      }
+      try {
+        localStorage.setItem(FAVORITE_DEPARTMENTS_KEY, JSON.stringify([...next]));
+      } catch {
+        // ignore storage failures (private browsing, quota, etc.)
+      }
+      return next;
+    });
+  }
+
   const activeConversation = conversations.find((c) => c.id === activeId) ?? null;
 
   return (
@@ -234,7 +263,7 @@ export default function App() {
 
             <div ref={scrollRef} className="flex-1 overflow-y-auto">
               {messages.length === 0 && !messagesLoading ? (
-                <EmptyState onExample={send} courses={allCourses} />
+                <EmptyState onExample={send} courses={allCourses} favorites={favoriteDepartments} />
               ) : (
                 <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 lg:px-8">
                   {messages.map((m) => (
@@ -267,6 +296,8 @@ export default function App() {
           onClose={() => setCatalogOpen(false)}
           collapsed={catalogCollapsed}
           onCollapse={() => setCatalogCollapsed(true)}
+          favorites={favoriteDepartments}
+          onToggleFavorite={toggleFavoriteDepartment}
         />
       )}
     </div>

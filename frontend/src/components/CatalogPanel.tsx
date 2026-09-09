@@ -1,8 +1,22 @@
 import { useEffect, useRef } from "react";
 import type { Course } from "../types";
 
-function formatDept(dept: string): string {
+export function formatDept(dept: string): string {
   return dept.replace(/_/g, "-").toUpperCase();
+}
+
+function StarIcon({ filled }: { filled: boolean }) {
+  return (
+    <svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true">
+      <path
+        d="M8 1.5l2.02 4.09 4.52.66-3.27 3.19.77 4.5L8 11.7l-4.04 2.24.77-4.5L1.46 6.25l4.52-.66L8 1.5z"
+        fill={filled ? "currentColor" : "none"}
+        stroke="currentColor"
+        strokeWidth="1.1"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
 }
 
 export function CatalogPanel({
@@ -18,6 +32,8 @@ export function CatalogPanel({
   onClose,
   collapsed,
   onCollapse,
+  favorites,
+  onToggleFavorite,
 }: {
   courses: Course[];
   loading: boolean;
@@ -31,6 +47,8 @@ export function CatalogPanel({
   onClose: () => void;
   collapsed: boolean;
   onCollapse: () => void;
+  favorites: Set<string>;
+  onToggleFavorite: (department: string) => void;
 }) {
   const rowRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -108,6 +126,35 @@ export function CatalogPanel({
             </select>
           )}
         </div>
+
+        {departments.length > 1 && (
+          <div className="border-b border-border px-4 pb-3">
+            <p className="text-[0.68rem] font-medium uppercase tracking-wide text-faint">
+              Favorite departments
+            </p>
+            <div className="mt-2 flex max-h-24 flex-wrap gap-1.5 overflow-y-auto pr-1">
+              {departments.map((d) => {
+                const isFavorite = favorites.has(d);
+                return (
+                  <button
+                    key={d}
+                    type="button"
+                    onClick={() => onToggleFavorite(d)}
+                    aria-pressed={isFavorite}
+                    className={`flex items-center gap-1 rounded-full border px-2 py-0.5 font-mono text-[0.68rem] transition-colors ${
+                      isFavorite
+                        ? "border-accent/40 bg-accent-soft text-accent-ink"
+                        : "border-border bg-canvas text-muted hover:border-accent/30 hover:text-ink"
+                    }`}
+                  >
+                    <StarIcon filled={isFavorite} />
+                    {formatDept(d)}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         <div className="flex-1 overflow-y-auto px-3 pb-4">
           {loading ? (

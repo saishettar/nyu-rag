@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import type { Course } from "../types";
+import { formatDept } from "./CatalogPanel";
 
 const EXAMPLES = [
   "What's a good course to take after Data Structures?",
@@ -11,10 +12,6 @@ const STATS = [
   { label: "Retrieval hit-rate@5", value: "100%" },
   { label: "Answer groundedness", value: "100%" },
 ];
-
-function formatDept(dept: string): string {
-  return dept.replace(/_/g, "-").toUpperCase();
-}
 
 function StatTile({ label, value }: { label: string; value: string }) {
   return (
@@ -49,17 +46,27 @@ function DeptBar({ code, count, max }: { code: string; count: number; max: numbe
 export function EmptyState({
   onExample,
   courses,
+  favorites,
 }: {
   onExample: (q: string) => void;
   courses: Course[];
+  favorites: Set<string>;
 }) {
+  const hasFavorites = favorites.size > 0;
+
+  const totalDepartmentCount = useMemo(
+    () => new Set(courses.map((c) => c.department)).size,
+    [courses]
+  );
+
   const deptCounts = useMemo(() => {
     const counts = new Map<string, number>();
     for (const c of courses) {
+      if (hasFavorites && !favorites.has(c.department)) continue;
       counts.set(c.department, (counts.get(c.department) ?? 0) + 1);
     }
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  }, [courses]);
+  }, [courses, favorites, hasFavorites]);
 
   const maxCount = deptCounts[0]?.[1] ?? 0;
 
@@ -88,7 +95,7 @@ export function EmptyState({
 
       <div className="mt-10 grid w-full max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
         <StatTile label="Courses in catalog" value={String(courses.length)} />
-        <StatTile label="Departments" value={String(deptCounts.length)} />
+        <StatTile label="Departments" value={String(totalDepartmentCount)} />
         {STATS.map((s) => (
           <StatTile key={s.label} label={s.label} value={s.value} />
         ))}
@@ -97,13 +104,18 @@ export function EmptyState({
       {deptCounts.length > 0 && (
         <div className="mt-4 w-full max-w-2xl rounded-xl border border-border bg-surface p-4 text-left shadow-panel">
           <h2 className="text-[0.68rem] font-medium uppercase tracking-wide text-faint">
-            Courses by department
+            {hasFavorites ? "Courses by favorite department" : "Courses by department"}
           </h2>
           <ul className="mt-3 flex flex-col gap-2.5">
             {deptCounts.map(([code, count]) => (
               <DeptBar key={code} code={code} count={count} max={maxCount} />
             ))}
           </ul>
+          {!hasFavorites && (
+            <p className="mt-3 text-[0.68rem] leading-snug text-faint">
+              Star departments in the course catalog panel to pin them here.
+            </p>
+          )}
         </div>
       )}
 
