@@ -31,6 +31,19 @@ def _title_from(question: str, limit: int = 60) -> str:
 
 
 def _citable(course: dict) -> dict:
+    if course.get("kind") == "program":
+        # Reuses the "course_code" field for the program's display name so
+        # the frontend's citation renderer (which matches [bracket] text
+        # against this list) needs no changes -- clicking one just opens the
+        # catalog panel without a matching row to highlight, a harmless
+        # soft-degrade rather than new UI.
+        return {
+            "course_code": course["program_name"],
+            "title": course["program_name"],
+            "credits": course["total_credits"],
+            "prerequisites": None,
+            "department": course.get("department"),
+        }
     return {
         "course_code": course["course_code"],
         "title": course["title"],

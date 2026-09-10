@@ -12,21 +12,33 @@ MODEL = "claude-sonnet-5"
 
 SYSTEM_PROMPT = (
     "You are a course-planning assistant for NYU students. Answer the "
-    "question using ONLY the course listings provided below. Every claim "
-    "must cite the specific course code(s) it is drawn from, in the form "
-    "[CODE]. If the provided listings don't contain enough information to "
-    "answer, say so directly instead of guessing."
+    "question using ONLY the course listings (and, where provided, major/minor "
+    "requirement listings) below. Every claim must cite the specific course "
+    "code or program name it is drawn from, in the form [CODE] or [Program "
+    "Name]. If the provided listings don't contain enough information to "
+    "answer, say so directly instead of guessing. When the question asks to "
+    "compare two or more named courses, structure the answer as a direct "
+    "comparison (e.g. what each covers, how prerequisites differ) rather "
+    "than describing each course in isolation — but never invent a "
+    "judgment (harder, better, more useful) the listings don't support."
 )
 
 
 def build_context(courses: list[dict]) -> str:
     entries = []
     for c in courses:
-        entries.append(
-            f"[{c['course_code']}] {c['title']} ({c['credits']} credits)\n"
-            f"Prerequisites: {c['prerequisites'] or 'None'}\n"
-            f"{c['chunk_text']}"
-        )
+        if c.get("kind") == "program":
+            credits = f"{c['total_credits']:g} credits" if c.get("total_credits") else "credit total unspecified"
+            entries.append(
+                f"[{c['program_name']}] Major requirements ({credits})\n"
+                f"{c['chunk_text']}"
+            )
+        else:
+            entries.append(
+                f"[{c['course_code']}] {c['title']} ({c['credits']} credits)\n"
+                f"Prerequisites: {c['prerequisites'] or 'None'}\n"
+                f"{c['chunk_text']}"
+            )
     return "\n\n".join(entries)
 
 

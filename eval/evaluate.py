@@ -12,8 +12,10 @@ TOP_K = 5
 
 
 def hit_rate_at_k(retrieved: list[dict], expected_codes: list[str]) -> bool:
-    retrieved_codes = {c["course_code"] for c in retrieved}
-    return any(code in retrieved_codes for code in expected_codes)
+    # A retrieved item identifies itself by course_code (a course) or
+    # program_name (a program, for requirement questions) -- never both.
+    retrieved_ids = {c.get("course_code") or c.get("program_name") for c in retrieved}
+    return any(code in retrieved_ids for code in expected_codes)
 
 
 def judge_groundedness(question: str, answer: str, retrieved: list[dict]) -> str:
@@ -58,7 +60,7 @@ def main() -> None:
             {
                 "question": case["question"],
                 "expected": case["expected_course_codes"],
-                "retrieved": [c["course_code"] for c in retrieved],
+                "retrieved": [c.get("course_code") or c.get("program_name") for c in retrieved],
                 "hit": hit,
                 "answer": answer,
                 "groundedness": verdict,

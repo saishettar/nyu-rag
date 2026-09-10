@@ -5,7 +5,7 @@ this pure logic (name-matching and list-combination), not in the SQL. These
 tests exist to catch the next version of that bug at the unit-test level
 instead of only at eval-run level.
 """
-from search import _combine, _match_referenced_codes
+from search import _combine, _match_referenced_codes, _match_referenced_programs
 
 
 def _course(code: str, **extra) -> dict:
@@ -55,6 +55,36 @@ class TestMatchReferencedCodes:
         assert _match_referenced_codes(
             "is there a course on pidgin and creole languages?", all_courses
         ) == {"LING-UA 38"}
+
+
+class TestMatchReferencedPrograms:
+    def test_matches_by_bare_name_ignoring_degree_suffix(self):
+        all_programs = [(1, "Computer Science (B.A.)")]
+        assert _match_referenced_programs(
+            "what does the computer science major require?", all_programs
+        ) == {1}
+
+    def test_no_match_when_program_not_named(self):
+        all_programs = [(1, "Computer Science (B.A.)")]
+        assert _match_referenced_programs("tell me about linear algebra", all_programs) == set()
+
+    def test_multiple_named_programs_all_matched(self):
+        all_programs = [(1, "Computer Science (B.A.)"), (2, "Mathematics (B.A.)")]
+        result = _match_referenced_programs(
+            "how do the computer science and mathematics majors differ?", all_programs
+        )
+        assert result == {1, 2}
+
+    def test_matches_short_program_names(self):
+        # Found via eval: "Physics" is 7 chars, one under the course-title
+        # floor (_MIN_TITLE_MATCH_LEN=8) that this originally reused, so it
+        # silently never matched any query. Programs get their own, lower
+        # floor since a proper-noun major name has much lower false-positive
+        # risk than a generic course-title fragment.
+        all_programs = [(1, "Physics (B.A.)")]
+        assert _match_referenced_programs(
+            "what does the physics major require?", all_programs
+        ) == {1}
 
 
 class TestCombine:

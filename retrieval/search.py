@@ -33,9 +33,22 @@ _CODE_RE = re.compile(r"\b[A-Z]{2,6}-[A-Z]{2,4}\s?\d{1,4}[A-Z]?\b")
 
 _MIN_TITLE_MATCH_LEN = 8  # skip short/generic titles to avoid false positives
 
+# Program/major names get their own (lower) floor: they're proper nouns with
+# much lower false-positive risk than a generic course title fragment like
+# "Intro", so "Physics" (7 chars) shouldn't be held to the same bar that
+# excludes "Intro" -- found via eval: it silently never matched at 8.
+_MIN_PROGRAM_MATCH_LEN = 5
+
+_PROGRAM_COLUMNS = ["program_name", "department", "total_credits", "source_url", "chunk_text"]
+
+# Strips a trailing degree qualifier ("(B.A.)", "(B.S.)") so a query naming
+# the bare major ("computer science major") still matches the stored
+# "Computer Science (B.A.)" program name.
+_DEGREE_SUFFIX_RE = re.compile(r"\s*\([^)]*\)\s*$")
+
 
 def _rows_to_dicts(rows) -> list[dict]:
-    return [dict(zip(_COLUMNS, row)) for row in rows]
+    return [dict(zip(_COLUMNS, row), kind="course") for row in rows]
 
 
 def _normalize_for_title_match(text: str) -> str:
@@ -72,6 +85,56 @@ def _referenced_course_codes(query: str, conn) -> set[str]:
         cur.execute("SELECT course_code, title FROM courses")
         all_courses = cur.fetchall()
     return _match_referenced_codes(query, all_courses)
+
+
+def _match_referenced_programs(query: str, all_programs: list[tuple[int, str]]) -> set[int]:
+    """Same exact-name matching strategy as _match_referenced_codes, applied
+    to program names -- this project's own retrieval history (see the "&" vs
+    "and" fix above, and the README's retrieval-bug list) shows that relying
+    on embedding similarity alone to surface a specifically-named entity is
+    exactly what breaks, so a "what does the CS major require" question
+    should reliably pull in the Computer Science program chunk the same way
+    naming a course reliably pulls in that course. v1 heuristic: this only
+    matches the program's own display name (degree suffix stripped) against
+    the query, so common aliases like "CS major" won't hit "Computer
+    Science" yet -- expected to need the same kind of eval-driven alias
+    refinement course name-matching went through."""
+    query_normalized = _normalize_for_title_match(query)
+    referenced = set()
+    for program_id, name in all_programs:
+        bare_name = _DEGREE_SUFFIX_RE.sub("", name).strip()
+        normalized = _normalize_for_title_match(bare_name)
+        if len(normalized) >= _MIN_PROGRAM_MATCH_LEN and normalized in query_normalized:
+            referenced.add(program_id)
+    return referenced
+
+
+def _referenced_program_ids(query: str, conn) -> set[int]:
+    """Program ids the query explicitly names by (bare) program name."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT id, program_name FROM programs")
+        all_programs = cur.fetchall()
+    return _match_referenced_programs(query, all_programs)
+
+
+def _programs_by_id(ids: set[int], conn) -> list[dict]:
+    """The full requirement-worksheet chunk for each named program, tagged
+    "kind": "program" so build_context (generation/answer.py) and the
+    frontend's citation list can tell them apart from course results."""
+    if not ids:
+        return []
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT p.program_name, p.department, p.total_credits, p.source_url, pc.chunk_text
+            FROM program_chunks pc
+            JOIN programs p ON p.id = pc.program_id
+            WHERE p.id = ANY(%s)
+            ORDER BY p.program_name
+            """,
+            (list(ids),),
+        )
+        return [dict(zip(_PROGRAM_COLUMNS, row), kind="program") for row in cur.fetchall()]
 
 
 def _courses_by_code(codes: set[str], conn) -> list[dict]:
@@ -174,10 +237,16 @@ def search(query: str, top_k: int = 5) -> list[dict]:
         self_matches = _courses_by_code(referenced, conn)
         structural = _dependents_of(referenced, query_embedding, conn, top_k)
         semantic = _semantic_search(query_embedding, conn, top_k)
+        program_ids = _referenced_program_ids(query, conn)
+        programs = _programs_by_id(program_ids, conn)
     finally:
         conn.close()
 
-    return _combine(self_matches, structural, semantic, top_k)
+    # Programs are additive, not counted against top_k: a named major's
+    # requirement text should ride alongside the usual course results (e.g.
+    # "what courses satisfy the CS major's algorithms requirement" needs
+    # both), not compete with them for one of the 5 slots.
+    return programs + _combine(self_matches, structural, semantic, top_k)
 
 
 if __name__ == "__main__":

@@ -21,6 +21,29 @@ CREATE TABLE IF NOT EXISTS chunks (
 CREATE INDEX IF NOT EXISTS chunks_embedding_idx
     ON chunks USING hnsw (embedding vector_cosine_ops);
 
+-- Major/minor requirement worksheets -- kept as a parallel table rather than
+-- generalizing `courses`/`chunks` to a polymorphic shape, so this stays
+-- fully additive and never risks the course pipeline's eval-verified
+-- retrieval. See ingest/parse_requirements.py.
+CREATE TABLE IF NOT EXISTS programs (
+    id SERIAL PRIMARY KEY,
+    program_name TEXT NOT NULL,
+    department TEXT NOT NULL,
+    total_credits NUMERIC,
+    source_url TEXT,
+    UNIQUE (program_name)
+);
+
+CREATE TABLE IF NOT EXISTS program_chunks (
+    id SERIAL PRIMARY KEY,
+    program_id INTEGER NOT NULL REFERENCES programs(id) ON DELETE CASCADE,
+    chunk_text TEXT NOT NULL,
+    embedding VECTOR(384) NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS program_chunks_embedding_idx
+    ON program_chunks USING hnsw (embedding vector_cosine_ops);
+
 CREATE TABLE IF NOT EXISTS conversations (
     id SERIAL PRIMARY KEY,
     title TEXT,

@@ -12,6 +12,13 @@ current, authoritative list of which departments are in and which are
 still pending — that map is a one-line-per-department addition, so growing
 scope further is mostly data verification, not code.
 
+Beyond "which course covers X" questions, the assistant also answers
+**comparisons** ("what's the difference between CSCI-UA 102 and CSCI-UA
+310?") and **major requirements** ("what does the CS major require?", "how
+many credits is the Physics major?") for a pilot batch of five programs
+(Computer Science, Math, Data Science, Physics, Economics) — see
+`ingest/scrape_requirements.py`'s `PROGRAMS` map for the current list.
+
 ![Home chat screen: sidebar with conversation history, a chat thread with example questions and eval stats, and a course catalog panel on the right](docs/screenshot-home.jpg)
 
 ## Architecture
@@ -21,9 +28,12 @@ User query -> embed (sentence-transformers, local)
            -> hybrid retrieval (retrieval/search.py):
                 - if the query names a course by code or title, surface that
                   course itself, then courses that list it as a prerequisite
+                - if the query names a major/minor, surface its requirement
+                  worksheet too (additive, not counted against the course
+                  budget above)
                 - fill remaining slots with pgvector cosine similarity search
-           -> prompt Claude with retrieved courses + question
-           -> answer with [COURSE-CODE] citations
+           -> prompt Claude with retrieved courses (+ any matched program) + question
+           -> answer with [COURSE-CODE] or [Program Name] citations
 ```
 
 Pure semantic search alone can't reliably answer "what's a good course after X" -
@@ -42,6 +52,14 @@ bulletins.nyu.edu HTML -> scrape + parse (code, title, credits, prereqs, descrip
                        -> one chunk per course (descriptions are short & self-contained)
                        -> embed -> store in Postgres/pgvector
 ```
+
+Major/minor requirement worksheets are a second, parallel ingestion path
+(`ingest/scrape_requirements.py` + `parse_requirements.py` ->
+`embed/embed_programs.py` -> the `programs`/`program_chunks` tables) —
+kept fully separate from the course tables above so this stays additive
+and can't regress the course pipeline's eval-verified retrieval. Program
+pages use a different CourseLeaf structure (grouped requirement tables,
+not per-course divs) than the course listing pages.
 
 ## Stack
 
@@ -84,13 +102,15 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 ```
 
-Then, one-time database setup (course data for all 44 departments is
-already checked into the repo at `ingest/data/*.json`, so there's nothing to
-scrape):
+Then, one-time database setup (course data for all 44 departments, and
+requirement data for the 5 pilot programs, is already checked into the repo
+at `ingest/data/*.json` and `ingest/data_programs/*.json`, so there's
+nothing to scrape):
 
 ```bash
 python db/init_db.py                  # create tables + pgvector extension
 python embed/embed_and_store.py       # embed courses, store in Postgres
+python embed/embed_programs.py        # embed major requirement worksheets, store in Postgres
 ```
 
 Then, in two terminals:
@@ -103,8 +123,9 @@ cd frontend && npm run dev                    # chat UI, proxies /api to :8000
 Open the URL Vite prints (usually `http://localhost:5173`) and ask a question.
 
 To refresh the catalog data from the live Bulletin instead of using the
-checked-in snapshot: `python ingest/scrape_catalog.py`, then re-run the two
-database steps above.
+checked-in snapshot: `python ingest/scrape_catalog.py`, then re-run the
+database steps above (or `python ingest/scrape_requirements.py` +
+`python embed/embed_programs.py` for the program requirement data).
 
 ## Evaluation
 
@@ -112,17 +133,19 @@ database steps above.
 python eval/evaluate.py
 ```
 
-Runs 100 hand-written course-planning questions (`eval/test_questions.json`)
+Runs 115 hand-written course-planning questions (`eval/test_questions.json`)
 against the live pipeline and reports:
 
-- **Retrieval hit-rate@5** — did the correct course appear in the top-5 results?
+- **Retrieval hit-rate@5** — did the correct course (or program, for a
+  requirement question) appear in the results?
 - **Answer groundedness** — a second Claude call judges whether each answer
-  is fully supported by the retrieved courses and cites a course code.
+  is fully supported by the retrieved courses/programs and cites a code or
+  program name.
 
-### Results (1,870 courses across 44 departments, 100 hand-written questions)
+### Results (1,870 courses across 44 departments, 115 hand-written questions)
 
-- **Retrieval hit-rate@5: 100/100 (100%)** on the run in `eval/eval_results.json`
-- **Answer groundedness: 100/100 (100%)** on that same run — this genuinely
+- **Retrieval hit-rate@5: 115/115 (100%)** on the run in `eval/eval_results.json`
+- **Answer groundedness: 113/115 (98%)** on that same run — this genuinely
   fluctuates across runs (LLM-judge grading has real run-to-run wording
   variance, e.g. asserting an unstated topic for a course mentioned
   alongside the correctly-cited one, or how strictly it parses which grade
@@ -230,6 +253,35 @@ Retrieval history, in order:
     total), 26 new questions (all phrased to closely match exact course
     titles, learning from #10's near-miss), held at 100/100 (100%)
     retrieval and 100/100 (100%) groundedness with no fix required.
+12. **New capability, two real bugs found while adding it: comparisons and
+    major-requirement questions.** Comparisons needed no new data -- naming
+    two courses directly already self-matches both via the existing hybrid
+    step, so this was a one-line prompt tweak (structure the answer as a
+    direct comparison) plus 5 eval questions. Requirements needed a genuinely
+    new pipeline: program pages use a different CourseLeaf table structure
+    than course listings (grouped headers, "select one of the following"
+    and inline "or" alternatives, and a page can hold multiple such tables --
+    a standalone major-only worksheet, or one table mixing General Education
+    with Major Requirements), so it got its own parallel `programs`/
+    `program_chunks` tables and scraper/parser rather than touching the
+    course pipeline at all, plus a program-naming step in `retrieval/search.py`
+    mirroring the existing course name-matching. Two bugs surfaced before
+    the eval run stabilized: `eval/evaluate.py`'s hit-rate scoring assumed
+    every retrieved item was a course and would have crashed (`KeyError`)
+    the moment any query's retrieval included a program result (fixed by
+    keying on whichever of `course_code`/`program_name` the item actually
+    has); and program name-matching reused the course-title floor
+    (`_MIN_TITLE_MATCH_LEN = 8`), which silently excluded "Physics" (7
+    chars) from ever matching any query -- fixed with a separate, lower
+    floor for program names, which are proper nouns with much lower
+    false-positive risk than a generic course-title fragment. Pilot batch
+    (Computer Science, Math, Data Science, Physics, Economics) plus 15 new
+    eval questions (5 comparisons, 10 requirements) reverified at 115/115
+    (100%) retrieval, 113/115 (98%) groundedness -- one miss is the
+    pre-existing recurring biogeochemistry-question judge variance, the
+    other a new but consistent case of the same failure shape (Claude
+    over-generalizing a plausible-sounding relationship between two similar
+    listings without direct textual support), not a new systemic problem.
 
 ### CI regression check
 

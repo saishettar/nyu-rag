@@ -1,0 +1,24 @@
+{
+  "program_name": "Computer Science (B.A.)",
+  "department": "csci_ua",
+  "total_credits": 60.0,
+  "source_url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/computer-science-ba/",
+  "course_codes": [
+    "CSCI-UA 101",
+    "CSCI-UA 102",
+    "CSCI-UA 201",
+    "CSCI-UA 202",
+    "CSCI-UA 310",
+    "CSCI-UA 421",
+    "CSCI-UA 453",
+    "CSCI-UA 520",
+    "CSCI-UA 521",
+    "MATH-UA 120",
+    "MATH-UA 121",
+    "MATH-UA 122",
+    "MATH-UA 131",
+    "MATH-UA 132",
+    "MATH-UA 140"
+  ],
+  "text": "Computer Science (B.A.)\nComputer Science Courses\n- CSCI-UA 101 Intro to Computer Science (4 cr)\n- CSCI-UA 102 Data Structures (4 cr)\n- CSCI-UA 201 Computer Systems Organization (4 cr)\n- CSCI-UA 202 Operating Systems (4 cr)\n- CSCI-UA 310 Basic Algorithms (4 cr)\n- CSCI-UA 421 Numerical Computing 1 (4 cr)\n- CSCI-UA 453 Theory of Computation (4 cr)\n- CSCI-UA 520 Undergraduate Research (4 cr)\n- CSCI-UA 521 Undergraduate Research (4 cr)\nAdvanced Computer Science Electives\n- Select two 400 level advanced computer science electives (8 cr)\nMathematics Courses\n- MATH-UA 120 Discrete Mathematics (4 cr)\n- Select one of the following: (4 cr): MATH-UA 121 Calculus I; MATH-UA 131 Mathematics for Economics I\n- Select one of the following: 2 (4 cr): MATH-UA 122 Calculus II; MATH-UA 132 Mathematics for Economics II\n- MATH-UA 140 Linear Algebra (4 cr)"
+}

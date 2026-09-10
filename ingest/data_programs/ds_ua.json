@@ -1,0 +1,29 @@
+{
+  "program_name": "Data Science (B.A.)",
+  "department": "ds_ua",
+  "total_credits": 56.0,
+  "source_url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/data-science-ba/",
+  "course_codes": [
+    "CSCI-UA 101",
+    "CSCI-UA 102",
+    "CSCI-UA 473",
+    "CSCI-UA 479",
+    "DS-UA 111",
+    "DS-UA 112",
+    "DS-UA 201",
+    "DS-UA 202",
+    "DS-UA 205",
+    "DS-UA 301",
+    "DS-UA 302",
+    "MATH-UA 121",
+    "MATH-UA 122",
+    "MATH-UA 123",
+    "MATH-UA 131",
+    "MATH-UA 132",
+    "MATH-UA 133",
+    "MATH-UA 140",
+    "MATH-UA 148",
+    "MATH-UA 185"
+  ],
+  "text": "Data Science (B.A.)\nData Science Courses\n- DS-UA 111 Principles of Data Science I (offered every semester) (4 cr)\n- DS-UA 112 Principles of Data Science II (offered every semester) (4 cr)\n- DS-UA 201 Causal Inference (offered every semester) (4 cr)\n- DS-UA 202 Responsible Data Science (offered every spring) (4 cr)\nComputer Science Courses\n- CSCI-UA 101 Intro to Computer Science (4 cr)\n- CSCI-UA 102 Data Structures (4 cr)\n- CSCI-UA 473 Fundamentals of Machine Learning (4 cr)\n- CSCI-UA 479 Data Management and Analysis (4 cr)\nMathematics Courses\n- Select one of the following: (4 cr): MATH-UA 121 Calculus I; MATH-UA 131 Mathematics for Economics I\n- Select one of the following: (4 cr): MATH-UA 122 Calculus II; MATH-UA 132 Mathematics for Economics II\n- Select one of the following: (4 cr): MATH-UA 123 Calculus III; MATH-UA 133 Mathematics for Economics III\n- MATH-UA 140 Linear Algebra (4 cr) or MATH-UA 148 Honors Linear Algebra\n- MATH-UA 185 Probability & Statistics (4 cr)\nAdvanced Elective Requirement\n- Select one of the following: (4 cr): DS-UA 205 Machine Learning for Climate Change; DS-UA 301 Advanced Topics in Data Science; DS-UA 302 Natural Language Processing"
+}

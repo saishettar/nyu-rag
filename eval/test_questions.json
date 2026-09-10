@@ -398,5 +398,65 @@
   {
     "question": "Is there a course called Advanced Essay Writing for Science?",
     "expected_course_codes": ["EXPOS-UA 16"]
+  },
+  {
+    "question": "What's the difference between CSCI-UA 102 and CSCI-UA 310?",
+    "expected_course_codes": ["CSCI-UA 102", "CSCI-UA 310"]
+  },
+  {
+    "question": "Compare MATH-UA 121 and MATH-UA 122.",
+    "expected_course_codes": ["MATH-UA 121", "MATH-UA 122"]
+  },
+  {
+    "question": "What's the difference between CSCI-UA 101 and CSCI-UA 2?",
+    "expected_course_codes": ["CSCI-UA 101", "CSCI-UA 2"]
+  },
+  {
+    "question": "Compare CSCI-UA 201, CSCI-UA 202, and CSCI-UA 310.",
+    "expected_course_codes": ["CSCI-UA 201", "CSCI-UA 202", "CSCI-UA 310"]
+  },
+  {
+    "question": "Which is harder, CSCI-UA 102 or CSCI-UA 310?",
+    "expected_course_codes": ["CSCI-UA 102", "CSCI-UA 310"]
+  },
+  {
+    "question": "What does the Computer Science major require?",
+    "expected_course_codes": ["Computer Science (B.A.)"]
+  },
+  {
+    "question": "How many credits is the Mathematics major?",
+    "expected_course_codes": ["Mathematics (B.A.)"]
+  },
+  {
+    "question": "What courses are required for the Data Science major?",
+    "expected_course_codes": ["Data Science (B.A.)"]
+  },
+  {
+    "question": "What does the Physics major require?",
+    "expected_course_codes": ["Physics (B.A.)"]
+  },
+  {
+    "question": "How many credits is the Economics major?",
+    "expected_course_codes": ["Economics (B.A.)"]
+  },
+  {
+    "question": "Which math courses satisfy the Computer Science major?",
+    "expected_course_codes": ["Computer Science (B.A.)"]
+  },
+  {
+    "question": "What are the requirements for the Mathematics major's advanced electives?",
+    "expected_course_codes": ["Mathematics (B.A.)"]
+  },
+  {
+    "question": "Does the Data Science major require calculus?",
+    "expected_course_codes": ["Data Science (B.A.)"]
+  },
+  {
+    "question": "What's required beyond physics courses for the Physics major?",
+    "expected_course_codes": ["Physics (B.A.)"]
+  },
+  {
+    "question": "How many credits do I need for an Economics major?",
+    "expected_course_codes": ["Economics (B.A.)"]
   }
 ]
