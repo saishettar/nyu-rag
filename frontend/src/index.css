@@ -171,6 +171,14 @@ body {
   background: var(--glass-accent-fill-hover);
 }
 
+/* A glass row/chip that's the current "you are here" target -- an active
+   citation link, a favorited department -- gets an accent-colored rim
+   instead of the neutral one, layered after .glass-surface so it wins the
+   border-color that shorthand also sets. */
+.glass-surface.is-active {
+  border-color: var(--accent);
+}
+
 ::selection {
   background: var(--accent-soft);
   color: var(--accent-ink);

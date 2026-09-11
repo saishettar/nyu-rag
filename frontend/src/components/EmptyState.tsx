@@ -77,7 +77,7 @@ export function EmptyState({
               key={q}
               type="button"
               onClick={() => onExample(q)}
-              className="rounded-2xl border border-border bg-surface px-3.5 py-2.5 text-left text-xs leading-snug text-muted shadow-panel transition-colors hover:border-accent/40 hover:text-accent-ink"
+              className="glass-surface rounded-2xl px-3.5 py-2.5 text-left text-xs leading-snug text-muted transition-colors hover:text-accent-ink"
             >
               {q}
             </button>

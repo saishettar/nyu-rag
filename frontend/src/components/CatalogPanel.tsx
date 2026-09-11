@@ -141,10 +141,10 @@ export function CatalogPanel({
                     type="button"
                     onClick={() => onToggleFavorite(d)}
                     aria-pressed={isFavorite}
-                    className={`flex items-center gap-1 rounded-full border px-2 py-0.5 font-mono text-[0.68rem] transition-colors ${
+                    className={`flex items-center gap-1 rounded-full px-2 py-0.5 font-mono text-[0.68rem] transition-colors ${
                       isFavorite
-                        ? "border-accent/40 bg-accent-soft text-accent-ink"
-                        : "border-border bg-canvas text-muted hover:border-accent/30 hover:text-ink"
+                        ? "glass-accent text-white"
+                        : "glass-surface text-muted hover:text-ink"
                     }`}
                   >
                     <StarIcon filled={isFavorite} />
@@ -171,10 +171,8 @@ export function CatalogPanel({
                   <li key={c.course_code}>
                     <div
                       ref={(el) => (rowRefs.current[c.course_code] = el)}
-                      className={`rounded-lg border px-3 py-2 transition-colors duration-300 ${
-                        isHighlighted
-                          ? "border-accent/40 bg-accent-soft"
-                          : "border-transparent bg-canvas"
+                      className={`glass-surface rounded-lg px-3 py-2 transition-colors duration-300 ${
+                        isHighlighted ? "is-active" : ""
                       }`}
                     >
                       <div className="flex items-baseline justify-between gap-2">

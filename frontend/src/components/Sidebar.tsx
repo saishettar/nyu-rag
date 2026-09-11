@@ -81,7 +81,7 @@ export function Sidebar({
           <button
             type="button"
             onClick={onNewChat}
-            className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm font-medium text-muted transition-colors hover:bg-surface hover:text-ink"
+            className="glass-surface flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm font-medium text-ink"
           >
             <NewChatIcon />
             New chat
