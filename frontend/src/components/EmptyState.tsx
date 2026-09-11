@@ -64,7 +64,7 @@ export function EmptyState({
       <div className="pointer-events-auto flex flex-col items-center text-center">
         <Orb size={56} />
         <h1 className="mt-5 text-xl font-semibold tracking-tight text-ink">
-          {greeting()}. Ask about the course catalog
+          {greeting()}. What would you like to know?
         </h1>
         <p className="mt-2 max-w-sm text-sm leading-relaxed text-muted">
           Answers cite the exact courses they're based on, pulled straight from NYU's
