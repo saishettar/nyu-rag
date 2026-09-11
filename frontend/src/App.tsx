@@ -36,10 +36,14 @@ import { MessageBubble } from "./components/MessageBubble";
 import { ChatInput } from "./components/ChatInput";
 import { ThinkingIndicator } from "./components/ThinkingIndicator";
 import { ErrorBanner } from "./components/ErrorBanner";
+import { ThemeToggle } from "./components/ThemeToggle";
 
 let localId = -1;
 
 const FAVORITE_DEPARTMENTS_KEY = "nyu-rag:favoriteDepartments";
+const THEME_KEY = "nyu-rag:theme";
+
+type Theme = "light" | "dark";
 
 function loadFavoriteDepartments(): Set<string> {
   try {
@@ -48,6 +52,16 @@ function loadFavoriteDepartments(): Set<string> {
   } catch {
     return new Set();
   }
+}
+
+function loadTheme(): Theme {
+  try {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "light" || stored === "dark") return stored;
+  } catch {
+    // ignore storage failures (private browsing, quota, etc.)
+  }
+  return window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
 
 export default function App() {
@@ -67,6 +81,7 @@ export default function App() {
   const [catalogDepartment, setCatalogDepartment] = useState<string | null>(null);
   const [highlightedCode, setHighlightedCode] = useState<string | null>(null);
   const [favoriteDepartments, setFavoriteDepartments] = useState<Set<string>>(loadFavoriteDepartments);
+  const [theme, setTheme] = useState<Theme>(loadTheme);
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [catalogOpen, setCatalogOpen] = useState(false);
@@ -110,6 +125,15 @@ export default function App() {
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages, sending]);
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch {
+      // ignore storage failures (private browsing, quota, etc.)
+    }
+  }, [theme]);
 
   function selectConversation(id: number) {
     setActiveId(id);
@@ -192,8 +216,7 @@ export default function App() {
   const activeConversation = conversations.find((c) => c.id === activeId) ?? null;
 
   return (
-    <div className="flex h-screen items-center justify-center xl:p-8">
-    <div className="flex h-full w-full overflow-hidden bg-canvas text-ink xl:rounded-[28px] xl:border xl:border-border xl:shadow-composer">
+    <div className="flex h-screen overflow-hidden bg-canvas bg-top-glow text-ink">
       <Sidebar
         conversations={conversations}
         activeId={activeId}
@@ -246,22 +269,28 @@ export default function App() {
                   {activeConversation?.title ?? "New chat"}
                 </h1>
               </div>
-              <button
-                aria-label="Open course catalog"
-                onClick={() => {
-                  setCatalogOpen(true);
-                  setCatalogCollapsed(false);
-                }}
-                className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
-                  catalogCollapsed ? "" : "xl:hidden"
-                }`}
-              >
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                  <rect x="2.5" y="3" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
-                  <rect x="2.5" y="8" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
-                  <rect x="2.5" y="13" width="13" height="2" rx="1" stroke="currentColor" strokeWidth="1.4" />
-                </svg>
-              </button>
+              <div className="flex items-center gap-1">
+                <ThemeToggle
+                  theme={theme}
+                  onToggle={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
+                />
+                <button
+                  aria-label="Open course catalog"
+                  onClick={() => {
+                    setCatalogOpen(true);
+                    setCatalogCollapsed(false);
+                  }}
+                  className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
+                    catalogCollapsed ? "" : "xl:hidden"
+                  }`}
+                >
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                    <rect x="2.5" y="3" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
+                    <rect x="2.5" y="8" width="13" height="3" rx="1" stroke="currentColor" strokeWidth="1.4" />
+                    <rect x="2.5" y="13" width="13" height="2" rx="1" stroke="currentColor" strokeWidth="1.4" />
+                  </svg>
+                </button>
+              </div>
             </header>
 
             <div ref={scrollRef} className="flex-1 overflow-y-auto">
@@ -306,7 +335,6 @@ export default function App() {
           onToggleFavorite={toggleFavoriteDepartment}
         />
       )}
-    </div>
     </div>
   );
 }

@@ -22,13 +22,13 @@
   --orb-via: #a78bfa;
   --orb-to: #6d28d9;
 
-  --shell-ambient: radial-gradient(circle at 22% 15%, #f5f0ff 0%, #fbfaff 32%, #ffffff 62%);
+  --top-glow: linear-gradient(180deg, rgba(124, 58, 237, 0.16) 0%, rgba(124, 58, 237, 0.06) 40%, rgba(124, 58, 237, 0) 75%);
 
   color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --canvas: #000000;
     --surface: #171717;
     --sidebar: #000000;
@@ -48,8 +48,31 @@
     --orb-via: #8b5cf6;
     --orb-to: #4c1d95;
 
-    --shell-ambient: radial-gradient(circle at 50% -10%, #1c1030 0%, #0c0a10 45%, #000000 78%);
+    --top-glow: linear-gradient(180deg, rgba(167, 139, 250, 0.28) 0%, rgba(167, 139, 250, 0.1) 40%, rgba(167, 139, 250, 0) 75%);
   }
+}
+
+:root[data-theme="dark"] {
+  --canvas: #000000;
+  --surface: #171717;
+  --sidebar: #000000;
+  --border: #2a2a2a;
+  --ink: #ececec;
+  --muted: #b4b4b4;
+  --faint: #8e8ea0;
+  --accent: #a78bfa;
+  --accent-hover: #c4b5fd;
+  --accent-soft: #2a2140;
+  --accent-ink: #d9c9ff;
+  --accent-contrast: #14091f;
+  --danger: #ff8a7a;
+  --danger-soft: rgba(255, 138, 122, 0.12);
+
+  --orb-from: #c4b5fd;
+  --orb-via: #8b5cf6;
+  --orb-to: #4c1d95;
+
+  --top-glow: linear-gradient(180deg, rgba(167, 139, 250, 0.28) 0%, rgba(167, 139, 250, 0.1) 40%, rgba(167, 139, 250, 0) 75%);
 }
 
 * {
@@ -63,16 +86,22 @@ body,
 }
 
 body {
-  background: var(--shell-ambient);
+  background: var(--canvas);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "cv11", "ss01", "tnum" 1;
 }
 
+.bg-top-glow {
+  background-image: var(--top-glow);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .orb {
   display: inline-block;
-  background: linear-gradient(135deg, var(--orb-from) 0%, var(--orb-via) 55%, var(--orb-to) 100%);
+  background: linear-gradient(180deg, var(--orb-to) 0%, var(--orb-via) 45%, var(--orb-from) 75%, #ffffff 100%);
   border-radius: 9999px;
   flex-shrink: 0;
 }
