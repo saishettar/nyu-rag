@@ -82,11 +82,10 @@ export default function App() {
   const [favoriteDepartments, setFavoriteDepartments] = useState<Set<string>>(loadFavoriteDepartments);
   const [theme, setTheme] = useState<Theme>(loadTheme);
 
-  // Desktop starts with the sidebar visible, mobile/tablet starts with it
-  // closed (an off-canvas drawer) -- one boolean now drives both, since
-  // collapsing the sidebar hides it completely at every breakpoint rather
-  // than leaving a persistent rail.
-  const [sidebarOpen, setSidebarOpen] = useState(() => window.matchMedia("(min-width: 1024px)").matches);
+  // Collapsed by default at every breakpoint -- one boolean now drives both
+  // the mobile drawer and desktop visibility, since collapsing the sidebar
+  // hides it completely rather than leaving a persistent rail.
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [catalogOpen, setCatalogOpen] = useState(false);
   const [catalogCollapsed, setCatalogCollapsed] = useState(true);
   const [searchView, setSearchView] = useState(false);
