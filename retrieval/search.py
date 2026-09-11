@@ -39,6 +39,55 @@ _MIN_TITLE_MATCH_LEN = 8  # skip short/generic titles to avoid false positives
 # excludes "Intro" -- found via eval: it silently never matched at 8.
 _MIN_PROGRAM_MATCH_LEN = 5
 
+_STOPWORDS = {"a", "an", "the", "of", "to", "and", "in", "for", "on", "with"}
+
+# Course sequences are titled with roman numerals ("Calculus III") but
+# spoken/typed with digits ("calc 3") -- normalize both to digits so the
+# two forms compare equal regardless of which one the query or title uses.
+_ROMAN_TO_DIGIT = {"i": "1", "ii": "2", "iii": "3", "iv": "4", "v": "5", "vi": "6"}
+
+# Shortest a word may be shortened to and still be trusted as someone's
+# abbreviation rather than a coincidental prefix match ("calc" -> "calculus",
+# "psych" -> "psychology", "econ" -> "economics"). 3 was tried first and let
+# "bio" prefix-match unrelated titles like "Bioarchaeology" and
+# "Biostatistics" -- short combining forms like that are genuinely
+# ambiguous, so 4 trades away a few valid abbreviations to cut that noise.
+_MIN_WORD_ABBREV_LEN = 4
+
+
+def _tokenize(text: str) -> list[str]:
+    """Words only, with roman-numeral tokens folded to their digit form so
+    'calculus iii' and 'calc 3' both tokenize with a trailing '3'."""
+    words = re.findall(r"[a-z0-9]+", text.lower())
+    return [_ROMAN_TO_DIGIT.get(w, w) for w in words]
+
+
+def _word_matches(title_word: str, query_words: set[str]) -> bool:
+    """True if `title_word` appears in the query verbatim, or as a
+    word-initial abbreviation in either direction -- most course-name
+    abbreviations (calc/calculus, psych/psychology, econ/economics,
+    bio/biology) are just a truncation of the full word, not a special case
+    per department, so one prefix check generalizes across all of them."""
+    if title_word in query_words:
+        return True
+    if len(title_word) < _MIN_WORD_ABBREV_LEN:
+        return False
+    return any(
+        len(qw) >= _MIN_WORD_ABBREV_LEN and (title_word.startswith(qw) or qw.startswith(title_word))
+        for qw in query_words
+    )
+
+
+def _title_referenced_in_query(title: str, query_words: set[str], min_len: int = _MIN_TITLE_MATCH_LEN) -> bool:
+    """True if every significant word of `title` (stopwords aside) is named
+    in the query, exactly or by abbreviation -- requiring all of them, not
+    just one, is what keeps this from false-matching on a single common
+    word shared with an unrelated title."""
+    title_words = [w for w in _tokenize(title) if w not in _STOPWORDS]
+    if sum(len(w) for w in title_words) < min_len:
+        return False
+    return bool(title_words) and all(_word_matches(w, query_words) for w in title_words)
+
 _PROGRAM_COLUMNS = ["program_name", "department", "total_credits", "source_url", "chunk_text"]
 
 # Strips a trailing degree qualifier ("(B.A.)", "(B.S.)") so a query naming
@@ -51,19 +100,11 @@ def _rows_to_dicts(rows) -> list[dict]:
     return [dict(zip(_COLUMNS, row), kind="course") for row in rows]
 
 
-def _normalize_for_title_match(text: str) -> str:
-    """Lowercase and fold '&' to 'and' so a title like 'Pidgin & Creole
-    Languages' still matches a query that spells it out ('pidgin and creole
-    languages') - found while adding Linguistics: that paraphrase fell
-    through to pure semantic search, which underperforms on rare vocabulary
-    crowded by 40+ other course titles in the same department."""
-    return re.sub(r"\s+", " ", text.lower().replace("&", " and ")).strip()
-
-
 def _match_referenced_codes(query: str, all_courses: list[tuple[str, str]]) -> set[str]:
     """Pure matching logic, separated from the DB fetch so it's unit-testable
     without a live Postgres connection: which course codes does `query`
-    explicitly name, by literal code or by title?"""
+    explicitly name, by literal code, by exact title, or by abbreviation
+    ("calc 3" for "Calculus III")?"""
     known_codes = {code for code, _ in all_courses}
     referenced = {
         code
@@ -71,9 +112,9 @@ def _match_referenced_codes(query: str, all_courses: list[tuple[str, str]]) -> s
         if code in known_codes
     }
 
-    query_normalized = _normalize_for_title_match(query)
+    query_words = set(_tokenize(query))
     for code, title in all_courses:
-        if len(title) >= _MIN_TITLE_MATCH_LEN and _normalize_for_title_match(title) in query_normalized:
+        if _title_referenced_in_query(title, query_words):
             referenced.add(code)
 
     return referenced
@@ -88,23 +129,21 @@ def _referenced_course_codes(query: str, conn) -> set[str]:
 
 
 def _match_referenced_programs(query: str, all_programs: list[tuple[int, str]]) -> set[int]:
-    """Same exact-name matching strategy as _match_referenced_codes, applied
-    to program names -- this project's own retrieval history (see the "&" vs
-    "and" fix above, and the README's retrieval-bug list) shows that relying
-    on embedding similarity alone to surface a specifically-named entity is
-    exactly what breaks, so a "what does the CS major require" question
-    should reliably pull in the Computer Science program chunk the same way
-    naming a course reliably pulls in that course. v1 heuristic: this only
-    matches the program's own display name (degree suffix stripped) against
-    the query, so common aliases like "CS major" won't hit "Computer
-    Science" yet -- expected to need the same kind of eval-driven alias
-    refinement course name-matching went through."""
-    query_normalized = _normalize_for_title_match(query)
+    """Same abbreviation-aware matching strategy as _match_referenced_codes,
+    applied to program names -- this project's own retrieval history (see
+    the README's retrieval-bug list) shows that relying on embedding
+    similarity alone to surface a specifically-named entity is exactly what
+    breaks, so a "what does the CS major require" question should reliably
+    pull in the Computer Science program chunk the same way naming a course
+    reliably pulls in that course. Word-initial abbreviations fall out of
+    the shared matcher for free (e.g. "econ major" -> "Economics"); acronyms
+    like "CS" for "Computer Science" still won't match since "cs" isn't a
+    prefix of "computer" or "science"."""
+    query_words = set(_tokenize(query))
     referenced = set()
     for program_id, name in all_programs:
         bare_name = _DEGREE_SUFFIX_RE.sub("", name).strip()
-        normalized = _normalize_for_title_match(bare_name)
-        if len(normalized) >= _MIN_PROGRAM_MATCH_LEN and normalized in query_normalized:
+        if _title_referenced_in_query(bare_name, query_words, min_len=_MIN_PROGRAM_MATCH_LEN):
             referenced.add(program_id)
     return referenced
 

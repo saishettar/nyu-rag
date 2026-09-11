@@ -56,6 +56,40 @@ class TestMatchReferencedCodes:
             "is there a course on pidgin and creole languages?", all_courses
         ) == {"LING-UA 38"}
 
+    def test_matches_word_initial_abbreviation(self):
+        # "calc" is a truncation of "calculus", not a special case for Math
+        # specifically -- the same prefix check should generalize to any
+        # department's abbreviated course names ("econ", "psych", etc.).
+        all_courses = [("MATH-UA 121", "Calculus I")]
+        assert _match_referenced_codes("what's calc 1 like?", all_courses) == {"MATH-UA 121"}
+
+    def test_matches_digit_form_of_roman_numeral_in_title(self):
+        # Found via "Calc 3 vs Calc 2?": titles spell sequence numbers as
+        # roman numerals ("Calculus III") but people type digits ("calc
+        # 3") -- neither the old exact-code nor exact-title match caught
+        # this, so the query fell through to pure semantic search, where
+        # MATH-UA 123 didn't even place in the top 5.
+        all_courses = [("MATH-UA 122", "Calculus II"), ("MATH-UA 123", "Calculus III")]
+        assert _match_referenced_codes("calc 3 vs calc 2?", all_courses) == {
+            "MATH-UA 122",
+            "MATH-UA 123",
+        }
+
+    def test_does_not_match_short_ambiguous_prefix(self):
+        # "bio" is only 3 chars and is a combining form shared by many
+        # unrelated titles ("Bioarchaeology", "Biostatistics") -- short
+        # prefixes like this are genuinely ambiguous, so they're required to
+        # be at least 4 chars before being trusted as an abbreviation.
+        all_courses = [("ANTH-UA 140", "Introduction to Bioarchaeology")]
+        assert _match_referenced_codes("tell me about intro to bio", all_courses) == set()
+
+    def test_all_significant_words_must_match_not_just_one(self):
+        # A query mentioning only one word of a multi-word title shouldn't
+        # count as naming that title -- otherwise "analysis" alone would
+        # match every course with "Analysis" anywhere in its name.
+        all_courses = [("MATH-UA 325", "Analysis")]
+        assert _match_referenced_codes("what's a good course after linear algebra", all_courses) == set()
+
 
 class TestMatchReferencedPrograms:
     def test_matches_by_bare_name_ignoring_degree_suffix(self):
@@ -84,6 +118,14 @@ class TestMatchReferencedPrograms:
         all_programs = [(1, "Physics (B.A.)")]
         assert _match_referenced_programs(
             "what does the physics major require?", all_programs
+        ) == {1}
+
+    def test_matches_program_by_abbreviation(self):
+        # Same word-initial abbreviation matching as courses: "econ" is a
+        # truncation of "economics", not a special case per program.
+        all_programs = [(1, "Economics (B.A.)")]
+        assert _match_referenced_programs(
+            "what does the econ major require?", all_programs
         ) == {1}
 
 

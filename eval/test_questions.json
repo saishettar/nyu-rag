@@ -458,5 +458,9 @@
   {
     "question": "How many credits do I need for an Economics major?",
     "expected_course_codes": ["Economics (B.A.)"]
+  },
+  {
+    "question": "Calc 3 vs Calc 2?",
+    "expected_course_codes": ["MATH-UA 122", "MATH-UA 123"]
   }
 ]
