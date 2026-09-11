@@ -43,9 +43,9 @@ Evaluation is a first-class workflow (`eval/evaluate.py`), run against 115 hand-
 
 ## Brand Commitments
 
-Visual identity is independent — the product does not use NYU's official colors, torch mark, or other institutional branding, to avoid implying endorsement.
+Standing visual preference: the modern AI-chat interface convention, played straight and at full craft — sidebar chat history, conversational main column, calm typography, now as a rounded floating shell on a softly tinted page rather than edge-to-edge. This is the committed direction for the chat surface, not a placeholder; future visual work on this surface should raise craft within this convention rather than replace it with a different visual world.
 
-Standing visual preference (confirmed during `/impeccable shape`, chosen deliberately over rolled/pick alternatives): the modern AI-chat interface convention, played straight and at full craft — sidebar chat history, conversational main column, calm typography — judged against **Claude** and **ChatGPT** as the craft bar. This is the committed direction for the chat surface, not a placeholder; future visual work on this surface should raise craft within this convention rather than replace it with a different visual world.
+**Superseded:** this project originally committed to an independent visual identity that explicitly avoided NYU's official colors and torch mark, reasoning that a portfolio/demo tool shouldn't imply institutional endorsement. That was deliberately overridden: the user asked to clone an external reference chat UI ("ThinkAI") with its accent recolored from green to violet. Violet was flagged in the moment as a reintroduction of NYU's institutional color and confirmed anyway — "well by accent color i simply mean use purple wherever green was used in the mock ui images, not purple all over" — so the color is now used the way the reference used its accent (buttons, active/highlighted states, the gradient orb), not as a wash. Anyone extending this surface should treat violet-as-accent as the current, intentional commitment, not a lapse to revert; the underlying reasoning (institutional-endorsement optics) still applies to anything beyond that scope — no NYU torch mark, wordmark, or other institutional asset.
 
 ## Evidence on Hand
 

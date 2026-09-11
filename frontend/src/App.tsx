@@ -2,23 +2,25 @@
 THESIS: citations are not text, they're a pointer — clicking one moves you to
 the real course record, refusing the category default of "chat with sources
 listed below and never touched again."
-OWN-WORLD: monochrome canvas (#ffffff / #212121 dark), ink-black/white accent
-(#0d0d0d / #ececec dark) reserved for interactive elements only — citations,
-active nav, send button — never as a field; IBM Plex Sans for UI, IBM Plex
-Mono for course codes and data; a bracket glyph "[ ]" as the mark, echoing
-the [COURSE-CODE] citation itself.
+OWN-WORLD: a gradient violet orb (#ede9fe -> #a78bfa -> #6d28d9, re-tuned per
+theme) as the assistant's one signature mark — greeting icon and per-message
+avatar — against a warm-neutral canvas floating as a rounded card (28px) on a
+soft ambient page tint; violet is the one accent, spent only on interactive
+elements (citations, active nav, send button), never as a field. IBM Plex
+Sans for UI, IBM Plex Mono for course codes and data.
 STORY: a student or evaluator asks a course-planning question, sees a cited
 answer, and can click straight from a citation into the live catalog record
 that backs it — grounding made tangible, not asserted.
 FIRST VIEWPORT: three-column shell — conversation sidebar (new chat + history)
 left, message thread center with bottom-pinned composer, course catalog panel
 right, persistent on desktop and collapsible on narrower widths.
-FORM: standing exit (canon), taken explicitly by the user over the rolled
-direction and IMPECCABLE'S PICK at direction-seed key a0fb49a2 (assigned index
-7, "Academic Typesetting"; a0fb49a2 assigned index 7). Executed as the modern
-AI-chat convention, played straight, craft bar = Claude / ChatGPT, per
-new-work.md's standing-exit protocol; PRODUCT.md records this as a durable
-brand commitment.
+FORM: pinned-reference redesign, done explicitly at the user's direction
+(four reference screenshots of an external "ThinkAI" chat UI), replacing the
+prior monochrome/cobalt world with the reference's structure (floating
+rounded shell, gradient orb avatar, pill suggestion chips) recolored to
+violet. Violet was flagged as a departure from this project's prior
+"independent from NYU branding" brand commitment (NYU's institutional color)
+and confirmed anyway by the user; recorded in PRODUCT.md.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the
 finish review, the verdict, DESIGN.md, and every shipping raster carrying its
 provenance.
@@ -190,7 +192,8 @@ export default function App() {
   const activeConversation = conversations.find((c) => c.id === activeId) ?? null;
 
   return (
-    <div className="flex h-screen overflow-hidden bg-canvas text-ink">
+    <div className="flex h-screen items-center justify-center xl:p-8">
+    <div className="flex h-full w-full overflow-hidden bg-canvas text-ink xl:rounded-[28px] xl:border xl:border-border xl:shadow-composer">
       <Sidebar
         conversations={conversations}
         activeId={activeId}
@@ -275,8 +278,11 @@ export default function App() {
               )}
             </div>
 
-            <div className="mx-auto w-full max-w-3xl px-4 pb-4 lg:px-8">
+            <div className="mx-auto w-full max-w-3xl px-4 pb-2 lg:px-8">
               <ChatInput disabled={sending} onSend={send} />
+              <p className="mt-2 text-center text-[0.7rem] text-faint">
+                Answers can be wrong — always verify prerequisites and requirements with an advisor or the official Bulletin.
+              </p>
             </div>
           </>
         )}
@@ -300,6 +306,7 @@ export default function App() {
           onToggleFavorite={toggleFavoriteDepartment}
         />
       )}
+    </div>
     </div>
   );
 }

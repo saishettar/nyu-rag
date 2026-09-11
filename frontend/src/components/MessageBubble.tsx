@@ -1,5 +1,6 @@
 import type { Message } from "../types";
 import { AnswerText } from "./AnswerText";
+import { Orb } from "./Orb";
 
 export function MessageBubble({
   message,
@@ -19,12 +20,17 @@ export function MessageBubble({
   }
 
   return (
-    <div className="max-w-measure animate-rise-in">
-      <AnswerText
-        content={message.content}
-        courses={message.retrieved_courses ?? []}
-        onCite={onCite}
-      />
+    <div className="flex items-start gap-3 animate-rise-in">
+      <div className="mt-0.5">
+        <Orb size={24} />
+      </div>
+      <div className="max-w-measure min-w-0 flex-1">
+        <AnswerText
+          content={message.content}
+          courses={message.retrieved_courses ?? []}
+          onCite={onCite}
+        />
+      </div>
     </div>
   );
 }

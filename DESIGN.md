@@ -9,12 +9,15 @@ colors:
   ink: "#1c1b19"
   muted: "#6b6862"
   faint: "#756f66"
-  accent: "#2e4dd4"
-  accent-hover: "#263fb3"
-  accent-soft: "#e8ecfd"
-  accent-ink: "#22348f"
+  accent: "#7c3aed"
+  accent-hover: "#6d28d9"
+  accent-soft: "#f2ecff"
+  accent-ink: "#5b21b6"
   danger: "#b23b32"
   danger-soft: "#fbe9e6"
+  orb-from: "#ede9fe"
+  orb-via: "#a78bfa"
+  orb-to: "#6d28d9"
 typography:
   headline:
     fontFamily: "IBM Plex Sans, ui-sans-serif, -apple-system, Segoe UI, system-ui, sans-serif"
@@ -77,23 +80,24 @@ components:
 
 **Creative North Star: "The Citation Index"**
 
-The system's one idea: a citation is a pointer, not a footnote. Everywhere the product cites a course, that citation is clickable and lands you on the live record it's drawn from — the catalog panel scrolls to it and holds it lit. Everything else stays out of the way of that idea: a warm, near-monochrome canvas; one committed cobalt accent spent only on things you can act on; IBM Plex Sans for reading, IBM Plex Mono wherever a course code or a number needs to be counted rather than read.
+The system's one idea: a citation is a pointer, not a footnote. Everywhere the product cites a course, that citation is clickable and lands you on the live record it's drawn from — the catalog panel scrolls to it and holds it lit. Everything else stays out of the way of that idea: a warm, near-monochrome canvas; one committed violet accent spent only on things you can act on; a gradient violet orb as the assistant's one signature mark; IBM Plex Sans for reading, IBM Plex Mono wherever a course code or a number needs to be counted rather than read.
 
-This is an Operate surface, not a Persuade one — the visual language plays the modern AI-chat convention straight (sidebar history, conversational thread, bottom-pinned composer), deliberately choosing familiarity and craft over novelty. It was built this way after being offered a bespoke visual world and declining it in favor of the category's own vocabulary, executed at the finish level of Claude and ChatGPT rather than a generic clone of either. Confirmed anti-reference: no NYU institutional colors or marks (violet, torch); this is an independent product identity that happens to serve NYU students.
+This is an Operate surface, not a Persuade one — the visual language plays the modern AI-chat convention straight (sidebar history, conversational thread, bottom-pinned composer), now floated as a rounded card on a softly tinted page rather than filling the viewport edge-to-edge. **Revision history:** this system originally ran a committed-cobalt, strictly-flat, no-gradient palette and explicitly named NYU's institutional violet and torch mark as anti-references, reasoning that an independent product identity shouldn't borrow the school's own branding. That direction was deliberately replaced at the user's explicit request: a pinned external reference (a chat UI called "ThinkAI") was recolored from its original green to violet and copied structurally, including its gradient orb — the user was told this reintroduces the violet the system had previously avoided and confirmed it anyway (recorded in PRODUCT.md Brand Commitments). Treat this as the current, intentional direction, not an unreviewed drift.
 
 **Key Characteristics:**
-- One accent, spent only on interactive/citable elements — never a background field.
-- Warm-neutral canvas, not stark white and not AI-cliché cream paper.
+- One accent, spent only on interactive/citable elements — never a background field, with a single named exception: the gradient orb.
+- Warm-neutral canvas, floated as a rounded (28px) card on a softly tinted ambient page background.
 - Monospace reserved for data (course codes, credits) — never a costume for "technical."
-- Flat at rest; soft ambient shadow only on floating, interactive surfaces (the composer).
+- Flat at rest; soft ambient shadow only on floating, interactive surfaces (the composer, the outer shell).
 - Full light/dark support driven by the visitor's system preference, not a fixed choice.
 
 ## Colors
 
-A warm, restrained neutral field carries the interface; one committed cobalt is the system's only color statement, and it is spent exclusively on things the visitor can click or act on.
+A warm, restrained neutral field carries the interface; one committed violet is the system's only color statement, spent exclusively on things the visitor can click or act on, plus the gradient orb as the system's one named exception.
 
 ### Primary
-- **Committed Cobalt** (`#2e4dd4` light / `#7c93ff` dark): the system's one accent. New-chat button, active sidebar item, citation chips, links, the composer's send button, and focus rings — nothing else. It never fills a background region.
+- **Committed Violet** (`#7c3aed` light / `#a78bfa` dark): the system's one accent. New-chat button, active sidebar item, citation chips, links, the composer's send button, and focus rings — nothing else. It never fills a background region.
+- **Orb Gradient** (`#ede9fe → #a78bfa → #6d28d9` light / `#c4b5fd → #8b5cf6 → #4c1d95` dark, 135°): the assistant's one signature mark — the empty-state greeting icon and the small avatar beside every assistant message. This is the system's only gradient and its only non-flat fill; it never appears on anything else (no gradient text, no gradient buttons, no gradient backgrounds).
 
 ### Neutral
 - **Warm Paper Canvas** (`#fafaf8` light / `#18181a` dark): the page background. Warm-neutral, not stark white, not AI-default cream.
@@ -106,7 +110,7 @@ A warm, restrained neutral field carries the interface; one committed cobalt is 
 - **Grading-Pen Red** (`#b23b32` light / `#ff8a7a` dark): errors only, paired with its `-soft` tint for the banner fill.
 
 ### Named Rules
-**The One Accent Rule.** Cobalt is reserved for elements the visitor can act on — a button, a link, a citation, an active state. If an element isn't clickable, it doesn't get the accent color.
+**The One Accent Rule.** Violet is reserved for elements the visitor can act on — a button, a link, a citation, an active state. If an element isn't clickable, it doesn't get the accent color. The orb gradient is the rule's one named exception (it marks identity, not action) and must not be extended to any other element.
 
 **The Theme-Follows-System Rule.** Light and dark are both fully authored token sets, switched by `prefers-color-scheme`, never by category default. Dark is not an afterthought: `accent`, `accent-ink`, and `accent-soft` are independently tuned per theme, not a blind opacity flip of the light values.
 
@@ -128,6 +132,8 @@ A warm, restrained neutral field carries the interface; one committed cobalt is 
 
 ## Layout
 
+The whole shell floats as a rounded (28px) card on a softly tinted ambient page background (a violet-tinted radial gradient in both themes), inset from the viewport at `xl` and above; below `xl` the shell fills the viewport edge-to-edge with no rounding, since that is also where the sidebar and catalog panel switch to their overlay/drawer behavior (see below) and a floating card would clip them.
+
 Three-region shell: a fixed 288px sidebar (conversation history), a fluid center column capped at `max-w-3xl` (chat thread + composer), and a fixed 320px catalog panel (`xl` breakpoint and above). Below `xl`, the catalog panel becomes a full-width slide-over from the right; below `lg`, the sidebar becomes a slide-over from the left, both with a dimmed backdrop and a close control. The chat column is always what remains full-width on narrow viewports — it is the surface's primary task and never collapses.
 
 Spacing rhythm runs on a tight base-2 (Tailwind default) scale: `gap-1.5`–`gap-2` inside icon+label clusters, `px-3`–`px-4`/`py-2`–`py-3` for controls and panel headers, `gap-5` (20px) between chat messages, `py-6` for the thread's outer padding. More space separates message groups than sits inside one.
@@ -145,13 +151,13 @@ Flat by default. Catalog rows, sidebar items, and panel chrome carry no shadow a
 
 ## Shapes
 
-Two radius steps carry the whole system: **8px** (`rounded-lg`) for controls, inputs, and catalog rows; **16px** (`rounded-2xl`) for the one element that visually floats above the thread with rectangular geometry — the user's message bubble, softened further with a `rounded-br-md` (6px) tail corner toward the sender. Interactive pills — citation chips, the send button, example-question chips, and the chat composer itself — use a **full** radius: the composer deliberately matches the rounding of the example-question chips it sits below, so the one thing the visitor types into and the prompts that suggest what to type read as the same family of control. No nested-card chrome anywhere: a catalog row or sidebar item is a single flat surface with one border, never a card inside a card.
+Three radius steps carry the whole system: **8px** (`rounded-lg`) for controls, inputs, and catalog rows; **16px** (`rounded-2xl`) for the user's message bubble, softened further with a `rounded-br-md` (6px) tail corner toward the sender; **28px** for the single outermost application shell, the one element allowed a radius larger than any control inside it. Interactive pills — citation chips, the send button, example-question chips, and the chat composer itself — use a **full** radius, as does the orb: the composer deliberately matches the rounding of the example-question chips it sits below, so the one thing the visitor types into and the prompts that suggest what to type read as the same family of control. No nested-card chrome anywhere: a catalog row or sidebar item is a single flat surface with one border, never a card inside a card.
 
 ## Components
 
 ### Buttons
 - **Shape:** full radius (`rounded-full`) for the composer's send button and example-question chips; 8px (`rounded-lg`) for "New chat" and other rectangular actions.
-- **Primary (send):** cobalt fill, white icon, 32px circle; disabled state drops to `faint/50` fill rather than a lower-opacity cobalt.
+- **Primary (send):** violet fill, white icon, 32px circle; disabled state drops to `faint/50` fill rather than a lower-opacity violet.
 - **Secondary ("New chat"):** surface background, hairline border, ink text; hover shifts the border toward accent and the text toward `accent-ink`. No fill change.
 - **Hover/Focus:** color/background transitions only (no scale or shadow pop); focus-visible gets a 2px cobalt outline with 2px offset, themed via `:focus-visible`, not the browser default.
 
@@ -178,17 +184,20 @@ Two radius steps carry the whole system: **8px** (`rounded-lg`) for controls, in
 ### Citation-to-Catalog Link (signature component)
 The system's one behavioral signature: an inline `[COURSE-CODE]` citation in an answer is a real button. Clicking it sets the catalog panel's highlighted course, which smooth-scrolls that row into view and applies the highlighted-card treatment above. On narrow viewports the same click also opens the catalog slide-over. This is the built expression of the North Star and should not be diluted into a plain link or tooltip in future work.
 
+### The Orb (signature mark)
+The assistant's identity in one shape: a violet gradient circle, used at two sizes only — 56px for the empty-state greeting icon, 24px (20px in the sidebar wordmark) as the avatar beside every assistant message and the thinking indicator. It is the system's only gradient and the One Accent Rule's only named exception; do not add a second gradient element, and do not resize the orb to a third size without updating this doc.
+
 ## Do's and Don'ts
 
 ### Do:
-- **Do** spend cobalt only on things the visitor can act on (the One Accent Rule).
+- **Do** spend violet only on things the visitor can act on (the One Accent Rule), plus the orb.
 - **Do** set course codes, credit counts, and citations in IBM Plex Mono; everything else in IBM Plex Sans.
 - **Do** keep catalog rows and sidebar items flat at rest — reach for background-tone and border changes before reaching for shadow.
 - **Do** route every citation through the same click → highlight → scroll behavior; it's the one interaction the whole identity is built on.
 - **Do** author both light and dark values together for any new token; this system has no "dark mode as an afterthought."
 
 ### Don't:
-- **Don't** introduce a second accent color or a gradient; the One Accent Rule covers the whole system, not just the components documented above.
+- **Don't** introduce a second accent color, or a second gradient beyond the orb; the One Accent Rule covers the whole system, with that one named exception.
 - **Don't** reach for cream/parchment tones or a display serif — those were the rolled-and-declined direction (Academic Typesetting), not this system.
 - **Don't** add card-in-card nesting (a bordered row inside a bordered panel inside a bordered column). One border per surface.
-- **Don't** use NYU's institutional violet or torch mark anywhere in this system; the identity is deliberately independent (see PRODUCT.md Brand Commitments).
+- **Don't** treat violet as available for anything beyond the accent and the orb; it reintroduces an association (NYU's institutional color) this project previously avoided on purpose, kept only because the user explicitly confirmed it after being told (see PRODUCT.md Brand Commitments) — it is not license to add more NYU-branded material.
