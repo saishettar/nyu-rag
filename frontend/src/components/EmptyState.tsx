@@ -68,7 +68,7 @@ export function EmptyState({
         </h1>
         <p className="mt-2 max-w-sm text-sm leading-relaxed text-muted">
           Answers cite the exact courses they're based on, pulled straight from NYU's
-          Bulletin instead of guessed from memory.
+          Bulletin.
         </p>
 
         <div className="mt-6 grid w-full max-w-2xl grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-4">
