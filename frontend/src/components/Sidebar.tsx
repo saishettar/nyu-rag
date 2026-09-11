@@ -140,10 +140,6 @@ export function Sidebar({
               </ul>
             )}
           </nav>
-
-          <div className="border-t border-border px-4 py-3 text-xs leading-snug text-faint">
-            CAS: CS, Math, Data Science, Physics · grounded in NYU's Bulletin
-          </div>
         </div>
 
         {/* Collapsed rail: desktop only, clicking the rail background expands it */}
