@@ -74,7 +74,6 @@ export default function App() {
   const [lastFailedText, setLastFailedText] = useState<string | null>(null);
 
   const [courses, setCourses] = useState<Course[]>([]);
-  const [allCourses, setAllCourses] = useState<Course[]>([]);
   const [catalogLoading, setCatalogLoading] = useState(true);
   const [departments, setDepartments] = useState<string[]>([]);
   const [catalogQuery, setCatalogQuery] = useState("");
@@ -94,7 +93,6 @@ export default function App() {
   useEffect(() => {
     api.listConversations().then(setConversations).catch(() => {});
     api.listDepartments().then(setDepartments).catch(() => {});
-    api.listCourses("", null).then(setAllCourses).catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -293,26 +291,30 @@ export default function App() {
               </div>
             </header>
 
-            <div ref={scrollRef} className="flex-1 overflow-y-auto">
-              {messages.length === 0 && !messagesLoading ? (
-                <EmptyState onExample={send} courses={allCourses} favorites={favoriteDepartments} />
-              ) : (
-                <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 lg:px-8">
-                  {messages.map((m) => (
-                    <MessageBubble key={m.id} message={m} onCite={handleCite} />
-                  ))}
-                  {sending && <ThinkingIndicator />}
-                  {error && <ErrorBanner message={error} onRetry={retry} />}
+            {messages.length === 0 && !messagesLoading ? (
+              <div className="flex-1 overflow-y-auto">
+                <EmptyState onExample={send} onSend={send} sending={sending} />
+              </div>
+            ) : (
+              <>
+                <div ref={scrollRef} className="flex-1 overflow-y-auto">
+                  <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 lg:px-8">
+                    {messages.map((m) => (
+                      <MessageBubble key={m.id} message={m} onCite={handleCite} />
+                    ))}
+                    {sending && <ThinkingIndicator />}
+                    {error && <ErrorBanner message={error} onRetry={retry} />}
+                  </div>
                 </div>
-              )}
-            </div>
 
-            <div className="mx-auto w-full max-w-3xl px-4 pb-2 lg:px-8">
-              <ChatInput disabled={sending} onSend={send} />
-              <p className="mt-2 text-center text-[0.7rem] text-faint">
-                Answers can be wrong — always verify prerequisites and requirements with an advisor or the official Bulletin.
-              </p>
-            </div>
+                <div className="mx-auto w-full max-w-3xl px-4 pb-2 lg:px-8">
+                  <ChatInput disabled={sending} onSend={send} />
+                  <p className="mt-2 text-center text-[0.7rem] text-faint">
+                    Answers can be wrong — always verify prerequisites and requirements with an advisor or the official Bulletin.
+                  </p>
+                </div>
+              </>
+            )}
           </>
         )}
       </div>

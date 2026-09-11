@@ -1,7 +1,5 @@
-import { useMemo } from "react";
-import type { Course } from "../types";
-import { formatDept } from "./CatalogPanel";
 import { Orb } from "./Orb";
+import { ChatInput } from "./ChatInput";
 
 function greeting(): string {
   const hour = new Date().getHours();
@@ -18,69 +16,15 @@ const EXAMPLES = [
   "What does the Computer Science major require?",
 ];
 
-const STATS = [
-  { label: "Retrieval hit-rate@5", value: "100%" },
-  { label: "Answer groundedness", value: "98%" },
-];
-
-function StatTile({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-xl border border-border bg-surface px-3.5 py-3 text-left shadow-panel">
-      <p className="text-[0.68rem] font-medium uppercase tracking-wide text-faint">{label}</p>
-      <p className="mt-1 text-lg font-semibold tracking-tight text-ink">{value}</p>
-    </div>
-  );
-}
-
-function DeptBar({ code, count, max }: { code: string; count: number; max: number }) {
-  const pct = max > 0 ? Math.max((count / max) * 100, 4) : 0;
-  return (
-    <li
-      className="flex items-center gap-3"
-      title={`${formatDept(code)}: ${count} course${count === 1 ? "" : "s"}`}
-    >
-      <span className="w-[4.5rem] shrink-0 text-left font-mono text-[0.7rem] text-muted">
-        {formatDept(code)}
-      </span>
-      <div className="h-2 flex-1 overflow-hidden rounded-full bg-accent-soft">
-        <div
-          className="h-full rounded-full bg-accent transition-[width] duration-500 ease-out"
-          style={{ width: `${pct}%` }}
-        />
-      </div>
-      <span className="w-6 shrink-0 text-right text-[0.7rem] tabular-nums text-muted">{count}</span>
-    </li>
-  );
-}
-
 export function EmptyState({
   onExample,
-  courses,
-  favorites,
+  onSend,
+  sending,
 }: {
   onExample: (q: string) => void;
-  courses: Course[];
-  favorites: Set<string>;
+  onSend: (text: string) => void;
+  sending: boolean;
 }) {
-  const hasFavorites = favorites.size > 0;
-
-  const totalDepartmentCount = useMemo(
-    () => new Set(courses.map((c) => c.department)).size,
-    [courses]
-  );
-
-  const deptCounts = useMemo(() => {
-    if (!hasFavorites) return [];
-    const counts = new Map<string, number>();
-    for (const c of courses) {
-      if (!favorites.has(c.department)) continue;
-      counts.set(c.department, (counts.get(c.department) ?? 0) + 1);
-    }
-    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  }, [courses, favorites, hasFavorites]);
-
-  const maxCount = deptCounts[0]?.[1] ?? 0;
-
   return (
     <div className="flex h-full flex-col items-center justify-center overflow-y-auto px-6 py-10 text-center">
       <Orb size={56} />
@@ -105,35 +49,12 @@ export function EmptyState({
         ))}
       </div>
 
-      <div className="mt-10 grid w-full max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
-        <StatTile label="Courses in catalog" value={String(courses.length)} />
-        <StatTile label="Departments" value={String(totalDepartmentCount)} />
-        {STATS.map((s) => (
-          <StatTile key={s.label} label={s.label} value={s.value} />
-        ))}
+      <div className="mt-6 w-full max-w-2xl">
+        <ChatInput disabled={sending} onSend={onSend} />
+        <p className="mt-2 text-center text-[0.7rem] text-faint">
+          Answers can be wrong — always verify prerequisites and requirements with an advisor or the official Bulletin.
+        </p>
       </div>
-
-      {totalDepartmentCount > 0 && (
-        <div className="mt-4 w-full max-w-2xl rounded-xl border border-border bg-surface p-4 text-left shadow-panel">
-          <h2 className="text-[0.68rem] font-medium uppercase tracking-wide text-faint">
-            Courses by favorite department
-          </h2>
-          {hasFavorites ? (
-            <ul className="mt-3 flex flex-col gap-2.5">
-              {deptCounts.map(([code, count]) => (
-                <DeptBar key={code} code={code} count={count} max={maxCount} />
-              ))}
-            </ul>
-          ) : (
-            <p className="mt-3 text-xs leading-relaxed text-faint">
-              No favorite departments yet — star a few in the course catalog
-              panel to see their course counts here.
-            </p>
-          )}
-        </div>
-      )}
-
-      <p className="mt-4 text-xs text-faint">evaluated on 115 hand-written course-planning questions</p>
     </div>
   );
 }

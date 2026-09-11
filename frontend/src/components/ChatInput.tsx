@@ -25,7 +25,7 @@ export function ChatInput({
   }
 
   return (
-    <div className="flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-2.5 shadow-composer transition-colors focus-within:border-accent/50">
+    <div className="flex items-center gap-2 rounded-2xl border border-border bg-surface px-4 py-4 shadow-composer transition-colors focus-within:border-accent/50">
       <textarea
         ref={textareaRef}
         rows={1}
