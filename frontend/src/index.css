@@ -24,6 +24,15 @@
 
   --top-glow: linear-gradient(180deg, rgba(124, 58, 237, 0.16) 0%, rgba(124, 58, 237, 0.06) 40%, rgba(124, 58, 237, 0) 75%);
 
+  --glass-fill: rgba(255, 255, 255, 0.5);
+  --glass-fill-hover: rgba(255, 255, 255, 0.62);
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --glass-highlight: rgba(255, 255, 255, 0.85);
+  --glass-shade: rgba(17, 17, 17, 0.06);
+  --glass-accent-fill: rgba(124, 58, 237, 0.55);
+  --glass-accent-fill-hover: rgba(124, 58, 237, 0.7);
+  --glass-accent-border: rgba(255, 255, 255, 0.5);
+
   color-scheme: light dark;
 }
 
@@ -49,6 +58,15 @@
     --orb-to: #4c1d95;
 
     --top-glow: linear-gradient(180deg, rgba(167, 139, 250, 0.28) 0%, rgba(167, 139, 250, 0.1) 40%, rgba(167, 139, 250, 0) 75%);
+
+    --glass-fill: rgba(255, 255, 255, 0.08);
+    --glass-fill-hover: rgba(255, 255, 255, 0.13);
+    --glass-border: rgba(255, 255, 255, 0.22);
+    --glass-highlight: rgba(255, 255, 255, 0.35);
+    --glass-shade: rgba(0, 0, 0, 0.4);
+    --glass-accent-fill: rgba(167, 139, 250, 0.32);
+    --glass-accent-fill-hover: rgba(167, 139, 250, 0.45);
+    --glass-accent-border: rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -73,6 +91,15 @@
   --orb-to: #4c1d95;
 
   --top-glow: linear-gradient(180deg, rgba(167, 139, 250, 0.28) 0%, rgba(167, 139, 250, 0.1) 40%, rgba(167, 139, 250, 0) 75%);
+
+  --glass-fill: rgba(255, 255, 255, 0.08);
+  --glass-fill-hover: rgba(255, 255, 255, 0.13);
+  --glass-border: rgba(255, 255, 255, 0.22);
+  --glass-highlight: rgba(255, 255, 255, 0.35);
+  --glass-shade: rgba(0, 0, 0, 0.4);
+  --glass-accent-fill: rgba(167, 139, 250, 0.32);
+  --glass-accent-fill-hover: rgba(167, 139, 250, 0.45);
+  --glass-accent-border: rgba(255, 255, 255, 0.3);
 }
 
 * {
@@ -104,6 +131,44 @@ body {
   background: linear-gradient(180deg, var(--orb-to) 0%, var(--orb-via) 45%, var(--orb-from) 75%, #ffffff 100%);
   border-radius: 9999px;
   flex-shrink: 0;
+}
+
+/* Liquid-glass material for input surfaces: a blurred, refracted view of
+   whatever sits behind it (the #liquid-glass-lens SVG filter distorts that
+   backdrop like light through curved glass), a translucent tint, and inset
+   highlight/shade to fake a lit top edge and a shadowed underside. Safari
+   drops the lensing (no combined backdrop-filter + url() support) and falls
+   back to plain frosted blur via -webkit-backdrop-filter. */
+.glass-surface {
+  background: var(--glass-fill);
+  backdrop-filter: blur(20px) saturate(180%) url(#liquid-glass-lens);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    inset 0 1px 1px var(--glass-highlight),
+    inset 0 -1px 6px var(--glass-shade),
+    0 8px 24px -12px rgba(0, 0, 0, 0.25);
+  transition: background-color 150ms ease-out, border-color 150ms ease-out;
+}
+.glass-surface:hover {
+  background: var(--glass-fill-hover);
+}
+.glass-surface:focus-within {
+  border-color: var(--accent);
+}
+
+.glass-accent {
+  background: var(--glass-accent-fill);
+  backdrop-filter: blur(16px) saturate(180%) url(#liquid-glass-lens);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--glass-accent-border);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.7),
+    inset 0 -1px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 150ms ease-out;
+}
+.glass-accent:hover:not(:disabled) {
+  background: var(--glass-accent-fill-hover);
 }
 
 ::selection {

@@ -37,6 +37,7 @@ import { ChatInput } from "./components/ChatInput";
 import { ThinkingIndicator } from "./components/ThinkingIndicator";
 import { ErrorBanner } from "./components/ErrorBanner";
 import { ThemeToggle } from "./components/ThemeToggle";
+import { LiquidGlassDefs } from "./components/LiquidGlassDefs";
 
 let localId = -1;
 
@@ -224,6 +225,7 @@ export default function App() {
 
   return (
     <div className="flex h-screen overflow-hidden bg-canvas bg-top-glow text-ink">
+      <LiquidGlassDefs />
       <Sidebar
         conversations={conversations}
         activeId={activeId}

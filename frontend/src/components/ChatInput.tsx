@@ -25,7 +25,7 @@ export function ChatInput({
   }
 
   return (
-    <div className="flex items-center gap-2 rounded-2xl border border-border bg-surface px-4 py-4 shadow-composer transition-colors focus-within:border-accent/50">
+    <div className="glass-surface flex items-center gap-2 rounded-2xl px-4 py-4">
       <textarea
         ref={textareaRef}
         rows={1}
@@ -46,7 +46,7 @@ export function ChatInput({
         onClick={submit}
         disabled={disabled || !value.trim()}
         aria-label="Send message"
-        className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-accent text-accent-contrast transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:bg-faint/50"
+        className="glass-accent flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-white disabled:cursor-not-allowed disabled:opacity-50"
       >
         <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path

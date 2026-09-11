@@ -89,7 +89,7 @@ This is an Operate surface, not a Persuade one — the visual language plays the
 - One accent, spent only on interactive/citable elements — never a background field, with two named exceptions: the gradient orb and the top glow.
 - Warm-neutral canvas, edge-to-edge, with a soft violet glow anchored to the top of the screen in both themes — the system's one ambient (non-interactive) use of the accent hue.
 - Monospace reserved for data (course codes, credits) — never a costume for "technical."
-- Flat at rest; soft ambient shadow only on floating, interactive surfaces (the composer).
+- Flat at rest, with one named exception: every text-input surface (chat composer, its send button, catalog search, department select, chat search) is liquid glass — translucent, blurred, refracted, rimmed with a lit highlight — at the user's explicit request, superseding this system's earlier "no glass/blur as decoration" stance for that one category of element. Everything else (rows, chips, panels, buttons that aren't inputs) stays flat.
 - Full light/dark support, either following the visitor's system preference or their own explicit toggle (header, sun/moon icon) — the choice persists once made.
 
 ## Colors
@@ -152,6 +152,17 @@ Flat by default. Catalog rows, sidebar items, and panel chrome carry no shadow a
 
 ### Named Rules
 **The Ambient-Not-Structural Rule.** Shadow never stands in for hierarchy that color and spacing should carry. It marks exactly one thing: "this floats above the surface beneath it."
+
+## Materials: Liquid Glass (inputs only)
+
+Every text-input surface is glass, not flat: the chat composer, its send button, the catalog search box, the department `<select>`, and the chat-search input (`.glass-surface` / `.glass-accent` in `index.css`). This is a deliberate, named exception to the Ambient-Not-Structural Rule above and to this system's earlier flat-only stance — added at the user's explicit request, referencing Apple's Liquid Glass and the iOS/ChatGPT screenshots they supplied, not a generic "add some blur" pass.
+
+**Recipe:** a translucent tint (`--glass-fill`, ~50% white in light / ~8% white in dark) over `backdrop-filter: blur() saturate()`; a `url(#liquid-glass-lens)` SVG filter (`feTurbulence` + `feDisplacementMap`, defined once in `LiquidGlassDefs.tsx` and mounted at the app root) that warps the blurred backdrop to fake light refracting through curved glass; a hairline translucent border; and inset shadows faking a lit top edge and a shadowed underside (`inset 0 1px 1px` light, `inset 0 -1px` dark). The send button gets its own accent-tinted variant (`.glass-accent`, `--glass-accent-fill`) rather than a solid violet fill, so it reads as colored glass, not a flat CTA in a glass field. Safari drops the lens (no combined `backdrop-filter` + `url()` support) and falls back to plain frosted blur via `-webkit-backdrop-filter` — an accepted graceful degradation, not a bug to fix.
+
+**Where it does and doesn't shine:** the effect is most visible where something textured sits behind the glass to blur (the ambient top-glow, or scrolled content) — it reads as a legitimate translucent material even at rest, but don't expect a dramatic distortion over a flat panel background with nothing behind it to warp.
+
+### Named Rules
+**The Inputs-Only Rule.** Glass is reserved for text-entry surfaces. Rows, chips, panels, and non-input buttons stay flat — don't extend glass to sell "premium" on things the visitor doesn't type into.
 
 ## Shapes
 

@@ -44,7 +44,7 @@ export function ChatSearchView({
       </div>
 
       <div className="mx-auto flex w-full max-w-xl flex-1 flex-col gap-4 overflow-hidden px-4 py-6 lg:px-8">
-        <div className="flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 shadow-panel">
+        <div className="glass-surface flex items-center gap-2 rounded-lg px-3 py-2">
           <svg width="15" height="15" viewBox="0 0 14 14" fill="none" aria-hidden="true" className="shrink-0 text-faint">
             <circle cx="6.2" cy="6.2" r="4" stroke="currentColor" strokeWidth="1.5" />
             <path d="M9.3 9.3L12 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />

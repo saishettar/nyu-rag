@@ -109,13 +109,13 @@ export function CatalogPanel({
             value={query}
             onChange={(e) => onQueryChange(e.target.value)}
             placeholder="Search code or title…"
-            className="rounded-lg border border-border bg-canvas px-3 py-1.5 text-sm text-ink placeholder:text-faint focus:outline-none focus:ring-2 focus:ring-accent/30"
+            className="glass-surface rounded-lg px-3 py-1.5 text-sm text-ink placeholder:text-faint focus:outline-none"
           />
           {departments.length > 1 && (
             <select
               value={department ?? ""}
               onChange={(e) => onDepartmentChange(e.target.value || null)}
-              className="rounded-lg border border-border bg-canvas px-3 py-1.5 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-accent/30"
+              className="glass-surface rounded-lg px-3 py-1.5 text-sm text-ink focus:outline-none"
             >
               <option value="">All departments</option>
               {departments.map((d) => (
