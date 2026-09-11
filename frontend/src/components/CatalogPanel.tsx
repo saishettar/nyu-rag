@@ -68,7 +68,7 @@ export function CatalogPanel({
         />
       )}
       <aside
-        className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm shrink-0 flex-col overflow-hidden border-l border-border bg-surface transition-[transform,width,border-color] duration-200 ease-out xl:static xl:z-auto xl:translate-x-0 ${
+        className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm shrink-0 flex-col overflow-hidden border-l border-border bg-surface transition-[transform,width,border-color] duration-200 ease-out xl:relative xl:translate-x-0 ${
           open ? "translate-x-0" : "translate-x-full"
         } ${collapsed ? "xl:w-0 xl:border-l-0" : "xl:w-80"}`}
       >

@@ -36,9 +36,6 @@ export function Sidebar({
   onOpenSearch,
   open,
   onClose,
-  collapsed,
-  onCollapse,
-  onExpand,
 }: {
   conversations: Conversation[];
   activeId: number | null;
@@ -47,9 +44,6 @@ export function Sidebar({
   onOpenSearch: () => void;
   open: boolean;
   onClose: () => void;
-  collapsed: boolean;
-  onCollapse: () => void;
-  onExpand: () => void;
 }) {
   return (
     <>
@@ -60,118 +54,75 @@ export function Sidebar({
           className="fixed inset-0 z-30 bg-ink/30 backdrop-blur-[1px] lg:hidden"
         />
       )}
+      {/* Fully overlays (never reserves layout space) when closed, at every breakpoint -
+          collapsing the sidebar hides it completely rather than leaving a slim rail. */}
       <aside
-        className={`fixed inset-y-0 left-0 z-40 flex w-72 shrink-0 flex-col overflow-hidden border-r border-border bg-sidebar transition-[transform,width,border-color] duration-200 ease-out lg:static lg:z-auto lg:translate-x-0 ${
-          open ? "translate-x-0" : "-translate-x-full"
-        } ${collapsed ? "lg:w-14" : "lg:w-72"}`}
+        className={`fixed inset-y-0 left-0 z-40 flex w-72 shrink-0 flex-col overflow-hidden border-r border-border bg-sidebar transition-transform duration-200 ease-out ${
+          open ? "translate-x-0 lg:relative" : "-translate-x-full lg:hidden"
+        }`}
       >
-        {/* Expanded content: always shown on mobile (drawer), hidden on desktop when collapsed */}
-        <div className={`flex h-full w-72 shrink-0 flex-col ${collapsed ? "lg:hidden" : ""}`}>
-          <div className="flex items-center justify-between gap-2 px-4 pb-2 pt-4">
-            <div className="flex items-center gap-2">
-              <Orb size={20} />
-              <span className="text-[0.95rem] font-semibold tracking-tight text-ink">
-                NYU Course Assistant
-              </span>
-            </div>
-            <button
-              aria-label="Collapse sidebar"
-              onClick={onCollapse}
-              className="hidden shrink-0 rounded-md p-1 text-faint hover:bg-surface hover:text-ink lg:flex"
-            >
-              <CollapseIcon />
-            </button>
+        <div className="flex items-center justify-between gap-2 px-4 pb-2 pt-4">
+          <div className="flex items-center gap-2">
+            <Orb size={20} />
+            <span className="text-[0.95rem] font-semibold tracking-tight text-ink">
+              NYU Course Assistant
+            </span>
           </div>
-
-          <div className="flex flex-col gap-0.5 px-3 pt-1">
-            <button
-              type="button"
-              onClick={onNewChat}
-              className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm font-medium text-muted transition-colors hover:bg-surface hover:text-ink"
-            >
-              <NewChatIcon />
-              New chat
-            </button>
-            <button
-              type="button"
-              onClick={onOpenSearch}
-              className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm font-medium text-muted transition-colors hover:bg-surface hover:text-ink"
-            >
-              <SearchIcon />
-              Search chats
-            </button>
-          </div>
-
-          <nav className="mt-3 flex-1 overflow-y-auto px-3 pb-3">
-            <p className="px-2.5 pb-1.5 text-xs font-semibold text-ink">Recents</p>
-            {conversations.length === 0 ? (
-              <p className="px-2.5 py-6 text-center text-xs leading-relaxed text-faint">
-                Your conversations will show up here once you ask something.
-              </p>
-            ) : (
-              <ul className="flex flex-col gap-0.5">
-                {conversations.map((c) => (
-                  <li key={c.id}>
-                    <button
-                      type="button"
-                      onClick={() => onSelect(c.id)}
-                      className={`w-full truncate rounded-lg px-2.5 py-2 text-left text-sm transition-colors ${
-                        c.id === activeId
-                          ? "bg-accent-soft text-accent-ink"
-                          : "text-muted hover:bg-surface hover:text-ink"
-                      }`}
-                      title={c.title ?? "New chat"}
-                    >
-                      {c.title ?? "New chat"}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </nav>
+          <button
+            aria-label="Collapse sidebar"
+            onClick={onClose}
+            className="shrink-0 rounded-md p-1 text-faint hover:bg-surface hover:text-ink"
+          >
+            <CollapseIcon />
+          </button>
         </div>
 
-        {/* Collapsed rail: desktop only, clicking the rail background expands it */}
-        <div
-          role="button"
-          tabIndex={collapsed ? 0 : -1}
-          aria-label="Expand sidebar"
-          onClick={onExpand}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") onExpand();
-          }}
-          className={`hidden h-full w-14 shrink-0 flex-col items-center gap-1 py-4 ${
-            collapsed ? "lg:flex" : ""
-          }`}
-        >
-          <span className="mb-2">
-            <Orb size={20} />
-          </span>
+        <div className="flex flex-col gap-0.5 px-3 pt-1">
           <button
             type="button"
-            aria-label="New chat"
-            title="New chat"
-            onClick={(e) => {
-              e.stopPropagation();
-              onNewChat();
-            }}
-            className="flex h-9 w-9 items-center justify-center rounded-lg text-muted transition-colors hover:bg-surface hover:text-ink"
+            onClick={onNewChat}
+            className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm font-medium text-muted transition-colors hover:bg-surface hover:text-ink"
           >
             <NewChatIcon />
+            New chat
           </button>
           <button
             type="button"
-            aria-label="Search chats"
-            title="Search chats"
-            onClick={(e) => {
-              e.stopPropagation();
-              onOpenSearch();
-            }}
-            className="flex h-9 w-9 items-center justify-center rounded-lg text-muted transition-colors hover:bg-surface hover:text-ink"
+            onClick={onOpenSearch}
+            className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm font-medium text-muted transition-colors hover:bg-surface hover:text-ink"
           >
             <SearchIcon />
+            Search chats
           </button>
         </div>
+
+        <nav className="mt-3 flex-1 overflow-y-auto px-3 pb-3">
+          <p className="px-2.5 pb-1.5 text-xs font-semibold text-ink">Recents</p>
+          {conversations.length === 0 ? (
+            <p className="px-2.5 py-6 text-center text-xs leading-relaxed text-faint">
+              Your conversations will show up here once you ask something.
+            </p>
+          ) : (
+            <ul className="flex flex-col gap-0.5">
+              {conversations.map((c) => (
+                <li key={c.id}>
+                  <button
+                    type="button"
+                    onClick={() => onSelect(c.id)}
+                    className={`w-full truncate rounded-lg px-2.5 py-2 text-left text-sm transition-colors ${
+                      c.id === activeId
+                        ? "bg-accent-soft text-accent-ink"
+                        : "text-muted hover:bg-surface hover:text-ink"
+                    }`}
+                    title={c.title ?? "New chat"}
+                  >
+                    {c.title ?? "New chat"}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </nav>
       </aside>
     </>
   );

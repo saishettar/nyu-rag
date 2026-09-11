@@ -82,9 +82,12 @@ export default function App() {
   const [favoriteDepartments, setFavoriteDepartments] = useState<Set<string>>(loadFavoriteDepartments);
   const [theme, setTheme] = useState<Theme>(loadTheme);
 
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  // Desktop starts with the sidebar visible, mobile/tablet starts with it
+  // closed (an off-canvas drawer) -- one boolean now drives both, since
+  // collapsing the sidebar hides it completely at every breakpoint rather
+  // than leaving a persistent rail.
+  const [sidebarOpen, setSidebarOpen] = useState(() => window.matchMedia("(min-width: 1024px)").matches);
   const [catalogOpen, setCatalogOpen] = useState(false);
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [catalogCollapsed, setCatalogCollapsed] = useState(true);
   const [searchView, setSearchView] = useState(false);
 
@@ -133,9 +136,16 @@ export default function App() {
     }
   }, [theme]);
 
+  // Auto-close the sidebar after picking a chat, but only on mobile/tablet,
+  // where it's an off-canvas drawer covering the screen -- on desktop it's
+  // meant to stay open until the user explicitly collapses it.
+  function closeSidebarOnNarrowViewport() {
+    if (!window.matchMedia("(min-width: 1024px)").matches) setSidebarOpen(false);
+  }
+
   function selectConversation(id: number) {
     setActiveId(id);
-    setSidebarOpen(false);
+    closeSidebarOnNarrowViewport();
     setSearchView(false);
     setError(null);
   }
@@ -143,7 +153,7 @@ export default function App() {
   function newChat() {
     setActiveId(null);
     setMessages([]);
-    setSidebarOpen(false);
+    closeSidebarOnNarrowViewport();
     setSearchView(false);
     setError(null);
   }
@@ -222,13 +232,10 @@ export default function App() {
         onNewChat={newChat}
         onOpenSearch={() => {
           setSearchView(true);
-          setSidebarOpen(false);
+          closeSidebarOnNarrowViewport();
         }}
         open={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
-        collapsed={sidebarCollapsed}
-        onCollapse={() => setSidebarCollapsed(true)}
-        onExpand={() => setSidebarCollapsed(false)}
       />
 
       <div className="flex min-w-0 flex-1 flex-col">
@@ -246,12 +253,9 @@ export default function App() {
               <div className="flex items-center gap-3">
                 <button
                   aria-label="Open sidebar"
-                  onClick={() => {
-                    setSidebarOpen(true);
-                    setSidebarCollapsed(false);
-                  }}
+                  onClick={() => setSidebarOpen(true)}
                   className={`rounded-md p-1.5 text-muted hover:bg-surface hover:text-ink ${
-                    sidebarCollapsed ? "" : "lg:hidden"
+                    sidebarOpen ? "lg:hidden" : ""
                   }`}
                 >
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -292,9 +296,7 @@ export default function App() {
             </header>
 
             {messages.length === 0 && !messagesLoading ? (
-              <div className="flex-1 overflow-y-auto">
-                <EmptyState onExample={send} onSend={send} sending={sending} />
-              </div>
+              <EmptyState onExample={send} onSend={send} sending={sending} />
             ) : (
               <>
                 <div ref={scrollRef} className="flex-1 overflow-y-auto">

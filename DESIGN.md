@@ -138,6 +138,8 @@ The app fills the viewport edge-to-edge — no floating shell, no page inset. Th
 
 Three-region shell: a fixed 288px sidebar (conversation history), a fluid center column capped at `max-w-3xl` (chat thread + composer), and a fixed 320px catalog panel (`xl` breakpoint and above). Below `xl`, the catalog panel becomes a full-width slide-over from the right; below `lg`, the sidebar becomes a slide-over from the left, both with a dimmed backdrop and a close control. The chat column is always what remains full-width on narrow viewports — it is the surface's primary task and never collapses.
 
+The sidebar's own collapse control hides it completely at every breakpoint (width and layout reservation both go to zero) rather than leaving a persistent icon-only rail — there is no intermediate "collapsed but still visible" state. The empty-state (new-chat) content is centered on the true viewport width via `position: fixed`, independent of whichever sidebar/catalog state is currently reserving space, so it doesn't visually shift depending on what's open; the sidebar and catalog panel are given explicit stacking (`z-40`, `position: relative` when pushing layout) so they correctly render on top of that fixed layer at narrower widths where they'd otherwise overlap.
+
 Spacing rhythm runs on a tight base-2 (Tailwind default) scale: `gap-1.5`–`gap-2` inside icon+label clusters, `px-3`–`px-4`/`py-2`–`py-3` for controls and panel headers, `gap-5` (20px) between chat messages, `py-6` for the thread's outer padding. More space separates message groups than sits inside one.
 
 ## Elevation & Depth
